@@ -1,0 +1,975 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1...   483   e-173
+YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 g...    57   1e-10
+YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1...    59   3e-10
+YIL061C pep:known chromosome:SacCer_Apr2011:IX:244657:245559:-1 ...    50   2e-07
+YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1...    49   4e-07
+YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1 ...    48   6e-07
+YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gen...    48   1e-06
+YNL016W pep:known chromosome:SacCer_Apr2011:XIV:602907:604268:1 ...    45   9e-06
+YOR319W pep:known chromosome:SacCer_Apr2011:XV:912822:913463:1 g...    42   4e-05
+YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 ge...    42   9e-05
+YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1 ...    42   1e-04
+YHR086W pep:known chromosome:SacCer_Apr2011:VIII:278153:279724:1...    41   1e-04
+YNL110C pep:known chromosome:SacCer_Apr2011:XIV:417826:418488:-1...    40   2e-04
+YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1...    41   2e-04
+YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1 ...    40   3e-04
+YDR432W pep:known chromosome:SacCer_Apr2011:IV:1328783:1330027:1...    40   3e-04
+YNL004W pep:known chromosome:SacCer_Apr2011:XIV:622915:624621:1 ...    39   6e-04
+YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1...    39   8e-04
+YNL197C pep:known chromosome:SacCer_Apr2011:XIV:267608:269593:-1...    39   9e-04
+YHR015W pep:known chromosome:SacCer_Apr2011:VIII:134554:136533:1...    39   0.001
+YCL011C pep:known chromosome:SacCer_Apr2011:III:102075:103358:-1...    37   0.003
+YOR361C pep:known chromosome:SacCer_Apr2011:XV:1015361:1017652:-...    37   0.005
+YBL051C pep:known chromosome:SacCer_Apr2011:II:122753:124759:-1 ...    36   0.006
+YDL224C pep:known chromosome:SacCer_Apr2011:IV:54397:56346:-1 ge...    33   0.049
+YPL184C pep:known chromosome:SacCer_Apr2011:XVI:195950:197788:-1...    33   0.069
+YDR429C pep:known chromosome:SacCer_Apr2011:IV:1324477:1325301:-...    32   0.075
+YHL034C pep:known chromosome:SacCer_Apr2011:VIII:33193:34077:-1 ...    32   0.075
+YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1 ...    32   0.087
+YGR156W pep:known chromosome:SacCer_Apr2011:VII:800546:801823:1 ...    32   0.12 
+YIR009W pep:known chromosome:SacCer_Apr2011:IX:374525:374860:1 g...    30   0.14 
+YBR212W pep:known chromosome:SacCer_Apr2011:II:647886:649904:1 g...    31   0.19 
+YKL074C pep:known chromosome:SacCer_Apr2011:XI:294610:296193:-1 ...    28   1.2  
+YDR381W pep:known chromosome:SacCer_Apr2011:IV:1236558:1238004:1...    27   3.5  
+YBR119W pep:known chromosome:SacCer_Apr2011:II:479338:480323:1 g...    27   5.1  
+YDR011W pep:known chromosome:SacCer_Apr2011:IV:465919:470424:1 g...    27   5.7  
+YFR023W pep:known chromosome:SacCer_Apr2011:VI:199874:201709:1 g...    26   8.7  
+
+>YGL044C pep:known chromosome:SacCer_Apr2011:VII:416146:417036:-1
+           gene:YGL044C transcript:YGL044C description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b interacts with the
+           A-rich polyadenylation signa /.../omplex with Rna14p and
+           Hrp1p\x3b mutant displays reduced transcription
+           elongation in the G-less-based run-on (GLRO) assay\x3b
+           required for gene looping"
+          Length = 296
+
+ Score =  483 bits (1244), Expect = e-173,   Method: Compositional matrix adjust.
+ Identities = 244/296 (82%), Positives = 244/296 (82%)
+
+Query: 1   MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+           MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG
+Sbjct: 1   MNRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKG 60
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDIXXXXXXXXXXXXXXXXXXXXX 120
+           YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDI                     
+Sbjct: 61  YAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDISGVSQQQQQQYNNINGNNNNN 120
+
+Query: 121 XXXXXXXXXXXXXXXGNANFLSQKFPELPSGIDVNINMTTPAMMISSELAKKPKEVQLKF 180
+                          GNANFLSQKFPELPSGIDVNINMTTPAMMISSELAKKPKEVQLKF
+Sbjct: 121 GNNNNNSNGPDFQNSGNANFLSQKFPELPSGIDVNINMTTPAMMISSELAKKPKEVQLKF 180
+
+Query: 181 LQKFQEWTRAHPEDAVSLLELCPQLSFVTAELLLTNGICKVDDLIPLASRPQEEASATNN 240
+           LQKFQEWTRAHPEDAVSLLELCPQLSFVTAELLLTNGICKVDDLIPLASRPQEEASATNN
+Sbjct: 181 LQKFQEWTRAHPEDAVSLLELCPQLSFVTAELLLTNGICKVDDLIPLASRPQEEASATNN 240
+
+Query: 241 NSVNEVVDPAXXXXXXXXXXXXXXXXDSQISILPDDERMAIWDLKQKALRGEFGAF 296
+           NSVNEVVDPA                DSQISILPDDERMAIWDLKQKALRGEFGAF
+Sbjct: 241 NSVNEVVDPAVLNKQKELLKQVLQLNDSQISILPDDERMAIWDLKQKALRGEFGAF 296
+
+
+>YIR005W pep:known chromosome:SacCer_Apr2011:IX:364889:365335:1 gene:YIR005W
+           transcript:YIR005W description:"Component of the U2
+           snRNP, required for the first catalytic step of splicing
+           and for spliceosomal assembly\x3b interacts with Rds3p
+           and is required for Mer1p-activated splicing"
+          Length = 148
+
+ Score = 57.0 bits (136), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 26/75 (34%), Positives = 48/75 (64%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+G++  + TE  IL + S  G  +++ +  D  TG S+G+A++++ D  S+  AV NL
+Sbjct: 33  IYIGNLNRELTEGDILTVFSEYGVPVDVILSRDENTGESQGFAYLKYEDQRSTILAVDNL 92
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           NG+++G R LK  ++
+Sbjct: 93  NGFKIGGRALKIDHT 107
+
+
+>YNL175C pep:known chromosome:SacCer_Apr2011:XIV:307401:308612:-1
+           gene:YNL175C transcript:YNL175C description:"Nucleolar
+           protein found in preribosomal complexes\x3b contains an
+           RNA recognition motif (RRM)"
+          Length = 403
+
+ Score = 58.5 bits (140), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 23/80 (28%), Positives = 52/80 (65%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           NPPSR++++G++ +D T++ +     + G ++ ++M     +G+ KG+AFI+F++ E S 
+Sbjct: 235 NPPSRILFVGNLSFDVTDDLLRKHFQHCGDIVKIRMATFEDSGKCKGFAFIDFKNEEGST 294
+
+Query: 74  SAVRNLNGYQLGSRFLKCGY 93
+           +A+++ +  ++  R L+  Y
+Sbjct: 295 NALKDKSCRKIAGRPLRMEY 314
+
+
+>YIL061C pep:known chromosome:SacCer_Apr2011:IX:244657:245559:-1
+           gene:YIL061C transcript:YIL061C description:"Component
+           of U1 snRNP required for mRNA splicing via
+           spliceosome\x3b substrate of the arginine
+           methyltransferase Hmt1p\x3b may interact with poly(A)
+           polymerase to regulate polyadenylation\x3b homolog of
+           human U1 70K protein"
+          Length = 300
+
+ Score = 49.7 bits (117), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 26/84 (30%), Positives = 46/84 (54%), Gaps = 3/84 (3%)
+
+Query: 7   VNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           V+  +++  P R +++G +PYD  E ++       G +  ++++ D  T +SKGYAFI F
+Sbjct: 96  VDPHIKDTDPYRTIFIGRLPYDLDEIELQKYFVKFGEIEKIRIVKDKITQKSKGYAFIVF 155
+
+Query: 67  RDLESSASAVRNL---NGYQLGSR 87
+           +D  SS  A + +    G Q+  R
+Sbjct: 156 KDPISSKMAFKEIGVHRGIQIKDR 179
+
+
+>YGR159C pep:known chromosome:SacCer_Apr2011:VII:806412:807656:-1
+           gene:YGR159C transcript:YGR159C description:"Nucleolar
+           protein that binds nuclear localization sequences,
+           required for pre-rRNA processing and ribosome
+           biogenesis"
+          Length = 414
+
+ Score = 48.9 bits (115), Expect = 4e-07,   Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 49/80 (61%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           PS  ++LG++ ++   + I +L +  G V+++++   P+T + KG+ +++F ++E +  A
+Sbjct: 265 PSDTLFLGNLSFNADRDAIFELFAKHGEVVSVRIPTHPETEQPKGFGYVQFSNMEDAKKA 324
+
+Query: 76  VRNLNGYQLGSRFLKCGYSS 95
+           +  L G  + +R ++  +SS
+Sbjct: 325 LDALQGEYIDNRPVRLDFSS 344
+
+
+
+ Score = 45.1 bits (105), Expect = 8e-06,   Method: Compositional matrix adjust.
+ Identities = 16/77 (20%), Positives = 43/77 (55%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +++G + +   +E +     ++G VI  +++++  T RS+GY +++F +   +  A++ 
+Sbjct: 169 TIFVGRLSWSIDDEWLKKEFEHIGGVIGARVIYERGTDRSRGYGYVDFENKSYAEKAIQE 228
+
+Query: 79  LNGYQLGSRFLKCGYSS 95
+           + G ++  R + C  S+
+Sbjct: 229 MQGKEIDGRPINCDMST 245
+
+
+>YIR001C pep:known chromosome:SacCer_Apr2011:IX:356143:356895:-1
+           gene:YIR001C transcript:YIR001C description:"Cytoplasmic
+           RNA-binding protein, contains an RNA recognition motif
+           (RRM)\x3b may have a role in mRNA translation, as
+           suggested by genetic interactions with genes encoding
+           proteins involved in translational initiation"
+          Length = 250
+
+ Score = 47.8 bits (112), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           SR +++G+I  D T EQI D   + G +  + +++D  TG  KGY +IEF        A+
+Sbjct: 63  SRSIFVGNITPDVTPEQIEDHFKDCGQIKRITLLYDRNTGTPKGYGYIEFESPAYREKAL 122
+
+Query: 77  RNLNGYQLGSR 87
+           + LNG +L  +
+Sbjct: 123 Q-LNGGELKGK 132
+
+
+>YOL123W pep:known chromosome:SacCer_Apr2011:XV:87844:89448:1 gene:YOL123W
+           transcript:YOL123W description:"Subunit of cleavage
+           factor I, a five-subunit complex required for the
+           cleavage and polyadenylation of pre-mRNA 3' ends\x3b
+           RRM-containing heteronuclear RNA binding protein and
+           hnRNPA/B family member that binds to poly (A) signal
+           sequences"
+          Length = 534
+
+ Score = 47.8 bits (112), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 34/58 (58%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           +++G + +D TE+ + +     G V +LK+M DP TGRS+G+ F+ F    S    V+
+Sbjct: 161 MFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVK 218
+
+
+
+ Score = 35.8 bits (81), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 17/57 (29%), Positives = 32/57 (56%), Gaps = 4/57 (7%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +++G I  D   ++  +  S  G +I+ ++M D  TG+S+G+ F+ +     SA AV
+Sbjct: 245 IFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTY----DSADAV 297
+
+
+>YNL016W pep:known chromosome:SacCer_Apr2011:XIV:602907:604268:1
+           gene:YNL016W transcript:YNL016W description:"Poly (A)+
+           RNA-binding protein, abundant mRNP-component protein
+           that binds mRNA and is required for stability of many
+           mRNAs\x3b component of glucose deprivation induced
+           stress granules, involved in P-body-dependent granule
+           assembly"
+          Length = 453
+
+ Score = 44.7 bits (104), Expect = 9e-06,   Method: Compositional matrix adjust.
+ Identities = 23/80 (28%), Positives = 45/80 (56%), Gaps = 1/80 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           RV+Y+G++    TE+ +       GP+ N+K+M D +  ++  YAF+E+     +  A++
+Sbjct: 75  RVLYVGNLDKAITEDILKQYFQVGGPIANIKIMID-KNNKNVNYAFVEYHQSHDANIALQ 133
+
+Query: 78  NLNGYQLGSRFLKCGYSSNS 97
+            LNG Q+ +  +K  ++  S
+Sbjct: 134 TLNGKQIENNIVKINWAFQS 153
+
+
+
+ Score = 40.8 bits (94), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 18/79 (22%), Positives = 43/79 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  +  +E + +   +    ++  +M+D QTG S+GY F+ F   + + +A+ ++
+Sbjct: 164 LFVGDLNVNVDDETLRNAFKDFPSYLSGHVMWDMQTGSSRGYGFVSFTSQDDAQNAMDSM 223
+
+Query: 80  NGYQLGSRFLKCGYSSNSD 98
+            G  L  R L+  +++  D
+Sbjct: 224 QGQDLNGRPLRINWAAKRD 242
+
+
+
+ Score = 37.4 bits (85), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 40/80 (50%), Gaps = 8/80 (10%)
+
+Query: 16  PSRVV--YLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           P RV   Y+G+IP+  TE  ++ L  N G +++ K    P+    KG  FI++   E +A
+Sbjct: 337 PPRVTTAYIGNIPHFATEADLIPLFQNFGFILDFKHY--PE----KGCCFIKYDTHEQAA 390
+
+Query: 74  SAVRNLNGYQLGSRFLKCGY 93
+             +  L  +    R L+ G+
+Sbjct: 391 VCIVALANFPFQGRNLRTGW 410
+
+
+>YOR319W pep:known chromosome:SacCer_Apr2011:XV:912822:913463:1
+          gene:YOR319W transcript:YOR319W description:"U2-snRNP
+          associated splicing factor with similarity to the
+          mammalian splicing factor SAP49\x3b proposed to
+          function as a U2-snRNP assembly factor along with
+          Hsh155p and binding partner Cus1p\x3b contains two RNA
+          recognition motifs (RRM)"
+          Length = 213
+
+ Score = 42.0 bits (97), Expect = 4e-05,   Method: Compositional matrix adjust.
+ Identities = 26/79 (32%), Positives = 43/79 (54%), Gaps = 1/79 (1%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          VY+G+I    T+EQ+ +L   + PV+ +K   D      +GYAFIEF +   +  A++ +
+Sbjct: 11 VYVGNIDPRITKEQLYELFIQINPVLRIKYPKDKVLQAYQGYAFIEFYNQGDAQYAIKIM 70
+
+Query: 80 NG-YQLGSRFLKCGYSSNS 97
+          N   +L  R +K    +NS
+Sbjct: 71 NNTVRLYDRLIKVRQVTNS 89
+
+
+>YER165W pep:known chromosome:SacCer_Apr2011:V:510373:512106:1 gene:YER165W
+           transcript:YER165W description:"Poly(A) binding protein,
+           part of the 3'-end RNA-processing complex, mediates
+           interactions between the 5' cap structure and the 3'
+           mRNA poly(A) tail, involved in control of poly(A) tail
+           length, interacts with translation factor eIF-4G"
+          Length = 577
+
+ Score = 41.6 bits (96), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 40/78 (51%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +Y+G +    +E  + D+ S +G V ++++  D  T  S GYA++ F D E+   A+
+Sbjct: 37  SASLYVGDLEPSVSEAHLYDIFSPIGSVSSIRVCRDAITKTSLGYAYVNFNDHEAGRKAI 96
+
+Query: 77  RNLNGYQLGSRFLKCGYS 94
+             LN   +  R  +  +S
+Sbjct: 97  EQLNYTPIKGRLCRIMWS 114
+
+
+
+ Score = 40.4 bits (93), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 38/73 (52%), Gaps = 1/73 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +Y+ +I  + T+EQ  +L +  GP+++  +  D   G+ KG+ F+ +   E +  AV  L
+Sbjct: 221 LYVKNINSETTDEQFQELFAKFGPIVSASLEKDA-DGKLKGFGFVNYEKHEDAVKAVEAL 279
+
+Query: 80  NGYQLGSRFLKCG 92
+           N  +L    L  G
+Sbjct: 280 NDSELNGEKLYVG 292
+
+
+
+ Score = 33.1 bits (74), Expect = 0.046,   Method: Compositional matrix adjust.
+ Identities = 16/62 (25%), Positives = 35/62 (56%), Gaps = 1/62 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++ ++  D   + + D  S  G +++ K+  D + G+SKG+ F+ F +  ++  A+  L
+Sbjct: 128 IFIKNLHPDIDNKALYDTFSVFGDILSSKIATD-ENGKSKGFGFVHFEEEGAAKEAIDAL 186
+
+Query: 80  NG 81
+           NG
+Sbjct: 187 NG 188
+
+
+
+ Score = 25.8 bits (55), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 15/69 (21%), Positives = 33/69 (47%), Gaps = 1/69 (1%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLK 90
+           +E++ +  +  G + + K+M   + G+SKG+ F+ F   E +  A+   N   +  + L 
+Sbjct: 335 DEKLEEEFAPYGTITSAKVM-RTENGKSKGFGFVCFSTPEEATKAITEKNQQIVAGKPLY 393
+
+Query: 91  CGYSSNSDI 99
+              +   D+
+Sbjct: 394 VAIAQRKDV 402
+
+
+>YPL043W pep:known chromosome:SacCer_Apr2011:XVI:469939:471996:1
+           gene:YPL043W transcript:YPL043W description:"Nucleolar
+           protein, essential for processing and maturation of 27S
+           pre-rRNA and large ribosomal subunit biogenesis\x3b
+           constituent of 66S pre-ribosomal particles\x3b contains
+           four RNA recognition motifs (RRMs)"
+          Length = 685
+
+ Score = 41.6 bits (96), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 39/77 (50%), Gaps = 2/77 (2%)
+
+Query: 2   NRQSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGY 61
+           N++S   A  QN      V++ ++PYD TEE +    S  G V     + D  TG +KG 
+Sbjct: 276 NKESKRKA--QNKREDFSVFVRNVPYDATEESLAPHFSKFGSVKYALPVIDKSTGLAKGT 333
+
+Query: 62  AFIEFRDLESSASAVRN 78
+           AF+ F+D  +    ++N
+Sbjct: 334 AFVAFKDQYTYNECIKN 350
+
+
+
+ Score = 40.0 bits (92), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 20/81 (24%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           + +++ SIP D T+EQ+ D  SN  P+ +  ++ D    RS+G+ F+ F   + +  A+ 
+Sbjct: 26  KTLFVRSIPQDVTDEQLADFFSNFAPIKHAVVVKDTNK-RSRGFGFVSFAVEDDTKEALA 84
+
+Query: 78  NLNGYQLGSRFLKCGYSSNSD 98
+                +     L+   +   D
+Sbjct: 85  KARKTKFNGHILRVDIAKRRD 105
+
+
+
+ Score = 34.7 bits (78), Expect = 0.016,   Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (70%)
+
+Query: 56  GRSKGYAFIEFRDLESSASAVRNLNGYQLGS 86
+           GRS+GY F+EFRD +++   +R LN + + S
+Sbjct: 550 GRSRGYGFVEFRDHKNALMGLRWLNCHAVTS 580
+
+
+>YHR086W pep:known chromosome:SacCer_Apr2011:VIII:278153:279724:1
+           gene:YHR086W transcript:YHR086W description:"RNA binding
+           protein, component of the U1 snRNP protein\x3b mutants
+           are defective in meiotic recombination and in formation
+           of viable spores, involved in the formation of DSBs
+           through meiosis-specific splicing of REC107 pre-mRNA\x3b
+           Nam8p regulon embraces  /.../iotic pre-mRNAs of REC107,
+           HFM1, AMA1 SPO22 and PCH2\x3b the putative RNA binding
+           domains RRM2 and RRM3 are required for Nam8p meiotic
+           function"
+          Length = 523
+
+ Score = 41.2 bits (95), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 23/77 (29%), Positives = 41/77 (53%), Gaps = 1/77 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSN-VGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           +++G +  + TE Q+ +L  N      + K++ D  TG SKGY F++F + +    A+  
+Sbjct: 165 IFVGDLAPNVTESQLFELFINRYASTSHAKIVHDQVTGMSKGYGFVKFTNSDEQQLALSE 224
+
+Query: 79  LNGYQLGSRFLKCGYSS 95
+           + G  L  R +K G +S
+Sbjct: 225 MQGVFLNGRAIKVGPTS 241
+
+
+>YNL110C pep:known chromosome:SacCer_Apr2011:XIV:417826:418488:-1
+           gene:YNL110C transcript:YNL110C description:"Constituent
+           of 66S pre-ribosomal particles, involved in 60S
+           ribosomal subunit biogenesis\x3b localizes to both
+           nucleolus and cytoplasm"
+          Length = 220
+
+ Score = 40.0 bits (92), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 40/75 (53%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S ++Y+  +P+   E+++    +  G +  +++  + +TG S+ Y F+EF + E +  A 
+Sbjct: 90  SGIIYVSRLPHGFHEKELSKYFAQFGDLKEVRLARNKKTGNSRHYGFLEFVNKEDAMIAQ 149
+
+Query: 77  RNLNGYQLGSRFLKC 91
+            ++N Y L    L+ 
+Sbjct: 150 ESMNNYLLMGHLLQV 164
+
+
+>YPR112C pep:known chromosome:SacCer_Apr2011:XVI:749256:751919:-1
+           gene:YPR112C transcript:YPR112C description:"Essential
+           conserved protein that is part of the 90S
+           preribosome\x3b required for production of 18S rRNA and
+           small ribosomal subunit\x3b contains five consensus
+           RNA-binding domains"
+          Length = 887
+
+ Score = 40.8 bits (94), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 38/70 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           ++L +I Y   EE    L S  G +  + +  D +TG+SKG+A++ F+D +++ +A   L
+Sbjct: 347 LFLRNILYTSKEEDFRKLFSPFGELEEVHVALDTRTGQSKGFAYVLFKDSKNAVNAYVEL 406
+
+Query: 80  NGYQLGSRFL 89
+           +      R L
+Sbjct: 407 DKQIFQGRLL 416
+
+
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 24/92 (26%), Positives = 51/92 (55%), Gaps = 6/92 (6%)
+
+Query: 4   QSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKM--MFDPQTGRSKGY 61
+           QSG N   ++N  S  + + ++P++ T + + +L ++ G + ++++   FD     ++G+
+Sbjct: 750 QSG-NTKTKSNKKSGKIIVKNLPFEATRKDVFELFNSFGQLKSVRVPKKFDKS---ARGF 805
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           AF+EF   + + +A+  L+G  L  R L   Y
+Sbjct: 806 AFVEFLLPKEAENAMDQLHGVHLLGRRLVMQY 837
+
+
+>YOL041C pep:known chromosome:SacCer_Apr2011:XV:251267:252646:-1
+           gene:YOL041C transcript:YOL041C description:"Nucleolar
+           protein involved in pre-25S rRNA processing and
+           biogenesis of large 60S ribosomal subunit\x3b contains
+           an RNA recognition motif (RRM)\x3b binds to Ebp2\x3b
+           similar to Nop13p and Nsr1p"
+          Length = 459
+
+ Score = 40.0 bits (92), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 15/59 (25%), Positives = 37/59 (62%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           R +++G++ +++ EE +       G +  ++++ D +T   KG+A+++F+DL+S   A+
+Sbjct: 279 RSIFVGNLDFEEIEESLWKHFEPCGDIEYVRIIRDSKTNMGKGFAYVQFKDLQSVNKAL 337
+
+
+>YDR432W pep:known chromosome:SacCer_Apr2011:IV:1328783:1330027:1
+           gene:YDR432W transcript:YDR432W description:"RNA-binding
+           protein that promotes elongation, regulates termination,
+           and carries poly(A) mRNA from nucleus to cytoplasm\x3b
+           required for pre-mRNA splicing\x3b dissociation from
+           mRNAs promoted by Mtr10p\x3b phosphorylated by Sky1p in
+           the cytoplasm"
+          Length = 414
+
+ Score = 39.7 bits (91), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 40/75 (53%), Gaps = 8/75 (10%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++   P D  E ++ ++    GP+  +K++         G+AF+EF + ES+A A+  +
+Sbjct: 127 LFVRPFPLDVQESELNEIFGPFGPMKEVKIL--------NGFAFVEFEEAESAAKAIEEV 178
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           +G    ++ L+  YS
+Sbjct: 179 HGKSFANQPLEVVYS 193
+
+
+>YNL004W pep:known chromosome:SacCer_Apr2011:XIV:622915:624621:1
+           gene:YNL004W transcript:YNL004W description:"Poly(A+)
+           RNA-binding protein, involved in the export of mRNAs
+           from the nucleus to the cytoplasm\x3b similar to Gbp2p
+           and Npl3p"
+          Length = 454
+
+ Score = 39.3 bits (90), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 1/78 (1%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +R++Y  ++P+   +  + DL   +G V N ++ +D + G   G A +E+ +++ +   +
+Sbjct: 375 NRLIYCSNLPFSTAKSDLYDLFETIGKVNNAELRYDSK-GAPTGIAVVEYDNVDDADVCI 433
+
+Query: 77  RNLNGYQLGSRFLKCGYS 94
+             LN Y  G   L   Y+
+Sbjct: 434 ERLNNYNYGGCDLDISYA 451
+
+
+>YGR250C pep:known chromosome:SacCer_Apr2011:VII:991176:993521:-1
+           gene:YGR250C transcript:YGR250C description:"Putative
+           RNA binding protein\x3b localizes to stress granules
+           induced by glucose deprivation\x3b interacts with Rbg1p
+           in a two-hybrid"
+          Length = 781
+
+ Score = 38.9 bits (89), Expect = 8e-04,   Method: Compositional matrix adjust.
+ Identities = 22/84 (26%), Positives = 38/84 (45%), Gaps = 19/84 (22%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMF-------------------DPQTGRSKG 60
+           +Y+  IP   T+E + D   + G +I++K++                    D   G S+G
+Sbjct: 542 LYVKHIPLSWTDEDLYDFYKSFGEIISVKVITVGGSKNKYRQQSNDSSSDNDLPVGSSRG 601
+
+Query: 61  YAFIEFRDLESSASAVRNLNGYQL 84
+           Y F+ F     +A A+ N +GYQ+
+Sbjct: 602 YGFVSFESPLDAAKAILNTDGYQV 625
+
+
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 22/88 (25%), Positives = 42/88 (47%), Gaps = 2/88 (2%)
+
+Query: 6   GVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIE 65
+           GVN      P +  +++G I    +  ++  L S  GP++++K+++D   G   GY FI 
+Sbjct: 185 GVNKHALTYPGN--IFVGGIAKSLSIGELSFLFSKYGPILSMKLIYDKTKGEPNGYGFIS 242
+
+Query: 66  FRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           +     ++  ++ LNG  +    L   Y
+Sbjct: 243 YPLGSQASLCIKELNGRTVNGSTLFINY 270
+
+
+>YNL197C pep:known chromosome:SacCer_Apr2011:XIV:267608:269593:-1
+           gene:YNL197C transcript:YNL197C description:"RNA binding
+           protein that sequesters CLN3 mRNA in cytoplasmic
+           foci\x3b cytoplasmic retention factor for Cdc28p and
+           associated cyclins\x3b regulates cell fate and
+           dose-dependently regulates the critical cell size
+           required for passage through Start"
+          Length = 661
+
+ Score = 38.5 bits (88), Expect = 9e-04,   Method: Compositional matrix adjust.
+ Identities = 24/76 (31%), Positives = 40/76 (52%), Gaps = 7/76 (9%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYA-----FIEFRD 68
+           NPP   +Y+G++P D TE+++  L S  G     ++ F  +   S G++     F+EF D
+Sbjct: 534 NPPCNTLYVGNLPSDATEQELRQLFS--GQEGFRRLSFRNKNTTSNGHSHGPMCFVEFDD 591
+
+Query: 69  LESSASAVRNLNGYQL 84
+           +  +  A+  L G QL
+Sbjct: 592 VSFATRALAELYGRQL 607
+
+
+>YHR015W pep:known chromosome:SacCer_Apr2011:VIII:134554:136533:1
+           gene:YHR015W transcript:YHR015W description:"Putative
+           RNA-binding protein, interacts with Mex67p, which is a
+           component of the nuclear pore involved in nuclear mRNA
+           export"
+          Length = 659
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 18/71 (25%), Positives = 39/71 (54%), Gaps = 2/71 (2%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+            + +N  S+ + + ++P D T+E++LD  S +GP+ ++      +   +   AF+ +++ 
+Sbjct: 305 NLSDNARSKTILVKNLPSDTTQEEVLDYFSTIGPIKSV--FISEKQANTPHKAFVTYKNE 362
+
+Query: 70  ESSASAVRNLN 80
+           E S  A + LN
+Sbjct: 363 EESKKAQKCLN 373
+
+
+
+ Score = 29.6 bits (65), Expect = 0.56,   Method: Compositional matrix adjust.
+ Identities = 16/77 (20%), Positives = 34/77 (44%)
+
+Query: 4   QSGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF 63
+           +  V   +     +  +++G++    TEE +  +        + K+  D  T +S GY +
+Sbjct: 97  KGSVQKYITKTSKTNSLFIGNLKSTVTEEMLRKIFKRYQSFESAKVCRDFLTKKSLGYGY 156
+
+Query: 64  IEFRDLESSASAVRNLN 80
+           + F+D   + SA +  N
+Sbjct: 157 LNFKDKNDAESARKEFN 173
+
+
+>YCL011C pep:known chromosome:SacCer_Apr2011:III:102075:103358:-1
+           gene:YCL011C transcript:YCL011C description:"Poly(A+)
+           RNA-binding protein, involved in the export of mRNAs
+           from the nucleus to the cytoplasm\x3b similar to Hrb1p
+           and Npl3p\x3b also binds single-stranded telomeric
+           repeat sequence in vitro"
+          Length = 427
+
+ Score = 37.0 bits (84), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 24/90 (26%), Positives = 42/90 (46%), Gaps = 6/90 (6%)
+
+Query: 6   GVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQ-TGRSKGYAFI 64
+           GVN G   N     +Y  ++P+      + DL   +G + N ++   PQ  G+  G A +
+Sbjct: 340 GVNPGGDRNC---FIYCSNLPFSTARSDLFDLFGPIGKINNAELK--PQENGQPTGVAVV 394
+
+Query: 65  EFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           E+ +L  +   ++ LN Y  G   L+  Y+
+Sbjct: 395 EYENLVDADFCIQKLNNYNYGGCSLQISYA 424
+
+
+>YOR361C pep:known chromosome:SacCer_Apr2011:XV:1015361:1017652:-1
+           gene:YOR361C transcript:YOR361C description:"eIF3b
+           subunit of the core complex of translation initiation
+           factor 3 (eIF3), essential for translation\x3b part of a
+           subcomplex (Prt1p-Rpg1p-Nip1p) that stimulates binding
+           of mRNA and tRNA(i)Met to ribosomes"
+          Length = 763
+
+ Score = 36.6 bits (83), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 14/54 (25%), Positives = 31/54 (57%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+           ++ +  L S  G V+N++   D  TG++KG+ F+E   +  +   +++ +G +L
+Sbjct: 96  KKALTSLFSKAGKVVNMEFPIDEATGKTKGFLFVECGSMNDAKKIIKSFHGKRL 149
+
+
+>YBL051C pep:known chromosome:SacCer_Apr2011:II:122753:124759:-1
+           gene:YBL051C transcript:YBL051C description:"Protein
+           involved in G2/M phase progression and response to DNA
+           damage, interacts with Rad53p\x3b contains an RNA
+           recognition motif, a nuclear localization signal, and
+           several SQ/TQ cluster domains\x3b hyperphosphorylated in
+           response to DNA damage"
+          Length = 668
+
+ Score = 36.2 bits (82), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 35/75 (46%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+   +EQ+LD+   +   +     +    G  +G AF  F   E +   + +
+Sbjct: 86  AIVIKNIPFAIKKEQLLDIIEEMDLPLPYAFNYHFDNGIFRGLAFANFTTPEETTQVITS 145
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LNG ++  R LK  Y
+Sbjct: 146 LNGKEISGRKLKVEY 160
+
+
+>YDL224C pep:known chromosome:SacCer_Apr2011:IV:54397:56346:-1 gene:YDL224C
+           transcript:YDL224C description:"Putative RNA binding
+           protein and partially redundant Whi3p homolog that
+           regulates the cell size requirement for passage through
+           Start and commitment to cell division"
+          Length = 649
+
+ Score = 33.1 bits (74), Expect = 0.049,   Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 35/77 (45%), Gaps = 6/77 (7%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINL----KM--MFDPQTGRSKGYAFIEFR 67
+           NPP   +Y+G++P D TE+++  L SN      L    KM               F+EF 
+Sbjct: 529 NPPCNTLYVGNLPPDATEQELRQLFSNQQGFRRLSFRNKMNSHGHGNGHGHGPICFVEFE 588
+
+Query: 68  DLESSASAVRNLNGYQL 84
+           D+  +  A+  L G QL
+Sbjct: 589 DVSFATRALAELYGSQL 605
+
+
+>YPL184C pep:known chromosome:SacCer_Apr2011:XVI:195950:197788:-1
+           gene:YPL184C transcript:YPL184C description:"RNA-binding
+           protein proposed to be involved in translational
+           regulation\x3b binds specific categories of mRNAs,
+           including those that contain upstream open reading
+           frames (uORFs) and internal ribosome entry sites (IRES)"
+          Length = 612
+
+ Score = 32.7 bits (73), Expect = 0.069,   Method: Compositional matrix adjust.
+ Identities = 26/90 (28%), Positives = 46/90 (51%), Gaps = 9/90 (10%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G  NN  +R VYLGS+P D   E+I +     G + ++K++ D      +   F+ F D 
+Sbjct: 423 GGPNNLGNRTVYLGSLPKDVKIEEICNAVRG-GLLQSIKLLND------RYVCFVTFIDP 475
+
+Query: 70  ESSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+            ++A   A+ +L G+ +  +  K G+  +S
+Sbjct: 476 TAAAQFYAMSSLYGFTVQKKRCKVGWGKHS 505
+
+
+
+ Score = 32.0 bits (71), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 31/98 (31%), Positives = 52/98 (53%), Gaps = 21/98 (21%)
+
+Query: 13  NNP------PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           NNP      PSR VYLG++P + + +++LD   + G V ++K++  P+    K  AF+ F
+Sbjct: 190 NNPLNFTSAPSRTVYLGNVPPNLSVKELLDHVRS-GVVEDVKII--PE----KMCAFVSF 242
+
+Query: 67  RD-----LESSASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+            D     L  S + ++ LN   +G R +K G+   + I
+Sbjct: 243 IDESAALLFHSDAILKRLN---IGDRDIKIGWGKPTRI 277
+
+
+>YDR429C pep:known chromosome:SacCer_Apr2011:IV:1324477:1325301:-1
+           gene:YDR429C transcript:YDR429C description:"eIF3g
+           subunit of the core complex of translation initiation
+           factor 3 (eIF3), which is essential for translation\x3b
+           stimulates resumption of ribosomal scanning during
+           translation reinitiation"
+          Length = 274
+
+ Score = 32.3 bits (72), Expect = 0.075,   Method: Compositional matrix adjust.
+ Identities = 15/52 (28%), Positives = 30/52 (57%)
+
+Query: 43  PVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYS 94
+           P+  + ++ + +TG+S+G AF+ F   E +  A+R L+G    +  L+  +S
+Sbjct: 217 PIPRVSVVRNKETGKSRGLAFVTFSSEEVAEQALRFLDGRGYMNLILRVEWS 268
+
+
+>YHL034C pep:known chromosome:SacCer_Apr2011:VIII:33193:34077:-1
+           gene:YHL034C transcript:YHL034C description:"Putative
+           RNA binding protein\x3b involved in translational
+           repression and found in cytoplasmic P bodies\x3b found
+           associated with small nucleolar RNAs snR10 and snR11"
+          Length = 294
+
+ Score = 32.3 bits (72), Expect = 0.075,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 38/84 (45%), Gaps = 16/84 (19%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKM--MFDPQTGR-------SKGYAFIEFR-- 67
+            +Y+ ++P+  T+E++ +        I+L M  M D  TGR       ++G AF+ F   
+Sbjct: 187 TLYINNVPFKATKEEVAEFFGTDADSISLPMRKMRDQHTGRIFTSDSANRGMAFVTFSGE 246
+
+Query: 68  --DLESSASAVRNLNGYQLGSRFL 89
+             D+E+ A       G   G R L
+Sbjct: 247 NVDIEAKAE---EFKGKVFGDREL 267
+
+
+>YPL178W pep:known chromosome:SacCer_Apr2011:XVI:212158:212784:1
+           gene:YPL178W transcript:YPL178W description:"Small
+           subunit of the heterodimeric cap binding complex that
+           also contains Sto1p, component of the spliceosomal
+           commitment complex\x3b interacts with Npl3p, possibly to
+           package mRNA for export from the nucleus\x3b contains an
+           RNA-binding motif"
+          Length = 208
+
+ Score = 31.6 bits (70), Expect = 0.087,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 36/68 (52%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +Y+G++ +  +EEQI +L S  G +  + M  D       G+ FI +   + + +A+
+Sbjct: 45  SSTIYVGNLSFYTSEEQIYELFSKCGTIKRIIMGLDRFKFTPCGFCFIIYSCPDEALNAL 104
+
+Query: 77  RNLNGYQL 84
+           + L+  +L
+Sbjct: 105 KYLSDTKL 112
+
+
+>YGR156W pep:known chromosome:SacCer_Apr2011:VII:800546:801823:1
+          gene:YGR156W transcript:YGR156W description:"Essential
+          protein that is a component of CPF (cleavage and
+          polyadenylation factor)\x3b involved in 3' end
+          formation of snoRNA and mRNA\x3b interacts directly
+          with Pta1p\x3b has similarity to mammalian
+          Cleavage-Stimulation Factor CstF-64"
+          Length = 425
+
+ Score = 31.6 bits (70), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 14/47 (29%), Positives = 27/47 (57%)
+
+Query: 17 SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAF 63
+          S  + + ++P +  ++ I  + +  GPVI++K   DP+TG+  G  F
+Sbjct: 19 SSTLQITNLPPEWNQDIITSVVAGSGPVIDIKAKNDPRTGKLTGVLF 65
+
+
+>YIR009W pep:known chromosome:SacCer_Apr2011:IX:374525:374860:1 gene:YIR009W
+           transcript:YIR009W description:"U2B component of U2
+           snRNP, involved in splicing, binds the U2 snRNA
+           stem-loop IV in vitro but requires association of Lea1p
+           for in vivo binding\x3b does not contain the conserved
+           C-terminal RNA binding domain found in other family
+           members"
+          Length = 111
+
+ Score = 30.0 bits (66), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 31/60 (51%), Gaps = 4/60 (6%)
+
+Query: 37  LCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSN 96
+           L +  G V+ + M F  Q    +G AFI  R ++ ++ A  +LNG +   + LK  +S +
+Sbjct: 51  LFATFGEVLKVSMNFKKQ----RGQAFITMRTIDQASLAQISLNGERFFGKPLKVEFSKS 106
+
+
+>YBR212W pep:known chromosome:SacCer_Apr2011:II:647886:649904:1 gene:YBR212W
+           transcript:YBR212W description:"RNA binding protein that
+           negatively regulates growth rate\x3b interacts with the
+           3' UTR of the mitochondrial porin (POR1) mRNA and
+           enhances its degradation\x3b overexpression impairs
+           mitochondrial function\x3b interacts with Dhh1p to
+           mediate POR1 mRNA decay\x3b /.../ssed in stationary
+           phase"
+          Length = 672
+
+ Score = 31.2 bits (69), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 16/80 (20%), Positives = 39/80 (48%), Gaps = 6/80 (7%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           +P +  V++G +    TE Q+  L    GP++N+++         K   F++F     + 
+Sbjct: 356 DPTNTTVFVGGLVPKTTEFQLRSLFKPFGPILNVRI------PNGKNCGFVKFEKRIDAE 409
+
+Query: 74  SAVRNLNGYQLGSRFLKCGY 93
+           ++++ L G+ +G   ++  +
+Sbjct: 410 ASIQGLQGFIVGGSPIRLSW 429
+
+
+>YKL074C pep:known chromosome:SacCer_Apr2011:XI:294610:296193:-1
+           gene:YKL074C transcript:YKL074C description:"Protein
+           involved in early pre-mRNA splicing\x3b component of the
+           pre-mRNA-U1 snRNP complex, the commitment complex\x3b
+           interacts with Msl5p/BBP splicing factor and Sub2p\x3b
+           similar to metazoan splicing factor U2AF65"
+          Length = 527
+
+ Score = 28.5 bits (62), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 15/57 (26%), Positives = 27/57 (47%), Gaps = 1/57 (1%)
+
+Query: 43  PVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGYSSNSDI 99
+           P ++ ++ F+       G  +I+F+ LE++  A+  L G Q   R + C Y    D 
+Sbjct: 463 PGVDYRLNFE-NLASGAGNIYIKFKTLEAAKHAMEELPGTQFNDRTVLCTYIDEDDF 518
+
+
+>YDR381W pep:known chromosome:SacCer_Apr2011:IV:1236558:1238004:1
+           gene:YDR381W transcript:YDR381W description:"RNA binding
+           protein required for export of poly(A)+ mRNA from the
+           nucleus\x3b proposed to couple mRNA export with 3' end
+           processing via its interactions with Mex67p and
+           Pcf11p\x3b functionally redundant with Yra2p, another
+           REF family member"
+          Length = 226
+
+ Score = 26.9 bits (58), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 33/63 (52%), Gaps = 2/63 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDL-CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           V +  +P D  ++ + +   S VG V  + + ++ + G+S G A I F++ E +  AV  
+Sbjct: 80  VNVEGLPRDIKQDAVREFFASQVGGVQRVLLSYN-ERGQSTGMANITFKNGELARRAVER 138
+
+Query: 79  LNG 81
+            NG
+Sbjct: 139 FNG 141
+
+
+>YBR119W pep:known chromosome:SacCer_Apr2011:II:479338:480323:1 gene:YBR119W
+           transcript:YBR119W description:"U1 snRNP A protein,
+           homolog of human U1-A\x3b involved in nuclear mRNA
+           splicing"
+          Length = 298
+
+ Score = 26.6 bits (57), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 17/75 (22%), Positives = 41/75 (54%), Gaps = 12/75 (16%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           NPP++V+ + ++P   TE+ +  +  N   ++ ++++        +  AF+E+  + + A
+Sbjct: 223 NPPNKVLLIQNLPSGTTEQLLSQILGNEA-LVEIRLV------SVRNLAFVEYETV-ADA 274
+
+Query: 74  SAVRNLNGYQLGSRF 88
+           + ++N    QLGS +
+Sbjct: 275 TKIKN----QLGSTY 285
+
+
+>YDR011W pep:known chromosome:SacCer_Apr2011:IV:465919:470424:1 gene:YDR011W
+            transcript:YDR011W description:"Plasma membrane
+            ATP-binding cassette (ABC) transporter, multidrug
+            transporter involved in multidrug resistance and
+            resistance to singlet oxygen species"
+          Length = 1501
+
+ Score = 26.6 bits (57), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 20/78 (25%), Positives = 42/78 (53%), Gaps = 5/78 (6%)
+
+Query: 5    SGVNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFI 64
+            +G  A V+ +   +  +L S+ ++QT+E++ DL +++        + D  +  +  YA+ 
+Sbjct: 1114 AGATASVKEDWHEK--WLNSVEFEQTKEKVQDLINDLSKQETKSEVGDKPSKYATSYAY- 1170
+
+Query: 65   EFRD--LESSASAVRNLN 80
+            +FR   + +S S  R+LN
+Sbjct: 1171 QFRYVLIRTSTSFWRSLN 1188
+
+
+>YFR023W pep:known chromosome:SacCer_Apr2011:VI:199874:201709:1 gene:YFR023W
+           transcript:YFR023W description:"Poly(A) binding protein,
+           suppressor of DNA polymerase epsilon mutation, similar
+           to Mip6p"
+          Length = 611
+
+ Score = 25.8 bits (55), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 15/61 (24%), Positives = 30/61 (49%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +    TEE +  +       ++ K+  D  T +S G+ ++ F D E +  A+  L
+Sbjct: 93  LFIGDLHETVTEETLKGIFKKYPSFVSAKVCLDSVTKKSLGHGYLNFEDKEEAEKAMEEL 152
+
+Query: 80  N 80
+           N
+Sbjct: 153 N 153
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,474,215
+Number of extensions: 50801
+Number of successful extensions: 208
+Number of sequences better than 10.0: 39
+Number of HSP's gapped: 202
+Number of HSP's successfully gapped: 53
+Length of query: 296
+Length of database: 3,010,216
+Length adjustment: 89
+Effective length of query: 207
+Effective length of database: 2,414,628
+Effective search space: 499827996
+Effective search space used: 499827996
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)
