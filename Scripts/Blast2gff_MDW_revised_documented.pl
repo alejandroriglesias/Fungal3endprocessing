@@ -32,7 +32,7 @@ Blast2Gff.pl - Convert BLAST output to GFF format.
 #-----------------------------+
 use strict;                   # Keeps thing running clean
 use Getopt::Std;              # Get options from command line
-use Path::Iterator::Rule;     # Iterates over files and finds the selected ones in the rules specified 
+use Path::Iterator::Rule;     # Iterates over files and finds the selected ones in the rules specified
 
 
 =head1 VARIABLES
@@ -68,7 +68,7 @@ my $Usage = "USAGE:\n".
 # COMMAND LINE VARIABLES      |
 #-----------------------------+
 my %Options;                            #Declare an 'Options' variable (hash) to specify the command-line options that will be allowed
-getopts('d:i:o:m:p:s:h:a', \%Options);  #-d,-i, -o, -m -p, -s, -h parameters/options take arguments (a is boolean)
+getopts('d:i:o:m:p:s:h:a', \%Options);  #-d,-i, -o, -m -p, -s, -h parameters/options take arguments(a given value)
 
 $PrintHelp = $Options{h};              
 if ($PrintHelp)
@@ -94,12 +94,12 @@ if ($GffAppend)                 # boolean
     open ($GFFOUT, ">>".$OutFile) ||                          # Create/open the file for appending (adding the content to the end. This will allow adding all the content in one big file)
         die "Can not open GFF ouput file.$OutFile.\n";
 } else {                                                    
-    open ($GFFOUT, ">".$OutFile) ||                           #Open the file for writting (previous content will be deleted)
+    open ($GFFOUT, ">".$OutFile) ||                           # Create/Open the file for writting (previous content will be deleted)
         die "Can not open GFF ouput file.$OutFile.\n";
 }    
 
  
-my $rule = Path::Iterator::Rule->new;                          #New rule object
+my $rule = Path::Iterator::Rule->new;                          #New 'rule' object
  
 my $it = $rule->iter( $InFolder );                             #Sets a new variable ($it). The 'iter' method returns an iterator (over $InFolder)
 while ( my $InFile = $it->() ) {                               #Call the iterator to find all the elements in $InFile
@@ -109,7 +109,7 @@ while ( my $InFile = $it->() ) {                               #Call the iterato
     # If append was selected, just append gff data to the
     # output file
     
-    &TabBlast2Gff ($InFile, $GFFOUT, $BlastDb, $BlastProg);
+    &TabBlast2Gff ($InFile, $GFFOUT, $BlastDb, $BlastProg);    #Calls the TabBlast2Gff subroutine
 }
 
 close GFFOUT;
@@ -121,7 +121,7 @@ exit 1;
 # SUBFUNCTIONS                                              |
 #-----------------------------------------------------------+
 
-sub TabBlast2Gff 
+sub TabBlast2Gff                                               #Creates the TabBlast2Gff subroutine
 {
     my $In = $_[0];       # Path to blast intput file
     my $Out = $_[1];      # Path to gff output file
@@ -136,15 +136,15 @@ sub TabBlast2Gff
     
     my $HitNum = "0";
     #-----------------------------+
-    # FILE I/O                    |                 #Filehandle
+    # FILE I/O                    |                             #Filehandle
     #-----------------------------+
-    open (BLASTIN, "<".$In) ||                      #Open and read the BLAST files in $In(BLAST input files path)
+    open (BLASTIN, "<".$In) ||                                  #Open and read the BLAST files in $In(BLAST input files path)
         die "\n\nCan not open BLAST input file.$In.\n\n\n";
     
 
-    while (<BLASTIN>)                               
+    while (<BLASTIN>)                                           
     {
-       if (substr($_, 0, 1) eq '#')                #Ignore the comment lines starting with '#' in the BLAST files
+       if (substr($_, 0, 1) eq '#')                             #Ignore the comment lines starting with '#' in the BLAST files
         {
             # print "$_\n";
             next;
