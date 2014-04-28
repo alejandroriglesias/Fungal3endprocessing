@@ -50,8 +50,8 @@ my $BlastDb;                   # Blast database
 my $BlastProg;                 # Blast program (ie. blastn, blastx)
 
 my $Usage = "USAGE:\n".
-    "Blast2Gff.pl -i InFile.Fasta -o OutFile.gff -d BlastDb\n".
-    " -p blastprogram -m AligFormat -s SeqName -a\n\n".
+    "Blast2Gff.pl -i InFile.Fasta -o OutFile.gff -d BlastDb\n".                  
+    " -p blastprogram -m AligFormat -s SeqName -a\n\n".                             #Parameters/command-line options possible
     " -i Full path to the folder with subfolders containing blast outputs" .
     " -o Full path for the GFF formated output file [STRING]\n".
     " -m Format of the algnment outout from blast [INTEGER]\n".
@@ -67,23 +67,23 @@ my $Usage = "USAGE:\n".
 #-----------------------------+
 # COMMAND LINE VARIABLES      |
 #-----------------------------+
-my %Options;                            #Declare an 'Options' variable (hash)
-getopts('d:i:o:m:p:s:h:a', \%Options);  #d:i:o:m:p:s:h:a take arguments. Values in %Options
+my %Options;                            #Declare an 'Options' variable (hash) to specify the command-line options that will be allowed
+getopts('d:i:o:m:p:s:h:a', \%Options);  #-d,-i, -o, -m -p, -s, -h parameters/options take arguments (a is boolean)
 
-$PrintHelp = $Options{h};               #-h argument from %Options
+$PrintHelp = $Options{h};              
 if ($PrintHelp)
 {
     print $Usage;                       #Prints the Usage variable statements
     exit;
 }
 
-$GffAppend = $Options{a};               #-a argument (boolean)
-$InFolder = $Options{i} ||              #-i argument
+$GffAppend = $Options{a};               
+$InFolder = $Options{i} ||              
     die "\n\n\n\aERROR: An input file must be specified.\n\n$Usage\n\n\n";
 $OutFile = $Options{o} ||
     die "\n\n\n\aERROR: An output filename must be specified.\n\n$Usage\n\n\n";
 # Default output is the full path of the input file with the gff extension
-$BlastProg = $Options{p} ||             #-p argument
+$BlastProg = $Options{p} ||            
     "blastn";
 $AlignFormat = $Options{m} || 
     "8";                        # Default format is tab delim
