@@ -91,7 +91,7 @@ $AlignFormat = $Options{m} ||
 my $GFFOUT;                     # Declare a variable for the GFF output files
 if ($GffAppend)                 # boolean
 {
-    open ($GFFOUT, ">>".$OutFile) ||                          # Create/open the file for appending (adding the content to the end)
+    open ($GFFOUT, ">>".$OutFile) ||                          # Create/open the file for appending (adding the content to the end. This will allow adding all the content in one big file)
         die "Can not open GFF ouput file.$OutFile.\n";
 } else {                                                    
     open ($GFFOUT, ">".$OutFile) ||                           #Open the file for writting (previous content will be deleted)
@@ -220,8 +220,8 @@ sub TabBlast2Gff
             "Name=$Prog"."_HIT_".$QryID.";ID=$SubID|$QryID|$GSstart|$GSend;Parent=$SubID" .                 # Attribute
             "\n";
 
-        print $Out $QGFF, $SGFF;
-        print $QGFF, $SGFF;
+        print $Out $QGFF, $SGFF;                                                                            # Print into a file
+        print $QGFF, $SGFF;                                                                                 # Print in terminal
         
     } # END OF WHILE BLASTIN
     
