@@ -32,7 +32,7 @@ Blast2Gff.pl - Convert BLAST output to GFF format.
 #-----------------------------+
 use strict;                   # Keeps thing running clean
 use Getopt::Std;              # Get options from command line
-use Path::Iterator::Rule;     # Iterates over files and finds the selected ones
+use Path::Iterator::Rule;     # Iterates over files and directories. Recursive file finder
 
 
 =head1 VARIABLES
