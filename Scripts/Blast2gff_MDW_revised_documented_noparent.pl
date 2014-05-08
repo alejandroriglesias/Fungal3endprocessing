@@ -207,7 +207,7 @@ sub TabBlast2Gff                                               #Creates the TabB
             $QStrand."\t".          # Strand
             $Frame."\t".           # Frame
 #            "Name=$Prog"."_HIT_".$SubID.";ID=$QryID|$SubID|$GQstart|$GQend;Parent=$QryID" .                 # Attribute
-            "Name=$Prog"."_HIT_".$SubID.";Parent=$QryID" .                 # Attribute
+            "Name=$Prog"."_HIT_".$SubID."" .                                                                 # Parent=$QryID removed to avoid GFF3 validation errors
             "\n";
 
         my $SGFF =                                      #Subject features
@@ -221,7 +221,7 @@ sub TabBlast2Gff                                               #Creates the TabB
             $SStrand."\t".          # Strand
             $Frame."\t".           # Frame
 #            "Name=$Prog"."_HIT_".$QryID.";ID=$SubID|$QryID|$GSstart|$GSend;Parent=$SubID" .                 # Attribute
-            "Name=$Prog"."_HIT_".$QryID.";Parent=$SubID" .                 # Attribute
+            "Name=$Prog"."_HIT_".$QryID."" .                                                                 # Parent=$SubID removed to avoid GFF3 validation errors
             "\n";
 
             if ("$SubID|$QryID|$GSstart|$GSend" eq "YOL123W|YGL044C|161|218") {
