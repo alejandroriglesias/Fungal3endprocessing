@@ -5,7 +5,7 @@ use Bio::DB::SeqFeature::Store;
 use Bio::SeqFeature::Generic;
 
 #my $ID = <stdin>;
-my $ID = $ARGV[0];
+my $ID = $ARGV[0];									#The ID is introduced when running the script in the terminal
  # Open the sequence database
  my $db      = Bio::DB::SeqFeature::Store->new( -adaptor => 'DBI::mysql',
                                                 -dsn     => 'dbi:mysql:Fungal3endprocessing',
@@ -21,12 +21,12 @@ my $ID = $ARGV[0];
 #my @features = $db->get_features_by_type("polypeptide");
 ## my @features = $db->features(-seq_id => 'CADAFLAT00007143|mRNA');
 ## my $seq = $db->get_Seq_by_id('CADAFLAT00007143|mRNA');
-my @fulllengthfeatures = $db->features(-seqid => $ID, -type => "polypeptide");		#Sequence ID is introduced in this line
+my @fulllengthfeatures = $db->features(-seqid => $ID, -type => "polypeptide");		#Get the features of the full-length protein
 my $FULLLENGTH = shift @fulllengthfeatures;
 my $seqlength = $FULLLENGTH->seq->length;
 
-my @features = $db->get_features_by_location($ID);		#Sequence ID is introduced in this line
-
+my @features = $db->get_features_by_location($ID);
+											#Get the rest of the features
 my $thisfeature = $features[0];
 
 #my $seq_id =$thisfeature->ref;
