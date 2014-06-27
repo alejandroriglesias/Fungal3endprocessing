@@ -153,7 +153,7 @@ sub TabBlast2Gff                                               #Creates the TabB
         
         $HitNum++;
    
-        my ($QryID, $SubID, $PID, $Len, 
+        my ($QryID, $SubID, $Qlen, $PID, $Len,                  #Qlen (not used) variable is added to avoid confusion with the 9 gff columns
             $MisMatch, $GapOpen, 
             $QStart,$QEnd, $SStart, $SEnd,
             $EVal, $BitScore) = split(/\t/);
