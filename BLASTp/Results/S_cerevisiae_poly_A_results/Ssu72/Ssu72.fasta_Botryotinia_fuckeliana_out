@@ -1,0 +1,118 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_1550T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:112...   199   4e-63
+B0510_7236T1 pep:known supercontig:B05.10_v2:Supercontig_1.23:60...    27   3.8  
+B0510_8073T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:31...    26   7.5  
+
+>B0510_1550T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:1126854:1127694:-1
+           gene:B0510_1550 transcript:B0510_1550T1 description:""
+          Length = 260
+
+ Score =  199 bits (505), Expect = 4e-63,   Method: Compositional matrix adjust.
+ Identities = 107/231 (46%), Positives = 140/231 (60%), Gaps = 34/231 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASNNNRSMESH  L  A Y V S+GTGS VRLPG SI +PNVY F  T Y+ +
+Sbjct: 31  LKFCTVCASNNNRSMESHLRLAAAHYPVISFGTGSLVRLPGPSITQPNVYQFNKTSYDSM 90
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           Y +L S+    Y++NG+L ML RNR +K  PE+WQ+                      V 
+Sbjct: 91  YKELESKDPRLYRANGILNMLGRNRSVKWGPERWQDWQVGVPRLQHSTDQGADGVEGGVV 150
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERC+DAV +DL+NRG  LN+ VHVINVDIKD+ E A +G + IL+LAD LN K
+Sbjct: 151 DIVITCEERCWDAVVDDLLNRGSPLNRPVHVINVDIKDNHEEALVGGRGILDLADSLN-K 209
+
+Query: 169 IEQCEKDDIP-------------FEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+               E++  P             F++ + +I+ EWQ     LP+++  +++
+Sbjct: 210 AAAEERELNPAGFDSGSAHSRAGFDERVPEIIGEWQERWPNLPAVWTLAWF 260
+
+
+>B0510_7236T1 pep:known supercontig:B05.10_v2:Supercontig_1.23:608234:609962:1
+           gene:B0510_7236 transcript:B0510_7236T1
+           description:"ATP-dependent RNA helicase dhh1"
+          Length = 538
+
+ Score = 26.9 bits (58), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+>B0510_8073T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:318526:322886:1
+           gene:B0510_8073 transcript:B0510_8073T1 description:""
+          Length = 1351
+
+ Score = 26.2 bits (56), Expect = 7.5,   Method: Compositional matrix adjust.
+ Identities = 15/58 (25%), Positives = 29/58 (50%), Gaps = 7/58 (12%)
+
+Query: 132 KLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMDILTE 189
+           K   I HV    ++   +  + G   +++ AD       + E++D+PF+D + D +TE
+Sbjct: 88  KATNIAHVCG--LESQVQRIERGRAILIKFADP-----SEAEREDLPFKDILYDRMTE 138
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 2,308,946
+Number of extensions: 96947
+Number of successful extensions: 250
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 247
+Number of HSP's successfully gapped: 7
+Length of query: 206
+Length of database: 5,266,216
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,344,977
+Effective search space: 508362309
+Effective search space used: 508362309
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

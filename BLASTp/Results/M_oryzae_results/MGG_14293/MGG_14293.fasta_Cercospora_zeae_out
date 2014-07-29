@@ -1,0 +1,95 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa 
+           12,020 sequences; 5,034,962 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1221_Cercospora_zeae_zm1_GeneCatalog_                                  81   2e-17
+7165_Cercospora_zeae_zm1_GeneCatalog_                                  33   0.13 
+
+>1221_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 349
+
+ Score = 80.9 bits (198), Expect = 2e-17,   Method: Compositional matrix adjust.
+ Identities = 53/140 (37%), Positives = 70/140 (50%), Gaps = 22/140 (15%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSI--PQRSVATD----GTAPAK---------AAPNKKEDTV 123
+           R DG  A PP  SK ++ R    P ++V  +    G  P +         AAP      V
+Sbjct: 56  RPDGAKAEPPPGSKAAKARKKEPPSKAVKIESDRRGGTPVRREDAPRAGSAAPPTAIKGV 115
+
+Query: 124 ------KGSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDY 177
+                 +G D P V  S  D   IP     GKP+  V+ID DL E + PWR PGTD +DY
+Sbjct: 116 LTHNGKEGKDFPEVRTSQLDINQIPVWT-NGKPIVAVDIDADLAEHSKPWRLPGTDQTDY 174
+
+Query: 178 FNYGFDEFSWAIYAQKQNQL 197
+           FNYGFDE++W  Y+ +Q ++
+Sbjct: 175 FNYGFDEYTWTQYSLRQQEM 194
+
+
+>7165_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 2147
+
+ Score = 32.7 bits (73), Expect = 0.13,   Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 29/58 (50%), Gaps = 10/58 (17%)
+
+Query: 87  PPSQSKYSEIRSIPQRS----VATDGTAPAKAAPNKKED------TVKGSDLPPVTKS 134
+           PP +  +++ RSIP  S    VA DG A  K+ PN+K         V   DLP + ++
+Sbjct: 273 PPPRRSFAQSRSIPDPSETPGVAVDGAASTKSFPNEKAKMPMSTVNVGTPDLPRIDRN 330
+
+
+  Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa
+    Posted date:  Feb 26, 2014  1:02 PM
+  Number of letters in database: 5,034,962
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 2,045,889
+Number of extensions: 80635
+Number of successful extensions: 240
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 239
+Number of HSP's successfully gapped: 16
+Length of query: 332
+Length of database: 5,034,962
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 3,905,082
+Effective search space: 929409516
+Effective search space used: 929409516
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

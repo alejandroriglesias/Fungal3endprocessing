@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00008050 pep:known supercontig:CADRE:1.1:168674:171443:-...    99   1e-21
+CADATEAP00006188 pep:known supercontig:CADRE:1.13:1081551:108455...    33   0.48 
+CADATEAP00002928 pep:known supercontig:CADRE:1.17:180727:182409:...    32   0.69 
+CADATEAP00008505 pep:known supercontig:CADRE:1.9:705707:709564:1...    32   0.89 
+CADATEAP00003748 pep:known supercontig:CADRE:1.12:720423:721562:...    30   1.6  
+CADATEAP00008389 pep:known supercontig:CADRE:1.1:1186893:1187937...    30   2.4  
+CADATEAP00009369 pep:known supercontig:CADRE:1.9:1414093:1415387...    28   6.2  
+
+>CADATEAP00008050 pep:known supercontig:CADRE:1.1:168674:171443:-1
+           gene:CADATEAG00008050 transcript:CADATEAT00008050
+           description:"Putative uncharacterized protein"
+          Length = 689
+
+ Score = 99.0 bits (245), Expect = 1e-21,   Method: Compositional matrix adjust.
+ Identities = 62/190 (32%), Positives = 96/190 (50%), Gaps = 30/190 (15%)
+
+Query: 626 WLHVLIRLVTR---GIEAQ------EAS------DLIREELLGFFIQDFEQRVSLIIEWL 670
+           W+ VL RL TR   G+EA       EAS      D IRE L  + ++DF  RV++ I WL
+Sbjct: 456 WVTVLTRLATRAPAGLEADGKKAADEASRKPAIADSIRETLYRYILEDFRGRVNVGIMWL 515
+
+Query: 671 NEEWF-------FQTSLHQD--------PSNYKKWSLRVLESLGPFLENKHRRFFIRLMS 715
+           NEEW+       F  +   D        P +Y  W+L++L+   P+L+++  + FIR +S
+Sbjct: 516 NEEWYNDRVQMTFVATHRSDDDDEEPSVPLHYDHWALKLLDGFLPYLDSRDMKIFIRFLS 575
+
+Query: 716 ELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHK 775
+           E+P +     + +  +  DP R +L  Q+L +LIMFRPP ++   + L  + Q  E    
+Sbjct: 576 EIPEVTIPITKRVASLAKDPERVNLCVQSLLYLIMFRPPAREICLNALEDVYQTYEESRP 635
+
+Query: 776 QCDSLLDRLK 785
+               +L R +
+Sbjct: 636 SAGKILARWR 645
+
+
+
+ Score = 56.2 bits (134), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 44/153 (28%), Positives = 64/153 (41%), Gaps = 32/153 (20%)
+
+Query: 91  DVLVYKNIVLIMCASYPLVL-DLVAKTSNQEMFDQLCMLKKFVLSHWRT-AYPLRATVDD 148
+           D    K IV    + YPLV   ++    +  +++ +  +K+ +L  W +  YP       
+Sbjct: 91  DTATLKYIVQTAASLYPLVFRHIINHPDDAAVWENMTAMKQDILRRWDSFPYP------- 143
+
+Query: 149 ETDVEQWLAQIDQNIGVKLATIKFISEVVLSQT-------KSPSGNEINSSTIPDNHPVL 201
+                           VK+  IKF+  VV  QT       + P  NE + + +P NH VL
+Sbjct: 144 ----------------VKICCIKFVQRVVQVQTHGLIADPRRPDQNETSLAIVPRNHAVL 187
+
+Query: 202 NKPALESEAKRLLDMLLNYLIEEQYMVSSVFIG 234
+             P LE+EA  LLD LL+   EE    S    G
+Sbjct: 188 TLPNLEAEASGLLDRLLSVFQEESRNPSHPLAG 220
+
+
+>CADATEAP00006188 pep:known supercontig:CADRE:1.13:1081551:1084551:-1
+           gene:CADATEAG00006188 transcript:CADATEAT00006188
+           description:"Putative uncharacterized protein"
+          Length = 977
+
+ Score = 32.7 bits (73), Expect = 0.48,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 32/60 (53%), Gaps = 4/60 (6%)
+
+Query: 664 SLIIEWLNEEW--FFQTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQ 721
+           ++ +++L   W  FF+++LH        W  + L S  P ++ K R FF+   S+ PS+Q
+Sbjct: 317 AIFLQYLGVRWSVFFKSALHDFRKTRYYW--KTLRSQVPAIDKKRREFFLDKCSDKPSVQ 374
+
+
+>CADATEAP00002928 pep:known supercontig:CADRE:1.17:180727:182409:-1
+           gene:CADATEAG00002928 transcript:CADATEAT00002928
+           description:"Putative uncharacterized protein"
+          Length = 510
+
+ Score = 32.0 bits (71), Expect = 0.69,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 38/75 (50%), Gaps = 7/75 (9%)
+
+Query: 156 LAQIDQNIGVKLATIKF-ISEVVLSQTKSPSGNEINSSTIPDNHPVLNKPALESE----- 209
+           +  I  +IG  L    F I ++++ +  +  GN +N+STIP  H  L KP+   +     
+Sbjct: 91  IGCIVLSIGAALQAASFGIPQLIVGRIVAGLGNGMNTSTIPVWHSELMKPSSRGKGLCIE 150
+
+Query: 210 -AKRLLDMLLNYLIE 223
+            A  +  ++L+Y ++
+Sbjct: 151 LAINIFGVMLSYWVD 165
+
+
+>CADATEAP00008505 pep:known supercontig:CADRE:1.9:705707:709564:1 gene:CADATEAG00008505
+            transcript:CADATEAT00008505 description:"Predicted
+            protein"
+          Length = 1285
+
+ Score = 31.6 bits (70), Expect = 0.89,   Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 30/55 (54%), Gaps = 5/55 (9%)
+
+Query: 121  MFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWL-----AQIDQNIGVKLATI 170
+            +F+ +   K+ VLS W  AYP  ++  D+   + W+     A +D+ +G +L T+
+Sbjct: 1062 LFEVVKKEKRTVLSQWEKAYPQLSSDRDDDLCQPWIEAQEQANLDKEVGGQLHTV 1116
+
+
+>CADATEAP00003748 pep:known supercontig:CADRE:1.12:720423:721562:-1
+           gene:CADATEAG00003748 transcript:CADATEAT00003748
+           description:"Predicted protein"
+          Length = 309
+
+ Score = 30.4 bits (67), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 22/38 (57%)
+
+Query: 701 FLENKHRRFFIRLMSELPSLQSDHLEALKPICLDPARS 738
+           FL+     F+I  +++   L   H+E+  P+ LDPA+S
+Sbjct: 116 FLDAHPTGFYIAALNDGEKLSGLHVESNVPVTLDPAKS 153
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 6,263,761
+Number of extensions: 230610
+Number of successful extensions: 690
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 688
+Number of HSP's successfully gapped: 11
+Length of query: 785
+Length of database: 5,192,116
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,131,112
+Effective search space: 2821549496
+Effective search space used: 2821549496
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

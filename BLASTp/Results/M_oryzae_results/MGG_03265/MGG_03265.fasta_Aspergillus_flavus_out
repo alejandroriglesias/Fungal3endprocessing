@@ -1,0 +1,289 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00002538 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2...   764   0.0  
+CADAFLAP00004780 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1...    59   4e-09
+CADAFLAP00008378 pep:known supercontig:JCVI-afl1-v2.0:EQ963479:1...    45   9e-05
+CADAFLAP00003361 pep:known supercontig:JCVI-afl1-v2.0:EQ963474:5...    34   0.23 
+CADAFLAP00008979 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:1...    34   0.33 
+CADAFLAP00010078 pep:known supercontig:JCVI-afl1-v2.0:EQ963481:1...    33   0.36 
+CADAFLAP00002236 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:1...    31   2.1  
+CADAFLAP00011580 pep:known supercontig:JCVI-afl1-v2.0:EQ963484:3...    30   2.6  
+CADAFLAP00008392 pep:known supercontig:JCVI-afl1-v2.0:EQ963479:1...    30   3.5  
+CADAFLAP00007527 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    30   3.7  
+CADAFLAP00008602 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:2...    30   6.3  
+CADAFLAP00002072 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:1...    29   8.0  
+CADAFLAP00005083 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:2...    29   8.7  
+
+>CADAFLAP00002538 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2393942:2397244:1
+           gene:CADAFLAG00002538 transcript:CADAFLAT00002538
+           description:"CFIA complex component Rna14, putative "
+          Length = 1014
+
+ Score =  764 bits (1972), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 385/766 (50%), Positives = 513/766 (66%), Gaps = 37/766 (4%)
+
+Query: 164 DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+           D + +LE R++EDPRG + +WL LI  +R RN I+  R+V+ERFL  FP +AE WV YA 
+Sbjct: 249 DRVGILEDRIQEDPRGDIPAWLELINEHRNRNRIDSAREVYERFLTAFPFSAEQWVAYAT 308
+
+Query: 224 MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLN-DSSGRARQVVTQAYDFV 282
+           ME         E IF ++L+++P+VQLWTVYLDY+RRRN L  D++G++R++++ AYD  
+Sbjct: 309 MESELNELYRLEQIFNRTLLTIPDVQLWTVYLDYVRRRNPLTTDTTGQSRRIISSAYDLA 368
+
+Query: 283 IDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTL 342
+           +  VG+DKD+  IW DY+QFIR  PG VGGS WQDQQKMD LRKAYQ+A+C+P   VN L
+Sbjct: 369 LQYVGVDKDSGSIWTDYVQFIRSGPGNVGGSGWQDQQKMDLLRKAYQKAICVPTQAVNNL 428
+
+Query: 343 WREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEG 402
+           W+EYDQFE GLN  TGRK+L E+SPAYMTA+S+ T L+NI R+L RTTLPRLPP  G +G
+Sbjct: 429 WKEYDQFEMGLNKLTGRKFLQEQSPAYMTARSSYTELQNITRDLNRTTLPRLPPVLGSDG 488
+
+Query: 403 DVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAE 462
+           D+EF +QVD+WKRW+KWEK DPL L  +D   FK R++Y YKQA+MALRF PEIW +AAE
+Sbjct: 489 DIEFGQQVDIWKRWIKWEKGDPLVLKEEDQAAFKARVIYVYKQALMALRFLPEIWFEAAE 548
+
+Query: 463 WCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAV 522
+           +CF N +    ++ G EFL  GIEANPES LLA K ADR+E T    E +   I+RG  V
+Sbjct: 549 FCFLNDM----ENEGNEFLKNGIEANPESCLLAFKRADRLEIT---SESEQDPIKRGAKV 601
+
+Query: 523 KAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSV-PEHE------IEEGEDCANPMPS 575
+           + PY+KLL+ LY  I   + +E  ++ +L E+   + P+ +       ++ +  +    S
+Sbjct: 602 REPYDKLLNALYDLIAKARTRESQDVARLEETFAKINPDTQPSKTDDDDDDQSDSKARES 661
+
+Query: 576 ELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARK 635
+               +I AL      Q  +L++TVSF WIAL RAMRRIQGKG+PG  M G RQVF++ARK
+Sbjct: 662 MKNAQIEALRNAHAIQIGILSKTVSFAWIALMRAMRRIQGKGKPGE-MPGSRQVFADARK 720
+
+Query: 636 RGRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNAR 695
+           RGR+TSDVY+A A +E+  YKDP+  KIF+RG+KLFPEDE F LEYLK+L    D  NAR
+Sbjct: 721 RGRITSDVYIASALIEYHCYKDPAATKIFERGAKLFPEDENFALEYLKHLIDINDVINAR 780
+
+Query: 696 VVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHF 755
+            VFE  V KL  NP  VHK KP++++ H+YES++G+L Q   LE RM ELFPEDP+L  F
+Sbjct: 781 AVFEMTVRKLASNPENVHKTKPIFAFLHEYESRYGDLVQVINLENRMRELFPEDPTLEQF 840
+
+Query: 756 SARFMSDRFDPIAARIIVSPAAQLRPKMVMPSIEANARAGSPMIRPLNSPKVGFLQAVNS 815
+           + R+ S  FDP   R I+SP +Q RPK   P+ +  +R G+P  R  ++         NS
+Sbjct: 841 AHRYSSPAFDPTVVRPIISP-SQTRPKTAFPTEQPVSRHGTPSSRYPDA------SVTNS 893
+
+Query: 816 PKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAAGRRLE----NQRRIHGQGPASY 871
+           PKRPL  +DF+D       + N  R+F RA+SPLK    R+L+     Q+ I  Q  + +
+Sbjct: 894 PKRPL--EDFDD-------EMNRPRKFIRADSPLKTTQRRQLDPPKRTQQVISNQTGSQF 944
+
+Query: 872 NTAPAPA-IPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVP 916
+            +  +PA +PR+I +LLS +P A  YN+ R S  ++VD +R   +P
+Sbjct: 945 RSQGSPAPLPRDIVYLLSIIPSASAYNAGRFSPEKLVDLIRRIDMP 990
+
+
+>CADAFLAP00004780 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1674658:1677022:-1
+           gene:CADAFLAG00004780 transcript:CADAFLAT00004780
+           description:"mRNA splicing protein (Prp39), putative "
+          Length = 590
+
+ Score = 59.3 bits (142), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 43/145 (29%), Positives = 70/145 (48%), Gaps = 19/145 (13%)
+
+Query: 169 LELRVKEDPRGAMDSWLSLIAAYR------QRNN----IEQCRDVFERFLAVFPHAAEVW 218
+           LE  + +DP    ++W  L+ A         RN+    I   R+V++RFLA FP     W
+Sbjct: 19  LEAELLDDPDN-FETWERLVRAGEALEGGINRNSNPQAITTVRNVYDRFLAKFPLLFGYW 77
+
+Query: 219 VQYADMELSQGNFVEAEAIFGKSLMSV-PNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+            +YAD+E S      A+ ++ + + S+ P+V LWT Y  +    +   D       V+ +
+Sbjct: 78  KKYADLEFSITGTEAADMVYERGVASISPSVDLWTNYCSFKAETSHDAD-------VIRE 130
+
+Query: 278 AYDFVIDNVGLDKDASKIWNDYIQF 302
+            ++    +VGLD  A   W+ YI+F
+Sbjct: 131 LFERGASSVGLDFLAHPFWDKYIEF 155
+
+
+>CADAFLAP00008378 pep:known supercontig:JCVI-afl1-v2.0:EQ963479:1441328:1443396:-1
+           gene:CADAFLAG00008378 transcript:CADAFLAT00008378
+           description:"Cell cycle control protein (Cwf4), putative
+           "
+          Length = 670
+
+ Score = 45.4 bits (106), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 23/94 (24%), Positives = 43/94 (45%), Gaps = 4/94 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I A  +  NI   R++ +R + + P   ++W +Y  ME + GN      +F + + 
+Sbjct: 109 WIRYIEAEMRNRNINHARNLLDRAVTILPRVDKLWYKYVYMEETLGNIPGTRQVFERWMS 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+             P    W+ Y+   +R N+      RAR +  +
+Sbjct: 169 WEPEEGAWSAYIKLEKRYNEFE----RARNIFQR 198
+
+
+
+ Score = 45.1 bits (105), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 21/79 (26%), Positives = 41/79 (51%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  M++W+   A   ++    + R +FER L V P +  +W++Y + E+   N   A  +
+Sbjct: 69  RINMNNWMRYAAWELEQKEFRRARSIFERALDVLPTSVPLWIRYIEAEMRNRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTILPRVDKLWYKYV 147
+
+
+
+ Score = 39.3 bits (90), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 55/115 (47%), Gaps = 17/115 (14%)
+
+Query: 192 RQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL----MSVPN 247
+           RQ     +CR +FE+ +   P  ++ W+Q+A++E    +   A AIF   +    + +P 
+Sbjct: 447 RQLFEFVRCRTLFEKQIEWNPSNSQSWIQFAELERGLDDSDRARAIFELGIEQPTLDMPE 506
+
+Query: 248 VQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+           + +W  Y+D+     +      R RQ+    Y+ +++      D  K+W +Y +F
+Sbjct: 507 L-VWKSYIDF----EEYEGEYDRVRQL----YERLLEKT----DHVKVWINYARF 548
+
+
+
+ Score = 32.7 bits (73), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 47/219 (21%), Positives = 84/219 (38%), Gaps = 49/219 (22%)
+
+Query: 170 ELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQ 220
+           E ++KE+PR   D W           + E+ RD +ER +A  P + E         +W+ 
+Sbjct: 311 EEQLKENPRN-YDIWFDFTRLEETSGDPERVRDTYERAIAQIPPSQEKRHWRRYIYLWIF 369
+
+Query: 221 YADMELSQGNFVE-AEAIFGKSLMSVPN-----VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+           YA  E  +   VE A  I+ + L  +P+      ++W +   +  R+ +L  +     Q 
+Sbjct: 370 YAIWEEMEAKDVERARQIYNECLKLIPHKKFTFAKIWLMKAQFEIRQMELQTARKTLGQA 429
+
+Query: 275 V----------------TQAYDFVIDNVGLDKDASKIWN-----DYIQFIRLAPGVVGGS 313
+           +                 Q ++FV      +K     WN      +IQF  L  G+    
+Sbjct: 430 IGMCPKDKLFRGYIDLERQLFEFVRCRTLFEKQIE--WNPSNSQSWIQFAELERGLDDS- 486
+
+Query: 314 AWQDQQKMDQLRKAYQRAVCIPLSNV-NTLWREYDQFEK 351
+                   D+ R  ++  +  P  ++   +W+ Y  FE+
+Sbjct: 487 --------DRARAIFELGIEQPTLDMPELVWKSYIDFEE 517
+
+
+
+ Score = 31.6 bits (70), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 15/63 (23%), Positives = 31/63 (49%), Gaps = 1/63 (1%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W + I   ++ N  E+ R++F+RF  V P     W+++A  E   G       ++G  +
+Sbjct: 175 AWSAYIKLEKRYNEFERARNIFQRFTIVHPEPRN-WIKWARFEEEYGTSDLVREVYGAGI 233
+
+Query: 243 MSV 245
+            ++
+Sbjct: 234 EAL 236
+
+
+>CADAFLAP00003361 pep:known supercontig:JCVI-afl1-v2.0:EQ963474:519671:525273:-1
+            gene:CADAFLAG00003361 transcript:CADAFLAT00003361
+            description:"rRNA biogenesis protein RRP5, putative "
+          Length = 1827
+
+ Score = 34.3 bits (77), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 27/50 (54%)
+
+Query: 193  QRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+            +  ++E+ R VFE  L+ FP   ++W    D+E+  G+  +   +F + L
+Sbjct: 1713 EHGDVERGRTVFEGLLSSFPKRIDLWNILLDLEIKNGDAEQVRRLFERVL 1762
+
+
+>CADAFLAP00008979 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:1047578:1050558:-1
+           gene:CADAFLAG00008979 transcript:CADAFLAT00008979
+           description:"DNA repair and transcription protein
+           (Xab2), putative "
+          Length = 923
+
+ Score = 33.9 bits (76), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 31/62 (50%), Gaps = 4/62 (6%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAV----FPHAAEVWVQYADMELSQGNFVEAEAIFG 239
+           W++    Y    +++  R +FE+ + V        AE W ++A+MEL   NF +A  +  
+Sbjct: 496 WVNYAKFYESGGDLDTARVIFEKAVKVPFKSVAELAETWCEWAEMELRGENFDKAVEVMA 555
+
+Query: 240 KS 241
+           K+
+Sbjct: 556 KA 557
+
+
+
+ Score = 30.0 bits (66), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 17/68 (25%), Positives = 30/68 (44%), Gaps = 13/68 (19%)
+
+Query: 294 KIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREYDQFEKG 352
+           +IW  Y+ F+   P V             Q R+ + RA+  +P++  N +W+ Y  F + 
+Sbjct: 233 RIWELYLSFLLQQPLVT------------QTRRTFDRALRALPITQHNRIWKLYKAFARS 280
+
+Query: 353 LNPTTGRK 360
+            +  T  K
+Sbjct: 281 ASGQTAVK 288
+
+
+
+ Score = 29.3 bits (64), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 25/43 (58%), Gaps = 2/43 (4%)
+
+Query: 201 RDVFERFLAVFP--HAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           R ++ER +A  P   A E+ +++A+ME   G    A AI+G +
+Sbjct: 746 RPIYERAIAALPDQEAKEMCLKFAEMERRLGEIDRARAIYGHA 788
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 12,450,423
+Number of extensions: 564272
+Number of successful extensions: 2044
+Number of sequences better than 10.0: 53
+Number of HSP's gapped: 2017
+Number of HSP's successfully gapped: 65
+Length of query: 1057
+Length of database: 5,672,061
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 4,269,413
+Effective search space: 4068750589
+Effective search space used: 4068750589
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)

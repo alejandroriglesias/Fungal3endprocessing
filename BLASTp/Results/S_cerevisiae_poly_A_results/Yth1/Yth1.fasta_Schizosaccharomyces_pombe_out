@@ -1,0 +1,199 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC227.08c.1:pep pep:known chromosome:ASM294v2:I:510410:511433:...   130   3e-38
+SPBC337.12.1:pep pep:known chromosome:ASM294v2:II:1051557:105361...    64   7e-13
+SPAC3A11.02.1:pep pep:known chromosome:ASM294v2:I:3467903:347024...    33   0.031
+SPAP8A3.06.1:pep pep:known chromosome:ASM294v2:I:5325582:5326435...    29   0.41 
+SPAC3A12.11c.1:pep pep:known chromosome:ASM294v2:I:1439245:14406...    29   0.46 
+SPCC1739.01.1:pep pep:known chromosome:ASM294v2:III:2024482:2029...    28   0.59 
+SPCC4B3.04c.1:pep pep:known chromosome:ASM294v2:III:1168517:1173...    28   0.86 
+SPBPB2B2.02.1:pep pep:known chromosome:ASM294v2:II:4460486:44621...    26   4.1  
+SPBC1718.07c.1:pep pep:known chromosome:ASM294v2:II:3482848:3487...    26   4.7  
+
+>SPAC227.08c.1:pep pep:known chromosome:ASM294v2:I:510410:511433:-1 gene:SPAC227.08c
+           transcript:SPAC227.08c.1 description:"mRNA cleavage and
+           polyadenylation specificity factor complex Yth1"
+          Length = 170
+
+ Score =  130 bits (328), Expect = 3e-38,   Method: Compositional matrix adjust.
+ Identities = 67/171 (39%), Positives = 98/171 (57%), Gaps = 21/171 (12%)
+
+Query: 4   IHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQN 63
+           I  D +   F+F+ +L+Q ++F            NS  G  S  +               
+Sbjct: 10  IAADFSSVQFRFDNYLKQNFNFGRS------ALLNSGNGRDSGSK-------------MG 50
+
+Query: 64  KIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPK 123
+            +VC+HWLRGLCKK +QC++LHEYNL+KMP C F+++ G+C+   +C YLH+DP+ ++  
+Sbjct: 51  SVVCKHWLRGLCKKGEQCDFLHEYNLKKMPPCHFYAERGWCSNGEECLYLHLDPSKQVGV 110
+
+Query: 124 CENYEMGFCPLGSSCPRRHIKKVF-CQRYMTGFCPLGKDECDMEHPQFIIP 173
+           C  Y MGFCPLG  C  +H++K   C +Y+ GFCPLG + C   HP+   P
+Sbjct: 111 CAWYNMGFCPLGPICRGKHVRKPRPCPKYLAGFCPLGPN-CPDAHPKHSEP 160
+
+
+>SPBC337.12.1:pep pep:known chromosome:ASM294v2:II:1051557:1053615:1 gene:SPBC337.12
+           transcript:SPBC337.12.1 description:"human ZC3H3
+           homolog"
+          Length = 376
+
+ Score = 64.3 bits (155), Expect = 7e-13,   Method: Compositional matrix adjust.
+ Identities = 52/166 (31%), Positives = 79/166 (47%), Gaps = 17/166 (10%)
+
+Query: 4   IHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQN 63
+           ++ +   Y  K + FL++       P    C +YN+      C +G  C   H  P    
+Sbjct: 181 LYWNNKSYLLKKKRFLKE---VGNSPSAVYCRYYNAN---GICGKGAACRFVHE-PT--R 231
+
+Query: 64  KIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPK 123
+           K +C  +L G C K + C   HE + R++P C +F   G C  +P+C+Y+HI  +   P 
+Sbjct: 232 KTICPKFLNGRCNKAEDCNLSHELDPRRIPACRYFLL-GKCN-NPNCRYVHIHYSENAPI 289
+
+Query: 124 C-ENYEMGFCPLGSSCPRRHIKKVFCQRY-MTGFCPLGKDECDMEH 167
+           C E  + GFC LG+SC  +HI  + C  Y M G C     +C + H
+Sbjct: 290 CFEFAKYGFCELGTSCKNQHI--LQCTDYAMFGSC--NNPQCSLYH 331
+
+
+>SPAC3A11.02.1:pep pep:known chromosome:ASM294v2:I:3467903:3470242:-1 gene:SPAC3A11.02
+           transcript:SPAC3A11.02.1 description:"zinc finger
+           protein Cps3"
+          Length = 583
+
+ Score = 32.7 bits (73), Expect = 0.031,   Method: Compositional matrix adjust.
+ Identities = 21/83 (25%), Positives = 41/83 (49%), Gaps = 7/83 (8%)
+
+Query: 88  NLRKMPECVFFSKNGYCTQSPDCQYLH-IDPASKIPKCENYEMGFCPLGSSCPRRHI--- 143
+           +L+ +P C FF + G CT   +C + H ++ A++   C+ ++ G C  GS C   H+   
+Sbjct: 35  SLQHVP-CKFF-RQGTCTSGKNCIFSHDLELATEKTICKYFQKGNCKFGSKCALEHVLPD 92
+
+Query: 144 -KKVFCQRYMTGFCPLGKDECDM 165
+            +KV  + +      +G    ++
+Sbjct: 93  GRKVKTRAFAPSTTAMGSSSQNI 115
+
+
+
+ Score = 31.2 bits (69), Expect = 0.085,   Method: Compositional matrix adjust.
+ Identities = 16/52 (30%), Positives = 27/52 (51%), Gaps = 4/52 (7%)
+
+Query: 34 CEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLH 85
+          C+F+  R+G  +C  G  C   H L +   K +C+++ +G CK   +C   H
+Sbjct: 41 CKFF--RQG--TCTSGKNCIFSHDLELATEKTICKYFQKGNCKFGSKCALEH 88
+
+
+
+ Score = 28.1 bits (61), Expect = 0.87,   Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 29/75 (38%), Gaps = 2/75 (2%)
+
+Query: 65  IVCRHWLRGLCKKNDQCEYLHEYNLRKMPE-CVFFSKNGYCTQSPDCQYLHIDPASKIPK 123
+           + C+ + +G C     C + H+  L      C +F K G C     C   H+ P  +  K
+Sbjct: 39  VPCKFFRQGTCTSGKNCIFSHDLELATEKTICKYFQK-GNCKFGSKCALEHVLPDGRKVK 97
+
+Query: 124 CENYEMGFCPLGSSC 138
+              +      +GSS 
+Sbjct: 98  TRAFAPSTTAMGSSS 112
+
+
+>SPAP8A3.06.1:pep pep:known chromosome:ASM294v2:I:5325582:5326435:1 gene:SPAP8A3.06
+          transcript:SPAP8A3.06.1 description:"U2AF small
+          subunit, U2AF-23"
+          Length = 216
+
+ Score = 28.9 bits (63), Expect = 0.41,   Method: Compositional matrix adjust.
+ Identities = 14/43 (32%), Positives = 20/43 (46%), Gaps = 3/43 (6%)
+
+Query: 25 FSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVC 67
+          +  + D+  C FY       +C  G  C +KHV P F   I+C
+Sbjct: 9  YGTEQDKVNCSFYYK---IGACRHGERCSRKHVKPNFSQTILC 48
+
+
+
+ Score = 27.3 bits (59), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 13/31 (41%), Positives = 17/31 (54%), Gaps = 3/31 (9%)
+
+Query: 127 YEMGFCPLGSSCPRRHIKKVFCQRYMTGFCP 157
+           Y++G C  G  C R+H+K  F Q   T  CP
+Sbjct: 22  YKIGACRHGERCSRKHVKPNFSQ---TILCP 49
+
+
+>SPAC3A12.11c.1:pep pep:known chromosome:ASM294v2:I:1439245:1440658:-1
+           gene:SPAC3A12.11c transcript:SPAC3A12.11c.1
+           description:"RNA-binding protein Cwf2"
+          Length = 388
+
+ Score = 28.9 bits (63), Expect = 0.46,   Method: Compositional matrix adjust.
+ Identities = 14/39 (35%), Positives = 23/39 (58%), Gaps = 6/39 (15%)
+
+Query: 67  CRHWLRGLCKKNDQCEYLHEYNLRKMP-ECVFFSKNGYC 104
+           C ++ RG+C +  +CEYLH     ++P +  FF+ N  C
+Sbjct: 117 CLYFARGMCSEGSKCEYLH-----RLPKDTDFFNANVDC 150
+
+
+
+ Score = 25.0 bits (53), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 15/20 (75%), Gaps = 1/20 (5%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYLH 114
+           C++F++ G C++   C+YLH
+Sbjct: 117 CLYFAR-GMCSEGSKCEYLH 135
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 1,147,319
+Number of extensions: 52311
+Number of successful extensions: 132
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 116
+Number of HSP's successfully gapped: 20
+Length of query: 208
+Length of database: 2,387,769
+Length adjustment: 84
+Effective length of query: 124
+Effective length of database: 1,955,673
+Effective search space: 242503452
+Effective search space used: 242503452
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 48 (23.1 bits)

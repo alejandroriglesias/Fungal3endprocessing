@@ -1,0 +1,109 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00009085 pep:known chromosome:CADRE:VII:1125822:1127147:...   174   1e-49
+CADANGAP00002717 pep:known chromosome:CADRE:IV:2955626:2957344:-...    29   2.7  
+
+>CADANGAP00009085 pep:known chromosome:CADRE:VII:1125822:1127147:-1
+           gene:CADANGAG00009262 transcript:CADANGAT00009262
+           description:"Similarity to hypothetical protein MDF20.11
+           - Arabidopsis thaliana"
+          Length = 402
+
+ Score =  174 bits (442), Expect = 1e-49,   Method: Compositional matrix adjust.
+ Identities = 108/231 (46%), Positives = 132/231 (57%), Gaps = 24/231 (10%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGG----DDNKHD---------QSYEGGDHQDGHGAN 42
+           MA ED  F+IDIYGD    N  +QG     D+ KHD         +  + G+   G G++
+Sbjct: 1   MATEDDNFDIDIYGDGGGYNANEQGDFKPEDEMKHDDTELILDAPEPTQNGNPNQGDGSS 60
+
+Query: 43  DNEQYRDDQQXXXXXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILIS 102
+           D     D +                     TP     +KRKE  DDR  DP AT A+LIS
+Sbjct: 61  DGTVKPDSEGGAPHSDPVTQAANPQSAAKDTPAPQQGVKRKE-HDDRPTDPDATPALLIS 119
+
+Query: 103 ELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLE 162
+           +L WW TDDDIRGW+ +A CE+ELKD+TFSEHKVNGKSKGQ ++E T+ QAATA KH++E
+Sbjct: 120 DLYWWTTDDDIRGWVCQADCEDELKDVTFSEHKVNGKSKGQAFLEFTTLQAATATKHKIE 179
+
+Query: 163 SSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYN 213
+           S    G +   RK  V Y+SP  NPFRTLPKD P   KD Q R  SG G+N
+Sbjct: 180 SFSAGGQT---RKHMVTYTSPQPNPFRTLPKDAPMR-KDNQARSMSG-GFN 225
+
+
+>CADANGAP00002717 pep:known chromosome:CADRE:IV:2955626:2957344:-1
+           gene:CADANGAG00002790 transcript:CADANGAT00002790
+           description:"Function\x3a High levels of CP-RBP30 mRNA
+           was found in leaves but not in roots"
+          Length = 538
+
+ Score = 29.3 bits (64), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 22/80 (27%), Positives = 39/80 (48%), Gaps = 14/80 (17%)
+
+Query: 71  SATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIR-EAGCEEELKDI 129
+           SATP++S        ++D A  PGA++ + +  L W + +     W++ E     EL  +
+Sbjct: 270 SATPKKSK-------TEDPA--PGASANLFVGNLSWNVDE----AWLQSEFESFGELSGV 316
+
+Query: 130 TFSEHKVNGKSKGQVYIELT 149
+                +  G+S+G  Y+E T
+Sbjct: 317 RIMTERDTGRSRGFGYVEYT 336
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 3,270,816
+Number of extensions: 127369
+Number of successful extensions: 323
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 317
+Number of HSP's successfully gapped: 11
+Length of query: 424
+Length of database: 6,195,193
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,830,597
+Effective search space: 1579605219
+Effective search space used: 1579605219
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

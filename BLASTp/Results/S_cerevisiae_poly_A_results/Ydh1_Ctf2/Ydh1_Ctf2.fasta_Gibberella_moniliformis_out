@@ -1,0 +1,150 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_11466T0 pep:known chromosome:ASM14955v1:7:2220644:2223954:-...   117   4e-27
+FVEG_03663T0 pep:known chromosome:ASM14955v1:2:2661941:2663004:1...    31   1.5  
+
+>FVEG_11466T0 pep:known chromosome:ASM14955v1:7:2220644:2223954:-1
+           gene:FVEG_11466 transcript:FVEG_11466T0
+           description:"conserved hypothetical protein"
+          Length = 931
+
+ Score =  117 bits (293), Expect = 4e-27,   Method: Compositional matrix adjust.
+ Identities = 103/334 (30%), Positives = 157/334 (47%), Gaps = 50/334 (14%)
+
+Query: 18  SVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYN 76
+           S++  D  V +L+D GW+ +    E+ +K  EK +  + +I+++  T   L A++    N
+Sbjct: 19  SLLELDGGVKVLVDLGWDET-FDVEK-LKEIEKQVTTLSLILVTHATASHLAAYAHCCKN 76
+
+Query: 77  FTSHFISRIQVYATLPVINLGRVSTIDSYAS---AGVIGPYD-------------TNKLD 120
+                 +RI VYAT PVI+LGR    D Y S   A    P               T   +
+Sbjct: 77  IPQ--FTRIPVYATRPVIDLGRTLIQDLYTSSPAAATTIPQSSLTESAYSLTQTATTAQN 134
+
+Query: 121 L-------EDIEISFDHIVPLKYSQ-----LVDLRSRYDGLTLLAYNAGVCPGGSIWCIS 168
+           L       E+I   F  I PLKYSQ             +GLT+ AYN+G   GG+IW I 
+Sbjct: 135 LLLQSPTNEEIARYFSLIQPLKYSQPHQPLPSPFSPPLNGLTITAYNSGHTLGGTIWHIQ 194
+
+Query: 169 TYSEKLVYAKRWNHTRDNIL----NAASILDATGKPLSTLMRPSAIITT---LDRFGSSQ 221
+              E +VYA  WN  R+N+               + +  L +P+A+I +    DR   + 
+Sbjct: 195 HGLESIVYAVDWNQARENVFAGAAWLGGAGGGGAEVIEQLRKPTALICSSRGADRTAQTG 254
+
+Query: 222 PFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPVLI 281
+              KR +   DT+K  ++  G+V+IPVD S + L+L      LL  + + +A +   VL 
+Sbjct: 255 GRAKRDEQLVDTIKACVTRGGTVLIPVDSSARVLEL----SYLLEHAWRTDAASDNGVLK 310
+
+Query: 282 LS--YARGR----TLTYAKSMLEWLSPSLLKTWE 309
+            +  Y  GR    T+ YA+SMLEW+  S+++ +E
+Sbjct: 311 TAKLYLAGRNMSSTMRYARSMLEWMDDSIVQEFE 344
+
+
+
+ Score = 67.8 bits (164), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 81/368 (22%), Positives = 156/368 (42%), Gaps = 67/368 (18%)
+
+Query: 532 SKHKMFPFNPAKIKKDDYGTVVDFTMFL------PDDSDNVNQNS------RKRPLKDGA 579
+            + + FP    + ++DD+G ++    +L       +  DN +  +      +KR   D A
+Sbjct: 588 GRERTFPIAIRRKRQDDFGELIRPEDYLRAEEKEEEGQDNTSMEAADDKLGKKRRWDDFA 647
+
+Query: 580 KTTSPVXXXXXXXXXXXGYNMSDPISKRSKHRASRYSGFSGTGEAENFDNLDYLKIDKTL 639
+           KT +                M    +   +  A  + GF      +  D+++ ++I++  
+Sbjct: 648 KTVAGAKRQQ---------GMRAGSADGEEAAAGDHDGFV----PDELDSVEDIEIEEPT 694
+
+Query: 640 S--KRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQN----EE 693
+              K T  T  VQ    +  ++   L D+RS +++ P ++ RK++L   ++ +     E+
+Sbjct: 695 GPCKLTYQTETVQTNMRIAFVDFSGLHDKRSLNMLIPLIQPRKLILVGGERDETLSLAED 754
+
+Query: 694 ITAKL----------IKKNIEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQRISD- 742
+               L           K++++V    +  +V+ S       + +   L   +KWQ     
+Sbjct: 755 CRRALGGDNGNADTGSKRSVDVYTPEVGVVVDASVDTNAWVVKLADPLVRKIKWQNRQKT 814
+
+Query: 743 ---SYTVATVVGRLVKESLPQVN---NHQKTASRSKLVLKPLHGSSRSHKTGALSIGDVR 796
+              S T  T +   +  + P ++    +  +A RS    +PLH            +GD+R
+Sbjct: 815 EEASSTTLTNMAADIPSATPVLDVLPANLISAVRS--AAQPLH------------VGDLR 860
+
+Query: 797 LAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRKINDAETIID--GTPS---ELFDTVKKL 851
+           LA L++ +    + AEF+GEGTLV++  VAVRK +     ++  G P+     F  V+K+
+Sbjct: 861 LADLRRAMQSAGHAAEFRGEGTLVVDGTVAVRKTSAGRVEVESVGMPTARRSTFYEVRKM 920
+
+Query: 852 VTDMLAKI 859
+           + D LA +
+Sbjct: 921 IYDNLAVV 928
+
+
+>FVEG_03663T0 pep:known chromosome:ASM14955v1:2:2661941:2663004:1 gene:FVEG_03663
+           transcript:FVEG_03663T0 description:"conserved
+           hypothetical protein"
+          Length = 280
+
+ Score = 30.8 bits (68), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 47/104 (45%), Gaps = 10/104 (9%)
+
+Query: 18  SVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYNF 77
+           S   F +V +L+   W+  K  + QCI+++ K    ID++I +   +E      +   + 
+Sbjct: 66  SAALFISVNILV---WDEMKALFSQCIQHFSK----IDIVIANAGIMENQSLFDIENVDE 118
+
+Query: 78  TSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLDL 121
+                  I+ +    VI++    TI+ Y  A  +G Y T+K  L
+Sbjct: 119 QGGIRESIEGF---RVIDVNLKGTINRYFGATGVGAYITSKHGL 159
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 9,454,149
+Number of extensions: 390700
+Number of successful extensions: 1055
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 1044
+Number of HSP's successfully gapped: 11
+Length of query: 859
+Length of database: 5,950,719
+Length adjustment: 103
+Effective length of query: 756
+Effective length of database: 4,489,664
+Effective search space: 3394185984
+Effective search space used: 3394185984
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

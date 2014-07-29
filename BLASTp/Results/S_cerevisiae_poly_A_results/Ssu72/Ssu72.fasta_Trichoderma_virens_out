@@ -1,0 +1,138 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK25214 pep:novel supercontig:ASM17099v1:3:494438:495251:-1 gen...   184   1e-57
+EHK22086 pep:novel supercontig:ASM17099v1:29:5797:7810:-1 gene:T...    28   2.1  
+EHK21378 pep:novel supercontig:ASM17099v1:71:3686:6488:-1 gene:T...    28   2.2  
+EHK23442 pep:novel supercontig:ASM17099v1:5:709264:710994:-1 gen...    27   4.1  
+
+>EHK25214 pep:novel supercontig:ASM17099v1:3:494438:495251:-1
+           gene:TRIVIDRAFT_32134 transcript:EHK25214
+           description:"hypothetical protein"
+          Length = 253
+
+ Score =  184 bits (467), Expect = 1e-57,   Method: Compositional matrix adjust.
+ Identities = 104/231 (45%), Positives = 138/231 (59%), Gaps = 33/231 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASN NRSME+H  L +A Y V S+GTGS VRLPG +I +PNVY F  T Y+ +
+Sbjct: 23  LKFCTVCASNQNRSMEAHLRLSQANYPVISFGTGSLVRLPGPTITQPNVYQFNKTSYDSM 82
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ-----------------ESTK--VF 108
+           Y +L ++    Y++NG+L ML RNR +K  PE+WQ                 E T+  V 
+Sbjct: 83  YKELEAKDPRLYRNNGILNMLGRNRGVKWGPERWQDWPVGVPRLQHTSDRGSEGTEGGVV 142
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D VFTCEERC+DAV +DL+NRG  LN+ VHVINVDIKD+ E A IG + IL+LA+ LN  
+Sbjct: 143 DVVFTCEERCWDAVIDDLLNRGSPLNRPVHVINVDIKDNHEEAHIGGQGILDLANSLNAA 202
+
+Query: 169 IEQCEKDDIP-------------FEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             +      P             F++ + +I+  WQ     LPS +  +++
+Sbjct: 203 AAEERGAIGPAAFDSGSAAARASFDERVPEIIAAWQERWPNLPSTWTLAWF 253
+
+
+>EHK22086 pep:novel supercontig:ASM17099v1:29:5797:7810:-1
+           gene:TRIVIDRAFT_222475 transcript:EHK22086
+           description:"hypothetical protein"
+          Length = 554
+
+ Score = 28.1 bits (61), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 32/117 (27%), Positives = 51/117 (43%), Gaps = 13/117 (11%)
+
+Query: 28  VLQEAGYNVSSYGTGSAVRLPGLSIDKPN---VYSF-GTP-YNDIY---NDLLSQSADRY 79
+           V+ E  ++V   GT    R PG S D P     YS+ G P ++  Y    +L      R 
+Sbjct: 50  VIYEKNHDVG--GTWLENRYPGCSCDIPAHGYTYSWEGNPSWSKPYVGSEELFEYFKGRA 107
+
+Query: 80  KSNGLLQMLDRNRRLKKAPEKWQESTKVFDF-VFTCEERCFDAVCEDLMNRGGKLNK 135
+           ++ G+ +++    R+ +A  KW      +   +        +  CE L+N GG LNK
+Sbjct: 108 QAYGVFELVHFKHRVTEA--KWNSLIGRWQLKIENSNSEIIEDECEVLINAGGFLNK 162
+
+
+>EHK21378 pep:novel supercontig:ASM17099v1:71:3686:6488:-1
+           gene:TRIVIDRAFT_192135 transcript:EHK21378
+           description:"hypothetical protein"
+          Length = 842
+
+ Score = 28.1 bits (61), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 9/17 (52%), Positives = 14/17 (82%)
+
+Query: 4   HRNSNLKFCTVCASNNN 20
+           HR S  +FCT+C+S++N
+Sbjct: 691 HRGSRGRFCTICSSDDN 707
+
+
+>EHK23442 pep:novel supercontig:ASM17099v1:5:709264:710994:-1
+           gene:TRIVIDRAFT_147252 transcript:EHK23442
+           description:"hypothetical protein"
+          Length = 490
+
+ Score = 27.3 bits (59), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 337 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 368
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 2,518,275
+Number of extensions: 104244
+Number of successful extensions: 281
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 277
+Number of HSP's successfully gapped: 7
+Length of query: 206
+Length of database: 5,836,678
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,720,138
+Effective search space: 547536008
+Effective search space used: 547536008
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

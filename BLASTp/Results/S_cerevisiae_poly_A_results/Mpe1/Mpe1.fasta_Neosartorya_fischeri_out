@@ -1,0 +1,167 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00007188 pep:known contig:CADRE:9292:3088926:3091045:-1 ...   257   2e-78
+CADNFIAP00004194 pep:known contig:CADRE:9201:1875678:1877233:1 g...    34   0.065
+CADNFIAP00007872 pep:known contig:CADRE:9292:691752:692654:-1 ge...    33   0.13 
+CADNFIAP00007930 pep:known contig:CADRE:9292:4854700:4860435:1 g...    32   0.49 
+CADNFIAP00004980 pep:known contig:CADRE:9201:2954902:2955751:-1 ...    30   1.1  
+CADNFIAP00007855 pep:known contig:CADRE:9292:5570819:5572239:1 g...    29   2.9  
+CADNFIAP00005072 pep:known contig:CADRE:9201:860076:861058:-1 ge...    28   5.1  
+
+>CADNFIAP00007188 pep:known contig:CADRE:9292:3088926:3091045:-1
+           gene:CADNFIAG00007355 transcript:CADNFIAT00007355
+           description:"Retinoblastoma-binding protein"
+          Length = 632
+
+ Score =  257 bits (657), Expect = 2e-78,   Method: Compositional matrix adjust.
+ Identities = 144/376 (38%), Positives = 209/376 (55%), Gaps = 40/376 (10%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDG+DF+L IYN DT EEYD
+Sbjct: 1   MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIINQSRLGDGSDFELSIYNEDTGEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQK---RQH 117
+           DD  +IPRSTSVI +R PA +                 G A RYV+G+  V  +   R  
+Sbjct: 61  DDTTIIPRSTSVIARRLPASR--------------PGKGGAARYVSGKMPVSARSAPRND 106
+
+Query: 118 XXXXXXNVSGT---------------TEEERIASMFAXXXXXXXXXXXXMSAATPVFFKS 162
+                  +S T               TEEE+I ++F             M+ ATPV F  
+Sbjct: 107 ASMSTRAISNTSNTVSNSVLELNNAQTEEEKINALFNLQASQWKEQQQEMANATPVPFGR 166
+
+Query: 163 QTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKS 221
+              K +    + PPPPGY+CYRC  + HWI+ CPTN+DP F+GK R++R+TGIP+     
+Sbjct: 167 GRGK-AVNVPDHPPPPGYLCYRCREKGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTK 225
+
+Query: 222 IEIDPETM----TPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWR 277
+           +E  PE++    + E++    +M+  +G FV+   DK +WE YQ K +       E    
+Sbjct: 226 VE-KPESLALDGSNEDLRNTGVMVNADGDFVIAKPDKAAWELYQEKAKASSAAAAEAAAA 284
+
+Query: 278 KGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILL 337
+           +   +     L+CP+   +  +P KT  CC+  +  + + NAL+ESDFVCP C T  +LL
+Sbjct: 285 EYSKELQSWGLECPIDKRMFLEPTKT-PCCHRTYCNDCITNALIESDFVCPGCATEGVLL 343
+
+Query: 338 DSLVPDQDKEKEVETF 353
+           D+L  D +   +++ F
+Sbjct: 344 DNLSVDDEAVSKIKAF 359
+
+
+>CADNFIAP00004194 pep:known contig:CADRE:9201:1875678:1877233:1 gene:CADNFIAG00004322
+           transcript:CADNFIAT00004322 description:"Chromosomal
+           organization and DNA repair protein Mms21, putative"
+          Length = 498
+
+ Score = 34.3 bits (77), Expect = 0.065,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETR 333
+           LKCPLT    R PV ++KC +  F +EA+ + +  S    P   +R
+Sbjct: 342 LKCPLTLLPFRDPVTSTKCPH-SFEREAITDMIAHSSTTVPGPPSR 386
+
+
+>CADNFIAP00007872 pep:known contig:CADRE:9292:691752:692654:-1 gene:CADNFIAG00008039
+           transcript:CADNFIAT00008039 description:"Putative
+           uncharacterized protein"
+          Length = 300
+
+ Score = 32.7 bits (73), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 16/35 (45%), Positives = 22/35 (62%)
+
+Query: 73  IVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTG 107
+           ++KR+PAI +  V S L+  VGAAALG     + G
+Sbjct: 257 VMKRAPAIGTLWVWSILEIPVGAAALGALGPLIWG 291
+
+
+>CADNFIAP00007930 pep:known contig:CADRE:9292:4854700:4860435:1 gene:CADNFIAG00008097
+            transcript:CADNFIAT00008097 description:"Chitin synthase
+            E"
+          Length = 1846
+
+ Score = 31.6 bits (70), Expect = 0.49,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 22/37 (59%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            RK++I+DEGKF      K+ WE+YQ +    Q   D+
+Sbjct: 1689 RKVVISDEGKFDPASIPKKKWEEYQTELWEAQTSRDD 1725
+
+
+>CADNFIAP00004980 pep:known contig:CADRE:9201:2954902:2955751:-1
+           gene:CADNFIAG00005108 transcript:CADNFIAT00005108
+           description:"Pyridoxamine phosphate oxidase family
+           protein"
+          Length = 246
+
+ Score = 30.0 bits (66), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 19/64 (29%), Positives = 31/64 (48%), Gaps = 6/64 (9%)
+
+Query: 213 GIPKKFLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGD 272
+           G+P+  LK   +DPET  P+   + +  +   G FV +  +K     YQR+     +DG 
+Sbjct: 139 GVPQLALK---LDPETHEPKPYLKDRETL---GHFVGKTVEKGQLRSYQREWNASSLDGL 192
+
+Query: 273 ETIW 276
+             +W
+Sbjct: 193 PGLW 196
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,432,632
+Number of extensions: 193285
+Number of successful extensions: 439
+Number of sequences better than 10.0: 21
+Number of HSP's gapped: 432
+Number of HSP's successfully gapped: 23
+Length of query: 441
+Length of database: 5,073,492
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,064,498
+Effective search space: 1398187312
+Effective search space used: 1398187312
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

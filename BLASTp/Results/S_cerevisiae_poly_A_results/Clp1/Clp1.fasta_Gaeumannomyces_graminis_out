@@ -1,0 +1,164 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_09083T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...   124   2e-31
+GGTG_05434T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    32   0.44 
+GGTG_02297T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    31   1.1  
+GGTG_04170T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    30   1.2  
+GGTG_13186T1 pep:known supercontig:Gae_graminis_V2:supercont1.10...    29   3.1  
+GGTG_13186T0 pep:known supercontig:Gae_graminis_V2:supercont1.10...    29   3.3  
+GGTG_06922T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    29   3.6  
+GGTG_06330T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    28   9.5  
+
+>GGTG_09083T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:298699:300246:-1
+           gene:GGTG_09083 transcript:GGTG_09083T0
+           description:"Clp1"
+          Length = 489
+
+ Score =  124 bits (311), Expect = 2e-31,   Method: Compositional matrix adjust.
+ Identities = 81/243 (33%), Positives = 132/243 (54%), Gaps = 9/243 (3%)
+
+Query: 123 GPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDIL 182
+           GPRV++ G + +G+TSL RTL ++A +  + QP   N DP++ + T+PG +SA   +  +
+Sbjct: 148 GPRVLVAGSASSGRTSLVRTLAAWAARAGS-QPTVANADPREGVLTLPGTLSAAVFATPM 206
+
+Query: 183 D-AQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDP 241
+           D A    WG + +SG   +  K P+V ++G +R  E+  LY    S L   V  R   DP
+Sbjct: 207 DPASGEGWGSAPSSGPGAVPVKLPLVYHYGRQRAEEDPPLYRALASSLASAVAARAVTDP 266
+
+Query: 242 QVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPE--- 298
+            VR +G +VD+P        +  L H++E+ +VNI++VL S    L +++ + F  E   
+Sbjct: 267 DVRAAGLLVDSPPWVG-GAGVETLAHLVEEFSVNIVVVLGSAR--LTQELTRRFATEKTS 323
+
+Query: 299 LGNN-NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWK 357
+           LG   ++  + K DGV   D+ + +     +I+EYF+G     LSP    V ++D+ I+ 
+Sbjct: 324 LGEPISVVSLDKSDGVVERDEGFLQQCHEAAIKEYFFGDAGLTLSPSTQQVSFDDVHIYM 383
+
+Query: 358 PSN 360
+           P N
+Sbjct: 384 PVN 386
+
+
+>GGTG_05434T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:1022831:1025740:
+           1 gene:GGTG_05434 transcript:GGTG_05434T0
+           description:"hypothetical protein"
+          Length = 735
+
+ Score = 32.0 bits (71), Expect = 0.44,   Method: Compositional matrix adjust.
+ Identities = 34/132 (25%), Positives = 56/132 (42%), Gaps = 24/132 (18%)
+
+Query: 117 RMSNFEGPRVVIVGGSQT-GKTSLSRTLC------SYALKFNAYQPLYI-NLDPQQPIFT 168
+           + S   GP  V+V G ++ GK++ SR L       S   K  A+  + + ++DP QP F 
+Sbjct: 266 KASKRAGPFTVLVCGPKSSGKSTFSRLLANRFMTDSTKRKGKAWPGVAVLDIDPGQPEFG 325
+
+Query: 169 VPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINE--NKDLYLECI 226
+            PG +S      ++  + P               +   +++  +  I+   N D YLEC+
+Sbjct: 326 PPGVLS------LVYIEAPNLEPPFCHPLVASQGRSKTLRSHSIATISPITNSDHYLECV 379
+
+Query: 227 --------SQLG 230
+                   SQLG
+Sbjct: 380 LDLYNAYSSQLG 391
+
+
+>GGTG_02297T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:7306478:7313161:
+           1 gene:GGTG_02297 transcript:GGTG_02297T0
+           description:"hypothetical protein"
+          Length = 1174
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 22/46 (47%), Gaps = 6/46 (13%)
+
+Query: 326 RTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNVFDNEVGRVEL 371
+           R +I  Y  GSL T      IG+ Y D   W P  V  +E G V+L
+Sbjct: 710 RATIEAYARGSLRT------IGLVYRDYPSWPPPGVHADEDGHVKL 749
+
+
+>GGTG_04170T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:4792571:4794947:
+           1 gene:GGTG_04170 transcript:GGTG_04170T0
+           description:"GPN-loop GTPase 3 like protein"
+          Length = 297
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 27/50 (54%), Gaps = 4/50 (8%)
+
+Query: 118 MSNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIF 167
+           MS F    V+++G +  GK++   +L ++ L+ N     Y+NLDP    F
+Sbjct: 1   MSKF---GVMVMGPAGAGKSTFCASLITH-LRMNRRSSFYVNLDPAAESF 46
+
+
+>GGTG_13186T1 pep:known supercontig:Gae_graminis_V2:supercont1.10:940327:943334:1
+           gene:GGTG_13186 transcript:GGTG_13186T1
+           description:"hypothetical protein"
+          Length = 673
+
+ Score = 29.3 bits (64), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 9/21 (42%), Positives = 15/21 (71%)
+
+Query: 352 DLTIWKPSNVFDNEVGRVELF 372
+           ++ +WKP NV+D  +  +ELF
+Sbjct: 524 EVLVWKPENVYDQRISPMELF 544
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 5,176,709
+Number of extensions: 213289
+Number of successful extensions: 458
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 454
+Number of HSP's successfully gapped: 8
+Length of query: 445
+Length of database: 6,264,428
+Length adjustment: 98
+Effective length of query: 347
+Effective length of database: 4,855,188
+Effective search space: 1684750236
+Effective search space used: 1684750236
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

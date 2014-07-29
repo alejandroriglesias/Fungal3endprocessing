@@ -1,0 +1,157 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00006161 pep:known chromosome:CADRE:IV:2264945:2267263:1...   102   6e-23
+CADANGAP00004095 pep:known chromosome:CADRE:VI:1351308:1354436:-...    30   1.9  
+CADANGAP00008023 pep:known chromosome:CADRE:I:1945586:1946329:-1...    28   9.8  
+
+>CADANGAP00006161 pep:known chromosome:CADRE:IV:2264945:2267263:1
+           gene:CADANGAG00006282 transcript:CADANGAT00006282
+           description:"Putative uncharacterized protein
+           An07g10080"
+          Length = 657
+
+ Score =  102 bits (254), Expect = 6e-23,   Method: Compositional matrix adjust.
+ Identities = 55/133 (41%), Positives = 73/133 (54%), Gaps = 3/133 (2%)
+
+Query: 8   IVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYAL 67
+           + +D+ + LE+LT N R  I+ LT +A+EN   A      +E+ I    P QKL A Y +
+Sbjct: 10  VAEDYKNSLEDLTNNDRFQISNLTVIAKENTEHAMAISRVLENHIRTTPPAQKLPALYVV 69
+
+Query: 68  DSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL---PLFE 124
+           DSI KNVG+PYT++  RNL+  +   Y LVD+ TR KL  M K W  P    L   P+F 
+Sbjct: 70  DSIVKNVGTPYTLFLGRNLYQTFMNAYTLVDSQTRKKLDEMLKTWKEPVPGSLDTRPVFP 129
+
+Query: 125 GSALEKIEQFLIK 137
+                 IE  LIK
+Sbjct: 130 PEITRSIESALIK 142
+
+
+
+ Score = 94.7 bits (234), Expect = 2e-20,   Method: Compositional matrix adjust.
+ Identities = 55/226 (24%), Positives = 94/226 (41%), Gaps = 56/226 (24%)
+
+Query: 404 IVQNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGI 463
+           I +  LI  LY ++ N+C  CG+RF  +E  K  +  HLDWHFR N R+  +   A    
+Sbjct: 453 IPRQMLISSLYETRSNRCGTCGQRFFATEEGKEKKARHLDWHFRTNQRMSEAARRA---- 508
+
+Query: 464 SNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIH 523
+                         Q+R+WY+ +  W   ++                             
+Sbjct: 509 --------------QNRSWYVDERDWIKSRE----------------------------A 526
+
+Query: 524 ADEND----EGSVDNTLGSDRSNELEIRGK-YVVVPETSQDMAFKCPICKETVTGVYDEE 578
+            DE D    E S +   G+D +   +   K ++  P  +      CPIC+E     + E+
+Sbjct: 527 GDEQDLAETEASAEGVAGADGAATKKGPPKQWIHAPNDATLRNTPCPICQEKFESTWSED 586
+
+Query: 579 SGEWVWKNTIEVNGKYFHSTCYHETSQN-----SSKSNSGKVGLDD 619
+             +W+W++ ++V  + +H++CY E + N     S  + SG+ G  +
+Sbjct: 587 VQDWIWQDAVKVGSRVYHASCYAEVTNNGPTPASRGTPSGRTGTPE 632
+
+
+
+ Score = 31.6 bits (70), Expect = 0.79,   Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 30/57 (52%)
+
+Query: 157 LLLRDIDKLTCLTSERLKNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQL 213
+           +L RDI+ L         N P D  ++ +L  L  L+  L+R++LT   LK V+ Q+
+Sbjct: 233 VLNRDIEALIATARNDFANNPLDPSIQQRLKALLDLQGILQRQELTQEQLKLVRDQV 289
+
+
+>CADANGAP00004095 pep:known chromosome:CADRE:VI:1351308:1354436:-1
+           gene:CADANGAG00004188 transcript:CADANGAT00004188
+           description:"Putative uncharacterized protein
+           An04g04740"
+          Length = 1042
+
+ Score = 30.4 bits (67), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 45/96 (46%), Gaps = 8/96 (8%)
+
+Query: 413 LYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANT-GISNSNLNTT 471
+           L  ++PN  +  G     S S ++  N H D++      I  S   AN  G S++NL   
+Sbjct: 44  LSSTRPNNLTALGASSVESSSPQVPNNPHEDYYDATKKTIAVSVAPANAPGSSSANLAIP 103
+
+Query: 472 TTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYT 507
+           ++  +  +R   +SD Q       ++T+T  +++Y+
+Sbjct: 104 SSSSDSHTRPLSISDEQ-------DVTTTTSQSNYS 132
+
+
+>CADANGAP00008023 pep:known chromosome:CADRE:I:1945586:1946329:-1
+           gene:CADANGAG00008168 transcript:CADANGAT00008168
+           description:"Putative uncharacterized protein
+           An09g06300"
+          Length = 203
+
+ Score = 27.7 bits (60), Expect = 9.8,   Method: Composition-based stats.
+ Identities = 21/82 (25%), Positives = 37/82 (45%), Gaps = 8/82 (9%)
+
+Query: 472 TTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKN-----IDKSALNIHADE 526
+           ++R  I +R  +L+   W A +   +T+       T P   +      IDK  + I   +
+Sbjct: 45  SSRLPINARRDFLNQQSWMARRSFSVTACAQHGHITPPKPGEEINVTFIDKDGVKIEL-Q 103
+
+Query: 527 NDEGSVDNTLGSDRSNELEIRG 548
+             EG  DN L   ++N++E+ G
+Sbjct: 104 VSEG--DNLLDIAQANDIEMEG 123
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 6,877,948
+Number of extensions: 274367
+Number of successful extensions: 570
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 569
+Number of HSP's successfully gapped: 12
+Length of query: 626
+Length of database: 6,195,193
+Length adjustment: 101
+Effective length of query: 525
+Effective length of database: 4,774,325
+Effective search space: 2506520625
+Effective search space used: 2506520625
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00007477 pep:known scaffold:CADRE:DS499599:1329286:13304...    64   8e-12
+CADAFUBP00006144 pep:known scaffold:CADRE:DS499598:105064:106913...    30   0.86 
+
+>CADAFUBP00007477 pep:known scaffold:CADRE:DS499599:1329286:1330414:1
+           gene:CADAFUBG00007613 transcript:CADAFUBT00007613
+           description:"Cleavage and polyadenylylation specificity
+           factor subunit Fip1, putative"
+          Length = 338
+
+ Score = 63.9 bits (154), Expect = 8e-12,   Method: Compositional matrix adjust.
+ Identities = 29/73 (39%), Positives = 47/73 (64%), Gaps = 6/73 (8%)
+
+Query: 157 PKAMTGSIDLDKEGIFDSVG----ITTIDPEVLKE--KPWRQPGANLSDYFNYGFNEFTW 210
+           P     +ID++   +  S G     T +D +   E  KPWR+PG+++SDYFNYGF+EFTW
+Sbjct: 127 PPVQASTIDVNANPVHPSTGKPILSTDMDSDFPTEDDKPWRRPGSDISDYFNYGFDEFTW 186
+
+Query: 211 MEYLHRQEKLQQD 223
+             Y+ +Q++L+++
+Sbjct: 187 ASYVLKQQELRKE 199
+
+
+>CADAFUBP00006144 pep:known scaffold:CADRE:DS499598:105064:106913:1
+           gene:CADAFUBG00006267 transcript:CADAFUBT00006267
+           description:"MFS myo-inositol transporter, putative"
+          Length = 548
+
+ Score = 30.0 bits (66), Expect = 0.86,   Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 30/56 (53%), Gaps = 2/56 (3%)
+
+Query: 98  LLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESD 153
+           LL  Y T   SS+  ++S+ TD+SN +  T D+ LIT   +   + A+ +    +D
+Sbjct: 61  LLFGYDTGVISST--LVSIGTDLSNRVLTTLDKSLITSCTSLFALLASPLAGILAD 114
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,251,480
+Number of extensions: 91745
+Number of successful extensions: 273
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 271
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 4,796,137
+Length adjustment: 93
+Effective length of query: 234
+Effective length of database: 3,873,949
+Effective search space: 906504066
+Effective search space used: 906504066
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

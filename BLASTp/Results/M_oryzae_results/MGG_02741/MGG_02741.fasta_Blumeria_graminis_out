@@ -1,0 +1,130 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81996 pep:novel supercontig:EF1:HF943513:644254:645633:-1 gen...   188   6e-55
+CCU82685 pep:novel supercontig:EF1:HF943527:504685:506621:1 gene...    30   0.90 
+CCU81344 pep:novel supercontig:EF1:HF943526:1239667:1240964:1 ge...    28   3.5  
+
+>CCU81996 pep:novel supercontig:EF1:HF943513:644254:645633:-1
+           gene:BGHDH14_bgh02592 transcript:CCU81996
+           description:"RRM domain-containing protein"
+          Length = 400
+
+ Score =  188 bits (477), Expect = 6e-55,   Method: Compositional matrix adjust.
+ Identities = 113/241 (46%), Positives = 144/241 (59%), Gaps = 30/241 (12%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQS-----------------------YEGGDHQD 37
+           MA+++F+IDIYGD N   QG ++N+  +S                        E  D+++
+Sbjct: 1   MADDEFDIDIYGDTN-AVQGVENNESKKSDGNSMPLKREAPSDNLPEPDPKKNEKKDNEN 59
+
+Query: 38  GHGANDNEQYRDDQQXXXXXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATS 97
+                DN  +    +                     PQQ   +KRKEGSDDR IDPGAT+
+Sbjct: 60  AEVKADNNGFELSAEHQKIKSTDESGQNTLNIPKQAPQQQG-IKRKEGSDDRPIDPGATT 118
+
+Query: 98  AILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAV 157
+           A+LISEL WW TDDDIRGW+ +A  E+ELKDITFSEHKVNGKSKGQ ++E TSQQAATA 
+Sbjct: 119 ALLISELNWWNTDDDIRGWVNQAQVEDELKDITFSEHKVNGKSKGQAWVEFTSQQAATAA 178
+
+Query: 158 KHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQP-RTGKDGQ-NRPTSGAGYNND 215
+           K ++++ GE    Q  +K  V +S+P +NPFRTLPKD P R GKDGQ NR  SG+ Y N+
+Sbjct: 179 KRKIDAFGE--GQQYVKKHIVTFSNPNVNPFRTLPKDAPLRAGKDGQANRAPSGS-YGNE 235
+
+Query: 216 R 216
+           R
+Sbjct: 236 R 236
+
+
+
+ Score = 33.9 bits (76), Expect = 0.041,   Method: Compositional matrix adjust.
+ Identities = 12/14 (85%), Positives = 13/14 (92%)
+
+Query: 411 EWQNPHGAKRPRPE 424
+           +WQNPHG KRPRPE
+Sbjct: 387 DWQNPHGVKRPRPE 400
+
+
+>CCU82685 pep:novel supercontig:EF1:HF943527:504685:506621:1
+           gene:BGHDH14_bgh01844 transcript:CCU82685
+           description:"DUF2347 superfamily"
+          Length = 613
+
+ Score = 30.0 bits (66), Expect = 0.90,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 19/36 (52%), Gaps = 1/36 (2%)
+
+Query: 88  DRAIDPGATSAILISELQWWITDDDIRGWIREAGCE 123
+           D  I+P   SA+  S   WW +  +   W+RE GCE
+Sbjct: 434 DSIIEPITWSALAYSSFVWWASASEQYLWLRE-GCE 468
+
+
+>CCU81344 pep:novel supercontig:EF1:HF943526:1239667:1240964:1
+           gene:BGHDH14_bgh06223 transcript:CCU81344
+           description:"COP9 signalosome complex subunit 4"
+          Length = 415
+
+ Score = 27.7 bits (60), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 20/36 (55%), Gaps = 1/36 (2%)
+
+Query: 110 DDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVY 145
+           DD ++ WIR      E+ D T +E  +N K+K  VY
+Sbjct: 146 DDKVKIWIRITRNYLEVNDTTLAEQSLN-KAKNLVY 180
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,582,105
+Number of extensions: 60438
+Number of successful extensions: 150
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 147
+Number of HSP's successfully gapped: 13
+Length of query: 424
+Length of database: 3,131,961
+Length adjustment: 93
+Effective length of query: 331
+Effective length of database: 2,530,251
+Effective search space: 837513081
+Effective search space used: 837513081
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

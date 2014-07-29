@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_10351T0 | HMPREF1544_10351 | Mucor circinelloides f. ...    80   5e-17
+HMPREF1544_09231T0 | HMPREF1544_09231 | Mucor circinelloides f. ...    31   0.49 
+HMPREF1544_10132T0 | HMPREF1544_10132 | Mucor circinelloides f. ...    28   4.3  
+HMPREF1544_09890T0 | HMPREF1544_09890 | Mucor circinelloides f. ...    27   6.0  
+
+>HMPREF1544_10351T0 | HMPREF1544_10351 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (507 aa)
+          Length = 506
+
+ Score = 80.1 bits (196), Expect = 5e-17,   Method: Compositional matrix adjust.
+ Identities = 42/120 (35%), Positives = 71/120 (59%), Gaps = 5/120 (4%)
+
+Query: 116 VATDVSNTITKTSDERL-ITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDS 174
+           V  D + T  +T D  + I  G+  +  +A T   + S+    KA  G I+L+  G ++ 
+Sbjct: 126 VQGDQATTTNETKDTPVNIKPGQQGKPSSAPTTSTSNSNAAGTKASQGGINLEAVGEYNG 185
+
+Query: 175 VGITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLL 234
+             IT +D + +++KPWR+PGA+++DYFNYGFNE TW  Y  +Q+ L+++    + +MG +
+Sbjct: 186 QPITDVDLDDVEDKPWRKPGADITDYFNYGFNEITWRSYCAKQKMLREN----KKMMGDM 241
+
+
+>HMPREF1544_09231T0 | HMPREF1544_09231 | Mucor circinelloides f. circinelloides 1006PhL
+           CK1/CK1/CK1-D protein kinase (331 aa)
+          Length = 330
+
+ Score = 30.8 bits (68), Expect = 0.49,   Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 25/53 (47%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FN+   +FT              +EYLH ++ + +D  P   LMGL
+Sbjct: 98  GPSLEDLFNFCKRKFTLKTVLMLADQMLTRIEYLHSKKFIHRDIKPDNFLMGL 150
+
+
+>HMPREF1544_10132T0 | HMPREF1544_10132 | Mucor circinelloides f. circinelloides
+          1006PhL hypothetical protein (366 aa)
+          Length = 365
+
+ Score = 27.7 bits (60), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 17/22 (77%)
+
+Query: 22 PSSKRSRDDEADAGASSNPDIV 43
+          P+SKR R+D+ D G SS+ DI+
+Sbjct: 10 PASKRPRNDDVDNGNSSDEDIL 31
+
+
+>HMPREF1544_09890T0 | HMPREF1544_09890 | Mucor circinelloides f. circinelloides 1006PhL
+           CK1/CK1/CK1-D protein kinase (362 aa)
+          Length = 361
+
+ Score = 27.3 bits (59), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FN+   +FT              +EY+H +  + +D  P   LMG+
+Sbjct: 90  GPSLEDLFNFCNRKFTLKTVLLLADQMLSRIEYVHSKNFIHRDIKPDNFLMGI 142
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 2,542,231
+Number of extensions: 104936
+Number of successful extensions: 439
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 434
+Number of HSP's successfully gapped: 25
+Length of query: 327
+Length of database: 5,364,083
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,214,745
+Effective search space: 982035585
+Effective search space used: 982035585
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

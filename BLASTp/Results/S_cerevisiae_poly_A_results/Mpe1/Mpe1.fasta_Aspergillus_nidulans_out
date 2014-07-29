@@ -1,0 +1,168 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00000521 pep:known chromosome:ASM1142v1:IV:1469316:14713...   253   4e-77
+CADANIAP00006669 pep:known chromosome:ASM1142v1:I:551995:558148:...    32   0.34 
+CADANIAP00008576 pep:known chromosome:ASM1142v1:VII:2192893:2194...    32   0.37 
+CADANIAP00000992 pep:known chromosome:ASM1142v1:IV:2805211:28063...    32   0.38 
+CADANIAP00003619 pep:known chromosome:ASM1142v1:V:2448089:244922...    32   0.43 
+CADANIAP00000974 pep:known chromosome:ASM1142v1:IV:2746076:27473...    31   0.47 
+CADANIAP00008846 pep:known chromosome:ASM1142v1:VII:3033178:3034...    31   0.50 
+CADANIAP00008622 pep:known chromosome:ASM1142v1:VII:2345328:2347...    28   4.6  
+CADANIAP00004419 pep:known chromosome:ASM1142v1:II:1592719:15934...    27   5.6  
+CADANIAP00006995 pep:known chromosome:ASM1142v1:I:1473564:147582...    28   7.8  
+
+>CADANIAP00000521 pep:known chromosome:ASM1142v1:IV:1469316:1471370:1
+           gene:CADANIAG00000521 transcript:CADANIAT00000521
+           description:"zinc knuckle domain protein
+           (AFU_orthologue\x3b AFUA_2G06220)"
+          Length = 628
+
+ Score =  253 bits (647), Expect = 4e-77,   Method: Compositional matrix adjust.
+ Identities = 145/377 (38%), Positives = 208/377 (55%), Gaps = 42/377 (11%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDGTDF+L IYN DT EEYD
+Sbjct: 1   MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIINQSRLGDGTDFELSIYNEDTGEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQK---RQH 117
+           DD  VIPRSTSVI +R PA +                 G A RYV+G+  V  +   R  
+Sbjct: 61  DDTSVIPRSTSVIARRLPASR--------------PGKGGAARYVSGKMPVNARSVPRNE 106
+
+Query: 118 XXXXXXNVS---------------GTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKS 162
+                  VS                 TEEE+I ++F             M+ ATPV F  
+Sbjct: 107 QSTSNRTVSNPTQPVSNGVQELHNAQTEEEKINALFNLQANQWREQQQEMANATPVPFGR 166
+
+Query: 163 QTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKS 221
+              K      + PPPPGY+CYRC  + HWI+ CPTN+DP F+GK R++R+TGIP+     
+Sbjct: 167 GRGK-PVNVPDHPPPPGYLCYRCREKGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTK 225
+
+Query: 222 IEIDPETM----TPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWR 277
+           +E  PE++    + E++    +M+  +G F++   D+ SWE YQ K +       E    
+Sbjct: 226 VE-KPESLLIDGSTEDLRNTGVMVNADGDFIITKPDQASWELYQEKVKATAAAAAEAA-A 283
+
+Query: 278 KGHFKDL-PDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDIL 336
+             H K+L    L+CP+   +  +P +T  CC   +  + + NAL+ESDFVCP C T  +L
+Sbjct: 284 AEHSKELQARGLECPIDKRMFLEPTQT-PCCQKTYCNDCITNALIESDFVCPGCGTEGVL 342
+
+Query: 337 LDSLVPDQDKEKEVETF 353
+           LD+L  + +   +++ +
+Sbjct: 343 LDNLSANDEMLSKIKAY 359
+
+
+>CADANIAP00006669 pep:known chromosome:ASM1142v1:I:551995:558148:-1
+            gene:CADANIAG00006669 transcript:CADANIAT00006669
+            description:"chitin synthase csmA (Eurofung)"
+          Length = 1852
+
+ Score = 32.0 bits (71), Expect = 0.34,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 22/37 (59%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            RKI+I+DEGKF      K+ WE+YQ +    Q   D+
+Sbjct: 1696 RKIVISDEGKFDPASIPKKRWEEYQAELWEAQTSRDD 1732
+
+
+>CADANIAP00008576 pep:known chromosome:ASM1142v1:VII:2192893:2194598:1
+           gene:CADANIAG00008576 transcript:CADANIAT00008576
+           description:"chromosomal organization and DNA repair
+           protein Mms21, putative (AFU_orthologue\x3b
+           AFUA_6G07700)"
+          Length = 502
+
+ Score = 32.0 bits (71), Expect = 0.37,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 24/41 (58%), Gaps = 1/41 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCP 328
+           L+CPLT    R PV ++KC +  F +EA+ + + +S    P
+Sbjct: 332 LRCPLTLVPFRDPVTSTKCPH-SFEREAITSMIDQSAMTVP 371
+
+
+>CADANIAP00000992 pep:known chromosome:ASM1142v1:IV:2805211:2806345:1
+           gene:CADANIAG00000992 transcript:CADANIAT00000992
+           description:"conserved hypothetical protein"
+          Length = 321
+
+ Score = 31.6 bits (70), Expect = 0.38,   Method: Compositional matrix adjust.
+ Identities = 10/16 (62%), Positives = 12/16 (75%)
+
+Query: 182 CYRCGGRDHWIKNCPT 197
+           C RCG  DH+I+ CPT
+Sbjct: 276 CLRCGDPDHFIQECPT 291
+
+
+>CADANIAP00003619 pep:known chromosome:ASM1142v1:V:2448089:2449225:-1
+           gene:CADANIAG00003619 transcript:CADANIAT00003619
+           description:"conserved hypothetical protein"
+          Length = 346
+
+ Score = 31.6 bits (70), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 10/16 (62%), Positives = 12/16 (75%)
+
+Query: 182 CYRCGGRDHWIKNCPT 197
+           C RCG  DH+I+ CPT
+Sbjct: 301 CLRCGDPDHFIQECPT 316
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 4,445,426
+Number of extensions: 193984
+Number of successful extensions: 423
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 415
+Number of HSP's successfully gapped: 21
+Length of query: 441
+Length of database: 5,078,913
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,057,115
+Effective search space: 1395647560
+Effective search space used: 1395647560
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

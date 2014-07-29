@@ -1,0 +1,107 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000001210 pep:known supercontig:ASM18292v1:7.3:1190097:1...   186   2e-54
+EFNCRP00000003957 pep:known supercontig:ASM18292v1:7.13:205852:2...    27   8.9  
+
+>EFNCRP00000001210 pep:known supercontig:ASM18292v1:7.3:1190097:1191360:1
+           gene:EFNCRG00000001208 transcript:EFNCRT00000001210
+           description:"Predicted protein"
+          Length = 379
+
+ Score =  186 bits (473), Expect = 2e-54,   Method: Compositional matrix adjust.
+ Identities = 106/215 (49%), Positives = 136/215 (63%), Gaps = 9/215 (4%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQG---GDDNKHDQSYE-GGDHQDGHGANDNEQYRDDQQXXXX 56
+           MAEE+FEID+Y DA  +Q G   GD + H  +Y+  GDH + +G   +  Y +D      
+Sbjct: 1   MAEEEFEIDVYADAGNDQSGEQQGDGDHH--AYDDNGDHAE-NGDGQHHDYHEDHNGEDS 57
+
+Query: 57  XXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGW 116
+                             QQ    K   GSD+R +DPGAT+A+ IS+L WW TDDDIRGW
+Sbjct: 58  GANDNQDQTSQNQAPQQRQQGVKRKDAPGSDERPVDPGATTALTISDLHWWTTDDDIRGW 117
+
+Query: 117 IREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQ 176
+           +R+A CE ELKDITFSEHKVNGKSKGQ Y+E TSQQAA+A KH +++   +   Q G+K+
+Sbjct: 118 VRQANCESELKDITFSEHKVNGKSKGQAYVEFTSQQAASATKHVIDNLSSEVGQQPGQKR 177
+
+Query: 177 Q-VIYSSPTMNPFRTLPKDQP-RTGKDGQNRPTSG 209
+             VIYSSP +NPFRTLPKD P R  K+ ++R  +G
+Sbjct: 178 HAVIYSSPIINPFRTLPKDTPNRAVKEIRDRAPNG 212
+
+
+>EFNCRP00000003957 pep:known supercontig:ASM18292v1:7.13:205852:207318:1
+           gene:EFNCRG00000003952 transcript:EFNCRT00000003957
+           description:"Predicted protein"
+          Length = 488
+
+ Score = 27.3 bits (59), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 42/96 (43%), Gaps = 16/96 (16%)
+
+Query: 72  ATPQQSNPLKRKE----------GSDDRAIDPG---ATSAILISELQWWITDDDIRGWIR 118
+           AT  +  P K+KE          G  D A+  G    ++ I +  L +  T+DD+R    
+Sbjct: 251 ATSFEGRPEKKKEDDEDAKGAAGGKKDEALVGGKFAGSTKIFVGNLSFDTTEDDLRNHFD 310
+
+Query: 119 EAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAA 154
+           + G    +K  TF +   +GK KG  ++     +AA
+Sbjct: 311 KCGAIRWVKVATFED---SGKCKGYGWVNFEEGEAA 343
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 2,747,459
+Number of extensions: 115687
+Number of successful extensions: 556
+Number of sequences better than 10.0: 28
+Number of HSP's gapped: 546
+Number of HSP's successfully gapped: 32
+Length of query: 424
+Length of database: 4,779,891
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 3,835,347
+Effective search space: 1257993816
+Effective search space used: 1257993816
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

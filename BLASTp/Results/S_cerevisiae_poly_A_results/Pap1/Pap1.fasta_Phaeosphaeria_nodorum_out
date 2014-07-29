@@ -1,0 +1,205 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_01964 pep:known supercontig:ASM14691v1:supercont1.3:269739:...   417   e-138
+SNOT_12099 pep:known supercontig:ASM14691v1:supercont1.21:359201...    72   3e-13
+SNOT_07804 pep:known supercontig:ASM14691v1:supercont1.11:112490...    32   0.33 
+SNOT_01666 pep:known supercontig:ASM14691v1:supercont1.2:1258550...    30   2.1  
+SNOT_03339 pep:known supercontig:ASM14691v1:supercont1.5:32440:3...    29   3.1  
+SNOT_03485 pep:known supercontig:ASM14691v1:supercont1.5:310945:...    28   5.1  
+
+>SNOT_01964 pep:known supercontig:ASM14691v1:supercont1.3:269739:271691:-1
+           gene:SNOG_01964 transcript:SNOT_01964
+           description:"Putative uncharacterized protein"
+          Length = 575
+
+ Score =  417 bits (1071), Expect = e-138,   Method: Compositional matrix adjust.
+ Identities = 225/534 (42%), Positives = 328/534 (61%), Gaps = 29/534 (5%)
+
+Query: 7   FGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRFVYEV 66
+           +GIT  +S    T A+NKLND+LI+ L +   FET +    R +VL  +Q++ + FV   
+Sbjct: 9   WGITHSISEAPPTEADNKLNDNLIETLTRLNVFETLEGNKRREEVLAHVQKVVEEFVRRA 68
+
+Query: 67  SKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRE 126
+            K K ++      AGGKIF +GSY LGVHGP SDIDTL+VVPKHV  EDFF +F S+ RE
+Sbjct: 69  GKLKGIAQSTLDVAGGKIFFFGSYALGVHGPTSDIDTLIVVPKHVFIEDFFKIFPSIFRE 128
+
+Query: 127 ---RKELDEIAPVPDAFVPIIKIKFSGISIDLICARL-DQPQVPLSLTLSDKNLLRNLDE 182
+               +++ E+ PV DA+VPIIK+++ G+S+DL+ A +     VP  L   DK++LR+L+E
+Sbjct: 129 LSNAEDISELVPVEDAYVPIIKMEYRGVSLDLLFASMPTMSSVPKELETVDKSVLRHLEE 188
+
+Query: 183 KDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVAR 242
+             +R++NGTRV  E+L  VP+   FR ALRA+KLWA RRA+Y  +FG+PGG+AWA++VAR
+Sbjct: 189 TTIRSVNGTRVVKELLSSVPQRRHFRYALRAVKLWANRRAIYGAVFGYPGGIAWAIMVAR 248
+
+Query: 243 ICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNP--KIYAQDRSHRM 300
+           ICQLYP AC A IL++FF ++ +W WP+PV+LK  E     +RVWNP  + Y  D  H M
+Sbjct: 249 ICQLYPMACGATILSKFFNLMHKWQWPRPVMLKEHELPEFGLRVWNPAHQSYPPDARHLM 308
+
+Query: 301 PVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFR-YK 359
+           PVITPA+P+MC+TH +T STK+++++EF R  +I  D+F+ + +W  LF  + FF + +K
+Sbjct: 309 PVITPAFPAMCSTHTVTTSTKQIMMEEFQRADKIVRDVFNGQGTWEALFNNHSFFTQDHK 368
+
+Query: 360 FYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKL-EVLAGIKIAHPFTKPFESSYCCPTE 418
+           +YL + A +R + E  L + GLV+SKVRLLV  + +   GI +A PF + FE  + C  E
+Sbjct: 369 YYLSVIAASR-TKEADLTFHGLVQSKVRLLVAGIDDGQTGIDMARPFPEGFERVHRCKNE 427
+
+Query: 419 DDYEMIQDKYGSHKTETALNALKLVTD---ENKEEESIKDAPKAYLSTMYIGLDFNIENK 475
+           D+ E +        T+ +L+ +  V+        E+ I      Y  T YIGL   +  +
+Sbjct: 428 DEVEAV--------TKGSLDYMIPVSQVPAAGTTEDHI-----IYTMTFYIGL--RLPKE 472
+
+Query: 476 KEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRP 529
+           +  +DI      F +  +       D    ++ +   +   LPD++F   E RP
+Sbjct: 473 RSTLDISYITNHFRS--KITESKLYDEGTMSVKVVHTRNTALPDDLFKPGEVRP 524
+
+
+>SNOT_12099 pep:known supercontig:ASM14691v1:supercont1.21:359201:362851:-1
+           gene:SNOG_12099 transcript:SNOT_12099
+           description:"Putative uncharacterized protein"
+          Length = 1179
+
+ Score = 71.6 bits (174), Expect = 3e-13,   Method: Compositional matrix adjust.
+ Identities = 80/328 (24%), Positives = 132/328 (40%), Gaps = 45/328 (13%)
+
+Query: 33  LKKEGSFETEQETANRVQVLKILQELAQRFVYEVSKKKNMSDGMARDAGGKIFTYGSYRL 92
+           L   G F +E+E   R   L+IL+    R VY  S     S     D    I   GSY L
+Sbjct: 615 LASGGMFPSEEEVQQRKDALEILK----RVVYGTSSDDVTS---TSDVPMIIVPVGSYAL 667
+
+Query: 93  GVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRERKELDEIAPVPDAFVPIIKI--KFSG 150
+           GV   GSDID L +    ++ + FF     L R+R     +    D  V +++     +G
+Sbjct: 668 GVWTSGSDIDCLCI--GTISSKTFF----KLARQR-----LVKAHDQGVRVLRKVEANTG 716
+
+Query: 151 ISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILELVPKPNVFRIA 210
+             ++L       P           + + NL    LR L   R    I   +P  + FR+A
+Sbjct: 717 TMLELWSEFAGLPA---------SDPIFNLSILSLRKLKPYRDLLYIQRTLPSLSAFRLA 767
+
+Query: 211 LRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQLYPNACSAV----ILNRFFIILSEW 266
+            R IKLWA RR +Y+  FG+ GGV   ++++   +   +   ++    +++ FF   + +
+Sbjct: 768 YRCIKLWAVRRGIYSAKFGYLGGVHITLMLSWAAKCLAHDSGSITAPDLVSSFFHHFAHF 827
+
+Query: 267 NWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRMPVITPAYPSMCATHNITESTKKVILQ 326
+           NW   ++               P+ +   RS R P++   +       NI  ++    L 
+Sbjct: 828 NWTNDMMYDAF------FHKQKPRYH---RSAREPMVVLGF--HAPNSNIAHTSTLPGLH 876
+
+Query: 327 EFVRGVQITNDIFSNKK-SWANLFEKND 353
+             V  ++  ++  S+   +W   F   D
+Sbjct: 877 TLVSEMKAADEALSDPSMTWKKFFGSTD 904
+
+
+>SNOT_07804 pep:known supercontig:ASM14691v1:supercont1.11:1124909:1126119:-1
+           gene:SNOG_07804 transcript:SNOT_07804
+           description:"Putative uncharacterized protein"
+          Length = 385
+
+ Score = 32.3 bits (72), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 31/67 (46%), Gaps = 7/67 (10%)
+
+Query: 480 DIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNLD 539
+           DIH+ C + + +CR  N   G H  +N+        + P  VF E+  R     KR + +
+Sbjct: 123 DIHVRCDDPLGVCRFGNRREGSHAAYNIG-------NEPHIVFCEDYFRLDPLKKRVDKN 175
+
+Query: 540 ARHETVK 546
+           A  +T K
+Sbjct: 176 AEDQTEK 182
+
+
+>SNOT_01666 pep:known supercontig:ASM14691v1:supercont1.2:1258550:1260931:-1
+           gene:SNOG_01666 transcript:SNOT_01666
+           description:"Putative uncharacterized protein"
+          Length = 697
+
+ Score = 30.0 bits (66), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 34/127 (26%), Positives = 53/127 (41%), Gaps = 4/127 (3%)
+
+Query: 303 ITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDF-FFRYKFY 361
+           + P  P++   HN   +   +I+Q  + GV   + +  +  S  N      +   R  F+
+Sbjct: 210 VVPENPTIPPRHNFFWAELFIIIQCAIIGVFFISLLQESPPSRKNPIGDTIYTVLRSSFH 269
+
+Query: 362 LEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDDY 421
+           L I  Y+  S    L W  L+ S  R LVM + V   +     F  PF SS+      D 
+Sbjct: 270 L-IGVYSLVSIVVGLLWLSLLRSFARPLVMLILVAVPVISFSFFLYPFISSFKGSWHGD- 327
+
+Query: 422 EMIQDKY 428
+             +QDK+
+Sbjct: 328 -SMQDKF 333
+
+
+>SNOT_03339 pep:known supercontig:ASM14691v1:supercont1.5:32440:34863:-1
+           gene:SNOG_03339 transcript:SNOT_03339
+           description:"Putative uncharacterized protein"
+          Length = 710
+
+ Score = 29.3 bits (64), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 31/74 (41%), Gaps = 7/74 (9%)
+
+Query: 233 GVAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIY 292
+           GV W M       + P       L+R   I S  +WPQ      I DGP Q+   +P +Y
+Sbjct: 322 GVCW-MFYTPEGNVDPTGRQDTGLDRNLDI-SMIDWPQW-----INDGPFQISNQDPSLY 374
+
+Query: 293 AQDRSHRMPVITPA 306
+            QD   + P +  A
+Sbjct: 375 NQDPIAQRPTLPAA 388
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 5,932,407
+Number of extensions: 261059
+Number of successful extensions: 668
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 662
+Number of HSP's successfully gapped: 10
+Length of query: 568
+Length of database: 5,238,126
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,011,417
+Effective search space: 1881354573
+Effective search space used: 1881354573
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

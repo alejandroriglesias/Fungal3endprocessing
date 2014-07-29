@@ -1,0 +1,213 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX92019 pep:novel supercontig:ASM23037v1:FP929083:694353:695428...   159   5e-49
+CBX96536 pep:novel supercontig:ASM23037v1:FP929129:610612:612810...    57   5e-10
+CBX95413 pep:novel supercontig:ASM23037v1:FP929127:846745:848312...    56   9e-10
+CBX99477 pep:novel supercontig:ASM23037v1:FP929136:559841:561721...    54   5e-09
+CBX96015 pep:novel supercontig:ASM23037v1:FP929127:2442549:24431...    50   2e-08
+CBX95669 pep:novel supercontig:ASM23037v1:FP929127:1474212:14755...    48   4e-07
+CBY00618 pep:novel supercontig:ASM23037v1:FP929138:1550927:15522...    47   8e-07
+CBX95876 pep:novel supercontig:ASM23037v1:FP929127:2080324:20824...    47   1e-06
+CBX97561 pep:novel supercontig:ASM23037v1:FP929132:129844:132691...    47   1e-06
+CBX95434 pep:novel supercontig:ASM23037v1:FP929127:890315:891174...    44   4e-06
+CBX95686 pep:novel supercontig:ASM23037v1:FP929127:1621437:16231...    44   1e-05
+CBY02240 pep:novel supercontig:ASM23037v1:FP929139:3504346:35053...    44   1e-05
+CBX93990 pep:novel supercontig:ASM23037v1:FP929116:1535324:15376...    43   2e-05
+CBX98907 pep:novel supercontig:ASM23037v1:FP929134:1289574:12904...    41   6e-05
+CBX91224 pep:novel supercontig:ASM23037v1:FP929072:38334:38947:1...    39   2e-04
+CBX90693 pep:novel supercontig:ASM23037v1:FP929065:324314:325318...    40   2e-04
+CBY00701 pep:novel supercontig:ASM23037v1:FP929138:1804081:18082...    39   7e-04
+CBX97400 pep:novel supercontig:ASM23037v1:FP929131:1029480:10307...    38   8e-04
+CBX95155 pep:novel supercontig:ASM23037v1:FP929126:983794:985249...    38   0.001
+CBX91205 pep:novel supercontig:ASM23037v1:FP929065:1788324:17902...    38   0.001
+CBX91870 pep:novel supercontig:ASM23037v1:FP929083:277426:279112...    37   0.002
+CBX94513 pep:novel supercontig:ASM23037v1:FP929123:203040:208612...    37   0.002
+CBY00374 pep:novel supercontig:ASM23037v1:FP929138:825756:828052...    37   0.003
+CBY00946 pep:novel supercontig:ASM23037v1:FP929138:2397922:23990...    35   0.009
+CBY02129 pep:novel supercontig:ASM23037v1:FP929139:3198832:31998...    33   0.022
+CBX92357 pep:novel supercontig:ASM23037v1:FP929094:324743:326650...    33   0.056
+CBX97513 pep:novel supercontig:ASM23037v1:FP929131:1312594:13150...    32   0.072
+CBX97373 pep:novel supercontig:ASM23037v1:FP929131:968198:971628...    31   0.17 
+CBX93164 pep:novel supercontig:ASM23037v1:FP929105:713313:713832...    30   0.21 
+CBX97566 pep:novel supercontig:ASM23037v1:FP929132:140158:141791...    28   1.2  
+CBX94460 pep:novel supercontig:ASM23037v1:FP929123:86590:87595:-...    28   1.6  
+CBX94883 pep:novel supercontig:ASM23037v1:FP929125:975761:977493...    28   2.3  
+CBX94287 pep:novel supercontig:ASM23037v1:FP929121:173843:174835...    27   2.5  
+CBX95705 pep:novel supercontig:ASM23037v1:FP929127:1673815:16751...    27   2.6  
+CBX97637 pep:novel supercontig:ASM23037v1:FP929132:398881:401485...    27   3.3  
+CBX96805 pep:novel supercontig:ASM23037v1:FP929130:236038:238177...    27   4.5  
+CBX99787 pep:novel supercontig:ASM23037v1:FP929137:483014:485448...    27   5.7  
+CBX97712 pep:novel supercontig:ASM23037v1:FP929132:567226:568766...    26   6.0  
+
+>CBX92019 pep:novel supercontig:ASM23037v1:FP929083:694353:695428:-1
+           gene:LEMA_P047250.1 transcript:CBX92019
+           description:"Putative uncharacterized protein "
+          Length = 186
+
+ Score =  159 bits (403), Expect = 5e-49,   Method: Compositional matrix adjust.
+ Identities = 81/128 (63%), Positives = 94/128 (73%), Gaps = 22/128 (17%)
+
+Query: 29  EEISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEE 88
+           EEISAM++RV EME+EAAKLREMQ SLD++  E+  ES++DVD+RS+FVGNVDY ASPEE
+Sbjct: 26  EEISAMRRRVQEMEDEAAKLREMQQSLDNERHEMR-ESKEDVDARSVFVGNVDYGASPEE 84
+
+Query: 89  IQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPK 148
+           IQAHFQS GSINRVTILLDKFTG PKG                      F+ RN+KV PK
+Sbjct: 85  IQAHFQSIGSINRVTILLDKFTGHPKG---------------------QFRDRNLKVVPK 123
+
+Query: 149 RTNYPGMS 156
+           RTN PGM+
+Sbjct: 124 RTNLPGMT 131
+
+
+>CBX96536 pep:novel supercontig:ASM23037v1:FP929129:610612:612810:1
+           gene:LEMA_P108010.1 transcript:CBX96536
+           description:"Putative uncharacterized protein "
+          Length = 594
+
+ Score = 56.6 bits (135), Expect = 5e-10,   Method: Compositional matrix adjust.
+ Identities = 27/73 (36%), Positives = 43/73 (58%), Gaps = 1/73 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ + A+  ++   F  C  +  V I+ DK   +PKGF YVEF     + +AL L
+Sbjct: 138 TAHLGNLSFDATEGDVNDFFSGC-EVTNVRIVEDKLDRKPKGFGYVEFGSVEGLKKALDL 196
+
+Query: 134 NESVFKGRNIKVS 146
+           + S F+GRN++VS
+Sbjct: 197 SGSQFQGRNVRVS 209
+
+
+>CBX95413 pep:novel supercontig:ASM23037v1:FP929127:846745:848312:-1
+           gene:LEMA_P025650.1 transcript:CBX95413
+           description:"Putative uncharacterized protein "
+          Length = 490
+
+ Score = 55.8 bits (133), Expect = 9e-10,   Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 42/75 (56%), Gaps = 1/75 (1%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           S ++F+GN+ +  + + IQ  F   G+I RV++  D+ TG  KGF YV+F        AL
+Sbjct: 336 SNTLFLGNLSFDCTNDSIQEIFAEYGNITRVSLPTDRDTGSIKGFGYVDFGSQEEATAAL 395
+
+Query: 132 -VLNESVFKGRNIKV 145
+             LN     GRNI++
+Sbjct: 396 DALNGQDIAGRNIRI 410
+
+
+
+ Score = 47.0 bits (110), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 42/74 (56%), Gaps = 1/74 (1%)
+
+Query: 73  RSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALV 132
+           +++FVGN+ ++   + ++  F+  G I    I+ D+ TG+ KGF YVEF   +  A+A  
+Sbjct: 234 KNLFVGNLSWNIDEDWLRREFEGFGEIVGCRIITDRETGRGKGFGYVEFATSADAAKAQA 293
+
+Query: 133 -LNESVFKGRNIKV 145
+            +++    GR + V
+Sbjct: 294 EMHQYELDGRPLNV 307
+
+
+>CBX99477 pep:novel supercontig:ASM23037v1:FP929136:559841:561721:-1
+           gene:LEMA_P087160.1 transcript:CBX99477
+           description:"Putative uncharacterized protein "
+          Length = 590
+
+ Score = 53.5 bits (127), Expect = 5e-09,   Method: Compositional matrix adjust.
+ Identities = 27/73 (36%), Positives = 39/73 (53%)
+
+Query: 68  DDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLV 127
+           DD D R+IFV  +   A    +++ F++ G +    I+ D+ TG+ KG  YVEF E   V
+Sbjct: 175 DDRDKRTIFVQQISQRAETRHLRSFFETVGPVVEAQIVKDRVTGRSKGVGYVEFKEEESV 234
+
+Query: 128 AQALVLNESVFKG 140
+            +AL L     KG
+Sbjct: 235 PKALELTGQKLKG 247
+
+
+
+ Score = 47.4 bits (111), Expect = 8e-07,   Method: Compositional matrix adjust.
+ Identities = 22/74 (29%), Positives = 43/74 (58%), Gaps = 2/74 (2%)
+
+Query: 75  IFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFT-GQPKGFAYVEFTEPSLVAQALV- 132
+           ++VGN+ +S + +++Q  F+  G + +V +  D+   G+ KG+ +V+F +P+    AL  
+Sbjct: 282 LYVGNIHFSVTEKDLQEIFEPYGELEQVILQRDELNPGRSKGYGFVQFVDPTHAKDALAE 341
+
+Query: 133 LNESVFKGRNIKVS 146
+           +N     GR I+V 
+Sbjct: 342 MNGFELAGRQIRVG 355
+
+
+>CBX96015 pep:novel supercontig:ASM23037v1:FP929127:2442549:2443121:1
+           gene:LEMA_P031670.1 transcript:CBX96015
+           description:"Putative uncharacterized protein "
+          Length = 170
+
+ Score = 50.4 bits (119), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 32/51 (62%)
+
+Query: 71  DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           D+ +++VGN+ +  + E+I   F  CG I R+ + LD+F   P GF +VE+
+Sbjct: 48  DATTLYVGNLSFYTTEEQIHELFSKCGEIKRLVMGLDRFQKTPCGFCFVEY 98
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 1,376,547
+Number of extensions: 47237
+Number of successful extensions: 304
+Number of sequences better than 10.0: 60
+Number of HSP's gapped: 301
+Number of HSP's successfully gapped: 70
+Length of query: 193
+Length of database: 5,217,443
+Length adjustment: 88
+Effective length of query: 105
+Effective length of database: 4,120,171
+Effective search space: 432617955
+Effective search space used: 432617955
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 50 (23.9 bits)

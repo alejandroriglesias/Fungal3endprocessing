@@ -1,0 +1,157 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_09892P0 pep:known chromosome:ASM24013v2:1:9071909:9073866:-...   534   0.0  
+FGSG_05280P0 pep:known chromosome:ASM24013v2:3:1731880:1734257:-...    30   1.8  
+FGSG_10286P0 pep:known chromosome:ASM24013v2:1:10391384:10393618...    29   3.5  
+FGSG_02646P0 pep:known chromosome:ASM24013v2:1:8522879:8524802:-...    28   8.9  
+
+>FGSG_09892P0 pep:known chromosome:ASM24013v2:1:9071909:9073866:-1
+           gene:FGSG_09892 transcript:FGSG_09892T0
+           description:"hypothetical protein similar to
+           retinoblastoma-binding protein"
+          Length = 617
+
+ Score =  534 bits (1375), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 269/463 (58%), Positives = 323/463 (69%), Gaps = 24/463 (5%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           EPTRVEFDGTGISVFELKR+II KSGLGDGTDFDL IYT+D +EEYDDDTTIIPRST V+
+Sbjct: 14  EPTRVEFDGTGISVFELKREIITKSGLGDGTDFDLHIYTDDNSEEYDDDTTIIPRSTTVI 73
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+           ARR P++KPGAGRAARYVSGK PV AKN+ RKEQ               QM+NA+TEEE+
+Sbjct: 74  ARRQPALKPGAGRAARYVSGKMPVTAKNAGRKEQTAKASVSKPSSDAISQMNNAMTEEEK 133
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWI 193
+           +AAMF AQ+EQW+AQQEE+SHQTP++  K G  KRPANVPDH+PPNGYICYRCG KGHWI
+Sbjct: 134 MAAMFAAQTEQWSAQQEEMSHQTPVF--KAG-AKRPANVPDHDPPNGYICYRCGNKGHWI 190
+
+Query: 194 QLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMVNADGD 253
+           QLCPTND+PEFDNRPRVKRTTGIP+SFL+ VDK+ VL Q   DG+E K PSG+MVNA+GD
+Sbjct: 191 QLCPTNDDPEFDNRPRVKRTTGIPRSFLQKVDKSVVLAQ--TDGDETKRPSGIMVNAEGD 248
+
+Query: 254 FVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEK 313
+           FVIA+PDKA+WE+FQA+              +KE+Q++GLEC +DK++F EPMKTPCC+K
+Sbjct: 249 FVIAEPDKASWEQFQAKAKSSATTNAPAG--DKEIQEQGLECSIDKKMFIEPMKTPCCQK 306
+
+Query: 314 TYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQYHXXXXXXXXXXXXXXX 373
+           T+CNDCITNALIESDFVCP CQ+EGVLID+L+PD+E + KI++Y                
+Sbjct: 307 TFCNDCITNALIESDFVCPACQSEGVLIDDLQPDEEASKKIQEYLKEKEIAKSPPPPSPK 366
+
+Query: 374 XXXXXXXXXXXXXX-----XXXXXXTTENNGAD-SKEVGKASSKSPTTSVKSLAKDPTSP 427
+                                      EN   D +    K  S SPT+   ++   PT P
+Sbjct: 367 ASEGAKADGESQDKPQNEDIASTEQKVENESHDKTMASAKEKSNSPTSQSATIKTPPTGP 426
+
+Query: 428 TE-ISTPNG----------TVSNPKKRPADQPAENPRVPRAPK 459
+              +S P+           +  N KKRPAD   +NPR+P+ PK
+Sbjct: 427 KGLVSVPHDANKQVDGAKTSDDNSKKRPADDILDNPRIPKGPK 469
+
+
+
+ Score = 65.9 bits (159), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 27/37 (72%), Positives = 31/37 (83%)
+
+Query: 623 FSNQAATEDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           F      ++DAYFRKPVNPHRHQN+Q+RVRPSDYREL
+Sbjct: 581 FGQGVGPDEDAYFRKPVNPHRHQNKQRRVRPSDYREL 617
+
+
+>FGSG_05280P0 pep:known chromosome:ASM24013v2:3:1731880:1734257:-1
+           gene:FGSG_05280 transcript:FGSG_05280T0
+           description:"hypothetical protein"
+          Length = 718
+
+ Score = 30.4 bits (67), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 13/29 (44%)
+
+Query: 169 PANVPDHEPPNGYICYRCGEKGHWIQLCP 197
+           P   P    P+   CY CG  GHW   CP
+Sbjct: 2   PNTAPGQPRPDEARCYNCGTAGHWAIACP 30
+
+
+>FGSG_10286P0 pep:known chromosome:ASM24013v2:1:10391384:10393618:-1
+           gene:FGSG_10286 transcript:FGSG_10286T0
+           description:"conserved hypothetical protein"
+          Length = 180
+
+ Score = 28.9 bits (63), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 14/22 (63%)
+
+Query: 176 EPPNGYICYRCGEKGHWIQLCP 197
+           E  NG  CY CGE GH+ + CP
+Sbjct: 133 ECVNGMKCYNCGESGHYSRDCP 154
+
+
+>FGSG_02646P0 pep:known chromosome:ASM24013v2:1:8522879:8524802:-1
+           gene:FGSG_02646 transcript:FGSG_02646T0
+           description:"conserved hypothetical protein"
+          Length = 236
+
+ Score = 27.7 bits (60), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 17/39 (43%), Positives = 20/39 (51%), Gaps = 2/39 (5%)
+
+Query: 161 GKPGVGKRPANVPDHEPPN--GYICYRCGEKGHWIQLCP 197
+           GK G   R    P+  P N  G  CY+CGE GH  + CP
+Sbjct: 155 GKLGHISRDCTAPNGGPLNTAGKTCYQCGEAGHISRDCP 193
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 5,927,108
+Number of extensions: 250819
+Number of successful extensions: 799
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 792
+Number of HSP's successfully gapped: 31
+Length of query: 659
+Length of database: 5,933,672
+Length adjustment: 101
+Effective length of query: 558
+Effective length of database: 4,588,554
+Effective search space: 2560413132
+Effective search space used: 2560413132
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 56 (26.2 bits)

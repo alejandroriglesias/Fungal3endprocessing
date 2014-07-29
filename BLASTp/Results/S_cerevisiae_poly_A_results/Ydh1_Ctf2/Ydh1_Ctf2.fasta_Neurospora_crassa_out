@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000006771 pep:known supercontig:ASM18292v1:7.32:301888:3...   122   1e-28
+EFNCRP00000005633 pep:known supercontig:ASM18292v1:7.22:400382:4...    32   0.60 
+EFNCRP00000003088 pep:known supercontig:ASM18292v1:7.10:323088:3...    30   1.2  
+EFNCRP00000007097 pep:known supercontig:ASM18292v1:7.36:308636:3...    30   2.0  
+EFNCRP00000003699 pep:known supercontig:ASM18292v1:7.12:556404:5...    30   2.8  
+
+>EFNCRP00000006771 pep:known supercontig:ASM18292v1:7.32:301888:304897:-1
+           gene:EFNCRG00000006768 transcript:EFNCRT00000006780
+           description:"Putative uncharacterized protein"
+          Length = 986
+
+ Score =  122 bits (305), Expect = 1e-28,   Method: Compositional matrix adjust.
+ Identities = 108/346 (31%), Positives = 161/346 (46%), Gaps = 59/346 (17%)
+
+Query: 18  SVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYN 76
+           S++  D  V +LID GW+ +    E+ +K   K  P + +I+L+  T+  L A    Y +
+Sbjct: 19  SLLELDGGVKILIDVGWDET-FDVEK-LKELGKQAPTLSLILLTHATVPHLAA----YAH 72
+
+Query: 77  FTSHF--ISRIQVYATLPVINLGRVSTID--------------------SYASAGVIGPY 114
+              HF    RI VYAT PVI+LGR  T D                    SYAS       
+Sbjct: 73  CCKHFPPFQRIPVYATRPVIDLGRTLTQDLYASTPLAATTISSASLAEVSYASGYSQAAS 132
+
+Query: 115 DTNKLDL-----EDIEISFDHIVPLKYSQ-----LVDLRSRYDGLTLLAYNAGVCPGGSI 164
+             N   L     E+I   F  I PLKYSQ             +GLT+ AYN+G   GG+I
+Sbjct: 133 AENTFLLQPPTPEEITKYFSLIQPLKYSQPHQPLPSPFSPPLNGLTITAYNSGRTLGGTI 192
+
+Query: 165 WCISTYSEKLVYAKRWNHTRDNILNAASILDATG------KPLSTLMRPSAIITTLDRFG 218
+           W I    E +VYA  WN  R+N+   A+ L          + +  L +P+A++ +     
+Sbjct: 193 WHIQHGLESIVYAVDWNQARENVFAGAAWLGGNHGGAGGTQVIEQLRKPTALVCSSRTPD 252
+
+Query: 219 SSQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDL-FTQVHELLFESTKINAHTQV 277
+           ++ P  KR +   +++K  ++  G+V+IPVD S + L+L +   H    E  K N   + 
+Sbjct: 253 AALPRAKRDEQLMESIKLCIARGGTVLIPVDSSARVLELSYLLEHAWRKEVAKDNDVFKS 312
+
+Query: 278 PVLILSYARGRTLTY----AKSMLEWLSPSLLKTWE------NRNN 313
+             L L+   GRT++     A+SMLEW+  S+++ +E       RNN
+Sbjct: 313 AKLFLA---GRTISSTMKNARSMLEWMDDSIIREFEAFADESRRNN 355
+
+
+
+ Score = 44.7 bits (104), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 56/228 (24%), Positives = 99/228 (43%), Gaps = 36/228 (15%)
+
+Query: 636 DKTL---SKRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNE 692
+           D+TL   +K  ++   + ++  +  ++   L D+RS +++ P ++ RK+VL A  + +  
+Sbjct: 705 DETLNGPAKLVVTKETIPVRLRIAFVDFSGLHDKRSLTMLIPLIQPRKLVLVAGGKDETL 764
+
+Query: 693 EITAKLIKKNIEVVNMPLNKIVEFSTTI--KTLDISIDSN---------LDNLLKWQRIS 741
+            + A  +KK +   +      +E  T     T+D S+D+N         L   LKWQ + 
+Sbjct: 765 AL-ASDVKKLLTAQSTGTESAIEVLTPAVGTTVDASVDTNAWVLKLADPLVKGLKWQNVR 823
+
+Query: 742 DSYTVATVVGRLV--KESLP--------------QVNNHQKTASRSKLVLKPLHGSSRSH 785
+               + TV G L+   E  P              ++ +  +T + S  ++K        H
+Sbjct: 824 -GLGIVTVTGLLLPGGEFQPIEVGDGDGDAAKRQKLEDSSETPTTSTALVKTGTKHLSHH 882
+
+Query: 786 K----TGALSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRK 829
+           +    TG        L       T   + AEF+GEGTL+I++ V VRK
+Sbjct: 883 RLPPHTGPRPANPGLLVTFTSRPTSTRHKAEFRGEGTLLIDDVVVVRK 930
+
+
+>EFNCRP00000005633 pep:known supercontig:ASM18292v1:7.22:400382:401669:1
+           gene:EFNCRG00000005629 transcript:EFNCRT00000005639
+           description:"Putative uncharacterized protein"
+          Length = 308
+
+ Score = 32.0 bits (71), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 30/112 (26%), Positives = 43/112 (38%), Gaps = 8/112 (7%)
+
+Query: 63  TIECLGAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLDLE 122
+           T+   GA S L ++   H +S+        +       T D+Y SA      D + LD+ 
+Sbjct: 7   TVVATGASSGLGFHVIKHLLSQTSQPYNFILGARDASRTQDAYRSAFQGASLDPHSLDIL 66
+
+Query: 123 DIEI----SFDHIVPLKYSQLVDLRSRY----DGLTLLAYNAGVCPGGSIWC 166
+            +E+    S  H       +L   R  Y     G+T  A      PGGS WC
+Sbjct: 67  PLELADLKSVKHFAKQTLEKLEGKRIDYLFLNAGITNGAGTEKAGPGGSKWC 118
+
+
+>EFNCRP00000003088 pep:known supercontig:ASM18292v1:7.10:323088:323628:1
+           gene:EFNCRG00000003085 transcript:EFNCRT00000003088
+           description:"Probable brt1 protein"
+          Length = 135
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query: 152 LAYNAGVCPGGSIWCISTYSEKLVYAKRWNHTRDNILNAASILDATGKPLSTLMRPSAII 211
+           + YN  V   GS+  I   +  +V     + TR    N +++L+A G  L  +++ +  +
+Sbjct: 23  VVYNGMVYCSGSLG-IDPATGNMVEGTVKDRTRQVFKNLSAVLEAAGSSLKNVVKVNVFL 81
+
+Query: 212 TTLDRFGS 219
+           TT+D F +
+Sbjct: 82  TTMDNFAA 89
+
+
+>EFNCRP00000007097 pep:known supercontig:ASM18292v1:7.36:308636:311968:-1
+           gene:EFNCRG00000007095 transcript:EFNCRT00000007107
+           description:"Predicted protein"
+          Length = 909
+
+ Score = 30.4 bits (67), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 32/63 (50%)
+
+Query: 160 PGGSIWCISTYSEKLVYAKRWNHTRDNILNAASILDATGKPLSTLMRPSAIITTLDRFGS 219
+           P GS  C +TY ++ V     N   D +++   +   T  PL TL+R SA  T LD + +
+Sbjct: 421 PHGSSDCGTTYMDEAVDQPSTNPIIDLVIHRPDLKKQTPVPLFTLIRMSATSTNLDWYET 480
+
+Query: 220 SQP 222
+           + P
+Sbjct: 481 NVP 483
+
+
+>EFNCRP00000003699 pep:known supercontig:ASM18292v1:7.12:556404:558605:-1
+           gene:EFNCRG00000003695 transcript:EFNCRT00000003699
+           description:"SWR1-complex protein 4"
+          Length = 733
+
+ Score = 30.0 bits (66), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 34/70 (48%), Gaps = 3/70 (4%)
+
+Query: 328 PNELSKYPGSKICFVSEVGALINEVIIKVGNSEKTTLILTKPSFECASSLDKILEIVEQD 387
+           P+ ++  P SK   + ++ A   EV  K+   +K    +T+P FE     + +L    + 
+Sbjct: 192 PDGMAVVPASKPRTMEDLKARYYEVAAKMMAVQKPAQYMTRPEFEL---YEMMLHFDPKQ 248
+
+Query: 388 ERNWKTFPED 397
+           E+N K F E+
+Sbjct: 249 EQNRKRFAEN 258
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 7,584,479
+Number of extensions: 313217
+Number of successful extensions: 903
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 896
+Number of HSP's successfully gapped: 15
+Length of query: 859
+Length of database: 4,779,891
+Length adjustment: 102
+Effective length of query: 757
+Effective length of database: 3,776,313
+Effective search space: 2858668941
+Effective search space used: 2858668941
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

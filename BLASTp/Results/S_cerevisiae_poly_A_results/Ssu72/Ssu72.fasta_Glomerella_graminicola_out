@@ -1,0 +1,159 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ27837 pep:novel supercontig:GCA_000149035.1:GG697338:1105742:...   189   2e-59
+EFQ29849 pep:novel supercontig:GCA_000149035.1:GG697346:634722:6...    29   1.3  
+EFQ31375 pep:novel supercontig:GCA_000149035.1:GG697355:62798:64...    28   1.4  
+EFQ35654 pep:novel supercontig:GCA_000149035.1:GG697397:121432:1...    27   4.0  
+EFQ34414 pep:novel supercontig:GCA_000149035.1:GG697380:50497:51...    27   4.6  
+
+>EFQ27837 pep:novel supercontig:GCA_000149035.1:GG697338:1105742:1106663:-1
+           gene:GLRG_02981 transcript:EFQ27837
+           description:"Ssu72-like protein"
+          Length = 267
+
+ Score =  189 bits (480), Expect = 2e-59,   Method: Compositional matrix adjust.
+ Identities = 106/231 (45%), Positives = 138/231 (59%), Gaps = 33/231 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASN NRSM SH  L  A Y V S+GTGS VRLPG SI +PNVY F  T Y+ I
+Sbjct: 37  LKFCTVCASNQNRSMVSHLRLANANYPVISFGTGSLVRLPGPSITQPNVYHFNKTSYDSI 96
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           + +L S+    Y++NG+L M+DRNR +K  PE+WQ+                      V 
+Sbjct: 97  FKELESKDPRLYRANGVLNMVDRNRHVKWGPERWQDWQIGMPRLNHTEDRGSVGVEGGVV 156
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLND- 167
+           D V TCEERC+DAV +DLMNRG  LN+ VHVINVDIKD+ E A +G +AIL+LA+ LN  
+Sbjct: 157 DIVVTCEERCWDAVIDDLMNRGAPLNRPVHVINVDIKDNHEEASVGGRAILDLANSLNTA 216
+
+Query: 168 KIEQCE------------KDDIPFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+            +E+ E                 F++ + DIL  WQ     LP+++  +++
+Sbjct: 217 AVEEREAVGAAAFDSGSASSRASFDERVPDILAAWQDRWPHLPAVWTLAWF 267
+
+
+>EFQ29849 pep:novel supercontig:GCA_000149035.1:GG697346:634722:636524:1
+           gene:GLRG_04993 transcript:EFQ29849
+           description:"hypothetical protein"
+          Length = 600
+
+ Score = 28.9 bits (63), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 30/67 (44%), Gaps = 4/67 (5%)
+
+Query: 72  LSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCEDLMNRGG 131
+           LS++   YK  G+   +       +AP+ W +S    D  FT     F AV + +    G
+Sbjct: 387 LSETLSSYKGQGVRMNITARMMACQAPQNWTQSES--DDFFT--RHLFRAVLQKIFLDRG 442
+
+Query: 132 KLNKIVH 138
+            +NK+ H
+Sbjct: 443 VINKVYH 449
+
+
+>EFQ31375 pep:novel supercontig:GCA_000149035.1:GG697355:62798:64976:-1
+           gene:GLRG_06519 transcript:EFQ31375 description:"modin"
+          Length = 706
+
+ Score = 28.5 bits (62), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 29/67 (43%), Gaps = 4/67 (5%)
+
+Query: 131 GKLNKIVHVINVDIKDDDENAKIGSKA----ILELADMLNDKIEQCEKDDIPFEDCIMDI 186
+           G+ N+ + VIN +I DDD+   +   A    I+ L   L    +Q       +  C   +
+Sbjct: 7   GQFNRTLQVINSNINDDDKELFVAVAALVISIVALVAALLQVAQQYYASAAGYSSCGSKV 66
+
+Query: 187 LTEWQSS 193
+           + +W  S
+Sbjct: 67  IGKWSES 73
+
+
+>EFQ35654 pep:novel supercontig:GCA_000149035.1:GG697397:121432:123196:-1
+           gene:GLRG_10798 transcript:EFQ35654
+           description:"DEAD/DEAH box helicase"
+          Length = 530
+
+ Score = 26.9 bits (58), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 367
+
+
+>EFQ34414 pep:novel supercontig:GCA_000149035.1:GG697380:50497:51189:1
+           gene:GLRG_09558 transcript:EFQ34414 description:"vivid
+           PAS protein VVD"
+          Length = 192
+
+ Score = 26.6 bits (57), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 31/70 (44%), Gaps = 5/70 (7%)
+
+Query: 123 CEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDC 182
+           C  L   GGK++K     +VD     E  K   KA+ E+ D +  ++    KD  PF + 
+Sbjct: 113 CRFLQAPGGKVSKKSARKHVD----KETVKSMRKAV-EMNDEVQLEVLNFRKDGTPFVNL 167
+
+Query: 183 IMDILTEWQS 192
+           +  I   W S
+Sbjct: 168 LTMIPVRWDS 177
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 2,382,108
+Number of extensions: 97428
+Number of successful extensions: 255
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 252
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 5,585,764
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,503,964
+Effective search space: 522459824
+Effective search space used: 522459824
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

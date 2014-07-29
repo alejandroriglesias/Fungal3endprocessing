@@ -1,0 +1,231 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00000312 pep:known scaffold:CADRE:DS499594:880525:881289...   207   2e-65
+CADAFUBP00007990 pep:known scaffold:CADRE:DS499600:652609:654272...    53   3e-08
+CADAFUBP00004261 pep:known scaffold:CADRE:DS499596:2696190:26981...    39   0.001
+CADAFUBP00003416 pep:known scaffold:CADRE:DS499596:262907:267227...    34   0.039
+CADAFUBP00006812 pep:known scaffold:CADRE:DS499598:1971859:19741...    33   0.064
+CADAFUBP00009549 pep:known scaffold:CADRE:DS499603:40227:43613:-...    29   1.4  
+CADAFUBP00005409 pep:known scaffold:CADRE:DS499597:1827613:18286...    28   1.8  
+CADAFUBP00005319 pep:known scaffold:CADRE:DS499597:1570336:15715...    28   2.2  
+CADAFUBP00006020 pep:known scaffold:CADRE:DS499597:3553292:35545...    28   3.3  
+CADAFUBP00005507 pep:known scaffold:CADRE:DS499597:2113197:21175...    27   5.7  
+CADAFUBP00008096 pep:known scaffold:CADRE:DS499600:954085:956235...    27   6.4  
+CADAFUBP00000067 pep:known scaffold:CADRE:DS499594:179073:179984...    26   7.8  
+
+>CADAFUBP00000312 pep:known scaffold:CADRE:DS499594:880525:881289:1
+           gene:CADAFUBG00000319 transcript:CADAFUBT00000319
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit, putative"
+          Length = 254
+
+ Score =  207 bits (526), Expect = 2e-65,   Method: Compositional matrix adjust.
+ Identities = 105/202 (51%), Positives = 138/202 (68%), Gaps = 4/202 (1%)
+
+Query: 5   SVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLERHV 64
+           + A+I     +      +FSFTPFL++++   L SD P+CK Y S G+CP G  C +RH 
+Sbjct: 8   AAARILSTDSSRDPSFNNFSFTPFLRKSFGFGLASDVPVCKAY-SEGHCPLGPACPDRH- 65
+
+Query: 65  ADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYI 124
+             PS+++ + +   SG        SLVCKH+L+GLCKKG  CE+LHEYNLRRMPEC  + 
+Sbjct: 66  PTPSRVTTSTTT-ASGLAPSTTHGSLVCKHFLKGLCKKGLKCEYLHEYNLRRMPECQSFS 124
+
+Query: 125 RNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPDG 184
+           R+GYC NG++CLY H+  Q++LPPC +YDQGFC LGP CSK+HVRR LC YYL GFCP+G
+Sbjct: 125 RSGYCPNGDDCLYQHVREQARLPPCENYDQGFCELGPLCSKRHVRRRLCKYYLAGFCPEG 184
+
+Query: 185 RLCKQGAHPGWNPKLDPPTVKV 206
+           + C   AHP W+  L  PT++V
+Sbjct: 185 KACPD-AHPRWSENLPKPTMRV 205
+
+
+>CADAFUBP00007990 pep:known scaffold:CADRE:DS499600:652609:654272:1
+           gene:CADAFUBG00008135 transcript:CADAFUBT00008135
+           description:"CCCH zinc finger protein"
+          Length = 452
+
+ Score = 52.8 bits (125), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 44/146 (30%), Positives = 64/146 (43%), Gaps = 28/146 (19%)
+
+Query: 43  ICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR-GLCK 101
+           +CK + S G C  G  CL  H  DP++++                   +CK +L+ G C 
+Sbjct: 256 LCKRFTSTGACYKGPSCLFIH--DPNKVA-------------------ICKEFLQTGNCS 294
+
+Query: 102 KGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHY-DQGFCPLG 160
+            G  C+  HE +  R P C  ++RN  C N  +C Y H+      P C  + + G+C  G
+Sbjct: 295 AGQNCDLSHEPSPHRSPVCVHFLRN-RCSN-PDCRYSHVRVTPGAPVCRDFANLGYCDKG 352
+
+Query: 161 PRCSKKHVRRNLCP-YYLCGFCPDGR 185
+             C ++HV    CP Y   G C   R
+Sbjct: 353 AECEQRHVHE--CPDYAASGVCNKKR 376
+
+
+
+ Score = 43.1 bits (100), Expect = 4e-05,   Method: Compositional matrix adjust.
+ Identities = 38/133 (28%), Positives = 45/133 (33%), Gaps = 26/133 (19%)
+
+Query: 38  PSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR 97
+           P+   ICK +   GNC  G  C   H   P +                   S VC H+LR
+Sbjct: 278 PNKVAICKEFLQTGNCSAGQNCDLSHEPSPHR-------------------SPVCVHFLR 318
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFC 157
+             C   D C + H       P C  +   GYC  G EC   H+        CP Y     
+Sbjct: 319 NRCSNPD-CRYSHVRVTPGAPVCRDFANLGYCDKGAECEQRHVH------ECPDYAASGV 371
+
+Query: 158 PLGPRCSKKHVRR 170
+               RC   HV R
+Sbjct: 372 CNKKRCRLPHVDR 384
+
+
+
+ Score = 42.7 bits (99), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 31/107 (28%), Positives = 47/107 (43%), Gaps = 8/107 (7%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLP 147
+           N L  +    G C KG  C F+H+ N  ++  C  +++ G C  G+ C   H     + P
+Sbjct: 254 NELCKRFTSTGACYKGPSCLFIHDPN--KVAICKEFLQTGNCSAGQNCDLSHEPSPHRSP 311
+
+Query: 148 PCPHYDQGFCPLGPRCSKKHVRRN----LCPYYL-CGFCPDGRLCKQ 189
+            C H+ +  C   P C   HVR      +C  +   G+C  G  C+Q
+Sbjct: 312 VCVHFLRNRCS-NPDCRYSHVRVTPGAPVCRDFANLGYCDKGAECEQ 357
+
+
+
+ Score = 31.6 bits (70), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 27/87 (31%), Positives = 37/87 (42%), Gaps = 9/87 (10%)
+
+Query: 115 RRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-GFCPLGPRCSKKHV----R 169
+           +R   C  +   G C  G  CL++H DP +K+  C  + Q G C  G  C   H     R
+Sbjct: 252 KRNELCKRFTSTGACYKGPSCLFIH-DP-NKVAICKEFLQTGNCSAGQNCDLSHEPSPHR 309
+
+Query: 170 RNLCPYYLCGFC--PDGRLCKQGAHPG 194
+             +C ++L   C  PD R       PG
+Sbjct: 310 SPVCVHFLRNRCSNPDCRYSHVRVTPG 336
+
+
+>CADAFUBP00004261 pep:known scaffold:CADRE:DS499596:2696190:2698144:1
+           gene:CADAFUBG00004333 transcript:CADAFUBT00004333
+           description:"Spindle poison sensitivity protein Scp3,
+           putative"
+          Length = 546
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 37/81 (45%), Gaps = 15/81 (18%)
+
+Query: 110 HEYNLRRMPECNFYIRNGYCQNGEECLYLH-IDPQSKLPPCPHYDQGFCPLGPRCSKKHV 168
+           ++ N + +P C F+ R G CQ G  C +LH  D      PC ++ +G C  G +C+  H+
+Sbjct: 37  NQSNTKHVP-CKFF-RQGACQAGPACPFLHSTDAAIDYAPCKYFTKGNCKFGAKCALAHI 94
+
+Query: 169 RRNLCPYYLCGFCPDGRLCKQ 189
+                        PDGR   +
+Sbjct: 95  ------------LPDGRRVNR 103
+
+
+
+ Score = 33.5 bits (75), Expect = 0.053,   Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 29/56 (51%), Gaps = 4/56 (7%)
+
+Query: 92  CKHWLRGLCKKGDGCEFLHEYN--LRRMPECNFYIRNGYCQNGEECLYLHIDPQSK 145
+           CK + +G C+ G  C FLH  +  +   P C ++ + G C+ G +C   HI P  +
+Sbjct: 46  CKFFRQGACQAGPACPFLHSTDAAIDYAP-CKYFTK-GNCKFGAKCALAHILPDGR 99
+
+
+
+ Score = 27.3 bits (59), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 29/73 (39%), Gaps = 6/73 (8%)
+
+Query: 124 IRNGYCQNGEECLYLHI-----DPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLC 178
+           ++NG+ +N    L +          +K  PC  + QG C  GP C   H       Y  C
+Sbjct: 16  VQNGHSRNPSSGLDMAARSPPNQSNTKHVPCKFFRQGACQAGPACPFLHSTDAAIDYAPC 75
+
+Query: 179 GFCPDGRLCKQGA 191
+            +   G  CK GA
+Sbjct: 76  KYFTKGN-CKFGA 87
+
+
+>CADAFUBP00003416 pep:known scaffold:CADRE:DS499596:262907:267227:1
+            gene:CADAFUBG00003478 transcript:CADAFUBT00003478
+            description:"Putative uncharacterized protein"
+          Length = 1100
+
+ Score = 33.9 bits (76), Expect = 0.039,   Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 21/38 (55%)
+
+Query: 74   QSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHE 111
+            +S +G+  +  P    + C++W  G C KGD C F H+
+Sbjct: 1060 RSKFGAPTKKHPKAGLVPCRYWREGKCLKGDNCTFRHD 1097
+
+
+>CADAFUBP00006812 pep:known scaffold:CADRE:DS499598:1971859:1974170:1
+           gene:CADAFUBG00006940 transcript:CADAFUBT00006940
+           description:"CCCH zinc finger and SMR domain protein"
+          Length = 733
+
+ Score = 33.1 bits (74), Expect = 0.064,   Method: Compositional matrix adjust.
+ Identities = 12/21 (57%), Positives = 15/21 (71%)
+
+Query: 91  VCKHWLRGLCKKGDGCEFLHE 111
+           VCK+W+ G C  GDGC F H+
+Sbjct: 307 VCKYWIMGNCLAGDGCPFSHD 327
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,826,775
+Number of extensions: 135754
+Number of successful extensions: 309
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 287
+Number of HSP's successfully gapped: 27
+Length of query: 276
+Length of database: 4,796,137
+Length adjustment: 92
+Effective length of query: 184
+Effective length of database: 3,883,865
+Effective search space: 714631160
+Effective search space used: 714631160
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_07068T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   194   2e-61
+MAPG_10832T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   2.0  
+MAPG_00124T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   3.5  
+MAPG_04219T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   4.0  
+MAPG_06507T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    26   9.9  
+
+>MAPG_07068T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:480731:48
+           2687:1 gene:MAPG_07068 transcript:MAPG_07068T0
+           description:"RNA polymerase II subunit A domain
+           phosphatase SSU72"
+          Length = 254
+
+ Score =  194 bits (493), Expect = 2e-61,   Method: Compositional matrix adjust.
+ Identities = 102/232 (43%), Positives = 139/232 (59%), Gaps = 35/232 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASN NRSME+H  L +A + V S+GTGS VRLPG +I +PNVY F  T Y+++
+Sbjct: 24  LKFCTVCASNQNRSMEAHLRLSQANFPVISFGTGSLVRLPGPTITQPNVYKFNDTTYDNM 83
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           Y +L  +    Y++NG+L ML RNR +K+ PE+WQ+                      V 
+Sbjct: 84  YKELEGKDPRLYRANGILNMLGRNRNVKRNPERWQDWQIGIPRLDHASDRGSAGTEGGVV 143
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D VFTCEERC+DAV +DL  RG  LN+ VHVINVDIKD+ E A IG   IL+LA+ LN K
+Sbjct: 144 DVVFTCEERCWDAVIDDLHARGSPLNRAVHVINVDIKDNHEEAAIGGSGILDLAESLN-K 202
+
+Query: 169 IEQCEKDDI--------------PFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+           +   E+D +               F++ + ++L EWQ     LP+ +  +++
+Sbjct: 203 VAMEERDKVGAAVFDGAGGAGRSGFDERVPEVLAEWQERWPNLPATWTLAWF 254
+
+
+>MAPG_10832T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.13:490582:4
+           91625:1 gene:MAPG_10832 transcript:MAPG_10832T0
+           description:"hypothetical protein"
+          Length = 317
+
+ Score = 27.7 bits (60), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 20/92 (21%), Positives = 41/92 (44%), Gaps = 14/92 (15%)
+
+Query: 117 RCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDD 176
+           + +  VC+  +    K + +V  +  D + + E A+       E   +L  ++E C +D 
+Sbjct: 177 KLYQFVCKPSLIVRTKASALVVPVPRDAEKEKEAAR-------ESRWVLEAQLENCGEDP 229
+
+Query: 177 IPFEDCIMDILT-------EWQSSHSQLPSLY 201
+           I  E  ++D+          W+++ SQ P L+
+Sbjct: 230 IQLERAVLDLEPGLSYTDCNWEAAGSQKPVLH 261
+
+
+>MAPG_00124T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:433696:43
+           7781:-1 gene:MAPG_00124 transcript:MAPG_00124T0
+           description:"hypothetical protein"
+          Length = 962
+
+ Score = 27.3 bits (59), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 22/38 (57%), Gaps = 6/38 (15%)
+
+Query: 95  KKAPEKWQESTK-VFDFVFTCEERCFDAVCEDLMNRGG 131
+           + A ++W  + + V D V+ C++R     CE+L  RGG
+Sbjct: 609 RAAAKEWMMNLEGVHDLVYACQDR-----CEELAQRGG 641
+
+
+>MAPG_04219T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:2173801:2
+           178064:1 gene:MAPG_04219 transcript:MAPG_04219T0
+           description:"ATP-dependent RNA helicase DHH1"
+          Length = 533
+
+ Score = 26.9 bits (58), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+>MAPG_06507T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:2007389:2
+           009573:1 gene:MAPG_06507 transcript:MAPG_06507T0
+           description:"hypothetical protein"
+          Length = 576
+
+ Score = 25.8 bits (55), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 13/52 (25%), Positives = 24/52 (46%)
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCF 119
+           Y+    +  + Y S+ L +ML    R+   P+   ++T+  + V     RCF
+Sbjct: 74  YHGQAVEGLEEYSSDNLPEMLRHAPRMDAKPDLADDATQHAELVAAALARCF 125
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 2,088,118
+Number of extensions: 83905
+Number of successful extensions: 208
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 205
+Number of HSP's successfully gapped: 9
+Length of query: 206
+Length of database: 4,928,244
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 3,916,314
+Effective search space: 458208738
+Effective search space used: 458208738
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

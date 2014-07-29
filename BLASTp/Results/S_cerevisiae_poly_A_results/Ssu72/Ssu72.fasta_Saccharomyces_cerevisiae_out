@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YNL222W pep:known chromosome:SacCer_Apr2011:XIV:229094:229714:1 ...   431   e-155
+YLR464W pep:known chromosome:SacCer_Apr2011:XII:1066572:1067501:...    28   0.64 
+YEL076C-A pep:known chromosome:SacCer_Apr2011:V:4185:5114:-1 gen...    28   0.64 
+YIL177C pep:known chromosome:SacCer_Apr2011:IX:483:6147:-1 gene:...    28   0.78 
+YJL225C pep:known chromosome:SacCer_Apr2011:X:466:6130:-1 gene:Y...    28   0.78 
+YOR396W pep:known chromosome:SacCer_Apr2011:XV:1085473:1090863:1...    28   0.82 
+YLR467W pep:known chromosome:SacCer_Apr2011:XII:1072508:1077898:...    28   0.82 
+YDR545W pep:known chromosome:SacCer_Apr2011:IV:1526321:1531711:1...    28   0.82 
+YER190W pep:known chromosome:SacCer_Apr2011:V:571480:576525:1 ge...    28   0.83 
+YPL283C pep:known chromosome:SacCer_Apr2011:XVI:280:6007:-1 gene...    28   0.86 
+YNL339C pep:known chromosome:SacCer_Apr2011:XIV:371:6098:-1 gene...    28   0.86 
+YGR296W pep:known chromosome:SacCer_Apr2011:VII:1084864:1090591:...    28   0.86 
+YEL076C pep:known chromosome:SacCer_Apr2011:V:4464:5114:-1 gene:...    28   1.2  
+YPR203W pep:known chromosome:SacCer_Apr2011:XVI:943880:944188:1 ...    26   1.7  
+YHL049C pep:known chromosome:SacCer_Apr2011:VIII:3726:4541:-1 ge...    27   2.3  
+YKL014C pep:known chromosome:SacCer_Apr2011:XI:411619:416913:-1 ...    27   2.3  
+YMR210W pep:known chromosome:SacCer_Apr2011:XIII:687516:688865:1...    27   3.6  
+
+>YNL222W pep:known chromosome:SacCer_Apr2011:XIV:229094:229714:1
+           gene:YNL222W transcript:YNL222W
+           description:"Transcription/RNA-processing factor that
+           associates with TFIIB and cleavage/polyadenylation
+           factor Pta1p\x3b exhibits phosphatase activity on
+           serine-5 of the RNA polymerase II C-terminal domain\x3b
+           affects start site selection in vivo"
+          Length = 206
+
+ Score =  431 bits (1108), Expect = e-155,   Method: Compositional matrix adjust.
+ Identities = 206/206 (100%), Positives = 206/206 (100%)
+
+Query: 1   MPSHRNSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF 60
+           MPSHRNSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF
+Sbjct: 1   MPSHRNSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF 60
+
+Query: 61  GTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFD 120
+           GTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFD
+Sbjct: 61  GTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFD 120
+
+Query: 121 AVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFE 180
+           AVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFE
+Sbjct: 121 AVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFE 180
+
+Query: 181 DCIMDILTEWQSSHSQLPSLYAPSYY 206
+           DCIMDILTEWQSSHSQLPSLYAPSYY
+Sbjct: 181 DCIMDILTEWQSSHSQLPSLYAPSYY 206
+
+
+>YLR464W pep:known chromosome:SacCer_Apr2011:XII:1066572:1067501:1
+           gene:YLR464W transcript:YLR464W description:"Putative
+           protein of unknown function\x3b intron is predicted but
+           not detected experimentally\x3b YLR464W overlaps the
+           verified gene YRF1-4/YLR466W and two dubious ORFs
+           YLR463C and YLR465C"
+          Length = 216
+
+ Score = 28.5 bits (62), Expect = 0.64,   Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 17/26 (65%)
+
+Query: 115 EERCFDAVCEDLMNRGGKLNKIVHVI 140
+           E + F  +C D+MN+  +L  I+H+I
+Sbjct: 27  EIKYFSQICNDMMNKKDRLGDILHII 52
+
+
+>YEL076C-A pep:known chromosome:SacCer_Apr2011:V:4185:5114:-1 gene:YEL076C-A
+           transcript:YEL076C-A description:"Putative protein of
+           unknown function"
+          Length = 216
+
+ Score = 28.5 bits (62), Expect = 0.64,   Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 17/26 (65%)
+
+Query: 115 EERCFDAVCEDLMNRGGKLNKIVHVI 140
+           E + F  +C D+MN+  +L  I+H+I
+Sbjct: 27  EIKYFSQICNDMMNKKDRLGDILHII 52
+
+
+>YIL177C pep:known chromosome:SacCer_Apr2011:IX:483:6147:-1 gene:YIL177C
+           transcript:YIL177C description:"Putative protein of
+           unknown function\x3b similarity to DNA helicases that
+           are encoded within subtelomeric Y' elements and induced
+           in telomerase deficient survivors"
+          Length = 1758
+
+ Score = 28.5 bits (62), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 17/26 (65%)
+
+Query: 115 EERCFDAVCEDLMNRGGKLNKIVHVI 140
+           E + F  +C D+MN+  +L  I+H+I
+Sbjct: 243 EIKYFSQICNDMMNKKDRLGDILHII 268
+
+
+>YJL225C pep:known chromosome:SacCer_Apr2011:X:466:6130:-1 gene:YJL225C
+           transcript:YJL225C description:"Putative protein of
+           unknown function\x3b similarity to DNA helicases that
+           are also encoded within subtelomeric Y' elements and
+           induced in telomerase deficient survivors"
+          Length = 1758
+
+ Score = 28.5 bits (62), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 17/26 (65%)
+
+Query: 115 EERCFDAVCEDLMNRGGKLNKIVHVI 140
+           E + F  +C D+MN+  +L  I+H+I
+Sbjct: 243 EIKYFSQICNDMMNKKDRLGDILHII 268
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,414,299
+Number of extensions: 63906
+Number of successful extensions: 223
+Number of sequences better than 10.0: 25
+Number of HSP's gapped: 223
+Number of HSP's successfully gapped: 25
+Length of query: 206
+Length of database: 3,010,216
+Length adjustment: 85
+Effective length of query: 121
+Effective length of database: 2,441,396
+Effective search space: 295408916
+Effective search space used: 295408916
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

@@ -1,0 +1,155 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_3466T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:109...    94   5e-20
+B0510_1712T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:172...    32   0.78 
+B0510_5565T1 pep:novel supercontig:B05.10_v2:Supercontig_1.15:54...    30   3.1  
+B0510_199T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:7987...    28   9.9  
+
+>B0510_3466T1 pep:novel supercontig:B05.10_v2:Supercontig_1.7:1099806:1102405:-1
+           gene:B0510_3466 transcript:B0510_3466T1 description:""
+          Length = 726
+
+ Score = 94.0 bits (232), Expect = 5e-20,   Method: Compositional matrix adjust.
+ Identities = 50/163 (30%), Positives = 87/163 (53%), Gaps = 23/163 (14%)
+
+Query: 626 WLHVLIRLVTR---GIEAQEA--------------SDLIREELLGFFIQDFEQRVSLIIE 668
+           W+ ++ RL TR   G+E   +              S+ IR+ LL + ++DF +R+ + + 
+Sbjct: 523 WITIITRLATRAGAGLEESSSPVKLESADTERLSLSNTIRQSLLVYILEDFRKRIDIAVA 582
+
+Query: 669 WLNEEWF---FQTSLHQDPS--NYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSD 723
+           WL EEW+    Q  L    +  +Y+KW+L+VL+ +  +L+ K +    R +SE+P L  +
+Sbjct: 583 WLCEEWYNDKVQMKLGDGSAVLHYEKWTLKVLDGISIYLDAKDK-VLTRFLSEIPGLSLE 641
+
+Query: 724 HLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQL 766
+            L  +K +C DP   +L   +L +L+M RPPV+D   D +  +
+Sbjct: 642 VLNKIKGLCKDPTMVNLSLTSLLYLVMMRPPVRDLALDAVEDI 684
+
+
+
+ Score = 77.8 bits (190), Expect = 6e-15,   Method: Compositional matrix adjust.
+ Identities = 69/250 (27%), Positives = 109/250 (43%), Gaps = 54/250 (21%)
+
+Query: 43  KLKLPLAKFFTQLVLDVVSMDSPIANTERPFIAAQYL------PLLLAMAQST------- 89
+           KL L  A ++TQ++  ++ +  P A  E     A +L      P + +  + T       
+Sbjct: 18  KLVLSDANYYTQIIQGILPIIGPSARVELRRWGADFLAETFSSPTIPSSQKETLSLVVLD 77
+
+Query: 90  ----------ADVLVYKNIVLIMCASYPLVLDLVAKTS-NQEMFDQLCMLKKFVLSHWRT 138
+                      D  V K+IV    + YPLV+  +   S +   +D++  +K  +L  W T
+Sbjct: 78  TLKDMIENPHEDSAVVKSIVQTAASIYPLVVRWIINNSYDIPTWDRMVAIKTRILRMWDT 137
+
+Query: 139 AYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGN-------EINS 191
+           A P                      G+++  IKF   VVL QT  P  +       +++ 
+Sbjct: 138 AKP----------------------GIRICCIKFAQRVVLVQTTGPDADSRRGDPLQVSL 175
+
+Query: 192 STIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTI 251
+           S +P NH VL    LE+EA  LLD LL+ + +E    + +    +NSLS +I+ RP    
+Sbjct: 176 SMVPPNHTVLPPRNLEAEASGLLDRLLS-VFQENSSDAVLVDATLNSLSILIRARPHVAN 234
+
+Query: 252 RILSGLLRFN 261
+           +IL+ LL FN
+Sbjct: 235 KILNVLLNFN 244
+
+
+>B0510_1712T1 pep:novel supercontig:B05.10_v2:Supercontig_1.3:1720328:1721319:1
+           gene:B0510_1712 transcript:B0510_1712T1 description:""
+          Length = 281
+
+ Score = 31.6 bits (70), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 30/74 (40%), Gaps = 8/74 (10%)
+
+Query: 120 EMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLS 179
+            MF QLC +  F++  W   YPL +TV +      W+  I    G         S V   
+Sbjct: 99  SMFIQLCKVVMFIMHIW---YPLLSTVINGLLTVCWIVSIYGQAGPDHTDPDHPSNVAWY 155
+
+Query: 180 QTKS-----PSGNE 188
+             KS     PSGNE
+Sbjct: 156 IAKSCSYAAPSGNE 169
+
+
+>B0510_5565T1 pep:novel supercontig:B05.10_v2:Supercontig_1.15:545343:548340:-1
+           gene:B0510_5565 transcript:B0510_5565T1 description:""
+          Length = 908
+
+ Score = 30.0 bits (66), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 28/52 (53%), Gaps = 8/52 (15%)
+
+Query: 138 TAYPLRATVDDETDVEQWLAQIDQNIGV--KLATIKFISEVVLSQTKSPSGN 187
+           +AYPLR  VD + D   W+A    N+G+  K+A    I  V    TKS +GN
+Sbjct: 779 SAYPLRGFVDQKNDNTTWIA----NLGLLGKMAGAAAI--VGTKMTKSENGN 824
+
+
+>B0510_199T1 pep:novel supercontig:B05.10_v2:Supercontig_1.1:798727:799761:-1
+           gene:B0510_199 transcript:B0510_199T1 description:""
+          Length = 244
+
+ Score = 27.7 bits (60), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 26/58 (44%), Gaps = 6/58 (10%)
+
+Query: 365 LSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKILQKYTLNKASHQGNTFFNNSPK 422
+           L   L T G+ST  P+   +PA   + +NML  ++ L         H  N +F+   K
+Sbjct: 3   LRPSLITRGISTSGPSDTGSPARDDAKKNMLKAMRPL------PTQHYWNIYFDRQQK 54
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 6,456,216
+Number of extensions: 242283
+Number of successful extensions: 781
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 777
+Number of HSP's successfully gapped: 9
+Length of query: 785
+Length of database: 5,266,216
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,210,414
+Effective search space: 2875712762
+Effective search space used: 2875712762
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

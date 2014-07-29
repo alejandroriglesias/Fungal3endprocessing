@@ -1,0 +1,172 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81545 pep:novel supercontig:EF1:HF943563:173622:175533:-1 gen...   436   e-145
+CCU75684 pep:novel supercontig:EF1:HF943546:6607258:6608432:1 ge...    37   0.006
+CCU82221 pep:novel supercontig:EF1:HF943559:203124:204563:-1 gen...    32   0.24 
+CCU77140 pep:novel supercontig:EF1:HF943525:416521:418194:1 gene...    30   1.8  
+CCU82739 pep:novel supercontig:EF1:HF943517:261912:264984:1 gene...    30   2.0  
+CCU75780 pep:novel supercontig:EF1:HF943548:1116954:1121222:-1 g...    28   5.3  
+CCU77167 pep:novel supercontig:EF1:HF943525:774694:775815:1 gene...    27   8.6  
+
+>CCU81545 pep:novel supercontig:EF1:HF943563:173622:175533:-1
+           gene:BGHDH14_bgh01268 transcript:CCU81545
+           description:"zinc knuckle domain protein"
+          Length = 590
+
+ Score =  436 bits (1121), Expect = e-145,   Method: Compositional matrix adjust.
+ Identities = 231/446 (51%), Positives = 300/446 (67%), Gaps = 17/446 (3%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           EP+RVEFDGTGISVFELKRDII+KSGLGDG DFDLAI+ +D  EEYDDDTTIIPRST V+
+Sbjct: 13  EPSRVEFDGTGISVFELKRDIIIKSGLGDGADFDLAIFNDDETEEYDDDTTIIPRSTTVI 72
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+           ARRLP+ K GAGRA RY++GK P+N+KN++RK+Q                +++ +TE++R
+Sbjct: 73  ARRLPASKKGAGRAQRYMTGKMPMNSKNTTRKDQAKATKANSAANMA---VNSNMTEDQR 129
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWI 193
+           LAAMF+A S+QW+ Q EE++ QT +++     GK+   V + EPP GY+CYRCGEKGHWI
+Sbjct: 130 LAAMFEASSQQWSEQLEEMAKQTKVHHMG---GKK---VSEGEPPPGYVCYRCGEKGHWI 183
+
+Query: 194 QLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMVNADGD 253
+           + CPTND+P F+N+PR+KRTTGIP+SFL+ VDK TV   +  DG + K PSGVM+NA+G 
+Sbjct: 184 KECPTNDDPNFENKPRIKRTTGIPRSFLRAVDKPTV---SPGDGNDVKQPSGVMINAEGQ 240
+
+Query: 254 FVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEK 313
+           FVIA+PDK +WE+FQA+T             +KELQDRGLEC +D+R+F +PMKTPCCEK
+Sbjct: 241 FVIAEPDKKSWEQFQAKTKSSAAAEKAAAVGDKELQDRGLECSVDRRIFLDPMKTPCCEK 300
+
+Query: 314 TYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQYHXXXXXXXXXXXXXXX 373
+           TYCNDCITN+LIESDF CPGCQAEGVL+D+LKPD+ T+  IK Y                
+Sbjct: 301 TYCNDCITNSLIESDFTCPGCQAEGVLLDDLKPDEVTSLNIKCYLEEKTAAAKEAREKAA 360
+
+Query: 374 XXXXXXXXXXXXXXXXXXXXTTENNGADSKEVGKASSKSPTTSVKSLAKDPTSPTEISTP 433
+                                +  +        + S  SP      +   P++ + ++T 
+Sbjct: 361 SPIAKTSPSISEKENPKPKSPSPQSPPLPSASERVS--SPLQYCNDVKPSPSAGSSVAT- 417
+
+Query: 434 NGTVSNPKKRPADQPAENPRVPRAPK 459
+               SN +KRPA+Q  ENP++P+ PK
+Sbjct: 418 --ETSNSRKRPAEQLLENPKIPKGPK 441
+
+
+
+ Score = 60.1 bits (144), Expect = 6e-10,   Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (86%)
+
+Query: 630 EDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           ED AYFR+PVNPHRHQ RQ+R RP DYREL
+Sbjct: 561 EDSAYFRQPVNPHRHQGRQRRARPQDYREL 590
+
+
+>CCU75684 pep:novel supercontig:EF1:HF943546:6607258:6608432:1
+           gene:BGHDH14_bgh02623 transcript:CCU75684
+           description:"DNA repair protein (RadR)"
+          Length = 355
+
+ Score = 37.4 bits (85), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 19/48 (39%), Positives = 26/48 (54%), Gaps = 2/48 (4%)
+
+Query: 290 DRGLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAE 337
+           D  L C + K  ++ PM T  C  T+C+ CI   L  +D  CP C+AE
+Sbjct: 25  DSALRCQVCKDFYSTPMITS-CSHTFCSLCIRRCL-SNDGRCPACRAE 70
+
+
+>CCU82221 pep:novel supercontig:EF1:HF943559:203124:204563:-1
+           gene:BGHDH14_bgh00430 transcript:CCU82221
+           description:"TRAF-type zinc finger protein"
+          Length = 479
+
+ Score = 32.3 bits (72), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 25/43 (58%), Gaps = 2/43 (4%)
+
+Query: 290 DRGLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCP 332
+           D  L C + +  F +P+ T C + T+C++C+ +AL  S   CP
+Sbjct: 82  DENLMCAICRCAFIDPLSTAC-QHTFCSECLHDALCHS-LSCP 122
+
+
+>CCU77140 pep:novel supercontig:EF1:HF943525:416521:418194:1
+           gene:BGHDH14_bgh03040 transcript:CCU77140
+           description:"metaphase-anaphase transition protein Mlo2"
+          Length = 523
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 17/31 (54%)
+
+Query: 164 GVGKRPANVPDHEPPNGYICYRCGEKGHWIQ 194
+           G G  P   P+ +   G+ICY+C +   WI+
+Sbjct: 259 GEGLNPPGFPNEDDFEGFICYKCVDAYPWIK 289
+
+
+>CCU82739 pep:novel supercontig:EF1:HF943517:261912:264984:1
+           gene:BGHDH14_bgh03957 transcript:CCU82739
+           description:"E3 ubiquitin-protein ligase bre-1"
+          Length = 705
+
+ Score = 29.6 bits (65), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 27/52 (51%), Gaps = 4/52 (7%)
+
+Query: 284 DEKELQDRGLECPMDKRLF-NEPMKTPCCEKTYCNDCITNALIESDFVCPGC 334
+           DE+ L+   L C + ++ F N  +K   C  T+CN+C+ + L      CP C
+Sbjct: 643 DEEMLRSFAL-CTICRKDFKNTAIKV--CGHTFCNNCVADRLANRMRKCPNC 691
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 3,004,865
+Number of extensions: 122579
+Number of successful extensions: 377
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 373
+Number of HSP's successfully gapped: 22
+Length of query: 659
+Length of database: 3,131,961
+Length adjustment: 97
+Effective length of query: 562
+Effective length of database: 2,504,371
+Effective search space: 1407456502
+Effective search space used: 1407456502
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 54 (25.4 bits)

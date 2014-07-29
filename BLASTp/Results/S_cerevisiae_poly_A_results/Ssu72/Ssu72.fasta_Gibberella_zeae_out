@@ -1,0 +1,164 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_00930P0 pep:known chromosome:ASM24013v2:1:3058996:3060780:1...   198   6e-63
+FGSG_07378P0 pep:known chromosome:ASM24013v2:4:3346102:3347585:1...    27   3.2  
+FGSG_11395P0 pep:known chromosome:ASM24013v2:3:7275233:7282481:1...    27   4.1  
+FGSG_10791P0 pep:known chromosome:ASM24013v2:3:6704530:6706207:-...    27   5.0  
+FGSG_07084P0 pep:known chromosome:ASM24013v2:4:2287716:2293626:1...    26   8.7  
+
+>FGSG_00930P0 pep:known chromosome:ASM24013v2:1:3058996:3060780:1 gene:FGSG_00930
+           transcript:FGSG_00930T0 description:"RNA polymerase II
+           subunit A C-terminal domain phosphatase SSU72"
+          Length = 255
+
+ Score =  198 bits (503), Expect = 6e-63,   Method: Compositional matrix adjust.
+ Identities = 106/232 (45%), Positives = 143/232 (61%), Gaps = 35/232 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASNNNRSME+H  L +A Y V S+GTGS VRLPG +I +PNVY F  T Y+ +
+Sbjct: 25  LKFCTVCASNNNRSMEAHLRLSQADYPVISFGTGSLVRLPGPTITQPNVYHFNKTSYDSM 84
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ-----------------ESTK--VF 108
+           + +L S+ A  YK+NG+L ML+RNR +K  PE+WQ                 E T+  + 
+Sbjct: 85  FKELESKDARLYKNNGILNMLNRNRGVKWGPERWQDWQVGVPRLQHAKDRGSEGTEGGLV 144
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERC+DAV +DLMNRG  LN+ VHVINV+IKD+ E A +G + IL+LA+ LN  
+Sbjct: 145 DIVITCEERCWDAVVDDLMNRGSPLNRPVHVINVEIKDNHEEAAVGGQGILDLANSLNAA 204
+
+Query: 169 IEQCEKDDI--------------PFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             + E+D +               F++ + DIL  WQ     LP+ +  +++
+Sbjct: 205 ARE-ERDAVGASAFDNGSASSRATFDERVPDILASWQERWPNLPATWTVAWF 255
+
+
+>FGSG_07378P0 pep:known chromosome:ASM24013v2:4:3346102:3347585:1 gene:FGSG_07378
+           transcript:FGSG_07378T0 description:"conserved
+           hypothetical protein"
+          Length = 445
+
+ Score = 27.3 bits (59), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 20/84 (23%), Positives = 42/84 (50%), Gaps = 15/84 (17%)
+
+Query: 47  LPGLSIDKPNVYSFGTP----YNDIYNDLLSQSADRYKSN----------GLLQMLDRNR 92
+           L G+  ++P + +        + D Y++ L+ +A + +S+          GL + + +N 
+Sbjct: 161 LYGMEWEQPMIIAAALAQTAVHRDDYHEFLTSAAKKAESDNAPPRMKTIPGLYEEVVKNE 220
+
+Query: 93  RLKKAPEKWQESTKVFDFVFTCEE 116
+           +L K+   W++S +VFD V   E+
+Sbjct: 221 KLVKS-SHWEDSNRVFDGVLAREK 243
+
+
+>FGSG_11395P0 pep:known chromosome:ASM24013v2:3:7275233:7282481:1 gene:FGSG_11395
+            transcript:FGSG_11395T0 description:"conserved
+            hypothetical protein"
+          Length = 2381
+
+ Score = 27.3 bits (59), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 36/143 (25%), Positives = 53/143 (37%), Gaps = 26/143 (18%)
+
+Query: 69   NDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCEDLMN 128
+             DL+ Q+ D     G LQ L R     K   +  E  +V        E C  +VCED+  
+Sbjct: 1678 GDLVRQTPD-----GSLQFLGRKDDQVKLHGQRLEVGEV--------EHCLMSVCEDI-- 1722
+
+Query: 129  RGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDI-----PFEDCI 183
+                  K V V  V + + +  A + +               + E  D+     P E+  
+Sbjct: 1723 ------KAVAVECVKVANQNNRAVLVAFIAPHTEGAWGQVASEAEGGDVQWVASPNEEFY 1776
+
+Query: 184  MDILTEWQSSHSQLPSLYAPSYY 206
+              I T   S+  QLPS   P+Y+
+Sbjct: 1777 STIETMDTSARDQLPSYMVPAYF 1799
+
+
+>FGSG_10791P0 pep:known chromosome:ASM24013v2:3:6704530:6706207:-1
+           gene:FGSG_10791 transcript:FGSG_10791T0
+           description:"ATP-dependent RNA helicase DHH1"
+          Length = 486
+
+ Score = 26.9 bits (58), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 330 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 361
+
+
+>FGSG_07084P0 pep:known chromosome:ASM24013v2:4:2287716:2293626:1 gene:FGSG_07084
+           transcript:FGSG_07084T0 description:"conserved
+           hypothetical protein"
+          Length = 1850
+
+ Score = 26.2 bits (56), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 18/77 (23%), Positives = 36/77 (46%), Gaps = 3/77 (3%)
+
+Query: 113 TCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQC 172
+           T  ++    VC+DL +    LN  V ++   +    +  ++  K +LEL   ++D +EQ 
+Sbjct: 637 TILDKAAQFVCQDLGSSETDLNACVRLLVHAVYKTPKTYQVKGKQLLEL---MHDLLEQP 693
+
+Query: 173 EKDDIPFEDCIMDILTE 189
+           +    P    I+ + T+
+Sbjct: 694 DIMAFPSFSAILQLSTQ 710
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 2,596,268
+Number of extensions: 108161
+Number of successful extensions: 277
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 273
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 5,933,672
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,735,052
+Effective search space: 549266032
+Effective search space used: 549266032
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

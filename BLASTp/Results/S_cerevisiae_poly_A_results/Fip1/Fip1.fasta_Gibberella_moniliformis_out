@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_10351T0 pep:known chromosome:ASM14955v1:9:2375831:2377318:-...    61   8e-11
+FVEG_10402T0 pep:known chromosome:ASM14955v1:9:2540633:2542497:-...    28   4.6  
+
+>FVEG_10351T0 pep:known chromosome:ASM14955v1:9:2375831:2377318:-1
+           gene:FVEG_10351 transcript:FVEG_10351T0
+           description:"conserved hypothetical protein"
+          Length = 330
+
+ Score = 61.2 bits (147), Expect = 8e-11,   Method: Compositional matrix adjust.
+ Identities = 33/86 (38%), Positives = 50/86 (58%), Gaps = 5/86 (5%)
+
+Query: 144 ATTVKATESDGNVPKAMTGSIDLDKEGIFDSVG--IT--TIDPEVL-KEKPWRQPGANLS 198
+           +  V A  +D     A   +ID++   I    G  IT   ID ++   +KPWR+PG ++S
+Sbjct: 108 SVNVAAPSADKTSAAASKSTIDVNVNPIHPGTGKPITQVNIDEDLPDSDKPWRKPGTDIS 167
+
+Query: 199 DYFNYGFNEFTWMEYLHRQEKLQQDY 224
+           DYFNYGF+EFTW  Y  +QE ++ ++
+Sbjct: 168 DYFNYGFDEFTWALYASKQETVRGEF 193
+
+
+>FVEG_10402T0 pep:known chromosome:ASM14955v1:9:2540633:2542497:-1
+           gene:FVEG_10402 transcript:FVEG_10402T0
+           description:"hypothetical protein similar to XAP5 domain
+           protein"
+          Length = 363
+
+ Score = 27.7 bits (60), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 17/30 (56%)
+
+Query: 132 LITEGEANQGVTATTVKATESDGNVPKAMT 161
+           L  + E N+G   T  KA  S G VPKAMT
+Sbjct: 116 LADDTEGNEGEVKTKFKANASVGIVPKAMT 145
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 2,857,538
+Number of extensions: 118260
+Number of successful extensions: 471
+Number of sequences better than 10.0: 25
+Number of HSP's gapped: 467
+Number of HSP's successfully gapped: 27
+Length of query: 327
+Length of database: 5,950,719
+Length adjustment: 95
+Effective length of query: 232
+Effective length of database: 4,603,144
+Effective search space: 1067929408
+Effective search space used: 1067929408
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

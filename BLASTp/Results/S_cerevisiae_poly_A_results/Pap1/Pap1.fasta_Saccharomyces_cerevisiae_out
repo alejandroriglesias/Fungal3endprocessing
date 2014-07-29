@@ -1,0 +1,195 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YKR002W pep:known chromosome:SacCer_Apr2011:XI:443232:444938:1 g...  1178   0.0  
+YOL115W pep:known chromosome:SacCer_Apr2011:XV:101475:103229:1 g...    37   0.006
+YOL130W pep:known chromosome:SacCer_Apr2011:XV:74400:76979:1 gen...    30   1.7  
+YBR166C pep:known chromosome:SacCer_Apr2011:II:569842:571200:-1 ...    29   2.6  
+YBR039W pep:known chromosome:SacCer_Apr2011:II:315575:316510:1 g...    28   4.4  
+YBL017C pep:known chromosome:SacCer_Apr2011:II:186844:191583:-1 ...    28   4.8  
+YMR012W pep:known chromosome:SacCer_Apr2011:XIII:291134:294967:1...    27   8.4  
+
+>YKR002W pep:known chromosome:SacCer_Apr2011:XI:443232:444938:1 gene:YKR002W
+           transcript:YKR002W description:"Poly(A) polymerase, one
+           of three factors required for mRNA 3'-end
+           polyadenylation, forms multiprotein complex with
+           polyadenylation factor I (PF I), also required for mRNA
+           nuclear export\x3b may also polyadenylate rRNAs\x3b
+           required for gene looping"
+          Length = 568
+
+ Score = 1178 bits (3047), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 568/568 (100%), Positives = 568/568 (100%)
+
+Query: 1   MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ 60
+           MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ
+Sbjct: 1   MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ 60
+
+Query: 61  RFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVF 120
+           RFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVF
+Sbjct: 61  RFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVF 120
+
+Query: 121 DSLLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNL 180
+           DSLLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNL
+Sbjct: 121 DSLLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNL 180
+
+Query: 181 DEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLV 240
+           DEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLV
+Sbjct: 181 DEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLV 240
+
+Query: 241 ARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRM 300
+           ARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRM
+Sbjct: 241 ARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRM 300
+
+Query: 301 PVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKF 360
+           PVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKF
+Sbjct: 301 PVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKF 360
+
+Query: 361 YLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDD 420
+           YLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDD
+Sbjct: 361 YLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDD 420
+
+Query: 421 YEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVD 480
+           YEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVD
+Sbjct: 421 YEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVD 480
+
+Query: 481 IHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNLDA 540
+           IHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNLDA
+Sbjct: 481 IHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNLDA 540
+
+Query: 541 RHETVKRSKSDAASGDNINGTTAAVDVN 568
+           RHETVKRSKSDAASGDNINGTTAAVDVN
+Sbjct: 541 RHETVKRSKSDAASGDNINGTTAAVDVN 568
+
+
+>YOL115W pep:known chromosome:SacCer_Apr2011:XV:101475:103229:1 gene:YOL115W
+           transcript:YOL115W description:"Non-canonical poly(A)
+           polymerase, involved in nuclear RNA degradation as a
+           component of the TRAMP complex\x3b catalyzes
+           polyadenylation of hypomodified tRNAs, and snoRNA and
+           rRNA precursors\x3b overlapping but non-redundant
+           functions with Trf5p"
+          Length = 584
+
+ Score = 37.4 bits (85), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 27/80 (33%), Positives = 43/80 (53%), Gaps = 5/80 (6%)
+
+Query: 84  IFTYGSYRLGVHGPGSDIDTLVV--VPKHVTREDFFTVFDSLLRERKELDEIAPVPDAFV 141
+           +  +GSY   ++ PGSDID +V   +    +R + +++  S L+++    E+  V  A V
+Sbjct: 220 LHVFGSYSTDLYLPGSDIDCVVTSELGGKESRNNLYSLA-SHLKKKNLATEVEVVAKARV 278
+
+Query: 142 PIIKI--KFSGISIDLICAR 159
+           PIIK     SGI ID+   R
+Sbjct: 279 PIIKFVEPHSGIHIDVSFER 298
+
+
+>YOL130W pep:known chromosome:SacCer_Apr2011:XV:74400:76979:1 gene:YOL130W
+           transcript:YOL130W description:"Plasma membrane Mg(2+)
+           transporter, expression and turnover are regulated by
+           Mg(2+) concentration\x3b overexpression confers
+           increased tolerance to Al(3+) and Ga(3+) ions"
+          Length = 859
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 21/80 (26%), Positives = 32/80 (40%), Gaps = 11/80 (13%)
+
+Query: 415 CPTEDDYEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIEN 474
+           CPT+D+   I   +G H     L A  +   E +E+  +         + Y       EN
+Sbjct: 461 CPTDDEMRCIAKAFGIH----PLTAEDIRMQETREKVEL-------FKSYYFVCFHTFEN 509
+
+Query: 475 KKEKVDIHIPCTEFVNLCRS 494
+            KE  D   P   ++ +CRS
+Sbjct: 510 DKESEDFLEPINVYIVVCRS 529
+
+
+>YBR166C pep:known chromosome:SacCer_Apr2011:II:569842:571200:-1
+           gene:YBR166C transcript:YBR166C description:"Prephenate
+           dehydrogenase involved in tyrosine biosynthesis,
+           expression is dependent on phenylalanine levels"
+          Length = 452
+
+ Score = 28.9 bits (63), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 21/42 (50%)
+
+Query: 398 GIKIAHPFTKPFESSYCCPTEDDYEMIQDKYGSHKTETALNA 439
+           G+  A+ FT       CC  E+ Y+ +++KY S K E   N 
+Sbjct: 25  GLLYANKFTDAGWGVICCDREEYYDELKEKYASAKFELVKNG 66
+
+
+>YBR039W pep:known chromosome:SacCer_Apr2011:II:315575:316510:1 gene:YBR039W
+           transcript:YBR039W description:"Gamma subunit of the F1
+           sector of mitochondrial F1F0 ATP synthase, which is a
+           large, evolutionarily conserved enzyme complex required
+           for ATP synthesis"
+          Length = 311
+
+ Score = 27.7 bits (60), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 11/36 (30%), Positives = 21/36 (58%)
+
+Query: 53  KILQELAQRFVYEVSKKKNMSDGMARDAGGKIFTYG 88
+           ++L  +AQ +  E+S ++N  D  +++AG  I  Y 
+Sbjct: 250 QMLTAMAQGYAAEISARRNAMDNASKNAGDMINRYS 285
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 3,539,153
+Number of extensions: 165429
+Number of successful extensions: 612
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 609
+Number of HSP's successfully gapped: 23
+Length of query: 568
+Length of database: 3,010,216
+Length adjustment: 95
+Effective length of query: 473
+Effective length of database: 2,374,476
+Effective search space: 1123127148
+Effective search space used: 1123127148
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00001894 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:5...   434   e-154
+CADAFLAP00007208 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:5...    33   0.079
+CADAFLAP00005117 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:2...    29   1.0  
+CADAFLAP00005988 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:2...    28   2.6  
+
+>CADAFLAP00001894 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:595812:596866:1
+           gene:CADAFLAG00001894 transcript:CADAFLAT00001894
+           description:"Cleavage and polyadenylation specific
+           factor 5 "
+          Length = 275
+
+ Score =  434 bits (1116), Expect = e-154,   Method: Compositional matrix adjust.
+ Identities = 213/268 (79%), Positives = 227/268 (84%), Gaps = 5/268 (1%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MST T TA+QS +PPIIP  F+A QP+TIRLYPLSNYTFG KETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTTTATAMQSSRPPIIPKDFSAQQPQTIRLYPLSNYTFGTKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY+ HGMRRTCEG+LVCHEHNHPH+LMLQIANAFFKLPGDYL  EDDEVEGFK RL+ER
+Sbjct: 61  EHYDQHGMRRTCEGVLVCHEHNHPHVLMLQIANAFFKLPGDYLHFEDDEVEGFKKRLNER 120
+
+Query: 121 LAPVGRLGEGEEAG-DWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE    DW+IGD LAQWWRPNFETFMYPF+P HVTRPKECKKLYFIQLP  
+Sbjct: 121 LAPVGSQFSGEGVNEDWEIGDTLAQWWRPNFETFMYPFLPGHVTRPKECKKLYFIQLPKK 180
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE  NVVA TPG+  
+Sbjct: 181 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDENDNVVAATPGTPL 240
+
+Query: 240 GEGDHVPKTKVLAG---GDDVDMKQENG 264
+            EG  +PKTKVLAG   G D  M    G
+Sbjct: 241 PEG-QIPKTKVLAGDNEGQDEGMADYTG 267
+
+
+>CADAFLAP00007208 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:595121:596249:1
+           gene:CADAFLAG00007208 transcript:CADAFLAT00007208
+           description:"KH domain RNA-binding protein "
+          Length = 357
+
+ Score = 32.7 bits (73), Expect = 0.079,   Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 22/45 (48%), Gaps = 1/45 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY-PFVPAHV 162
+           ER+  V    EG E   W+IG CL   W+    T +Y P V A V
+Sbjct: 174 ERIVEVQGTPEGIEKAVWEIGKCLIDDWQRGTGTILYNPAVRASV 218
+
+
+>CADAFLAP00005117 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:2586563:2587725:1
+           gene:CADAFLAG00005117 transcript:CADAFLAT00005117
+           description:"Dipeptidyl peptidase, putative "
+          Length = 350
+
+ Score = 29.3 bits (64), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 23/73 (31%), Positives = 36/73 (49%), Gaps = 15/73 (20%)
+
+Query: 22  NANQPETIRLYPLSNYTFGV------KETQ----PEEDPSVLARLKRLEEHYNAHGMRRT 71
+           N NQ   +  Y LS   FG       KE+Q     ++ PS+   +  +E + + HG+R  
+Sbjct: 273 NDNQKRMLDAYALS---FGAGSIEAFKESQRIWVKDQKPSLETNIGFVETYRDPHGVRGE 329
+
+Query: 72  CEGI--LVCHEHN 82
+            EG   LVC++H+
+Sbjct: 330 WEGFVALVCYKHH 342
+
+
+>CADAFLAP00005988 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:2262944:2264648:1
+           gene:CADAFLAG00005988 transcript:CADAFLAT00005988
+           description:"O-acyltransferase "
+          Length = 457
+
+ Score = 28.1 bits (61), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 18/53 (33%), Positives = 27/53 (50%), Gaps = 2/53 (3%)
+
+Query: 113 FKARLDERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRP 165
+           F++ L+  LA V R G+ E   DW     L  +WR ++   +Y F+  HV  P
+Sbjct: 303 FQSFLNA-LAEVLRFGDREFYLDWWNSSSLGMYWR-SWNRPVYLFMKRHVYSP 353
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 3,542,380
+Number of extensions: 164949
+Number of successful extensions: 364
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 362
+Number of HSP's successfully gapped: 6
+Length of query: 266
+Length of database: 5,672,061
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,431,257
+Effective search space: 771038718
+Effective search space used: 771038718
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

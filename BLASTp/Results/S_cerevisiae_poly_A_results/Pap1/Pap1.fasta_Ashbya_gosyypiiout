@@ -1,0 +1,213 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS50769 pep:known chromosome:ASM9102v1:II:393175:394971:-1 gene...   872   0.0  
+AAS51088 pep:known chromosome:ASM9102v1:III:105867:106728:-1 gen...    31   0.29 
+AAS52478 pep:known chromosome:ASM9102v1:V:243295:245175:1 gene:A...    31   0.52 
+AAS51949 pep:known chromosome:ASM9102v1:IV:757445:761089:1 gene:...    29   1.6  
+AAS52565 pep:known chromosome:ASM9102v1:V:395600:397921:1 gene:A...    28   3.5  
+AAS50257 pep:known chromosome:ASM9102v1:I:150544:153288:1 gene:A...    28   5.1  
+AAS50725 pep:known chromosome:ASM9102v1:II:309728:311008:-1 gene...    27   7.0  
+
+>AAS50769 pep:known chromosome:ASM9102v1:II:393175:394971:-1
+           gene:AGOS_ABL002C transcript:AAS50769
+           description:"ABL002Cp"
+          Length = 598
+
+ Score =  872 bits (2254), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 409/564 (72%), Positives = 482/564 (85%), Gaps = 2/564 (0%)
+
+Query: 1   MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ 60
+           MS QKV+G+TGP+S  G TAAENKLND LIQELKKEG+FE+E+ETA R++VL+ LQ LAQ
+Sbjct: 1   MSQQKVYGVTGPISKEGPTAAENKLNDELIQELKKEGTFESEEETAKRIKVLEELQALAQ 60
+
+Query: 61  RFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVF 120
+            FV++VS+K+NMS+GMARDAGGKIFT+GSYRLGVHGPGSDIDTLVVVPKHVTR+DFFTVF
+Sbjct: 61  EFVFKVSRKRNMSEGMARDAGGKIFTFGSYRLGVHGPGSDIDTLVVVPKHVTRDDFFTVF 120
+
+Query: 121 DSLLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNL 180
+           D LLR R ELDEIAPVP+AFVPIIKIK+SGISIDLICARLD PQVPL+LTLSDKNLLRNL
+Sbjct: 121 DELLRARPELDEIAPVPEAFVPIIKIKYSGISIDLICARLDIPQVPLNLTLSDKNLLRNL 180
+
+Query: 181 DEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLV 240
+           DEKDLRALNGTRVTDEILELVPKP  F+IALRAIKLWAQRRAVYAN+FGFPGGVAWAMLV
+Sbjct: 181 DEKDLRALNGTRVTDEILELVPKPTAFKIALRAIKLWAQRRAVYANVFGFPGGVAWAMLV 240
+
+Query: 241 ARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRM 300
+           ARICQLYPNACSAVI+ RFF IL+ W+WPQPV+LKPIEDGPLQVRVWNPKIYA DR H+M
+Sbjct: 241 ARICQLYPNACSAVIVARFFHILTRWSWPQPVLLKPIEDGPLQVRVWNPKIYANDRLHKM 300
+
+Query: 301 PVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKF 360
+           PVITPAYPSMC+THNI ESTKKVIL E  RGV++T DIF+NKK+W +LF+K+DFF++YKF
+Sbjct: 301 PVITPAYPSMCSTHNICESTKKVILNELQRGVEVTTDIFTNKKTWGDLFQKHDFFYKYKF 360
+
+Query: 361 YLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDD 420
+           YL + A T+GSDEQHLKWSGLVESK+RLLV+KLEVL+GI +AHP+TKPFES+Y   TE+ 
+Sbjct: 361 YLTVMASTKGSDEQHLKWSGLVESKLRLLVLKLEVLSGINLAHPYTKPFESTYAYKTEEQ 420
+
+Query: 421 YEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVD 480
+           Y+ I D YG+HKTE  L     VT+ENK++ES+K   K +++TMYIGL+  ++ KK K+D
+Sbjct: 421 YKEIFDNYGTHKTEDVLKKYTEVTNENKDDESLKGMEKVHITTMYIGLNIAVDEKK-KID 479
+
+Query: 481 IHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNLDA 540
+           IH+PC EF NLCRSF E Y D + F+L +++VK YDLPD V+DE E+RP K SK++  + 
+Sbjct: 480 IHVPCQEFFNLCRSFQE-YEDTETFSLVIKYVKLYDLPDHVYDEGEQRPVKASKKRKNEK 538
+
+Query: 541 RHETVKRSKSDAASGDNINGTTAA 564
+             +  KR KS +    +   +T A
+Sbjct: 539 AGKKAKRPKSSSVLAADAEDSTMA 562
+
+
+>AAS51088 pep:known chromosome:ASM9102v1:III:105867:106728:-1
+           gene:AGOS_ACL140C transcript:AAS51088 description:"40S
+           ribosomal protein S0"
+          Length = 253
+
+ Score = 31.2 bits (69), Expect = 0.29,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 29/46 (63%), Gaps = 3/46 (6%)
+
+Query: 440 LKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVDIHIPC 485
+           L +VTD   + ++IK+A  +Y++   I L  ++E+  E VD+ IPC
+Sbjct: 120 LVIVTDPRSDAQAIKEA--SYVNIPVIALT-DLESPSEYVDVAIPC 162
+
+
+>AAS52478 pep:known chromosome:ASM9102v1:V:243295:245175:1 gene:AGOS_AEL207W
+           transcript:AAS52478 description:"Poly(A) RNA polymerase
+           protein 1"
+          Length = 626
+
+ Score = 30.8 bits (68), Expect = 0.52,   Method: Compositional matrix adjust.
+ Identities = 26/80 (32%), Positives = 40/80 (50%), Gaps = 5/80 (6%)
+
+Query: 84  IFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD--SLLRERKELDEIAPVPDAFV 141
+           +  +GSY   ++ PGSDID  VV  K   +++   ++   S L+      +++ +  A V
+Sbjct: 236 LHCFGSYATDLYLPGSDIDC-VVNSKSGDKDNKNALYSLASYLKRNGLATQVSVIAKARV 294
+
+Query: 142 PIIKI--KFSGISIDLICAR 159
+           PIIK     S I IDL   R
+Sbjct: 295 PIIKFVEPASQIHIDLSFER 314
+
+
+>AAS51949 pep:known chromosome:ASM9102v1:IV:757445:761089:1 gene:AGOS_ADR029W
+           transcript:AAS51949 description:"ADR029Wp"
+          Length = 1214
+
+ Score = 29.3 bits (64), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 30/68 (44%), Gaps = 7/68 (10%)
+
+Query: 211 LRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQLYPNACSAVILNRFFIIL---SEWN 267
+           +R  K W     +  ++   P  +   + +    + YP A    I N F  +L   SEWN
+Sbjct: 895 VRLFKQWLDSHLLLGHL---PEELVELIAIKPFVEPYPYAAPGSIENGFLKVLKFLSEWN 951
+
+Query: 268 WPQ-PVIL 274
+           W + P+IL
+Sbjct: 952 WKEDPLIL 959
+
+
+>AAS52565 pep:known chromosome:ASM9102v1:V:395600:397921:1 gene:AGOS_AEL120W
+           transcript:AAS52565 description:"AEL120Wp"
+          Length = 773
+
+ Score = 28.1 bits (61), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 16/69 (23%), Positives = 30/69 (43%)
+
+Query: 6   VFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRFVYE 65
+           + G  GP    G+   E+   D      K +  +  EQE+ +R  ++++  E  +    E
+Sbjct: 34  ISGEAGPPDEGGSDGGEHNDEDEDTIYFKPKKIYRMEQESGSRQTLVRVYSETERSNFNE 93
+
+Query: 66  VSKKKNMSD 74
+           V+ K+   D
+Sbjct: 94  VTGKRMFDD 102
+
+
+>AAS50257 pep:known chromosome:ASM9102v1:I:150544:153288:1 gene:AGOS_AAL109W
+           transcript:AAS50257 description:"AAL109Wp"
+          Length = 914
+
+ Score = 27.7 bits (60), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 22/80 (27%), Positives = 33/80 (41%), Gaps = 6/80 (7%)
+
+Query: 358 YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPT 417
+           Y+ +LE     R  +EQ          KV  LV  +EVLA  K++    K   +      
+Sbjct: 178 YRLHLECKELKRRLEEQAQS------EKVETLVRDVEVLAIAKVSLEEEKEELTQRLSSL 231
+
+Query: 418 EDDYEMIQDKYGSHKTETAL 437
+           E DY  +  + G ++ E  L
+Sbjct: 232 EADYATVVGELGQYREEVEL 251
+
+
+>AAS50725 pep:known chromosome:ASM9102v1:II:309728:311008:-1
+           gene:AGOS_ABL046C transcript:AAS50725
+           description:"ABL046Cp"
+          Length = 426
+
+ Score = 26.9 bits (58), Expect = 7.0,   Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 19/34 (55%)
+
+Query: 94  VHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRER 127
+           +HGP  D   +  + + V  +D +  FDSLLR R
+Sbjct: 349 IHGPDQDRVEVRQINRAVMSQDTYFHFDSLLRAR 382
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 2,617,996
+Number of extensions: 116762
+Number of successful extensions: 374
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 369
+Number of HSP's successfully gapped: 19
+Length of query: 568
+Length of database: 2,335,236
+Length adjustment: 93
+Effective length of query: 475
+Effective length of database: 1,891,068
+Effective search space: 898257300
+Effective search space used: 898257300
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

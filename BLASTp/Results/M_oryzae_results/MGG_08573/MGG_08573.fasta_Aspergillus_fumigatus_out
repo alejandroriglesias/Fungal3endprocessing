@@ -1,0 +1,152 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00000771 pep:known scaffold:CADRE:DS499594:2192422:21947...   207   1e-57
+CADAFUBP00000746 pep:known scaffold:CADRE:DS499594:2125012:21274...    29   4.0  
+CADAFUBP00005165 pep:known scaffold:CADRE:DS499597:1060993:10635...    28   6.8  
+
+>CADAFUBP00000771 pep:known scaffold:CADRE:DS499594:2192422:2194751:1
+           gene:CADAFUBG00000786 transcript:CADAFUBT00000786
+           description:"mRNA cleavage factor complex component
+           Pcf11, putative"
+          Length = 654
+
+ Score =  207 bits (527), Expect = 1e-57,   Method: Compositional matrix adjust.
+ Identities = 97/133 (72%), Positives = 114/133 (85%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           VAEDYK++LE LT+N R +ISNLT+IA+ENTE A AI+ VL +HI+   P +KLPALY++
+Sbjct: 10  VAEDYKNSLEDLTTNDRFQISNLTVIAKENTEHAMAISRVLENHIRTTPPAQKLPALYVV 69
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DSIVKNVGTPYTLF GR +YQTFM AY  VD+ TRRK+DEMLKTWKEPVPGSLDTRPVFP
+Sbjct: 70  DSIVKNVGTPYTLFLGRNMYQTFMNAYTLVDSQTRRKLDEMLKTWKEPVPGSLDTRPVFP 129
+
+Query: 130 PEVVRPIENALIK 142
+           PE+ R IE+ALIK
+Sbjct: 130 PEITRSIESALIK 142
+
+
+
+ Score =  168 bits (426), Expect = 1e-44,   Method: Compositional matrix adjust.
+ Identities = 101/283 (35%), Positives = 138/283 (48%), Gaps = 48/283 (16%)
+
+Query: 422 LLAALRSKGILSAGPLP---------------PVVAPTPVSHAPGLPSVIAPPVAPAHVE 466
+           L+AALR++G+L     P               P + P  V  +   P++   P AP    
+Sbjct: 379 LIAALRARGLLPPASAPPAPTTAPPSNLASAFPFIVPGQVRFSTPAPTM---PQAPNPSS 435
+
+Query: 467 IMGDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAA 526
+           I  ++Q+ T+S+K PR  L+ +LY+     C  CGRRF   E G+  K  H+DWHFR   
+Sbjct: 436 ITINVQMNTASIKIPREGLIASLYEARSNRCGTCGRRFFATEEGKEKKARHLDWHFRTNQ 495
+
+Query: 527 RIAEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEA 586
+           R+A+A K+ Q+RS+YVD RDW+ SREA D                           GP  
+Sbjct: 496 RMADAAKRAQNRSWYVDERDWIKSREAGD---DEDPAEAESTSAGAAGVEGDSAKKGP-- 550
+
+Query: 587 XXXXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGG 646
+                         K+WI  P+  +  N+ CPICQE FE  W +E Q+W+W DAV+   G
+Sbjct: 551 -------------PKQWIRAPNDATLRNTPCPICQETFESTWSEEVQDWIWQDAVK--VG 595
+
+Query: 647 NRVFHASCHSEVTGRGATLTPPVGM----------VLGKRKAD 679
+           NR++HASC++EVT  G T     G           VLGKRKA+
+Sbjct: 596 NRIYHASCYAEVTKDGTTTAAGRGTPSARTGTPDSVLGKRKAE 638
+
+
+
+ Score = 30.8 bits (68), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 31/65 (47%)
+
+Query: 254 ISIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXXXXGNLPRDQLVVVKSR 313
+           + + AL+ D+  LIAA R+  A NP D S +                 L ++QL +V+ +
+Sbjct: 226 VDLAALNRDIEALIAAARSYFANNPLDPSVQQRLKALLDLQGILQRQELTQEQLKLVRDQ 285
+
+Query: 314 IDELS 318
+           +  L+
+Sbjct: 286 VSALT 290
+
+
+>CADAFUBP00000746 pep:known scaffold:CADRE:DS499594:2125012:2127493:1
+           gene:CADAFUBG00000761 transcript:CADAFUBT00000761
+           description:"6-phosphofructo-2-kinase 1"
+          Length = 708
+
+ Score = 29.3 bits (64), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 25/54 (46%), Gaps = 6/54 (11%)
+
+Query: 639 DAVRPGGGNRVFHASCHSEVTGRGATLTPP---VGMVLGKRKADDAYAGRKIKK 689
+           + V   G N   HA  +   TG+ A+L PP   VG  LG     DA+ G +  K
+Sbjct: 25  NGVTSDGNN---HAGSNKNGTGKDASLMPPKTLVGRALGNELHSDAHKGSRASK 75
+
+
+>CADAFUBP00005165 pep:known scaffold:CADRE:DS499597:1060993:1063541:1
+          gene:CADAFUBG00005256 transcript:CADAFUBT00005256
+          description:"RNA binding protein Nrd1, putative"
+          Length = 665
+
+ Score = 28.5 bits (62), Expect = 6.8,   Method: Compositional matrix adjust.
+ Identities = 11/47 (23%), Positives = 26/47 (55%)
+
+Query: 28 EISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVK 74
+          +I+++T +   N ++   + + +  H K+     KL  LY++DS+ +
+Sbjct: 27 KINSITSLCTANVQNESVLIQKIYTHFKKAPGTHKLGVLYVVDSVTR 73
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 5,530,787
+Number of extensions: 230149
+Number of successful extensions: 972
+Number of sequences better than 10.0: 26
+Number of HSP's gapped: 961
+Number of HSP's successfully gapped: 30
+Length of query: 695
+Length of database: 4,796,137
+Length adjustment: 100
+Effective length of query: 595
+Effective length of database: 3,804,537
+Effective search space: 2263699515
+Effective search space used: 2263699515
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

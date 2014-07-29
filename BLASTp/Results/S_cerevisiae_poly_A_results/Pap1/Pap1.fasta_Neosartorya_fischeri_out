@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00000944 pep:known contig:CADRE:8741:795921:798077:1 gen...   535   0.0  
+CADNFIAP00007521 pep:known contig:CADRE:9292:342749:345294:-1 ge...    34   0.12 
+CADNFIAP00001271 pep:known contig:CADRE:8741:4548154:4548957:1 g...    33   0.15 
+CADNFIAP00003310 pep:known contig:CADRE:8927:1084286:1085089:-1 ...    31   0.88 
+CADNFIAP00002350 pep:known contig:CADRE:8817:660397:663282:1 gen...    31   1.1  
+CADNFIAP00006142 pep:known contig:CADRE:9288:2527060:2528768:-1 ...    29   3.7  
+CADNFIAP00003807 pep:known contig:CADRE:8927:2109326:2121220:-1 ...    29   4.8  
+CADNFIAP00002553 pep:known contig:CADRE:8817:200387:202554:1 gen...    28   5.3  
+CADNFIAP00004352 pep:known contig:CADRE:9201:3806020:3807297:1 g...    28   7.7  
+
+>CADNFIAP00000944 pep:known contig:CADRE:8741:795921:798077:1 gene:CADNFIAG00000983
+           transcript:CADNFIAT00000983 description:"Poly(A)
+           polymerase Pap"
+          Length = 603
+
+ Score =  535 bits (1377), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 289/574 (50%), Positives = 375/574 (65%), Gaps = 29/574 (5%)
+
+Query: 1   MSSQKV--FGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQEL 58
+           MS+  V  +G+T P+ST   T+ E   ND LI ELK + +FE+  ET  R QVL+++Q +
+Sbjct: 1   MSTPPVRQWGVTPPISTALPTSEELAANDDLISELKAQNNFESPAETERRKQVLQLIQRV 60
+
+Query: 59  AQRFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFT 118
+              FV  VS+KK +S      AGGKIFTYGSYRLGV+GPGSDIDTLVV PKHV  +DFF+
+Sbjct: 61  THEFVKVVSRKKGLSPAAVEAAGGKIFTYGSYRLGVYGPGSDIDTLVVGPKHVLIDDFFS 120
+
+Query: 119 VFDSLLRERK---ELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKN 175
+            F  +L +      ++++ PVPDAFVPIIK++ SGISIDLI ARL    VPL+L L + +
+Sbjct: 121 DFPPVLEKMAPPGAIEKMTPVPDAFVPIIKLELSGISIDLIFARLIVSSVPLNLDLKNND 180
+
+Query: 176 LLRNLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVA 235
+            LR LDEK++R+LNGTRVTDEILELVP+   FR+ALRAIKLWAQRRA+Y+NI GFPGGVA
+Sbjct: 181 YLRGLDEKEVRSLNGTRVTDEILELVPQQKTFRLALRAIKLWAQRRAIYSNIVGFPGGVA 240
+
+Query: 236 WAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQD 295
+           WAMLVAR+CQLYP+A  +VI+ +FF I+++W WPQPV+LKPIEDGPLQ++VWNPKIY  D
+Sbjct: 241 WAMLVARVCQLYPHATGSVIVGKFFRIMNKWAWPQPVLLKPIEDGPLQIKVWNPKIYHGD 300
+
+Query: 296 RSHRMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFF 355
+           R H MP+ITPAYPSMCATHNI+ STK VIL+E  RG  I + IF  + +W +LF ++ FF
+Sbjct: 301 RFHLMPIITPAYPSMCATHNISMSTKAVILRELQRGGDIVDKIFLKQLTWNDLFARHSFF 360
+
+Query: 356 FR-YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYC 414
+            + YK+YL ITA +R + E    WSGLVESK+R LV  L+    I +AHPF K FE  + 
+Sbjct: 361 TQDYKYYLSITASSR-TKEAEAVWSGLVESKIRHLVGALDRKPTIAVAHPFPKGFERVHI 419
+
+Query: 415 CPTEDDYEMIQD---KYGSHKTET---------ALNALKLVTDENKEEESI------KDA 456
+              E++ E +++   KY    T+T         A  A  L   EN E E +       D+
+Sbjct: 420 VSNEEEAEAVKNGSTKYQDKGTKTETTDERKDAAHQAAALSGVENAEVEPVGEKSANGDS 479
+
+Query: 457 PKAYLSTMYIGLDFNI--ENKKEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKG 514
+              Y +T YIGL+           +DI      F + C S+   Y    + +L++  V+ 
+Sbjct: 480 HIIYTTTYYIGLELKPLEPGASRSLDISTDAQIFKSTCTSW-AGY-QPGINDLSITHVRN 537
+
+Query: 515 YDLPDEVFDENEKRPSKKSKRKNLDARHETVKRS 548
+           +DLPD+VF   E RP++  K+          KRS
+Sbjct: 538 FDLPDDVFQPGETRPTRPKKKIIKKPEAGAQKRS 571
+
+
+>CADNFIAP00007521 pep:known contig:CADRE:9292:342749:345294:-1 gene:CADNFIAG00007688
+           transcript:CADNFIAT00007688 description:"Vacuolar
+           protein sorting vps16, putative"
+          Length = 754
+
+ Score = 33.9 bits (76), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 21/78 (26%), Positives = 35/78 (44%), Gaps = 4/78 (5%)
+
+Query: 222 AVYANIFGFPGGVAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGP 281
+            +Y +   F  G        R C+ + N   A++ N   I +S ++ P+P +L P  +G 
+Sbjct: 115 GLYGDFTSFSLGNGAEEYGVRACKFWNNGFVALLSNNQLIAVSNYDEPRPKLLAPCPEG- 173
+
+Query: 282 LQVRVWN--PKIYAQDRS 297
+            +V  W+  P  Y   RS
+Sbjct: 174 -EVSSWSLIPPPYTLSRS 190
+
+
+>CADNFIAP00001271 pep:known contig:CADRE:8741:4548154:4548957:1 gene:CADNFIAG00001310
+           transcript:CADNFIAT00001310 description:"Zn-dependent
+           hydrolases of the beta-lactamase fold, putative"
+          Length = 267
+
+ Score = 33.1 bits (74), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 28/80 (35%), Positives = 37/80 (46%), Gaps = 12/80 (15%)
+
+Query: 159 RLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRV---TDEILELVPKPNVFRIALRAIK 215
+           RLDQ  V  ++ LS ++ + NLDE   R L+G RV    D    L P+P V       +K
+Sbjct: 54  RLDQLPVIDAVLLSHEDHIDNLDELGRRLLDGRRVFTTMDGAKNLSPRPGV-----HGLK 108
+
+Query: 216 LWAQRRAVYAN----IFGFP 231
+            W +   V A     I G P
+Sbjct: 109 PWEKIDTVIAGKKFQIIGTP 128
+
+
+>CADNFIAP00003310 pep:known contig:CADRE:8927:1084286:1085089:-1
+           gene:CADNFIAG00003399 transcript:CADNFIAT00003399
+           description:"Putative uncharacterized protein"
+          Length = 267
+
+ Score = 30.8 bits (68), Expect = 0.88,   Method: Compositional matrix adjust.
+ Identities = 26/80 (32%), Positives = 37/80 (46%), Gaps = 12/80 (15%)
+
+Query: 159 RLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRV---TDEILELVPKPNVFRIALRAIK 215
+           RLDQ  V  ++ LS ++ + NLD+   R L+G RV    D    L P+P     A+  +K
+Sbjct: 54  RLDQLPVIDAVLLSHEDHVDNLDDLGRRLLDGRRVFTTVDGAKNLSPRP-----AVHGLK 108
+
+Query: 216 LWAQRRAVYAN----IFGFP 231
+            W +     A     I G P
+Sbjct: 109 PWERINVTIAGKKFEIIGTP 128
+
+
+>CADNFIAP00002350 pep:known contig:CADRE:8817:660397:663282:1 gene:CADNFIAG00002422
+           transcript:CADNFIAT00002422 description:"Sister
+           chromatid cohesion factor (Chl12), putative"
+          Length = 940
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 21/87 (24%), Positives = 42/87 (48%), Gaps = 1/87 (1%)
+
+Query: 430 SHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIGLDFNIENKKEKVDIHIPCTEFV 489
+           + K+   ++  K++ +  +E E  K + KA   T+   ++  +E ++ K       TE  
+Sbjct: 153 AQKSYYGIDIHKILDEAARETEQAKASTKAPDRTIQQSVEAPLEGQRNKKMAAAMWTEKY 212
+
+Query: 490 NLCRSFNEDYGDHKVFNLALRFVKGYD 516
+              R F E  GD ++    LR++KG++
+Sbjct: 213 R-ARKFTELIGDERIHRSVLRWLKGWE 238
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 5,688,068
+Number of extensions: 248139
+Number of successful extensions: 660
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 657
+Number of HSP's successfully gapped: 12
+Length of query: 568
+Length of database: 5,073,492
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,043,694
+Effective search space: 1896492486
+Effective search space used: 1896492486
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,152 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00008090 pep:known scaffold:CADRE:DS499600:936663:939478...    70   1e-12
+CADAFUBP00007657 pep:known scaffold:CADRE:DS499599:1859641:18622...    32   0.61 
+CADAFUBP00006842 pep:known scaffold:CADRE:DS499598:2053684:20558...    32   0.73 
+CADAFUBP00001846 pep:known scaffold:CADRE:DS499595:452653:453774...    31   0.92 
+
+>CADAFUBP00008090 pep:known scaffold:CADRE:DS499600:936663:939478:1
+           gene:CADAFUBG00008241 transcript:CADAFUBT00008241
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit"
+          Length = 767
+
+ Score = 70.1 bits (170), Expect = 1e-12,   Method: Compositional matrix adjust.
+ Identities = 38/125 (30%), Positives = 60/125 (48%), Gaps = 30/125 (24%)
+
+Query: 626 WLHVLIRLVTRGIEAQEASD-----------------LIREELLGFFIQDFEQRVSLIIE 668
+           W+ +L RL TR     E  D                  IRE L  + ++DF  RV++ I 
+Sbjct: 566 WVTLLTRLATRAPATLEVDDKKTESDPRARKTPAISNFIRESLYRYILEDFRARVNVGIM 625
+
+Query: 669 WLNEEWF-------FQTSLHQD------PSNYKKWSLRVLESLGPFLENKHRRFFIRLMS 715
+           WLNEEW+       F  +   +      P +Y +W LR+L+   P+L+++  + FIR +S
+Sbjct: 626 WLNEEWYNDRIQMKFAATQRTEEDEASIPLHYDQWVLRLLDGFLPYLDSRDTKIFIRFLS 685
+
+Query: 716 ELPSL 720
+           E+P +
+Sbjct: 686 EIPEV 690
+
+
+
+ Score = 33.5 bits (75), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 25/40 (62%)
+
+Query: 443 DVTQLPNDILIKLSTEAILQMDSTKLITGLSIVASRYTDL 482
+           DV QLP D+L+K++   + ++D + L+  +  V +RY  L
+Sbjct: 409 DVKQLPPDLLVKIAVPVLARVDPSALMQAVEGVRARYQTL 448
+
+
+>CADAFUBP00007657 pep:known scaffold:CADRE:DS499599:1859641:1862265:1
+           gene:CADAFUBG00007794 transcript:CADAFUBT00007794
+           description:"AAA family ATPase, putative"
+          Length = 802
+
+ Score = 32.0 bits (71), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 44/177 (24%), Positives = 70/177 (39%), Gaps = 11/177 (6%)
+
+Query: 83  LAMAQSTADVLVYKNIVLIMCASYPLVLDLVAKTSNQEMFDQLCMLKKF--VLSHWRTAY 140
+           L  A S A  L + NI  +  AS  L  D  A +S Q +       K      SH     
+Sbjct: 224 LRPAASQAAGLAWGNIYRLPSASGNLASDAAATSSRQSISSDSGFRKDSGQFRSHSGDEL 283
+
+Query: 141 PLRATVDDETDVEQ----WLAQIDQNIGVKLATIKFISEVVLSQTKSPSGNEINSSTIPD 196
+             +  V D++D  +    W A+   +  + + T+  I      + + PSG+   +   P 
+Sbjct: 284 VSKKNVADDSDGREPRPGWSARRTNSNTIPVPTLTSIHHSPAGEARQPSGSRSRTVAQPS 343
+
+Query: 197 NHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRI 253
+           + PV N  +    + R   + L    ++     S  +G  +S   V K RP+TT RI
+Sbjct: 344 SGPVDNPQSSARPSVRPKPVALRASPQDPQ---SSNVGPTSSP--VRKTRPETTTRI 395
+
+
+>CADAFUBP00006842 pep:known scaffold:CADRE:DS499598:2053684:2055803:-1
+           gene:CADAFUBG00006973 transcript:CADAFUBT00006973
+           description:"ATP-dependent RNA helicase, putative"
+          Length = 622
+
+ Score = 32.0 bits (71), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + ++I F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 442 ICTDVAARGLDIPAVDWIIQFDPP--DDPRDYIHRVGRTARGTNAKGRSLM 490
+
+
+>CADAFUBP00001846 pep:known scaffold:CADRE:DS499595:452653:453774:1
+           gene:CADAFUBG00001885 transcript:CADAFUBT00001885
+           description:"Putative uncharacterized protein"
+          Length = 317
+
+ Score = 31.2 bits (69), Expect = 0.92,   Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 41/77 (53%), Gaps = 10/77 (12%)
+
+Query: 703 ENKHRRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDL 762
+           E  HR +  ++ S++PS QS ++  L   CL  A +++ F+ LK       P  +  R +
+Sbjct: 135 ETAHRAWETQIESKIPSPQSYYVSPLN-RCL--ATANITFRGLKM------PHTEPFRPV 185
+
+Query: 763 LHQLKQEDEGLHKQCDS 779
+           + +L +E  GLH  CDS
+Sbjct: 186 VKELLRETIGLHT-CDS 201
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 5,775,844
+Number of extensions: 212174
+Number of successful extensions: 621
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 620
+Number of HSP's successfully gapped: 5
+Length of query: 785
+Length of database: 4,796,137
+Length adjustment: 101
+Effective length of query: 684
+Effective length of database: 3,794,621
+Effective search space: 2595520764
+Effective search space used: 2595520764
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

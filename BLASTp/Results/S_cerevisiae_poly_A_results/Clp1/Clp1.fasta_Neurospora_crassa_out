@@ -1,0 +1,147 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000006086 pep:known supercontig:ASM18292v1:7.26:327235:3...   113   9e-28
+EFNCRP00000002223 pep:known supercontig:ASM18292v1:7.6:383590:38...    30   1.3  
+EFNCRP00000009625 pep:known supercontig:ASM18292v1:7.89:54519:58...    30   1.8  
+EFNCRP00000001218 pep:known supercontig:ASM18292v1:7.3:712721:71...    28   6.3  
+
+>EFNCRP00000006086 pep:known supercontig:ASM18292v1:7.26:327235:329051:1
+           gene:EFNCRG00000006084 transcript:EFNCRT00000006094
+           description:"Protein CLP1"
+          Length = 491
+
+ Score =  113 bits (283), Expect = 9e-28,   Method: Compositional matrix adjust.
+ Identities = 83/308 (26%), Positives = 150/308 (48%), Gaps = 25/308 (8%)
+
+Query: 123 GPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDIL 182
+           GPRV+I G    GKTSL++ L + A +  + QPL  NL+P   +  +PG + A     ++
+Sbjct: 161 GPRVLICGPPGVGKTSLAKLLAALATRMGS-QPLVANLNPTDGLLCLPGTLGAAVFGTLM 219
+
+Query: 183 DAQLPTWGQSLT----SGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLH 238
+           D + P  G  +T    SG + +  K P+   FG E++ ++ D++ +   +L  +  ++  
+Sbjct: 220 DVEEPAGGFGVTNTPISGPSAVPVKNPLTFYFGHEKVEDDVDMWRQMTERLAVLARRKFE 279
+
+Query: 239 LDPQVRRSGCIVDTPSISQLDENLAEL-HHIIEKLNVNIMLVLCSETDPLWEKVKKTFGP 297
+            +  VR +G +VDT  +   D+   EL    + + + N ++VL SE      ++K   G 
+Sbjct: 280 RNRDVRVAGLLVDTAPVEAGDKEGQELLGWAVRQFDANFVVVLGSE------QLKTELGQ 333
+
+Query: 298 ELGNNNIFF--------IPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVD 349
+              +    F        + K DG   +D  +++    T+I+EYF+G +   LSP+     
+Sbjct: 334 RFASEKTSFEEPITVLGLDKSDGAVQIDKAWRQKSTETAIKEYFFGGIKARLSPFTQSAS 393
+
+Query: 350 YEDLTIWK-PSNVFDNEVGRVELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGF 408
+           +++L ++K P   ++   G   L  V ITP  + H  +A+  A        +  S +LGF
+Sbjct: 394 FDELVVFKAPDEPYE---GAPVLERVEITP-EMAHWTLAVMIASVTDSPQAIRFSSVLGF 449
+
+Query: 409 ALITEVNE 416
+            +I +V++
+Sbjct: 450 IVIADVDQ 457
+
+
+>EFNCRP00000002223 pep:known supercontig:ASM18292v1:7.6:383590:384563:-1
+           gene:EFNCRG00000002220 transcript:EFNCRT00000002223
+           description:"Putative uncharacterized protein"
+          Length = 299
+
+ Score = 29.6 bits (65), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 13/42 (30%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query: 126 VVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIF 167
+           V+++G +  GK++   +L ++ L+ N     Y+NLDP    F
+Sbjct: 6   VMVMGPAGAGKSTFCASLITH-LQLNRRSAFYVNLDPAAESF 46
+
+
+>EFNCRP00000009625 pep:known supercontig:ASM18292v1:7.89:54519:58338:-1
+           gene:EFNCRG00000009624 transcript:EFNCRT00000009643
+           description:"Putative uncharacterized protein"
+          Length = 1247
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 24/90 (26%), Positives = 40/90 (44%), Gaps = 7/90 (7%)
+
+Query: 70  NWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRMSNFEGPRVVIV 129
+           +WK PI        + K   LT   + +    +   +  +  +LEK+++       V++ 
+Sbjct: 504 DWKVPISVQAP---IGKPAWLTEGEVNLALETSDSLLVGIDSLLEKLQLHLTHMSSVLLT 560
+
+Query: 130 GGSQTGKT----SLSRTLCSYALKFNAYQP 155
+           GG  +GKT    S++RTL S  L    Y P
+Sbjct: 561 GGQGSGKTSVAQSIARTLRSTQLYHTTYFP 590
+
+
+>EFNCRP00000001218 pep:known supercontig:ASM18292v1:7.3:712721:717766:-1
+            gene:EFNCRG00000001216 transcript:EFNCRT00000001218
+            description:"Predicted protein"
+          Length = 1454
+
+ Score = 28.1 bits (61), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 27/57 (47%), Gaps = 2/57 (3%)
+
+Query: 85   WKCPDLTTNT--ITVKPNHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSL 139
+            W  PDL  NT  +      +  Y  N   +L+ + +    G  VVI G + +GK+SL
+Sbjct: 1114 WPSPDLHDNTPGLVRFEGVSASYTSNGPLVLQDLNLDIASGQVVVICGRTGSGKSSL 1170
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 4,069,498
+Number of extensions: 173671
+Number of successful extensions: 370
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 367
+Number of HSP's successfully gapped: 5
+Length of query: 445
+Length of database: 4,779,891
+Length adjustment: 96
+Effective length of query: 349
+Effective length of database: 3,835,347
+Effective search space: 1338536103
+Effective search space used: 1338536103
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

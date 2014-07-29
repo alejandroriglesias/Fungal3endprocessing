@@ -1,0 +1,191 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_00680T0 pep:known chromosome:MG8:5:2033933:2035331:1 gene:MG...   476   e-170
+MGG_04760T0 pep:known chromosome:MG8:2:1386596:1388960:-1 gene:M...    44   2e-05
+MGG_03964T0 pep:known chromosome:MG8:6:2410389:2413318:1 gene:MG...    39   0.002
+MGG_07010T0 pep:known chromosome:MG8:1:3567150:3568792:-1 gene:M...    29   1.7  
+MGG_08641T0 pep:known chromosome:MG8:1:7643599:7645140:1 gene:MG...    28   2.5  
+MGG_04405T0 pep:known chromosome:MG8:1:7463785:7467534:-1 gene:M...    28   4.5  
+MGG_00174T0 pep:known chromosome:MG8:5:3864672:3867707:1 gene:MG...    28   4.5  
+MGG_09553T0 pep:known chromosome:MG8:3:3293666:3301051:-1 gene:M...    28   4.6  
+MGG_03373T0 pep:known chromosome:MG8:4:2107394:2109984:1 gene:MG...    27   4.9  
+
+>MGG_00680T0 pep:known chromosome:MG8:5:2033933:2035331:1 gene:MGG_00680
+           transcript:MGG_00680T0 description:"mRNA
+           3'-end-processing protein yth-1"
+          Length = 276
+
+ Score =  476 bits (1224), Expect = e-170,   Method: Compositional matrix adjust.
+ Identities = 229/229 (100%), Positives = 229/229 (100%)
+
+Query: 1   MASPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCL 60
+           MASPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCL
+Sbjct: 1   MASPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCL 60
+
+Query: 61  ERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPEC 120
+           ERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPEC
+Sbjct: 61  ERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPEC 120
+
+Query: 121 NFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGF 180
+           NFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGF
+Sbjct: 121 NFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGF 180
+
+Query: 181 CPDGRLCKQGAHPGWNPKLDPPTVKVEKPAGEEDAMGFAARGGAYDDHE 229
+           CPDGRLCKQGAHPGWNPKLDPPTVKVEKPAGEEDAMGFAARGGAYDDHE
+Sbjct: 181 CPDGRLCKQGAHPGWNPKLDPPTVKVEKPAGEEDAMGFAARGGAYDDHE 229
+
+
+>MGG_04760T0 pep:known chromosome:MG8:2:1386596:1388960:-1 gene:MGG_04760
+           transcript:MGG_04760T0 description:"CCCH zinc finger
+           protein"
+          Length = 452
+
+ Score = 44.3 bits (103), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 34/127 (26%), Positives = 54/127 (42%), Gaps = 25/127 (19%)
+
+Query: 44  CKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RGLCKK 102
+           C+++++ G+C  G  C  +H  DP +++                   +CK +L +G C  
+Sbjct: 262 CRMFSTTGSCTKGPLCRYQH--DPLKVA-------------------ICKDFLLKGDCIG 300
+
+Query: 103 GDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-GFCPLGP 161
+           GD C+  HE    R P C  +   G C N  +C Y H+        C  +   G+C  G 
+Sbjct: 301 GDSCDLSHEPTPERTPAC-LHFAKGNCNN-PQCRYTHVQVTPGSLVCRDFGIYGYCNKGS 358
+
+Query: 162 RCSKKHV 168
+            C  +HV
+Sbjct: 359 NCEDRHV 365
+
+
+
+ Score = 35.4 bits (80), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 43/96 (44%), Gaps = 8/96 (8%)
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFC 157
+           G C KG  C + H+    ++  C  ++  G C  G+ C   H     + P C H+ +G C
+Sbjct: 269 GSCTKGPLCRYQHD--PLKVAICKDFLLKGDCIGGDSCDLSHEPTPERTPACLHFAKGNC 326
+
+Query: 158 PLGPRCSKKHVRRN----LC-PYYLCGFCPDGRLCK 188
+              P+C   HV+      +C  + + G+C  G  C+
+Sbjct: 327 N-NPQCRYTHVQVTPGSLVCRDFGIYGYCNKGSNCE 361
+
+
+
+ Score = 28.9 bits (63), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 31/108 (28%), Positives = 44/108 (40%), Gaps = 18/108 (16%)
+
+Query: 33  YQHSLPSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFN---- 88
+           YQH  P    ICK +   G+C  G  C   H   P + + A   +  G  + P       
+Sbjct: 279 YQHD-PLKVAICKDFLLKGDCIGGDSCDLSHEPTPER-TPACLHFAKGNCNNPQCRYTHV 336
+
+Query: 89  -----SLVCKHW-LRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQ 130
+                SLVC+ + + G C KG  CE  H +      EC  +   G+C+
+Sbjct: 337 QVTPGSLVCRDFGIYGYCNKGSNCEDRHVF------ECPDFSNTGHCK 378
+
+
+>MGG_03964T0 pep:known chromosome:MG8:6:2410389:2413318:1 gene:MGG_03964
+           transcript:MGG_03964T0 description:"Putative
+           uncharacterized protein"
+          Length = 502
+
+ Score = 38.5 bits (88), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 31/94 (32%), Positives = 38/94 (40%), Gaps = 15/94 (15%)
+
+Query: 65  ADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEY--NLRRMPECNF 122
+            + S L N +   GS K        L   H+LRG C K D C F H Y  N       +F
+Sbjct: 390 VNQSVLDNIKKRTGSSK--------LCNNHYLRGPCAKKDTCGFEHNYKPNAEEKVAISF 441
+
+Query: 123 YIRNGYCQNGEE-----CLYLHIDPQSKLPPCPH 151
+             R   C NG+E     C+Y H  P +    C H
+Sbjct: 442 LARLNPCTNGQECDIADCIYGHHCPSTVNGQCTH 475
+
+
+>MGG_07010T0 pep:known chromosome:MG8:1:3567150:3568792:-1 gene:MGG_07010
+           transcript:MGG_07010T0 description:"Translation
+           machinery-associated protein 46"
+          Length = 345
+
+ Score = 28.9 bits (63), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 20/100 (20%), Positives = 44/100 (44%), Gaps = 13/100 (13%)
+
+Query: 89  SLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPP 148
+           +++C  + +G C+KG  C+F H+ ++ R  E     ++ Y    E     + D + K   
+Sbjct: 99  TVLCIFFKKGNCEKGKKCKFSHDLDVERKTEK----KSLYTDTRE-----NEDDKKKAET 149
+
+Query: 149 CPHYDQG---FCPLGPRCSKKHVRRNLCPYYLCGFCPDGR 185
+              +D+       L  + +++     +C Y++     DG+
+Sbjct: 150 SADWDEDKLRSVVLSKKGNQRTTTDKVCKYFIEAI-EDGK 188
+
+
+>MGG_08641T0 pep:known chromosome:MG8:1:7643599:7645140:1 gene:MGG_08641
+           transcript:MGG_08641T0 description:"Pre-mRNA-splicing
+           factor CWC2"
+          Length = 394
+
+ Score = 28.5 bits (62), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (63%)
+
+Query: 89  SLVCKHWLRGLCKKGDGCEFLH 110
+           S  C  + RG+C KG  CE+LH
+Sbjct: 107 SYFCLFFARGVCPKGQDCEYLH 128
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 3,453,684
+Number of extensions: 170960
+Number of successful extensions: 344
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 328
+Number of HSP's successfully gapped: 20
+Length of query: 276
+Length of database: 5,666,059
+Length adjustment: 93
+Effective length of query: 183
+Effective length of database: 4,479,844
+Effective search space: 819811452
+Effective search space used: 819811452
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

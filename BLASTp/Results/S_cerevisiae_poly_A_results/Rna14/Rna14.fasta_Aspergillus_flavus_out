@@ -1,0 +1,208 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00002538 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2...   258   4e-74
+CADAFLAP00000031 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:9...    31   0.84 
+CADAFLAP00008558 pep:known supercontig:JCVI-afl1-v2.0:EQ963479:1...    31   1.4  
+CADAFLAP00010546 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:1...    30   2.8  
+CADAFLAP00002143 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:1...    29   5.4  
+
+>CADAFLAP00002538 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2393942:2397244:1
+           gene:CADAFLAG00002538 transcript:CADAFLAT00002538
+           description:"CFIA complex component Rna14, putative "
+          Length = 1014
+
+ Score =  258 bits (659), Expect = 4e-74,   Method: Compositional matrix adjust.
+ Identities = 218/786 (27%), Positives = 346/786 (44%), Gaps = 140/786 (17%)
+
+Query: 2   SSSTTPDLLYPSADKVAEPSDNIHGDELRLRERIKDNP-TNILSYFQLIQYLETQESYAK 60
+           S++ TP    PS  K   P D +      L +RI+++P  +I ++ +LI     +     
+Sbjct: 229 SAAATPVPDSPSTSKGRLPHDRVG----ILEDRIQEDPRGDIPAWLELINEHRNRNRIDS 284
+
+Query: 61  VREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLD 120
+            REVYE+F   FPF +  W      E   +E   +E+I  + L   L   D+ LW+ YLD
+Sbjct: 285 AREVYERFLTAFPFSAEQWVAYATMESELNELYRLEQIFNRTL---LTIPDVQLWTVYLD 341
+
+Query: 121 YIRRKNNLITG--GQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFN--- 175
+           Y+RR+N L T   GQ +R +I  A+ L +Q   + +  S S W +Y+ F+    P N   
+Sbjct: 342 YVRRRNPLTTDTTGQ-SRRIISSAYDLALQYVGV-DKDSGSIWTDYVQFIRS-GPGNVGG 398
+
+Query: 176 -KWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKA 234
+             W++QQ++D+LR+ Y+K +CVP   +  +W  Y Q+E  +N LT RKF+ E S  YM A
+Sbjct: 399 SGWQDQQKMDLLRKAYQKAICVPTQAVNNLWKEYDQFEMGLNKLTGRKFLQEQSPAYMTA 458
+
+Query: 235 RSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNI---QQLQIWLNWIKWERENK 291
+           RS Y E  N+T  L R +           +P    SD +I   QQ+ IW  WIKWE+ + 
+Sbjct: 459 RSSYTELQNITRDLNRTT--------LPRLPPVLGSDGDIEFGQQVDIWKRWIKWEKGDP 510
+
+Query: 292 LMLSED---MLSQRISYVYKQGIQYMIFSAEMWYDYSMYISENSDRQN----ILYTALLA 344
+           L+L E+       R+ YVYKQ +  + F  E+W++ + +   N D +N     L   + A
+Sbjct: 511 LVLKEEDQAAFKARVIYVYKQALMALRFLPEIWFEAAEFCFLN-DMENEGNEFLKNGIEA 569
+
+Query: 345 NPDSPSLTFKLSECYELDNDSE--------SVSNCFDKC----------TQTLLSQ---- 382
+           NP+S  L FK ++  E+ ++SE         V   +DK            +T  SQ    
+Sbjct: 570 NPESCLLAFKRADRLEITSESEQDPIKRGAKVREPYDKLLNALYDLIAKARTRESQDVAR 629
+
+Query: 383 ----YKKIASDVNSGEDNNTEYEQELLYKQREKL-----------------------TFV 415
+               + KI  D    +  + + + +   K RE +                       +F 
+Sbjct: 630 LEETFAKINPDTQPSK-TDDDDDDQSDSKARESMKNAQIEALRNAHAIQIGILSKTVSFA 688
+
+Query: 416 FCVYMNTMKRISG------LSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAF 469
+           +   M  M+RI G      +  +R VF   RK  RI T DVY+ +A +E+    D   A 
+Sbjct: 689 WIALMRAMRRIQGKGKPGEMPGSRQVFADARKRGRI-TSDVYIASALIEYHCYKD-PAAT 746
+
+Query: 470 KVLELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKV----QDLTQLKEIYKK 525
+           K+ E G K F  D  +  +YL  LI +N     + +FE +V K+    +++ + K I+  
+Sbjct: 747 KIFERGAKLFPEDENFALEYLKHLIDINDVINARAVFEMTVRKLASNPENVHKTKPIFAF 806
+
+Query: 526 MISYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRYQIQNSNLIKKLELTYMYNEEED 585
+           +  YES++G+L  V +LE R  E FP++  +E F  RY     +      +         
+Sbjct: 807 LHEYESRYGDLVQVINLENRMRELFPEDPTLEQFAHRYSSPAFDPTVVRPIISPSQTRPK 866
+
+Query: 586 SYFSSGNGDGHHGSYNMSSSDR------KRLMEETXXXXXXXXXXXXRDS---------- 629
+           + F +      HG+ +    D       KR +E+              DS          
+Sbjct: 867 TAFPTEQPVSRHGTPSSRYPDASVTNSPKRPLEDFDDEMNRPRKFIRADSPLKTTQRRQL 926
+
+Query: 630 -------------------------ELPTEVLDLLSVIPKRQYFNTNLLDAQKLVNFLND 664
+                                     LP +++ LLS+IP    +N      +KLV+ +  
+Sbjct: 927 DPPKRTQQVISNQTGSQFRSQGSPAPLPRDIVYLLSIIPSASAYNAGRFSPEKLVDLIR- 985
+
+Query: 665 QVEIPT 670
+           ++++PT
+Sbjct: 986 RIDMPT 991
+
+
+>CADAFLAP00000031 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:91611:92528:1
+           gene:CADAFLAG00000031 transcript:CADAFLAT00000031
+           description:"Putative uncharacterized protein "
+          Length = 305
+
+ Score = 31.2 bits (69), Expect = 0.84,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 19/33 (57%)
+
+Query: 390 VNSGEDNNTEYEQELLYKQREKLTFVFCVYMNT 422
+           V  G DN++ +    L++ R  LTFV+C+   T
+Sbjct: 80  VAKGVDNHSSFAYRPLHRLRTTLTFVYCMAFGT 112
+
+
+>CADAFLAP00008558 pep:known supercontig:JCVI-afl1-v2.0:EQ963479:1962011:1963624:1
+           gene:CADAFLAG00008558 transcript:CADAFLAT00008558
+           description:"Cyclophilin-type peptidyl-prolyl cis-trans
+           isomerase, putative "
+          Length = 467
+
+ Score = 30.8 bits (68), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 36/136 (26%), Positives = 59/136 (43%), Gaps = 26/136 (19%)
+
+Query: 415 VFCVYMNTMKRISGLSAARTVFG---KCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKV 471
+           +F   +N + +   L    + FG    C  ++   T D  ++ A++EF+NQ D + A   
+Sbjct: 250 LFVCKLNPVTQDEDLHLIFSRFGTILSCEVIRDKRTGD-SLQYAFIEFENQKDCEQA--- 305
+
+Query: 472 LELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYK-KMISYE 530
+                 YF+  GV I+           D +I   F  SV     +++L E ++   IS  
+Sbjct: 306 ------YFKMQGVLID-----------DHRIHVDFSQSVSSTILVSKLSESWRNATISKR 348
+
+Query: 531 S-KFGNLNNVYSLEKR 545
+           S + G    V SLEK+
+Sbjct: 349 SGQRGGFGGVASLEKK 364
+
+
+>CADAFLAP00010546 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:1236900:1238624:1
+           gene:CADAFLAG00010546 transcript:CADAFLAT00010546
+           description:"Arylsulfatase, putative "
+          Length = 555
+
+ Score = 30.0 bits (66), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 32/68 (47%), Gaps = 11/68 (16%)
+
+Query: 24  IHGDELRLRERIKDNPTNILSYF----QLIQYLETQESYAKVREVYEQFHNTFPFYSPAW 79
+           + GD  R  +R  D P++  S      QL+QYL ++E     ++    F    PF +P W
+Sbjct: 171 MEGD--RFLDRTTDIPSDFYSTTTFTDQLLQYLTSRE-----KDDDRPFFAYLPFTAPHW 223
+
+Query: 80  TLQLKGEL 87
+            LQ   EL
+Sbjct: 224 PLQAPREL 231
+
+
+>CADAFLAP00002143 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:1331606:1333378:1
+           gene:CADAFLAG00002143 transcript:CADAFLAT00002143
+           description:"N-alkane-inducible cytochrome P450,
+           putative "
+          Length = 549
+
+ Score = 28.9 bits (63), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 26/101 (25%), Positives = 43/101 (42%), Gaps = 19/101 (18%)
+
+Query: 163 EYLNFLEQWKP---FNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLT 219
+           E  NFL +W P   + +W+  + +D L       + V  D       RY +W +   S +
+Sbjct: 240 ETSNFLSRWNPRRLYRQWQNGRTMDYL-------IGVELDK------RYKEWRETAKSSS 286
+
+Query: 220 ---ARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLR 257
+               +  +  + AEYMK R   Q+   +    KR + I +R
+Sbjct: 287 HPRTQSIMDMVIAEYMKTRPQAQQQQELDPEFKRWATIQIR 327
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 7,295,496
+Number of extensions: 295597
+Number of successful extensions: 775
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 766
+Number of HSP's successfully gapped: 15
+Length of query: 677
+Length of database: 5,672,061
+Length adjustment: 101
+Effective length of query: 576
+Effective length of database: 4,309,874
+Effective search space: 2482487424
+Effective search space used: 2482487424
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

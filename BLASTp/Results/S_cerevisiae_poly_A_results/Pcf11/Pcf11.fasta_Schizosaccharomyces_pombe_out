@@ -1,0 +1,194 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC4G9.04c.1:pep pep:known chromosome:ASM294v2:I:2255677:225919...   113   8e-27
+SPAC222.09.1:pep pep:known chromosome:ASM294v2:I:959867:962227:1...    33   0.097
+SPAC4F8.12c.1:pep pep:known chromosome:ASM294v2:I:2650688:265802...    30   1.0  
+SPAC22A12.15c.1:pep pep:known chromosome:ASM294v2:I:1182693:1185...    30   1.1  
+SPBC23G7.14.1:pep pep:known chromosome:ASM294v2:II:2126496:21281...    28   1.4  
+SPAC6F6.17.1:pep pep:known chromosome:ASM294v2:I:2766283:2770704...    29   1.9  
+SPCC4G3.10c.1:pep pep:known chromosome:ASM294v2:III:451805:45481...    28   4.7  
+
+>SPAC4G9.04c.1:pep pep:known chromosome:ASM294v2:I:2255677:2259196:-1 gene:SPAC4G9.04c
+           transcript:SPAC4G9.04c.1 description:"cleavage and
+           polyadenylation specificity factor (predicted)"
+          Length = 638
+
+ Score =  113 bits (283), Expect = 8e-27,   Method: Compositional matrix adjust.
+ Identities = 85/259 (32%), Positives = 117/259 (45%), Gaps = 53/259 (20%)
+
+Query: 11  DFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYALDSI 70
+           D+ S LE+LTFNS+PII TLT +A+EN   A   V+AIE  I+KC P  KL A Y LDSI
+Sbjct: 7   DYLSALEDLTFNSKPIIHTLTYIAQENEPYAISIVNAIEKHIQKCPPNCKLPALYLLDSI 66
+
+Query: 71  CKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLN--PNDTGL-PLFEGSA 127
+            KN+G+PYT +F  +LF+ +   Y +V+   R KL  +   W    PN + L P+F    
+Sbjct: 67  SKNLGAPYTYFFGLHLFSTFMSAYTVVEPRLRLKLDQLLATWKQRPPNSSSLEPVFSPIV 126
+
+Query: 128 LEKIEQFLIKASAL---HQKNLQA---------------------------MLPT-PTVP 156
+             KIE  L+K  +    HQ  L A                             P+ P+VP
+Sbjct: 127 TAKIENALLKYKSTILRHQSPLLANTSISSFSAPIDANINSYSSFSDPASSYKPSLPSVP 186
+
+Query: 157 L-------------------LLRDIDKLTCLTSERLKNQPNDEKLKMKLLVLSQLKQELK 197
+                               LL D++++      R    P D   K +  +L QLK  L 
+Sbjct: 187 FGFQHISGTSPSPGFITLDSLLSDVNRMIVTEQARFIKNPYDNMAKKRFEILLQLKNVLS 246
+
+Query: 198 REKLTLNALKQVQMQLRQV 216
+              L  + L  ++ QL Q+
+Sbjct: 247 SSALPYDQLLAIKNQLAQL 265
+
+
+
+ Score = 94.0 bits (232), Expect = 1e-20,   Method: Compositional matrix adjust.
+ Identities = 60/204 (29%), Positives = 93/204 (45%), Gaps = 53/204 (25%)
+
+Query: 409 LIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNL 468
+           L  LLY +  N+C+ CG+R+GN    +   ++H DWHFRIN RI+ S   +  GI+    
+Sbjct: 411 LSSLLYENYSNQCANCGRRYGNDPESRKELDKHSDWHFRINKRIRES---SLHGIN---- 463
+
+Query: 469 NTTTTRKNIQSRNWYLSDSQWAAFKDDE--ITSTKHKNDYTDPHANKNIDKSALNIHADE 526
+                      R W++ + +W   K++E  IT T                       A E
+Sbjct: 464 -----------RCWFVMEEEWVNSKEEEDLITET-----------------------AQE 489
+
+Query: 527 NDEGSVDNTLGSDRSNELE-IRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWK 585
+            +E          R  ++E +R +YV+ P      +  CPIC+E    V+ EE+  WV+ 
+Sbjct: 490 IEE---------QRQKQMESVRSQYVLTPLDPIAASEPCPICQEKFQSVWHEEAEVWVFM 540
+
+Query: 586 NTIEVNGKYFHSTCYHETSQNSSK 609
+           N +E  G+ FH+TC  E   + +K
+Sbjct: 541 NAVEEEGRIFHATCLQEVRPSENK 564
+
+
+>SPAC222.09.1:pep pep:known chromosome:ASM294v2:I:959867:962227:1 gene:SPAC222.09
+          transcript:SPAC222.09.1 description:"RNA-binding
+          protein Seb1"
+          Length = 620
+
+ Score = 33.1 bits (74), Expect = 0.097,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 35/69 (50%), Gaps = 4/69 (5%)
+
+Query: 9  VKDFNSILEELTFNSRPI----ITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAF 64
+          + +F+ IL+ L  +   I    I  LT L+ EN+S    FV ++    ++     KL A 
+Sbjct: 4  IAEFDGILDSLEHSKTGISGSKILKLTNLSMENVSENAQFVASVYKYAKRAPVTHKLGAL 63
+
+Query: 65 YALDSICKN 73
+          Y LDSI ++
+Sbjct: 64 YILDSIVRS 72
+
+
+>SPAC4F8.12c.1:pep pep:known chromosome:ASM294v2:I:2650688:2658024:1 gene:SPAC4F8.12c
+           transcript:SPAC4F8.12c.1 description:"U5 snRNP complex
+           subunit Spp42"
+          Length = 2363
+
+ Score = 30.0 bits (66), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 35/138 (25%), Positives = 55/138 (39%), Gaps = 15/138 (10%)
+
+Query: 97  VDNTTRTK-LINMFKLWLNPNDTGLP--LFEGSALEKIEQFLIKASALHQKNLQAMLPTP 153
+           VD T   K L  + +LWL          L +G  +   E   I  + +H    +   P P
+Sbjct: 790 VDKTVAKKNLGRLTRLWLKAEQERQHNYLKDGPYVTADEAVAIYTTFVHWLESRRFQPIP 849
+
+Query: 154 TVPLLLRDIDKLTCLTSERLK---------NQPNDEKLKMKLLVLS---QLKQELKREKL 201
+             PL  +   KL  L  ERLK         NQ   E+L +         ++  ++KR  L
+Sbjct: 850 FPPLSYKHDTKLLVLALERLKEAYSVKGRLNQSQREELALVEQAYDNPHEMLSQIKRRLL 909
+
+Query: 202 TLNALKQVQMQLRQVFSQ 219
+           T+   K+V ++   ++S 
+Sbjct: 910 TMRTFKEVGIEFMDMYSH 927
+
+
+>SPAC22A12.15c.1:pep pep:known chromosome:ASM294v2:I:1182693:1185497:-1
+           gene:SPAC22A12.15c transcript:SPAC22A12.15c.1
+           description:"ER heat shock protein BiP"
+          Length = 663
+
+ Score = 30.0 bits (66), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 17/63 (26%), Positives = 35/63 (55%), Gaps = 1/63 (1%)
+
+Query: 172 RLKNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVF-SQDQQVLQERMRY 230
+           R  N+ N+  +   L  + +LK+E+++ K TL++ K V++++   F  QD      R ++
+Sbjct: 273 RTYNRKNNVDVTKDLKAMGKLKREVEKAKRTLSSQKSVRIEIESFFNGQDFSETLSRAKF 332
+
+Query: 231 HEL 233
+            E+
+Sbjct: 333 EEI 335
+
+
+>SPBC23G7.14.1:pep pep:known chromosome:ASM294v2:II:2126496:2128132:1 gene:SPBC23G7.14
+           transcript:SPBC23G7.14.1 description:"sequence orphan"
+          Length = 131
+
+ Score = 28.5 bits (62), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 22/84 (26%), Positives = 41/84 (48%), Gaps = 12/84 (14%)
+
+Query: 501 KHKNDYTDP-HANKNIDK--SALNIHADE---------NDEGSVDNTLGSDRSNELEIRG 548
+           ++KN Y     A K++D+  S LN+  ++          D   ++N L S  S ELE R 
+Sbjct: 35  RNKNKYEQLLQARKDLDRFRSNLNVQQEQLQNEILGFKQDVKLLNNVLVSYSSEELEKRF 94
+
+Query: 549 KYVVVPETSQDMAFKCPICKETVT 572
+           +  ++ E +  M  +  +C +++T
+Sbjct: 95  EESLLKEKATSMEMESKLCSKSIT 118
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,951,908
+Number of extensions: 131774
+Number of successful extensions: 397
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 394
+Number of HSP's successfully gapped: 20
+Length of query: 626
+Length of database: 2,387,769
+Length adjustment: 94
+Effective length of query: 532
+Effective length of database: 1,904,233
+Effective search space: 1013051956
+Effective search space used: 1013051956
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

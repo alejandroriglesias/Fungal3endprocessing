@@ -1,0 +1,182 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP40692 pep:known chromosome:v2.0:5:1618141:1618701:1 gene:N...   225   1e-74
+NechaP40832 pep:known chromosome:v2.0:5:2456784:2457926:1 gene:N...    58   3e-10
+NechaP75021 pep:known chromosome:v2.0:1:3658935:3659974:-1 gene:...    55   2e-09
+NechaP42935 pep:known chromosome:v2.0:6:2555984:2557994:1 gene:N...    50   9e-08
+NechaP102776 pep:known chromosome:v2.0:8:1765627:1766448:-1 gene...    48   3e-07
+NechaP30669 pep:known chromosome:v2.0:1:4558416:4561250:1 gene:N...    49   3e-07
+NechaP41418 pep:known chromosome:v2.0:5:1614272:1617255:-1 gene:...    45   9e-06
+NechaP78080 pep:known chromosome:v2.0:3:3156415:3158160:-1 gene:...    44   1e-05
+NechaP68161 pep:known chromosome:v2.0:4:869162:871006:1 gene:Nec...    44   2e-05
+NechaP96663 pep:known chromosome:v2.0:10:830068:831137:-1 gene:N...    40   2e-04
+NechaP102368 pep:known chromosome:v2.0:1:2739430:2741858:-1 gene...    39   8e-04
+NechaP33691 pep:known chromosome:v2.0:2:3439295:3440830:1 gene:N...    39   9e-04
+NechaP66100 pep:known chromosome:v2.0:2:719386:724300:1 gene:Nec...    38   0.001
+NechaP75628 pep:known chromosome:v2.0:1:5817225:5817746:-1 gene:...    37   0.002
+NechaP47760 pep:known chromosome:v2.0:8:2597515:2598778:1 gene:N...    36   0.006
+NechaP99206 pep:known chromosome:v2.0:2:1786471:1787673:-1 gene:...    36   0.006
+NechaP43518 pep:known chromosome:v2.0:6:2766557:2768713:-1 gene:...    36   0.007
+NechaP74951 pep:known chromosome:v2.0:1:3415864:3416703:-1 gene:...    35   0.008
+NechaP58293 pep:known chromosome:v2.0:2:2380030:2382612:-1 gene:...    35   0.008
+NechaP74992 pep:known chromosome:v2.0:1:3577645:3579526:1 gene:N...    35   0.009
+NechaP59146 pep:known chromosome:v2.0:3:2127792:2130613:-1 gene:...    35   0.012
+NechaP101325 pep:known chromosome:v2.0:8:1921454:1923956:1 gene:...    34   0.030
+NechaP71194 pep:known chromosome:v2.0:8:2025442:2028750:-1 gene:...    33   0.074
+NechaP33762 pep:known chromosome:v2.0:2:2909129:2910052:1 gene:N...    32   0.090
+NechaP74653 pep:known chromosome:v2.0:1:2370078:2371172:1 gene:N...    32   0.18 
+NechaP74866 pep:known chromosome:v2.0:1:3142963:3143732:1 gene:N...    30   0.19 
+NechaP72372 pep:known chromosome:v2.0:10:1520770:1522149:-1 gene...    30   0.50 
+NechaP83316 pep:known chromosome:v2.0:8:230846:231542:1 gene:Nec...    29   0.93 
+NechaP59730 pep:known chromosome:v2.0:4:247110:249793:-1 gene:Ne...    29   1.0  
+NechaP78130 pep:known chromosome:v2.0:3:3306858:3310620:1 gene:N...    29   1.4  
+
+>NechaP40692 pep:known chromosome:v2.0:5:1618141:1618701:1 gene:NechaG40692
+           transcript:NechaT40692 description:"Putative
+           uncharacterized protein"
+          Length = 167
+
+ Score =  225 bits (573), Expect = 1e-74,   Method: Compositional matrix adjust.
+ Identities = 107/127 (84%), Positives = 120/127 (94%), Gaps = 1/127 (0%)
+
+Query: 30  EISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEI 89
+           EI+AMK+RVAEMEEEA KLREMQA+L+ QS +L+ + ++ +D+RSIFVGNVDYSASPEEI
+Sbjct: 1   EITAMKRRVAEMEEEAKKLREMQATLEQQSADLA-DDKESIDARSIFVGNVDYSASPEEI 59
+
+Query: 90  QAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPKR 149
+           QAHFQSCGSINRVTILLDKFTGQPKG+AYVEFTEPSLVAQALVLNESVFKGRNIKV+PKR
+Sbjct: 60  QAHFQSCGSINRVTILLDKFTGQPKGYAYVEFTEPSLVAQALVLNESVFKGRNIKVTPKR 119
+
+Query: 150 TNYPGMS 156
+           TN PGMS
+Sbjct: 120 TNIPGMS 126
+
+
+>NechaP40832 pep:known chromosome:v2.0:5:2456784:2457926:1 gene:NechaG40832
+           transcript:NechaT40832 description:"Putative
+           uncharacterized protein"
+          Length = 380
+
+ Score = 57.8 bits (138), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 39/60 (65%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           SR IFVGN+ +  + ++++ +F+ CG I  V +   + TG+ KGF +V+F+EP   A A+
+Sbjct: 196 SRKIFVGNMGFKTTDDDLRRNFEKCGEIEWVKVATFEDTGKCKGFGWVKFSEPEAAAWAV 255
+
+
+
+ Score = 30.4 bits (67), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%)
+
+Query: 114 KGFAYVEFTEPSLVAQALVLNESVFKGRNI 143
+           KGFAYV+FT+      A+ L+E+   GR +
+Sbjct: 125 KGFAYVDFTDIGPKVAAIALSETEIGGRKL 154
+
+
+>NechaP75021 pep:known chromosome:v2.0:1:3658935:3659974:-1 gene:NechaG75021
+           transcript:NechaT75021 description:"Predicted protein"
+          Length = 294
+
+ Score = 54.7 bits (130), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 26/75 (34%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           SR +FVGN+ Y  + E+I   F S G + R  ++ D  TG+PKGF + ++ +    + A+
+Sbjct: 7   SRVVFVGNIPYGLTEEQITEIFSSAGKVERFRLVYDSETGRPKGFGFADYPDTDSASSAV 66
+
+Query: 132 V-LNESVFKGRNIKV 145
+             LN+    GR ++V
+Sbjct: 67  RNLNDYEIMGRKLRV 81
+
+
+>NechaP42935 pep:known chromosome:v2.0:6:2555984:2557994:1 gene:NechaG42935
+           transcript:NechaT42935 description:"Putative
+           uncharacterized protein"
+          Length = 566
+
+ Score = 50.4 bits (119), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 26/84 (30%), Positives = 44/84 (52%), Gaps = 4/84 (4%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ Y  + + +   F  C  ++ V ++ D+   +PKGF YVEF     + QAL L
+Sbjct: 98  TAHLGNLAYDVTNDAVTDFFTGCDVVS-VRLIEDRELQRPKGFGYVEFATVEGLKQALAL 156
+
+Query: 134 NESVFKGRNIKV---SPKRTNYPG 154
+           +   F+GR +++    P R   PG
+Sbjct: 157 DGESFQGRTVRIKVADPPRGGDPG 180
+
+
+>NechaP102776 pep:known chromosome:v2.0:8:1765627:1766448:-1 gene:NechaG102776
+           transcript:NechaT102776 description:"Predicted protein"
+          Length = 176
+
+ Score = 47.8 bits (112), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 31/48 (64%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           +++VGN+ +  + E++   F  CG I R+ + LD+F+  P GF +VE+
+Sbjct: 50  TLYVGNLSFYTTEEQVYELFSKCGEIKRLVMGLDRFSKTPCGFCFVEY 97
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 1,983,973
+Number of extensions: 68567
+Number of successful extensions: 292
+Number of sequences better than 10.0: 43
+Number of HSP's gapped: 289
+Number of HSP's successfully gapped: 54
+Length of query: 193
+Length of database: 7,529,425
+Length adjustment: 91
+Effective length of query: 102
+Effective length of database: 6,100,270
+Effective search space: 622227540
+Effective search space used: 622227540
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 52 (24.6 bits)

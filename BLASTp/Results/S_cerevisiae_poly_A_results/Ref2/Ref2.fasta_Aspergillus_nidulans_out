@@ -1,0 +1,85 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00000888 pep:known chromosome:ASM1142v1:IV:2537111:25401...    30   2.6  
+
+>CADANIAP00000888 pep:known chromosome:ASM1142v1:IV:2537111:2540102:-1
+           gene:CADANIAG00000888 transcript:CADANIAT00000888
+           description:"pentatricopeptide repeat protein
+           (AFU_orthologue\x3b AFUA_5G07770)"
+          Length = 975
+
+ Score = 29.6 bits (65), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 35/72 (48%), Gaps = 3/72 (4%)
+
+Query: 19  TIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTKDNLHIERKEKNVTEADIQ 78
+           T +Q+    +  ++DC L  + L  + K   S++    QFTK  + + R +K  T    +
+Sbjct: 332 TAKQVLFQHLHLDRDCGLCGVYLTGLWKKARSIELLNGQFTKLLIMLRRMDKKPTH---K 388
+
+Query: 79  LYSGLKSMYLDY 90
+           L S +   Y+D+
+Sbjct: 389 LISPMLQAYVDF 400
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 4,388,382
+Number of extensions: 174188
+Number of successful extensions: 280
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 280
+Number of HSP's successfully gapped: 4
+Length of query: 533
+Length of database: 5,078,913
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 4,046,581
+Effective search space: 1760262735
+Effective search space used: 1760262735
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

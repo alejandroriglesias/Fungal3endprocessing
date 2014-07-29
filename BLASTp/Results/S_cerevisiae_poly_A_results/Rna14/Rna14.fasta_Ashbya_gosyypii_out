@@ -1,0 +1,228 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS52057 pep:known chromosome:ASM9102v1:IV:946876:948861:1 gene:...   678   0.0  
+AAS50663 pep:known chromosome:ASM9102v1:II:195538:197175:-1 gene...    34   0.063
+AAS54851 pep:known chromosome:ASM9102v1:VII:1716650:1717717:1 ge...    30   0.76 
+AAS53705 pep:known chromosome:ASM9102v1:VI:1044722:1047811:1 gen...    30   1.7  
+AAS50414 pep:known chromosome:ASM9102v1:I:428880:430211:-1 gene:...    29   2.2  
+AAS53728 pep:known chromosome:ASM9102v1:VI:1087539:1088843:1 gen...    28   2.9  
+AAS50497 pep:known chromosome:ASM9102v1:I:574770:577181:1 gene:A...    28   5.7  
+AAS50353 pep:known chromosome:ASM9102v1:I:318485:319957:1 gene:A...    27   7.6  
+
+>AAS52057 pep:known chromosome:ASM9102v1:IV:946876:948861:1 gene:AGOS_ADR137W
+           transcript:AAS52057 description:"mRNA 3'-end-processing
+           protein RNA14"
+          Length = 661
+
+ Score =  678 bits (1749), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 327/647 (50%), Positives = 459/647 (70%), Gaps = 30/647 (4%)
+
+Query: 30  RLRERIKDNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR 89
+           RLR++I+++PT IL Y +LI+Y   ++  A++REV+ Q H  FP  S  WT+ L  EL +
+Sbjct: 41  RLRDQIEEDPTQILLYIELIKYYVGKQQVAEIREVFGQLHELFPLESFLWTIHLNWELEQ 100
+
+Query: 90  DEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQK 149
+           +E   VE +LA+CLSG+L NND+ LWSTYL Y+RRKNN +TGG+EAR  ++KA++LVM+K
+Sbjct: 101 EESGQVETLLAKCLSGELMNNDIYLWSTYLGYVRRKNNTVTGGEEARGTVLKAYELVMEK 160
+
+Query: 150 CAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYT 209
+           CA+FEP+S  FW +YL FLEQWKP +KWEEQ R+++LR+ YK++LC+P ++LE+ W +YT
+Sbjct: 161 CAVFEPRSMQFWQDYLQFLEQWKPVSKWEEQSRVEILRKLYKRLLCLPVESLERYWEKYT 220
+
+Query: 210 QWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGT 269
+           QWEQE+N LTARKFIGELSA YM ARSLYQEW N+T GL+R+ P  L  A ++N+P PG 
+Sbjct: 221 QWEQEVNQLTARKFIGELSASYMNARSLYQEWSNLTKGLRRSLPTKLNQATQQNLPAPGQ 280
+
+Query: 270 SDSNIQQLQIWLNWIKWERENKLMLSEDMLSQRISYVYKQGIQYMIFSAEMWYDYSMYIS 329
+            D    QLQIW  WI+WE +NKL L E +L QR+ YV++Q +Q+M F+ E+WY+Y+M++ 
+Sbjct: 281 YDE--YQLQIWTKWIQWELDNKLDLPEVVLRQRVEYVHRQAVQHMCFAPEIWYNYAMFVD 338
+
+Query: 330 ENSDRQNILYTALLANPDSPSLTFKLSECYELDNDSESVSNCFDKCTQTLLSQYKKIASD 389
+           EN + + +L  A+  NP S SLTFKL+E  EL+N  E++   F  C   +  + + +   
+Sbjct: 339 EN-EHEKVLEIAVRCNPGSLSLTFKLAEYLELNNKIEALEERFQHCIARISMELQVM--- 394
+
+Query: 390 VNSGEDNNTEYEQELLYKQREKLTFVFCVYMNTMKRISGLSAARTVFGKCRKLKRILTHD 449
+                 N+T  + + + +Q  KLTF +CVYM TMKR++GLSAAR VF KCRKLK+ ++++
+Sbjct: 395 ------NDTTMDPDKILRQTRKLTFAYCVYMTTMKRVTGLSAARKVFSKCRKLKKDISYE 448
+
+Query: 450 VYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETS 509
+           +YVENAY+E+ N +D  T  +VLE GLKYFQ++G YINKYLDFLI + +D+QIK+LFE+ 
+Sbjct: 449 IYVENAYMEYYNNSDVTTPCRVLEFGLKYFQDNGNYINKYLDFLILVKQDAQIKSLFESC 508
+
+Query: 510 VEKVQDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRYQIQNSN 569
+           ++K+ +L QLKEIYKK+I+YESKFGNLNNVY LE+RFFE+FP+   IEVFT RYQ+Q  N
+Sbjct: 509 IDKIYNLDQLKEIYKKVINYESKFGNLNNVYELERRFFEKFPEAEKIEVFTDRYQLQGEN 568
+
+Query: 570 LIKKLELTYMYNEEEDSYFSS-GNGDGHHGS---YNMSSSDRKRLMEETXXXXXXXXXXX 625
+           L+K+LE  Y+ +E      S        H +   ++ + S +++  E+T           
+Sbjct: 569 LLKRLEFPYLMDEYGIPVLSGYAVKRSLHSAGIVFDDNGSSKRQRQEQT----------- 617
+
+Query: 626 XRDSELPTEVLDLLSVIPKRQYFNTNLLDAQKLVNFLNDQVEIPTVE 672
+                +P E+++LL V+PKRQYF T +LD  KL +FL+D+V IP  +
+Sbjct: 618 ---EAVPMEIIELLKVLPKRQYFKTIVLDPHKLADFLSDKVTIPPCD 661
+
+
+>AAS50663 pep:known chromosome:ASM9102v1:II:195538:197175:-1
+           gene:AGOS_ABL108C transcript:AAS50663
+           description:"ABL108Cp"
+          Length = 545
+
+ Score = 33.9 bits (76), Expect = 0.063,   Method: Compositional matrix adjust.
+ Identities = 29/95 (30%), Positives = 48/95 (50%), Gaps = 4/95 (4%)
+
+Query: 155 PKSSSFWNEYLNFLEQWK-PFNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQ 213
+           PK+ ++W E LN+L Q   P NK  ++Q   ++R  Y+ ML + F  LE     Y  +E 
+Sbjct: 24  PKTLAYWEELLNYLLQLASPLNKSIDRQLCKLIRYAYESML-LQFPYLENYHVDYALFEF 82
+
+Query: 214 EINSLTARKFIGELSAEYMKARS--LYQEWLNVTN 246
+           ++ S      I + + +    RS  L+ E+L + N
+Sbjct: 83  KLGSTAKMHKIFQKALDIFNQRSILLWVEYLKLCN 117
+
+
+>AAS54851 pep:known chromosome:ASM9102v1:VII:1716650:1717717:1
+           gene:AGOS_AGR361W transcript:AAS54851
+           description:"AGR361Wp"
+          Length = 355
+
+ Score = 30.4 bits (67), Expect = 0.76,   Method: Compositional matrix adjust.
+ Identities = 17/45 (37%), Positives = 24/45 (53%), Gaps = 9/45 (20%)
+
+Query: 322 YDYSMYISENSDRQNILYTALLANPDSPSL---TFKLSECYELDN 363
+           +D+S+      D +  LYT L+ NPD P L   T+  S C+ L N
+Sbjct: 208 FDHSL------DAEQQLYTILIVNPDVPDLEANTYSTSLCFGLQN 246
+
+
+>AAS53705 pep:known chromosome:ASM9102v1:VI:1044722:1047811:1
+           gene:AGOS_AFR334W transcript:AAS53705
+           description:"AFR334Wp"
+          Length = 1029
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 20/39 (51%)
+
+Query: 184 DMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARK 222
+           D LR  + K   +   ++EK+ + Y  WEQ +N L   K
+Sbjct: 740 DQLRSHFHKFHILILGDIEKLGDVYKPWEQLVNQLPMDK 778
+
+
+>AAS50414 pep:known chromosome:ASM9102v1:I:428880:430211:-1 gene:AGOS_AAR049C
+           transcript:AAS50414 description:"Postreplication repair
+           E3 ubiquitin-protein ligase RAD18"
+          Length = 443
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 20/93 (21%), Positives = 38/93 (40%), Gaps = 7/93 (7%)
+
+Query: 223 FIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLN 282
+            +GEL+A YM+ R+   E +       R  P  +    + N P    SD  ++ ++    
+Sbjct: 83  LVGELAACYMELRARLLETV-------RIPPKKVAEVVQNNSPIELDSDGEVEIIESCTG 135
+
+Query: 283 WIKWERENKLMLSEDMLSQRISYVYKQGIQYMI 315
+            +   +     + E   + +     + GIQYM+
+Sbjct: 136 AVPGSKRGSPQVEEVEAAAKRQRTKQNGIQYML 168
+
+
+>AAS53728 pep:known chromosome:ASM9102v1:VI:1087539:1088843:1
+           gene:AGOS_AFR357W transcript:AAS53728
+           description:"AFR357Wp"
+          Length = 434
+
+ Score = 28.5 bits (62), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 16/57 (28%), Positives = 32/57 (56%), Gaps = 11/57 (19%)
+
+Query: 152 IFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRID--MLREFYKKMLCVPFDNLEKMWN 206
+           I+EP S     +++ ++ +       EEQ+R++   +REFY K+  + FD++   W+
+Sbjct: 336 IYEPSSDDL--KHMAWMAE-------EEQRRLEEAQIREFYHKIWDIGFDDVRDDWD 383
+
+
+>AAS50497 pep:known chromosome:ASM9102v1:I:574770:577181:1 gene:AGOS_AAR131W
+           transcript:AAS50497 description:"Pre-mRNA-splicing
+           factor SYF1"
+          Length = 803
+
+ Score = 27.7 bits (60), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 23/37 (62%), Gaps = 4/37 (10%)
+
+Query: 86  ELARDEFETVEKILAQCLSGKLENNDLSLWSTYLDYI 122
+           EL RD+FE+ EK+ AQ +      + L LWS Y+D +
+Sbjct: 485 ELLRDKFESHEKMPAQTVI----FSSLKLWSFYIDLL 517
+
+
+>AAS50353 pep:known chromosome:ASM9102v1:I:318485:319957:1 gene:AGOS_AAL013W
+           transcript:AAS50353 description:"Cysteine desulfurase,
+           mitochondrial"
+          Length = 490
+
+ Score = 27.3 bits (59), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 14/39 (35%), Positives = 23/39 (58%)
+
+Query: 104 SGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKA 142
+           SG  E+N+++L      Y +RKN++IT   E + V+  A
+Sbjct: 159 SGATESNNMALKGVARFYKKRKNHIITTRTEHKCVLEAA 197
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 3,106,067
+Number of extensions: 134409
+Number of successful extensions: 476
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 468
+Number of HSP's successfully gapped: 20
+Length of query: 677
+Length of database: 2,335,236
+Length adjustment: 95
+Effective length of query: 582
+Effective length of database: 1,881,516
+Effective search space: 1095042312
+Effective search space used: 1095042312
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

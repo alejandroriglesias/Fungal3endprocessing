@@ -1,0 +1,226 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P65824 pep:known chromosome:MG2:1:2328456:2330580:-1 gene:...   580   0.0  
+Mycgr3P52472 pep:known chromosome:MG2:1:1742723:1745316:-1 gene:...   413   e-141
+Mycgr3P101229 pep:known chromosome:MG2:9:1155252:1158032:1 gene:...   283   9e-94
+Mycgr3P101169 pep:known chromosome:MG2:9:661333:662417:-1 gene:M...   255   7e-83
+Mycgr3P100967 pep:known chromosome:MG2:8:1111501:1113545:-1 gene...   221   3e-67
+Mycgr3P101413 pep:known chromosome:MG2:10:679078:680205:1 gene:M...   207   1e-64
+Mycgr3P75902 pep:known chromosome:MG2:9:1875990:1877545:-1 gene:...   208   2e-63
+Mycgr3P75314 pep:known chromosome:MG2:9:304984:306786:-1 gene:My...   139   1e-37
+Mycgr3P39612 pep:known chromosome:MG2:3:539058:540888:-1 gene:My...    30   0.57 
+Mycgr3P101025 pep:known chromosome:MG2:8:1442538:1445150:1 gene:...    27   6.1  
+
+>Mycgr3P65824 pep:known chromosome:MG2:1:2328456:2330580:-1 gene:Mycgr3G65824
+           transcript:Mycgr3T65824 description:"Pp1, catalytic
+           subunit of type 1 serine/threonine protein phosphatase"
+          Length = 309
+
+ Score =  580 bits (1496), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 279/303 (92%), Positives = 288/303 (95%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQNDVDLDSIIDRLLEVRGSRPGKQVQLLETEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKK 302
+
+Query: 302 LPR 304
+             R
+Sbjct: 303 QNR 305
+
+
+>Mycgr3P52472 pep:known chromosome:MG2:1:1742723:1745316:-1 gene:Mycgr3G52472
+           transcript:Mycgr3T52472 description:"MgPPZ1,protein
+           phosphatase 2A-like protein"
+          Length = 533
+
+ Score =  413 bits (1061), Expect = e-141,   Method: Compositional matrix adjust.
+ Identities = 190/297 (63%), Positives = 230/297 (77%), Gaps = 1/297 (0%)
+
+Query: 6   VDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDI 64
+            D+D++I RL++     K  + V L+  EI  +C+ AR +F+ QP LLEL  P+KI GD+
+Sbjct: 208 ADLDDMIKRLVDAGYAGKVTKTVCLKNAEITAICNAARELFLSQPALLELSPPVKIVGDV 267
+
+Query: 65  HGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNH 124
+           HGQY DL+R+FE  GFPP SNYLFLGDYVDRGKQSLETI LLL YK+++PENFF+LRGNH
+Sbjct: 268 HGQYTDLIRMFEMCGFPPNSNYLFLGDYVDRGKQSLETILLLLCYKLRFPENFFLLRGNH 327
+
+Query: 125 ECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQ 184
+           ECA++ R+YGFYDECKRR N+K+WKTF D FN LPIAAI+  KIFC+HGGLSP L+ M+ 
+Sbjct: 328 ECANVTRVYGFYDECKRRCNVKVWKTFVDTFNTLPIAAIVAGKIFCVHGGLSPSLSHMDD 387
+
+Query: 185 IRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELIC 244
+           IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FLQK D +L+C
+Sbjct: 388 IRNIARPTDVPDYGLLNDLLWSDPADMEADWEANERGVSYCFGKKVIMEFLQKHDFDLVC 447
+
+Query: 245 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           RAH VVEDGYEFF +R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP   S
+Sbjct: 448 RAHMVVEDGYEFFQERILVTVFSAPNYCGEFDNWGAVMSVSGELLCSFELLKPLDSS 504
+
+
+>Mycgr3P101229 pep:known chromosome:MG2:9:1155252:1158032:1 gene:Mycgr3G101229
+           transcript:Mycgr3T101229 description:"MgPP2Ac, protein
+           phosphatase 2A catalytic sub-unit"
+          Length = 325
+
+ Score =  283 bits (725), Expect = 9e-94,   Method: Compositional matrix adjust.
+ Identities = 130/261 (49%), Positives = 180/261 (68%), Gaps = 2/261 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E ++R LC KAR +   +  +  ++ P+ +CGDIHGQ++DL+ LF+ GG  P++NYLF
+Sbjct: 50  LAEEDVRRLCEKAREVLQDESNVQPVKCPVTVCGDIHGQFHDLMELFKIGGPNPDTNYLF 109
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP    ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 110 MGDYVDRGYFSVETVTLLVALKIRYPSRITILRGNHESRQITQVYGFYDECLRKYGNANV 169
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 170 WKFFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSD 229
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + L+ RAHQ+V +GY +   R +VT+FS
+Sbjct: 230 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLVARAHQLVMEGYNWSQDRNVVTIFS 288
+
+Query: 268 APNYCGEFDNAGAMMSVDESL 288
+           APNYC    N  A+M +DE L
+Sbjct: 289 APNYCYRCGNQAAIMEIDEHL 309
+
+
+>Mycgr3P101169 pep:known chromosome:MG2:9:661333:662417:-1 gene:Mycgr3G101169
+           transcript:Mycgr3T101169 description:"Putative
+           uncharacterized protein"
+          Length = 321
+
+ Score =  255 bits (652), Expect = 7e-83,   Method: Compositional matrix adjust.
+ Identities = 122/280 (43%), Positives = 186/280 (66%), Gaps = 9/280 (3%)
+
+Query: 6   VDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIH 65
+           VD+D  IDRL         ++  L ++ I  +C+KA+ + +K+  ++ ++AP+ + GDIH
+Sbjct: 8   VDLDECIDRLY--------RKELLADSVIEAVCAKAKELLMKESNVVHIQAPVTVVGDIH 59
+
+Query: 66  GQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 125
+           GQ++D++ +F+ GG+ P++NYLFLGDYVDRG  S+ETI LL+  K++YP    +LRGNHE
+Sbjct: 60  GQFFDMIEIFKIGGYCPDTNYLFLGDYVDRGLFSIETISLLICLKLRYPSRVHLLRGNHE 119
+
+Query: 126 CASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQ 184
+              + + YGFY EC R+Y N  +W  FTD F+ L ++ +ID+KIFC+HGGLSP ++S++Q
+Sbjct: 120 SRGVTQSYGFYTECSRKYGNPAVWHHFTDMFDYLSLSCVIDDKIFCVHGGLSPSIHSIDQ 179
+
+Query: 185 IRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELIC 244
+           I+ + R  +IP  G + DL+WSDPD +   +S + RG  +TFG  VV +FL    M  I 
+Sbjct: 180 IKIIDRFREIPHEGPMADLVWSDPDAERDEFSLSPRGAGYTFGAQVVKKFLAVNSMTHIL 239
+
+Query: 245 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSV 284
+           RAHQ+  +GY    + +L T++SAPNYC    N  +++ V
+Sbjct: 240 RAHQLCNEGYMVMFEDRLSTVWSAPNYCYRCGNLASVLEV 279
+
+
+>Mycgr3P100967 pep:known chromosome:MG2:8:1111501:1113545:-1 gene:Mycgr3G100967
+           transcript:Mycgr3T100967
+           description:"Serine/threonine-protein phosphatase 2B
+           catalytic subunit"
+          Length = 552
+
+ Score =  221 bits (563), Expect = 3e-67,   Method: Compositional matrix adjust.
+ Identities = 105/274 (38%), Positives = 171/274 (62%), Gaps = 13/274 (4%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +  ++ +   ++   +P LLE++API +CGDIHGQY+DL++LFE GG P E+ YLF
+Sbjct: 87  LTEEQALWIINGGTAVLRAEPNLLEMDAPITVCGDIHGQYFDLMKLFEVGGDPAETRYLF 146
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRYNIKLW 148
+           LGDYVDRG  S+E +  L A K+ YP   ++LRGNHEC  +   + F  ECK +Y+ K++
+Sbjct: 147 LGDYVDRGYFSIECVLYLWALKMWYPNTLWLLRGNHECRHLTDYFTFKLECKHKYSEKVY 206
+
+Query: 149 KTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDP 208
+           +   + F  LP+AA+++++  C+HGGLSP+L+++E I+ + R  + P  GL+CD+LW+DP
+Sbjct: 207 EACMESFCSLPLAAVMNKQFLCIHGGLSPELHTLEDIKALDRFREPPTHGLMCDILWADP 266
+
+Query: 209 DKDIVGWSEND-------RGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQ 261
+            ++       +       RG S+ F       FL+K ++  I RAH+  + GY  + K +
+Sbjct: 267 LEEFGQEKTQEYFIHNHVRGCSYFFSYPAACAFLEKNNLLSIIRAHEAQDAGYRMYRKTR 326
+
+Query: 262 ------LVTLFSAPNYCGEFDNAGAMMSVDESLL 289
+                 ++T+FSAPNY   ++N  A++  + +++
+Sbjct: 327 TTGFPSVMTIFSAPNYLDVYNNKAAVLKYENNVM 360
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 3,187,489
+Number of extensions: 137977
+Number of successful extensions: 244
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 232
+Number of HSP's successfully gapped: 13
+Length of query: 312
+Length of database: 4,742,065
+Length adjustment: 93
+Effective length of query: 219
+Effective length of database: 3,725,482
+Effective search space: 815880558
+Effective search space used: 815880558
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 52 (24.6 bits)

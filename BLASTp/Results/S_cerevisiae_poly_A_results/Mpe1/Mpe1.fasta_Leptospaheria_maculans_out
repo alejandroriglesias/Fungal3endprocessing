@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBY01842 pep:novel supercontig:ASM23037v1:FP929139:2312690:23145...   207   8e-60
+CBX93045 pep:novel supercontig:ASM23037v1:FP929105:373218:377243...    30   1.9  
+CBX92974 pep:novel supercontig:ASM23037v1:FP929105:173998:176559...    29   2.7  
+CBX99340 pep:novel supercontig:ASM23037v1:FP929135:1247000:12523...    28   5.7  
+CBX90678 pep:novel supercontig:ASM23037v1:FP929065:295621:298662...    28   8.3  
+
+>CBY01842 pep:novel supercontig:ASM23037v1:FP929139:2312690:2314597:-1
+           gene:LEMA_P006290.1 transcript:CBY01842
+           description:"Putative uncharacterized protein "
+          Length = 635
+
+ Score =  207 bits (527), Expect = 8e-60,   Method: Compositional matrix adjust.
+ Identities = 130/366 (35%), Positives = 185/366 (50%), Gaps = 48/366 (13%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIY-NPDTEEEY 59
+           M S++FY+FK+ +    I F+GT ++VF+LKREII  + LGDGTDF L IY   D   EY
+Sbjct: 1   MPSSVFYKFKNSKEPELIFFEGTSISVFELKREIITASGLGDGTDFNLHIYPEHDMNSEY 60
+
+Query: 60  DDDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXX 119
+            DD  +IPRS +VI  R                      G A RYVTGR  V    +   
+Sbjct: 61  KDDTTLIPRSDTVIAVRR---------------PAPRGRGRAARYVTGRAPVRAITKETK 105
+
+Query: 120 XXXXNVSG---TTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQENEGPP 176
+                  G    TE +  A+  A            +S A PVF K    K +       P
+Sbjct: 106 PAPSAPGGGAELTETDAEAAFLAESASVWDAQKEALSHAKPVFHK----KKAVVVPNHDP 161
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE--IDPETMTPEE 233
+           PPGY+C RC  + HWI+ CPTN DP+F+   + +RTTGIP+ FLK +E  ID       E
+Sbjct: 162 PPGYVCRRCNIKGHWIQACPTNDDPDFKPVFQAKRTTGIPQSFLKKVEKPID-------E 214
+
+Query: 234 MAQRKIMITDEGKFVVQVEDKQSWEDYQRK------RENRQIDGDETIWRKGHFKDLPDD 287
+            A + +M+  +G++V  + D ++WE +Q K      +        E + ++G        
+Sbjct: 215 EAAKGVMLNADGEYVQVMADTKTWEKFQEKVNATKAQAASADAASEEVRQRG-------- 266
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKE 347
+           L+C +   +   PVKT  CC+  + +E ++NAL + D +CPNC   D+L+D LVPD+D  
+Sbjct: 267 LECSIDKRMFVDPVKTP-CCSKTYCRECIDNALADGDLICPNCAQEDVLMDDLVPDEDMV 325
+
+Query: 348 KEVETF 353
+           K ++ F
+Sbjct: 326 KSIKAF 331
+
+
+>CBX93045 pep:novel supercontig:ASM23037v1:FP929105:373218:377243:-1
+           gene:LEMA_P039460.1 transcript:CBX93045
+           description:"Putative uncharacterized protein "
+          Length = 989
+
+ Score = 29.6 bits (65), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 17/22 (77%)
+
+Query: 364 SKDGNQPETKKMKLMDPTGTAG 385
+           +KDGN+P+ KK K +D +G AG
+Sbjct: 718 AKDGNRPQMKKWKKLDGSGGAG 739
+
+
+>CBX92974 pep:novel supercontig:ASM23037v1:FP929105:173998:176559:-1
+           gene:LEMA_P038750.1 transcript:CBX92974
+           description:"Putative uncharacterized protein "
+          Length = 762
+
+ Score = 29.3 bits (64), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 23/48 (47%)
+
+Query: 315 ALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEELHG 362
+           ALE +L+      P C    + + S++ D+DK+    T  K   ++H 
+Sbjct: 93  ALERSLLPLPITKPECAYPSVAMPSILSDEDKQTVKRTVPKSANKIHA 140
+
+
+>CBX99340 pep:novel supercontig:ASM23037v1:FP929135:1247000:1252393:1
+            gene:LEMA_P085790.1 transcript:CBX99340
+            description:"Similar to chitin synthase "
+          Length = 1797
+
+ Score = 28.1 bits (61), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 18/25 (72%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQ 261
+            +K++++DEGKF      K+ WE+YQ
+Sbjct: 1572 QKVIVSDEGKFDPASIPKKRWEEYQ 1596
+
+
+>CBX90678 pep:novel supercontig:ASM23037v1:FP929065:295621:298662:1
+           gene:LEMA_P057120.1 transcript:CBX90678
+           description:"Similar to coatomer subunit beta "
+          Length = 851
+
+ Score = 27.7 bits (60), Expect = 8.3,   Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 30/55 (54%), Gaps = 4/55 (7%)
+
+Query: 218 FLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGD 272
+            ++ IE+DP+++   E  +   + TD+  +V+    + S E+Y    +N +ID D
+Sbjct: 454 LVRRIEVDPKSVFWSESGELVTLATDDTFYVL----RYSRENYLEALQNGEIDED 504
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 4,655,088
+Number of extensions: 205225
+Number of successful extensions: 424
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 419
+Number of HSP's successfully gapped: 13
+Length of query: 441
+Length of database: 5,217,443
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,007,950
+Effective search space: 1378734800
+Effective search space used: 1378734800
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

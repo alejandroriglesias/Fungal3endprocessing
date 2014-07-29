@@ -1,0 +1,254 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_01804T0 pep:known chromosome:MG8:2:4903695:4907469:-1 gene:M...   620   0.0  
+MGG_06570T0 pep:known chromosome:MG8:4:3236048:3239350:-1 gene:M...    64   2e-10
+MGG_07461T0 pep:known chromosome:MG8:3:724780:728355:1 gene:MGG_...    39   0.009
+MGG_00571T0 pep:known chromosome:MG8:5:2447829:2450855:1 gene:MG...    33   0.38 
+MGG_02059T0 pep:known chromosome:MG8:1:425504:436681:-1 gene:MGG...    30   4.0  
+MGG_04349T0 pep:known chromosome:MG8:6:1076689:1078251:1 gene:MG...    29   4.6  
+MGG_16877T0 pep:known chromosome:MG8:3:4789136:4789608:1 gene:MG...    28   4.8  
+
+>MGG_01804T0 pep:known chromosome:MG8:2:4903695:4907469:-1 gene:MGG_01804
+           transcript:MGG_01804T0 description:"Endoribonuclease
+           YSH1"
+          Length = 829
+
+ Score =  620 bits (1600), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 342/748 (45%), Positives = 465/748 (62%), Gaps = 93/748 (12%)
+
+Query: 11  FFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFH 70
+           F  LGG NEVGRSCHI+QYKGKTVMLDAG HPAY GLA+LPF+D+FDLS VD+LLISHFH
+Sbjct: 27  FTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLISHFH 86
+
+Query: 71  LDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLFSD 130
+           +DHAASLPYV+ +TNF+GRVFMTHPTKAIY+WL++D VRV +            + ++++
+Sbjct: 87  VDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSS-----NPTSQPVYTE 141
+
+Query: 131 EDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVD 190
+           +D +++F +IE +DY++T  ++ I+ T + AGHVLGAAMF IEIAG+ + FTGDYSRE D
+Sbjct: 142 QDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQD 201
+
+Query: 191 RHLNSAEVP-PLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALG 249
+           RHL SAEVP  +  +VLI EST+G A+H PR+ RE+ L + I   + RGGRVL+PVFALG
+Sbjct: 202 RHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALG 261
+
+Query: 250 RAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRD-- 307
+           RAQE++LILDEYW +H +     +VPI+YASNLA+KCM V+QTYV  MND+I++ FR+  
+Sbjct: 262 RAQELLLILDEYWGKHQEY---QKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERL 318
+
+Query: 308 -----------SQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCP 356
+                          P+ FK I  L+NL+ F D GP VMLASPGMLQ+G+SR+LLERW P
+Sbjct: 319 AEAEASGKSGAGGGGPWDFKYIRSLKNLDRFDDLGPCVMLASPGMLQNGVSRELLERWAP 378
+
+Query: 357 EDKNLVLITGYSIEGTMAKFIMLEPDTIPSI------------NNPEITIPRRCQVEEIS 404
+            DKN V+ITGYS+EGTMAK IM EP+ IP+I            +  +  IPRRC V E S
+Sbjct: 379 SDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRRADGEKPMIPRRCSVAEFS 438
+
+Query: 405 FAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNE-VHVFNPR 463
+           FAAHVD  EN EFIE+++AP +ILVHGE N M RLKS LL    SL  T  E V +++PR
+Sbjct: 439 FAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLL----SLNATKTEKVKIYSPR 494
+
+Query: 464 NCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGL 523
+           NC E+ + F+  K AK VG                                  +   +  
+Sbjct: 495 NCEELRIPFKTDKTAKVVGKLASI-----------------------------TPPTRLP 525
+
+Query: 524 VDEEEH-KDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELI 582
+            D++ H    +V+G+LV +D  F+L  ++  DLRE+    +TTI+  ++ +      +LI
+Sbjct: 526 TDDDYHLHPQLVTGVLVQND--FKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLI 583
+
+Query: 583 YWHILQMFGEA-----------EVLQDDDRVTNQEPKVKEESKDNLTNTGKLILQIMGDI 631
+            W +   FG             EV   DD + + + +   + +      G +   +MG I
+Sbjct: 584 RWALESTFGAVDELPEMRQLHKEVPNGDDMILDAKEEEVVDEEVERPVAGYI---VMGSI 640
+
+Query: 632 KLTIVNTLAV-VEWTQDLMNDTVADSIIAILMNVDSAPASVKLSSHSCDDHDHNNVQS-- 688
+            +    +  V +EW  + MND  AD+++A+L+ V+S+PA+VK S+ S   H H   +   
+Sbjct: 641 NVRCFGSGEVELEWEGNTMNDGFADAVMAVLLTVESSPAAVKKSA-SKHSHSHAPQEEYV 699
+
+Query: 689 ----NAQGKIDEVERVKQISRLFKEQFG 712
+               N   ++   ER++++    + QFG
+Sbjct: 700 LPTRNLHARLSPEERLERLFMFLEAQFG 727
+
+
+>MGG_06570T0 pep:known chromosome:MG8:4:3236048:3239350:-1 gene:MGG_06570
+           transcript:MGG_06570T0 description:"Putative
+           uncharacterized protein"
+          Length = 962
+
+ Score = 63.5 bits (153), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 88/440 (20%), Positives = 167/440 (37%), Gaps = 97/440 (22%)
+
+Query: 9   FKFFSLGGS-NEVGRSCHILQYKGKT-VMLDAGIHPAYQGLASLPFYDE-FDLSKV---- 61
+           F F  L G+ +E   S  +L+  G   V++D G             +DE FD+ K+    
+Sbjct: 2   FTFSPLQGALSEATASQSLLELDGGVKVLIDIG-------------WDETFDVEKLKEVE 48
+
+Query: 62  ------DILLISHFHLDHAASLPYVMQRTNFQGRV--FMTHPTKAIYRWLLRDFVRVTSI 113
+                  ++L++H  + H ++L +  +      R+  + T P   + R L++D    T  
+Sbjct: 49  KQVPTLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPA 108
+
+Query: 114 GXXXXXMGTKDEGLFS-----------------DEDLVDSFDKIETVDYHS--------- 147
+                      E  +S                  +++   F  I+ + Y           
+Sbjct: 109 AATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPF 168
+
+Query: 148 TVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE---------- 197
+           +  +NG+  TA++AGH LG  ++ I+     +++  D++   D     A           
+Sbjct: 169 SPPLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYAGAAWMGGGHGGGG 228
+
+Query: 198 ---VPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEI 254
+              +  L     +V ST        R  R+++L   +   + RGG VL+PV +  R  E+
+Sbjct: 229 AEVIEQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLEL 288
+
+Query: 255 MLILDEYWSQHADELGGG--QVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKF------- 305
+             +L+  W   A   GGG     ++ A       + + ++    M++ I ++F       
+Sbjct: 289 AYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQG 348
+
+Query: 306 -------------RDSQTNPFIFKNISYL-RNLEDFQDFGPS-------VMLASPGMLQS 344
+                        +     PF FK +  L R  +  +   PS       V+LA+   L+ 
+Sbjct: 349 FRRTNGAGGNADAKGKDGGPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEW 408
+
+Query: 345 GLSRDLLERWCPEDKNLVLI 364
+           G S+D++     + +N+V++
+Sbjct: 409 GFSKDIISAIANDSRNMVIL 428
+
+
+>MGG_07461T0 pep:known chromosome:MG8:3:724780:728355:1 gene:MGG_07461
+           transcript:MGG_07461T0 description:"FAD-dependent
+           oxidoreductase"
+          Length = 760
+
+ Score = 38.5 bits (88), Expect = 0.009,   Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 42/83 (50%), Gaps = 5/83 (6%)
+
+Query: 514 NLDSQAEKGLVDEEEHKDIVVSG-ILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQS 572
+           +L+SQ   GL D  +H  I+ +G +L S+DK        L+   E   DL+   L ER+ 
+Sbjct: 272 SLESQT-GGLEDTLQHDSIMNNGEVLSSEDKAINSKVTPLAMTSEPQADLNGDDLPERRE 330
+
+Query: 573 VRVNC---KKELIYWHILQMFGE 592
+            RVNC   KKE  Y  +L   G+
+Sbjct: 331 KRVNCLQPKKEDKYKTVLDQIGD 353
+
+
+>MGG_00571T0 pep:known chromosome:MG8:5:2447829:2450855:1 gene:MGG_00571
+           transcript:MGG_00571T0 description:"Putative
+           uncharacterized protein"
+          Length = 725
+
+ Score = 33.1 bits (74), Expect = 0.38,   Method: Compositional matrix adjust.
+ Identities = 23/63 (36%), Positives = 30/63 (47%), Gaps = 6/63 (9%)
+
+Query: 154 IKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAEVPPLSSNVLIVESTFG 213
+           I  T   A H  GA MF  E  G  VL+TGD  R    H+NS     ++ N  ++E + G
+Sbjct: 111 IGVTLLDANHCTGAVMFLFEGDGKAVLYTGDI-RSEPWHVNS-----IARNPCMMEYSAG 164
+
+Query: 214 TAT 216
+             T
+Sbjct: 165 IKT 167
+
+
+>MGG_02059T0 pep:known chromosome:MG8:1:425504:436681:-1 gene:MGG_02059
+            transcript:MGG_02059T0 description:"Putative
+            uncharacterized protein"
+          Length = 2728
+
+ Score = 29.6 bits (65), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 25/105 (23%), Positives = 43/105 (40%), Gaps = 15/105 (14%)
+
+Query: 522  GLVDEEEHKDIVVSGILVSDDKNFELD---FLSLSDLREHHPDLSTTILRERQSVRVNCK 578
+            G + +  H    V G+L   D+  ++       L  LR  +P L+   +       +NC 
+Sbjct: 1502 GFLSQHIHFHARVRGLLEQADRQLDISPRFVKKLDSLRNSNPKLTKRDM-------INCS 1554
+
+Query: 579  KELIYWHILQMFGEAEVLQDDDRVTNQEPKVKEESKDNLTNTGKL 623
+                 W  +  FG  E     DRV     +++EE++ + T T +L
+Sbjct: 1555 -----WSRVPGFGAEEFATLRDRVYESRDRLREEARSHATMTVEL 1594
+
+
+>MGG_04349T0 pep:known chromosome:MG8:6:1076689:1078251:1 gene:MGG_04349
+           transcript:MGG_04349T0 description:"Cytochrome P450"
+          Length = 520
+
+ Score = 29.3 bits (64), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 22/66 (33%), Positives = 29/66 (43%), Gaps = 2/66 (3%)
+
+Query: 599 DDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAVV-EWTQDLMNDTVADSI 657
+           D R  N    +   SKD   N G LI  +M DIK+          EWT   + DTV   I
+Sbjct: 123 DKRFNNPPLHINLISKDLTKNYGDLIPDMMEDIKVAFTEQWGRSDEWTTVTVYDTV-QKI 181
+
+Query: 658 IAILMN 663
+           + ++ N
+Sbjct: 182 LGLVSN 187
+
+
+>MGG_16877T0 pep:known chromosome:MG8:3:4789136:4789608:1 gene:MGG_16877
+           transcript:MGG_16877T0 description:"Putative
+           uncharacterized protein"
+          Length = 130
+
+ Score = 28.1 bits (61), Expect = 4.8,   Method: Composition-based stats.
+ Identities = 10/33 (30%), Positives = 20/33 (60%)
+
+Query: 576 NCKKELIYWHILQMFGEAEVLQDDDRVTNQEPK 608
+           +C  EL+Y H+L    +A V++ D R  +++ +
+Sbjct: 98  SCSSELVYSHLLSNATDARVVRQDKRAADRQSQ 130
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 7,854,944
+Number of extensions: 313508
+Number of successful extensions: 667
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 658
+Number of HSP's successfully gapped: 11
+Length of query: 779
+Length of database: 5,666,059
+Length adjustment: 102
+Effective length of query: 677
+Effective length of database: 4,365,049
+Effective search space: 2955138173
+Effective search space used: 2955138173
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 57 (26.6 bits)

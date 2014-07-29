@@ -1,0 +1,242 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00013321 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1...   474   e-144
+CADAFLAP00004670 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1...    37   0.059
+CADAFLAP00004814 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1...    32   1.2  
+CADAFLAP00007229 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:6...    32   1.2  
+CADAFLAP00006066 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:2...    30   6.3  
+CADAFLAP00006183 pep:known supercontig:JCVI-afl1-v2.0:EQ963477:3...    30   6.4  
+CADAFLAP00007428 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    29   9.3  
+
+>CADAFLAP00013321 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1246895:1251561:-1
+            gene:CADAFLAG00013321 transcript:CADAFLAT00013321
+            description:"Cleavage and polyadenylation specificity
+            factor subunit A, putative "
+          Length = 1204
+
+ Score =  474 bits (1219), Expect = e-144,   Method: Compositional matrix adjust.
+ Identities = 270/744 (36%), Positives = 407/744 (54%), Gaps = 92/744 (12%)
+
+Query: 716  IIPMLDEETGHEPRATSASIADPYLLIIRDDSSAFIAHVNXXXXXXXXXXXXXXXXXTKW 775
+            I P+ DE+T  E  A S+S+ DPY+ I+RDDS+  +                        
+Sbjct: 533  IYPVWDEDTSEERMAISSSLVDPYVAILRDDSTLLL------------------------ 568
+
+Query: 776  STGCLYADSKGAFAATQQTAKSPKSTPTIMMFLLSAAGALYIYALPDISRPVYVAEGLCY 835
+                L AD  G     +   +   S  T         G                      
+Sbjct: 569  ----LQADDSGDLDEVELNEQIANSKWTSCCLYFDKTG---------------------- 602
+
+Query: 836  VPPYLSADYSARKGMARETISEILVTDLGDTVFKSPHVILRHSNHDLTIYEPY-----RI 890
+                 S+  +    +A+ +++  L+T       +   + +R  + DL +Y P+      +
+Sbjct: 603  ---IFSSISATSDELAQNSMTLFLMT-------QDCRLFIRSRHDDLAVYRPFISITKSV 652
+
+Query: 891  AEDSQSLTKILRLRKLPNPAVAKAPEATNSEDPPLMSRNMPLRACANIAGYSAVFMPGHS 950
+             E    L   L+   L  P +    E  +S +  +  +++PLR  +NI+G+SA+F PG S
+Sbjct: 653  GEPHADL-NFLKETNLVLPRITSGVEDQSSTEEVI--KSVPLRIVSNISGFSAIFRPGVS 709
+
+Query: 951  PSFLIKSAKATPKVIGLRGSGVRAMSSFHTEGCERGFIYADSAGVARVAQIPKDTSFSEL 1010
+            P F+++++ ++P  +GL+G   +++S F T  C  GFI  DS GV  V Q+P      + 
+Sbjct: 710  PGFIVRTSTSSPHFLGLKGGYAQSLSKFQTSECGEGFILLDSKGVIHVCQMPLGVQL-DY 768
+
+Query: 1011 GLSVKKVPLGIDADGIAYHSPTGVYVLTCSYWEPFELPKDDDYHCEWAKENISFKPMVER 1070
+              +++++P+G   D +AY S +G+YV+  S+   F+LP+DD+ H EW  E  SF P V+R
+Sbjct: 769  PWTIQQIPIGEQVDHLAYSSSSGMYVIGTSHRTEFKLPEDDELHPEWRNEMTSFFPEVQR 828
+
+Query: 1071 SVLKVINPINWSDIWTEEFEQHEVAMCIRSLNLEVSQSTNERRQLITVGTAMCKGEDLPV 1130
+            S LKV++P  W+ I +      E  M +++++LE+S++T+ER+ +I VGTA  +GED+  
+Sbjct: 829  SSLKVVSPKTWTVIDSYLLSPAEHVMAVKNMSLEISENTHERKDMIVVGTAFARGEDIAS 888
+
+Query: 1131 RGGIYVFDLASVVPQKGRPETDKKLKQVAKEEIPRGAVTSLSEIGTQGLMMVAQGQKTLV 1190
+            RG +YVF++  VVP   RPE D+KL+ V KE + +GAVT+LSEIG QG ++VAQGQK +V
+Sbjct: 889  RGCVYVFEVIKVVPDPKRPEMDRKLRLVGKEPV-KGAVTALSEIGGQGFLIVAQGQKCIV 947
+
+Query: 1191 RGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCVMADAFKGVWFCGYTEGPYKMMLFGKS 1250
+            RGL+EDG L PVAFMD+ C+V+ VKEL GTG+C++ADA KG+WF GY+E PYKM LF K 
+Sbjct: 948  RGLKEDGSLLPVAFMDVQCHVSVVKELKGTGMCIIADAVKGLWFAGYSEEPYKMSLFAKD 1007
+
+Query: 1251 STNLECMNVDLLPDGKDLLIVAADSDGNLHVLQFDPEHPKSLQGHLLLNRTTFSTGAHHP 1310
+               LE +  D LPDG  L I+ ADSD NLHVLQ+DPE PKS  G  LL+R+ F TG    
+Sbjct: 1008 LDYLEVLAADFLPDGNKLFILVADSDCNLHVLQYDPEDPKSSNGDRLLSRSKFHTGNFIS 1067
+
+Query: 1311 QKSLLLPTTDPRPSTNQPSSDAE---------RQHILMASPTGVLAAVQPLSQSTYTRLS 1361
+              +LL  T+    S+ Q  SD +         R  +L+ S  G +  V  +S+ +Y RLS
+Sbjct: 1068 TLTLLPRTS---VSSEQMISDVDAMDVDIKIPRHQMLITSQNGSVGLVTCVSEESYRRLS 1124
+
+Query: 1362 ALASNLMASVPHHAALNPKAYRLPPTSTRNQVAAVDISVGRAVVDGSLLARWAELASGRR 1421
+            AL S L  ++ H   LNP+A+R             D + GR ++DG LL +W +++  R+
+Sbjct: 1125 ALQSQLTNTIEHPCGLNPRAFR---------AVESDGTAGRGMLDGKLLFQWLDMSKQRK 1175
+
+Query: 1422 AEVAGRAGFSGAAEVRSELEAVLG 1445
+             E+A R G +   E++++ EA+ G
+Sbjct: 1176 VEIASRVG-ANEWEIKADFEAISG 1198
+
+
+
+ Score =  405 bits (1041), Expect = e-119,   Method: Compositional matrix adjust.
+ Identities = 217/483 (44%), Positives = 295/483 (61%), Gaps = 46/483 (9%)
+
+Query: 1   MQCYTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFATRLVPAELDGTSQSAKATH 60
+           MQCYTEL PP+ VTHSL LPF S  +NNLVVA++S LQIF+   V     G         
+Sbjct: 1   MQCYTELLPPTGVTHSLALPFISESANNLVVARTSRLQIFSLLDVGPRPGGI-------- 52
+
+Query: 61  NYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTXX 120
+                  +++G+                   KLVL  E+ L GT+T L RVK   TK+  
+Sbjct: 53  -------EEQGV------------------PKLVLEREYALPGTVTDLCRVKLLNTKSGG 87
+
+Query: 121 XXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQNELQSSPWAAPLSDY 180
+                      + +L+AF++AKL+L+EWDP R  + TISIHYYE+++  SSPW   LS  
+Sbjct: 88  -----------EAILLAFRNAKLALIEWDPGRYGICTISIHYYERDDSTSSPWVPDLSSC 136
+
+Query: 181 VNFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAATNG 240
+            + L  DP SRCA   FG R+LAI+PF Q   D+ MDD+ E  D    +    +    + 
+Sbjct: 137 GSILSVDPSSRCAVFNFGIRNLAILPFHQPGDDLVMDDYGELDDERLGSHGLESGTDCDM 196
+
+Query: 241 TTDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSSNITPSTYL--AR 298
+           T +++    PY+ SFVL L  LDP++LHP+ LAFLYEYREPTFGIL S +  S  L   R
+Sbjct: 197 TKESIAHRAPYSSSFVLPLAALDPSILHPISLAFLYEYREPTFGILYSQVATSNALLHER 256
+
+Query: 299 KDHLTYTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIHIDQSGK 358
+           KD + YTVFTLDL+Q+ASTT+LSV  LP DL +V+ALP PVGGALL+GSNEL+H+DQ+GK
+Sbjct: 257 KDVVFYTVFTLDLEQRASTTLLSVSRLPSDLFKVVALPPPVGGALLIGSNELVHVDQAGK 316
+
+Query: 359 ANGVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQFIIVLNDGRLATLVFHID 418
+            N V VN  ++  +SFS+ DQSDL LRLEGC++  LS  +G  ++V   G +  + F +D
+Sbjct: 317 TNAVGVNEFSRQVSSFSMTDQSDLALRLEGCIVERLSETNGDLLLVPTTGEIVLVKFRLD 376
+
+Query: 419 GRTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVFGWNRKHNQVSKR 478
+           GR+VSG+ +  + P AGG +++++ S    LG   +F GS+  DS++ GW+   +   K 
+Sbjct: 377 GRSVSGISVHPIPPHAGGDIVKSAASSSAFLGDKRVFLGSEDADSILLGWSVPSSGTKKP 436
+
+Query: 479 KPK 481
+           +P+
+Sbjct: 437 RPQ 439
+
+
+>CADAFLAP00004670 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1382230:1385765:1
+           gene:CADAFLAG00004670 transcript:CADAFLAT00004670
+           description:"UV-damaged DNA binding protein, putative "
+          Length = 1117
+
+ Score = 36.6 bits (83), Expect = 0.059,   Method: Compositional matrix adjust.
+ Identities = 44/170 (25%), Positives = 72/170 (42%), Gaps = 31/170 (18%)
+
+Query: 301 HLTYTVFTLDLQQKASTTILSVGGLPKDL--TRVIALPAPVGGALLVGSNELIHIDQSGK 358
+            L YT  T      A+ T ++      DL  + +I +PAP+GG L++G   + ++D    
+Sbjct: 192 ELNYTSATASTSADATLTHIADFAQELDLGASHLIPVPAPLGGLLILGETSIKYVDDDN- 250
+
+Query: 359 ANGVAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQFIIVLND-GRLATLVFHI 417
+            N +   P+          D++ + +  EG         D Q  ++ +D GRL  L+  +
+Sbjct: 251 -NEIISRPL----------DEATIFVAWEGV--------DSQRWLLADDYGRLFFLMLVL 291
+
+Query: 418 DG-RTVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSVVF 466
+           D    V G K+  +          +  S L  LG   +F GS +GDS V 
+Sbjct: 292 DSDNQVQGWKLDHLGN-------TSRASALVYLGGGIVFVGSHQGDSQVL 334
+
+
+>CADAFLAP00004814 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:1775170:1780505:1
+            gene:CADAFLAG00004814 transcript:CADAFLAT00004814
+            description:"Telomere length regulator protein (Rif1),
+            putative "
+          Length = 1722
+
+ Score = 32.3 bits (72), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 21/68 (30%), Positives = 34/68 (50%), Gaps = 10/68 (14%)
+
+Query: 1044 PFELPKDDDYHCEWAKENISFKPMVERSVLKVINPINWSDIWTEEFEQHEVAMCIRSLNL 1103
+            P ELP  D   C W +  I+       +VLKV   I  S  W+++ EQ  +A    SL+ 
+Sbjct: 541  PEELPSLD---CRWVRSRIT-------AVLKVFENIFRSSTWSDDIEQSSIAAAWVSLSR 590
+
+Query: 1104 EVSQSTNE 1111
+             +S ++++
+Sbjct: 591  ALSYASSK 598
+
+
+>CADAFLAP00007229 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:652792:654125:-1
+            gene:CADAFLAG00007229 transcript:CADAFLAT00007229
+            description:"HAD superfamily hydrolase, putative "
+          Length = 404
+
+ Score = 32.0 bits (71), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 33/74 (44%), Gaps = 3/74 (4%)
+
+Query: 1171 LSEIGTQGLMMVAQGQKTLV-RGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCVMADAF 1229
+            LS  G  G +    G+  L  RG Q+DG+ PP+ F + + +      L   G     +A 
+Sbjct: 226  LSSQGVLGTLSEKNGRSDLPNRGYQQDGQ-PPLYFSNPDLWWAAAYHLPRLGQGGFREAL 284
+
+Query: 1230 KGVWFCGYTEGPYK 1243
+            +G W    T GP K
+Sbjct: 285  EGTW-AATTGGPSK 297
+
+
+>CADAFLAP00006066 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:2532804:2537991:-1
+            gene:CADAFLAG00006066 transcript:CADAFLAT00006066
+            description:"PX domain protein "
+          Length = 926
+
+ Score = 30.0 bits (66), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 28/52 (53%), Gaps = 6/52 (11%)
+
+Query: 1335 QHILMASPTGVLAAVQPLSQSTYTRLSALASNLMASVPHHAALNPKAYRLPP 1386
+            Q  L  SP   LA V    Q  + +L+ +A +++AS      L+PKAY LPP
+Sbjct: 80   QRYLELSPESSLANVL-AGQQQHKKLNLIADDILASF-----LDPKAYALPP 125
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 15,969,420
+Number of extensions: 691437
+Number of successful extensions: 1952
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 1941
+Number of HSP's successfully gapped: 26
+Length of query: 1452
+Length of database: 5,672,061
+Length adjustment: 107
+Effective length of query: 1345
+Effective length of database: 4,228,952
+Effective search space: 5687940440
+Effective search space used: 5687940440
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 59 (27.3 bits)

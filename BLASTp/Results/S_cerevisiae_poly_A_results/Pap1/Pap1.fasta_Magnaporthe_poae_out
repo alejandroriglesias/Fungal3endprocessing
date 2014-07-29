@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_02576T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   462   e-155
+MAPG_04556T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   2.5  
+MAPG_05095T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   7.7  
+
+>MAPG_02576T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:2251036:2
+           254956:-1 gene:MAPG_02576 transcript:MAPG_02576T0
+           description:"Poly(A) polymerase pla1"
+          Length = 633
+
+ Score =  462 bits (1188), Expect = e-155,   Method: Compositional matrix adjust.
+ Identities = 267/626 (42%), Positives = 368/626 (58%), Gaps = 74/626 (11%)
+
+Query: 1   MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ 60
+           M +++  G+T PVS    +  E +  D+L+ EL+ + SFE+  ET  R +VL  LQ +A 
+Sbjct: 1   METERQLGVTPPVSVSLPSEFELQATDALLAELRAQNSFESPLETQKRHRVLASLQTIAD 60
+
+Query: 61  RFVYEVSKKKNMSDG-MARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTV 119
+            FV  V++++   +  + +DA  K+F YGS RLGV GPGSDIDTLVV P++VTRED+F  
+Sbjct: 61  AFVKVVAQEREPHNAVLIKDARAKVFAYGSLRLGVWGPGSDIDTLVVGPRYVTREDYFKH 120
+
+Query: 120 FDSLLRERK---ELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQ-PQVPL--SLTLSD 173
+           F  LL +      + ++A V +AFVPIIK ++ GISIDLI +R+    Q+P   +  L D
+Sbjct: 121 FPDLLVKMAPPGAITDLAVVQEAFVPIIKFEYHGISIDLIFSRIATLKQLPSDPAWDLKD 180
+
+Query: 174 KNLLRNLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGG 233
+            NLLR LDEK+LR++NGTRVTDEIL LVP+ N+FR ALRAIKLWAQRRAVY NI GFPGG
+Sbjct: 181 NNLLRGLDEKELRSVNGTRVTDEILSLVPEQNIFRTALRAIKLWAQRRAVYGNIMGFPGG 240
+
+Query: 234 VAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYA 293
+           VAWAMLVAR+CQLYP A S+VI+N+F+ IL +W WPQPV+LKPI DGPLQVRVWNP++Y 
+Sbjct: 241 VAWAMLVARVCQLYPKATSSVIVNKFYSILLQWPWPQPVLLKPIGDGPLQVRVWNPRLYK 300
+
+Query: 294 QDRSHRMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKND 353
+            D  H MPVITPAYPSMCAT N+T S+  VI +E     ++TN+I  + K W +LF K+ 
+Sbjct: 301 GDSYHLMPVITPAYPSMCATFNVTRSSMTVIYRELQLAAEVTNNIMCSTKPWKDLFTKHT 360
+
+Query: 354 FFFR-YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESS 412
+           FF + +K+Y+++ + +R   E H  WSG VESKVR+LV  LE    I +A PF K FE  
+Sbjct: 361 FFTKDFKYYMQVISASR-DKEAHKIWSGFVESKVRMLVQSLERHDSIAVARPFIKGFERF 419
+
+Query: 413 YCCPTEDDYEMIQDKYGSHKTETALNAL---------------------KLVTDEN---- 447
+           +    E+ +  I D    H  +   +A                        V  EN    
+Sbjct: 420 HRYRNEEQFAQILDGNLQHMVKAGGDASPSQDGIQAKKEDNSSVKAEEDAKVKQENGETP 479
+
+Query: 448 -KEEESIK-------DAPKA-----------------------YLSTMYIGLDFNIENKK 476
+            K+E  +K       +AP A                       Y +T YIGL+ N   K 
+Sbjct: 480 VKQENGVKVKGEESEEAPLASIPEHSPVDTKGDSKAGDEALEMYTTTHYIGLELNPAAK- 538
+
+Query: 477 EKVDIHIPCTEFVNLCRS---FNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKS 533
+             +D+     +F  LC +   + ++  D    N  ++ ++ + LP+++F+  E +P K  
+Sbjct: 539 -SLDLSFQVNDFRALCHNWEKYKDELSDRCYVN--IKDLRNFALPEDLFEPGEVKPVKSV 595
+
+Query: 534 KRKNLDARHETVKRSKSDAASGDNIN 559
+           K++     + T  + +   A+ DN N
+Sbjct: 596 KKRPAAGANATGDKKRP--ANEDNSN 619
+
+
+>MAPG_04556T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:3260790:3
+           262375:1 gene:MAPG_04556 transcript:MAPG_04556T0
+           description:"hypothetical protein"
+          Length = 246
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 26/47 (55%), Gaps = 2/47 (4%)
+
+Query: 277 IEDGPLQVRVWNPKIYAQDRSHRMPVITPAYP-SMCATHNITESTKK 322
+           IED   Q+ VWN K +A+D  H +P +  A+P +M       E+ KK
+Sbjct: 19  IEDAVPQIAVWNKKRHARD-PHYIPQVPVAFPVAMRVCSESREAVKK 64
+
+
+>MAPG_05095T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.4:929794:93
+           1756:-1 gene:MAPG_05095 transcript:MAPG_05095T0
+           description:"L-ornithine 5-monooxygenase (L-ornithine
+           N(5)-oxygenase)"
+          Length = 555
+
+ Score = 28.1 bits (61), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 20/73 (27%), Positives = 32/73 (43%), Gaps = 20/73 (27%)
+
+Query: 233 GVAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIY 292
+           G + A + + I  LYPN+ + +++   F             LKP +D P    ++NP+  
+Sbjct: 265 GQSAAEIFSNIQMLYPNSRTWMVMRSEF-------------LKPSDDSPFVNSIFNPEFV 311
+
+Query: 293 -------AQDRSH 298
+                  AQDR H
+Sbjct: 312 DSLYPRSAQDRRH 324
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 5,511,051
+Number of extensions: 237013
+Number of successful extensions: 544
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 540
+Number of HSP's successfully gapped: 9
+Length of query: 568
+Length of database: 4,928,244
+Length adjustment: 98
+Effective length of query: 470
+Effective length of database: 3,813,984
+Effective search space: 1792572480
+Effective search space used: 1792572480
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

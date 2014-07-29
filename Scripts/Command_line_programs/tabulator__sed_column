@@ -1,0 +1,1 @@
+sed "s/-species:/\t/" 0.0_results | cut -f1,4,5 | sed "s/Query=//" > 0.0_results_tab

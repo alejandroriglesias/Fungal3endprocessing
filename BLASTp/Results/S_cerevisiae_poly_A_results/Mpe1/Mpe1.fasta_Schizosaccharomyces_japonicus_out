@@ -1,0 +1,168 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB07574 pep:novel supercontig:GCA_000149845.2:supercont5.1:1213...   265   4e-83
+EEB08692 pep:novel supercontig:GCA_000149845.2:supercont5.2:3628...    28   2.3  
+EEB07357 pep:novel supercontig:GCA_000149845.2:supercont5.1:7527...    27   6.3  
+EEB05005 pep:novel supercontig:GCA_000149845.2:supercont5.18:151...    26   7.5  
+EEB06786 pep:novel supercontig:GCA_000149845.2:supercont5.3:2460...    26   8.6  
+EEB06723 pep:novel supercontig:GCA_000149845.2:supercont5.3:2334...    26   8.7  
+
+>EEB07574 pep:novel supercontig:GCA_000149845.2:supercont5.1:1213257:1215965:
+           -1 gene:SJAG_02668 transcript:EEB07574
+           description:"ubiquitin-protein ligase E3 RBBP6 family
+           protein"
+          Length = 488
+
+ Score =  265 bits (677), Expect = 4e-83,   Method: Compositional matrix adjust.
+ Identities = 147/365 (40%), Positives = 207/365 (56%), Gaps = 31/365 (8%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGT-GLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEY 59
+           MSS I+Y+FKSQ++ S++ FDGT G++VFD+KREIIQ+ KLG+G DF L +YN +T EEY
+Sbjct: 1   MSSVIYYKFKSQKDPSKVTFDGTTGMSVFDVKREIIQQKKLGNGLDFDLLLYNANTNEEY 60
+
+Query: 60  DDDAFVIPRSTSVIVKRSPAIK------SFSVHSRLKGNVGAAALGNATRYVTGRPRVLQ 113
+           DDD ++IPRS+SVIV+R PA K      +  V +    NVG    G           V+Q
+Sbjct: 61  DDDTYIIPRSSSVIVRRLPAQKPGRGTAARYVAANAAPNVGRNEFGKKNV------PVVQ 114
+
+Query: 114 KRQHXXXXXXNVSGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQENE 173
+           K +           T E+  I  M              M+ ATP++  +Q     A   E
+Sbjct: 115 KLKPTDNPVSRRPATAEDAAIQQMLQTSSDQWRETQDKMATATPIYKSNQRRAAPAFVPE 174
+
+Query: 174 GPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETMTPE 232
+            PPP GY+C+RCG + HWI+ CPTNSDP ++GK R++RTTGIP+ FLK++E       P 
+Sbjct: 175 HPPPNGYICFRCGQKGHWIQACPTNSDPTYDGKPRVKRTTGIPRSFLKTVE------QPT 228
+
+Query: 233 EMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDD--LKC 290
+           +     +MI  EG++VV   D  SWE YQ K+        + +     +K  P D  + C
+Sbjct: 229 DGDAANVMINAEGEYVVAQPDVASWESYQSKK--------KALSASDVYKMEPKDANMAC 280
+
+Query: 291 PLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEV 350
+            L     RQ    + CC   F +E ++NAL+ESDFVCP C+ +D+LLDS+ PD    +++
+Sbjct: 281 GLCKHFARQ-ASVTPCCKKLFCEECIQNALLESDFVCPKCKQKDVLLDSVKPDFRAREKI 339
+
+Query: 351 ETFLK 355
+           +  +K
+Sbjct: 340 DAAVK 344
+
+
+>EEB08692 pep:novel supercontig:GCA_000149845.2:supercont5.2:3628040:3629300:
+           1 gene:SJAG_03857 transcript:EEB08692
+           description:"programmed cell death protein"
+          Length = 272
+
+ Score = 27.7 bits (60), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 13/29 (44%), Positives = 21/29 (72%), Gaps = 1/29 (3%)
+
+Query: 320 LVESDFVCPNCETRDILLDSLVPDQDKEK 348
+           L+++D+VC  CE R+I +DS  P ++ EK
+Sbjct: 105 LLDADYVCQYCEAREIEVDS-EPGKEAEK 132
+
+
+>EEB07357 pep:novel supercontig:GCA_000149845.2:supercont5.1:752779:755758:1
+           gene:SJAG_02444 transcript:EEB07357
+           description:"heterotrimeric G protein alpha-2 subunit
+           Gpa2"
+          Length = 359
+
+ Score = 26.6 bits (57), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 13/45 (28%), Positives = 28/45 (62%), Gaps = 5/45 (11%)
+
+Query: 343 DQDKEKEVETFLKKQEELH-----GSSKDGNQPETKKMKLMDPTG 382
+           +Q  EK++ T  ++++E++     G+S  G    TK+MK+++ +G
+Sbjct: 21  NQQIEKQIATQARERKEVYKILLLGASDSGKSTITKQMKILNQSG 65
+
+
+>EEB05005 pep:novel supercontig:GCA_000149845.2:supercont5.18:1517:2457:1
+           gene:SJAG_05118 transcript:EEB05005
+           description:"hypothetical protein"
+          Length = 304
+
+ Score = 26.2 bits (56), Expect = 7.5,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 27/60 (45%), Gaps = 9/60 (15%)
+
+Query: 182 CYRCGGRDHWIKNCPTNS-DPNFEGKRIRRTTGIPKKFL--KSIEIDPETMTPEEMAQRK 238
+           C++C    H  +NCP+N   PN      R    IP  +L  +  E+ P     +E  +RK
+Sbjct: 25  CFKCWQVGHLARNCPSNKRTPN------RGPVPIPVIYLDQEGREVSPPKTQRQEKTERK 78
+
+
+>EEB06786 pep:novel supercontig:GCA_000149845.2:supercont5.3:2460669:2463471:
+           -1 gene:SJAG_01840 transcript:EEB06786
+           description:"signal recognition particle subunit Srp72"
+          Length = 560
+
+ Score = 26.2 bits (56), Expect = 8.6,   Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 30/68 (44%), Gaps = 15/68 (22%)
+
+Query: 169 AQENEGPPPPGYMCYRCGGRDHWIKNCPTN--SDPNFEGKRIR-RTTGIPKKFLKSIEID 225
+           A EN+G P  G            IK    N  +  N E K+IR R   +PK F  + + D
+Sbjct: 485 AIENKGVPVAG------------IKRAAVNVVASTNTEAKKIRKRKKPVPKNFKPNAKPD 532
+
+Query: 226 PETMTPEE 233
+           PE   P++
+Sbjct: 533 PERWIPKK 540
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,897,241
+Number of extensions: 80916
+Number of successful extensions: 194
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 189
+Number of HSP's successfully gapped: 15
+Length of query: 441
+Length of database: 2,277,407
+Length adjustment: 91
+Effective length of query: 350
+Effective length of database: 1,833,509
+Effective search space: 641728150
+Effective search space used: 641728150
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 51 (24.3 bits)

@@ -1,0 +1,203 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YOR250C pep:known chromosome:SacCer_Apr2011:XV:800970:802307:-1 ...   880   0.0  
+YLL035W pep:known chromosome:SacCer_Apr2011:XII:68580:70478:1 ge...    41   4e-04
+YHR020W pep:known chromosome:SacCer_Apr2011:VIII:143996:146062:1...    29   1.6  
+YOR280C pep:known chromosome:SacCer_Apr2011:XV:844992:845792:-1 ...    28   2.3  
+YLR381W pep:known chromosome:SacCer_Apr2011:XII:879723:881924:1 ...    28   2.6  
+YLL048C pep:known chromosome:SacCer_Apr2011:XII:41280:46265:-1 g...    28   3.7  
+YMR067C pep:known chromosome:SacCer_Apr2011:XIII:404323:405573:-...    27   4.8  
+YOL075C pep:known chromosome:SacCer_Apr2011:XV:189658:193542:-1 ...    27   9.0  
+
+>YOR250C pep:known chromosome:SacCer_Apr2011:XV:800970:802307:-1
+           gene:YOR250C transcript:YOR250C description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b involved in both the
+           endonucleolyitc cleavage a /.../yadenylation steps of
+           mRNA 3'-end maturation"
+          Length = 445
+
+ Score =  880 bits (2274), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 429/445 (96%), Positives = 429/445 (96%)
+
+Query: 1   MASLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTEL 60
+           MASLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTEL
+Sbjct: 1   MASLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTEL 60
+
+Query: 61  AVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRMSN 120
+           AVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRMSN
+Sbjct: 61  AVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRMSN 120
+
+Query: 121 FEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISD 180
+           FEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISD
+Sbjct: 121 FEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISD 180
+
+Query: 181 ILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLD 240
+           ILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLD
+Sbjct: 181 ILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLD 240
+
+Query: 241 PQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELG 300
+           PQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELG
+Sbjct: 241 PQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELG 300
+
+Query: 301 NNNIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSN 360
+           NNNIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSN
+Sbjct: 301 NNNIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSN 360
+
+Query: 361 VFDNEVGRVELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITEVNEXXXX 420
+           VFDNEVGRVELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITEVNE    
+Sbjct: 361 VFDNEVGRVELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITEVNEKRRK 420
+
+Query: 421 XXXXXXXXXXXXSKAMILTSYRYLE 445
+                       SKAMILTSYRYLE
+Sbjct: 421 LRVLLPVPGRLPSKAMILTSYRYLE 445
+
+
+>YLL035W pep:known chromosome:SacCer_Apr2011:XII:68580:70478:1 gene:YLL035W
+           transcript:YLL035W description:"Polynucleotide kinase
+           present on rDNA that is required for efficient
+           transcription termination by RNA polymerase I\x3b
+           required for cell growth\x3b mRNA is cell-cycle
+           regulated"
+          Length = 632
+
+ Score = 40.8 bits (94), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 46/181 (25%), Positives = 84/181 (46%), Gaps = 31/181 (17%)
+
+Query: 113 LEKIRMSNFEGP---RVVIVGGSQTGKTSLSRTLCSYALKF---------NAYQPLYINL 160
+           LEK+ +S+       R++++GG  +GK++  R L     KF         +  + +Y++L
+Sbjct: 226 LEKLYLSHKNAAYDTRIMVIGGKNSGKSTFLRLLLE---KFTQDIRDSTTSQEELVYLDL 282
+
+Query: 161 DPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNF-GLERINENK 219
+           DP QP +++P  IS   ++ IL + + + GQ L  G+    N Q +++ + G     +  
+Sbjct: 283 DPGQPEYSLPDSIS---LNKILSSPI-SLGQHLCQGS----NFQTLLQFYAGSSSPQDEP 334
+
+Query: 220 DLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLV 279
+             YL C  +L        HL+ Q      +++ P   +    +  L+HII K     +L 
+Sbjct: 335 TSYLNCADKLID------HLEEQAFFGTSLLNLPGWIK-GFGMQILNHIIRKYKPTHLLF 387
+
+Query: 280 L 280
+           L
+Sbjct: 388 L 388
+
+
+>YHR020W pep:known chromosome:SacCer_Apr2011:VIII:143996:146062:1
+           gene:YHR020W transcript:YHR020W description:"Protein of
+           unknown function that may interact with ribosomes, based
+           on co-purification experiments\x3b has similarity to
+           proline-tRNA ligase\x3b YHR020W is an essential gene"
+          Length = 688
+
+ Score = 29.3 bits (64), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 23/41 (56%)
+
+Query: 315 AVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTI 355
+           A DD+ K++ Q  S R +  G L  A S + + +D+E  T+
+Sbjct: 69  ARDDLVKQAFQSESARAFILGDLANATSNFHLLIDHELGTV 109
+
+
+>YOR280C pep:known chromosome:SacCer_Apr2011:XV:844992:845792:-1
+           gene:YOR280C transcript:YOR280C description:"Putative
+           serine hydrolase\x3b likely target of Cyc8p-Tup1p-Rfx1p
+           transcriptional regulation\x3b sequence is similar to S.
+           cerevisiae Fsh1p and Fsh2p and the human candidate tumor
+           suppressor OVCA2"
+          Length = 266
+
+ Score = 28.1 bits (61), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 32/72 (44%), Gaps = 2/72 (2%)
+
+Query: 161 DPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKD 220
+           D ++ +   PG     P S    +Q+  W Q +TS     HN QP V     ++     D
+Sbjct: 197 DNKRTLLVHPGA-HFVPNSKPFVSQVCNWIQGITSKEGQEHNAQPEVDRKQFDKPQLEDD 255
+
+Query: 221 LYLECISQLGQV 232
+           L L+ I  LG++
+Sbjct: 256 L-LDMIDSLGKL 266
+
+
+>YLR381W pep:known chromosome:SacCer_Apr2011:XII:879723:881924:1
+           gene:YLR381W transcript:YLR381W description:"Outer
+           kinetochore protein that forms a complex with Mcm16p and
+           Mcm22p\x3b may bind the kinetochore to spindle
+           microtubules"
+          Length = 733
+
+ Score = 28.5 bits (62), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 29/63 (46%), Gaps = 5/63 (7%)
+
+Query: 209 NFGLERINENKDLYLECISQLG--QVVGQRLHLDPQVRRSGCIV---DTPSISQLDENLA 263
+           NF  + +    D+YL  I QLG   +   RL   P+   S   V   D  S+ QL +N  
+Sbjct: 245 NFPADTVQNTIDMYLSEIHQLGADSIYPLRLQSLPEYVPSDSTVSLWDVTSLEQLAQNWP 304
+
+Query: 264 ELH 266
+           +LH
+Sbjct: 305 QLH 307
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,645,987
+Number of extensions: 116993
+Number of successful extensions: 338
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 336
+Number of HSP's successfully gapped: 12
+Length of query: 445
+Length of database: 3,010,216
+Length adjustment: 93
+Effective length of query: 352
+Effective length of database: 2,387,860
+Effective search space: 840526720
+Effective search space used: 840526720
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

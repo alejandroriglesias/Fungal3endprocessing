@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00002576 pep:known chromosome:ASM1142v1:VIII:4355289:435...   195   8e-56
+CADANIAP00006679 pep:known chromosome:ASM1142v1:I:582172:596992:...    31   0.90 
+CADANIAP00006615 pep:known chromosome:ASM1142v1:I:394844:397143:...    30   1.5  
+CADANIAP00010482 pep:known chromosome:ASM1142v1:VI:3246725:32486...    30   1.8  
+CADANIAP00002117 pep:known chromosome:ASM1142v1:VIII:3112534:311...    29   2.8  
+
+>CADANIAP00002576 pep:known chromosome:ASM1142v1:VIII:4355289:4357223:1
+           gene:CADANIAG00002576 transcript:CADANIAT00002576
+           description:"mRNA cleavage factor complex II protein
+           Clp1, putative (AFU_orthologue\x3b AFUA_5G11400)"
+          Length = 546
+
+ Score =  195 bits (495), Expect = 8e-56,   Method: Compositional matrix adjust.
+ Identities = 156/557 (28%), Positives = 246/557 (44%), Gaps = 113/557 (20%)
+
+Query: 1   MSIPGLGLI-PEKPATSASRTYT---LEPRQEYRFSVSHGASITITLTRGTAERDGTELA 56
+           MS+PGL L  P   + SAS   T   L    E+RF V+ G ++ + L  GTAE  GTELA
+Sbjct: 1   MSLPGLELTQPSAESQSASAPPTQINLSAGSEWRFEVAFGTTVRVKLLTGTAELFGTELA 60
+
+Query: 57  LNVAYTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTA----------------- 99
+            +  YT SG K+ I +WHG  L +      ++V+G D   + +                 
+Sbjct: 61  PSQTYTFSGTKAAIYTWHGCTLEVSA---GDAVSGLDGTTSASGRGGLGAGGCQSEYIAE 117
+
+Query: 100 ------HLNLHAFLQXXXXXXXXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATR 153
+                 + N+H  L+                  GPRVL+ G    G+TSL + L A+A +
+Sbjct: 118 ETPMVEYANVHFALEGLRAEAKASGR------DGPRVLILGPEDAGKTSLSKILTAYAVK 171
+
+Query: 154 TGAQPMVVDADXXXXXXXXXXXXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFY 213
+            G +P+VV+ D            SA  F  ++DV                VPVKLPLV++
+Sbjct: 172 VGREPIVVNLDPTEGMLSVPGTVSATAFRAMLDV--EEGWGSSPMSGPSAVPVKLPLVYF 229
+
+Query: 214 YG-RRRVEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPYVEGKGA---DVLI 269
+           Y     +E +  +++ +V+           +D   +  G+++DTP  +    A   +++ 
+Sbjct: 230 YPIVNPLEAEGSVFRPIVSRLALSVMGRMAEDEDAKETGIIVDTPGILSQSRAGALEMIN 289
+
+Query: 270 HIAEELNVNIIVTIDTPSLHTELTQRFSG------VKNVLGEHVSVVALDKSSGVMERDE 323
+           HI  E ++  I+ I +  L++ + + +              E +SVV L KS G ++RD 
+Sbjct: 290 HIVTEFSITTILVIGSERLYSLMMKSYDNKPSSSASSAASDERISVVKLSKSGGCVDRDA 349
+
+Query: 324 GFLQHMGEASIKEYFFGDAKIT-----------------LSPFTQQVAFDELAIYT---- 362
+            F++ + E+ I+ YFFG+   T                 LSP  QQ+ FD +A+Y     
+Sbjct: 350 AFMKAVRESQIRTYFFGNPVPTTASSALSISSSSTTNVTLSPHAQQLDFDAIALYNYTTS 409
+
+Query: 363 -------------------------SPEASDYSAEPG-----------------ALERIP 380
+                                    + EA   S+ PG                  L+++P
+Sbjct: 410 SAEEDQNDEDDYDPAQLTTDSFLPGNNEAESASSLPGLNSAANASAAAAAGALVPLKKVP 469
+
+Query: 381 QPLPE-MAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDK 439
+            P P  +A+ +LA+  A+P   P +IR A   GF+YVA VD ER ++++LAPV GR+  +
+Sbjct: 470 GPAPSALANTLLAITHASPTSSPSEIRDASTMGFLYVADVDSERGKIRVLAPVGGRVPSR 529
+
+Query: 440 PLVWG-KWPEPHINLLG 455
+            ++WG KWP   + L+G
+Sbjct: 530 AIIWGKKWPAEVVGLVG 546
+
+
+>CADANIAP00006679 pep:known chromosome:ASM1142v1:I:582172:596992:1
+            gene:CADANIAG00006679 transcript:CADANIAT00006679
+            description:"midasin, putative (AFU_orthologue\x3b
+            AFUA_2G12150)"
+          Length = 4917
+
+ Score = 30.8 bits (68), Expect = 0.90,   Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (81%), Gaps = 1/22 (4%)
+
+Query: 128  PRVLVAGKTGCGRTSLVRTLAA 149
+            P +LV G +GCG+T+L+R LAA
+Sbjct: 2044 PSILV-GASGCGKTTLIRKLAA 2064
+
+
+>CADANIAP00006615 pep:known chromosome:ASM1142v1:I:394844:397143:-1
+           gene:CADANIAG00006615 transcript:CADANIAT00006615
+           description:"ABC transporter, putative (Eurofung)"
+          Length = 559
+
+ Score = 30.0 bits (66), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 13/32 (40%), Positives = 20/32 (62%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQ 157
+            G  V + G +GCG+T+L+  LA  A  +GA+
+Sbjct: 66  QGELVALMGPSGCGKTTLLNVLARRAASSGAK 97
+
+
+>CADANIAP00010482 pep:known chromosome:ASM1142v1:VI:3246725:3248684:1
+           gene:CADANIAG00010482 transcript:CADANIAT00010482
+           description:"conserved hypothetical protein"
+          Length = 550
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 21/41 (51%), Gaps = 6/41 (14%)
+
+Query: 400 DPPHKIRYAPVSGFVYVAAVDKERRRMKILAPV-SGRLGDK 439
+           D PH++R  PV  F Y  AV     +M  L P+ SG L D 
+Sbjct: 137 DRPHQLRGEPVGAFAYSTAV-----KMDTLVPITSGELPDN 172
+
+
+>CADANIAP00002117 pep:known chromosome:ASM1142v1:VIII:3112534:3114918:1
+           gene:CADANIAG00002117 transcript:CADANIAT00002117
+           description:"ABC transporter, putative (Eurofung)"
+          Length = 756
+
+ Score = 29.3 bits (64), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 21/34 (61%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPM 159
+            G R ++ G  GCG+T+L+  + +   +T AQP+
+Sbjct: 408 RGQRWVILGPNGCGKTTLLSLITSDHPQTYAQPI 441
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 4,349,888
+Number of extensions: 176104
+Number of successful extensions: 470
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 467
+Number of HSP's successfully gapped: 8
+Length of query: 455
+Length of database: 5,078,913
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,057,115
+Effective search space: 1452447170
+Effective search space used: 1452447170
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

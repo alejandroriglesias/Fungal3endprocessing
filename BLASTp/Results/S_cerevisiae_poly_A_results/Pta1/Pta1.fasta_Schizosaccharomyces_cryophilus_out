@@ -1,0 +1,170 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY51540 pep:novel supercontig:GCA_000004155.2:supercont4.4:1117...   107   1e-24
+EPY53815 pep:novel supercontig:GCA_000004155.2:supercont4.1:1687...    29   2.4  
+EPY50944 pep:novel supercontig:GCA_000004155.2:supercont4.5:8318...    28   6.1  
+EPY49212 pep:novel supercontig:GCA_000004155.2:supercont4.9:9051...    27   9.1  
+
+>EPY51540 pep:novel supercontig:GCA_000004155.2:supercont4.4:1117024:1119747:
+           1 gene:SPOG_02711 transcript:EPY51540 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Pta1"
+          Length = 731
+
+ Score =  107 bits (267), Expect = 1e-24,   Method: Compositional matrix adjust.
+ Identities = 61/185 (32%), Positives = 102/185 (55%), Gaps = 26/185 (14%)
+
+Query: 626 WLHVLIRLVTRGI-----------EAQEA---SDLIREELLGFFIQDFEQRVSLIIEWLN 671
+           W  +L RL TRG+           + Q +   S  +R +L  +   ++    +L + WL+
+Sbjct: 517 WSLLLPRLCTRGLSNYQPVNSDEQQGQSSFTLSSFVRGQLFTYIASNWRACTNLTLNWLS 576
+
+Query: 672 EEWFFQTSLHQDPSN-----------YKKWSLRVLESLGPFLENKHRRFFIRLMSELPSL 720
+           EEW+    + ++ +N           Y++W+LRV++S+ P+LE K + F I  +SELP L
+Sbjct: 577 EEWYNDRLMMENDTNEDSFVKWEGPQYERWALRVIDSVLPYLEMKDKVFMI-FLSELPEL 635
+
+Query: 721 QSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSL 780
+               +E +K ICLDP +S LGF TL++LI FR P ++   DLL ++  E++ + K   +L
+Sbjct: 636 TDAMIEKIKFICLDPDKSKLGFMTLQYLIKFRLPARNQCLDLLQKMWWENDDVRKSAQTL 695
+
+Query: 781 LDRLK 785
+           L+R +
+Sbjct: 696 LERWR 700
+
+
+
+ Score = 55.5 bits (132), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 54/208 (25%), Positives = 96/208 (46%), Gaps = 48/208 (23%)
+
+Query: 94  VYKNIVLIMCASYPLVLDLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVE 153
+           V K+I+L  C  YPLV            F   C+            +P      D+T   
+Sbjct: 89  VKKDIILCSCTLYPLV------------FFHCCI------------FP------DDTHSW 118
+
+Query: 154 QWLAQIDQNI---------GVKLATIKFISEVVLSQT---KSP---SGNEINSSTIPDNH 198
+           + ++++ Q I          +K+A +KFIS V+L+Q+   + P   + ++++ S +P NH
+Sbjct: 119 EAISKVKQEIFSLFDSSTNHLKIACVKFISSVILAQSSGIRDPRLVTKSDVSLSKVPTNH 178
+
+Query: 199 PVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFI-GIINSLSFVIKRRPQTTIRILSGL 257
+           P LN  +L+ E+  LL  L  + +      S +FI  ++N L  + KRR +    I+  L
+Sbjct: 179 PFLNPTSLKQESFDLLQKL--FTVFSSKAPSPLFITSVLNVLPVISKRRKELGPFIVESL 236
+
+Query: 258 LRFNVDAKFPLEGKSDLNYKLSKRFVER 285
+           L F++ +      +     KL++R +E+
+Sbjct: 237 LEFHLPSPKETSEEPGTLDKLARRCIEK 264
+
+
+>EPY53815 pep:novel supercontig:GCA_000004155.2:supercont4.1:1687720:1689766:
+           -1 gene:SPOG_02953 transcript:EPY53815
+           description:"ubiquitin-protein ligase E3"
+          Length = 573
+
+ Score = 29.3 bits (64), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 18/25 (72%)
+
+Query: 194 IPDNHPVLNKPALESEAKRLLDMLL 218
+           +P+NHPVL  P+L +++    DMLL
+Sbjct: 461 LPENHPVLRAPSLFTDSPTYEDMLL 485
+
+
+>EPY50944 pep:novel supercontig:GCA_000004155.2:supercont4.5:831839:834900:-1
+           gene:SPOG_00521 transcript:EPY50944 description:"SNF2
+           family domain-containing protein"
+          Length = 932
+
+ Score = 27.7 bits (60), Expect = 6.1,   Method: Compositional matrix adjust.
+ Identities = 29/113 (25%), Positives = 50/113 (44%), Gaps = 6/113 (5%)
+
+Query: 177 VLSQTKSPSGNEINSSTIPDNHPVLNKPALESE-AKRLLDMLLNYLIEEQYMVSSVFIGI 235
+           V  +  +    E+ S   PD H V N+   E++  KR+LD L +   +E   VS     I
+Sbjct: 240 VTGKANTEDEREVTSEEKPDEHQVQNESDEETDYDKRVLDFLNSCTSQELLDVSGCPHDI 299
+
+Query: 236 INSLSFVIKRRPQTTIRILSGLLRFNVDAKFPLEGKSDLNYKLSKRFVERAYK 288
+           +    + I +RP  ++     + R  +  K     KSD  +++ K+ V   Y+
+Sbjct: 300 V---EYFISKRPYPSLSKAEVVHRKKITEK-QKRSKSDA-HRVGKKVVNATYE 347
+
+
+>EPY49212 pep:novel supercontig:GCA_000004155.2:supercont4.9:90518:92151:1
+           gene:SPOG_04434 transcript:EPY49212 description:"CDC50
+           domain-containing protein"
+          Length = 370
+
+ Score = 26.9 bits (58), Expect = 9.1,   Method: Compositional matrix adjust.
+ Identities = 30/126 (23%), Positives = 51/126 (40%), Gaps = 8/126 (6%)
+
+Query: 135 HWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGNEINSSTI 194
+           +W   YP   T D+  D+  W    +  + +++A +   S++      +     I    I
+Sbjct: 241 NWSKMYPNGYTDDNLPDISNW---DELQVWMRIAALPTFSKLAKKNATAELNPGIYEVDI 297
+
+Query: 195 PDNHPVLNKPALESEAKRLLDMLL--NYLIEEQYMVSS---VFIGIINSLSFVIKRRPQT 249
+             N PV+     ++        +   NY +   YMV     +  GII S++ +IKRR   
+Sbjct: 298 AYNFPVIEYNGTKTFMLSTTTAIGGKNYFLGIMYMVIGGINIASGIILSVACMIKRRRVG 357
+
+Query: 250 TIRILS 255
+             R LS
+Sbjct: 358 DPRYLS 363
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 2,939,401
+Number of extensions: 113002
+Number of successful extensions: 384
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 381
+Number of HSP's successfully gapped: 8
+Length of query: 785
+Length of database: 2,338,516
+Length adjustment: 96
+Effective length of query: 689
+Effective length of database: 1,841,236
+Effective search space: 1268611604
+Effective search space used: 1268611604
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

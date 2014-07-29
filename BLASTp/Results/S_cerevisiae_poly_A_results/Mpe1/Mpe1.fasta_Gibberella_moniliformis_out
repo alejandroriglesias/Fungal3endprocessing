@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_02607T0 pep:known chromosome:ASM14955v1:5:112808:114766:-1 ...   268   2e-82
+FVEG_06281T0 pep:known chromosome:ASM14955v1:2:1399064:1400005:1...    31   0.80 
+FVEG_07280T0 pep:known chromosome:ASM14955v1:8:327439:333492:-1 ...    30   2.5  
+FVEG_01998T0 pep:known chromosome:ASM14955v1:6:2073391:2077035:1...    29   2.9  
+
+>FVEG_02607T0 pep:known chromosome:ASM14955v1:5:112808:114766:-1 gene:FVEG_02607
+           transcript:FVEG_02607T0 description:"hypothetical
+           protein similar to zinc knuckle domain protein"
+          Length = 618
+
+ Score =  268 bits (684), Expect = 2e-82,   Method: Compositional matrix adjust.
+ Identities = 147/381 (38%), Positives = 211/381 (55%), Gaps = 48/381 (12%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           M+S++F++FKSQ+  +R+ FDGTG++VF+LKREII ++ LGDGTDF L IY  D  EEYD
+Sbjct: 1   MTSSVFFKFKSQKEPTRVEFDGTGISVFELKREIITKSGLGDGTDFDLHIYTDDNSEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  +IPRST+VI +R PA+K                 G A RYV+G+  V  K      
+Sbjct: 61  DDTTIIPRSTTVIARRQPALK--------------PGAGRAARYVSGKMPVTAKNAGRKE 106
+
+Query: 121 XXXNV--------------SGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNK 166
+                              +  TEEE++A+MFA            MS  TPVF      K
+Sbjct: 107 QAAKASSSKPSSDAISQMNNAMTEEEKMAAMFAAQTEQWSAQQEEMSHQTPVF--KAGAK 164
+
+Query: 167 NSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE-- 223
+             A   +  PP GY+CYRCG + HWI+ CPTN DP F+ + R++RTTGIP+ FL+ ++  
+Sbjct: 165 RPANVPDHDPPNGYICYRCGNKGHWIQLCPTNDDPEFDNRPRVKRTTGIPRSFLQKVDKS 224
+
+Query: 224 -IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRE-----NRQIDGDETIWR 277
+            +  +T   E      IM+  EG FV+   DK SWE +Q K +     N  +  ++ I  
+Sbjct: 225 VVLAQTEGDESKRPSGIMVNAEGDFVIAEPDKASWEQFQAKAKSSSTANAPLAENKEIRE 284
+
+Query: 278 KGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILL 337
+           +G        L+C +   +  +P+KT  CC   F  + + NAL+ESDFVCP C++  +L+
+Sbjct: 285 QG--------LECSIDKKMFIEPMKTP-CCQKTFCNDCITNALIESDFVCPACQSEGVLI 335
+
+Query: 338 DSLVPDQDKEKEVETFLKKQE 358
+           D L PD++  K+++ +LK +E
+Sbjct: 336 DDLQPDEEASKKIQEYLKDKE 356
+
+
+>FVEG_06281T0 pep:known chromosome:ASM14955v1:2:1399064:1400005:1 gene:FVEG_06281
+           transcript:FVEG_06281T0 description:"conserved
+           hypothetical protein"
+          Length = 271
+
+ Score = 30.8 bits (68), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 50/115 (43%), Gaps = 19/115 (16%)
+
+Query: 192 IKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQV 251
+           +  C      + E KR+R +  + ++ L+ +  D ETM  E         TD+   V Q 
+Sbjct: 117 VLRCKKERWDDLEKKRVRESRDLEREILELLAKDKETMLAE---------TDDDAMVRQE 167
+
+Query: 252 EDKQSWEDYQRKR---ENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKT 303
+            +++S    QR R   E  + DG++        +++PD     ++ G +  PV T
+Sbjct: 168 IEEESAAKIQRMREIFERARADGEKK-------REVPDWAIDDISFGFMVDPVMT 215
+
+
+>FVEG_07280T0 pep:known chromosome:ASM14955v1:8:327439:333492:-1 gene:FVEG_07280
+            transcript:FVEG_07280T0 description:"Chitin synthase V"
+          Length = 1862
+
+ Score = 29.6 bits (65), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 19/27 (70%)
+
+Query: 235  AQRKIMITDEGKFVVQVEDKQSWEDYQ 261
+            A +KI+++DEGKF      ++ WE+YQ
+Sbjct: 1691 AGKKIVVSDEGKFDPSSIPRKKWEEYQ 1717
+
+
+>FVEG_01998T0 pep:known chromosome:ASM14955v1:6:2073391:2077035:1 gene:FVEG_01998
+           transcript:FVEG_01998T0 description:"conserved
+           hypothetical protein"
+          Length = 767
+
+ Score = 29.3 bits (64), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 26/64 (40%), Gaps = 4/64 (6%)
+
+Query: 264 RENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVES 323
+           R+NR+  G       G F+  PDD+  P  GG  R     ++   +  S    EN L + 
+Sbjct: 542 RKNRKAPGPS----PGQFRRNPDDMPPPTRGGRFRPNFGRNRSSQVGHSSMTSENILEDP 597
+
+Query: 324 DFVC 327
+              C
+Sbjct: 598 LMSC 601
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 5,288,777
+Number of extensions: 234585
+Number of successful extensions: 545
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 540
+Number of HSP's successfully gapped: 17
+Length of query: 441
+Length of database: 5,950,719
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,574,774
+Effective search space: 1573722256
+Effective search space used: 1573722256
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

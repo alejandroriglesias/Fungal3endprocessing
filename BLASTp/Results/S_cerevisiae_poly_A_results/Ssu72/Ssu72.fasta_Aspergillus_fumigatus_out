@@ -1,0 +1,140 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00002032 pep:known scaffold:CADRE:DS499595:993456:994319...   190   2e-59
+CADAFUBP00004275 pep:known scaffold:CADRE:DS499596:2739535:27412...    27   3.1  
+CADAFUBP00004480 pep:known scaffold:CADRE:DS499596:3443011:34462...    27   5.1  
+CADAFUBP00001253 pep:known scaffold:CADRE:DS499594:3595520:35989...    27   5.6  
+
+>CADAFUBP00002032 pep:known scaffold:CADRE:DS499595:993456:994319:-1
+           gene:CADAFUBG00002077 transcript:CADAFUBT00002077
+           description:"Transcription/RNA-processing factor Ssu72"
+          Length = 287
+
+ Score =  190 bits (482), Expect = 2e-59,   Method: Compositional matrix adjust.
+ Identities = 105/234 (44%), Positives = 137/234 (58%), Gaps = 37/234 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAG--YNVSSYGTGSAVRLPGLSIDKPNVYSFGTP-YN 65
+           LKFCTVCASN NRSME+H  L  A   + V S+GTGS VRLPG SI +PNVY+F T  Y+
+Sbjct: 53  LKFCTVCASNQNRSMEAHLRLSTAPSPFPVISFGTGSLVRLPGPSITQPNVYNFNTTSYS 112
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE---------------------S 104
+            +Y++LL++    Y++NGLL MLDRNR LK  PE++Q+                      
+Sbjct: 113 QMYDELLAKDERLYRNNGLLNMLDRNRNLKWGPERFQDWVPGMPRVDHVSKGDKGALGTE 172
+
+Query: 105 TKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADM 164
+               D + TCEERC+DAV +DLMN+G  LN+ VHV NVDI+D+ E A +G KAILELA  
+Sbjct: 173 GGTVDVIITCEERCWDAVVDDLMNKGAALNRPVHVFNVDIRDNHEEALVGGKAILELATR 232
+
+Query: 165 LNDKIEQCEK-------------DDIPFEDCIMDILTEWQSSHSQLPSLYAPSY 205
+           LND   Q  K                 F++ + +IL  WQ     LP+L+  ++
+Sbjct: 233 LNDAATQERKIHGAEGWENGNGEARRSFDERVPEILASWQEKWPNLPALWTLAW 286
+
+
+>CADAFUBP00004275 pep:known scaffold:CADRE:DS499596:2739535:2741241:1
+           gene:CADAFUBG00004347 transcript:CADAFUBT00004347
+           description:"ATP dependent RNA helicase (Dhh1),
+           putative"
+          Length = 507
+
+ Score = 27.3 bits (59), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+>CADAFUBP00004480 pep:known scaffold:CADRE:DS499596:3443011:3446248:-1
+           gene:CADAFUBG00004558 transcript:CADAFUBT00004558
+           description:"Putative uncharacterized protein"
+          Length = 988
+
+ Score = 26.6 bits (57), Expect = 5.1,   Method: Composition-based stats.
+ Identities = 14/40 (35%), Positives = 21/40 (52%), Gaps = 1/40 (2%)
+
+Query: 39  YGTGSAVRLPGLSIDKPNVYSFGTP-YNDIYNDLLSQSAD 77
+           YG  +A  +        NVY FGTP +ND++   L+ S +
+Sbjct: 80  YGLPTAQSMNATPPTDWNVYGFGTPAFNDLFRAALNASKE 119
+
+
+>CADAFUBP00001253 pep:known scaffold:CADRE:DS499594:3595520:3598957:1
+           gene:CADAFUBG00001279 transcript:CADAFUBT00001279
+           description:"1-phosphatidylinositol-4,5-bisphosphate
+           phosphodiesterase 1, putative"
+          Length = 1145
+
+ Score = 26.6 bits (57), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 18/77 (23%), Positives = 33/77 (42%), Gaps = 19/77 (24%)
+
+Query: 73  SQSADRYKSNGLLQMLDRNRRLKKAPE---------------KWQE----STKVFDFVFT 113
+           S S+    S+G L  + R RR ++  +               KW       ++ F+ V++
+Sbjct: 750 SMSSATEDSDGALVSVKRERRRRQKSKITKPLSDLGVYTRGYKWHSFSSPESQRFNHVYS 809
+
+Query: 114 CEERCFDAVCEDLMNRG 130
+             ER F+++C D  N+ 
+Sbjct: 810 FAERAFESICRDAENKA 826
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,042,095
+Number of extensions: 82919
+Number of successful extensions: 191
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 187
+Number of HSP's successfully gapped: 6
+Length of query: 206
+Length of database: 4,796,137
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 3,913,613
+Effective search space: 457892721
+Effective search space used: 457892721
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

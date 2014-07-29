@@ -1,0 +1,201 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC646.04.1:pep pep:known chromosome:ASM294v2:II:928847:931046:...   599   0.0  
+SPAC17H9.01.1:pep pep:known chromosome:ASM294v2:I:2000656:200481...    46   1e-05
+SPAC12G12.13c.1:pep pep:known chromosome:ASM294v2:I:321764:32412...    38   0.003
+SPBC3H7.09.1:pep pep:known chromosome:ASM294v2:II:1865821:186773...    29   1.3  
+SPAC4F10.16c.1:pep pep:known chromosome:ASM294v2:I:4863739:48698...    29   1.8  
+SPAC11E3.05.1:pep pep:known chromosome:ASM294v2:I:5288245:529255...    29   2.4  
+SPMTR.04.1:pep pep:known chromosome:ASM294v2:MTR:15856:16401:1 g...    28   2.6  
+SPBC1711.02.1:pep pep:known chromosome:ASM294v2:II:2132849:21333...    28   2.6  
+SPBC23G7.09.1:pep pep:known chromosome:ASM294v2:II:2114449:21150...    28   2.6  
+SPAC13A11.05.1:pep pep:known chromosome:ASM294v2:I:582273:584402...    28   5.0  
+
+>SPBC646.04.1:pep pep:known chromosome:ASM294v2:II:928847:931046:1 gene:SPBC646.04
+           transcript:SPBC646.04.1 description:"poly(A) polymerase
+           Pla1"
+          Length = 566
+
+ Score =  599 bits (1544), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 302/570 (52%), Positives = 394/570 (69%), Gaps = 24/570 (4%)
+
+Query: 3   SQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRF 62
+           + K +GIT P+ST  AT  EN LN +LI ELK +  FE+  E+  RV+VL  LQ++   F
+Sbjct: 2   TTKQWGITPPISTAPATEQENALNTALINELKNQNLFESPAESEKRVKVLDELQQITTEF 61
+
+Query: 63  VYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDS 122
+           V +VS  K+M++ MA +AGGKIFTYGSYRLGV+GPGSDIDTLVVVPKHV+R++FF   + 
+Sbjct: 62  VKKVSLAKHMNEKMANEAGGKIFTYGSYRLGVYGPGSDIDTLVVVPKHVSRDNFFQDLEP 121
+
+Query: 123 LLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDE 182
+           +LRER+E+ ++A VPDA+VPIIK KF GISIDLI ARL  P+VP  L LSD NLL+ ++E
+Sbjct: 122 MLREREEVTDLAAVPDAYVPIIKFKFLGISIDLIFARLSVPRVPRDLELSDNNLLKGVEE 181
+
+Query: 183 KDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVAR 242
+           + + +LNGTRVTD+IL+LVP   VF+ ALRAIK WAQRRA+YAN+ GFPGGVAWAM+VAR
+Sbjct: 182 RCVLSLNGTRVTDQILQLVPNRAVFKHALRAIKFWAQRRAIYANVVGFPGGVAWAMMVAR 241
+
+Query: 243 ICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRMPV 302
+           ICQLYPNA S+VI+ +FF IL +WNWPQP++LKPIEDGPLQVR+WNPK+Y  D++HRMP+
+Sbjct: 242 ICQLYPNAVSSVIVAKFFRILHQWNWPQPILLKPIEDGPLQVRIWNPKLYPSDKAHRMPI 301
+
+Query: 303 ITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKFYL 362
+           ITPAYPSMCATHNIT ST+ +IL+E VR  +I + I      W+ LF+K+DFF RYK YL
+Sbjct: 302 ITPAYPSMCATHNITLSTQTIILREMVRAGEIADQIMVKALPWSALFQKHDFFHRYKHYL 361
+
+Query: 363 EITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDDYE 422
+            ITA  + ++ Q LKW+GLVESK+R LV +LE++  I +AHPF K F+  Y C +E++ +
+Sbjct: 362 TITAAAKTAEAQ-LKWAGLVESKLRHLVTRLELVDAIALAHPFNKGFDKVYNCSSEEEAQ 420
+
+Query: 423 MIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKA-------------YLSTMYIGLD 469
+            +           + +  KL  D   EE++     KA             Y +T YIGL+
+Sbjct: 421 QVASGVTLEVAYESTDHEKLANDTVNEEKADNTESKADGSENGEKQIFPVYTTTCYIGLE 480
+
+Query: 470 FNIENKK----EKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDEN 525
+             +E KK    +++DI  P  EF  LC+ +  D  D  + N+ ++  K   LPDEVF+  
+Sbjct: 481 --LEKKKGHPIKRLDISWPTQEFYELCKKW--DKYDDTLMNVFIKNTKNTALPDEVFEPG 536
+
+Query: 526 EKRPSKKSKRKNLDARHET--VKRSKSDAA 553
+           E+RP    KR   D  H T  +KR K   A
+Sbjct: 537 EERPKATKKRSTADTAHSTEQLKRQKVSTA 566
+
+
+>SPAC17H9.01.1:pep pep:known chromosome:ASM294v2:I:2000656:2004811:1 gene:SPAC17H9.01
+            transcript:SPAC17H9.01.1 description:"poly(A) polymerase
+            Cid16 (predicted)"
+          Length = 1202
+
+ Score = 45.8 bits (107), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 68/167 (40%), Gaps = 32/167 (19%)
+
+Query: 83   KIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRE-RKELDEIAPVPDAFV 141
+            KI  +GSYR G+    SD+D ++    + ++E     +D +    + E   + P+  A +
+Sbjct: 923  KIACFGSYRTGLMTKNSDLDLVI----YSSKEALLPYYDRVKSIIKNEFSNVMPIRGARI 978
+
+Query: 142  PIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILELV 201
+            PIIK  F+G             Q  +   LS  NLL  +   DL  LN + + + +    
+Sbjct: 979  PIIK--FTG-------------QYNIHCDLSFDNLLP-IHNSDL-ILNYSLIDERV---- 1017
+
+Query: 202  PKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQLYP 248
+                  +  L  +K WA  R +      FP    W ++V    Q  P
+Sbjct: 1018 ------KTLLMLVKYWASNRLIDKTHHAFPSSYTWCIMVIFYLQQIP 1058
+
+
+>SPAC12G12.13c.1:pep pep:known chromosome:ASM294v2:I:321764:324129:1 gene:SPAC12G12.13c
+           transcript:SPAC12G12.13c.1 description:"poly(A)
+           polymerase Cid14"
+          Length = 684
+
+ Score = 37.7 bits (86), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 42/190 (22%), Positives = 77/190 (40%), Gaps = 36/190 (18%)
+
+Query: 84  IFTYGSYRLGVHGPGSDIDTLVVVPKH---VTREDFFTVFDSLLRERKELDEIAPVPDAF 140
+           ++ +GS+   ++ P SD+D +++ P+H    T++D F V    L++ K   E+  +  A 
+Sbjct: 282 LYVFGSFETKLYLPTSDLDLVIISPEHHYRGTKKDMF-VLAHHLKKLKLASEVQVITTAN 340
+
+Query: 141 VPIIKI--KFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEIL 198
+           VPIIK     + + +D+     +QP                        L    V +  +
+Sbjct: 341 VPIIKFVDPLTKVHVDI---SFNQPG----------------------GLKTCLVVNGFM 375
+
+Query: 199 ELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQLYPNACSAVIL-- 256
+           +  P     R  +  IK +   RA+     G     A   LV    QL+P   +  +   
+Sbjct: 376 KKYP---ALRPLVIIIKHFLNMRALNEVFLGGLSSYAIVCLVVSFLQLHPRLSTGSMREE 432
+
+Query: 257 NRFFIILSEW 266
+           + F ++L E+
+Sbjct: 433 DNFGVLLLEF 442
+
+
+>SPBC3H7.09.1:pep pep:known chromosome:ASM294v2:II:1865821:1867734:-1 gene:SPBC3H7.09
+           transcript:SPBC3H7.09.1
+           description:"palmitoyltransferase Erf2"
+          Length = 350
+
+ Score = 29.3 bits (64), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 22/83 (26%), Positives = 39/83 (46%), Gaps = 12/83 (14%)
+
+Query: 161 DQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILEL---------VPKPNVFRIAL 211
+           +QP  P  +TLSD     NL+EK+        V D++ E+         +P  N++    
+Sbjct: 17  NQPWNPFEVTLSDPTYPMNLEEKNQIPYRFQSVPDDVPEVPHIESRYKNLPGNNIYLCCG 76
+
+Query: 212 RAIKLWAQRRAVYANIFG--FPG 232
+           R +++ +Q +A   ++F    PG
+Sbjct: 77  R-LQMSSQYKAFLISLFALILPG 98
+
+
+>SPAC4F10.16c.1:pep pep:known chromosome:ASM294v2:I:4863739:4869888:-1
+           gene:SPAC4F10.16c transcript:SPAC4F10.16c.1
+           description:"P-type ATPase (predicted)"
+          Length = 1367
+
+ Score = 29.3 bits (64), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 23/36 (63%), Gaps = 1/36 (2%)
+
+Query: 182 EKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLW 217
+           E++L  L GT + D++ E VP+  +  +A+  IKLW
+Sbjct: 865 EQELELLGGTAIEDKLQENVPE-TIALLAIAGIKLW 899
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,745,400
+Number of extensions: 124337
+Number of successful extensions: 366
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 362
+Number of HSP's successfully gapped: 14
+Length of query: 568
+Length of database: 2,387,769
+Length adjustment: 94
+Effective length of query: 474
+Effective length of database: 1,904,233
+Effective search space: 902606442
+Effective search space used: 902606442
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,333 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_00349P0 pep:known chromosome:ASM24013v2:1:1116091:1119230:-...   903   0.0  
+FGSG_01244P0 pep:known chromosome:ASM24013v2:1:4087140:4089707:1...    53   3e-07
+FGSG_01300P0 pep:known chromosome:ASM24013v2:1:4288689:4290713:1...    41   0.002
+FGSG_12901P0 pep:known chromosome:ASM24013v2:3:4899653:4902091:-...    38   0.017
+FGSG_10076P0 pep:known chromosome:ASM24013v2:1:9710341:9712633:1...    36   0.085
+FGSG_10242P0 pep:known chromosome:ASM24013v2:1:10239289:10242084...    34   0.23 
+FGSG_12594P0 pep:known chromosome:ASM24013v2:3:106363:107356:-1 ...    32   0.63 
+FGSG_04284P0 pep:known chromosome:ASM24013v2:2:4559574:4562395:1...    33   0.67 
+FGSG_09927P0 pep:known chromosome:ASM24013v2:1:9180304:9182810:1...    32   0.98 
+FGSG_04175P0 pep:known chromosome:ASM24013v2:2:4870767:4874295:-...    31   3.1  
+FGSG_00069P0 pep:known chromosome:ASM24013v2:1:276023:277961:-1 ...    30   3.5  
+FGSG_08443P0 pep:known chromosome:ASM24013v2:2:1866375:1868197:-...    30   4.0  
+FGSG_09841P0 pep:known chromosome:ASM24013v2:4:7958787:7959430:1...    29   6.9  
+FGSG_05462P0 pep:known chromosome:ASM24013v2:3:2353259:2361597:-...    29   7.5  
+
+>FGSG_00349P0 pep:known chromosome:ASM24013v2:1:1116091:1119230:-1
+           gene:FGSG_00349 transcript:FGSG_00349T0
+           description:"mRNA 3'-end-processing protein RNA14"
+          Length = 997
+
+ Score =  903 bits (2333), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 447/818 (54%), Positives = 588/818 (71%), Gaps = 43/818 (5%)
+
+Query: 165 PIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADM 224
+           P+ LLE RVKEDPRG MD+W  LIA++R  + +E+ R  + RF+ +FP AA+ WV++ ++
+Sbjct: 164 PVDLLEFRVKEDPRGDMDAWQELIASHRDFSPLEKARSTYNRFVEIFPQAADKWVEWIEL 223
+
+Query: 225 ELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLN-DSSGRARQVVTQAYDFVI 283
+           EL   NFVE E +FG+ LM VPNV+LWTVYLDYIRRRNDLN D SG+AR+ VTQ+Y+FVI
+Sbjct: 224 ELKYNNFVEVEQLFGRCLMQVPNVKLWTVYLDYIRRRNDLNNDPSGQARRTVTQSYEFVI 283
+
+Query: 284 DNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLW 343
+           DN+G+D+D+  IW  Y+QF++  PG + G+ WQD+QKMDQLR  Y+RAV +P+S VN LW
+Sbjct: 284 DNIGVDRDSGNIWQQYVQFVKNGPGQIDGTDWQDRQKMDQLRGIYRRAVAVPMSTVNNLW 343
+
+Query: 344 REYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGD 403
+           +EYDQFE GLN  TGRK++ ERSP YM+AKSAN AL+NI R+L RT LPRLPPAPGF GD
+Sbjct: 344 KEYDQFEMGLNKMTGRKFIQERSPVYMSAKSANIALDNITRHLDRTNLPRLPPAPGFNGD 403
+
+Query: 404 VEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEW 463
+            EF +QV++WK+W+ WEKEDPL L +D+P+ + +R+L+ YKQA+MALRF PEIWVDAAEW
+Sbjct: 404 QEFRDQVEMWKKWIAWEKEDPLVLKSDEPKAYNQRVLHVYKQALMALRFWPEIWVDAAEW 463
+
+Query: 464 CFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAVK 523
+           CF+N I  N K+ G E L EGI+AN ESVLLALKHAD IE  +P  E D  K E   AV+
+Sbjct: 464 CFQNDIRENDKEMGTELLVEGIKANRESVLLALKHADHIEVNYPDKEVD--KAEFAQAVR 521
+
+Query: 524 APYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVP-EHEIEEGEDCANPMP--SELEEK 580
+            PY+ +L+TLY     +KE+EK EI  L+++A   P +  IEE +D  +  P  S  EE+
+Sbjct: 522 KPYDDVLETLYEMGDKVKEREKLEISTLKQAAAQDPVQTSIEENDDDEDNTPKRSPTEER 581
+
+Query: 581 ISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARKRGRLT 640
+           I A++KG+ A+T LL+RT+S+VWIALARAMRRIQGKG      GG+R+VF++AR++GRLT
+Sbjct: 582 ILAIQKGYAAETQLLSRTISYVWIALARAMRRIQGKGSQAE--GGLRKVFTDARQKGRLT 639
+
+Query: 641 SDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVVFET 700
+           SDVYVA+A LE  VYKDP G KIF+RG++LFP DE+FM+EYLKYLHS++DTTNARVVFET
+Sbjct: 640 SDVYVAVALLESVVYKDPVGAKIFERGARLFPNDEMFMIEYLKYLHSKDDTTNARVVFET 699
+
+Query: 701 CVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHFSARFM 760
+           C+N+L  NP T+ KAK LY+YFHKYES++GELSQ +KLE RMAELFPEDP L  F  RF 
+Sbjct: 700 CINRLVSNPDTLAKAKLLYAYFHKYESQYGELSQISKLEDRMAELFPEDPKLKSFVDRFS 759
+
+Query: 761 SDRFDPIAARIIVSPAAQLRPKMVMPSIEANARA-----GSPM-IRPLNSPKVGFLQAVN 814
+           +++FDPIA  II+S  AQ+RPK ++P ++   +       SPM +R   +P+  +++A  
+Sbjct: 760 TEKFDPIATPIIISKTAQMRPKQIVPVVQHQHQQSISLRNSPMPVRQEQNPRPQYVRATA 819
+
+Query: 815 SPKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAAGRRLENQRRIHGQGPASYNTA 874
+           SPKRPL  DD E+LNPPK++         R  SPLKGAAGRRL+ QRR            
+Sbjct: 820 SPKRPLAVDD-EELNPPKRL--------ARGASPLKGAAGRRLDQQRRNQ---------- 860
+
+Query: 875 PAPAIPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVPDYQSWKSRQDKGLRQSGA 934
+            A A+ R+I FLL+ LP ++ Y++ R +++ +V  LRDT +PD+ +        L+ +G 
+Sbjct: 861 -ASALHRDITFLLNILPSSQSYDAQRFNSAALVSILRDTEIPDFAT--------LKAAGG 911
+
+Query: 935 QMPSDFSNPGYGRDSPGLRTGSPFGGERRIASASSTYQ 972
+             P  F NP + R   G     P     R+++A+  Y+
+Sbjct: 912 GQPR-FGNPTHTRQPSGEFVNRPLSPYGRMSAAAGGYR 948
+
+
+
+ Score = 32.7 bits (73), Expect = 0.67,   Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 35/74 (47%), Gaps = 11/74 (14%)
+
+Query: 30 AQHSDSNVQNQQLQATSVAHGDSE--------DAAEYDPDSVPVAITSPKAKPLKPSPQP 81
+           QHS+  V N      S+A GD++        D  EYDP+SV +   +   +P     Q 
+Sbjct: 20 VQHSEEQVDN--YAHDSLASGDADAADNGTEDDGGEYDPESVTIGTPAMVPEPASSGTQR 77
+
+Query: 82 AAAKKRKTAGGFLV 95
+            +K  K +GGF+V
+Sbjct: 78 QTSKP-KMSGGFIV 90
+
+
+>FGSG_01244P0 pep:known chromosome:ASM24013v2:1:4087140:4089707:1 gene:FGSG_01244
+           transcript:FGSG_01244T0 description:"conserved
+           hypothetical protein"
+          Length = 587
+
+ Score = 53.1 bits (126), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 51/188 (27%), Positives = 79/188 (42%), Gaps = 34/188 (18%)
+
+Query: 173 VKEDPRGAMDSWLSLIAAYR------QRNNIEQC----RDVFERFLAVFPHAAEVWVQYA 222
+           V+ DP    D W +LI A         RN+  Q     RD ++R L  FP     W +YA
+Sbjct: 23  VESDPDN-FDHWENLIKACETLEGGLNRNSSPQALATFRDAYDRLLTKFPLFFGYWKKYA 81
+
+Query: 223 DMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDF 281
+           DME +      AE ++ +   S+ N V LWT   DY   + +        R++  +   F
+Sbjct: 82  DMEFNIAGPESAEMVYERGCASITNSVDLWT---DYCSFKMETTHDPHLVRELFERGSAF 138
+
+Query: 282 VIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNT 341
+               VGLD  A   W+ YI++             + Q+  D++   + R + IP+     
+Sbjct: 139 ----VGLDFLAHPFWDKYIEYE------------ERQEAQDKIYAIHARIIRIPMHQYA- 181
+
+Query: 342 LWREYDQF 349
+             R Y++F
+Sbjct: 182 --RYYERF 187
+
+
+>FGSG_01300P0 pep:known chromosome:ASM24013v2:1:4288689:4290713:1 gene:FGSG_01300
+           transcript:FGSG_01300T0 description:"pre-mRNA-splicing
+           factor clf1"
+          Length = 674
+
+ Score = 40.8 bits (94), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 20/61 (32%), Positives = 36/61 (59%), Gaps = 1/61 (1%)
+
+Query: 218 WVQYADMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDYIRRRNDLNDSSGRARQVVT 276
+           W++YA  EL Q  F  AE++F ++L + PN VQLW  Y++   +  ++N +     + V+
+Sbjct: 75  WMRYAQWELEQKEFKRAESVFERALDAHPNNVQLWVRYIESEMKSRNINHARNLLDRAVS 134
+
+Query: 277 Q 277
+           +
+Sbjct: 135 R 135
+
+
+
+ Score = 39.7 bits (91), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 42/91 (46%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I +  +  NI   R++ +R ++  P   ++W +Y  ME   GN      +F + + 
+Sbjct: 109 WVRYIESEMKSRNINHARNLLDRAVSRLPRVDKLWYKYVYMEEMLGNIPGTRQVFDRWMQ 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R  +      RAR++
+Sbjct: 169 WHPDEAAWSSYIKLEKRYGEFE----RAREI 195
+
+
+
+ Score = 39.3 bits (90), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  +++W+       ++   ++   VFER L   P+  ++WV+Y + E+   N   A  +
+Sbjct: 69  RLNLNNWMRYAQWELEQKEFKRAESVFERALDAHPNNVQLWVRYIESEMKSRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVSRLPRVDKLWYKYV 147
+
+
+
+ Score = 37.7 bits (86), Expect = 0.017,   Method: Compositional matrix adjust.
+ Identities = 17/69 (24%), Positives = 35/69 (50%), Gaps = 4/69 (5%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           ++E+ R ++   L + PH     A+ W+  A  E+ QG    A  + G+++   P  +++
+Sbjct: 380 DVERTRQIYNTCLGLIPHKRFTFAKTWLMAAQFEIRQGELTAARKLLGRAIGMCPKDKIF 439
+
+Query: 252 TVYLDYIRR 260
+             Y+D  R+
+Sbjct: 440 NGYVDLERK 448
+
+
+
+ Score = 35.4 bits (80), Expect = 0.089,   Method: Compositional matrix adjust.
+ Identities = 15/63 (23%), Positives = 34/63 (53%), Gaps = 5/63 (7%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL----MSVPNVQLWTVY 254
+           +CR ++E+ +   P   + W+++A++E    +     AIF  ++    + +P + LW  Y
+Sbjct: 454 RCRTLYEKHIEFNPANCQTWIKFAELERGLDDLERTRAIFELAVQQQQLDMPEL-LWKAY 512
+
+Query: 255 LDY 257
+           +D+
+Sbjct: 513 IDF 515
+
+
+
+ Score = 32.3 bits (72), Expect = 0.90,   Method: Compositional matrix adjust.
+ Identities = 45/198 (22%), Positives = 84/198 (42%), Gaps = 43/198 (21%)
+
+Query: 173 VKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQYAD 223
+           +KE+P+   D+W           + ++ RD++ER +A  P   E         +W+ YA 
+Sbjct: 314 IKENPKN-YDAWFDYAKLEETSQDSDRIRDIYERAVAQVPPTQEKRHWRRYIYLWIFYAI 372
+
+Query: 224 MELSQGNFVE-AEAIFGKSLMSVPNVQL-----WTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+            E  +G  VE    I+   L  +P+ +      W +   +  R+ +L      AR+++ +
+Sbjct: 373 WEEMEGQDVERTRQIYNTCLGLIPHKRFTFAKTWLMAAQFEIRQGELTA----ARKLLGR 428
+
+Query: 278 AYDFVIDNVGLD-KDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPL 336
+           A       +G+  KD  KI+N Y+   R     V            + R  Y++ +    
+Sbjct: 429 A-------IGMCPKD--KIFNGYVDLERKLFEFV------------RCRTLYEKHIEFNP 467
+
+Query: 337 SNVNTLWREYDQFEKGLN 354
+           +N  T W ++ + E+GL+
+Sbjct: 468 ANCQT-WIKFAELERGLD 484
+
+
+
+ Score = 32.0 bits (71), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 45/194 (23%), Positives = 78/194 (40%), Gaps = 35/194 (18%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W S I   ++    E+ R++F  F  + P +   W+++A  E   G       +FG ++
+Sbjct: 175 AWSSYIKLEKRYGEFERAREIFRTFTQLHPESRN-WIKWAKFEEEYGTSDSVREVFGDAV 233
+
+Query: 243 MSVPNVQL-WTVYLDYIRRRNDLNDSSGRAR---------------QVVTQAYDFVIDNV 286
+            ++ +  +   +++ Y R    L +   RAR                ++ +AY       
+Sbjct: 234 EALGDDFVDEKLFIAYARYEAKLKEYE-RARAIYKYALDRLPRSKSMILHKAYTTFEKQF 292
+
+Query: 287 GLDKDA------SKIWNDYIQFIRLAPGVVGGSAWQDQQKM-------DQLRKAYQRAVC 333
+           G DKD       SK    Y + I+  P      AW D  K+       D++R  Y+RAV 
+Sbjct: 293 G-DKDGVEDVVLSKRRVYYEELIKENPK--NYDAWFDYAKLEETSQDSDRIRDIYERAVA 349
+
+Query: 334 -IPLSNVNTLWREY 346
+            +P +     WR Y
+Sbjct: 350 QVPPTQEKRHWRRY 363
+
+
+>FGSG_12901P0 pep:known chromosome:ASM24013v2:3:4899653:4902091:-1
+           gene:FGSG_12901 transcript:FGSG_12901T0
+           description:"hypothetical protein similar to RCM-1"
+          Length = 603
+
+ Score = 37.7 bits (86), Expect = 0.017,   Method: Compositional matrix adjust.
+ Identities = 40/194 (20%), Positives = 79/194 (40%), Gaps = 29/194 (14%)
+
+Query: 171 LRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFP---HAAEVWVQYADMELS 227
+           + ++ D   A + +  L   Y+Q+N   Q  D F+  +   P      ++W Q   +   
+Sbjct: 171 MNIQPDFEKANEIYFRLGIIYKQQNKWNQSLDCFKYIVNSPPGPLTQEDIWFQIGHVHEQ 230
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIR-RRNDLNDSSGRARQVVTQAYDFVIDNV 286
+           Q +F  A+A + + L   PN       L ++  ++++  +S  RA Q       ++  +V
+Sbjct: 231 QKDFDSAKAAYQRVLDHSPNHAKVLQQLGWLHHQQSNTYESQDRAIQ-------YLEKSV 283
+
+Query: 287 GLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSN------VN 340
+             D   ++ W             + G  +  QQK  +  +AYQ+AV     N      + 
+Sbjct: 284 NADNQDAQSW------------YLLGRCYMSQQKYPKAYEAYQQAVYRDGKNPTFWCSIG 331
+
+Query: 341 TLWREYDQFEKGLN 354
+            L+ + +Q+   L+
+Sbjct: 332 VLYYQINQYRDALD 345
+
+
+>FGSG_10076P0 pep:known chromosome:ASM24013v2:1:9710341:9712633:1 gene:FGSG_10076
+           transcript:FGSG_10076T0 description:"conserved
+           hypothetical protein"
+          Length = 719
+
+ Score = 35.8 bits (81), Expect = 0.085,   Method: Compositional matrix adjust.
+ Identities = 23/64 (35%), Positives = 30/64 (46%), Gaps = 4/64 (6%)
+
+Query: 899 TRLSASRVVDTLRDTHVPDYQSWKSRQDKGL----RQSGAQMPSDFSNPGYGRDSPGLRT 954
+           TR S  R+V+ +RD   PD Q  + R D G      + GA  P+DF +   G D    R 
+Sbjct: 326 TRNSCLRMVNMIRDLCEPDQQENRKRFDDGYVDKEARFGADRPADFKDLFEGSDDDMFRL 385
+
+Query: 955 GSPF 958
+           G  F
+Sbjct: 386 GMKF 389
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 13,173,114
+Number of extensions: 607436
+Number of successful extensions: 2389
+Number of sequences better than 10.0: 64
+Number of HSP's gapped: 2343
+Number of HSP's successfully gapped: 84
+Length of query: 1057
+Length of database: 5,933,672
+Length adjustment: 105
+Effective length of query: 952
+Effective length of database: 4,535,282
+Effective search space: 4317588464
+Effective search space used: 4317588464
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)

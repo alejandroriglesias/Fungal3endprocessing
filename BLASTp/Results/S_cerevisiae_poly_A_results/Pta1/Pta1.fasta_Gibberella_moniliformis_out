@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_00858T0 pep:known chromosome:ASM14955v1:1:4139932:4142935:1...    87   5e-18
+FVEG_11313T0 pep:known chromosome:ASM14955v1:9:1039405:1041225:-...    33   0.33 
+FVEG_03701T0 pep:known chromosome:ASM14955v1:2:2766520:2767008:1...    28   8.9  
+
+>FVEG_00858T0 pep:known chromosome:ASM14955v1:1:4139932:4142935:1 gene:FVEG_00858
+           transcript:FVEG_00858T0 description:"conserved
+           hypothetical protein"
+          Length = 690
+
+ Score = 87.4 bits (215), Expect = 5e-18,   Method: Compositional matrix adjust.
+ Identities = 48/166 (28%), Positives = 84/166 (50%), Gaps = 24/166 (14%)
+
+Query: 626 WLHVLIRLVTRGIEA---------------QEASDLIREELLGFFIQDFEQRVSLIIEWL 670
+           W+ +L RL TR +                 Q  S+ IR+ L  + ++DF + + + + WL
+Sbjct: 490 WMTILARLATRSVAGLEETSIKEEGGSSAPQSLSNNIRDVLYSYVMEDFRKHIDVAVSWL 549
+
+Query: 671 NEEWFF----QTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLE 726
+            EEW+     Q      P +Y+K  LR+++   P+L +   +   R +SE+P L  + L 
+Sbjct: 550 CEEWYNDKLQQKKGGDRPLHYEKCCLRLIDGFLPYL-HPQDKVLTRFLSEIPELNKNLLS 608
+
+Query: 727 ALKPICLDPARSSLGFQTLKFLIMFRPPVQ----DTVRDLLHQLKQ 768
+            +K +C DP+   L   +L +L+M RPPV+    DTV+D+  + ++
+Sbjct: 609 RVKHMCRDPSVVQLALTSLLYLVMMRPPVKEIALDTVQDIWTEFEE 654
+
+
+
+ Score = 44.7 bits (104), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 40/129 (31%), Positives = 64/129 (49%), Gaps = 21/129 (16%)
+
+Query: 140 YPL--RATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPS-GNEINSS--TI 194
+           YPL  R  +++  D   W    ++ + VK   +K           SP+ G  ++ S   +
+Sbjct: 105 YPLAMRWIINNGYDTITW----ERMVAVKQKVLKIWDNA------SPTYGGTLDVSLDKV 154
+
+Query: 195 PDNHPVLNKPALESEAKRLLDMLLNYLIE--EQYMVSSVFIGIINSLSFVIKRRPQTTIR 252
+           P NH  L+   LE+EA  LLD +L  L E  +  +V S     +N +S +++ RP T+ R
+Sbjct: 155 PPNHQSLDPRNLEAEASGLLDRMLATLQESSDALLVDST----LNCMSILVRTRPGTSNR 210
+
+Query: 253 ILSGLLRFN 261
+           I++ LL FN
+Sbjct: 211 IINALLNFN 219
+
+
+>FVEG_11313T0 pep:known chromosome:ASM14955v1:9:1039405:1041225:-1
+           gene:FVEG_11313 transcript:FVEG_11313T0
+           description:"ATP-dependent RNA helicase has-1"
+          Length = 589
+
+ Score = 33.1 bits (74), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 35/139 (25%), Positives = 58/139 (41%), Gaps = 23/139 (16%)
+
+Query: 653 GFFIQDFEQRVSLIIEWLNEEW------FFQTS----LHQDPSNYKKWSLRVLESLGPFL 702
+           G+ I D E+R +L+  +L          FF +      H +  NY    + VL+  G   
+Sbjct: 339 GYVICDAEKRFNLLFSFLKRNLKKKIIVFFSSCACVKYHAELLNY--IDIPVLDLHGKQK 396
+
+Query: 703 ENKHRRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDL 762
+           + K    F     E  + +   L     IC D A   L   ++ +++ F PP  D  RD 
+Sbjct: 397 QQKRTNTFF----EFCNAKQGTL-----ICTDVAARGLDIPSVDWIVQFDPP--DDPRDY 445
+
+Query: 763 LHQLKQEDEGLHKQCDSLL 781
+           +H++ +   G + +  SLL
+Sbjct: 446 IHRVGRTARGSNTKGRSLL 464
+
+
+>FVEG_03701T0 pep:known chromosome:ASM14955v1:2:2766520:2767008:1 gene:FVEG_03701
+           transcript:FVEG_03701T0 description:"conserved
+           hypothetical protein"
+          Length = 162
+
+ Score = 27.7 bits (60), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 10/29 (34%), Positives = 18/29 (62%)
+
+Query: 749 IMFRPPVQDTVRDLLHQLKQEDEGLHKQC 777
+           I + PPV+D  +DLL ++  + + L  +C
+Sbjct: 48  ITYNPPVKDPKKDLLQKVHAQKDSLSTEC 76
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 7,205,412
+Number of extensions: 264504
+Number of successful extensions: 729
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 726
+Number of HSP's successfully gapped: 6
+Length of query: 785
+Length of database: 5,950,719
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,503,849
+Effective search space: 3076128867
+Effective search space used: 3076128867
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

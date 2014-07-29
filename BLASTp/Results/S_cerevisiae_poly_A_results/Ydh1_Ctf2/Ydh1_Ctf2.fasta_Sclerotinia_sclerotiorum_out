@@ -1,0 +1,200 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN95272 pep:novel supercontig:ASM14694v1:CH476637:530336:533146...   119   5e-28
+EDN98552 pep:novel supercontig:ASM14694v1:CH476645:82986:86202:1...    32   0.45 
+EDN97543 pep:novel supercontig:ASM14694v1:CH476641:87662:89296:1...    31   0.80 
+EDO01991 pep:novel supercontig:ASM14694v1:CH476625:1257047:12592...    30   1.9  
+EDN96030 pep:novel supercontig:ASM14694v1:CH476639:508729:509171...    28   2.8  
+EDO04980 pep:novel supercontig:ASM14694v1:CH476629:1433823:14360...    28   6.4  
+
+>EDN95272 pep:novel supercontig:ASM14694v1:CH476637:530336:533146:-1
+           gene:SS1G_11148 transcript:EDN95272
+           description:"hypothetical protein"
+          Length = 936
+
+ Score =  119 bits (299), Expect = 5e-28,   Method: Compositional matrix adjust.
+ Identities = 113/405 (27%), Positives = 179/405 (44%), Gaps = 78/405 (19%)
+
+Query: 24  NVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYNFTSHF-- 81
+            V +LID GW+ +    E+ ++  EK IP + +I+L+  T+  + A    Y +   HF  
+Sbjct: 26  GVKVLIDVGWDET-FDVEK-LRELEKQIPTLSLILLTHATVPHIAA----YAHCCKHFPL 79
+
+Query: 82  ISRIQVYATLPVINLGRVSTIDSYAS---AGVIGPYDTNKL----DLEDIEISFDHIVPL 134
+            +RI VYAT PVI LGR    D Y+S   A  + P  ++ L      E+I   F  + PL
+Sbjct: 80  FTRIPVYATHPVIALGRTLLQDLYSSTPLASTVIPTTSSFLLQPPTKEEINYYFSLVRPL 139
+
+Query: 135 KYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKRWNHTRDNI----LNA 190
+           KYSQ        +G+T+ AYNAG   GG+IW I    E +VYA  WN  R+N+       
+Sbjct: 140 KYSQP---HQPLNGVTITAYNAGHSLGGTIWHIQHGLESIVYAVDWNQARENVLAGAAWL 196
+
+Query: 191 ASILDATGKPLSTLMRPSAIITTL---DRFGSSQPFKKRSKIFKDTLKKGLSSDGSVIIP 247
+                   + +  L +P+A+I +    +R        KR ++  D +K  +   G V+IP
+Sbjct: 197 GGAGAGGAEVIEQLRKPTALICSSKGGERVALPGGRAKRDELLLDMIKSSIKRGGIVLIP 256
+
+Query: 248 VDMSGKFLDLF----------TQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSML 297
+            D   + ++L            Q  E  F S K       P L +S +   T+ Y +SM 
+Sbjct: 257 TDSGARMMELAYLLEHAWRTGNQEEESAFRSAK-------PYLAVSTSE-MTMRYTRSMF 308
+
+Query: 298 EWLSPSLLKTW---------------------ENRNNTSPFE------IGSRIKII---- 326
+           EW+  ++++ +                     E++ N  PFE      +G + +I     
+Sbjct: 309 EWMDEAIIREFEAQPGHEEQQTGQQRRHAYSDESKQNAGPFEFKHLRLLGRKGQIDRMLN 368
+
+Query: 327 APNELSKYPGSKICFVSEVG---ALINEVIIKVGNSEKTTLILTK 368
+             + L +  G K+   S+         EV+ K+ + +K  LILT+
+Sbjct: 369 ETDNLGRSVG-KVILASDTSIEWGFSKEVLRKIADDDKNLLILTE 412
+
+
+
+ Score = 67.8 bits (164), Expect = 6e-12,   Method: Compositional matrix adjust.
+ Identities = 79/379 (20%), Positives = 147/379 (38%), Gaps = 67/379 (17%)
+
+Query: 532 SKHKMFPFNPAKIKKDDYGTVVDFTMFL-PDDSDNVNQNSRKRPLKDGAKTTSPVXXXXX 590
+            + KMFP    + + DD+G ++    FL  ++ D V+    +RP K   K T        
+Sbjct: 571 GRDKMFPMAIRRKRNDDFGELIRPGEFLRAEERDEVDGQEPQRPGKYDTKDT-------- 622
+
+Query: 591 XXXXXXGYNMSDPISKRSKHRASRYSGFSGTGEAENFDNLDYLKIDKTL----------S 640
+                      D ++   K R +        G  E+    D L+ D  +          S
+Sbjct: 623 ----LGKKRKWDDVAASGKRRVTNEGKRQQVGNNEDDSVADVLEEDDLVDIVEEEIPGPS 678
+
+Query: 641 KRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQN-------EE 693
+           +  IS   +++   +  ++   L D+RS  ++ P ++ RK++L    + +         +
+Sbjct: 679 RLDISVETLKINLRIAFVDFAGLHDKRSLQMLIPLIQPRKLILVGGMKDETLALANDCRQ 738
+
+Query: 694 ITAKLIKKNIEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQRISDSYTVATVVGRL 753
+           +      K ++V    +  I++ S       + +  +L   L+WQ +     + T+ GRL
+Sbjct: 739 LLGSTKDKLVDVYTPEIGVIIDASVDTNAWAVKLTDSLVKQLRWQNVK-GLGIVTLTGRL 797
+
+Query: 754 VKESLPQVNNHQKTASRSKLVLKPLHGSSRSHKTGA------------------------ 789
+              ++   ++  + A++ +   K L G S    T A                        
+Sbjct: 798 ETTNIDTDSHDSEGANKKQ---KMLTGESEETPTQAALDSAKAVVEMPILDVLPSNMASA 854
+
+Query: 790 -------LSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRKINDAETIID--GT 840
+                  L +GD+RL  L+K++      AE +GEGTL+I+  V VRK       ++  G 
+Sbjct: 855 TRSVAQPLHVGDLRLTDLRKIMQSSGLTAELRGEGTLLIDGSVIVRKTGTGRIEVESVGV 914
+
+Query: 841 PSELFDTVKKLVTDMLAKI 859
+            +  F  VK  + + LA +
+Sbjct: 915 TTSSFYAVKGKIYEGLAVV 933
+
+
+>EDN98552 pep:novel supercontig:ASM14694v1:CH476645:82986:86202:1
+           gene:SS1G_13411 transcript:EDN98552
+           description:"hypothetical protein"
+          Length = 989
+
+ Score = 32.3 bits (72), Expect = 0.45,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query: 70  HSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYD 115
+           H    YNF S  +SRI +Y T PV  L  ++ + +  S G I  +D
+Sbjct: 517 HEFRSYNFPS-TVSRIWIYQTRPVSTLTHMAVVSAPKSPGEITNHD 561
+
+
+>EDN97543 pep:novel supercontig:ASM14694v1:CH476641:87662:89296:1
+           gene:SS1G_12394 transcript:EDN97543
+           description:"predicted protein"
+          Length = 501
+
+ Score = 31.2 bits (69), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 24/111 (21%), Positives = 46/111 (41%), Gaps = 3/111 (2%)
+
+Query: 746 VATVVGRLVKESLPQVNNHQKTASRSKLVLKPLHGSSRSHKTGALSIGDVRLAQLKKLLT 805
+           VA +  RL   +  + +  +     + ++   LH ++RS +   LS  + RL    K+  
+Sbjct: 13  VAALRARLSGNAPTRTSRSRVNLPSNPMLTATLHAAARSAQGMELSPLEERLVNAFKIYA 72
+
+Query: 806 EKNYIAEFKGEGTLVINEKVAVRKINDAETIIDGTPSELFDTVKKLVTDML 856
+               +AE+   G +    K   R +N     + G P  + D+   +  DM+
+Sbjct: 73  TDEEVAEY---GQIYTEMKTKTRSLNGHSGALRGIPLNIDDSTPYMEVDMV 120
+
+
+>EDO01991 pep:novel supercontig:ASM14694v1:CH476625:1257047:1259278:1
+           gene:SS1G_04467 transcript:EDO01991
+           description:"hypothetical protein"
+          Length = 679
+
+ Score = 30.4 bits (67), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 30/51 (58%), Gaps = 10/51 (19%)
+
+Query: 317 FEIGSR-IKIIAPNELSKYPG-SKIC------FVSEVGALINEVIIKVGNS 359
+           FE+G+R ++++ P EL  YPG S+ C      + SE GA   E  IK+G+ 
+Sbjct: 106 FEVGNRPLEVVGPRELQFYPGISRGCAFKGFVYHSEEGAKAAE--IKIGDG 154
+
+
+>EDN96030 pep:novel supercontig:ASM14694v1:CH476639:508729:509171:1
+           gene:SS1G_12236 transcript:EDN96030 description:"Brt1"
+          Length = 128
+
+ Score = 28.5 bits (62), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 14/63 (22%), Positives = 32/63 (50%), Gaps = 5/63 (7%)
+
+Query: 162 GSIWC-----ISTYSEKLVYAKRWNHTRDNILNAASILDATGKPLSTLMRPSAIITTLDR 216
+           G ++C     +   + KLV     + TR ++LN  ++L+A G  +  +++ +  +T +  
+Sbjct: 27  GMVYCSGSIGMDVTTMKLVEGGIADRTRQSLLNLRAVLEAAGSSIDNVVKVNVFLTDMQN 86
+
+Query: 217 FGS 219
+           F +
+Sbjct: 87  FAA 89
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 5,984,030
+Number of extensions: 248867
+Number of successful extensions: 735
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 728
+Number of HSP's successfully gapped: 19
+Length of query: 859
+Length of database: 3,721,581
+Length adjustment: 99
+Effective length of query: 760
+Effective length of database: 2,714,256
+Effective search space: 2062834560
+Effective search space used: 2062834560
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

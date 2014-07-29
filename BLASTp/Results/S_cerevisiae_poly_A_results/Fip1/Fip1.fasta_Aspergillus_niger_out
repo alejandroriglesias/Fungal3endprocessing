@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00008242 pep:known chromosome:CADRE:VII:3224139:3225218:...    65   3e-12
+CADANGAP00009670 pep:known chromosome:CADRE:III:1526057:1530391:...    32   0.32 
+CADANGAP00008675 pep:known chromosome:CADRE:VII:2128585:2130308:...    28   3.2  
+CADANGAP00002202 pep:known chromosome:CADRE:IV:4228529:4230871:1...    28   5.4  
+CADANGAP00009534 pep:known chromosome:CADRE:III:1864373:1871838:...    27   8.6  
+
+>CADANGAP00008242 pep:known chromosome:CADRE:VII:3224139:3225218:1
+           gene:CADANGAG00008389 transcript:CADANGAT00008389
+           description:"Putative uncharacterized protein
+           An11g00560"
+          Length = 323
+
+ Score = 65.5 bits (158), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 38/122 (31%), Positives = 63/122 (51%), Gaps = 15/122 (12%)
+
+Query: 109 SSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDK 168
+           SS DV +++  ++ T+T         E       TA      +     P     +ID+  
+Sbjct: 86  SSADVSTISKSITPTVTPK------LESATPVPATARPTVPQKPGSAYPPVHASNIDVHA 139
+
+Query: 169 EGIFDSVG--ITTID-----PEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQ 221
+             I  + G  I + D     PE   +KPWR+PG++++DYFNYGF+EFTW  Y+ +Q++L+
+Sbjct: 140 NPIHPATGKPIMSTDMDTDFPE--DDKPWRRPGSDITDYFNYGFDEFTWASYVLKQQELR 197
+
+Query: 222 QD 223
+           ++
+Sbjct: 198 KE 199
+
+
+>CADANGAP00009670 pep:known chromosome:CADRE:III:1526057:1530391:1
+           gene:CADANGAG00009856 transcript:CADANGAT00009856
+           description:"Similarity to hypothetical Sec76 domain
+           protein - Schizosaccharomyces pombe"
+          Length = 1390
+
+ Score = 32.0 bits (71), Expect = 0.32,   Method: Compositional matrix adjust.
+ Identities = 25/85 (29%), Positives = 41/85 (48%), Gaps = 7/85 (8%)
+
+Query: 153 DGNVPKAMTGSIDLDKEGIFD----SVGIT-TIDPEVLKEK-PWRQPGANLSDYFNYGFN 206
+           D  +P +M   ID +  G+ D     VG+    DP+  K + PW++ GA L+    Y F 
+Sbjct: 710 DAFMPSSMENPIDSNP-GLVDIKVAKVGLLWRKDPKKKKARSPWQEWGALLTFSKLYFFR 768
+
+Query: 207 EFTWMEYLHRQEKLQQDYNPRRILM 231
+           +  W++ L  QE+       RR ++
+Sbjct: 769 DVNWVKSLMHQEEAHHKEGRRRAVV 793
+
+
+>CADANGAP00008675 pep:known chromosome:CADRE:VII:2128585:2130308:-1
+           gene:CADANGAG00008838 transcript:CADANGAT00008838
+           description:"Catalytic activity\x3a ATP + a Protein \x3d
+           ADP + a Phosphoprotein"
+          Length = 468
+
+ Score = 28.5 bits (62), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 16/23 (69%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           ++YLHR+  + +D  P  IL+G+
+Sbjct: 279 LQYLHRKHVIHRDIKPENILVGI 301
+
+
+>CADANGAP00002202 pep:known chromosome:CADRE:IV:4228529:4230871:1
+           gene:CADANGAG00002264 transcript:CADANGAT00002264
+           description:"Similarity to pheromone response pathway
+           suppressor Srm1 - Saccharomyces cerevisiae"
+          Length = 647
+
+ Score = 27.7 bits (60), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 20/64 (31%), Positives = 29/64 (45%), Gaps = 1/64 (1%)
+
+Query: 93  RLDAKLLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATES 152
+           RL  KL +S      +   DV+S+ T   ++     + R+   G  N G TA  + A ES
+Sbjct: 303 RLHGKL-ESLIPGQCALPSDVVSIGTGSYHSFAVRKNGRVHAWGSNNFGQTAVPMSAGES 361
+
+Query: 153 DGNV 156
+           D  V
+Sbjct: 362 DAVV 365
+
+
+>CADANGAP00009534 pep:known chromosome:CADRE:III:1864373:1871838:-1
+           gene:CADANGAG00009718 transcript:CADANGAT00009718
+           description:"Remark\x3a PKS1 is a multifunctional
+           polyketide synthase"
+          Length = 2352
+
+ Score = 27.3 bits (59), Expect = 8.6,   Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 33/74 (44%), Gaps = 1/74 (1%)
+
+Query: 118 TDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGI 177
+           T++S        ER+ T+     G   + +  TE    V   +   + L+K  +  + G 
+Sbjct: 326 TELSAIGASFGQERIPTDEPVYVGSVKSNIGHTEGAAGVASLIKVVLCLEKATLVPNAGF 385
+
+Query: 178 TTIDPEVLKEKPWR 191
+            T++P++  EK WR
+Sbjct: 386 VTLNPKIQTEK-WR 398
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 2,897,941
+Number of extensions: 116804
+Number of successful extensions: 394
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 391
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 6,195,193
+Length adjustment: 95
+Effective length of query: 232
+Effective length of database: 4,858,733
+Effective search space: 1127226056
+Effective search space used: 1127226056
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

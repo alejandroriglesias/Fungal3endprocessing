@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_02327T1 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   256   2e-80
+MAPG_02327T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   256   2e-80
+MAPG_08618T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   4.8  
+MAPG_08849T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   6.4  
+
+>MAPG_02327T1 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:1377609:1
+           381346:1 gene:MAPG_02327 transcript:MAPG_02327T1
+           description:"RRM domain-containing protein"
+          Length = 441
+
+ Score =  256 bits (655), Expect = 2e-80,   Method: Compositional matrix adjust.
+ Identities = 134/218 (61%), Positives = 158/218 (72%), Gaps = 16/218 (7%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXX 60
+           MAEE+FEIDIYGD+N +Q    D+K   +YE GD      AN ++QY DDQQ        
+Sbjct: 1   MAEEEFEIDIYGDSNADQA---DHKEGHAYEAGD------ANGHDQYNDDQQNKDGAAAE 51
+
+Query: 61  XX------XXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIR 114
+                         T  ATP  ++ +KRKEGSD+R IDPGATSAI++S+L WW TDDD+R
+Sbjct: 52  GEGQNRGGTHESSTTPLATPAPTHGVKRKEGSDERPIDPGATSAIMVSDLNWWTTDDDLR 111
+
+Query: 115 GWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGR 174
+           GWIREAGCE ELKDITFSEHKVNGKSKGQVYIEL SQQAATAVKHR+E+  ++  +QA +
+Sbjct: 112 GWIREAGCESELKDITFSEHKVNGKSKGQVYIELKSQQAATAVKHRIEAHVDESNAQA-K 170
+
+Query: 175 KQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGY 212
+           +  V+YSSPT+NPFRTLPKDQPR GKDGQNR  SG GY
+Sbjct: 171 RHSVLYSSPTVNPFRTLPKDQPRAGKDGQNRAPSGPGY 208
+
+
+>MAPG_02327T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:1377609:1
+           381346:1 gene:MAPG_02327 transcript:MAPG_02327T0
+           description:"RRM domain-containing protein"
+          Length = 441
+
+ Score =  256 bits (655), Expect = 2e-80,   Method: Compositional matrix adjust.
+ Identities = 134/218 (61%), Positives = 158/218 (72%), Gaps = 16/218 (7%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXX 60
+           MAEE+FEIDIYGD+N +Q    D+K   +YE GD      AN ++QY DDQQ        
+Sbjct: 1   MAEEEFEIDIYGDSNADQA---DHKEGHAYEAGD------ANGHDQYNDDQQNKDGAAAE 51
+
+Query: 61  XX------XXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIR 114
+                         T  ATP  ++ +KRKEGSD+R IDPGATSAI++S+L WW TDDD+R
+Sbjct: 52  GEGQNRGGTHESSTTPLATPAPTHGVKRKEGSDERPIDPGATSAIMVSDLNWWTTDDDLR 111
+
+Query: 115 GWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGR 174
+           GWIREAGCE ELKDITFSEHKVNGKSKGQVYIEL SQQAATAVKHR+E+  ++  +QA +
+Sbjct: 112 GWIREAGCESELKDITFSEHKVNGKSKGQVYIELKSQQAATAVKHRIEAHVDESNAQA-K 170
+
+Query: 175 KQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGY 212
+           +  V+YSSPT+NPFRTLPKDQPR GKDGQNR  SG GY
+Sbjct: 171 RHSVLYSSPTVNPFRTLPKDQPRAGKDGQNRAPSGPGY 208
+
+
+>MAPG_08618T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.8:766457:76
+           8266:-1 gene:MAPG_08618 transcript:MAPG_08618T0
+           description:"MKI67 FHA domain-interacting nucleolar
+           phosphoprotein"
+          Length = 387
+
+ Score = 28.1 bits (61), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 14/66 (21%), Positives = 30/66 (45%), Gaps = 3/66 (4%)
+
+Query: 98  AILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAV 157
+            I I  + +   + +IR ++ + G    + ++  S +K  G SKG  ++E      A  V
+Sbjct: 168 VIYIGHIPYGFFEHEIRQYLTQFGT---VTNLRLSRNKKTGASKGYAFVEFADASTAAIV 224
+
+Query: 158 KHRLES 163
+              +++
+Sbjct: 225 AKTMDA 230
+
+
+>MAPG_08849T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.8:1504969:1
+           508065:-1 gene:MAPG_08849 transcript:MAPG_08849T0
+           description:"hypothetical protein"
+          Length = 944
+
+ Score = 27.7 bits (60), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 18/53 (33%), Positives = 23/53 (43%), Gaps = 1/53 (1%)
+
+Query: 145 YIELTSQQAAT-AVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQP 196
+           +I L  Q   T  V  +L SS ++G    GRKQ   Y    + P R  P   P
+Sbjct: 741 FIALAIQARLTRYVGAKLISSPDEGRLLMGRKQGRPYLDYALRPLRVTPVKMP 793
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 2,796,173
+Number of extensions: 115831
+Number of successful extensions: 438
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 423
+Number of HSP's successfully gapped: 18
+Length of query: 424
+Length of database: 4,928,244
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 3,836,724
+Effective search space: 1258445472
+Effective search space used: 1258445472
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

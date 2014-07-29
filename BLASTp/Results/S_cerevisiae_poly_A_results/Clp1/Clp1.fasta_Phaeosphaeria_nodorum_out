@@ -1,0 +1,127 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_14068 pep:known supercontig:ASM14691v1:supercont1.29:384467...   164   3e-45
+SNOT_14100 pep:known supercontig:ASM14691v1:supercont1.30:31876:...    32   0.45 
+
+>SNOT_14068 pep:known supercontig:ASM14691v1:supercont1.29:384467:386163:1
+           gene:SNOG_14068 transcript:SNOT_14068
+           description:"Protein CLP1"
+          Length = 468
+
+ Score =  164 bits (415), Expect = 3e-45,   Method: Compositional matrix adjust.
+ Identities = 121/434 (27%), Positives = 213/434 (49%), Gaps = 32/434 (7%)
+
+Query: 32  SDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLT 91
+           ++++ ++     L +K+ SG  E FGTELA    Y+FQ  K  ++     +L        
+Sbjct: 34  TEYRFEVSFARTLTIKLQSGTAEFFGTELAPSTTYSFQGTKGAVFTWHGCKLEIGG---E 90
+
+Query: 92  TNTITVKPNHTMKYIYNLHFMLEKIRMSNFE------GPRVVIVGGSQTGKTSLSRTLCS 145
+             +  V     M    NLHF LE +R  +        GPRV++VG   +GKTSL + + S
+Sbjct: 91  VESDYVAEETPMMSCANLHFALELLRDQSVSSGSAEMGPRVLVVGPEHSGKTSLVKVMTS 150
+
+Query: 146 YALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQP 205
+           YA K  + QP+ +NLDP+Q + ++PG  SA   S I+D +   WG S  SG + +  K P
+Sbjct: 151 YAAK-TSRQPMVVNLDPRQGMLSIPGSFSAAAYSSIVDIE-EGWGSSPISGPSPIPVKMP 208
+
+Query: 206 MVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTP-SISQLDENLAE 264
+           +V ++GL+   E K ++   ++++   V  RL  D   +++G I+D+  +ISQ    + E
+Sbjct: 209 LVYHYGLKDPEEGK-VFKPLVTRMALAVTSRLEEDKLSKQAGFIIDSSGAISQGRNGVYE 267
+
+Query: 265 -LHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELGNN--NIFFIPKLDGVSAVDDVYK 321
+            + HI+ + +VN+++ L SE   L+  + + +     +   N+  + K  G     + Y 
+Sbjct: 268 NIEHIVSEFSVNVLITLGSER--LYSDLSRKYRNRDPSESVNVIRLDKSGGCVNRPEEYM 325
+
+Query: 322 RSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTI-----------WKPSNVFDNEVGRVE 370
+           ++L+   +REYF+G  D  L+P +   D+ DL I           ++  +  + +   V 
+Sbjct: 326 KALRHAQVREYFFGHGDNTLAPSSQTCDFGDLHIFQIVEGDEGALYRSGDYDEYDPSNVS 385
+
+Query: 371 LFPV--TITPS-NLQHAIIAITFAERRADQATVIKSPILGFALITEVNEXXXXXXXXXXX 427
+           L  +   +TPS +LQ++++AIT A     Q  +  S + G+  + +V+E           
+Sbjct: 386 LASIYTRVTPSPSLQNSLLAITTASPTDSQDVIRDSSVKGYIYVADVDEAKKKVRLLSPQ 445
+
+Query: 428 XXXXXSKAMILTSY 441
+                  AM+L ++
+Sbjct: 446 PGMIPGNAMVLGTW 459
+
+
+>SNOT_14100 pep:known supercontig:ASM14691v1:supercont1.30:31876:36120:-1
+            gene:SNOG_14100 transcript:SNOT_14100
+            description:"Putative uncharacterized protein"
+          Length = 1283
+
+ Score = 31.6 bits (70), Expect = 0.45,   Method: Compositional matrix adjust.
+ Identities = 26/87 (29%), Positives = 39/87 (44%), Gaps = 16/87 (18%)
+
+Query: 102  TMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTLCSY-----------ALKF 150
+            T  Y  +   +L+ I +    G RV IVG S +GK+SL   LC              +  
+Sbjct: 1037 TASYAPHSQPILQGINLHIRSGQRVGIVGRSGSGKSSLVACLCRMMNLHSGNITIDGVDT 1096
+
+Query: 151  NAYQP----LYINLDPQQPIFTVPGCI 173
+            +   P    L +N+ PQ+P F +PG +
+Sbjct: 1097 STLSPEDIRLSLNVLPQRP-FLIPGTL 1122
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 4,470,525
+Number of extensions: 189957
+Number of successful extensions: 433
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 428
+Number of HSP's successfully gapped: 4
+Length of query: 445
+Length of database: 5,238,126
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,036,199
+Effective search space: 1404597252
+Effective search space used: 1404597252
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

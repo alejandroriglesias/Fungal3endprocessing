@@ -1,0 +1,197 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX72632 pep:novel supercontig:GCA_000150505.2:supercont6.2:2143...   709   0.0  
+EPX74257 pep:novel supercontig:GCA_000150505.2:supercont6.1:2032...    98   1e-21
+EPX73187 pep:novel supercontig:GCA_000150505.2:supercont6.2:3384...    29   2.2  
+EPX72354 pep:novel supercontig:GCA_000150505.2:supercont6.2:1547...    28   3.5  
+
+>EPX72632 pep:novel supercontig:GCA_000150505.2:supercont6.2:2143477:2146669:
+           1 gene:SOCG_00395 transcript:EPX72632 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Ysh1"
+          Length = 731
+
+ Score =  709 bits (1831), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 378/772 (48%), Positives = 514/772 (66%), Gaps = 102/772 (13%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+            +F +LG  NEVGRSCHILQYKGKTVMLDAG+HPAY GLA+LPFYDEFDLS VD+LL+SH
+Sbjct: 19  LQFINLGAGNEVGRSCHILQYKGKTVMLDAGVHPAYNGLAALPFYDEFDLSTVDVLLVSH 78
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FHLDH ASLPYVM +TNF+GRVFMTHPTKA+ +WLL D+V+V+++G         ++ L+
+Sbjct: 79  FHLDHVASLPYVMTKTNFRGRVFMTHPTKAVCKWLLSDYVKVSNVGV--------EDQLY 130
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+            ++DL  +F+++E VDYHST++V G+KFT +HAGHVLGA MF IE+AG+++L+TGDYSRE
+Sbjct: 131 DEKDLTAAFERMEAVDYHSTIEVEGVKFTPYHAGHVLGACMFFIEMAGVKILYTGDYSRE 190
+
+Query: 189 VDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFAL 248
+            DRHL+ AEVPP   ++LI EST+GTA+H+PRL +E +L  ++HST+  GGRVL+PVFAL
+Sbjct: 191 EDRHLHIAEVPPTKPDILITESTYGTASHQPRLEKEARLLNIVHSTIRNGGRVLMPVFAL 250
+
+Query: 249 GRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRDS 308
+           GRAQE++LILDEYW+ H D      VPI+YAS+LA+KCM+VFQTYVNMMND+IRK F  +
+Sbjct: 251 GRAQELLLILDEYWNNHYDL---RPVPIYYASSLARKCMAVFQTYVNMMNDNIRKAF--A 305
+
+Query: 309 QTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGYS 368
+           + NPFIF+ I  LRNL+ F D GPSV++ASPGMLQ+G+SR LLERW P+ +N +L+TGYS
+Sbjct: 306 ERNPFIFRYIKNLRNLDRFDDIGPSVIIASPGMLQNGVSRALLERWAPDPRNTLLLTGYS 365
+
+Query: 369 IEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLEFIEKISAPNIIL 428
+           +EGTMAK I  EP  I S++  +  IPRR  VEE+SFAAHVD+ +N EFI+++ A +IIL
+Sbjct: 366 VEGTMAKQITNEPVEITSMSGQK--IPRRMAVEELSFAAHVDYIQNSEFIDQVKADHIIL 423
+
+Query: 429 VHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVKVAKAVGXXXXXX 488
+           VHGE   MGRLKSALLS F + K  D++  V+ PRNCV + L F+G ++ +A+G      
+Sbjct: 424 VHGEQTNMGRLKSALLSKFHNQK-LDSK--VYTPRNCVPLFLYFKGERLVRALG------ 474
+
+Query: 489 XXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLVDEEEHKDIVVSGILVSDDKNFELD 548
+                                           K  V +    DI +SGILV  D  ++L 
+Sbjct: 475 --------------------------------KVAVRKPTDGDI-MSGILVQKDSVYKL- 500
+
+Query: 549 FLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVLQDDDRVTNQEPK 608
+            +S  DLR+   DL+TT+L ++Q +      EL  +H+ QMFG                 
+Sbjct: 501 -MSADDLRD-FSDLTTTVLTQKQVIPFFSSLELAKYHLNQMFGH---------------- 542
+
+Query: 609 VKEESKDNLTNTGKLILQIMGDIKLTIVNTLAV-VEWTQDLMNDTVADSIIAILMNVDSA 667
+           VKEE     T +G L   +M  I L++     + +EW  ++MNDT+ADS+I +L+ ++S+
+Sbjct: 543 VKEER----TKSGTLRYTVMDAIHLSMPTEHKLNLEWAGNIMNDTIADSVITVLLGIESS 598
+
+Query: 668 PASVKLSSHSCDDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLNKDEYASN 727
+           PASVKL++H C     +  +S A+      +R+ ++    + QFG+  T   +KD     
+Sbjct: 599 PASVKLTNHKCVHGHTHPRKSKAE------DRISKLMMFLESQFGESIT--KSKD----- 645
+
+Query: 728 KEETITGV-VTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPL 778
+                 GV + I +  A IDF+ MK+ ECN+  L+ R+  +L+   N + P 
+Sbjct: 646 ------GVYIKIDQYEASIDFSTMKV-ECNNEILRTRIVHVLSRAVNTILPF 690
+
+
+>EPX74257 pep:novel supercontig:GCA_000150505.2:supercont6.1:2032454:2036470:
+           1 gene:SOCG_03468 transcript:EPX74257
+           description:"cleavage factor two Cft2/polyadenylation
+           factor CPSF-73"
+          Length = 791
+
+ Score = 97.8 bits (242), Expect = 1e-21,   Method: Compositional matrix adjust.
+ Identities = 78/323 (24%), Positives = 140/323 (43%), Gaps = 32/323 (9%)
+
+Query: 62  DILLISHFHLDHAASLPYVMQRTNFQ-GRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXM 120
+           D++L+SH  L H   L Y   R +++   ++ T P   + R  + D ++   +       
+Sbjct: 45  DLILLSHSDLSHLGGLVYAYHRYDWKNAHIYATLPVINMGRMTMLDAIKSNFVDD----- 99
+
+Query: 121 GTKDEGLFSDEDLVDSFDKIETVDYHSTVDV----NGIKFTAFHAGHVLGAAMFQIEIAG 176
+                   + E +   FD I  + Y     +     G+  TA++AGH LG  ++ +    
+Sbjct: 100 -------ITKEQVNQVFDSIIALRYSQPTSLLGTCCGVSVTAYNAGHSLGGTLWSLIKES 152
+
+Query: 177 LRVLFTGDYSREVDRHLNSAEVPPLS--------SNVLIVESTFGTATHEPRLNRERKLT 228
+             +L+  D++   D+HLN   +             N LI ++     +   R  R+    
+Sbjct: 153 ESILYAVDWNHSKDKHLNGTALYTNGHILEALNRPNTLITDANNALVSTPSRKKRDEAFI 212
+
+Query: 229 QLIHSTVMRGGRVLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMS 288
+           + + S++ +GG VLLPV +  R  E+   LD +WS     L     PIF+ S  + K + 
+Sbjct: 213 ESVMSSLYKGGTVLLPVDSSSRVLELCCFLDSHWSSTQPPL---PFPIFFLSPTSTKTID 269
+
+Query: 289 VFQTYVNMMNDDIRKKFRDSQTNPFIFKNISYLRNLEDFQDFGPS--VMLASPGMLQSGL 346
+             ++ +  M D+I + F   ++    F+NI  + +       GP   V+LA+   L  G 
+Sbjct: 270 YARSMIEWMGDNIVRDFGIDES-LLEFRNIHTITDYSQLSSIGPGPKVILATSLTLDCGF 328
+
+Query: 347 SRDLLERWCPEDKN-LVLITGYS 368
+           S+ +L  +  ++ N L+L T  S
+Sbjct: 329 SQQVLLNFMSQNSNDLILFTQKS 351
+
+
+>EPX73187 pep:novel supercontig:GCA_000150505.2:supercont6.2:3384316:3386727:
+           -1 gene:SOCG_00942 transcript:EPX73187
+           description:"phosphatidylinositol 3-kinase Pik3"
+          Length = 803
+
+ Score = 29.3 bits (64), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 14/30 (46%), Positives = 19/30 (63%), Gaps = 2/30 (6%)
+
+Query: 684 NNVQSNAQGKIDEVERVKQISRLFKEQFGD 713
+           N + S   GK+ E+ER+ Q+  LFK Q GD
+Sbjct: 144 NALTSTESGKVHEIERLDQL--LFKLQLGD 171
+
+
+>EPX72354 pep:novel supercontig:GCA_000150505.2:supercont6.2:1547874:1549451:
+           1 gene:SOCG_00118 transcript:EPX72354
+           description:"Smc5-6 complex non-SMC subunit Nse4"
+          Length = 299
+
+ Score = 28.1 bits (61), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 22/70 (31%), Positives = 32/70 (45%), Gaps = 3/70 (4%)
+
+Query: 700 VKQISRLF-KEQFGDCFTLFLNKDEYASNKEET--ITGVVTIGKSTAKIDFNNMKILECN 756
+           V QISRL  K Q  D      N + Y+   E    ++ +   GK+    D     +LEC 
+Sbjct: 182 VLQISRLLRKHQPIDLLKFITNPESYSQTVENLFYVSFLFKEGKAGLTEDSQGALLLECK 241
+
+Query: 757 SNPLKGRVES 766
+           + PL  +V+S
+Sbjct: 242 TPPLDEQVDS 251
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 3,308,659
+Number of extensions: 137926
+Number of successful extensions: 348
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 339
+Number of HSP's successfully gapped: 12
+Length of query: 779
+Length of database: 2,302,372
+Length adjustment: 96
+Effective length of query: 683
+Effective length of database: 1,823,716
+Effective search space: 1245598028
+Effective search space used: 1245598028
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 53 (25.0 bits)

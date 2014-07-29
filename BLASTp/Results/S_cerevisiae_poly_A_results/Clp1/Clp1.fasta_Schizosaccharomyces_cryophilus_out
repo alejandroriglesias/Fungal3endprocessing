@@ -1,0 +1,184 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY51856 pep:novel supercontig:GCA_000004155.2:supercont4.3:6102...   180   2e-51
+EPY50011 pep:novel supercontig:GCA_000004155.2:supercont4.7:6480...    33   0.073
+EPY50185 pep:novel supercontig:GCA_000004155.2:supercont4.6:1573...    29   1.1  
+EPY51174 pep:novel supercontig:GCA_000004155.2:supercont4.4:3008...    28   1.3  
+EPY51600 pep:novel supercontig:GCA_000004155.2:supercont4.3:5786...    28   2.2  
+EPY51584 pep:novel supercontig:GCA_000004155.2:supercont4.3:3016...    28   3.6  
+EPY51464 pep:novel supercontig:GCA_000004155.2:supercont4.4:9481...    27   5.4  
+EPY51936 pep:novel supercontig:GCA_000004155.2:supercont4.3:7796...    27   6.7  
+
+>EPY51856 pep:novel supercontig:GCA_000004155.2:supercont4.3:610223:612136:-1
+           gene:SPOG_00278 transcript:EPY51856 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 457
+
+ Score =  180 bits (456), Expect = 2e-51,   Method: Compositional matrix adjust.
+ Identities = 138/475 (29%), Positives = 228/475 (48%), Gaps = 75/475 (15%)
+
+Query: 25  KLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELL 84
+           ++V+PKG +W+ +++  G + +++ +G  E FGTELA+   Y F+  K  I+        
+Sbjct: 4   EIVVPKGCEWRFEVEEPG-IQIRLANGNAEYFGTELALGPPYKFEQVKGAIFT------- 55
+
+Query: 85  WKCPDLTTNTITVKPNHTMKYI---------YNLHFMLEKIRMS---------NFEGPRV 126
+           W+       T+ V+   +++Y+          NLHF LE IR           +  GPRV
+Sbjct: 56  WQ-----GCTLEVEGEPSVEYVAEETPMCTYLNLHFALENIRKKAEDDASVDPSISGPRV 110
+
+Query: 127 VIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQL 186
+            ++G   +GKTS+ + L SYAL+  +  P+ +NLDP QP+  +PG ISA   + ILD Q 
+Sbjct: 111 CLIGPKSSGKTSVMKILESYALR-QSRHPVCVNLDPSQPMVALPGSISAFHNATILDIQE 169
+
+Query: 187 PT-WGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRR 245
+            T +G S+++G T +  K P+V N+GL+   +N  LY  C S+L   V  R+        
+Sbjct: 170 ATGFGASMSTGPTHILAKSPLVYNYGLDSPYDNPKLYKSCCSRLALAVNSRMTQSSDASV 229
+
+Query: 246 SGCIVDTPSISQLDENL-AELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELGNNNI 304
+           SGC+VDT S+ +  E     LH II    +NI+LVL SE   L+  +K+ +  +    ++
+Sbjct: 230 SGCLVDTCSLQENYERYQGTLHSIITDFRINIVLVLGSER--LYSTIKRNYS-DASWLSV 286
+
+Query: 305 FFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWK------- 357
+             +P   G    +  +    Q   +++YFYG     LSP +I VD   L +++       
+Sbjct: 287 VKLPSSGGCIDREPEWIAKWQSKCLKQYFYGDERMPLSPLSIIVDSTQLVVYRVLEASES 346
+
+Query: 358 --PSNV----FDNEVG---------------------RVELFPVTITPSNLQHAIIAITF 390
+              S+V    F+ E G                     R+    +TI    LQ++I+AI+ 
+Sbjct: 347 GPKSSVLPIGFEEETGQADKQGSYMSLALSGKGQYLERITTEAMTI----LQNSILAISS 402
+
+Query: 391 AERRADQATVIKSPILGFALITEVNEXXXXXXXXXXXXXXXXSKAMILTSYRYLE 445
+                ++  +I S ILG+  +T+V++                S A+I+ + ++ E
+Sbjct: 403 VNEDENETAIIDSCILGYVFVTDVDDVKNRMTLLSPVPDRLPSNALIMGTCKWQE 457
+
+
+>EPY50011 pep:novel supercontig:GCA_000004155.2:supercont4.7:648001:649881:-1
+           gene:SPOG_03480 transcript:EPY50011 description:"WD
+           repeat containing cyclophilin family peptidyl-prolyl
+           cis-trans isomerase Cyp9"
+          Length = 610
+
+ Score = 33.1 bits (74), Expect = 0.073,   Method: Compositional matrix adjust.
+ Identities = 42/170 (24%), Positives = 68/170 (40%), Gaps = 23/170 (13%)
+
+Query: 99  PNHTMKYIYNLHFML--EKIRMSNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPL 156
+           P H ++YI +L+ ML  +K  M  +  P       +  G   L      Y  K     P 
+Sbjct: 181 PVHVLEYINSLNCMLSVDKGGMVEYWCPEEPFQKPNGQGIFELKSQTDLYIFKKTKSIPS 240
+
+Query: 157 YINLDPQQPIFTVPGCISATPISDILDAQLPTWGQ---SLTSGATLLH-NKQPMVKNFGL 212
+            I + P + IF+                  P W      + SG  LL  ++ P+     +
+Sbjct: 241 SIQISPSEKIFS--------------SISYPDWKVRVFDVKSGRILLEFDEHPLNAAKEM 286
+
+Query: 213 ERINENKDLYLECISQLGQV-VGQRLHLDPQVRRSGCIVDTPSISQLDEN 261
+           E+  E +D+    +  + QV  G+RL ++  + RSG + DT +I    EN
+Sbjct: 287 EQALEKEDV--NSLYFMNQVEFGRRLAIERDIERSGWMADTIAIFDESEN 334
+
+
+>EPY50185 pep:novel supercontig:GCA_000004155.2:supercont4.6:157351:159704:-1
+           gene:SPOG_00946 transcript:EPY50185
+           description:"F1-ATPase alpha subunit"
+          Length = 536
+
+ Score = 29.3 bits (64), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 32/72 (44%), Gaps = 9/72 (12%)
+
+Query: 70  NWKFPIYAVEETELLWKCPDLTTNTITVKPNHT-MKYIYNLHFMLEKIRMSNFEGPRVVI 128
+           + K PI   E      K P +   T   +P  T MK I ++        +    G R +I
+Sbjct: 144 DGKGPIKTTERRRAQLKAPGILPRTSVCEPMQTGMKAIDSM--------VPIGRGQRELI 195
+
+Query: 129 VGGSQTGKTSLS 140
+           +G  QTGKT+++
+Sbjct: 196 IGDRQTGKTAIA 207
+
+
+>EPY51174 pep:novel supercontig:GCA_000004155.2:supercont4.4:300890:302327:1
+           gene:SPOG_02351 transcript:EPY51174
+           description:"nucleoside-triphosphatase"
+          Length = 177
+
+ Score = 28.5 bits (62), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 30/55 (54%), Gaps = 11/55 (20%)
+
+Query: 238 HLDPQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVK 292
+           +L+P++ + GCIVD  + S   E L           +++ +VL ++   LWE+++
+Sbjct: 69  YLEPRLLKGGCIVDWHTCSIFPEEL-----------IDLAIVLRTDHSKLWERLE 112
+
+
+>EPY51600 pep:novel supercontig:GCA_000004155.2:supercont4.3:57860:58933:1
+           gene:SPOG_00026 transcript:EPY51600 description:"snoRNA
+           biogenesis protein"
+          Length = 330
+
+ Score = 28.1 bits (61), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 14/32 (43%), Positives = 18/32 (56%)
+
+Query: 251 DTPSISQLDENLAELHHIIEKLNVNIMLVLCS 282
+           +T SI + D N A+L   IEK  +NI L   S
+Sbjct: 56  ETTSIHRADRNRAQLKRTIEKTGINIHLAPAS 87
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 2,021,608
+Number of extensions: 87705
+Number of successful extensions: 232
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 226
+Number of HSP's successfully gapped: 12
+Length of query: 445
+Length of database: 2,338,516
+Length adjustment: 91
+Effective length of query: 354
+Effective length of database: 1,867,136
+Effective search space: 660966144
+Effective search space used: 660966144
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 51 (24.3 bits)

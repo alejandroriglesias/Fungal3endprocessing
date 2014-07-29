@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ33262 pep:novel supercontig:GCA_000149035.1:GG697369:62532:64...   706   0.0  
+EFQ27546 pep:novel supercontig:GCA_000149035.1:GG697338:15723:19...    65   6e-11
+EFQ30955 pep:novel supercontig:GCA_000149035.1:GG697352:184474:1...    30   2.8  
+
+>EFQ33262 pep:novel supercontig:GCA_000149035.1:GG697369:62532:64802:-1
+           gene:GLRG_08406 transcript:EFQ33262
+           description:"hypothetical protein"
+          Length = 631
+
+ Score =  706 bits (1822), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 361/632 (57%), Positives = 442/632 (69%), Gaps = 25/632 (3%)
+
+Query: 4   ERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFA----VLRSLQEIA 59
+           ER LGVTPP+S+ LPTE E  A  +L+ ELR QN+FE P +TEKR A    VL  L  I 
+Sbjct: 5   ERPLGVTPPISLALPTEAENHAMQTLIDELRRQNTFESPTDTEKRQALSETVLEHLARIC 64
+
+Query: 60  DAFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFE 119
+           D FVK VARK+E  N  LI+DARGK+F YGS RLGV+GPGSDIDTLVVAP+YVTR DYFE
+Sbjct: 65  DEFVKRVARKREEGNDALIRDARGKIFTYGSYRLGVYGPGSDIDTLVVAPKYVTRADYFE 124
+
+Query: 120 HFPGLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLS 179
+            FP LL EMAPP AITD++VV DAFVPIIKFEFSGISIDLIFSRIA +KQLP D  +N+ 
+Sbjct: 125 IFPDLLKEMAPPGAITDMAVVADAFVPIIKFEFSGISIDLIFSRIAMLKQLPKD--FNVQ 182
+
+Query: 180 DSNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPG 239
+           DS LLRGLDE ELRS+NGTRVTDEI+SLVPEQ  F+ ALRAIKLWAQRRAIY NI+GFPG
+Sbjct: 183 DSGLLRGLDEAELRSLNGTRVTDEILSLVPEQATFKLALRAIKLWAQRRAIYANIMGFPG 242
+
+Query: 240 GVAWAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIY 299
+           GVAWAMLVARVCQLYP+A +SV+VNKFF I+ +WPWPQPVLLK +E GPLQ R+WNPK+Y
+Sbjct: 243 GVAWAMLVARVCQLYPKAASSVIVNKFFHIMRRWPWPQPVLLKHVEGGPLQVRVWNPKLY 302
+
+Query: 300 PGDRYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKH 359
+            GD++HLMP+ITPAYPSMCAT+NIT+S+  VI +EL +  D+T+ IM+G+ PW DLF KH
+Sbjct: 303 KGDQFHLMPVITPAYPSMCATYNITRSAMTVIQQELQRGCDITDAIMLGRSPWSDLFVKH 362
+
+Query: 360 TFFTKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRS 419
+           TFFT+ +KYYI VI +S DKE+HK+WSG+VESKVR+LVQGLE+H+SIA+A  F KGY+R 
+Sbjct: 363 TFFTQGYKYYISVITSSTDKEAHKVWSGYVESKVRVLVQGLEQHQSIALAHAFNKGYERR 422
+
+Query: 420 HRYYDDSQFNQILEGSLANLC---QDKDPQXXXXXXXXXXXXXXSNGTHTNGIAV---KD 473
+           HR  ++ + +Q+  G+++ L    +D D                  G   +   V   K 
+Sbjct: 423 HRCKNEEEVHQVQAGNMSFLVRDDEDHDTSPAKDKIETKAELSSIPGLKPDPDPVPTLKT 482
+
+Query: 474 E-----VAIKQEGHARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEAKSL 528
+           E       +K+EG +    ++      +   +     P  +++TTT YIGL L   AKSL
+Sbjct: 483 EPSDTITEVKEEGGSSATMQETPFAPVVKTELGNKTAPPIEVFTTTHYIGLTLSEGAKSL 542
+
+Query: 529 DLSFQVNDFKWLCYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGETX----XXXXXX 584
+           DLS+QV +FK LC  W KY+  L  L    ++ +RSF LPDD+F PGE            
+Sbjct: 543 DLSYQVENFKTLCTTWEKYESTLNCLA---VQHVRSFNLPDDVFEPGEKKPQRPQKRQAN 599
+
+Query: 585 XXXXXXXXXXXANEDN-QAPAKRHQPATVGSG 615
+                      A+EDN Q PAKR Q +   +G
+Sbjct: 600 ANGAAQIKKRSASEDNSQPPAKRQQASVTAAG 631
+
+
+>EFQ27546 pep:novel supercontig:GCA_000149035.1:GG697338:15723:19443:1
+           gene:GLRG_02690 transcript:EFQ27546
+           description:"endonuclease/Exonuclease/phosphatase"
+          Length = 1198
+
+ Score = 64.7 bits (156), Expect = 6e-11,   Method: Compositional matrix adjust.
+ Identities = 61/271 (22%), Positives = 112/271 (41%), Gaps = 48/271 (17%)
+
+Query: 89  GSLRLGVWGPGSDIDTLVV---APRYVTREDYFEHFPGLLVEMAPPNAITDLSVVVDAFV 145
+           GS  LG W   SDID L +   +PR       F       +  +  + +  L  V     
+Sbjct: 640 GSYGLGTWSRTSDIDCLCIGSISPRI------FFTLARQRLRKSGESGVRLLRKVKAKTG 693
+
+Query: 146 PIIKFEFSGISIDLIFSRIAT--------MKQLPADPNWNLSDSNLLRGLDEKELRSVNG 197
+            +++ E  GI  DL + +  +        +K+ P+DP ++L    LL+    ++L  +  
+Sbjct: 694 TMLEVEVMGIKCDLQYCQAPSVVDQWPDMLKRPPSDPAFSLPMQTLLKLKPARDLFYLQR 753
+
+Query: 198 TRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARVCQLYPRA 257
+           +         +P+   FR + +AIK WA+ R IY    G+ GG+  ++++ +VC++  R 
+Sbjct: 754 S---------IPDLAQFRVSFQAIKTWAKSRGIYAAKFGYLGGIHLSVMLVKVCKMLLRV 804
+
+Query: 258 TASV----VVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDRYHLMP----- 308
+              V    ++  FF    ++ W   V             +++P  +   RYH  P     
+Sbjct: 805 GGVVSAVDIITTFFDHYSRFDWQNDV-------------VFDPFFHKNLRYHRTPREAMC 851
+
+Query: 309 IITPAYPSMCATFNITKSSKDVIGRELVKAA 339
+           ++    P++      +  +  +I  EL  AA
+Sbjct: 852 LLGWHSPTLNTALIASVPTVKIISAELCHAA 882
+
+
+>EFQ30955 pep:novel supercontig:GCA_000149035.1:GG697352:184474:185973:1
+           gene:GLRG_06099 transcript:EFQ30955 description:"APSES
+           transcription factor Xbp1"
+          Length = 443
+
+ Score = 29.6 bits (65), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 26/54 (48%), Gaps = 4/54 (7%)
+
+Query: 306 LMPIITPAYPSMCATFNITKSSKDVIGRELVK----AADLTNLIMVGKLPWKDL 355
+           L+PI  P++PS+C         + VI   +VK     ADL+  I    LP  DL
+Sbjct: 187 LIPIFGPSFPSLCIPPGSPDYQRMVIDHRIVKDAIRDADLSRKIQQHALPPIDL 240
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 6,906,392
+Number of extensions: 291212
+Number of successful extensions: 590
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 585
+Number of HSP's successfully gapped: 6
+Length of query: 616
+Length of database: 5,585,764
+Length adjustment: 100
+Effective length of query: 516
+Effective length of database: 4,383,764
+Effective search space: 2262022224
+Effective search space used: 2262022224
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

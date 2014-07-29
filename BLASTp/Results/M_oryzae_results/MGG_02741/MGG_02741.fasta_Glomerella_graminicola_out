@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ29531 pep:novel supercontig:GCA_000149035.1:GG697345:397640:3...   199   3e-59
+EFQ30502 pep:novel supercontig:GCA_000149035.1:GG697349:593105:5...    33   0.17 
+EFQ28386 pep:novel supercontig:GCA_000149035.1:GG697340:907700:9...    30   1.5  
+EFQ28457 pep:novel supercontig:GCA_000149035.1:GG697341:152011:1...    28   4.6  
+EFQ28908 pep:novel supercontig:GCA_000149035.1:GG697342:857620:8...    28   5.9  
+EFQ26446 pep:novel supercontig:GCA_000149035.1:GG697334:974700:9...    28   6.6  
+
+>EFQ29531 pep:novel supercontig:GCA_000149035.1:GG697345:397640:399177:-1
+           gene:GLRG_04675 transcript:EFQ29531 description:"RRM
+           domain-containing protein"
+          Length = 358
+
+ Score =  199 bits (505), Expect = 3e-59,   Method: Compositional matrix adjust.
+ Identities = 117/222 (52%), Positives = 143/222 (64%), Gaps = 28/222 (12%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQY-----RDDQQXXX 55
+           MAEE+FEIDIYGDA Q+ Q  +   +D     G   +GH  + NE++      DDQQ   
+Sbjct: 1   MAEEEFEIDIYGDAPQDHQDANAENYD-----GQQANGHADDHNERHEHHEQHDDQQNQQ 55
+
+Query: 56  XXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRG 115
+                         ++  PQQ   +KRK   DDR +DPGAT+A++IS+L WW TDDDIRG
+Sbjct: 56  EEYNDHQ-------DAPAPQQG--VKRK--GDDRPVDPGATTALMISDLNWWNTDDDIRG 104
+
+Query: 116 WIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRK 175
+           + R A CE+ELKDITFSEHKVNGKSKGQ Y+E T+QQAATA KH LE++  DG     +K
+Sbjct: 105 YARAAHCEDELKDITFSEHKVNGKSKGQAYVEFTTQQAATAAKHALEAT--DGGQGVPKK 162
+
+Query: 176 QQVIYSSPTMNPFRTLPKDQP-RTGKD--GQNRPTSGAGYNN 214
+            QV YS+P +NPFRTLPKD P R GKD  G +RP S   YNN
+Sbjct: 163 HQVTYSNPHVNPFRTLPKDAPNRAGKDQGGSSRPAS--NYNN 202
+
+
+>EFQ30502 pep:novel supercontig:GCA_000149035.1:GG697349:593105:599041:1
+          gene:GLRG_05646 transcript:EFQ30502
+          description:"1,3-beta-glucan synthase component"
+          Length = 1940
+
+ Score = 33.1 bits (74), Expect = 0.17,   Method: Composition-based stats.
+ Identities = 17/45 (37%), Positives = 22/45 (48%), Gaps = 5/45 (11%)
+
+Query: 11 YGDANQEQQGGDDNKHDQSYEGGD-----HQDGHGANDNEQYRDD 50
+          Y    Q  QGGD    +  Y   D     HQDG   ++NEQY+D+
+Sbjct: 51 YDTHGQPPQGGDGYYDESGYYNADPNSAYHQDGGYYDNNEQYQDE 95
+
+
+>EFQ28386 pep:novel supercontig:GCA_000149035.1:GG697340:907700:909442:1
+           gene:GLRG_03530 transcript:EFQ28386
+           description:"hypothetical protein"
+          Length = 539
+
+ Score = 30.0 bits (66), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 21/65 (32%), Positives = 29/65 (44%), Gaps = 1/65 (1%)
+
+Query: 130 TFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFR 189
+           +FS HK N       +I    Q  A A +  L  S E+     G  +Q +++  T NP  
+Sbjct: 31  SFSSHKSNDSQTAAEFIRDQMQLEADA-REALPYSIENCTKILGSLRQSVFACLTCNPPP 89
+
+Query: 190 TLPKD 194
+           T PKD
+Sbjct: 90  TNPKD 94
+
+
+>EFQ28457 pep:novel supercontig:GCA_000149035.1:GG697341:152011:153909:1
+           gene:GLRG_03601 transcript:EFQ28457
+           description:"hypothetical protein"
+          Length = 632
+
+ Score = 28.5 bits (62), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 29/50 (58%), Gaps = 5/50 (10%)
+
+Query: 122 CEEELKDITFSEHKVNG----KSKGQVYIELTSQQAATAVKHRLESSGED 167
+            E+EL D+T S+ K       KS   + +EL+ +  AT V+HR +++G D
+Sbjct: 94  LEDEL-DMTSSKAKTESDQRQKSDSSLELELSRKTRATPVQHRRDTTGLD 142
+
+
+>EFQ28908 pep:novel supercontig:GCA_000149035.1:GG697342:857620:858279:-1
+           gene:GLRG_04052 transcript:EFQ28908 description:"RNA
+           recognition domain-containing protein"
+          Length = 219
+
+ Score = 27.7 bits (60), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 20/97 (20%), Positives = 43/97 (44%), Gaps = 8/97 (8%)
+
+Query: 89  RAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIEL 148
+           R  D   T+ + +  + +  +D D+          + +KD+  +  +  G  +G  + + 
+Sbjct: 76  RVHDGSPTTTLYVGNISFQSSDADLNNLF---STLDGVKDVRVAVDRATGWPRGFAHADF 132
+
+Query: 149 TSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTM 185
+            S +AATA    L+     GA    R+ +V ++ P++
+Sbjct: 133 VSVEAATAALESLK-----GARILDRELKVQFAPPSL 164
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 3,047,950
+Number of extensions: 122871
+Number of successful extensions: 438
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 435
+Number of HSP's successfully gapped: 26
+Length of query: 424
+Length of database: 5,585,764
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,419,824
+Effective search space: 1445282448
+Effective search space used: 1445282448
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

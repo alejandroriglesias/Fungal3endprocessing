@@ -1,0 +1,169 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00002938 pep:known chromosome:CADRE:IV:2417890:2420017:1...   239   1e-71
+CADANGAP00008436 pep:known chromosome:CADRE:VII:2740346:2742045:...    32   0.56 
+CADANGAP00012058 pep:known chromosome:CADRE:III:4040779:4042173:...    29   3.6  
+CADANGAP00013630 pep:known chromosome:CADRE:VIII:536952:538987:1...    28   3.8  
+CADANGAP00013675 pep:known chromosome:CADRE:VIII:654422:655491:-...    28   4.6  
+CADANGAP00008372 pep:known chromosome:CADRE:VII:2921960:2922535:...    28   5.9  
+
+>CADANGAP00002938 pep:known chromosome:CADRE:IV:2417890:2420017:1
+           gene:CADANGAG00003012 transcript:CADANGAT00003012
+           description:"Similarity to hypothetical conserved
+           zinc-finger protein - Schizosaccharomyces pombe"
+          Length = 626
+
+ Score =  239 bits (610), Expect = 1e-71,   Method: Compositional matrix adjust.
+ Identities = 147/395 (37%), Positives = 207/395 (52%), Gaps = 47/395 (11%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDGTDF+L IYN DT EEYD
+Sbjct: 1   MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIINQSRLGDGTDFELSIYNEDTGEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  +IPRSTSVI +R PA +         G  GAA   +    V  R     ++     
+Sbjct: 61  DDTSIIPRSTSVIARRLPASRP--------GKGGAARYVSGKMPVNARSAPRNEQYPLTR 112
+
+Query: 121 XXXNVS--------GTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQEN 172
+              N S          TEEE+I ++F             M+ ATPV F     +      
+Sbjct: 113 ASPNTSNGVLELNNAQTEEEKINALFNLQANQWKEQQQEMANATPVPFGRGRGR-PVNVP 171
+
+Query: 173 EGPPPPGYMCYRCGGR------------------DHWIKNCPTNSDPNFEGK-RIRRTTG 213
+           + PPPPGY+CYRC  +                   HWI+ CPTN+DP F+GK R++R+TG
+Sbjct: 172 DHPPPPGYLCYRCREKGKLLWHNLLKAKTNGVCLGHWIQACPTNNDPKFDGKYRVKRSTG 231
+
+Query: 214 IPKKFLKSIEIDPETMT----PEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQI 269
+           IP+     +E  PE++T     E+     +M+  +G FV+   DK +WE YQ K +    
+Sbjct: 232 IPRSLQTKVE-KPESLTLDGSNEDPRNTGVMVNADGDFVIAKPDKAAWELYQEKAKASAA 290
+
+Query: 270 DGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPN 329
+              E    +   +     L+CP+   +  +P +T  CC   +  + + NAL+ESDFVCP 
+Sbjct: 291 AAAEAAAAEYSKELQARGLECPIDKRMFLEPTRTP-CCQRTYCNDCITNALIESDFVCPG 349
+
+Query: 330 CETRDILLDSLVPDQD-----KEKEVETFLKKQEE 359
+           C T  +LLD+L  D +     KE E E    K+E+
+Sbjct: 350 CGTEGVLLDNLAVDDEAISKIKEYEAEKADSKKEK 384
+
+
+>CADANGAP00008436 pep:known chromosome:CADRE:VII:2740346:2742045:-1
+           gene:CADANGAG00008590 transcript:CADANGAT00008590
+           description:"Similarity to hypothetical protein
+           CAF06139.1 - Neurospora crassa"
+          Length = 532
+
+ Score = 31.6 bits (70), Expect = 0.56,   Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 25/42 (59%), Gaps = 1/42 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPN 329
+           LKCPLT    R PV ++KC +  F +EA+   +  S+ + P+
+Sbjct: 334 LKCPLTLLPFRDPVTSTKCPH-SFEREAIFTMISGSNQMVPD 374
+
+
+>CADANGAP00012058 pep:known chromosome:CADRE:III:4040779:4042173:1
+           gene:CADANGAG00012291 transcript:CADANGAT00012291
+           description:"Similarity\x3a mouse TRAF5 is member of the
+           TNF receptor-associated factors family"
+          Length = 445
+
+ Score = 28.9 bits (63), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 16/52 (30%), Positives = 23/52 (44%), Gaps = 7/52 (13%)
+
+Query: 286 DDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALV-----ESDFVCPNCET 332
+           D L CP+      +PV+    C+  F ++ L  A+        DF CP C T
+Sbjct: 35  DHLMCPICHCPFVRPVRLQ--CDHVFCQKCLNTAITAFSASRDDFTCPTCRT 84
+
+
+>CADANGAP00013630 pep:known chromosome:CADRE:VIII:536952:538987:1
+           gene:CADANGAG00013887 transcript:CADANGAT00013887
+           description:"Putative uncharacterized protein"
+          Length = 225
+
+ Score = 28.5 bits (62), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 29/61 (47%), Gaps = 1/61 (1%)
+
+Query: 52  NPDTEEEYDDDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNAT-RYVTGRPR 110
+           NPD       DA VIP+S  +  K S    S  + SR+  N+   +  +A+ R+V G   
+Sbjct: 153 NPDPSGTVPTDADVIPQSVPMAAKESARNGSLDIDSRIPINLAMYSFQSASHRHVIGNAE 212
+
+Query: 111 V 111
+           +
+Sbjct: 213 I 213
+
+
+>CADANGAP00013675 pep:known chromosome:CADRE:VIII:654422:655491:-1
+           gene:CADANGAG00013932 transcript:CADANGAT00013932
+           description:"Putative uncharacterized protein
+           An18g02970"
+          Length = 334
+
+ Score = 28.5 bits (62), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 17/26 (65%)
+
+Query: 248 VVQVEDKQSWEDYQRKRENRQIDGDE 273
+           +VQ   KQ+W DY+ K  +R+  GD+
+Sbjct: 33  LVQAALKQTWPDYEFKIHSRETAGDQ 58
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 5,403,100
+Number of extensions: 233310
+Number of successful extensions: 498
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 491
+Number of HSP's successfully gapped: 14
+Length of query: 441
+Length of database: 6,195,193
+Length adjustment: 98
+Effective length of query: 343
+Effective length of database: 4,816,529
+Effective search space: 1652069447
+Effective search space used: 1652069447
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

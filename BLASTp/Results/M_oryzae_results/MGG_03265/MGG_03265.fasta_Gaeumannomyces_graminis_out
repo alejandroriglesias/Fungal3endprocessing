@@ -1,0 +1,403 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_05450T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...  1332   0.0  
+GGTG_09689T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    49   5e-06
+GGTG_01320T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    42   0.001
+GGTG_00402T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    37   0.041
+GGTG_00402T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    36   0.070
+GGTG_11310T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    34   0.29 
+GGTG_08827T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    32   1.3  
+GGTG_02112T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    31   2.4  
+GGTG_06202T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    31   2.8  
+GGTG_02690T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    30   2.9  
+GGTG_01061T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    31   3.0  
+GGTG_01502T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    30   6.0  
+GGTG_04668T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    28   7.0  
+GGTG_00064T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    29   7.3  
+GGTG_00064T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    29   7.8  
+GGTG_03952T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    29   8.0  
+GGTG_03892T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    28   8.4  
+GGTG_08006T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    29   8.5  
+GGTG_00495T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    29   9.1  
+GGTG_00571T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    29   9.7  
+
+>GGTG_05450T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:1076387:1080582:-1
+            gene:GGTG_05450 transcript:GGTG_05450T0 description:"mRNA
+            3'-end-processing protein RNA-14"
+          Length = 1091
+
+ Score = 1332 bits (3448), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 705/1064 (66%), Positives = 821/1064 (77%), Gaps = 57/1064 (5%)
+
+Query: 1    MASDVGDAQQQPGWDHDSTEDGPDGLQSTAQHSDSNVQNQQLQATSVAHGDSEDAAEYDP 60
+            MA    +AQ   GW+ D  +DGPD  QS  Q SDSN  NQQLQA SVA+GDSEDAA+YDP
+Sbjct: 1    MADYDPEAQPDLGWNEDGDDDGPDEPQSATQDSDSNDSNQQLQAASVANGDSEDAADYDP 60
+
+Query: 61   DSVPV--AITSPKAKPLKPSPQPAAAKKRKTAGGFLVGDSDDSEDENPTVASVQMPDLKP 118
+            +SV +  A+T   +KPLKPSPQPA  KKRKTAGGFLVGDSDDSE+E+ +  SVQ P  KP
+Sbjct: 61   ESVSLVGAVTGLDSKPLKPSPQPAG-KKRKTAGGFLVGDSDDSENEDASAPSVQPPATKP 119
+
+Query: 119  KPESSPVPQNLNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---XXXDPIALLELRVKE 175
+             P+S     N                                      DPI  LELRVKE
+Sbjct: 120  LPQSPVQIHNGAAQKAPSPVLAQPAEAGADLDGPKPSHASVVPPIMSYDPIPALELRVKE 179
+
+Query: 176  DPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAE 235
+            DPRGA+D+WLSL+AAY QRNNI++ R  +ERFLAVFPHAA++WV+Y +MEL++GNFVEAE
+Sbjct: 180  DPRGAIDAWLSLLAAYHQRNNIQEIRGAYERFLAVFPHAADMWVKYLEMELNEGNFVEAE 239
+
+Query: 236  AIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKI 295
+            A+FGKSLMSVPNVQLWTVYLDYIRRRNDLND SG+AR+VVTQAY+FVIDNVG+D+DA KI
+Sbjct: 240  ALFGKSLMSVPNVQLWTVYLDYIRRRNDLNDPSGQARKVVTQAYEFVIDNVGIDRDAGKI 299
+
+Query: 296  WNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFEKGLNP 355
+            W+DYIQFIRLAPG +GG+AWQDQQKMDQLRKA+QRAVC+P+SNVN+LWREYD FEK  N 
+Sbjct: 300  WSDYIQFIRLAPGTIGGTAWQDQQKMDQLRKAFQRAVCMPISNVNSLWREYDLFEKAANT 359
+
+Query: 356  T---TGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGDVEFAEQVDL 412
+            T   T RK++NERSPAYMTAKSAN AL+N+ RNLVR++ PRLPPAPGFEGDVEFAEQ+++
+Sbjct: 360  TNSATSRKFVNERSPAYMTAKSANMALDNVTRNLVRSSFPRLPPAPGFEGDVEFAEQLEI 419
+
+Query: 413  WKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEWCFENSILVN 472
+            W+RW+KWEKED LDLA D+PEL KKRILY Y+QAIMALRFCPEIWVDAAEWCFENSI++N
+Sbjct: 420  WQRWIKWEKEDRLDLANDEPELLKKRILYTYRQAIMALRFCPEIWVDAAEWCFENSIVLN 479
+
+Query: 473  GKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAVKAPYNKLLDT 532
+            GKDAGL FLTEGIEAN ESVLLALKHADRIETT+P+ EGD+AKI RGNAVKAPY K+LDT
+Sbjct: 480  GKDAGLAFLTEGIEANSESVLLALKHADRIETTYPIDEGDEAKIARGNAVKAPYIKVLDT 539
+
+Query: 533  LYGQIKTLKEKEKAEIVKLRESAP-SVPEHEIEEGED----CANPMPSELEEKISALEKG 587
+            LY QIKT+KE+EKAEI ++RESAP + P  + E+ +D       P P E +E IS +EKG
+Sbjct: 540  LYAQIKTVKEREKAEIARIRESAPQAAPAQKSEDDDDGEASAEKPQPDENQELISGIEKG 599
+
+Query: 588  FGAQTDLLARTVSFVWIALARAMRRIQGKGQPG--SPMGGMRQVFSEARKRGRLTSDVYV 645
+            F AQTDLL RTVSFVWIALARAMRRIQGKG     +P+GGMRQVF+ AR RGRL+SDVY+
+Sbjct: 600  FAAQTDLLGRTVSFVWIALARAMRRIQGKGNQKLEAPLGGMRQVFTLARLRGRLSSDVYI 659
+
+Query: 646  AIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVVFETCVNKL 705
+            A+AQLEWTVYKD S  KI++RG+KLFPEDE FMLEYL+YLH+++DTTNARVVFETCVN+L
+Sbjct: 660  AMAQLEWTVYKDISCTKIYERGAKLFPEDEHFMLEYLRYLHAKDDTTNARVVFETCVNRL 719
+
+Query: 706  TQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHFSARF------ 759
+            TQ PA VHKAKPLYSYFH+Y S+FGELSQTAKLEKRMAELFPEDP LAHF+ARF      
+Sbjct: 720  TQKPALVHKAKPLYSYFHQYSSRFGELSQTAKLEKRMAELFPEDPQLAHFTARFGTNARI 779
+
+Query: 760  MSDRFDPIAARIIVSPAAQLRPKMVMPSIEANARA-GSP-MIRPLNSPKVGFLQAVNSPK 817
+             +D F+PI AR I+SPAAQLRPK++MPSIE+N  A GSP   RPLNSP+  F+Q  NSPK
+Sbjct: 780  GTDEFNPITARFIISPAAQLRPKLLMPSIESNLPAPGSPGGPRPLNSPRPQFMQPTNSPK 839
+
+Query: 818  RPLPADDFEDLN-PPKKIQ--------RNDQREFQRAESPLKGAAGRRLENQRRIHGQGP 868
+            RP P DDF+D N PPKKIQ          DQR+FQR ESPLKGAAGRRLENQRR+HG G 
+Sbjct: 840  RPFPIDDFDDSNPPPKKIQRGDRDRDRERDQRDFQRGESPLKGAAGRRLENQRRMHGHGH 899
+
+Query: 869  ASYN-----TAPAPAIPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVPDYQSWKS 923
+               N     +APAP+IPR+I FLLSQLP AE YN++RL+++ V+D LRDTHVPDY +WK+
+Sbjct: 900  GHGNAGSSYSAPAPSIPRDITFLLSQLPNAESYNTSRLNSALVMDMLRDTHVPDYPAWKT 959
+
+Query: 924  RQDKG--LRQSGAQMPSDFSNPGY---GRDSPGL--RTGSPFGGERR-IASASSTY-QRP 974
+            RQ+KG   +  G Q+ +DF++ G+   GRDSP L  RT SPF   RR +ASAS+TY QRP
+Sbjct: 960  RQEKGPSRQNHGRQVSTDFASHGHHHQGRDSPSLIGRTNSPFSDARRQLASASATYQQRP 1019
+
+Query: 975  ASRDXXXXXXXXXXXXXXATLQYPPATPSYDNQPTHGAWPPPPH 1018
+            ASRD                         Y+  PT GAWPPPP 
+Sbjct: 1020 ASRDSYEPPPVQPYAPPPQ---------GYEGAPT-GAWPPPPQ 1053
+
+
+>GGTG_09689T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:2087075:2089774:
+           -1 gene:GGTG_09689 transcript:GGTG_09689T0
+           description:"pre-mRNA-processing factor 39"
+          Length = 589
+
+ Score = 49.3 bits (116), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 74/337 (21%), Positives = 127/337 (37%), Gaps = 72/337 (21%)
+
+Query: 166 IALLELRVKEDPRGAMDSWLSLIAAYRQ------RNN----IEQCRDVFERFLAVFPHAA 215
+           I  L   V+ DP  + ++W  LI A         RN+    +   R+ ++RFL  FP   
+Sbjct: 17  IKRLNAEVEADP-DSFEAWEKLIRACESLEGGLSRNSSAESLAILREAYDRFLLKFPLLF 75
+
+Query: 216 EVWVQYADMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             W +YAD+E +      AE I+ +   S+ + V LW  Y  +          +     +
+Sbjct: 76  GYWKKYADLEFNISGPESAEMIYERGCASISHSVDLWKEYCSF-------KMETTHVPHL 128
+
+Query: 275 VTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCI 334
+           V + ++     VGLD  A   W+ Y++F             + Q   D++     R + I
+Sbjct: 129 VRELFERGAACVGLDFLAHPFWDKYLEFE------------ERQDAQDKIYAILSRVIHI 176
+
+Query: 335 PLSNVNTLWREYDQFEKGLNPTTGRKYLNE----------RSPAYMTAKS-ANTALENIM 383
+           P+        +Y ++ + L      + L+E          +S   M A S      E+ +
+Sbjct: 177 PM-------HQYARYYERLRTMAATRPLHEMATADRLASLKSEVEMEAASLGEEKSEDEL 229
+
+Query: 384 RNLVRTTLPRLPPAPGFEGDVEFAEQVDLWKRWV-KWEKEDPLDLAT--DDPELFK---- 436
+             L+R  +       G   ++    Q +  KRW  + E + P    T  D+P+L      
+Sbjct: 230 EILIRAKI------DGAYYEIFTKNQTETTKRWTYEAEIKRPYFHVTELDNPQLVNWRKY 283
+
+Query: 437 ----------KRILYAYKQAIMALRFCPEIWVDAAEW 463
+                      RI + Y++ ++   F  E W   A W
+Sbjct: 284 LDFEEQEGSYARICFLYERCLVTCAFYDEFWFRYARW 320
+
+
+
+ Score = 30.8 bits (68), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 41/84 (48%), Gaps = 13/84 (15%)
+
+Query: 191 YRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEA--------IFGK-- 240
+           +R + ++++ R VF++ +  +  + E W ++  +EL Q    E EA        IF K  
+Sbjct: 431 WRAKGSVDEARAVFQKNVQWYSGSREFWQKWIQLELEQPTNDELEAQHSERLKDIFAKLR 490
+
+Query: 241 ---SLMSVPNVQLWTVYLDYIRRR 261
+              +L +    +L   YL Y+++R
+Sbjct: 491 GESNLSAASKKELCATYLTYLQQR 514
+
+
+
+ Score = 29.6 bits (65), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 28/106 (26%), Positives = 41/106 (38%), Gaps = 5/106 (4%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLD 256
+           ++  RD+    L   P   EV +  A +E  Q N VEA     K  +  P V +WT  + 
+Sbjct: 364 VDVARDIHNAILMKLPGCIEVIISLAHLERRQSN-VEAAIEVYKQQIDSPEVDIWTKAVL 422
+
+Query: 257 YIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+                  L     RA+  V +A      NV     + + W  +IQ 
+Sbjct: 423 VTEWAYIL----WRAKGSVDEARAVFQKNVQWYSGSREFWQKWIQL 464
+
+
+>GGTG_01320T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:4221838:4224270:
+           1 gene:GGTG_01320 transcript:GGTG_01320T0
+           description:"pre-mRNA-splicing factor CLF1"
+          Length = 710
+
+ Score = 41.6 bits (96), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 41/79 (51%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R ++ +WL   A   ++   ++ R +FER L +  +   +W++Y + EL   N   A  +
+Sbjct: 69  RISLKNWLQYSAWELEQKEYDRARSIFERALNIHANNVTLWIRYVEAELKGRNINFARNV 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P + +LW  Y+
+Sbjct: 129 LDRAVTHLPRIDKLWYKYV 147
+
+
+
+ Score = 37.4 bits (85), Expect = 0.024,   Method: Compositional matrix adjust.
+ Identities = 25/108 (23%), Positives = 50/108 (46%), Gaps = 17/108 (15%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWTVY 254
+           +CR ++E+ +A  P     WV+++++E    +   A AI      + ++ +P + +W  Y
+Sbjct: 457 RCRILYEKHIAFNPANCSTWVKWSELERGLDDLDRARAILDMGIAQPVLDMPEI-VWKSY 515
+
+Query: 255 LDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+           +D+        +  G   +  T  Y+ ++D      D  K+W  Y QF
+Sbjct: 516 IDF-------EEEEGEYDKTRT-LYERLLDKT----DHPKVWISYAQF 551
+
+
+
+ Score = 35.4 bits (80), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 18/77 (23%), Positives = 35/77 (45%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  + A  +  NI   R+V +R +   P   ++W +Y  +E   GN      +F + + 
+Sbjct: 109 WIRYVEAELKGRNINFARNVLDRAVTHLPRIDKLWYKYVWVEEMLGNVPGTRQVFDRWMA 168
+
+Query: 244 SVPNVQLWTVYLDYIRR 260
+             P+   W+ Y+   +R
+Sbjct: 169 WNPDEAAWSSYIKLEKR 185
+
+
+
+ Score = 33.9 bits (76), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 28/111 (25%), Positives = 49/111 (44%), Gaps = 16/111 (14%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W S I   ++    ++ R +FERF  V P     W+++A  E   G      A+F +++
+Sbjct: 175 AWSSYIKLEKRYGEHDRARAIFERFTRVHPEPRN-WIRWAKFEEEVGTSDRVRAVFERAI 233
+
+Query: 243 MSVPNV-------QLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNV 286
+             +          +L+  Y  Y  +  DL+    RAR +    Y F +DN+
+Sbjct: 234 DELARYGDEFVEERLFIAYARYEAKLRDLD----RARAI----YRFGLDNL 276
+
+
+
+ Score = 31.6 bits (70), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 21/53 (39%), Positives = 32/53 (60%), Gaps = 3/53 (5%)
+
+Query: 313 SAWQ-DQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFE-KGLNPTTGRKYLN 363
+           SAW+ +Q++ D+ R  ++RA+ I  +NV TLW  Y + E KG N    R  L+
+Sbjct: 79  SAWELEQKEYDRARSIFERALNIHANNV-TLWIRYVEAELKGRNINFARNVLD 130
+
+
+>GGTG_00402T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:1269834:1273287:
+           1 gene:GGTG_00402 transcript:GGTG_00402T0
+           description:"pre-mRNA-splicing factor prp1"
+          Length = 987
+
+ Score = 37.0 bits (84), Expect = 0.041,   Method: Compositional matrix adjust.
+ Identities = 39/184 (21%), Positives = 75/184 (40%), Gaps = 22/184 (11%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL+ +   R     E    V E+ +   PH+  +W+  A   L  G   EA  + G++  
+Sbjct: 624 WLAAVDLERNHGTKEALYQVLEKAVEACPHSEVLWMMLAKERLLAGQLHEARLVLGRAFQ 683
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGL----------DKDAS 293
+              N +   ++L  ++   D ++     + + T   +   D V +          + DA+
+Sbjct: 684 QNQNNE--DIWLAAVKLEADHDEVEQAQKLLCTARQNAPTDRVWMRSVAYERQLGNNDAA 741
+
+Query: 294 KIWNDYIQFIRLAPG-----VVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREYD 347
+                 ++ ++L P      ++ G  ++D  K+ Q R+AY   V  +P S    LW  Y 
+Sbjct: 742 L--EQVLEALQLFPAAPKLWMMKGQIYEDLGKVPQAREAYGTGVKAVPTS--VPLWLLYS 797
+
+Query: 348 QFEK 351
+           + E+
+Sbjct: 798 RLEE 801
+
+
+
+ Score = 35.4 bits (80), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 18/82 (21%), Positives = 37/82 (45%), Gaps = 1/82 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+     Y     + Q R+ +   +   P +  +W+ Y+ +E   GN V+A ++  ++  
+Sbjct: 759 WMMKGQIYEDLGKVPQAREAYGTGVKAVPTSVPLWLLYSRLEERTGNVVKARSVLDRARQ 818
+
+Query: 244 SVPNV-QLWTVYLDYIRRRNDL 264
+           + P   +LW   +   RR  +L
+Sbjct: 819 AAPKSPELWCELIRVERRAGNL 840
+
+
+
+ Score = 32.3 bits (72), Expect = 0.95,   Method: Compositional matrix adjust.
+ Identities = 16/67 (23%), Positives = 29/67 (43%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL       +  N+ + R V +R     P + E+W +   +E   GN  +A+ +   +L 
+Sbjct: 793 WLLYSRLEERTGNVVKARSVLDRARQAAPKSPELWCELIRVERRAGNLAQAKNLMATALR 852
+
+Query: 244 SVPNVQL 250
+            +P   L
+Sbjct: 853 QMPKSGL 859
+
+
+
+ Score = 29.3 bits (64), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 24/118 (20%), Positives = 49/118 (41%), Gaps = 4/118 (3%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           ++W+    A   R+     R ++   L VF  +  +W+   D+E + G       +  K+
+Sbjct: 588 ETWMEDARASTNRDRFATARAIYAYALRVFVTSKTLWLAAVDLERNHGTKEALYQVLEKA 647
+
+Query: 242 LMSVPNVQ-LWTVYLDYIRRRNDLNDSS---GRARQVVTQAYDFVIDNVGLDKDASKI 295
+           + + P+ + LW +          L+++    GRA Q      D  +  V L+ D  ++
+Sbjct: 648 VEACPHSEVLWMMLAKERLLAGQLHEARLVLGRAFQQNQNNEDIWLAAVKLEADHDEV 705
+
+
+>GGTG_00402T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:1269834:1273287:
+           1 gene:GGTG_00402 transcript:GGTG_00402T1
+           description:"pre-mRNA-splicing factor prp1"
+          Length = 864
+
+ Score = 36.2 bits (82), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 39/184 (21%), Positives = 75/184 (40%), Gaps = 22/184 (11%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL+ +   R     E    V E+ +   PH+  +W+  A   L  G   EA  + G++  
+Sbjct: 501 WLAAVDLERNHGTKEALYQVLEKAVEACPHSEVLWMMLAKERLLAGQLHEARLVLGRAFQ 560
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGL----------DKDAS 293
+              N +   ++L  ++   D ++     + + T   +   D V +          + DA+
+Sbjct: 561 QNQNNE--DIWLAAVKLEADHDEVEQAQKLLCTARQNAPTDRVWMRSVAYERQLGNNDAA 618
+
+Query: 294 KIWNDYIQFIRLAPG-----VVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREYD 347
+                 ++ ++L P      ++ G  ++D  K+ Q R+AY   V  +P S    LW  Y 
+Sbjct: 619 L--EQVLEALQLFPAAPKLWMMKGQIYEDLGKVPQAREAYGTGVKAVPTS--VPLWLLYS 674
+
+Query: 348 QFEK 351
+           + E+
+Sbjct: 675 RLEE 678
+
+
+
+ Score = 34.7 bits (78), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 18/82 (21%), Positives = 37/82 (45%), Gaps = 1/82 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+     Y     + Q R+ +   +   P +  +W+ Y+ +E   GN V+A ++  ++  
+Sbjct: 636 WMMKGQIYEDLGKVPQAREAYGTGVKAVPTSVPLWLLYSRLEERTGNVVKARSVLDRARQ 695
+
+Query: 244 SVPNV-QLWTVYLDYIRRRNDL 264
+           + P   +LW   +   RR  +L
+Sbjct: 696 AAPKSPELWCELIRVERRAGNL 717
+
+
+
+ Score = 32.0 bits (71), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 16/67 (23%), Positives = 29/67 (43%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL       +  N+ + R V +R     P + E+W +   +E   GN  +A+ +   +L 
+Sbjct: 670 WLLYSRLEERTGNVVKARSVLDRARQAAPKSPELWCELIRVERRAGNLAQAKNLMATALR 729
+
+Query: 244 SVPNVQL 250
+            +P   L
+Sbjct: 730 QMPKSGL 736
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 14,619,575
+Number of extensions: 701201
+Number of successful extensions: 3158
+Number of sequences better than 10.0: 98
+Number of HSP's gapped: 3095
+Number of HSP's successfully gapped: 119
+Length of query: 1057
+Length of database: 6,264,428
+Length adjustment: 105
+Effective length of query: 952
+Effective length of database: 4,754,528
+Effective search space: 4526310656
+Effective search space used: 4526310656
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)

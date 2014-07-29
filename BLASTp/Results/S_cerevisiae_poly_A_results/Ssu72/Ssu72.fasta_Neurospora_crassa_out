@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000002984 pep:known supercontig:ASM18292v1:7.9:714648:71...   201   6e-64
+EFNCRP00000007657 pep:known supercontig:ASM18292v1:7.42:53812:56...    28   1.3  
+EFNCRP00000009051 pep:known supercontig:ASM18292v1:7.70:61737:63...    27   3.1  
+EFNCRP00000005369 pep:known supercontig:ASM18292v1:7.21:448983:4...    27   3.4  
+EFNCRP00000009587 pep:known supercontig:ASM18292v1:7.87:80984:83...    26   9.6  
+EFNCRP00000004130 pep:known supercontig:ASM18292v1:7.14:525900:5...    26   10.0 
+
+>EFNCRP00000002984 pep:known supercontig:ASM18292v1:7.9:714648:715509:-1
+           gene:EFNCRG00000002981 transcript:EFNCRT00000002984
+           description:"RNA polymerase II subunit A C-terminal
+           domain phosphatase ssu-72"
+          Length = 266
+
+ Score =  201 bits (510), Expect = 6e-64,   Method: Compositional matrix adjust.
+ Identities = 107/232 (46%), Positives = 140/232 (60%), Gaps = 35/232 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASN NRSME H  L  A Y V S+GTGS VRLPG SI +PNVY F  T Y+ I
+Sbjct: 36  LKFCTVCASNQNRSMEGHLRLSLANYPVISFGTGSLVRLPGPSITQPNVYKFNETSYDSI 95
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           Y +L ++    Y++NGLL ML RNR++K  PE+WQ+                      V 
+Sbjct: 96  YRELEAKDPRLYRANGLLNMLGRNRQVKWGPERWQDWQIGMPRTKHKDDKGADGMEGGVA 155
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERC+DAV EDL+NRG  LN+ VHVIN+DIKD+ E A +G +AI++LAD LN K
+Sbjct: 156 DVVITCEERCWDAVIEDLLNRGSPLNRPVHVINIDIKDNHEEASVGGRAIVDLADSLN-K 214
+
+Query: 169 IEQCEKDDI--------------PFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+           I   E++ +               F++ + D+L EWQ     LP+ +  +++
+Sbjct: 215 IAAEEREKVGASAFDSGSVGARSGFDERVPDVLAEWQERWPNLPATWTLAWF 266
+
+
+>EFNCRP00000007657 pep:known supercontig:ASM18292v1:7.42:53812:56360:1
+           gene:EFNCRG00000007655 transcript:EFNCRT00000007667
+           description:"Dihydroxy-acid dehydratase"
+          Length = 640
+
+ Score = 28.5 bits (62), Expect = 1.3,   Method: Composition-based stats.
+ Identities = 24/87 (27%), Positives = 41/87 (47%), Gaps = 23/87 (26%)
+
+Query: 97  APEKWQESTKVFDFVFTCEERCFDAVCEDLMNR-------------GGKLNKIVHVI--- 140
+           +PEK++E  K  +++  C E+  D    DL+ +             GG  N ++H +   
+Sbjct: 291 SPEKFRECEKAAEYIKICMEK--DIRPRDLLTKASFENALVLTMILGGSTNGVLHYLAMA 348
+
+Query: 141 ---NVDIKDDDENAKIGSKAILELADM 164
+              +VD+  DD N ++ +K    LADM
+Sbjct: 349 NSADVDLTLDDIN-RVSAKTPF-LADM 373
+
+
+>EFNCRP00000009051 pep:known supercontig:ASM18292v1:7.70:61737:63948:-1
+           gene:EFNCRG00000009054 transcript:EFNCRT00000009069
+           description:"Predicted protein"
+          Length = 716
+
+ Score = 27.3 bits (59), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 18/34 (52%)
+
+Query: 23  MESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPN 56
+           +E +K +  + +  SSY TG A+R  G   D  N
+Sbjct: 581 IEKNKTIHLSQFFTSSYATGGALRDSGFEFDHEN 614
+
+
+>EFNCRP00000005369 pep:known supercontig:ASM18292v1:7.21:448983:450746:-1
+           gene:EFNCRG00000005368 transcript:EFNCRT00000005375
+           description:"ATP-dependent RNA helicase dhh-1"
+          Length = 505
+
+ Score = 26.9 bits (58), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 333 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 365
+
+
+>EFNCRP00000009587 pep:known supercontig:ASM18292v1:7.87:80984:83338:1
+           gene:EFNCRG00000009586 transcript:EFNCRT00000009605
+           description:"Predicted protein"
+          Length = 784
+
+ Score = 25.8 bits (55), Expect = 9.6,   Method: Composition-based stats.
+ Identities = 11/23 (47%), Positives = 16/23 (69%)
+
+Query: 122 VCEDLMNRGGKLNKIVHVINVDI 144
+           V  DL++RG  L+ + HVIN D+
+Sbjct: 660 VASDLVSRGIDLSNLDHVINYDL 682
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 2,061,542
+Number of extensions: 85144
+Number of successful extensions: 211
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 208
+Number of HSP's successfully gapped: 7
+Length of query: 206
+Length of database: 4,779,891
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 3,904,220
+Effective search space: 456793740
+Effective search space used: 456793740
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

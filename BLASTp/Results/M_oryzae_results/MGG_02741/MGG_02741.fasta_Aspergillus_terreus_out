@@ -1,0 +1,107 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00006712 pep:known supercontig:CADRE:1.13:664846:666162:...   188   6e-55
+CADATEAP00002872 pep:known supercontig:CADRE:1.2:1745173:1745854...    27   5.4  
+
+>CADATEAP00006712 pep:known supercontig:CADRE:1.13:664846:666162:1
+           gene:CADATEAG00006712 transcript:CADATEAT00006712
+           description:"Putative uncharacterized protein"
+          Length = 395
+
+ Score =  188 bits (478), Expect = 6e-55,   Method: Compositional matrix adjust.
+ Identities = 117/229 (51%), Positives = 133/229 (58%), Gaps = 22/229 (9%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGGDDNKHDQS-----------YEGGDHQDGHGANDN 44
+           MA ED  F+IDIYGD    N   QG DD KHD S             G    DG    D 
+Sbjct: 1   MATEDDNFDIDIYGDGSGYNANDQG-DDMKHDDSELILDAPDQPQTSGAAQNDGFTETDA 59
+
+Query: 45  EQYRDDQQXXXXXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISEL 104
+           +Q   D                  T S TP  +  +KRKE  DDR  DP A  A+LIS+L
+Sbjct: 60  KQDHADGTGANGEHVTQPESNTQHTSSETPAPTQGVKRKE-HDDRPTDPDAMPALLISDL 118
+
+Query: 105 QWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESS 164
+            WW TDDDIRGW+R+A CE+ELKD+TFSEHKVNGKSKGQV++E TS QAATA KH++ES 
+Sbjct: 119 FWWTTDDDIRGWVRQADCEDELKDVTFSEHKVNGKSKGQVFVEFTSLQAATATKHKIESF 178
+
+Query: 165 GEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYN 213
+              G  Q GRK  V Y+SP  NPFRTLPKD P   KD Q R  SG G+N
+Sbjct: 179 NITG--QTGRKHTVTYTSPQPNPFRTLPKDAP-IRKDNQARAMSG-GFN 223
+
+
+>CADATEAP00002872 pep:known supercontig:CADRE:1.2:1745173:1745854:1
+           gene:CADATEAG00002872 transcript:CADATEAT00002872
+           description:"Putative uncharacterized protein"
+          Length = 157
+
+ Score = 27.3 bits (59), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 18/67 (26%), Positives = 31/67 (46%), Gaps = 3/67 (4%)
+
+Query: 102 SELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRL 161
+           S L W  TD+ +R    + G  +    +   + +  G+S+G  ++  TS Q A A  + L
+Sbjct: 34  SGLAWHTTDESLRAGFEKFGTVDNAIVV---KDRDTGRSRGFGFVTFTSPQEADAALNEL 90
+
+Query: 162 ESSGEDG 168
+            +   DG
+Sbjct: 91  NNQEFDG 97
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,760,112
+Number of extensions: 108416
+Number of successful extensions: 320
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 312
+Number of HSP's successfully gapped: 12
+Length of query: 424
+Length of database: 5,192,116
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 4,193,524
+Effective search space: 1375475872
+Effective search space used: 1375475872
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

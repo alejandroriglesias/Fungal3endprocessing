@@ -1,0 +1,149 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_13276P0 pep:known chromosome:ASM24013v2:2:335825:337011:1 g...   180   6e-52
+FGSG_11852P0 pep:known chromosome:ASM24013v2:1:2898049:2900944:-...    32   0.31 
+FGSG_11064P0 pep:known chromosome:ASM24013v2:3:5832857:5834080:1...    28   2.3  
+FGSG_06574P0 pep:known chromosome:ASM24013v2:4:466185:467676:-1 ...    28   4.0  
+
+>FGSG_13276P0 pep:known chromosome:ASM24013v2:2:335825:337011:1 gene:FGSG_13276
+           transcript:FGSG_13276T0 description:"conserved
+           hypothetical protein"
+          Length = 361
+
+ Score =  180 bits (456), Expect = 6e-52,   Method: Compositional matrix adjust.
+ Identities = 104/209 (49%), Positives = 125/209 (59%), Gaps = 10/209 (4%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXX 60
+           MAEEDFEIDIYGDA  EQQ       D  +  G +QD H  +      DDQ         
+Sbjct: 1   MAEEDFEIDIYGDAGNEQQ------QDPQHHDGSNQDYHQEDHRRDSHDDQNMDEHHAQD 54
+
+Query: 61  XXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREA 120
+                   +           KRK+  D R +D  AT++++ISEL WW TDDDIRGW REA
+Sbjct: 55  FHARESYDSNHRASGSQQGTKRKQEEDGRPVDQTATTSLMISELNWWNTDDDIRGWAREA 114
+
+Query: 121 GCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVI- 179
+           GCE+E+KDITFSEHKVNGKSKGQ YIE  S QA+TA KHR+E    +  SQA +K+  + 
+Sbjct: 115 GCEDEIKDITFSEHKVNGKSKGQAYIEFYSPQASTATKHRIEQILAE--SQAAQKKVTLA 172
+
+Query: 180 YSSPTMNPFRTLPKDQPRTGKDGQNRPTS 208
+           Y +P +NPF+TLPKD P   KD QNR  S
+Sbjct: 173 YWNPHINPFKTLPKDAPTRSKD-QNRAPS 200
+
+
+
+ Score = 28.5 bits (62), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 11/14 (78%), Positives = 12/14 (85%)
+
+Query: 411 EWQNPHGAKRPRPE 424
+           +W NPHGAKRPR E
+Sbjct: 348 DWGNPHGAKRPRGE 361
+
+
+>FGSG_11852P0 pep:known chromosome:ASM24013v2:1:2898049:2900944:-1
+           gene:FGSG_11852 transcript:FGSG_11852T0
+           description:"multiple RNA-binding domain-containing
+           protein 1"
+          Length = 862
+
+ Score = 32.3 bits (72), Expect = 0.31,   Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 38/90 (42%), Gaps = 8/90 (8%)
+
+Query: 96  TSAILISELQWWITDDDIRGWIREAG-CEEELKDITFSEHKVN--GKSKGQVYIELTSQQ 152
+           TS + +  L +  T+DD+R    + G  EE L+        VN  G SKG   I  T   
+Sbjct: 326 TSRLFVRNLPYSATEDDLRESFEQFGTVEENLETNILVHLPVNKSGTSKGFALILFTEPS 385
+
+Query: 153 AATAVKHRLESSGEDGASQAGRKQQVIYSS 182
+            A      +     DGA+  GR   +I +S
+Sbjct: 386 GAVEAFQAM-----DGATFQGRIIHIIPAS 410
+
+
+>FGSG_11064P0 pep:known chromosome:ASM24013v2:3:5832857:5834080:1 gene:FGSG_11064
+           transcript:FGSG_11064T0 description:"conserved
+           hypothetical protein"
+          Length = 127
+
+ Score = 28.5 bits (62), Expect = 2.3,   Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 33/72 (45%), Gaps = 3/72 (4%)
+
+Query: 97  SAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATA 156
+           S + +  L W  TD+ +R    E G   E+ D      +  G+++G  ++  ++++ ATA
+Sbjct: 2   SKLYVGNLSWNTTDETLRQTFSEFG---EVTDSIIMRDRDTGRARGFGFVTFSTEEQATA 58
+
+Query: 157 VKHRLESSGEDG 168
+               L     DG
+Sbjct: 59  AVDALNEQELDG 70
+
+
+>FGSG_06574P0 pep:known chromosome:ASM24013v2:4:466185:467676:-1 gene:FGSG_06574
+           transcript:FGSG_06574T0 description:"conserved
+           hypothetical protein"
+          Length = 324
+
+ Score = 28.5 bits (62), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (63%)
+
+Query: 184 TMNPFRTLPKDQPRTGKDGQNR 205
+            + PF TLPK  P+ G  G+NR
+Sbjct: 297 ILPPFSTLPKGWPQLGWKGENR 318
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 3,214,610
+Number of extensions: 129188
+Number of successful extensions: 397
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 383
+Number of HSP's successfully gapped: 27
+Length of query: 424
+Length of database: 5,933,672
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,641,826
+Effective search space: 1517877102
+Effective search space used: 1517877102
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

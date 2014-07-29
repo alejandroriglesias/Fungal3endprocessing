@@ -1,0 +1,221 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00001587 pep:known scaffold:CADRE:DS499594:4595300:45984...  1019   0.0  
+CADAFUBP00003864 pep:known scaffold:CADRE:DS499596:1581237:15843...    49   5e-06
+CADAFUBP00000485 pep:known scaffold:CADRE:DS499594:1374369:13762...    41   0.001
+CADAFUBP00009781 pep:known scaffold:CADRE:DS499604:67131:68137:-...    36   0.031
+CADAFUBP00001270 pep:known scaffold:CADRE:DS499594:3636621:36378...    29   3.8  
+CADAFUBP00001117 pep:known scaffold:CADRE:DS499594:3208379:32103...    29   5.1  
+CADAFUBP00000125 pep:known scaffold:CADRE:DS499594:337861:339099...    29   5.4  
+
+>CADAFUBP00001587 pep:known scaffold:CADRE:DS499594:4595300:4598418:1
+           gene:CADAFUBG00001624 transcript:CADAFUBT00001624
+           description:"Cleavage and polyadenylation specifity
+           factor, 73 kDa subunit, putative"
+          Length = 872
+
+ Score = 1019 bits (2635), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 517/863 (59%), Positives = 616/863 (71%), Gaps = 55/863 (6%)
+
+Query: 1   MASKRKASAMNVAAPDEPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAY 60
+           MA+KRKASA+N A  DEPVDP+DEL F CLGGGNEVGRSCHIIQYKGKTVMLDAG HPA 
+Sbjct: 1   MATKRKASALNAAVDDEPVDPSDELAFYCLGGGNEVGRSCHIIQYKGKTVMLDAGMHPAK 60
+
+Query: 61  DGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLI 120
+           +G +ALPFFD+FDLSTVD+LLISHFHVDH+++LPYVLSKTNFKGRVFMTH TKAIYKWLI
+Sbjct: 61  EGFSALPFFDEFDLSTVDILLISHFHVDHSSALPYVLSKTNFKGRVFMTHATKAIYKWLI 120
+
+Query: 121 QDSVRVGNT-SSNPTSQPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAA 179
+           QD+VRV NT SS+     +YTE DHL+T P IE ID+ TTHT++SIRITP+PAGHVLGAA
+Sbjct: 121 QDNVRVSNTASSSDQRTTLYTEHDHLSTLPLIETIDFNTTHTVNSIRITPFPAGHVLGAA 180
+
+Query: 180 MFLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQAL 239
+           MFLI IAG+NI FTGDYSRE+DRHL+ AEVP+G+KIDVLITEST+GI+++ PR+ERE AL
+Sbjct: 181 MFLISIAGLNILFTGDYSREEDRHLIPAEVPKGIKIDVLITESTFGISTNPPRLEREAAL 240
+
+Query: 240 MKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVY 299
+           MKSITGILNRGGRVLMPVFALGRAQELLLILDEYW  H E QK+PIYY  N AR+CMVVY
+Sbjct: 241 MKSITGILNRGGRVLMPVFALGRAQELLLILDEYWETHPELQKIPIYYIGNTARRCMVVY 300
+
+Query: 300 QTYVGAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLA 359
+           QTY+GAMNDNIKRLFR+R+               PWDFK++RSL++L+RFDD+G CVMLA
+Sbjct: 301 QTYIGAMNDNIKRLFRQRM-AEAEASGDKSASAGPWDFKFVRSLRSLERFDDVGGCVMLA 359
+
+Query: 360 SPGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASR 419
+           SPGMLQ G SRELLERWAP+++NGVV+TGYSVEGTMAKQ++ EPEQIPA+M+R+A   SR
+Sbjct: 360 SPGMLQTGTSRELLERWAPNERNGVVMTGYSVEGTMAKQLLNEPEQIPAVMSRSAGGVSR 419
+
+Query: 420 RA-----DGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLK 474
+           R      + +K MIPRRC+V E SFAAHVDG ENR FIEEVAAPVVILVHGE++ MMRLK
+Sbjct: 420 RGLAGTDEEQKIMIPRRCTVDEISFAAHVDGVENRNFIEEVAAPVVILVHGEKHQMMRLK 479
+
+Query: 475 SKLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRLPTDDDYHLHP 534
+           SKLLSLNA K  KVK+Y+P NC+E+RIPF+ DK AKVVGKLA + P    P+D D     
+Sbjct: 480 SKLLSLNADKAVKVKVYTPANCDEVRIPFRKDKIAKVVGKLAQVAP----PSDQD---DG 532
+
+Query: 535 QLVTGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFGAV 594
+           +L++GVLVQN F LSLMAP+DLREYAGLTTTTI C+Q I L++A +DLIRWALE TFGA+
+Sbjct: 533 RLMSGVLVQNGFDLSLMAPDDLREYAGLTTTTITCKQHITLSSASMDLIRWALEGTFGAI 592
+
+Query: 595 DEL-----PEMRQLHKEVPNGDDMILDAKXXXXXXXXXXRPVAGYIVMGSINVRCFG-SG 648
+           +EL      ++++   +  NG+  I   K               Y+VMG + +R    + 
+Sbjct: 593 EELGSNERSKVKEESTKAVNGEQEI---KEEPADEEIPMEETQTYLVMGCVLIRYHSRTR 649
+
+Query: 649 EVELEWEGNTMNDGFADAVMAVLLTVEXXXXXXXXXXXXXXXXXXXQEEYVLPTRNLHAR 708
+           EVELEWEGN MNDG ADAVMAVLLTVE                    +   L   N HA 
+Sbjct: 650 EVELEWEGNMMNDGVADAVMAVLLTVESSPASVKQSAKLKHHHHHHSD---LELPNPHAH 706
+
+Query: 709 LSPXXXXXXXXXXXXAQFGADHVSPIKDPRLP--------------------VSDDTSGE 748
+             P            AQFG++ ++PI+ PR+P                       D +GE
+Sbjct: 707 QGPEETFENLLMMLEAQFGSN-IAPIERPRIPSGIRANRTTKADPSVSAAVKTKSDAAGE 765
+
+Query: 749 --AENGDDDGGXXXXXXXXXXXXXXXLHKIGIPVPGVAIKIDDKLNAKVWLEDLEVECAN 806
+             AE+ +D+                 L  +GIP PG+ IK+D  + A+VWLE+ EVECAN
+Sbjct: 766 TPAESQEDES-----TEEIEAAELARLQALGIPYPGIEIKVDKHV-ARVWLENFEVECAN 819
+
+Query: 807 KAFGDXXXXXXXXXXXXTAPLWG 829
+               D             + +WG
+Sbjct: 820 TVLRDRVRVVIERAVETVSSMWG 842
+
+
+>CADAFUBP00003864 pep:known scaffold:CADRE:DS499596:1581237:1584330:1
+           gene:CADAFUBG00003932 transcript:CADAFUBT00003932
+           description:"Cleavage and polyadenylylation specificity
+           factor, putative"
+          Length = 1013
+
+ Score = 48.9 bits (115), Expect = 5e-06,   Method: Compositional matrix adjust.
+ Identities = 56/255 (21%), Positives = 102/255 (40%), Gaps = 43/255 (16%)
+
+Query: 162 ISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSA-----------EVP 210
+           ++ + +T Y AGH +G  ++ I+    +I +  D+++ ++  +  A           EV 
+Sbjct: 186 LNGLTLTAYNAGHTVGGTIWHIQHGMESIVYAVDWNQARESVVAGAAWFGGSGASGAEVI 245
+
+Query: 211 RGVKIDVLITESTYG---IASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELL 267
+             ++    +  ST G    A    R +R+  L+  I   L +GG VL+P     R  EL 
+Sbjct: 246 EQLRKPTALVCSTRGGDKFALPGGRKKRDDLLLDMIRSSLAKGGTVLIPTDTSARVLELA 305
+
+Query: 268 LILDEYW----GKHQE----YQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFR---- 315
+             L+  W    G + E     +   +Y A   A   M + ++ +  M++NI R F     
+Sbjct: 306 YALEHAWRDVAGGNNESDMALKNAGLYLAGRKAHTTMRLARSMLEWMDENIVREFEAAEG 365
+
+Query: 316 -------------ERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFD----DLGPCVML 358
+                         +                P+ FK++R+++   R +    D  P V++
+Sbjct: 366 VDAVTGQTQSNADGQRSGGQGQGKGGSKGLGPFTFKHLRTVERRKRLEKILTDQKPKVII 425
+
+Query: 359 ASPGMLQNGVSRELL 373
+           AS   L  G ++E L
+Sbjct: 426 ASDTSLDWGFAKESL 440
+
+
+>CADAFUBP00000485 pep:known scaffold:CADRE:DS499594:1374369:1376216:-1
+           gene:CADAFUBG00000493 transcript:CADAFUBT00000493
+           description:"DNA repair protein, putative"
+          Length = 549
+
+ Score = 41.2 bits (95), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 44/166 (26%), Positives = 69/166 (41%), Gaps = 25/166 (15%)
+
+Query: 81  LISHFHVDHAASL-----PYVLSKTNFKGRVFM--THPTKAIYKWLIQDSVRVGNTSSNP 133
+            +SH H DH   L     P++      +  +     +P +  +   I +S R+       
+Sbjct: 19  FLSHVHSDHLQGLESFRAPFIYCSAATRELLLRIEKYPHRMNFSKGILESRRLHYKHLTK 78
+
+Query: 134 TSQPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFT 193
+             +P+      L+T  +IE         + SIR+T   A H  GA MFLIE  G  + +T
+Sbjct: 79  LLRPI-----PLDTPTEIELT------PLLSIRVTLLDANHCAGAVMFLIEGDGKAVLYT 127
+
+Query: 194 GDYSREQ------DRHLVSAEVPRGV-KIDVLITESTYGIASHVPR 232
+           GD   E+       RH V      G  K+D +  ++T+   +HV R
+Sbjct: 128 GDIRAERWWVNSLVRHPVLIPYTLGSKKLDKIYLDTTFASINHVCR 173
+
+
+>CADAFUBP00009781 pep:known scaffold:CADRE:DS499604:67131:68137:-1
+           gene:CADAFUBG00009959 transcript:CADAFUBT00009959
+           description:"Metallo-beta-lactamase domain protein"
+          Length = 315
+
+ Score = 35.8 bits (81), Expect = 0.031,   Method: Compositional matrix adjust.
+ Identities = 33/112 (29%), Positives = 53/112 (47%), Gaps = 18/112 (16%)
+
+Query: 15  PDEP-VDPADELVFTCLGGG----NEVGRSCHIIQYKGKTVMLDAGQHPAY--DGLAALP 67
+           PD P VD     V   LGG        G + +I+    + +++D+GQ  A     +A+L 
+Sbjct: 22  PDLPEVDVLSPRVVRVLGGNPGQMQLQGTNTYILGTGAERLLIDSGQGRARWEQLMASLA 81
+
+Query: 68  FFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVF-MTHPTKAIYKW 118
+               F +STV   L++H+H+DH   +P++        R+F       AIYK+
+Sbjct: 82  AEHKFRISTV---LLTHWHLDHTGGVPHLF-------RIFPELRGANAIYKY 123
+
+
+>CADAFUBP00001270 pep:known scaffold:CADRE:DS499594:3636621:3637889:-1
+           gene:CADAFUBG00001296 transcript:CADAFUBT00001296
+           description:"Phosphotyrosyl phosphatase activator"
+          Length = 422
+
+ Score = 29.3 bits (64), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 23/46 (50%)
+
+Query: 151 IEAIDYYTTHTISSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDY 196
+           IE +  Y  H++ S     Y +GH L   M+L+ +  M +  T D+
+Sbjct: 171 IEEVSSYLVHSLGSRDRLDYGSGHELNFMMWLLCLRQMQMISTADF 216
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 7,273,830
+Number of extensions: 296009
+Number of successful extensions: 645
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 637
+Number of HSP's successfully gapped: 8
+Length of query: 829
+Length of database: 4,796,137
+Length adjustment: 101
+Effective length of query: 728
+Effective length of database: 3,794,621
+Effective search space: 2762484088
+Effective search space used: 2762484088
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

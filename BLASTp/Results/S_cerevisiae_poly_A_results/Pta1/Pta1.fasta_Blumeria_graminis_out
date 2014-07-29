@@ -1,0 +1,142 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81313 pep:novel supercontig:EF1:HF943526:980227:982821:-1 gen...   100   2e-22
+CCU77138 pep:novel supercontig:EF1:HF943525:386977:388889:-1 gen...    31   0.72 
+CCU80764 pep:novel supercontig:EF1:HF943541:893367:895036:1 gene...    29   2.5  
+
+>CCU81313 pep:novel supercontig:EF1:HF943526:980227:982821:-1
+           gene:BGHDH14_bgh06620 transcript:CCU81313
+           description:"hypothetical protein/mRNA cleavage and
+           polyadenylation specificity factor complex subunit"
+          Length = 732
+
+ Score =  100 bits (249), Expect = 2e-22,   Method: Compositional matrix adjust.
+ Identities = 46/160 (28%), Positives = 88/160 (55%), Gaps = 19/160 (11%)
+
+Query: 626 WLHVLIRLVTRGIEAQEA---------------SDLIREELLGFFIQDFEQRVSLIIEWL 670
+           W+ ++ RL TR     E                S+ IRE L  + ++DF +R+ + + WL
+Sbjct: 526 WITIITRLATRASANLEDNSGFKMELNLRTFSLSNTIRETLYIYVLEDFRKRMDIAVTWL 585
+
+Query: 671 NEEWF---FQTSLHQDP-SNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLE 726
+            EEW+    Q  +  D  ++Y+KW++R+L+   P+L+ + R   I+ + ++P +  + L 
+Sbjct: 586 CEEWYNDKIQMKVSADAVAHYEKWTIRILDGFLPYLDGQDRALVIKFLGDIPGVSKETLT 645
+
+Query: 727 ALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQL 766
+            +K +C DPA  ++  Q+L FL+ F+PP+++ V D++  +
+Sbjct: 646 RIKGLCRDPATINMALQSLLFLVAFKPPIRELVLDVIEDI 685
+
+
+
+ Score = 65.9 bits (159), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 68/269 (25%), Positives = 115/269 (42%), Gaps = 59/269 (21%)
+
+Query: 29  LETTA-----SMYHNGNLSKLKLPLAKFFTQLVLDVVSMDSPIANTE------------- 70
+           +ETTA      +   G+  KL L  + ++ Q++  ++ + +P A  E             
+Sbjct: 1   METTALSVEQQIKQLGDARKLVLSDSSYYPQIIQGILPIVAPAARVELRRWVSDFLAETF 60
+
+Query: 71  -RPFIAAQYLPLLLAMAQST---------ADVLVYKNIVLIMCASYPLVLDLVAKTS-NQ 119
+             P I  Q    L  +   T          D  V K++V    + YP V   +   + + 
+Sbjct: 61  ASPTIPPQQKETLSLIVLETLKNLIENQQEDSTVVKSVVQTATSIYPHVFRWIINNAYDI 120
+
+Query: 120 EMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLS 179
+             ++++  +K  +L  W T+ P                      GV++  IKF   VVL 
+Sbjct: 121 PTWERMLAIKSRILRIWETSTP----------------------GVRVCCIKFAQRVVLV 158
+
+Query: 180 QTKSPSGN-------EINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVF 232
+           QTK P  N       E++ + I  N+ VL+   LE+EA  LLD +L+ + ++    +   
+Sbjct: 159 QTKGPDANAKHGDPEEVSLTVISPNNAVLDPKNLEAEASGLLDRVLS-VFQDNTCDAVPV 217
+
+Query: 233 IGIINSLSFVIKRRPQTTIRILSGLLRFN 261
+              +NSLS +I+ RPQ + +IL+ +L FN
+Sbjct: 218 NATLNSLSTLIRARPQLSNKILNVILNFN 246
+
+
+>CCU77138 pep:novel supercontig:EF1:HF943525:386977:388889:-1
+           gene:BGHDH14_bgh01423 transcript:CCU77138
+           description:"Putative ATP-dependent RNA helicase"
+          Length = 616
+
+ Score = 31.2 bits (69), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + +++ F PP  D  RD +H++ +   G + +  SLL
+Sbjct: 442 ICTDVAARGLDIPDVDWIVQFDPP--DDPRDYIHRVGRTARGSNGKGRSLL 490
+
+
+>CCU80764 pep:novel supercontig:EF1:HF943541:893367:895036:1
+           gene:BGHDH14_bgh01827 transcript:CCU80764
+           description:"hypothetical protein"
+          Length = 469
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%)
+
+Query: 363 RQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKI 400
+           R  S+L ST+G S   P+ VSAPA+ S ++N +   ++
+Sbjct: 205 RGPSSLRSTIGPSCSHPSGVSAPASASFSKNSITSRQV 242
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 3,859,953
+Number of extensions: 145906
+Number of successful extensions: 471
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 467
+Number of HSP's successfully gapped: 7
+Length of query: 785
+Length of database: 3,131,961
+Length adjustment: 98
+Effective length of query: 687
+Effective length of database: 2,497,901
+Effective search space: 1716057987
+Effective search space used: 1716057987
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_15543T0 | RO3G_15543 | Rhizopus delemar 99-880 hypothetical...    29   5.7  
+RO3G_14196T0 | RO3G_14196 | Rhizopus delemar 99-880 hypothetical...    28   6.9  
+RO3G_00076T0 | RO3G_00076 | Rhizopus delemar 99-880 hypothetical...    29   8.0  
+
+>RO3G_15543T0 | RO3G_15543 | Rhizopus delemar 99-880 hypothetical protein (613
+           aa)
+          Length = 612
+
+ Score = 29.3 bits (64), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 24/44 (54%), Gaps = 3/44 (6%)
+
+Query: 205 ALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQ 248
+           ALE E + +L+ +LN    +   + SV    I+ L   +KRRPQ
+Sbjct: 17  ALEKEGQGILETILNLFDSD---IESVLTASISCLLVTVKRRPQ 57
+
+
+>RO3G_14196T0 | RO3G_14196 | Rhizopus delemar 99-880 hypothetical protein (234
+           aa)
+          Length = 233
+
+ Score = 28.5 bits (62), Expect = 6.9,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 25/48 (52%)
+
+Query: 343 GNSKKTLSRQDKLKYISLWKRQLSALLSTLGVSTKTPTPVSAPATGSS 390
+           G   K+L++++K KY  L+KR+L      +   T   T V   ++ SS
+Sbjct: 140 GQKWKSLTKEEKQKYQDLYKRELEDHEEAMKAYTSGNTAVVVDSSASS 187
+
+
+>RO3G_00076T0 | RO3G_00076 | Rhizopus delemar 99-880 hypothetical protein (542
+           aa)
+          Length = 541
+
+ Score = 28.9 bits (63), Expect = 8.0,   Method: Compositional matrix adjust.
+ Identities = 14/39 (35%), Positives = 23/39 (58%), Gaps = 6/39 (15%)
+
+Query: 322 TLHVIGEETKSKGILNFDPSKGNSKKTLSRQDKLKYISL 360
+           T+H+IG +T+      FD  KGN+   +S +  + Y+SL
+Sbjct: 144 TIHIIGNQTE------FDQMKGNTTVDISAKTTISYLSL 176
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 7,524,780
+Number of extensions: 283197
+Number of successful extensions: 830
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 830
+Number of HSP's successfully gapped: 6
+Length of query: 785
+Length of database: 5,971,044
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,190,226
+Effective search space: 2861924358
+Effective search space used: 2861924358
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

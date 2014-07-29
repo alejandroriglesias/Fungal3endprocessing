@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00010771 pep:known chromosome:CADRE:I:1604731:1609172:1 ...    30   3.1  
+CADANGAP00012025 pep:known chromosome:CADRE:III:3967003:3971164:...    28   7.9  
+CADANGAP00013409 pep:known chromosome:CADRE:VIII:40634:42277:-1 ...    28   8.8  
+
+>CADANGAP00010771 pep:known chromosome:CADRE:I:1604731:1609172:1
+           gene:CADANGAG00010986 transcript:CADANGAT00010986
+           description:"Similarity to Superfamily I DNA helicases
+           and helicase subunits"
+          Length = 1443
+
+ Score = 29.6 bits (65), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 34/111 (30%), Positives = 46/111 (41%), Gaps = 17/111 (15%)
+
+Query: 425 LKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTP-LIYRKNFNHFNP-DLNKRPPREPI 482
+           L+P D++FL    SDD        G P   E  TP L Y +        D N RP REP+
+Sbjct: 581 LRPDDVVFLLAVQSDD-------AGNPGFREPETPGLKYLRTAEIVQVLDENGRPLREPV 633
+
+Query: 483 EFDLNGNTNSTPTIAKAF-GKNSLLLRKDRGGLP------YKHVPIVKRNK 526
+               NG+    P + K     +S   + D+ GL       Y  + +V R K
+Sbjct: 634 SGQANGH-RYRPRVRKLLVNLDSAAFKADKDGLARGKPDVYPLINVVARRK 683
+
+
+>CADANGAP00012025 pep:known chromosome:CADRE:III:3967003:3971164:1
+           gene:CADANGAG00012258 transcript:CADANGAT00012258
+           description:"DNA-directed RNA polymerase"
+          Length = 1367
+
+ Score = 28.1 bits (61), Expect = 7.9,   Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 37/61 (60%), Gaps = 1/61 (1%)
+
+Query: 49  DSLQAALNQFTKDNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQL-IKLKHEKQHHSTP 107
+           +S+QAALN++ ++ +  ++   N T ++ +L S +   + D ++++  +LK  +Q  + P
+Sbjct: 360 NSIQAALNRWRQETIDRQKAGLNTTGSEKRLGSIINQWHTDLVSRIEAELKLVEQSEAKP 419
+
+Query: 108 P 108
+           P
+Sbjct: 420 P 420
+
+
+>CADANGAP00013409 pep:known chromosome:CADRE:VIII:40634:42277:-1
+           gene:CADANGAG00013658 transcript:CADANGAT00013658
+           description:"Remark\x3a Tan1 is identical to transposon
+           Tndm2 from Aspergillus niger"
+          Length = 354
+
+ Score = 27.7 bits (60), Expect = 8.8,   Method: Compositional matrix adjust.
+ Identities = 32/115 (27%), Positives = 56/115 (48%), Gaps = 32/115 (27%)
+
+Query: 18  STIQQIRLDMVDFNKDC-----KLSSIQLARIDKYIDSL--QAALNQFTK----DNLHIE 66
+           ST+Q  RL+ + F K+      KL+SI+   ++K+I SL  + AL + ++     NL ++
+Sbjct: 42  STLQD-RLNGLKFRKNTRANSHKLTSIEEELLEKWIISLDQRGALPKHSQVREMANLLLQ 100
+
+Query: 67  RKEKNVTEA-----------------DIQLYSGLKSMYLDYLNQLIKLKHEKQHH 104
+           ++ +N T +                 D+  +S LK  Y D + QLI+  +   HH
+Sbjct: 101 KRGQNTTISIIPVCMPANSSHLCQPLDVACFSPLKKTYKDQVQQLIRTGY---HH 152
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 5,314,764
+Number of extensions: 208892
+Number of successful extensions: 340
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 340
+Number of HSP's successfully gapped: 7
+Length of query: 533
+Length of database: 6,195,193
+Length adjustment: 99
+Effective length of query: 434
+Effective length of database: 4,802,461
+Effective search space: 2084268074
+Effective search space used: 2084268074
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

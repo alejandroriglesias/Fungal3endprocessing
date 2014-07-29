@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_00698T0 pep:known chromosome:ASM14955v1:1:3636302:3637783:1...   195   8e-62
+FVEG_07549T0 pep:known chromosome:ASM14955v1:8:1179790:1183455:1...    29   0.87 
+FVEG_11867T0 pep:known chromosome:ASM14955v1:4:2498183:2499397:1...    27   3.0  
+FVEG_11461T0 pep:known chromosome:ASM14955v1:7:2208868:2210549:1...    27   4.7  
+FVEG_05458T0 pep:known chromosome:ASM14955v1:3:3653345:3656583:-...    27   7.9  
+FVEG_08738T0 pep:known chromosome:ASM14955v1:10:1815915:1816706:...    26   8.9  
+
+>FVEG_00698T0 pep:known chromosome:ASM14955v1:1:3636302:3637783:1 gene:FVEG_00698
+           transcript:FVEG_00698T0 description:"protein SSU72"
+          Length = 255
+
+ Score =  195 bits (496), Expect = 8e-62,   Method: Compositional matrix adjust.
+ Identities = 104/232 (44%), Positives = 144/232 (62%), Gaps = 35/232 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASNNNRSME+H  L +A Y V S+GTGS VRLPG +I +PNVY F  T Y+ +
+Sbjct: 25  LKFCTVCASNNNRSMEAHLRLSQADYPVISFGTGSLVRLPGPTITQPNVYHFNKTSYDSM 84
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ-----------------ESTK--VF 108
+           + +L S+ A  Y++NG+L ML+RNR +K  PE+WQ                 E T+  + 
+Sbjct: 85  FKELESKDARLYRNNGILNMLNRNRGVKWGPERWQDWQVGVPRLQHAKDRGSEGTEGGLV 144
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERC+DAV +DL+NRG  LN+ VHVINV+IKD+ E A IG + IL+LA+ LN  
+Sbjct: 145 DVVITCEERCWDAVVDDLLNRGSPLNRPVHVINVEIKDNHEEAAIGGQGILDLANSLNAA 204
+
+Query: 169 IEQCEKDDI--------------PFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             + E++ +               F++ + DIL  WQ    +LP+ +  +++
+Sbjct: 205 ARE-EREAVGASSFDNGSASSRASFDERVPDILASWQERWPKLPATWTVAWF 255
+
+
+>FVEG_07549T0 pep:known chromosome:ASM14955v1:8:1179790:1183455:1 gene:FVEG_07549
+           transcript:FVEG_07549T0 description:"hypothetical
+           protein"
+          Length = 881
+
+ Score = 29.3 bits (64), Expect = 0.87,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query: 30  QEAGY----NVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSN 82
+           Q+ G+    N +S GT +    PG S+   NV   G+P  D+ +   S SA   ++N
+Sbjct: 50  QQPGHPRSDNATSSGTSTGGVYPGGSVGAVNVQGLGSPPQDLPSPECSLSASSEQAN 106
+
+
+>FVEG_11867T0 pep:known chromosome:ASM14955v1:4:2498183:2499397:1 gene:FVEG_11867
+           transcript:FVEG_11867T0 description:"conserved
+           hypothetical protein"
+          Length = 316
+
+ Score = 27.3 bits (59), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 15/35 (42%), Positives = 22/35 (62%), Gaps = 4/35 (11%)
+
+Query: 48  PGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSN 82
+           P LS   PN+    T  +D ++DL ++ A+RYKSN
+Sbjct: 133 PELSFLNPNI----TVTSDHFSDLWTRLAERYKSN 163
+
+
+>FVEG_11461T0 pep:known chromosome:ASM14955v1:7:2208868:2210549:1 gene:FVEG_11461
+           transcript:FVEG_11461T0 description:"ATP-dependent RNA
+           helicase dhh-1"
+          Length = 523
+
+ Score = 26.9 bits (58), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 337 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 368
+
+
+>FVEG_05458T0 pep:known chromosome:ASM14955v1:3:3653345:3656583:-1
+           gene:FVEG_05458 transcript:FVEG_05458T0
+           description:"hypothetical protein similar to tRNA
+           exportin"
+          Length = 1022
+
+ Score = 26.6 bits (57), Expect = 7.9,   Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 34/66 (51%), Gaps = 7/66 (10%)
+
+Query: 45  VRLPGLSIDKPNV-------YSFGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKA 97
+           + L GLS +  NV        + G+ +++I + LLS+ ++  K N  L+   R + + K 
+Sbjct: 133 LELTGLSTNTDNVPGVVFYLRTLGSIHDEIADMLLSRQSNETKRNTELKDQLRAQDMHKV 192
+
+Query: 98  PEKWQE 103
+            E W++
+Sbjct: 193 SESWKQ 198
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 2,587,434
+Number of extensions: 107392
+Number of successful extensions: 279
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 276
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 5,950,719
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,674,069
+Effective search space: 542192004
+Effective search space used: 542192004
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

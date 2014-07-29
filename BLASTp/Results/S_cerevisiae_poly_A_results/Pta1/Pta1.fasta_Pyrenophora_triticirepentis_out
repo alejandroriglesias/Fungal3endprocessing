@@ -1,0 +1,151 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU50517 pep:novel supercontig:GCA_000149985.1:supercont1.8:2575...    89   2e-18
+EDU50730 pep:novel supercontig:GCA_000149985.1:supercont1.8:8753...    28   4.1  
+EDU45615 pep:novel supercontig:GCA_000149985.1:supercont1.2:2375...    29   4.6  
+EDU43289 pep:novel supercontig:GCA_000149985.1:supercont1.13:437...    28   8.5  
+
+>EDU50517 pep:novel supercontig:GCA_000149985.1:supercont1.8:257529:260169:-1
+           gene:PTRG_07598 transcript:EDU50517
+           description:"conserved hypothetical protein"
+          Length = 770
+
+ Score = 89.0 bits (219), Expect = 2e-18,   Method: Compositional matrix adjust.
+ Identities = 56/199 (28%), Positives = 94/199 (47%), Gaps = 40/199 (20%)
+
+Query: 626 WLHVLIRLVTR----------GIEAQEA----------SDLIREELLGFFIQDFEQRVSL 665
+           W+ +L RL TR          GI+ + A          SD +R+ L  + + D+++R+ +
+Sbjct: 534 WVTILSRLATRASAGLDDPEEGIKDEYAVKSAKGNTKLSDAVRDGLYQYIMYDWKKRIDV 593
+
+Query: 666 IIEWLNEEWFFQTSLHQDP-------------------SNYKKWSLRVLESLGPFLENKH 706
+            I WLNEEW+    L Q                      NY + +LR+++ + P++E+  
+Sbjct: 594 AISWLNEEWYNDMVLSQAAEDSATNGSSNGHTKSKPPKGNYHRCALRLIDGILPYIEHTD 653
+
+Query: 707 RRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQL 766
+           +   +R +SE+P++    L  LK +  DP R  L    L +L MFRPPV+  V D+L ++
+Sbjct: 654 K-ILLRFLSEIPTIDYSILVRLKKMAEDPERIDLACNALHYLYMFRPPVRKIVVDILAEM 712
+
+Query: 767 KQEDEGLHKQCDSLLDRLK 785
+             E++        LL R +
+Sbjct: 713 WVENDRAKPSARKLLIRWR 731
+
+
+
+ Score = 65.1 bits (157), Expect = 4e-11,   Method: Compositional matrix adjust.
+ Identities = 46/158 (29%), Positives = 77/158 (48%), Gaps = 34/158 (21%)
+
+Query: 138 TAYPL--RATVDDETDVEQW--LAQIDQNI---------GVKLATIKFISEVVLSQT--- 181
+           + YPL  + TV D +D ++W  +A I  NI         GV++  +KF+ +VVL QT   
+Sbjct: 99  SVYPLVYKHTVSDPSDAQKWQLMAGIKSNILRRMDTAAPGVRICCVKFLQQVVLVQTPGI 158
+
+Query: 182 ---KSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLL-----NYLIEEQYMVSS--- 230
+              +    N+I+ S +P +HP++   +LE+E   LLD LL     ++ ++ Q        
+Sbjct: 159 ADPRRADPNDISLSLVPRDHPLIPYASLEAEGHGLLDRLLDIIHGDHRLDRQPQTDGTPL 218
+
+Query: 231 -------VFIGIINSLSFVIKRRPQTTIRILSGLLRFN 261
+                  +    +NSL  +I RRP    +I++ +  FN
+Sbjct: 219 TGTSDGLLVTATLNSLGMLIHRRPNAANKIMNSVFNFN 256
+
+
+>EDU50730 pep:novel supercontig:GCA_000149985.1:supercont1.8:875309:875641:1
+           gene:PTRG_07811 transcript:EDU50730
+           description:"predicted protein"
+          Length = 110
+
+ Score = 28.1 bits (61), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 13/31 (41%), Positives = 20/31 (64%)
+
+Query: 704 NKHRRFFIRLMSELPSLQSDHLEALKPICLD 734
+           N+ +  F+RL SEL +   DH+  L P+C+D
+Sbjct: 18  NQTQSPFLRLPSELRNQIFDHVFVLPPVCID 48
+
+
+>EDU45615 pep:novel supercontig:GCA_000149985.1:supercont1.2:2375235:2377344:
+           -1 gene:PTRG_03092 transcript:EDU45615
+           description:"conserved hypothetical protein"
+          Length = 496
+
+ Score = 29.3 bits (64), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 18/28 (64%)
+
+Query: 191 SSTIPDNHPVLNKPALESEAKRLLDMLL 218
+             + P+NHP+L  P+L +E+    DM+L
+Sbjct: 346 GGSYPENHPILTTPSLFTESPTYEDMML 373
+
+
+>EDU43289 pep:novel supercontig:GCA_000149985.1:supercont1.13:437446:439818:-
+           1 gene:PTRG_10238 transcript:EDU43289
+           description:"conserved hypothetical protein"
+          Length = 790
+
+ Score = 28.5 bits (62), Expect = 8.5,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 23/39 (58%)
+
+Query: 711 IRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLI 749
+           +R ++ L SL + H + +KP    P   S+ FQ L++L+
+Sbjct: 344 VRQINNLASLHARHHDRIKPGVNLPPDLSMAFQNLRYLL 382
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 6,630,141
+Number of extensions: 243887
+Number of successful extensions: 788
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 784
+Number of HSP's successfully gapped: 7
+Length of query: 785
+Length of database: 5,459,076
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,217,838
+Effective search space: 2880783354
+Effective search space used: 2880783354
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

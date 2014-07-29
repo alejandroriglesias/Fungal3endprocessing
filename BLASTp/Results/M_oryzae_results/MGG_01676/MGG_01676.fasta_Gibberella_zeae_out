@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_06907P0 pep:known chromosome:ASM24013v2:4:1644148:1644992:1...   486   e-175
+FGSG_10229P0 pep:known chromosome:ASM24013v2:1:10202878:10204373...    30   0.60 
+FGSG_09836P0 pep:known chromosome:ASM24013v2:4:7941351:7942796:1...    30   1.0  
+FGSG_12230P0 pep:known chromosome:ASM24013v2:2:3614271:3623698:1...    29   2.2  
+FGSG_05044P0 pep:known chromosome:ASM24013v2:3:983580:984965:-1 ...    28   3.2  
+
+>FGSG_06907P0 pep:known chromosome:ASM24013v2:4:1644148:1644992:1 gene:FGSG_06907
+           transcript:FGSG_06907T0 description:"cleavage and
+           polyadenylation specificity factor 5"
+          Length = 264
+
+ Score =  486 bits (1251), Expect = e-175,   Method: Compositional matrix adjust.
+ Identities = 231/265 (87%), Positives = 244/265 (92%), Gaps = 2/265 (0%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTIT  ALQSGQ P+IPLSFN NQPE + LYPLSNYTFGVKETQPEEDPSV+ARLKRLE
+Sbjct: 1   MSTITPDALQSGQAPVIPLSFNGNQPEKVTLYPLSNYTFGVKETQPEEDPSVIARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  HGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDE++GFK+RLDER
+Sbjct: 61  EHYTEHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEIQGFKSRLDER 120
+
+Query: 121 LAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+           LAPVGRLGEGEEAGDWQ+GDCLAQWWRPNFETFMYPF+PAHVTRPKECKKLYFIQLP  K
+Sbjct: 121 LAPVGRLGEGEEAGDWQVGDCLAQWWRPNFETFMYPFIPAHVTRPKECKKLYFIQLPKQK 180
+
+Query: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPG 240
+           VLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE GNVVA TPGS   
+Sbjct: 181 VLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDENGNVVAATPGSAAP 240
+
+Query: 241 EGDHVPKTKVLAGGDDVDMKQENGA 265
+           +G +VP  KVLA GDD DMK+ENG 
+Sbjct: 241 DG-YVPHVKVLA-GDDTDMKEENGT 263
+
+
+>FGSG_10229P0 pep:known chromosome:ASM24013v2:1:10202878:10204373:1
+           gene:FGSG_10229 transcript:FGSG_10229T0
+           description:"conserved hypothetical protein"
+          Length = 457
+
+ Score = 30.4 bits (67), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 23/53 (43%), Positives = 28/53 (52%), Gaps = 4/53 (7%)
+
+Query: 214 HLLSKYNFEFVDEQGNVVAQTP--GSGPGEGDHVPKTKVLAGGDDVDMKQENG 264
+           HLL K     V  +G V A TP  GS P E  HV  T   AGGDD  +++ +G
+Sbjct: 253 HLLPKLTGLIVPVRGQVAALTPSSGSSPLEHSHVWWTS--AGGDDYLVQRPSG 303
+
+
+>FGSG_09836P0 pep:known chromosome:ASM24013v2:4:7941351:7942796:1 gene:FGSG_09836
+           transcript:FGSG_09836T0 description:"conserved
+           hypothetical protein"
+          Length = 481
+
+ Score = 29.6 bits (65), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 30/60 (50%)
+
+Query: 75  ILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERLAPVGRLGEGEEAG 134
+           I+   E+ H  IL+ +  +A   L G+Y RP++D  +   A      + + RL E ++ G
+Sbjct: 393 IIEDRENAHIRILLYECYHALVALVGEYYRPQNDSSKKELAARKHLASVLARLEELDDMG 452
+
+
+>FGSG_12230P0 pep:known chromosome:ASM24013v2:2:3614271:3623698:1 gene:FGSG_12230
+            transcript:FGSG_12230T0 description:"conserved
+            hypothetical protein"
+          Length = 3128
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 18/29 (62%), Gaps = 1/29 (3%)
+
+Query: 226  EQGNVVAQTPGSGPGEGDHVPKTKVLAGG 254
+            E G VV +TP + PG+ D V  T + AGG
+Sbjct: 2103 ELGTVVIETP-TAPGDADDVEYTTIFAGG 2130
+
+
+>FGSG_05044P0 pep:known chromosome:ASM24013v2:3:983580:984965:-1 gene:FGSG_05044
+           transcript:FGSG_05044T0 description:"conserved
+           hypothetical protein"
+          Length = 339
+
+ Score = 28.1 bits (61), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 28/69 (40%), Gaps = 17/69 (24%)
+
+Query: 77  VCHEHNHPHILMLQIANAFFKLPGDYLR-----------------PEDDEVEGFKARLDE 119
+           +C  H    I +++  NAFF+L   +L                   ED+    F+A   +
+Sbjct: 16  ICKRHGSSKIGLIKAINAFFRLFKLFLSRYRSVDFLALRKEVWQIDEDEYHVSFEADTKD 75
+
+Query: 120 RLAPVGRLG 128
+            L P+G LG
+Sbjct: 76  SLVPIGDLG 84
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 3,733,758
+Number of extensions: 175837
+Number of successful extensions: 394
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 392
+Number of HSP's successfully gapped: 9
+Length of query: 266
+Length of database: 5,933,672
+Length adjustment: 93
+Effective length of query: 173
+Effective length of database: 4,695,098
+Effective search space: 812251954
+Effective search space used: 812251954
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

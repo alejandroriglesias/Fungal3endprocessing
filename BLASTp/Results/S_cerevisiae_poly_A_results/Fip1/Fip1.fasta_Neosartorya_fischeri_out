@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00004532 pep:known contig:CADRE:9201:2758650:2759782:1 g...    64   1e-11
+CADNFIAP00004324 pep:known contig:CADRE:9201:3239387:3240758:1 g...    31   0.48 
+CADNFIAP00009566 pep:known contig:CADRE:9374:2455943:2457796:-1 ...    28   2.8  
+
+>CADNFIAP00004532 pep:known contig:CADRE:9201:2758650:2759782:1 gene:CADNFIAG00004660
+           transcript:CADNFIAT00004660 description:"Cleavage and
+           polyadenylylation specificity factor subunit Fip1,
+           putative"
+          Length = 339
+
+ Score = 63.5 bits (153), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 29/73 (39%), Positives = 47/73 (64%), Gaps = 6/73 (8%)
+
+Query: 157 PKAMTGSIDLDKEGIFDSVG----ITTIDPEVLKE--KPWRQPGANLSDYFNYGFNEFTW 210
+           P     +ID++   +  S G     T +D +   E  KPWR+PG+++SDYFNYGF+EFTW
+Sbjct: 128 PPVHASTIDVNANPVHPSTGKPILSTDMDSDFPTEDDKPWRRPGSDISDYFNYGFDEFTW 187
+
+Query: 211 MEYLHRQEKLQQD 223
+             Y+ +Q++L+++
+Sbjct: 188 ASYVLKQQELRKE 200
+
+
+>CADNFIAP00004324 pep:known contig:CADRE:9201:3239387:3240758:1 gene:CADNFIAG00004452
+           transcript:CADNFIAT00004452
+           description:"O-methyltransferase, putative"
+          Length = 394
+
+ Score = 30.8 bits (68), Expect = 0.48,   Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 34/67 (50%), Gaps = 11/67 (16%)
+
+Query: 160 MTGSIDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFNYGF-NEFTWMEYLHRQE 218
+           M G+I +DK G F         PE L+E  +R P  + +  F Y F    T  +++++  
+Sbjct: 139 MYGAI-VDKLGCF---------PEYLRETNYRNPADHENGIFQYCFRTNLTTFQWINQNP 188
+
+Query: 219 KLQQDYN 225
+           ++ +D+N
+Sbjct: 189 EVARDFN 195
+
+
+>CADNFIAP00009566 pep:known contig:CADRE:9374:2455943:2457796:-1
+           gene:CADNFIAG00009806 transcript:CADNFIAT00009806
+           description:"MFS myo-inositol transporter, putative"
+          Length = 550
+
+ Score = 28.5 bits (62), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 30/56 (53%), Gaps = 2/56 (3%)
+
+Query: 98  LLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESD 153
+           LL  Y T   SS+  ++S+ +D+SN +  T D+ LIT   +   + A+ +    +D
+Sbjct: 61  LLFGYDTGVISST--LVSIGSDLSNRVLTTLDKSLITSCTSLFALLASPLAGILAD 114
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,393,900
+Number of extensions: 97642
+Number of successful extensions: 302
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 302
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 5,073,492
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,095,704
+Effective search space: 954299032
+Effective search space used: 954299032
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

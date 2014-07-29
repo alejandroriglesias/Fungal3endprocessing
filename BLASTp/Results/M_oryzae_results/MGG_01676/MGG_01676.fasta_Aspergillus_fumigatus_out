@@ -1,0 +1,162 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00004946 pep:known scaffold:CADRE:DS499597:454792:456062...   429   e-151
+CADAFUBP00001941 pep:known scaffold:CADRE:DS499595:713401:714575...    33   0.081
+CADAFUBP00005638 pep:known scaffold:CADRE:DS499597:2483904:24861...    31   0.41 
+CADAFUBP00007439 pep:known scaffold:CADRE:DS499599:1234306:12346...    28   1.1  
+CADAFUBP00004035 pep:known scaffold:CADRE:DS499596:2036253:20371...    28   3.0  
+CADAFUBP00007843 pep:known scaffold:CADRE:DS499600:243549:245389...    27   4.2  
+CADAFUBP00002376 pep:known scaffold:CADRE:DS499595:2140020:21417...    27   4.5  
+CADAFUBP00005591 pep:known scaffold:CADRE:DS499597:2362395:23640...    27   5.8  
+
+>CADAFUBP00004946 pep:known scaffold:CADRE:DS499597:454792:456062:1
+           gene:CADAFUBG00005035 transcript:CADAFUBT00005035
+           description:"Cleavage and polyadenylation specific
+           factor 5"
+          Length = 334
+
+ Score =  429 bits (1103), Expect = e-151,   Method: Compositional matrix adjust.
+ Identities = 208/264 (78%), Positives = 223/264 (84%), Gaps = 6/264 (2%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MST T T++QS  PPIIP  F+A QP+TIRLYPLSNYTFG KETQPEEDPSVLARLKRLE
+Sbjct: 57  MSTTTATSMQSSHPPIIPKDFSAQQPKTIRLYPLSNYTFGTKETQPEEDPSVLARLKRLE 116
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  HGMRRTCEG+LVCHEHNHPH+LMLQIANAFFKLPGDYL  +DDEVEGFK RL+ER
+Sbjct: 117 EHYEKHGMRRTCEGVLVCHEHNHPHVLMLQIANAFFKLPGDYLHFDDDEVEGFKKRLNER 176
+
+Query: 121 LAPVGRLGEGEEAG-DWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE    DW+IGD LAQWWRPNFETFMYPF+P HVTRPKECKKLYFIQLP  
+Sbjct: 177 LAPVGSQFSGEGVNEDWEIGDTLAQWWRPNFETFMYPFLPGHVTRPKECKKLYFIQLPKK 236
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE  NVVA TPG+ P
+Sbjct: 237 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDENDNVVAATPGA-P 295
+
+Query: 240 GEGDHVPKTKVLAG----GDDVDM 259
+                +P+TKVLAG    G D  M
+Sbjct: 296 LPEHQIPRTKVLAGETNDGQDAGM 319
+
+
+>CADAFUBP00001941 pep:known scaffold:CADRE:DS499595:713401:714575:-1
+           gene:CADAFUBG00001982 transcript:CADAFUBT00001982
+           description:"KH domain RNA-binding protein"
+          Length = 355
+
+ Score = 32.7 bits (73), Expect = 0.081,   Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 22/45 (48%), Gaps = 1/45 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY-PFVPAHV 162
+           ER+  V    EG E   W+IG CL   W+    T +Y P V A V
+Sbjct: 169 ERIVEVQGTPEGIEKAVWEIGKCLIDDWQRGTGTILYNPAVRASV 213
+
+
+>CADAFUBP00005638 pep:known scaffold:CADRE:DS499597:2483904:2486196:1
+           gene:CADAFUBG00005742 transcript:CADAFUBT00005742
+           description:"C6 transcription factor, putative"
+          Length = 683
+
+ Score = 30.8 bits (68), Expect = 0.41,   Method: Compositional matrix adjust.
+ Identities = 41/126 (32%), Positives = 55/126 (43%), Gaps = 15/126 (11%)
+
+Query: 138 IGDCLAQWWRPNFETFMYP--FVPAHVTRPKECKKLYFIQLPNSKVLSVPK-NMKLLAVP 194
+           I D LA+    NF   M P   VPA       CK       P ++ LS+ K +  +L + 
+Sbjct: 550 ILDALAREKLLNFAGPMTPPLLVPAMHIHLLNCKS----DDPLTRQLSLNKLDFCMLILK 605
+
+Query: 195 LFELYDNSARY--GPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPGEGDHVPKTKVLA 252
+           + +    +A Y  G    AI HL S  +      QG VV +TP S PGE    P  + L 
+Sbjct: 606 VMQDVHTAASYYRGIFSEAIRHLSSTTSKP--TGQGPVVVETPASLPGE----PTMETLL 659
+
+Query: 253 GGDDVD 258
+            GD +D
+Sbjct: 660 SGDFLD 665
+
+
+>CADAFUBP00007439 pep:known scaffold:CADRE:DS499599:1234306:1234684:1
+           gene:CADAFUBG00007575 transcript:CADAFUBT00007575
+           description:"Thioredoxin"
+          Length = 108
+
+ Score = 28.1 bits (61), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 13/29 (44%), Positives = 18/29 (62%)
+
+Query: 173 FIQLPNSKVLSVPKNMKLLAVPLFELYDN 201
+           FIQ+   KV SV + M + A+P F LY +
+Sbjct: 55  FIQVDVDKVRSVAQEMNIRAMPTFVLYKD 83
+
+
+>CADAFUBP00004035 pep:known scaffold:CADRE:DS499596:2036253:2037183:1
+           gene:CADAFUBG00004107 transcript:CADAFUBT00004107
+           description:"Glutathione S-transferase, putative"
+          Length = 296
+
+ Score = 27.7 bits (60), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 18/59 (30%), Positives = 26/59 (44%), Gaps = 12/59 (20%)
+
+Query: 88  MLQIANAFFKLPGDYLRPED------------DEVEGFKARLDERLAPVGRLGEGEEAG 134
+            ++  +A+F  P   +RP+D             E+EG    L  RL   G   EGE+AG
+Sbjct: 182 FIKTRSAWFGKPLSEVRPKDPQIVKQTTDEVKKEMEGLAQMLRGRLGKTGPFFEGEKAG 240
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,996,728
+Number of extensions: 139884
+Number of successful extensions: 299
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 297
+Number of HSP's successfully gapped: 8
+Length of query: 266
+Length of database: 4,796,137
+Length adjustment: 91
+Effective length of query: 175
+Effective length of database: 3,893,781
+Effective search space: 681411675
+Effective search space used: 681411675
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

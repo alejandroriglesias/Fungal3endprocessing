@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX90530 pep:novel supercontig:ASM23037v1:FP929064:1453624:14558...   184   1e-49
+CBX92946 pep:novel supercontig:ASM23037v1:FP929105:106279:108971...    30   2.3  
+CBX94175 pep:novel supercontig:ASM23037v1:FP929120:80252:80449:-...    27   2.6  
+CBX94848 pep:novel supercontig:ASM23037v1:FP929125:883144:890305...    28   7.3  
+
+>CBX90530 pep:novel supercontig:ASM23037v1:FP929064:1453624:1455851:1
+           gene:LEMA_P066560.1 transcript:CBX90530
+           description:"Putative uncharacterized protein "
+          Length = 712
+
+ Score =  184 bits (466), Expect = 1e-49,   Method: Compositional matrix adjust.
+ Identities = 92/155 (59%), Positives = 115/155 (74%), Gaps = 3/155 (1%)
+
+Query: 7   AAGVAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPAL 66
+           AA VA D++DAL+ L  N+R EISNLTLIA+ENTE A AI+  L +HI+   P  KLPAL
+Sbjct: 5   AAEVAADFRDALQDLRMNSRPEISNLTLIAKENTEYAEAISTELENHIRSTRPEWKLPAL 64
+
+Query: 67  YLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRP 126
+           Y+LDSIVKNVGTPYT++ GR LY+TFM+AY  +D  TR+ M+ +L+TWK+PVP S+D RP
+Sbjct: 65  YVLDSIVKNVGTPYTVYIGRNLYRTFMDAYLVMDQGTRKAMEGLLRTWKQPVPESMDPRP 124
+
+Query: 127 VFPPEVVRPIENALIKARTSALQAQQEQMRSQHHL 161
+           VFP +V R IENAL K R +    QQ+  R QH L
+Sbjct: 125 VFPIDVTRDIENALTKIRAA---VQQQVQRPQHAL 156
+
+
+
+ Score =  140 bits (352), Expect = 7e-35,   Method: Compositional matrix adjust.
+ Identities = 78/227 (34%), Positives = 116/227 (51%), Gaps = 29/227 (12%)
+
+Query: 467 IMGDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAA 526
+           +M  I+LTT+S+K+PR++L++ LY+     C  CGRRF N   G+  K  HMDWHF++  
+Sbjct: 512 LMDHIELTTASMKKPRMHLISRLYEAKPNMCATCGRRFENTPDGKEKKARHMDWHFKM-- 569
+
+Query: 527 RIAEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEA 586
+           +  +A K+G HR +Y+  R+W+  RE VD                             + 
+Sbjct: 570 KDPDAAKRGLHRQWYISEREWIEYRE-VDESSPPNAN---------------------DP 607
+
+Query: 587 XXXXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGG 646
+                          R++ VP   +   S CPICQE+F+  W  EA ++VWMDA+  GG 
+Sbjct: 608 SSTSSASKLKKQPKDRYVSVPQDVAMQQSPCPICQEKFDTVWSVEANDFVWMDALSVGG- 666
+
+Query: 647 NRVFHASCHSEVT-GRGATLTPPVGMVLGKRKAD--DAYAGRKIKKY 690
+            +V+HA+C  E + G G  +      VLGKRKAD   +  G+K++ Y
+Sbjct: 667 -KVYHATCFEEYSKGLGIEMPGTPDSVLGKRKADGIGSGEGKKVRAY 712
+
+
+>CBX92946 pep:novel supercontig:ASM23037v1:FP929105:106279:108971:1
+           gene:LEMA_P038470.1 transcript:CBX92946
+           description:"Putative uncharacterized protein "
+          Length = 779
+
+ Score = 30.0 bits (66), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 20/40 (50%), Gaps = 1/40 (2%)
+
+Query: 183 PTPPGARGPNGYGQSYPPPNGRGPENSQFPTPQPHHPQGM 222
+           P+PP    PNG   +  PPNGR P       P P HP GM
+Sbjct: 673 PSPPNGYAPNGGPPNGMPPNGR-PSPPGMRQPVPRHPPGM 711
+
+
+>CBX94175 pep:novel supercontig:ASM23037v1:FP929120:80252:80449:-1
+           gene:LEMA_uP123270.1 transcript:CBX94175
+           description:"Predicted protein "
+          Length = 65
+
+ Score = 27.3 bits (59), Expect = 2.6,   Method: Composition-based stats.
+ Identities = 11/22 (50%), Positives = 16/22 (72%)
+
+Query: 141 IKARTSALQAQQEQMRSQHHLL 162
+           IK +   L+AQQE +RSQ H++
+Sbjct: 15  IKVQQETLEAQQEVVRSQAHII 36
+
+
+>CBX94848 pep:novel supercontig:ASM23037v1:FP929125:883144:890305:1
+            gene:LEMA_P118510.1 transcript:CBX94848
+            description:"Putative uncharacterized protein "
+          Length = 2370
+
+ Score = 28.5 bits (62), Expect = 7.3,   Method: Composition-based stats.
+ Identities = 17/44 (38%), Positives = 19/44 (43%), Gaps = 11/44 (25%)
+
+Query: 191  PNGYGQSYP--------PPNGRG---PENSQFPTPQPHHPQGMP 223
+            P+GY   YP        PP   G   P N Q P  QP+H  G P
+Sbjct: 2185 PDGYLDGYPANPPEQRPPPEDAGSGYPVNEQPPAEQPNHSDGYP 2228
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 6,258,135
+Number of extensions: 273816
+Number of successful extensions: 1397
+Number of sequences better than 10.0: 39
+Number of HSP's gapped: 1374
+Number of HSP's successfully gapped: 46
+Length of query: 695
+Length of database: 5,217,443
+Length adjustment: 100
+Effective length of query: 595
+Effective length of database: 3,970,543
+Effective search space: 2362473085
+Effective search space used: 2362473085
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

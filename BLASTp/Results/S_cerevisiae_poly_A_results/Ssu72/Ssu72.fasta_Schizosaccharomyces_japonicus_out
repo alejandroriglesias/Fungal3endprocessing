@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB08469 pep:novel supercontig:GCA_000149845.2:supercont5.2:1494...   243   1e-81
+EEB07000 pep:novel supercontig:GCA_000149845.2:supercont5.3:2954...    31   0.10 
+EEB07625 pep:novel supercontig:GCA_000149845.2:supercont5.1:1328...    28   0.67 
+EEB08030 pep:novel supercontig:GCA_000149845.2:supercont5.2:5441...    28   1.2  
+EEB09703 pep:novel supercontig:GCA_000149845.2:supercont5.2:2204...    27   2.5  
+EEB08312 pep:novel supercontig:GCA_000149845.2:supercont5.2:1132...    25   5.0  
+
+>EEB08469 pep:novel supercontig:GCA_000149845.2:supercont5.2:1494882:1495605:
+           1 gene:SJAG_03624 transcript:EEB08469
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  243 bits (619), Expect = 1e-81,   Method: Compositional matrix adjust.
+ Identities = 117/201 (58%), Positives = 144/201 (71%), Gaps = 7/201 (3%)
+
+Query: 6   NSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYN 65
+           N+NLK   +CASN NRSME+H VL+ AGY V S+GTGSAVRLPG SIDKPN+Y FG  Y+
+Sbjct: 4   NTNLKISVICASNQNRSMEAHNVLKNAGYEVQSFGTGSAVRLPGPSIDKPNIYQFGYSYD 63
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCED 125
+           +IYN+L +Q A  Y +NGLL+MLDRNRR+K APE+WQ+    FD V TCEERCFDAVCED
+Sbjct: 64  NIYNELEAQDARLYTANGLLKMLDRNRRIKTAPERWQDQRNTFDIVITCEERCFDAVCED 123
+
+Query: 126 LMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMD 185
+           L  RG K N  V +INVDIKD+ E A +G KAIL L + L D       DD+  E+   D
+Sbjct: 124 LFRRGEKQNYPVFLINVDIKDNHEEASVGGKAILALVEKLTDA-----GDDL--EEKFTD 176
+
+Query: 186 ILTEWQSSHSQLPSLYAPSYY 206
+           I+TEWQ+ + +LP L+   Y+
+Sbjct: 177 IMTEWQTKYPKLPVLFTIHYF 197
+
+
+>EEB07000 pep:novel supercontig:GCA_000149845.2:supercont5.3:2954209:2955846:
+           1 gene:SJAG_02074 transcript:EEB07000 description:"MCM
+           loader"
+          Length = 531
+
+ Score = 30.8 bits (68), Expect = 0.10,   Method: Compositional matrix adjust.
+ Identities = 13/31 (41%), Positives = 21/31 (67%)
+
+Query: 86  QMLDRNRRLKKAPEKWQESTKVFDFVFTCEE 116
+           Q L R+ R+++   + +E +KVF+FV TC E
+Sbjct: 139 QQLRRSARVQQVVGRSEEKSKVFEFVSTCVE 169
+
+
+>EEB07625 pep:novel supercontig:GCA_000149845.2:supercont5.1:1328112:1331992:
+           -1 gene:SJAG_02722 transcript:EEB07625
+           description:"complexed with Cdc5 protein Cwf11"
+          Length = 1281
+
+ Score = 28.5 bits (62), Expect = 0.67,   Method: Compositional matrix adjust.
+ Identities = 14/52 (26%), Positives = 25/52 (48%)
+
+Query: 99  EKWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           E  Q +T + D++ + + R     C+DL+ + G L  I    N  +  D E+
+Sbjct: 933 ELIQSATPIQDYIVSKQARVLGITCKDLVLQSGHLESIQANFNTVVMLDSES 984
+
+
+>EEB08030 pep:novel supercontig:GCA_000149845.2:supercont5.2:544127:546662:1
+           gene:SJAG_03157 transcript:EEB08030
+           description:"ATP-dependent RNA helicase Ste13"
+          Length = 498
+
+ Score = 27.7 bits (60), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 333 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 364
+
+
+>EEB09703 pep:novel supercontig:GCA_000149845.2:supercont5.2:2204133:2208157:
+           1 gene:SJAG_05346 transcript:EEB09703
+           description:"tuberin"
+          Length = 1274
+
+ Score = 26.6 bits (57), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 34/63 (53%), Gaps = 3/63 (4%)
+
+Query: 29  LQEAGYNVSSYGTGSAVR--LPGLSIDK-PNVYSFGTPYNDIYNDLLSQSADRYKSNGLL 85
+           L E+ ++ +     SA+   L  L+ D+  ++   GT Y  + N+ ++++ D Y  NG+ 
+Sbjct: 305 LHESRFDFAVINANSAISILLTSLNFDEFTDLEIVGTVYAFLKNEAITKAFDHYAWNGIF 364
+
+Query: 86  QML 88
+           ++L
+Sbjct: 365 EIL 367
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,000,881
+Number of extensions: 41856
+Number of successful extensions: 120
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 119
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 2,277,407
+Length adjustment: 84
+Effective length of query: 122
+Effective length of database: 1,867,655
+Effective search space: 227853910
+Effective search space used: 227853910
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 48 (23.1 bits)

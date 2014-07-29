@@ -1,0 +1,233 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00001587 pep:known scaffold:CADRE:DS499594:4595300:45984...   590   0.0  
+CADAFUBP00003864 pep:known scaffold:CADRE:DS499596:1581237:15843...    50   2e-06
+CADAFUBP00009781 pep:known scaffold:CADRE:DS499604:67131:68137:-...    34   0.14 
+CADAFUBP00000485 pep:known scaffold:CADRE:DS499594:1374369:13762...    33   0.19 
+CADAFUBP00001301 pep:known scaffold:CADRE:DS499594:3722627:37260...    33   0.34 
+CADAFUBP00000125 pep:known scaffold:CADRE:DS499594:337861:339099...    31   0.97 
+CADAFUBP00001396 pep:known scaffold:CADRE:DS499594:4002981:40047...    31   1.5  
+
+>CADAFUBP00001587 pep:known scaffold:CADRE:DS499594:4595300:4598418:1
+           gene:CADAFUBG00001624 transcript:CADAFUBT00001624
+           description:"Cleavage and polyadenylation specifity
+           factor, 73 kDa subunit, putative"
+          Length = 872
+
+ Score =  590 bits (1520), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 323/709 (45%), Positives = 437/709 (61%), Gaps = 89/709 (12%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+             F+ LGG NEVGRSCHI+QYKGKTVMLDAG+HPA +G ++LPF+DEFDLS VDILLISH
+Sbjct: 25  LAFYCLGGGNEVGRSCHIIQYKGKTVMLDAGMHPAKEGFSALPFFDEFDLSTVDILLISH 84
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FH+DH+++LPYV+ +TNF+GRVFMTH TKAIY+WL++D VRV++         T    L+
+Sbjct: 85  FHVDHSSALPYVLSKTNFKGRVFMTHATKAIYKWLIQDNVRVSNTASSSDQRTT----LY 140
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           ++ D + +   IET+D+++T  VN I+ T F AGHVLGAAMF I IAGL +LFTGDYSRE
+Sbjct: 141 TEHDHLSTLPLIETIDFNTTHTVNSIRITPFPAGHVLGAAMFLISIAGLNILFTGDYSRE 200
+
+Query: 189 VDRHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFA 247
+            DRHL  AEVP  +  +VLI ESTFG +T+ PRL RE  L + I   + RGGRVL+PVFA
+Sbjct: 201 EDRHLIPAEVPKGIKIDVLITESTFGISTNPPRLEREAALMKSITGILNRGGRVLMPVFA 260
+
+Query: 248 LGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR- 306
+           LGRAQE++LILDEYW  H  EL   ++PI+Y  N A++CM V+QTY+  MND+I++ FR 
+Sbjct: 261 LGRAQELLLILDEYWETHP-EL--QKIPIYYIGNTARRCMVVYQTYIGAMNDNIKRLFRQ 317
+
+Query: 307 -----------DSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWC 355
+                       +   P+ FK +  LR+LE F D G  VMLASPGMLQ+G SR+LLERW 
+Sbjct: 318 RMAEAEASGDKSASAGPWDFKFVRSLRSLERFDDVGGCVMLASPGMLQTGTSRELLERWA 377
+
+Query: 356 PEDKNLVLITGYSIEGTMAKFIMLEPDTIPSI-----------------NNPEITIPRRC 398
+           P ++N V++TGYS+EGTMAK ++ EP+ IP++                    +I IPRRC
+Sbjct: 378 PNERNGVVMTGYSVEGTMAKQLLNEPEQIPAVMSRSAGGVSRRGLAGTDEEQKIMIPRRC 437
+
+Query: 399 QVEEISFAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVH 458
+            V+EISFAAHVD  EN  FIE+++AP +ILVHGE + M RLKS LLS  A       +V 
+Sbjct: 438 TVDEISFAAHVDGVENRNFIEEVAAPVVILVHGEKHQMMRLKSKLLSLNAD---KAVKVK 494
+
+Query: 459 VFNPRNCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQ 518
+           V+ P NC EV + F+  K+AK VG                                    
+Sbjct: 495 VYTPANCDEVRIPFRKDKIAKVVGKLAQVAPPS--------------------------- 527
+
+Query: 519 AEKGLVDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCK 578
+                 D+++ +  ++SG+LV +   F+L  ++  DLRE+    +TTI  ++     +  
+Sbjct: 528 ------DQDDGR--LMSGVLVQN--GFDLSLMAPDDLREYAGLTTTTITCKQHITLSSAS 577
+
+Query: 579 KELIYWHILQMFGEAEVLQDDDR---------VTNQEPKVKEESKDN---LTNTGKLILQ 626
+            +LI W +   FG  E L  ++R           N E ++KEE  D    +  T   ++ 
+Sbjct: 578 MDLIRWALEGTFGAIEELGSNERSKVKEESTKAVNGEQEIKEEPADEEIPMEETQTYLVM 637
+
+Query: 627 IMGDIKLTIVNTLAVVEWTQDLMNDTVADSIIAILMNVDSAPASVKLSS 675
+               I+         +EW  ++MND VAD+++A+L+ V+S+PASVK S+
+Sbjct: 638 GCVLIRYHSRTREVELEWEGNMMNDGVADAVMAVLLTVESSPASVKQSA 686
+
+
+>CADAFUBP00003864 pep:known scaffold:CADRE:DS499596:1581237:1584330:1
+           gene:CADAFUBG00003932 transcript:CADAFUBT00003932
+           description:"Cleavage and polyadenylylation specificity
+           factor, putative"
+          Length = 1013
+
+ Score = 50.1 bits (118), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 56/258 (21%), Positives = 104/258 (40%), Gaps = 60/258 (23%)
+
+Query: 151 VNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE------------V 198
+           +NG+  TA++AGH +G  ++ I+     +++  D+++  +  +  A             +
+Sbjct: 186 LNGLTLTAYNAGHTVGGTIWHIQHGMESIVYAVDWNQARESVVAGAAWFGGSGASGAEVI 245
+
+Query: 199 PPLSSNVLIVESTFGT---ATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEIM 255
+             L     +V ST G    A    R  R+  L  +I S++ +GG VL+P     R  E+ 
+Sbjct: 246 EQLRKPTALVCSTRGGDKFALPGGRKKRDDLLLDMIRSSLAKGGTVLIPTDTSARVLELA 305
+
+Query: 256 LILDEYWSQHADELGGG--------QVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR- 306
+             L+  W    D  GG            ++ A   A   M + ++ +  M+++I ++F  
+Sbjct: 306 YALEHAWR---DVAGGNNESDMALKNAGLYLAGRKAHTTMRLARSMLEWMDENIVREFEA 362
+
+Query: 307 ---------DSQTN--------------------PFIFKNISYL---RNLED-FQDFGPS 333
+                     +Q+N                    PF FK++  +   + LE    D  P 
+Sbjct: 363 AEGVDAVTGQTQSNADGQRSGGQGQGKGGSKGLGPFTFKHLRTVERRKRLEKILTDQKPK 422
+
+Query: 334 VMLASPGMLQSGLSRDLL 351
+           V++AS   L  G +++ L
+Sbjct: 423 VIIASDTSLDWGFAKESL 440
+
+
+>CADAFUBP00009781 pep:known scaffold:CADRE:DS499604:67131:68137:-1
+           gene:CADAFUBG00009959 transcript:CADAFUBT00009959
+           description:"Metallo-beta-lactamase domain protein"
+          Length = 315
+
+ Score = 33.9 bits (76), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 20/64 (31%), Positives = 37/64 (57%), Gaps = 5/64 (7%)
+
+Query: 21  GRSCHILQYKGKTVMLDAGIHPAY--QGLASLPFYDEFDLSKVDILLISHFHLDHAASLP 78
+           G + +IL    + +++D+G   A   Q +ASL    +F +S V   L++H+HLDH   +P
+Sbjct: 49  GTNTYILGTGAERLLIDSGQGRARWEQLMASLAAEHKFRISTV---LLTHWHLDHTGGVP 105
+
+Query: 79  YVMQ 82
+           ++ +
+Sbjct: 106 HLFR 109
+
+
+>CADAFUBP00000485 pep:known scaffold:CADRE:DS499594:1374369:1376216:-1
+           gene:CADAFUBG00000493 transcript:CADAFUBT00000493
+           description:"DNA repair protein, putative"
+          Length = 549
+
+ Score = 33.5 bits (75), Expect = 0.19,   Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 19/36 (52%)
+
+Query: 153 GIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+            I+ T   A H  GA MF IE  G  VL+TGD   E
+Sbjct: 98  SIRVTLLDANHCAGAVMFLIEGDGKAVLYTGDIRAE 133
+
+
+>CADAFUBP00001301 pep:known scaffold:CADRE:DS499594:3722627:3726027:1
+           gene:CADAFUBG00001327 transcript:CADAFUBT00001327
+           description:"5'-\x3e3' exoribonculease Dhp1"
+          Length = 1058
+
+ Score = 33.1 bits (74), Expect = 0.34,   Method: Compositional matrix adjust.
+ Identities = 15/58 (25%), Positives = 25/58 (43%)
+
+Query: 148 TVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAEVPPLSSNV 205
+             D+  +K  A ++G   G A  +    G R+ +  D       HL+   +PP+  NV
+Sbjct: 871 NADIQAVKHKAQNSGRSYGGAPLRGGQKGGRINYASDRPNPFAAHLDPGFIPPVPGNV 928
+
+
+>CADAFUBP00000125 pep:known scaffold:CADRE:DS499594:337861:339099:1
+           gene:CADAFUBG00000128 transcript:CADAFUBT00000128
+           description:"Putative uncharacterized protein"
+          Length = 348
+
+ Score = 31.2 bits (69), Expect = 0.97,   Method: Compositional matrix adjust.
+ Identities = 21/64 (32%), Positives = 33/64 (51%), Gaps = 10/64 (15%)
+
+Query: 20  VGRSCHILQYKGKTVMLD-----AGIHPAY-QGLASL----PFYDEFDLSKVDILLISHF 69
+           VG +  I +++G  +M D     AG H     G+ S     P  D   L ++D++L+SH+
+Sbjct: 50  VGNATTIFEWEGLRLMTDPNFLHAGDHVHLGPGVTSTRLRNPAVDLHQLPRIDLVLLSHY 109
+
+Query: 70  HLDH 73
+           H DH
+Sbjct: 110 HGDH 113
+
+
+>CADAFUBP00001396 pep:known scaffold:CADRE:DS499594:4002981:4004769:1
+           gene:CADAFUBG00001430 transcript:CADAFUBT00001430
+           description:"MFS allantoate transporter, putative"
+          Length = 513
+
+ Score = 30.8 bits (68), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 21/40 (52%), Gaps = 8/40 (20%)
+
+Query: 152 NGIKFTAFHAGHVLGAAMF--------QIEIAGLRVLFTG 183
+           NG+ FT F AGHV GA +F           +AGL + + G
+Sbjct: 418 NGMWFTMFAAGHVAGAKIFFAREAPRYHSALAGLLICYAG 457
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 6,657,253
+Number of extensions: 267795
+Number of successful extensions: 542
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 533
+Number of HSP's successfully gapped: 11
+Length of query: 779
+Length of database: 4,796,137
+Length adjustment: 101
+Effective length of query: 678
+Effective length of database: 3,794,621
+Effective search space: 2572753038
+Effective search space used: 2572753038
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,165 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P100507 pep:known chromosome:MG2:6:1334760:1337198:1 gene:...   211   1e-61
+Mycgr3P70456 pep:known chromosome:MG2:3:3166141:3168114:1 gene:M...    31   0.63 
+Mycgr3P56278 pep:known chromosome:MG2:3:635357:638996:-1 gene:My...    30   1.3  
+Mycgr3P77057 pep:known chromosome:MG2:11:1279054:1280783:1 gene:...    28   3.6  
+Mycgr3P108152 pep:known chromosome:MG2:2:2342955:2348696:1 gene:...    28   6.9  
+Mycgr3P108995 pep:known chromosome:MG2:4:724590:726704:-1 gene:M...    27   8.5  
+
+>Mycgr3P100507 pep:known chromosome:MG2:6:1334760:1337198:1 gene:Mycgr3G100507
+           transcript:Mycgr3T100507 description:"Putative
+           uncharacterized protein"
+          Length = 573
+
+ Score =  211 bits (537), Expect = 1e-61,   Method: Compositional matrix adjust.
+ Identities = 137/377 (36%), Positives = 196/377 (51%), Gaps = 51/377 (13%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS+IF++FKS+++  +I FDGT L+VF++KREI+   +LGDG D  L IY  DT E YD
+Sbjct: 1   MSSSIFFKFKSRKDALQINFDGTSLSVFEVKREIMNIARLGDGKDSDLDIYTSDTNEIYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD   IPRST+VI +R PA +                 G A RYVTG   V  K  H   
+Sbjct: 61  DDTTQIPRSTTVIARRLPASRP--------------GAGRAARYVTGSMPVRAKNSHRIE 106
+
+Query: 121 XXXNVSGT---------------TEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTN 165
+                + +               TE+ER+ ++               SA  PV  ++Q  
+Sbjct: 107 ATGKSAASNGAATNGGFVEGKAMTEQERLQAVM-NASNTQLNADLEQSANKPVMHRTQ-- 163
+
+Query: 166 KNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEI 224
+             SA   + PPPPGY C+RCG + HWI+ CPTN+DP F+ K R ++TTGIP+  L+ I  
+Sbjct: 164 HKSAVVPDKPPPPGYECHRCGNKGHWIQACPTNNDPTFDNKPRAKKTTGIPRSMLEYIPD 223
+
+Query: 225 D-PETMTPEEMAQRK-IMITDEGKFVVQVEDKQSWEDYQ--RKRENRQI----DGDETIW 276
+           D  E +   E+ Q   I   D G++V    D+++W+  Q  R +   Q+     GD+ + 
+Sbjct: 224 DEAEAIKNGEIEQDAGIWKDDAGRYVRVKTDEKTWQKIQDERTKNAEQVKEVAKGDQELR 283
+
+Query: 277 RKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDIL 336
+            +G   D+    KCP +      PVKT  CC   + ++ +EN L+++D VCPNC  +  L
+Sbjct: 284 DRGLECDID---KCPFS-----DPVKTP-CCGKTYCRDCIENTLLDADLVCPNCGEQ-AL 333
+
+Query: 337 LDSLVPDQDKEKEVETF 353
+           LD L PD +   ++  F
+Sbjct: 334 LDKLEPDSETVTKLIAF 350
+
+
+>Mycgr3P70456 pep:known chromosome:MG2:3:3166141:3168114:1 gene:Mycgr3G70456
+           transcript:Mycgr3T70456 description:"Putative
+           uncharacterized protein"
+          Length = 640
+
+ Score = 31.2 bits (69), Expect = 0.63,   Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 33/66 (50%), Gaps = 11/66 (16%)
+
+Query: 27  VFDLKREIIQENKLGDGTDFQLKI-----YNPDTEEEYDDDAFVIPRSTSVIVKRSPAIK 81
+           V    R+++Q ++LG      L++     YN D++ E DD+A   P+      KR+P I 
+Sbjct: 421 VLSTLRKVLQPSQLGSDAQGTLRLDRVIGYNADSDSESDDEAQTTPK------KRAPRIG 474
+
+Query: 82  SFSVHS 87
+           S +  S
+Sbjct: 475 SHTAMS 480
+
+
+>Mycgr3P56278 pep:known chromosome:MG2:3:635357:638996:-1 gene:Mycgr3G56278
+           transcript:Mycgr3T56278 description:"Putative
+           uncharacterized protein"
+          Length = 1052
+
+ Score = 30.0 bits (66), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 11/23 (47%), Positives = 18/23 (78%)
+
+Query: 155 ATPVFFKSQTNKNSAQENEGPPP 177
+           +T V+FK++ NK  A+ ++GPPP
+Sbjct: 56  STAVYFKNRVNKGWAKLDDGPPP 78
+
+
+>Mycgr3P77057 pep:known chromosome:MG2:11:1279054:1280783:1 gene:Mycgr3G77057
+           transcript:Mycgr3T77057 description:"Putative
+           uncharacterized protein"
+          Length = 480
+
+ Score = 28.5 bits (62), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 22/51 (43%), Gaps = 1/51 (1%)
+
+Query: 286 DDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDIL 336
+           DD  CP+  G+  +PV    CC   F    + +   E    CP C +  +L
+Sbjct: 379 DDWICPVCYGMAWRPVNLG-CCRSVFCIRCIIHLQDEGMKKCPMCNSETVL 428
+
+
+>Mycgr3P108152 pep:known chromosome:MG2:2:2342955:2348696:1 gene:Mycgr3G108152
+            transcript:Mycgr3T108152 description:"CHS5 chitin
+            synthase, class V"
+          Length = 1855
+
+ Score = 27.7 bits (60), Expect = 6.9,   Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 22/36 (61%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGD 272
+            ++I+++DEGKF      ++ WE+YQ +  + Q   D
+Sbjct: 1690 KQILVSDEGKFNPDDIPRKKWEEYQAELWDAQTRDD 1725
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 4,186,684
+Number of extensions: 183900
+Number of successful extensions: 387
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 383
+Number of HSP's successfully gapped: 10
+Length of query: 441
+Length of database: 4,742,065
+Length adjustment: 96
+Effective length of query: 345
+Effective length of database: 3,692,689
+Effective search space: 1273977705
+Effective search space used: 1273977705
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

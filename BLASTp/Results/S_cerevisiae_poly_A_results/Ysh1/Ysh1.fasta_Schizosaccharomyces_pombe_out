@@ -1,0 +1,226 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC17G6.16c.1:pep pep:known chromosome:ASM294v2:I:3620761:36237...   721   0.0  
+SPBC1709.15c.1:pep pep:known chromosome:ASM294v2:II:1127954:1130...   107   2e-24
+SPBC3D6.03c.1:pep pep:known chromosome:ASM294v2:II:1271776:12741...    30   1.6  
+SPAC1D4.10.1:pep pep:known chromosome:ASM294v2:I:653449:656657:1...    29   2.1  
+SPBC1348.14c.1:pep pep:known chromosome:ASM294v2:II:38514:40277:...    29   2.9  
+SPBC1773.14.1:pep pep:known chromosome:ASM294v2:II:312809:314761...    28   3.7  
+SPBC428.03c.1:pep pep:known chromosome:ASM294v2:II:445324:447177...    28   6.4  
+SPCC330.08.1:pep pep:known chromosome:ASM294v2:III:124222:127134...    27   8.7  
+
+>SPAC17G6.16c.1:pep pep:known chromosome:ASM294v2:I:3620761:3623784:-1
+           gene:SPAC17G6.16c transcript:SPAC17G6.16c.1
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex endoribonuclease subunit
+           Ysh1"
+          Length = 757
+
+ Score =  721 bits (1862), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 379/772 (49%), Positives = 515/772 (66%), Gaps = 98/772 (12%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+            +F +LG  NEVGRSCH++QYKGKTVMLDAG+HPAY GL++LPF+DEFDLS VD+LLISH
+Sbjct: 19  LEFINLGAGNEVGRSCHVIQYKGKTVMLDAGVHPAYTGLSALPFFDEFDLSTVDVLLISH 78
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FHLDH ASLPYVMQ+TNF+GRVFMTHPTKA+ +WLL D+V+V+++G         ++ L+
+Sbjct: 79  FHLDHVASLPYVMQKTNFRGRVFMTHPTKAVCKWLLSDYVKVSNVGM--------EDQLY 130
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+            ++DL+ +FD+IE VDYHST++V GIKFT +HAGHVLGA M+ +E+AG+ +LFTGDYSRE
+Sbjct: 131 DEKDLLAAFDRIEAVDYHSTIEVEGIKFTPYHAGHVLGACMYFVEMAGVNILFTGDYSRE 190
+
+Query: 189 VDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFAL 248
+            DRHL+ AEVPP   +VLI EST+GTA+H+PRL +E +L  +IHST+  GGRVL+PVFAL
+Sbjct: 191 EDRHLHVAEVPPKRPDVLITESTYGTASHQPRLEKEARLLNIIHSTIRNGGRVLMPVFAL 250
+
+Query: 249 GRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRDS 308
+           GRAQE++LILDEYW+ H D      VPI+YAS+LA+KCM++FQTYVNMMND+IRK F  +
+Sbjct: 251 GRAQELLLILDEYWNNHLD---LRSVPIYYASSLARKCMAIFQTYVNMMNDNIRKIF--A 305
+
+Query: 309 QTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGYS 368
+           + NPFIF+ +  LRNLE F D GPSV+LASPGMLQ+G+SR LLERW P+ +N +L+TGYS
+Sbjct: 306 ERNPFIFRFVKSLRNLEKFDDIGPSVILASPGMLQNGVSRTLLERWAPDPRNTLLLTGYS 365
+
+Query: 369 IEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLEFIEKISAPNIIL 428
+           +EGTMAK I  EP  I S++  +  IPRR  VEE+SFAAHVD+ +N EFI+ ++A +IIL
+Sbjct: 366 VEGTMAKQITNEPIEIVSLSGQK--IPRRMAVEELSFAAHVDYLQNSEFIDLVNADHIIL 423
+
+Query: 429 VHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVKVAKAVGXXXXXX 488
+           VHGE   MGRLKSAL S F + K    +V V+ PRNCV + L F+G ++ +A+G      
+Sbjct: 424 VHGEQTNMGRLKSALASKFHNRKV---DVKVYTPRNCVPLYLPFKGERLVRALG------ 474
+
+Query: 489 XXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLVDEEEHKDIVVSGILVSDDKNFELD 548
+                                           K  V + +  DI +SGIL+  D N++L 
+Sbjct: 475 --------------------------------KVAVHKPKEGDI-MSGILIQKDANYKL- 500
+
+Query: 549 FLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVLQDDDRVTNQEPK 608
+            +S  DLR+   DL+TT+L ++Q +      EL  +H+ QMFG                 
+Sbjct: 501 -MSAEDLRD-FSDLTTTVLTQKQVIPFFSSMELANFHLKQMFGYV--------------- 543
+
+Query: 609 VKEESKDNLTNTGKLILQIMGDIKLTIVNTLAV-VEWTQDLMNDTVADSIIAILMNVDSA 667
+                K + T  G+    +M  I LT++    + +EW  ++MNDT+ADS+I IL+ ++S+
+Sbjct: 544 -----KQSKTKAGQPQYTVMDAITLTLIQEHKLALEWVGNIMNDTIADSVITILLGIESS 598
+
+Query: 668 PASVKLSSHSCDDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLNKDEYASN 727
+           PASVKL+SH C +H H+++    +   +E +R+K++      QFG+  T           
+Sbjct: 599 PASVKLTSHKC-NHLHSHLDKPPKVSKEE-DRIKKLMMFLDNQFGESMT----------- 645
+
+Query: 728 KEETITGV-VTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPL 778
+             +T  GV +   K  A IDF+ MK+ EC++  L+ RV  +L+   N + P 
+Sbjct: 646 --KTEKGVEIKFEKYEASIDFSTMKV-ECSNEALRSRVVHVLSRAINTILPF 694
+
+
+>SPBC1709.15c.1:pep pep:known chromosome:ASM294v2:II:1127954:1130425:-1
+           gene:SPBC1709.15c transcript:SPBC1709.15c.1
+           description:"cleavage factor two Cft2/polyadenylation
+           factor CPSF-73 (predicted)"
+          Length = 797
+
+ Score =  107 bits (267), Expect = 2e-24,   Method: Compositional matrix adjust.
+ Identities = 87/329 (26%), Positives = 144/329 (43%), Gaps = 44/329 (13%)
+
+Query: 62  DILLISHFHLDHAASLPYVMQRTNFQ-GRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXM 120
+           D++L+SH  L H   L Y   + +++   ++ T PT  + R  + D ++   I       
+Sbjct: 45  DLILLSHSDLAHIGGLVYAYYKYDWKNAYIYATLPTINMGRMTMLDAIKSNYISD----- 99
+
+Query: 121 GTKDEGLFSDEDLVDSFDKIETVDYHSTV----DVNGIKFTAFHAGHVLGAAMFQIEIAG 176
+                   S  D+   FD I  + Y          +G+  TA++AGH LG  ++ +    
+Sbjct: 100 -------MSKADVDAVFDSIIPLRYQQPTLLLGKCSGLTITAYNAGHTLGGTLWSLIKES 152
+
+Query: 177 LRVLFTGDYSREVDRHLNSAEVPPLS--------SNVLIVESTFGTATHEPRLNRERKLT 228
+             VL+  D++   D+HLN A +             N LI ++     +   R  R+    
+Sbjct: 153 ESVLYAVDWNHSKDKHLNGAALYSNGHILEALNRPNTLITDANNSLVSIPSRKKRDEAFI 212
+
+Query: 229 QLIHSTVMRGGRVLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMS 288
+           + + S++++GG VLLPV A  R  E+  ILD +WS     L     PI + S  + K + 
+Sbjct: 213 ESVMSSLLKGGTVLLPVDAASRVLELCCILDNHWSASQPPL---PFPILFLSPTSTKTID 269
+
+Query: 289 VFQTYVNMMNDDIRKKFRDSQTNPFIFKNISYLRNLEDFQDF--------GPSVMLASPG 340
+             ++ +  M D+I + F        I +N+   RN+    DF        GP V+LA+  
+Sbjct: 270 YAKSMIEWMGDNIVRDFG-------INENLLEFRNINTITDFSQISHIGPGPKVILATAL 322
+
+Query: 341 MLQSGLSRDLLERWCPEDKN-LVLITGYS 368
+            L+ G S+ +L     E+ N L+L T  S
+Sbjct: 323 TLECGFSQRILLDLMSENSNDLILFTQRS 351
+
+
+>SPBC3D6.03c.1:pep pep:known chromosome:ASM294v2:II:1271776:1274127:-1
+           gene:SPBC3D6.03c transcript:SPBC3D6.03c.1
+           description:"mitochondrial 3'-tRNA processing
+           endonuclease Trz2"
+          Length = 678
+
+ Score = 29.6 bits (65), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 34/80 (42%), Gaps = 6/80 (7%)
+
+Query: 31  GKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFHLDHAASLPYVMQ-----RTN 85
+           G  +MLD G     Q         E  L K+  + I+H H DH   L  V+Q      TN
+Sbjct: 435 GTVIMLDCGEGAISQFFRQYGTNTEPMLRKLKAIFITHLHSDHYLGLLNVLQAWNKANTN 494
+
+Query: 86  FQGRVFMTHPTKAIYRWLLR 105
+               + +  P K +++WL R
+Sbjct: 495 NSMHINIIGP-KFLWQWLQR 513
+
+
+>SPAC1D4.10.1:pep pep:known chromosome:ASM294v2:I:653449:656657:1 gene:SPAC1D4.10
+           transcript:SPAC1D4.10.1 description:"3'-tRNA processing
+           endonuclease tRNAse Z L2 Trz1 (predicted)"
+          Length = 809
+
+ Score = 29.3 bits (64), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 43/205 (20%), Positives = 88/205 (42%), Gaps = 30/205 (14%)
+
+Query: 32  KTVMLDAGIHPAYQGLASLPFYD--EFDLSKVDILLISHFHLDHAASLPYVMQR----TN 85
+           K ++LD G      G  S  + D  +++++ +  + ISH H DH A +  V++     ++
+Sbjct: 538 KNILLDCG--EGTLGRLSRQYGDNLKYEIASLRWIYISHMHADHHAGVIGVLKAWTKYSD 595
+
+Query: 86  FQGRVFMTHPTKAIYRWLLR----DFVRVTSIGXXXXXMGTKDE--GLFSDEDLVDSFDK 139
+            + ++F+T P +  + WLL     D++ +++I          D          L   F +
+Sbjct: 596 GRSKLFITAPPQFEF-WLLEYSRIDYLPLSNIVFISNSALRTDRKPSALESSRLSSLFKE 654
+
+Query: 140 IETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAEVP 199
+            + V + +          A H  +     M     +G ++ ++GD +R  +   N A+  
+Sbjct: 655 FDLVSFRTV--------PAIHCPY--SYCMEITNSSGWKIAYSGD-TRPSEDFANIAK-- 701
+
+Query: 200 PLSSNVLIVESTFGTATHEPRLNRE 224
+              S +LI E+T   + HE  + ++
+Sbjct: 702 --DSTLLIHEATLEDSMHEIAIKKQ 724
+
+
+>SPBC1348.14c.1:pep pep:known chromosome:ASM294v2:II:38514:40277:-1 gene:SPBC1348.14c
+           transcript:SPBC1348.14c.1 description:"hexose
+           transporter Ght7 (predicted)"
+          Length = 518
+
+ Score = 28.9 bits (63), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 21/36 (58%)
+
+Query: 705 RLFKEQFGDCFTLFLNKDEYASNKEETITGVVTIGK 740
+           R F+ +F D +    N   Y+S+++  ITG+V +G 
+Sbjct: 2   RDFQSRFADRYNQITNSYSYSSSRQGLITGMVNVGS 37
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 3,422,702
+Number of extensions: 143403
+Number of successful extensions: 400
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 391
+Number of HSP's successfully gapped: 16
+Length of query: 779
+Length of database: 2,387,769
+Length adjustment: 96
+Effective length of query: 683
+Effective length of database: 1,893,945
+Effective search space: 1293564435
+Effective search space used: 1293564435
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 54 (25.4 bits)

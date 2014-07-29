@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa 
+           7496 sequences; 3,280,570 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAZ79906 pep:novel supercontig:ASM15164v1:FN430002:191160:194988...   114   2e-26
+CAZ82430 pep:novel supercontig:ASM15164v1:FN430138:122945:127516...    30   2.6  
+
+>CAZ79906 pep:novel supercontig:ASM15164v1:FN430002:191160:194988:1
+           gene:GSTUM_00001600001 transcript:CAZ79906
+           description:""
+          Length = 803
+
+ Score =  114 bits (284), Expect = 2e-26,   Method: Compositional matrix adjust.
+ Identities = 62/178 (34%), Positives = 92/178 (51%), Gaps = 23/178 (12%)
+
+Query: 626 WLHVLIRLVTRGIEAQEASD------------------LIREELLGFFIQDFEQRVSLII 667
+           W  ++ RL TRG+   +  D                   IR++L    I+DF  R+ + I
+Sbjct: 566 WTTLITRLATRGMGGIQGEDNKPDEGSSKLQKPSALSNFIRDKLYLCIIEDFRGRMDIAI 625
+
+Query: 668 EWLNEEWFFQTSLHQDPSN----YKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSD 723
+            WLNEEW+    + +   N    YK W ++V++ + PFLE K R  F+RL+SE+P +  +
+Sbjct: 626 SWLNEEWYNDKVMTKAQPNRQPQYKIWMMKVMDGIFPFLEGKDR-MFMRLLSEIPEITVE 684
+
+Query: 724 HLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+            L+ +K +CLDP R+ LG Q L FL M RPPV++   D+L  L      L  Q   L+
+Sbjct: 685 LLQKVKMLCLDPDRAVLGIQMLHFLAMLRPPVRNMCMDVLEDLWLNHTELRGQTHKLI 742
+
+
+
+ Score = 65.9 bits (159), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 50/199 (25%), Positives = 90/199 (45%), Gaps = 53/199 (26%)
+
+Query: 94  VYKNIVLIMCASYPLVLDLVAKT-SNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDV 152
+           + K++V    + YPL+   +     +   + ++ +LK  +LS W T              
+Sbjct: 93  ILKSVVQCSASVYPLIFRYICNNREDAATWKKMDVLKSKILSLWDTG------------- 139
+
+Query: 153 EQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSG------NEINSSTIPDNHPVLNKPAL 206
+                     +GV+L  IKF+  V+L Q++  +       +EI+ S +P NHP+L+ PAL
+Sbjct: 140 ---------PVGVRLCCIKFVQRVILVQSRGVTDPRLADRSEISLSMVPTNHPILSLPAL 190
+
+Query: 207 ESEAKRLLDMLLNYLIEEQ---------------------YMVSS---VFIGIINSLSFV 242
+           ++EA+ LLD LL  L E+                       ++SS   + +  +N+L+ +
+Sbjct: 191 DAEAQGLLDRLLGVLHEDPRQENTTTTATNSGESSRITGILIISSDATLIVATLNNLAQL 250
+
+Query: 243 IKRRPQTTIRILSGLLRFN 261
+           +K R     +I+  +L FN
+Sbjct: 251 VKTRNPIAAKIVGAVLSFN 269
+
+
+>CAZ82430 pep:novel supercontig:ASM15164v1:FN430138:122945:127516:-1
+           gene:GSTUM_00000952001 transcript:CAZ82430
+           description:""
+          Length = 1091
+
+ Score = 29.6 bits (65), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 15/40 (37%), Positives = 19/40 (47%)
+
+Query: 360 LWKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLK 399
+           +WK +L AL   L   TKTP  +  P     T   L +LK
+Sbjct: 917 VWKEELKALEQRLAELTKTPAGIRVPEALEYTHQWLSELK 956
+
+
+  Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,280,570
+  Number of sequences in database:  7496
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7496
+Number of Hits to DB: 3,962,668
+Number of extensions: 146161
+Number of successful extensions: 433
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 429
+Number of HSP's successfully gapped: 3
+Length of query: 785
+Length of database: 3,280,570
+Length adjustment: 98
+Effective length of query: 687
+Effective length of database: 2,545,962
+Effective search space: 1749075894
+Effective search space used: 1749075894
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

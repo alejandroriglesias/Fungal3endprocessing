@@ -1,0 +1,104 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00009145 pep:known chromosome:ASM1142v1:VII:3880166:3881...    64   1e-11
+CADANIAP00006892 pep:known chromosome:ASM1142v1:I:1197943:120214...    30   0.99 
+
+>CADANIAP00009145 pep:known chromosome:ASM1142v1:VII:3880166:3881683:-1
+           gene:CADANIAG00009145 transcript:CADANIAT00009145
+           description:"cleavage and polyadenylylation specificity
+           factor subunit Fip1, putative (AFU_orthologue\x3b
+           AFUA_6G10690)"
+          Length = 327
+
+ Score = 63.5 bits (153), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 58/109 (53%), Gaps = 6/109 (5%)
+
+Query: 121 SNTITKTSDERLITEGEANQGVTATTVKATESDGNV-PKAMTGSIDLDKEGIFDSVGITT 179
+           S +  K+    L  + + +  V A T   ++  G+  P     +ID++   +  + G   
+Sbjct: 90  STSAQKSQTPTLTPKVDTSASVPAGTRPTSQKPGSAYPPVHASNIDVNANPVHPATGKPI 149
+
+Query: 180 I-----DPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           +           +KPWR+PG +L+DYFNYGF+EFTW  Y+ +Q++L+++
+Sbjct: 150 LMTDMDADFPDDDKPWRRPGTDLTDYFNYGFDEFTWASYVLKQQELRKE 198
+
+
+>CADANIAP00006892 pep:known chromosome:ASM1142v1:I:1197943:1202144:-1
+           gene:CADANIAG00006892 transcript:CADANIAT00006892
+           description:"guanyl-nucleotide exchange factor, putative
+           (AFU_orthologue\x3b AFUA_2G08780)"
+          Length = 1359
+
+ Score = 30.0 bits (66), Expect = 0.99,   Method: Compositional matrix adjust.
+ Identities = 27/118 (22%), Positives = 47/118 (39%), Gaps = 7/118 (5%)
+
+Query: 120 VSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFD----SV 175
+             N  T  +D + +    A   +       +  D  +P +M    D    G+ D     V
+Sbjct: 670 CCNPTTGPADIKSLHRAFAQSAILQIVSARSRPDAFMPASMENPAD-SNPGLVDIKVAKV 728
+
+Query: 176 GIT-TIDPEVLKEK-PWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILM 231
+           G+    DP+  + + PW++ GA L+    Y F +  W++ L  Q    Q    RR ++
+Sbjct: 729 GLLWRKDPKKKRARSPWQEWGALLTLSHLYFFKDVNWVKSLMAQCDAHQKEGRRRAVV 786
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 2,398,789
+Number of extensions: 98059
+Number of successful extensions: 331
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 329
+Number of HSP's successfully gapped: 16
+Length of query: 327
+Length of database: 5,078,913
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,088,717
+Effective search space: 952671061
+Effective search space used: 952671061
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

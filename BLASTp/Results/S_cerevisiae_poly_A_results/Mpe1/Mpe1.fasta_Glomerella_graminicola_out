@@ -1,0 +1,163 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ28198 pep:novel supercontig:GCA_000149035.1:GG697340:132760:1...   259   6e-79
+EFQ33175 pep:novel supercontig:GCA_000149035.1:GG697368:149742:1...    34   0.084
+EFQ33118 pep:novel supercontig:GCA_000149035.1:GG697367:381615:3...    33   0.22 
+EFQ26408 pep:novel supercontig:GCA_000149035.1:GG697334:860330:8...    30   1.8  
+EFQ26164 pep:novel supercontig:GCA_000149035.1:GG697333:1417511:...    30   2.4  
+EFQ24876 pep:novel supercontig:GCA_000149035.1:GG697331:86416:89...    28   6.1  
+EFQ34258 pep:novel supercontig:GCA_000149035.1:GG697378:191962:1...    28   7.6  
+EFQ29584 pep:novel supercontig:GCA_000149035.1:GG697345:564795:5...    27   8.7  
+
+>EFQ28198 pep:novel supercontig:GCA_000149035.1:GG697340:132760:134770:1
+           gene:GLRG_03342 transcript:EFQ28198 description:"DWNN
+           domain-containing protein"
+          Length = 635
+
+ Score =  259 bits (661), Expect = 6e-79,   Method: Compositional matrix adjust.
+ Identities = 146/388 (37%), Positives = 212/388 (54%), Gaps = 59/388 (15%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           M+S++F++FKSQ+  +R+ FDGTG++VF+LKR+II ++ LGDGTDF L IY+ D  EEYD
+Sbjct: 1   MASSVFFKFKSQKEPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYSEDGSEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  +IPRST+V+ +R PA K                 G   RYV+G+  V  K      
+Sbjct: 61  DDTTIIPRSTTVVARRLPAAK--------------PGAGRGARYVSGKMPVAAKNSSRKE 106
+
+Query: 121 XXXNV--------------SGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNK 166
+                              +  TEEE++A+MF             MS  TPVF     +K
+Sbjct: 107 QTTKTATAKATSNAINQMNNAMTEEEKMAAMFQAQTESWSAQQEEMSHQTPVF--KPGSK 164
+
+Query: 167 NSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEI- 224
+             A   +  PP GY+CYRCG + HWI+ CPTN DP F+ + R++RTTGIP+ FL++++  
+Sbjct: 165 KPANVPDHDPPNGYICYRCGEKGHWIQLCPTNDDPEFDNRPRVKRTTGIPRSFLRTVDKS 224
+
+Query: 225 -------DPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQID------G 271
+                  D ET  P       IM+  EG+FV+   DK SWE +Q K ++          G
+Sbjct: 225 VALAQSGDDETKRPS-----GIMVNAEGEFVIAEPDKASWEQFQAKAKSSASAAKAIAMG 279
+
+Query: 272 DETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCE 331
+           D+ +  KG        L+CP+   +  +P+KT  CC   +  + + NAL+ESDF+CPNC 
+Sbjct: 280 DKELQEKG--------LECPIDKKMFIEPMKTP-CCQKTYCNDCITNALIESDFICPNCS 330
+
+Query: 332 TRDILLDSLVPDQDKEKEVETFLKKQEE 359
+           T  +L+D L  D++   +++ FLK++ E
+Sbjct: 331 TEGVLIDDLKTDEETTDKMKEFLKEKTE 358
+
+
+>EFQ33175 pep:novel supercontig:GCA_000149035.1:GG697368:149742:155454:1
+            gene:GLRG_08319 transcript:EFQ33175 description:"chitin
+            synthase"
+          Length = 1866
+
+ Score = 34.3 bits (77), Expect = 0.084,   Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 26/40 (65%)
+
+Query: 235  AQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDET 274
+            A +KI+I+DEGKF   V  K+ WE+YQ +  + Q + ++ 
+Sbjct: 1689 AGKKIVISDEGKFDPSVIPKKKWEEYQAELWDAQTNKEDA 1728
+
+
+>EFQ33118 pep:novel supercontig:GCA_000149035.1:GG697367:381615:384584:1
+           gene:GLRG_08262 transcript:EFQ33118
+           description:"tetratricopeptide"
+          Length = 890
+
+ Score = 32.7 bits (73), Expect = 0.22,   Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 25/42 (59%), Gaps = 3/42 (7%)
+
+Query: 190 HWIKNCPTNSDPNFEGKR--IRRTTGIPKKFLKSIEIDPETM 229
+           HW K  PT  D ++E +R  +  T+  P+KF  SIE+DP  +
+Sbjct: 391 HW-KTNPTLLDMDYEARRDDVLDTSAPPRKFTPSIELDPAQL 431
+
+
+>EFQ26408 pep:novel supercontig:GCA_000149035.1:GG697334:860330:862623:-1
+           gene:GLRG_01552 transcript:EFQ26408 description:"smr
+           domain-containing protein"
+          Length = 726
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 14/32 (43%), Positives = 21/32 (65%)
+
+Query: 335 ILLDSLVPDQDKEKEVETFLKKQEELHGSSKD 366
+           IL D+ + D+DK  ++E  L+ Q  L+GSS D
+Sbjct: 13  ILQDATLEDEDKTDKLEDLLRSQTTLNGSSLD 44
+
+
+>EFQ26164 pep:novel supercontig:GCA_000149035.1:GG697333:1417511:1422543:-1
+            gene:GLRG_01308 transcript:EFQ26164
+            description:"tetratricopeptide"
+          Length = 1607
+
+ Score = 29.6 bits (65), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 18/36 (50%), Gaps = 9/36 (25%)
+
+Query: 252  EDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDD 287
+            E K SWED QR+R            RK  F DLPDD
+Sbjct: 1358 EHKVSWEDEQRRRWKM---------RKELFPDLPDD 1384
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 4,990,097
+Number of extensions: 221722
+Number of successful extensions: 450
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 444
+Number of HSP's successfully gapped: 19
+Length of query: 441
+Length of database: 5,585,764
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,419,824
+Effective search space: 1520419456
+Effective search space used: 1520419456
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

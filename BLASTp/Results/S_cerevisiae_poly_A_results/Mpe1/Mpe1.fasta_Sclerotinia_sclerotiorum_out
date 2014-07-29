@@ -1,0 +1,176 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDO02997 pep:novel supercontig:ASM14694v1:CH476626:1699994:17019...   252   1e-76
+EDN97043 pep:novel supercontig:ASM14694v1:CH476622:2340269:23421...    42   1e-04
+EDN99561 pep:novel supercontig:ASM14694v1:CH476623:835969:837331...    36   0.010
+EDN99612 pep:novel supercontig:ASM14694v1:CH476623:974909:978631...    32   0.39 
+EDN90976 pep:novel supercontig:ASM14694v1:CH476621:976832:978641...    30   0.76 
+EDN92651 pep:novel supercontig:ASM14694v1:CH476631:1020994:10238...    29   1.9  
+EDO03647 pep:novel supercontig:ASM14694v1:CH476627:1408667:14123...    29   2.0  
+EDO01465 pep:novel supercontig:ASM14694v1:CH476624:2227825:22315...    29   2.7  
+EDO00180 pep:novel supercontig:ASM14694v1:CH476623:2443029:24443...    28   2.7  
+EDN91564 pep:novel supercontig:ASM14694v1:CH476621:2490449:24920...    28   4.5  
+EDN91620 pep:novel supercontig:ASM14694v1:CH476621:2641028:26427...    27   8.6  
+EDO02650 pep:novel supercontig:ASM14694v1:CH476626:778820:780575...    27   8.7  
+EDN96047 pep:novel supercontig:ASM14694v1:CH476639:547969:550827...    27   8.9  
+
+>EDO02997 pep:novel supercontig:ASM14694v1:CH476626:1699994:1701969:1
+           gene:SS1G_05474 transcript:EDO02997
+           description:"hypothetical protein"
+          Length = 625
+
+ Score =  252 bits (643), Expect = 1e-76,   Method: Compositional matrix adjust.
+ Identities = 148/391 (37%), Positives = 216/391 (55%), Gaps = 62/391 (15%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++F++F+SQ+  SR+ FDGTG++VF+LKR+II ++ LGDGTDF L I N    EEYD
+Sbjct: 1   MSSSVFFKFRSQKEPSRVEFDGTGISVFELKRDIIIKSGLGDGTDFDLVICNEADNEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQ-----KR 115
+           DD  VIPRSTS+I +R P++K                 G A RY++G+  + Q     K 
+Sbjct: 61  DDTTVIPRSTSIIARRLPSLK--------------PGAGRAARYMSGQMPIKQKTSSRKE 106
+
+Query: 116 QHXXXXXXNVSGT----------TEEERIASMFAXXXXXXXXXXXXMSAATPVFFK-SQT 164
+           Q        V+ T          TEE+++ +MF             M+  TPVF    + 
+Sbjct: 107 QGKQANAKAVASTQGLAQMDSAMTEEQKMEAMFQAQSDQWTAQQEDMANQTPVFRPGGKK 166
+
+Query: 165 NKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE 223
+            +  A   +  PP GY+CYRCG + HWI+ CPTN DPNF+ K RI+RTTGIP+ FLK++E
+Sbjct: 167 GQPPANVPDHEPPTGYICYRCGEKGHWIQVCPTNDDPNFDNKARIKRTTGIPRSFLKTVE 226
+
+Query: 224 ----------IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQID--- 270
+                     +D +T TP       +M+  EG+FVV   DK SWE +Q K ++       
+Sbjct: 227 KPVQLSNDGTLD-DTKTPS-----GVMVNAEGEFVVAEPDKASWEQFQAKTKSSAAAQKA 280
+
+Query: 271 ---GDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVC 327
+              GD+ +  +G        L+C L   +   P+KT  CC   +  + + NAL+ESDF C
+Sbjct: 281 AALGDKVLRDRG--------LECALDMRIFIDPMKTP-CCEKTYCNDCITNALIESDFTC 331
+
+Query: 328 PNCETRDILLDSLVPDQDKEKEVETFLKKQE 358
+           P C+T  +L+D L PD +   +++T+L++++
+Sbjct: 332 PGCQTDGVLIDDLKPDDEMTAKIKTYLEEKD 362
+
+
+>EDN97043 pep:novel supercontig:ASM14694v1:CH476622:2340269:2342157:-1
+           gene:SS1G_01971 transcript:EDN97043
+           description:"predicted protein"
+          Length = 558
+
+ Score = 42.4 bits (98), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 15/28 (53%), Positives = 18/28 (64%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSDPNFE 204
+           P  Y+C RCG   H +K CPTN DP F+
+Sbjct: 111 PSNYICNRCGKHGHLVKQCPTNMDPAFD 138
+
+
+>EDN99561 pep:novel supercontig:ASM14694v1:CH476623:835969:837331:-1
+           gene:SS1G_02415 transcript:EDN99561
+           description:"hypothetical protein"
+          Length = 427
+
+ Score = 36.2 bits (82), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 32/94 (34%), Positives = 45/94 (47%), Gaps = 13/94 (13%)
+
+Query: 287 DLKCPLTGGLLRQPVKTSKCCNIDFSKEAL-----ENALV---ESDFVCP--NCETRDIL 336
+           DLKCPLT    R+P   +K CN  F KEA+     +NA +   E    CP   CE   I 
+Sbjct: 283 DLKCPLTFATFREPYTNNK-CNHSFEKEAIVEYHRKNATIHKGERVIKCPAMGCENF-IA 340
+
+Query: 337 LDSLVPDQDKEKEVETFLKKQEELHGSSKDGNQP 370
+           + ++  DQ   ++V    ++ E  H S  D + P
+Sbjct: 341 MKNMYDDQLLLRQVRRATER-ERNHDSEDDDDAP 373
+
+
+>EDN99612 pep:novel supercontig:ASM14694v1:CH476623:974909:978631:-1
+           gene:SS1G_02470 transcript:EDN99612
+           description:"predicted protein"
+          Length = 1240
+
+ Score = 31.6 bits (70), Expect = 0.39,   Method: Compositional matrix adjust.
+ Identities = 27/95 (28%), Positives = 40/95 (42%), Gaps = 3/95 (3%)
+
+Query: 264 RENRQIDGDETIWRKGHFKDLPDD-LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVE 322
+           R+N  I    +I R      +P   +    T  LL +   TS     D ++  LE A VE
+Sbjct: 819 RDNLTIHSPTSIQRAMSVNQIPKSTMSKQFTPLLLSEEDVTSPASTQDLNEHVLEAAAVE 878
+
+Query: 323 SDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQ 357
+            D   P+ +   +  ++L PD DK+K     L  Q
+Sbjct: 879 EDVAIPSRDAGPV--NTLNPDPDKDKTTTRNLSPQ 911
+
+
+>EDN90976 pep:novel supercontig:ASM14694v1:CH476621:976832:978641:-1
+           gene:SS1G_00376 transcript:EDN90976
+           description:"hypothetical protein"
+          Length = 567
+
+ Score = 30.4 bits (67), Expect = 0.76,   Method: Compositional matrix adjust.
+ Identities = 12/31 (38%), Positives = 14/31 (45%)
+
+Query: 264 RENRQIDGDETIWRKGHFKDLPDDLKCPLTG 294
+           R N  I  D T WR  +F   PD +  P  G
+Sbjct: 396 RANYSIQADVTTWRYRYFGSFPDTMIIPNAG 426
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 3,344,545
+Number of extensions: 150327
+Number of successful extensions: 361
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 355
+Number of HSP's successfully gapped: 23
+Length of query: 441
+Length of database: 3,721,581
+Length adjustment: 94
+Effective length of query: 347
+Effective length of database: 2,765,131
+Effective search space: 959500457
+Effective search space used: 959500457
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

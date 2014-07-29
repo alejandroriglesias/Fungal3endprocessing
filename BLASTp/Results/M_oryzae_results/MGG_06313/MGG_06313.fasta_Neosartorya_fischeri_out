@@ -1,0 +1,135 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00000944 pep:known contig:CADRE:8741:795921:798077:1 gen...   597   0.0  
+CADNFIAP00002553 pep:known contig:CADRE:8817:200387:202554:1 gen...    39   0.003
+
+>CADNFIAP00000944 pep:known contig:CADRE:8741:795921:798077:1 gene:CADNFIAG00000983
+           transcript:CADNFIAT00000983 description:"Poly(A)
+           polymerase Pap"
+          Length = 603
+
+ Score =  597 bits (1538), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 310/577 (53%), Positives = 393/577 (68%), Gaps = 37/577 (6%)
+
+Query: 5   RQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIADAFVK 64
+           RQ GVTPP+S  LPT EE  A D L++EL+AQN+FE P ETE+R  VL+ +Q +   FVK
+Sbjct: 7   RQWGVTPPISTALPTSEELAANDDLISELKAQNNFESPAETERRKQVLQLIQRVTHEFVK 66
+
+Query: 65  TVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGL 124
+            V+RKK    A  ++ A GK+F YGS RLGV+GPGSDIDTLVV P++V  +D+F  FP +
+Sbjct: 67  VVSRKKGLSPAA-VEAAGGKIFTYGSYRLGVYGPGSDIDTLVVGPKHVLIDDFFSDFPPV 125
+
+Query: 125 LVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSDSNLL 184
+           L +MAPP AI  ++ V DAFVPIIK E SGISIDLIF+R+  +  +P   N +L +++ L
+Sbjct: 126 LEKMAPPGAIEKMTPVPDAFVPIIKLELSGISIDLIFARL-IVSSVPL--NLDLKNNDYL 182
+
+Query: 185 RGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWA 244
+           RGLDEKE+RS+NGTRVTDEI+ LVP+Q  FR ALRAIKLWAQRRAIY NIVGFPGGVAWA
+Sbjct: 183 RGLDEKEVRSLNGTRVTDEILELVPQQKTFRLALRAIKLWAQRRAIYSNIVGFPGGVAWA 242
+
+Query: 245 MLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDRY 304
+           MLVARVCQLYP AT SV+V KFF I+ KW WPQPVLLK IEDGPLQ ++WNPKIY GDR+
+Sbjct: 243 MLVARVCQLYPHATGSVIVGKFFRIMNKWAWPQPVLLKPIEDGPLQIKVWNPKIYHGDRF 302
+
+Query: 305 HLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHTFFTK 364
+           HLMPIITPAYPSMCAT NI+ S+K VI REL +  D+ + I + +L W DLF +H+FFT+
+Sbjct: 303 HLMPIITPAYPSMCATHNISMSTKAVILRELQRGGDIVDKIFLKQLTWNDLFARHSFFTQ 362
+
+Query: 365 DFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSHRYYD 424
+           D+KYY+ + A+S+ KE+  +WSG VESK+R LV  L+R  +IAVA PF KG++R H   +
+Sbjct: 363 DYKYYLSITASSRTKEAEAVWSGLVESKIRHLVGALDRKPTIAVAHPFPKGFERVHIVSN 422
+
+Query: 425 DSQFNQILEGSLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQEGHAR 484
+           + +   +  GS     QDK                   GT T      DE        A 
+Sbjct: 423 EEEAEAVKNGSTK--YQDK-------------------GTKTE---TTDERKDAAHQAAA 458
+
+Query: 485 IKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRP----EAKSLDLSFQVNDFKWL 540
+           +   +  + +P+ E      G S  +YTTT+YIGLEL+P     ++SLD+S     FK  
+Sbjct: 459 LSGVENAEVEPVGEK--SANGDSHIIYTTTYYIGLELKPLEPGASRSLDISTDAQIFKST 516
+
+Query: 541 CYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGET 577
+           C  WA Y+  + +L   +I  +R+F LPDD+F PGET
+Sbjct: 517 CTSWAGYQPGINDL---SITHVRNFDLPDDVFQPGET 550
+
+
+>CADNFIAP00002553 pep:known contig:CADRE:8817:200387:202554:1 gene:CADNFIAG00002625
+           transcript:CADNFIAT00002625 description:"Topoisomerase
+           family protein TRF4, putative"
+          Length = 701
+
+ Score = 39.3 bits (90), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 37/145 (25%), Positives = 65/145 (44%), Gaps = 27/145 (18%)
+
+Query: 88  YGSLRLGVWGPGSDIDTLVVAPRYV--------TREDYFEHFPGLL--VEMAPPNAITDL 137
+           +GS   G++ P +DID ++++  ++         R+     F   L  +E+A PN+I   
+Sbjct: 304 FGSFASGLYLPTADIDLVLLSSNFMRNGIKTFGERKGQIYAFAAFLKNLEIAVPNSI--- 360
+
+Query: 138 SVVVDAFVPIIKF--EFSGISIDLIFSRIATMKQLPADPNWN------------LSDSNL 183
+             +  A VPI+KF  + +G+ +DL F   + +       NW             +    L
+Sbjct: 361 ETIAHARVPILKFVDKMTGLRVDLSFDNDSGLIANNTFQNWKSEYPAMPVIVAVVKQFLL 420
+
+Query: 184 LRGLDEKELRSVNGTRVTDEIISLV 208
+           LRGL+E     + G  +T  + SL+
+Sbjct: 421 LRGLNEVPTGGLGGFSITCLVTSLL 445
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 6,211,943
+Number of extensions: 260566
+Number of successful extensions: 567
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 562
+Number of HSP's successfully gapped: 2
+Length of query: 616
+Length of database: 5,073,492
+Length adjustment: 99
+Effective length of query: 517
+Effective length of database: 4,043,694
+Effective search space: 2090589798
+Effective search space used: 2090589798
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 55 (25.8 bits)

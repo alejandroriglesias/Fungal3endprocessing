@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_02741T0 pep:known chromosome:MG8:7:1693186:1696260:1 gene:MG...   407   e-139
+MGG_01217T0 pep:known chromosome:MG8:2:2703881:2706986:1 gene:MG...    32   0.29 
+MGG_12370T0 pep:known chromosome:MG8:2:6674929:6676666:1 gene:MG...    28   3.5  
+MGG_09941T0 pep:known chromosome:MG8:1:4421845:4427597:1 gene:MG...    28   7.1  
+
+>MGG_02741T0 pep:known chromosome:MG8:7:1693186:1696260:1 gene:MGG_02741
+           transcript:MGG_02741T0 description:"RRM
+           domain-containing protein"
+          Length = 424
+
+ Score =  407 bits (1046), Expect = e-139,   Method: Compositional matrix adjust.
+ Identities = 201/217 (92%), Positives = 201/217 (92%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXXXXXX 60
+           MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQ        
+Sbjct: 1   MAEEDFEIDIYGDANQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQHAEDSSHA 60
+
+Query: 61  XXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREA 120
+                   TESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREA
+Sbjct: 61  KHDDDSSHTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREA 120
+
+Query: 121 GCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIY 180
+           GCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIY
+Sbjct: 121 GCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIY 180
+
+Query: 181 SSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYNNDRT 217
+           SSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYNNDRT
+Sbjct: 181 SSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYNNDRT 217
+
+
+
+ Score = 37.0 bits (84), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%)
+
+Query: 411 EWQNPHGAKRPRPE 424
+           EWQNPHGAKRPRPE
+Sbjct: 411 EWQNPHGAKRPRPE 424
+
+
+>MGG_01217T0 pep:known chromosome:MG8:2:2703881:2706986:1 gene:MGG_01217
+           transcript:MGG_01217T0 description:"Multiple RNA-binding
+           domain-containing protein 1"
+          Length = 867
+
+ Score = 32.3 bits (72), Expect = 0.29,   Method: Compositional matrix adjust.
+ Identities = 27/105 (25%), Positives = 43/105 (40%), Gaps = 8/105 (7%)
+
+Query: 75  QQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEH 134
+           +Q+ P+  K   DD       TS + +  L +  T+DD++      G    L +I  S  
+Sbjct: 326 EQTKPVPEKVQKDDPVESIRKTSRLFVRNLPYSATEDDLKSVF---GAFGPLDEIHLSHA 382
+
+Query: 135 KVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVI 179
+              G SKG  +I+ +   +A     +L     DG    GR   V+
+Sbjct: 383 GREGTSKGIAFIQYSESSSAVDAFQKL-----DGCDFQGRILHVL 422
+
+
+>MGG_12370T0 pep:known chromosome:MG8:2:6674929:6676666:1 gene:MGG_12370
+           transcript:MGG_12370T0 description:"MKI67 FHA
+           domain-interacting nucleolar phosphoprotein"
+          Length = 378
+
+ Score = 28.5 bits (62), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 30/59 (50%), Gaps = 5/59 (8%)
+
+Query: 98  AILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATA 156
+            I I  + +   + +IR ++ + G    + ++  S +K  G SKG  ++E   Q A+TA
+Sbjct: 169 VIYIGHIPYGFFEHEIRQYLSQFGT---ITNLRLSRNKKTGASKGYAFVEF--QDASTA 222
+
+
+>MGG_09941T0 pep:known chromosome:MG8:1:4421845:4427597:1 gene:MGG_09941
+           transcript:MGG_09941T0 description:"Nod factor export
+           ATP-binding protein I"
+          Length = 1619
+
+ Score = 28.1 bits (61), Expect = 7.1,   Method: Composition-based stats.
+ Identities = 19/68 (27%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query: 143 QVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDG 202
+           +V   +   +AA A+  +LE+ G  GA+ AG   + ++ S T +   TL ++      +G
+Sbjct: 736 RVRYHVADTKAAAALITKLEAQGISGAAMAGPTIEQVFLSLTKDVDETLRRELGEDAGNG 795
+
+Query: 203 QNR-PTSG 209
+           +   PTS 
+Sbjct: 796 RTTAPTSA 803
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 3,159,652
+Number of extensions: 129310
+Number of successful extensions: 447
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 439
+Number of HSP's successfully gapped: 13
+Length of query: 424
+Length of database: 5,666,059
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,428,824
+Effective search space: 1448225448
+Effective search space used: 1448225448
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

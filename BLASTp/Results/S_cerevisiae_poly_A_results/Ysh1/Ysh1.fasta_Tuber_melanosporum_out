@@ -1,0 +1,222 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa 
+           7496 sequences; 3,280,570 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAZ83176 pep:novel supercontig:ASM15164v1:FN430208:484082:487082...   649   0.0  
+CAZ86213 pep:novel supercontig:ASM15164v1:FN430371:35436:38596:-...    69   3e-12
+CAZ85128 pep:novel supercontig:ASM15164v1:FN430341:150079:153081...    33   0.14 
+CAZ82022 pep:novel supercontig:ASM15164v1:FN430097:2000028:20033...    31   0.79 
+CAZ84743 pep:novel supercontig:ASM15164v1:FN430332:540221:549393...    28   5.9  
+
+>CAZ83176 pep:novel supercontig:ASM15164v1:FN430208:484082:487082:1
+           gene:GSTUM_00006770001 transcript:CAZ83176
+           description:""
+          Length = 783
+
+ Score =  649 bits (1674), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 354/824 (42%), Positives = 492/824 (59%), Gaps = 123/824 (14%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+             F  LGG NEVGRSCHIL+YKGKTVMLDAG+HPAY+GLA LPFYD+FDLS VD+LLISH
+Sbjct: 22  LTFLCLGGGNEVGRSCHILKYKGKTVMLDAGVHPAYEGLAGLPFYDQFDLSTVDVLLISH 81
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FHLDHAASLPYVM +TNF+GRVFMTHPTKAIY+WL++D VRV ++           + L+
+Sbjct: 82  FHLDHAASLPYVMTKTNFRGRVFMTHPTKAIYKWLIQDSVRVGNV-------HNSPDNLY 134
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           ++ D + S+ +IE +DYH+T+   GI  T +HAGHVLG AMF IEIAGL++LFTGDYSRE
+Sbjct: 135 TESDHLSSYSRIEAIDYHTTLTHAGISITPYHAGHVLGGAMFFIEIAGLKILFTGDYSRE 194
+
+Query: 189 VDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFAL 248
+            DRHL SAEVP    ++LI EST+GTATH PRL +E +L ++    + RGGRVL+PVFAL
+Sbjct: 195 DDRHLVSAEVPHQKPDLLICESTYGTATHMPRLEKEARLMKMTTEILNRGGRVLMPVFAL 254
+
+Query: 249 GRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKK-FRD 307
+           GRAQE++LILDEYW +H         PI+YASNLA+KCM V++TY+N MND I++  F  
+Sbjct: 255 GRAQELLLILDEYWEKHP---AYQSYPIYYASNLARKCMDVYRTYINTMNDKIKRAMFEG 311
+
+Query: 308 SQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGY 367
+              NP+ F+ +  L+ ++ F+D G  VMLASPGMLQ+G+SR+LLERWCP+ +N ++ITGY
+Sbjct: 312 EGRNPWDFRWVRSLKTIDRFEDVGGCVMLASPGMLQNGVSRELLERWCPDPRNGLVITGY 371
+
+Query: 368 SIEGTMAKFIMLEPDTIPSINNP-------------EITIPRRCQVEEISFAAHVDFQEN 414
+           S+EGTMAK IM EP  IP++                ++ +PRRC VEE+SFAAHVD+ +N
+Sbjct: 372 SVEGTMAKQIMNEPTEIPAVVTANRSGSTASRGVDGQVMVPRRCSVEELSFAAHVDYAQN 431
+
+Query: 415 LEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQG 474
+             FIE++ A  +ILVHGE N MGRLKSALLS  +  +  D +V ++NP+NC E+ + F+ 
+Sbjct: 432 SGFIEEVGAKVVILVHGEQNNMGRLKSALLSKNSDRRDKD-KVKIYNPKNCEELRIPFKA 490
+
+Query: 475 VKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLVDEEEHKDIVV 534
+            K+AK VG                                  +Q   G       K+ ++
+Sbjct: 491 DKIAKVVGKL--------------------------------AQKPPG-TQTLALKEQLL 517
+
+Query: 535 SGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKK-ELIYWHILQMFGEA 593
+           +G+LV +D  F+L  ++  DLRE +  L+TT++  RQ + +      L+ W +  MFG  
+Sbjct: 518 TGVLVQND--FKLSLMTPDDLRE-YAGLTTTVVSCRQKIPIRAAGVGLVRWSLDNMFG-- 572
+
+Query: 594 EVLQDDDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAVVEWTQDLMNDTV 653
+                          V+E  K    NT     +IM  + +        +EW  +++ND +
+Sbjct: 573 --------------AVEEGVKRKSGNT----FKIMDTVTVRCRKGYVELEWVGNMLNDGI 614
+
+Query: 654 ADSIIAILMNVDSAPASVKLSSHSCDDHDHNNV-----QSNAQGKIDEVERVKQISRLFK 708
+           AD+  A+LM ++++PA+V+ SS S   H H++      +++    I   +R++Q+    +
+Sbjct: 615 ADATAAVLMGLETSPAAVRHSSTS-HIHTHSSTLSEIPETSPHAHIRHSDRIEQVLTFLE 673
+
+Query: 709 EQFGDCFTLFLNKDEYASNK---------------------------------EETITGV 735
+            QFGDC T      + AS+                                   + + GV
+Sbjct: 674 AQFGDCVTPLPPGSQPASSTTLPPKSIAETATATTTAVDAGAADGEMDVVQEMRDVVPGV 733
+
+Query: 736 -VTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPL 778
+            + I    A + F N+ + EC +  LK RV++++      V P 
+Sbjct: 734 QIKIDNIVANVWFENLDV-ECRNESLKMRVKTVVERAVETVAPF 776
+
+
+>CAZ86213 pep:novel supercontig:ASM15164v1:FN430371:35436:38596:-1
+           gene:GSTUM_00011559001 transcript:CAZ86213
+           description:""
+          Length = 975
+
+ Score = 68.6 bits (166), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 100/423 (23%), Positives = 174/423 (41%), Gaps = 74/423 (17%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQY--KGKTVMLDAGIHPAY--QGLASLPFYDEFDLSKVDIL 64
+           F F  L G+    ++C  L     G  V++D G   ++  + LA L    E     +D++
+Sbjct: 2   FLFTPLLGAQSDSQACQSLLELENGIKVLIDVGWDESFDVKMLAEL----ERHTPTIDLI 57
+
+Query: 65  LISHFHLDHAASLPYVMQR-TNFQG-RVFMTHPTKAIYRWLLRDFVRVTSIGXXXXX-MG 121
+           L++H  L H  +  +  +   +F    V+ T P   + R LL+D    T +         
+Sbjct: 58  LLTHPTLAHMGAYAHACKHIPSFSSIPVYSTFPVSNLGRLLLQDIYLSTPLASTRLLDSA 117
+
+Query: 122 TKDEGLFSDEDLVDSF-DKIETVDY------HSTV-----DVNGIKFTAFHAGHVLGAAM 169
+                L      +DS+  KI T+ Y      HS V      +  I  TA+ AGH LG  +
+Sbjct: 118 APPVPLPPTSAEIDSYCTKIVTLKYSQPTPLHSAVARVSGKLGSITITAYSAGHSLGGTI 177
+
+Query: 170 FQIEIAGLRVLFTGDYSREVDRHLNSAEVPPLSSNVLIVESTFGTATH------------ 217
+           ++I+ A   +++  D++   +  L  A    LS   + VE T G  T             
+Sbjct: 178 WKIQQAQESIVYAVDWNHSRENCLRGAGF--LSGGGVSVE-TLGKPTALICSARNSEVVS 234
+
+Query: 218 --EPRLNRERKLTQLIHSTVMR-GGRVLLPVFALGRAQEIMLILDEYWSQH---ADELGG 271
+               R  R+  L   I  T ++  G VL+P  ++GR  E++ +L+  W +    +    G
+Sbjct: 235 MAGGRKKRDEMLLDAIKKTALKNSGTVLIPTDSVGRVLELVYLLEHAWRKDQELSSRAKG 294
+
+Query: 272 GQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKF-------------RD---------SQ 309
+             + +F      ++   V  + +  M++ + ++F             RD         ++
+Sbjct: 295 KGIGLFLVGRRVRRLGQVVGSMLEWMDEGVVREFESIAGGDRRGNRQRDDAEGKGNDGNK 354
+
+Query: 310 TNPFIFKNISYL-------RNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKNLV 362
+             PF F +++ +       R L D  + G  V++AS   L  G SR+ L R   ++KNLV
+Sbjct: 355 AGPFDFLHLNLVSTQGHLNRILNDGNERG-KVIIASDSSLGWGFSREALMRLASDEKNLV 413
+
+Query: 363 LIT 365
+           ++T
+Sbjct: 414 VLT 416
+
+
+>CAZ85128 pep:novel supercontig:ASM15164v1:FN430341:150079:153081:1
+           gene:GSTUM_00009761001 transcript:CAZ85128
+           description:""
+          Length = 747
+
+ Score = 33.5 bits (75), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 16/35 (45%), Positives = 20/35 (57%)
+
+Query: 154 IKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           ++ T F A H  GA MF IE  G  +L+TGD   E
+Sbjct: 162 LRVTLFDANHCPGAVMFLIEGDGKAILYTGDIRAE 196
+
+
+>CAZ82022 pep:novel supercontig:ASM15164v1:FN430097:2000028:2003364:-1
+           gene:GSTUM_00005691001 transcript:CAZ82022
+           description:""
+          Length = 854
+
+ Score = 31.2 bits (69), Expect = 0.79,   Method: Compositional matrix adjust.
+ Identities = 27/107 (25%), Positives = 46/107 (42%), Gaps = 17/107 (15%)
+
+Query: 251 AQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRD--- 307
+           A  +++I   +W       GGGQ  IF    + K    +F         DIR KF+D   
+Sbjct: 369 APTLLVIGSIFWLSRRASSGGGQSGIF---GIGKSRAKLFN-----HETDIRIKFKDVAG 420
+
+Query: 308 -SQTNPFIFKNISYLRNLEDFQDFGP-----SVMLASPGMLQSGLSR 348
+             +    I + +S+L+  E FQ  G      +++   PG  ++ L++
+Sbjct: 421 MDEAKVEIMEFVSFLKQPERFQKLGAKIPRGAILSGPPGTGKTLLAK 467
+
+
+>CAZ84743 pep:novel supercontig:ASM15164v1:FN430332:540221:549393:-1
+            gene:GSTUM_00009121001 transcript:CAZ84743 description:""
+          Length = 2332
+
+ Score = 28.5 bits (62), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 21/98 (21%), Positives = 41/98 (41%), Gaps = 19/98 (19%)
+
+Query: 679  DDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLNKDEYASNKEETITGVVTI 738
+            D H  N +     GK+  ++            FGDCF + +++++Y       +T ++T 
+Sbjct: 2128 DRHPSNLMLDRVTGKVVHID------------FGDCFEVAMHREKYPEKVPFRLTRMLTY 2175
+
+Query: 739  GKSTAKID--FNN-----MKILECNSNPLKGRVESLLN 769
+                + I+  F       MK+L  N   L   +E+ ++
+Sbjct: 2176 AMEVSNIEGSFRTTCEAVMKVLRENKESLMAVLEAFMH 2213
+
+
+  Database: Tuber_melanosporum.ASM15164v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,280,570
+  Number of sequences in database:  7496
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7496
+Number of Hits to DB: 4,596,415
+Number of extensions: 185460
+Number of successful extensions: 400
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 392
+Number of HSP's successfully gapped: 7
+Length of query: 779
+Length of database: 3,280,570
+Length adjustment: 98
+Effective length of query: 681
+Effective length of database: 2,545,962
+Effective search space: 1733800122
+Effective search space used: 1733800122
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 55 (25.8 bits)

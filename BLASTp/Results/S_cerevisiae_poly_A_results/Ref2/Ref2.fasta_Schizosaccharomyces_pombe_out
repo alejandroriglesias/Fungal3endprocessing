@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBC32H8.13c.1:pep pep:known chromosome:ASM294v2:II:1478007:1486...    28   2.8  
+SPBC4C3.05c.1:pep pep:known chromosome:ASM294v2:II:3127776:31331...    27   7.6  
+
+>SPBC32H8.13c.1:pep pep:known chromosome:ASM294v2:II:1478007:1486116:-1 gene:SPBC32H8.13c
+            transcript:SPBC32H8.13c.1 description:"alpha-1,3-glucan
+            synthase Mok12"
+          Length = 2352
+
+ Score = 28.5 bits (62), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 12/33 (36%), Positives = 21/33 (63%), Gaps = 4/33 (12%)
+
+Query: 466  FNHFNPDLNKRPPREPIEFDLNGNTNSTPTIAK 498
+            FN F+PD+++RPP     F++   +N T ++ K
+Sbjct: 1684 FNAFSPDVSERPPL----FEVASCSNETDSVEK 1712
+
+
+>SPBC4C3.05c.1:pep pep:known chromosome:ASM294v2:II:3127776:3133199:1 gene:SPBC4C3.05c
+           transcript:SPBC4C3.05c.1 description:"DNA-directed RNA
+           polymerase I complex large subunit Nuc1"
+          Length = 1689
+
+ Score = 26.9 bits (58), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 25/41 (60%), Gaps = 1/41 (2%)
+
+Query: 148 SKMDGLVDAVINLCVLDTSVAENVRSYMKLLDTLGFQKGSN 188
+            KM+GL  ++IN C+ D  + +   ++M+ + T+   KGSN
+Sbjct: 911 GKMNGLTSSIINKCIPDGLLTKFPYNHMQTM-TVSGAKGSN 950
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,203,014
+Number of extensions: 94093
+Number of successful extensions: 243
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 243
+Number of HSP's successfully gapped: 11
+Length of query: 533
+Length of database: 2,387,769
+Length adjustment: 93
+Effective length of query: 440
+Effective length of database: 1,909,377
+Effective search space: 840125880
+Effective search space used: 840125880
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 52 (24.6 bits)

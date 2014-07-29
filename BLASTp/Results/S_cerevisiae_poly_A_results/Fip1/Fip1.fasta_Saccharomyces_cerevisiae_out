@@ -1,0 +1,133 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YJR093C pep:known chromosome:SacCer_Apr2011:X:603220:604203:-1 g...   436   e-153
+YPL204W pep:known chromosome:SacCer_Apr2011:XVI:164276:165760:1 ...    28   3.0  
+YMR124W pep:known chromosome:SacCer_Apr2011:XIII:514456:517287:1...    27   6.8  
+
+>YJR093C pep:known chromosome:SacCer_Apr2011:X:603220:604203:-1 gene:YJR093C
+           transcript:YJR093C description:"Subunit of cleavage
+           polyadenylation factor (CPF), interacts directly with
+           poly(A) polymerase (Pap1p) to regulate its activity\x3b
+           bridging factor that links Pap1p and the CPF complex via
+           Yth1p"
+          Length = 327
+
+ Score =  436 bits (1120), Expect = e-153,   Method: Compositional matrix adjust.
+ Identities = 228/248 (91%), Positives = 228/248 (91%)
+
+Query: 1   MSSSEDEDDKFLYGSDSELALPSSKRSRDDEADAGASSNPDIVKRQKFDSPVEETPATAR 60
+           MSSSEDEDDKFLYGSDSELALPSSKRSRDDEADAGASSNPDIVKRQKFDSPVEETPATAR
+Sbjct: 1   MSSSEDEDDKFLYGSDSELALPSSKRSRDDEADAGASSNPDIVKRQKFDSPVEETPATAR 60
+
+Query: 61  XXXXXXXXXXXXXXXXXXXXLEVIISLGPDPTRLDAKLLDSYSTAATSSSKDVISVATDV 120
+                               LEVIISLGPDPTRLDAKLLDSYSTAATSSSKDVISVATDV
+Sbjct: 61  DDRSDEDIYSDSSDDDSDSDLEVIISLGPDPTRLDAKLLDSYSTAATSSSKDVISVATDV 120
+
+Query: 121 SNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTI 180
+           SNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTI
+Sbjct: 121 SNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTI 180
+
+Query: 181 DPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQG 240
+           DPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQG
+Sbjct: 181 DPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQG 240
+
+Query: 241 KLNSANDT 248
+           KLNSANDT
+Sbjct: 241 KLNSANDT 248
+
+
+>YPL204W pep:known chromosome:SacCer_Apr2011:XVI:164276:165760:1
+           gene:YPL204W transcript:YPL204W description:"Protein
+           kinase involved in regulating diverse events including
+           vesicular trafficking, DNA repair, and chromosome
+           segregation\x3b binds the CTD of RNA pol II\x3b homolog
+           of mammalian casein kinase 1delta (CK1delta)"
+          Length = 494
+
+ Score = 27.7 bits (60), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 24/53 (45%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FNY    F++             ++Y+H +  + +D  P   LMG+
+Sbjct: 86  GPSLEDLFNYCHRRFSFKTVIMLALQMFCRIQYIHGRSFIHRDIKPDNFLMGV 138
+
+
+>YMR124W pep:known chromosome:SacCer_Apr2011:XIII:514456:517287:1
+           gene:YMR124W transcript:YMR124W description:"Protein of
+           unknown function\x3b GFP-fusion protein localizes to the
+           cell periphery, cytoplasm, bud, and bud neck\x3b
+           interacts with Crm1p in two-hybrid assay\x3b YMR124W is
+           not an essential gene\x3b predicted to have a role in
+           organelle organization"
+          Length = 943
+
+ Score = 26.6 bits (57), Expect = 6.8,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 27/50 (54%)
+
+Query: 122 NTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGI 171
+           NT  + S  + I E +  + V+  T+K  ESDGN  +    +I +++E I
+Sbjct: 643 NTSKRASLLQSIPERDPKRNVSDATIKRRESDGNGRRLSNVNISMNQENI 692
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,429,085
+Number of extensions: 59515
+Number of successful extensions: 273
+Number of sequences better than 10.0: 34
+Number of HSP's gapped: 265
+Number of HSP's successfully gapped: 39
+Length of query: 327
+Length of database: 3,010,216
+Length adjustment: 90
+Effective length of query: 237
+Effective length of database: 2,407,936
+Effective search space: 570680832
+Effective search space used: 570680832
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

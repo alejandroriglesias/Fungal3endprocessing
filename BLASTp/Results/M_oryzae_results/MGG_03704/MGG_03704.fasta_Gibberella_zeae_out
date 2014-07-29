@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_00930P0 pep:known chromosome:ASM24013v2:1:3058996:3060780:1...   387   e-136
+FGSG_04558P0 pep:known chromosome:ASM24013v2:2:3658297:3659171:1...    27   3.9  
+FGSG_11026P0 pep:known chromosome:ASM24013v2:3:5925029:5939403:1...    27   6.4  
+
+>FGSG_00930P0 pep:known chromosome:ASM24013v2:1:3058996:3060780:1 gene:FGSG_00930
+           transcript:FGSG_00930T0 description:"RNA polymerase II
+           subunit A C-terminal domain phosphatase SSU72"
+          Length = 255
+
+ Score =  387 bits (993), Expect = e-136,   Method: Compositional matrix adjust.
+ Identities = 181/235 (77%), Positives = 197/235 (83%)
+
+Query: 25  DGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTS 84
+           +G+KLKFCTVCASN NRSMEAHL+LS+A+YPVISFGTGSLVRLPGPTITQPNVY FN TS
+Sbjct: 21  NGYKLKFCTVCASNNNRSMEAHLRLSQADYPVISFGTGSLVRLPGPTITQPNVYHFNKTS 80
+
+Query: 85  YDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTE 144
+           YD+M+KELE KD RLY  NGILNML RNR VK GPERWQDWQ+G+PRL+HA DRGSEGTE
+Sbjct: 81  YDSMFKELESKDARLYKNNGILNMLNRNRGVKWGPERWQDWQVGVPRLQHAKDRGSEGTE 140
+
+Query: 145 AGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANS 204
+            G+VDIV TCEERCWDAVV+DL  RGSPLNRPVHVINV+IKDNHEEAAVGGQGILDLANS
+Sbjct: 141 GGLVDIVITCEERCWDAVVDDLMNRGSPLNRPVHVINVEIKDNHEEAAVGGQGILDLANS 200
+
+Query: 205 LNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           LN AA EERD +                  RV D+LA WQERWPNLPATWT+AWF
+Sbjct: 201 LNAAAREERDAVGASAFDNGSASSRATFDERVPDILASWQERWPNLPATWTVAWF 255
+
+
+>FGSG_04558P0 pep:known chromosome:ASM24013v2:2:3658297:3659171:1 gene:FGSG_04558
+           transcript:FGSG_04558T0 description:"carbonic anhydrase
+           2"
+          Length = 223
+
+ Score = 27.3 bits (59), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 5/51 (9%)
+
+Query: 76  NVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQ 126
+           +VY+ +    DA+  E E  DR +      LN++E+ RNV +  +  Q W 
+Sbjct: 135 DVYRLHEKELDAIADESERYDRLVE-----LNVIEQCRNVIKSADVQQSWH 180
+
+
+>FGSG_11026P0 pep:known chromosome:ASM24013v2:3:5925029:5939403:1 gene:FGSG_11026
+            transcript:FGSG_11026T0 description:"conserved
+            hypothetical protein"
+          Length = 4747
+
+ Score = 27.3 bits (59), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 39/84 (46%), Gaps = 1/84 (1%)
+
+Query: 69   GPTI-TQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQI 127
+            GP I T P + + N+TS + ++KE+      L+     L+ ++  + + RG         
+Sbjct: 2329 GPAIATLPLIIRSNATSAEELWKEMARDSAELFKTTHNLHPVDVKKMLNRGSGSSNAPFP 2388
+
+Query: 128  GIPRLEHASDRGSEGTEAGVVDIV 151
+            G+     ASD   +G+ A + + V
+Sbjct: 2389 GLFVYHPASDDSDDGSVAHIFNEV 2412
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 3,180,890
+Number of extensions: 128910
+Number of successful extensions: 280
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 279
+Number of HSP's successfully gapped: 8
+Length of query: 259
+Length of database: 5,933,672
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,708,416
+Effective search space: 786305472
+Effective search space used: 786305472
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

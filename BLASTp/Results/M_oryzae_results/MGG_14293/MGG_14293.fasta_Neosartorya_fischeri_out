@@ -1,0 +1,86 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00004532 pep:known contig:CADRE:9201:2758650:2759782:1 g...    98   1e-23
+
+>CADNFIAP00004532 pep:known contig:CADRE:9201:2758650:2759782:1 gene:CADNFIAG00004660
+           transcript:CADNFIAT00004660 description:"Cleavage and
+           polyadenylylation specificity factor subunit Fip1,
+           putative"
+          Length = 339
+
+ Score = 98.2 bits (243), Expect = 1e-23,   Method: Compositional matrix adjust.
+ Identities = 55/131 (41%), Positives = 71/131 (54%), Gaps = 7/131 (5%)
+
+Query: 88  PSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYAIPEHKPT 147
+           PS +  S     P  +   +   PA A+  +      GS  PPV  S  D  A P H  T
+Sbjct: 87  PSSADISTKSVTPTVTPKLEAATPAPASARQTAPQKPGSAYPPVHASTIDVNANPVHPST 146
+
+Query: 148 GKPLTQVNIDEDL-GEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYSADAM 206
+           GKP+   ++D D   ED  PWR+PG+DISDYFNYGFDEF+WA Y  KQ +LR E      
+Sbjct: 147 GKPILSTDMDSDFPTEDDKPWRRPGSDISDYFNYGFDEFTWASYVLKQQELRKEV----- 201
+
+Query: 207 SQNSKKMMEDL 217
+            Q+ KK ++D+
+Sbjct: 202 -QDQKKQLDDM 211
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,051,834
+Number of extensions: 80424
+Number of successful extensions: 263
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 262
+Number of HSP's successfully gapped: 10
+Length of query: 332
+Length of database: 5,073,492
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 4,095,704
+Effective search space: 974777552
+Effective search space used: 974777552
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

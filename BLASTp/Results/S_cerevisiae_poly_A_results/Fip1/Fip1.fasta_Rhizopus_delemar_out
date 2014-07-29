@@ -1,0 +1,82 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_03336T0 | RO3G_03336 | Rhizopus delemar 99-880 hypothetical...    75   2e-15
+
+>RO3G_03336T0 | RO3G_03336 | Rhizopus delemar 99-880 hypothetical protein (350
+           aa)
+          Length = 349
+
+ Score = 74.7 bits (182), Expect = 2e-15,   Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 70/119 (58%), Gaps = 6/119 (5%)
+
+Query: 120 VSNTITKTSDERLITEGEANQGVTATTVKA-TESDGN-VPKAMTGSIDLDKEGIFDSVGI 177
+           V  + T  + E L+      Q  ++TT  A T S+ N   K   G I+L+  G ++   I
+Sbjct: 111 VEPSTTNEAKEALVNIKPGQQAKSSTTPAANTFSNANQSSKVAQGGINLEGVGEYNGQPI 170
+
+Query: 178 TTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSL 236
+           T ++ +  ++KPWR+PGA+++DYFNYGFNE TW  Y  +Q+ L+++    + LMG +++
+Sbjct: 171 TEVNLDDFEDKPWRKPGADITDYFNYGFNEVTWRAYCAKQKLLREN----KKLMGDMNM 225
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 2,755,298
+Number of extensions: 108847
+Number of successful extensions: 373
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 371
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 5,971,044
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,329,898
+Effective search space: 1008866234
+Effective search space used: 1008866234
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

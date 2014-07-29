@@ -1,0 +1,152 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY15606 pep:novel supercontig:GCA_000150675.1:supercont1.14:552...    94   1e-20
+EGY19784 pep:novel supercontig:GCA_000150675.1:supercont1.3:5647...    29   4.2  
+EGY17359 pep:novel supercontig:GCA_000150675.1:supercont1.2:7409...    29   5.0  
+EGY16997 pep:novel supercontig:GCA_000150675.1:supercont1.19:333...    28   6.0  
+
+>EGY15606 pep:novel supercontig:GCA_000150675.1:supercont1.14:552602:554258:1
+           gene:VDAG_06770 transcript:EGY15606
+           description:"hypothetical protein"
+          Length = 499
+
+ Score = 94.4 bits (233), Expect = 1e-20,   Method: Compositional matrix adjust.
+ Identities = 50/134 (37%), Positives = 69/134 (51%), Gaps = 3/134 (2%)
+
+Query: 8   IVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYAL 67
+           + +D+   LE+L   +R  I+TLT +A EN   AQ   D ++  I K    +KL A Y L
+Sbjct: 11  VAEDYKQALEDLNSTNRADISTLTTIARENTEHAQIITDILQRHIIKAPAHKKLPAIYVL 70
+
+Query: 68  DSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL---PLFE 124
+           DSI KNVG+PYT++F   LF  +   Y  VD   R K+    + W  P    L   P+F 
+Sbjct: 71  DSIVKNVGTPYTLFFGAQLFQTFMEAYAAVDGHVRRKMEETLQTWKQPVPQSLDDRPVFP 130
+
+Query: 125 GSALEKIEQFLIKA 138
+               + IE+ L KA
+Sbjct: 131 PEVTKPIEESLNKA 144
+
+
+>EGY19784 pep:novel supercontig:GCA_000150675.1:supercont1.3:564704:569363:1
+            gene:VDAG_01800 transcript:EGY19784 description:"WD
+            repeat-containing protein mip1"
+          Length = 1348
+
+ Score = 29.3 bits (64), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 28/129 (21%), Positives = 54/129 (41%), Gaps = 19/129 (14%)
+
+Query: 260  MVGSYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNISGVESFQEIEKKKSLNKINNLYA 319
+            ++G+   ++N+ +P  G    T       +S LF  + G      +E  +++N+ N + +
+Sbjct: 910  VLGASPSSTNAPLPSPGLLRRT-------ASYLFTGMFGANG--AMEPGRTMNQSNPVPS 960
+
+Query: 320  S----------LKAEGLIYTPPKESIVTLYKKLNGHSNYSLDSHEKQLMKNLPKIPLLND 369
+            S           +   L   PP +   T Y K +  +      +E++ MK +P +PL + 
+Sbjct: 961  SPGLPRSASQKFRGPELASAPPDQIDQTNYSKYHTANEPVSGGYEERSMKEVPSLPLRST 1020
+
+Query: 370  ILSDCKAYF 378
+             L     YF
+Sbjct: 1021 FLDWSVEYF 1029
+
+
+>EGY17359 pep:novel supercontig:GCA_000150675.1:supercont1.2:740967:742654:1
+           gene:VDAG_01041 transcript:EGY17359
+           description:"mitochondrial distribution and morphology
+           protein"
+          Length = 543
+
+ Score = 28.9 bits (63), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 33/76 (43%), Gaps = 19/76 (25%)
+
+Query: 317 LYASLKAEGLIYTPP---KESIVTLYKKLNGHSNYSLDSHEKQLMKNLPKIPLLNDILSD 373
+           L  SLK  GL  TP    +E I T ++KL   S+    +HE              DI+  
+Sbjct: 261 LQHSLKESGLPVTPATIQREEITTFFRKLR--SSTETPTHE--------------DIIKA 304
+
+Query: 374 CKAYFATVNIDVLNNP 389
+           CK +   + +D L+ P
+Sbjct: 305 CKIFKDDLTLDNLSRP 320
+
+
+>EGY16997 pep:novel supercontig:GCA_000150675.1:supercont1.19:333045:334622:1
+           gene:VDAG_08161 transcript:EGY16997
+           description:"hypothetical protein"
+          Length = 457
+
+ Score = 28.5 bits (62), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 18/35 (51%)
+
+Query: 263 SYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNIS 297
+           S T    ++  LFG  ++T  QQ   S  LFGN +
+Sbjct: 72  STTAQQPASGGLFGGGANTQTQQQPASGGLFGNTA 106
+
+
+
+ Score = 27.7 bits (60), Expect = 10.0,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 20/40 (50%)
+
+Query: 265 TQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNISGVESFQE 304
+           T N+ S   LFGN   +T  Q   S  LFG  +  ++ Q+
+Sbjct: 56  TLNTPSGGGLFGNTQSSTTAQQPASGGLFGGGANTQTQQQ 95
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 5,391,525
+Number of extensions: 211615
+Number of successful extensions: 452
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 451
+Number of HSP's successfully gapped: 10
+Length of query: 626
+Length of database: 4,984,196
+Length adjustment: 99
+Effective length of query: 527
+Effective length of database: 3,941,231
+Effective search space: 2077028737
+Effective search space used: 2077028737
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

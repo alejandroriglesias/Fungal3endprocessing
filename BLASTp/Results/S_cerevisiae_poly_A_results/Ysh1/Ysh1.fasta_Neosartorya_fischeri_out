@@ -1,0 +1,204 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00000964 pep:known contig:CADRE:8741:349406:352544:-1 ge...   582   0.0  
+CADNFIAP00005772 pep:known contig:CADRE:9288:1722011:1725104:1 g...    50   2e-06
+CADNFIAP00001109 pep:known contig:CADRE:8741:3708317:3710585:1 g...    34   0.16 
+CADNFIAP00003939 pep:known contig:CADRE:9105:534460:535465:1 gen...    33   0.25 
+CADNFIAP00008542 pep:known contig:CADRE:9299:1913657:1916165:1 g...    29   4.5  
+
+>CADNFIAP00000964 pep:known contig:CADRE:8741:349406:352544:-1 gene:CADNFIAG00001003
+           transcript:CADNFIAT00001003 description:"Cleavage and
+           polyadenylation specifity factor, 73 kDa subunit,
+           putative"
+          Length = 878
+
+ Score =  582 bits (1500), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 321/714 (44%), Positives = 440/714 (61%), Gaps = 99/714 (13%)
+
+Query: 9   FKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISH 68
+             F+ LGG NEVGRSCHI+QYKGKTVMLDAG+HPA +G ++LPF+DEFDLS VDILLISH
+Sbjct: 25  LAFYCLGGGNEVGRSCHIIQYKGKTVMLDAGMHPAKEGFSALPFFDEFDLSTVDILLISH 84
+
+Query: 69  FHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLF 128
+           FH+DH+++LPYV+ +TNF+GRVFMTH TKAIY+WL++D VRV++         T    L+
+Sbjct: 85  FHVDHSSALPYVLSKTNFKGRVFMTHATKAIYKWLIQDNVRVSNTASSSDQRTT----LY 140
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           ++ D + +   IET+D+++T  +N I+ T F AGHVLGAAMF + IAGL +LFTGDYSRE
+Sbjct: 141 TEHDHLSTLPLIETIDFNTTHTINSIRITPFPAGHVLGAAMFLVSIAGLNILFTGDYSRE 200
+
+Query: 189 VDRHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFA 247
+            DRHL  AEVP  +  +VLI ESTFG +T+ PRL RE  L + I   + RGGRVL+PVFA
+Sbjct: 201 EDRHLIPAEVPKGIKIDVLITESTFGISTNPPRLEREAALMKSITGILNRGGRVLMPVFA 260
+
+Query: 248 LGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR- 306
+           LGRAQE++LILDEYW  H  EL   ++PI+Y  N A++CM V+QTY+  MND+I++ FR 
+Sbjct: 261 LGRAQELLLILDEYWETHP-EL--QKIPIYYIGNTARRCMVVYQTYIGAMNDNIKRLFRQ 317
+
+Query: 307 -----------DSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWC 355
+                       +   P+ FK +  LR+LE F D G  VMLASPGMLQ+G SR+LLERW 
+Sbjct: 318 RMAEAEASGDKSASAGPWDFKFVRSLRSLERFDDLGGCVMLASPGMLQTGTSRELLERWA 377
+
+Query: 356 PEDKNLVLITGYSIEGTMAKFIMLEPDTIPSI-----------------NNPEITIPRRC 398
+           P ++N V++TGYS+EGTMAK ++ EP+ IP++                    +I IPRRC
+Sbjct: 378 PNERNGVVMTGYSVEGTMAKQLLNEPEQIPAVMSRSAGGVSRRGLAGTDEEQKIMIPRRC 437
+
+Query: 399 QVEEISFAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVH 458
+            V+EISFAAHVD  EN  FIE+++AP +ILVHGE + M RLKS LLS  A       +V 
+Sbjct: 438 TVDEISFAAHVDGVENRNFIEEVAAPVVILVHGEKHQMMRLKSKLLSLNAD---KTVKVK 494
+
+Query: 459 VFNPRNCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQ 518
+           V+ P NC EV + F+  KVAK VG                                    
+Sbjct: 495 VYTPANCDEVRIPFRKDKVAKVVGKLAQVAPPS--------------------------- 527
+
+Query: 519 AEKGLVDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCK 578
+                 D+++ +  ++SG+LV +   F+L  ++  DLRE+    +TTI  ++     +  
+Sbjct: 528 ------DQDDGR--LMSGVLVQN--GFDLSLMAPDDLREYAGLTTTTITCKQHITLSSAS 577
+
+Query: 579 KELIYWHILQMFGEAEVLQDDDRVTNQEPKVKEESKDNLTNTGKLILQ------------ 626
+            +LI W +   FG  E L      ++++ K+KEES   +    ++  +            
+Sbjct: 578 MDLIRWALEGTFGAIEELG-----SSEQGKIKEESTKAVNGEHEMEEEPADEEIPMEETQ 632
+
+Query: 627 ---IMGDIKLTIVNTLAVV--EWTQDLMNDTVADSIIAILMNVDSAPASVKLSS 675
+              +MG + +   +    V  EW  ++MND VAD+++A+L+ V+S+PASVK S+
+Sbjct: 633 TYLVMGCVLIRYHSRTREVELEWEGNMMNDGVADAVMAVLLTVESSPASVKQSA 686
+
+
+>CADNFIAP00005772 pep:known contig:CADRE:9288:1722011:1725104:1 gene:CADNFIAG00005929
+           transcript:CADNFIAT00005929 description:"Cleavage and
+           polyadenylylation specificity factor, putative"
+          Length = 1013
+
+ Score = 50.1 bits (118), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 56/258 (21%), Positives = 104/258 (40%), Gaps = 60/258 (23%)
+
+Query: 151 VNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE------------V 198
+           +NG+  TA++AGH +G  ++ I+     +++  D+++  +  +  A             +
+Sbjct: 186 LNGLTLTAYNAGHTVGGTIWHIQHGMESIVYAVDWNQARESVVAGAAWFGGSGASGAEVI 245
+
+Query: 199 PPLSSNVLIVESTFGT---ATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEIM 255
+             L     +V ST G    A    R  R+  L  +I S++ +GG VL+P     R  E+ 
+Sbjct: 246 EQLRKPTALVCSTRGGDKFALPGGRKKRDDLLLDMIRSSLAKGGTVLIPTDTSARVLELA 305
+
+Query: 256 LILDEYWSQHADELGGG--------QVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR- 306
+             L+  W    D  GG            ++ A   A   M + ++ +  M+++I ++F  
+Sbjct: 306 YALEHAWR---DVAGGNNESDIALKNAGLYLAGRKAHTTMRLARSMLEWMDENIVREFEA 362
+
+Query: 307 ---------DSQTN--------------------PFIFKNISYL---RNLED-FQDFGPS 333
+                     +Q+N                    PF FK++  +   + LE    D  P 
+Sbjct: 363 AEGVDAVTGQTQSNADGQRSGGQGQGKGGSKGLGPFTFKHLRTVERRKRLEKILTDQKPK 422
+
+Query: 334 VMLASPGMLQSGLSRDLL 351
+           V++AS   L  G +++ L
+Sbjct: 423 VIIASDTSLDWGFAKESL 440
+
+
+>CADNFIAP00001109 pep:known contig:CADRE:8741:3708317:3710585:1 gene:CADNFIAG00001148
+           transcript:CADNFIAT00001148 description:"Putative
+           uncharacterized protein"
+          Length = 690
+
+ Score = 33.9 bits (76), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 17/35 (48%), Positives = 19/35 (54%)
+
+Query: 154 IKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+           I+ T   A H  GA MF IE  G  VL+TGD   E
+Sbjct: 41  IRVTLLDANHCAGAVMFLIEGDGKAVLYTGDIRAE 75
+
+
+>CADNFIAP00003939 pep:known contig:CADRE:9105:534460:535465:1 gene:CADNFIAG00004051
+           transcript:CADNFIAT00004051
+           description:"Metallo-beta-lactamase superfamily protein"
+          Length = 315
+
+ Score = 33.1 bits (74), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 35/62 (56%), Gaps = 5/62 (8%)
+
+Query: 21  GRSCHILQYKGKTVMLDAGIHPAY--QGLASLPFYDEFDLSKVDILLISHFHLDHAASLP 78
+           G + +IL    + +++D+G   A   Q + SL     F +SKV   L++H+HLDH   +P
+Sbjct: 49  GTNTYILGTGAERLLIDSGQGRARWEQLMTSLAAEHNFRISKV---LLTHWHLDHTGGVP 105
+
+Query: 79  YV 80
+           ++
+Sbjct: 106 HL 107
+
+
+>CADNFIAP00008542 pep:known contig:CADRE:9299:1913657:1916165:1 gene:CADNFIAG00008756
+           transcript:CADNFIAT00008756 description:"Probable
+           beta-glucosidase G"
+          Length = 817
+
+ Score = 29.3 bits (64), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 27/115 (23%), Positives = 51/115 (44%), Gaps = 19/115 (16%)
+
+Query: 347 SRDLLERW--CPEDKNLVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQ----- 399
+           + D+   W   P D  LV +  ++ EG   + + ++ D     NN   ++ R+C      
+Sbjct: 513 TTDVTTLWVPTPPDACLVFLKTWAEEGEDREHLSVDYDG----NNVVFSVARKCNNTIVI 568
+
+Query: 400 -----VEEISFAAHVDFQENL--EFIEKISAPNII-LVHGEANPMGRLKSALLSN 446
+                + E+ FA H +    L   +  + S  +I+ +++G+ NP GRL   +  N
+Sbjct: 569 THSSGINELPFADHPNVTAILAAHYPGQESGNSIVDVLYGDVNPSGRLPYTIARN 623
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 7,059,339
+Number of extensions: 285040
+Number of successful extensions: 601
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 592
+Number of HSP's successfully gapped: 11
+Length of query: 779
+Length of database: 5,073,492
+Length adjustment: 101
+Effective length of query: 678
+Effective length of database: 4,022,890
+Effective search space: 2727519420
+Effective search space used: 2727519420
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

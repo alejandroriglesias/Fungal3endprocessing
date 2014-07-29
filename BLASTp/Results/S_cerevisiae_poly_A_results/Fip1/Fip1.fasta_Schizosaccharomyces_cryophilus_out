@@ -1,0 +1,100 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY54082 pep:novel supercontig:GCA_000004155.2:supercont4.1:2304...    82   4e-18
+EPY53194 pep:novel supercontig:GCA_000004155.2:supercont4.1:3544...    28   2.6  
+
+>EPY54082 pep:novel supercontig:GCA_000004155.2:supercont4.1:2304333:2307154:
+           -1 gene:SPOG_03978 transcript:EPY54082 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 363
+
+ Score = 82.0 bits (201), Expect = 4e-18,   Method: Compositional matrix adjust.
+ Identities = 31/71 (43%), Positives = 49/71 (69%)
+
+Query: 164 IDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           +D++     D   I  +D E L++KPWR+PGA++SDYFNYGF+EFTW  Y  +Q  L+ D
+Sbjct: 108 VDINPTAKIDGKNIFEVDLESLEDKPWRKPGADISDYFNYGFDEFTWAAYCAKQTTLRDD 167
+
+Query: 224 YNPRRILMGLL 234
+           ++P++ +  L+
+Sbjct: 168 FSPQKFMANLM 178
+
+
+>EPY53194 pep:novel supercontig:GCA_000004155.2:supercont4.1:354482:360810:1
+            gene:SPOG_03732 transcript:EPY53194 description:"calcium
+            channel Cch1"
+          Length = 1838
+
+ Score = 27.7 bits (60), Expect = 2.6,   Method: Composition-based stats.
+ Identities = 18/48 (37%), Positives = 24/48 (50%), Gaps = 3/48 (6%)
+
+Query: 104  TAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATE 151
+            T  T S KDVI      S+++   SD+  + E EA  GVT     +TE
+Sbjct: 1779 TPQTPSFKDVILRG---SHSLRSASDQHSVNEMEAGFGVTTAGTGSTE 1823
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,075,628
+Number of extensions: 43030
+Number of successful extensions: 152
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 152
+Number of HSP's successfully gapped: 11
+Length of query: 327
+Length of database: 2,338,516
+Length adjustment: 89
+Effective length of query: 238
+Effective length of database: 1,877,496
+Effective search space: 446844048
+Effective search space used: 446844048
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

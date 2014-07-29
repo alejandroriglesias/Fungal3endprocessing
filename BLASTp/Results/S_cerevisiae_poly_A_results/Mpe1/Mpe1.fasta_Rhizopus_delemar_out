@@ -1,0 +1,186 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_12479T0 | RO3G_12479 | Rhizopus delemar 99-880 hypothetical...   145   4e-39
+RO3G_03632T0 | RO3G_03632 | Rhizopus delemar 99-880 hypothetical...    61   3e-10
+RO3G_11868T0 | RO3G_11868 | Rhizopus delemar 99-880 hypothetical...    36   0.028
+RO3G_09225T0 | RO3G_09225 | Rhizopus delemar 99-880 hypothetical...    33   0.11 
+RO3G_08623T0 | RO3G_08623 | Rhizopus delemar 99-880 hypothetical...    33   0.11 
+RO3G_00595T0 | RO3G_00595 | Rhizopus delemar 99-880 hypothetical...    33   0.16 
+RO3G_04242T0 | RO3G_04242 | Rhizopus delemar 99-880 hypothetical...    32   0.18 
+RO3G_15414T0 | RO3G_15414 | Rhizopus delemar 99-880 hypothetical...    32   0.25 
+RO3G_12118T0 | RO3G_12118 | Rhizopus delemar 99-880 hypothetical...    30   0.41 
+RO3G_07484T0 | RO3G_07484 | Rhizopus delemar 99-880 hypothetical...    32   0.41 
+RO3G_15847T0 | RO3G_15847 | Rhizopus delemar 99-880 hypothetical...    31   0.64 
+RO3G_00140T0 | RO3G_00140 | Rhizopus delemar 99-880 hypothetical...    30   1.2  
+RO3G_00142T0 | RO3G_00142 | Rhizopus delemar 99-880 hypothetical...    30   1.5  
+RO3G_01430T0 | RO3G_01430 | Rhizopus delemar 99-880 hypothetical...    29   2.6  
+RO3G_06173T0 | RO3G_06173 | Rhizopus delemar 99-880 hypothetical...    28   3.9  
+RO3G_01473T0 | RO3G_01473 | Rhizopus delemar 99-880 hypothetical...    28   4.7  
+RO3G_12709T0 | RO3G_12709 | Rhizopus delemar 99-880 hypothetical...    28   6.3  
+RO3G_09244T0 | RO3G_09244 | Rhizopus delemar 99-880 hypothetical...    28   7.5  
+RO3G_13300T0 | RO3G_13300 | Rhizopus delemar 99-880 hypothetical...    28   9.1  
+RO3G_11380T0 | RO3G_11380 | Rhizopus delemar 99-880 hypothetical...    27   9.5  
+
+>RO3G_12479T0 | RO3G_12479 | Rhizopus delemar 99-880 hypothetical protein (367
+           aa)
+          Length = 366
+
+ Score =  145 bits (366), Expect = 4e-39,   Method: Compositional matrix adjust.
+ Identities = 106/366 (28%), Positives = 162/366 (44%), Gaps = 53/366 (14%)
+
+Query: 40  LGDGTDFQLKIYNPDTEEEYDDDAFVIPRSTSVIVKRSPAIK--------------SFSV 85
+           +G GTD  + IYN  T+EEY DD F++PR+TSVIV+R PA +                  
+Sbjct: 1   MGKGTDLDISIYNAQTDEEYKDDLFMVPRNTSVIVRRLPASRPGKGTAQRYVLGAMDNKA 60
+
+Query: 86  HSRLKGNVGAAALGNATRYVTGRPRVL---QKRQHXXXXXXNVS---------GTTEEER 133
+            S +K N    +    T   + R  VL   Q+ QH      N             +EE R
+Sbjct: 61  QSSVKLNNNQTSSSTPTFTSSHRNLVLNNTQRPQHQPMPTDNTGEQQSNEAAKDDSEEAR 120
+
+Query: 134 IASMFAXXXXXXXXXXXXMSAATPVFFKSQT----NKNSAQENEGP-------------- 175
+           I +MF             ++    + + ++     + N   + +GP              
+Sbjct: 121 IQAMFQQTTDQWGVMQERLAEQQYIPYNARGGGGGDPNKRGKYQGPNNGENKDGQIPQRV 180
+
+Query: 176 PPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETMTPEEM 234
+           PPP Y+CYRCG + H+I  CPTN D  ++   RI+RTTGIP+ FLK IE   E     + 
+Sbjct: 181 PPPNYVCYRCGQKGHYINQCPTNGDKEYDKHPRIKRTTGIPRSFLKVIE---EPKNAVKA 237
+
+Query: 235 AQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKD---LPDDLKCP 291
+               +M+T +G  VV   D  SW+ +  K       G  +      + D   +P+ LKC 
+Sbjct: 238 GTGGLMVTPKGDIVVAQADSSSWDKHVAKAATTLGLGSSSAGDLMDWYDTIPVPEHLKCT 297
+
+Query: 292 LTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETR-DILLDSLVPDQDKEKEV 350
+           +  GLLR     + CC   F  + +   +++ DF C +C+      LD L+ + D  + V
+Sbjct: 298 ICQGLLRD-ASITPCCGSSFCDDCIRVHMMDHDFACADCQQHIQHGLDGLIANVDVRECV 356
+
+Query: 351 ETFLKK 356
+           + +++K
+Sbjct: 357 DNYVRK 362
+
+
+>RO3G_03632T0 | RO3G_03632 | Rhizopus delemar 99-880 hypothetical protein (530
+           aa)
+          Length = 529
+
+ Score = 60.8 bits (146), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 44/185 (23%), Positives = 71/185 (38%), Gaps = 67/185 (36%)
+
+Query: 176 PPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIEIDPETMTPEEMA 235
+           PP GY+C++CG   HWI  CP                 +PK                   
+Sbjct: 91  PPTGYVCFKCGQPGHWIYYCPN----------------VPK------------------- 115
+
+Query: 236 QRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGG 295
+                    G+FV +  +K   E+ Q+K                     P +L C +   
+Sbjct: 116 ---------GQFVQRTVNKTQQEEEQQK---------------------PSELCCMICNK 145
+
+Query: 296 LLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLK 355
+           L+ + V  + CC   F KE +   L E    CP+C   ++  D L+P++   + +E +++
+Sbjct: 146 LMTEAVVIA-CCGKSFCKECISTTL-EKGASCPHCNQENLSTDQLIPNKTLRRAIEAYVE 203
+
+Query: 356 KQEEL 360
+           +QEEL
+Sbjct: 204 EQEEL 208
+
+
+>RO3G_11868T0 | RO3G_11868 | Rhizopus delemar 99-880 hypothetical protein (755
+           aa)
+          Length = 754
+
+ Score = 35.8 bits (81), Expect = 0.028,   Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 32/61 (52%), Gaps = 4/61 (6%)
+
+Query: 268 QIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALV---ESD 324
+           Q++ ++   RK H K +PD  K  L  GLL Q V   K  NI+F + A +  L    +SD
+Sbjct: 609 QLEEEKEASRKNHKKKMPDPSKANLADGLLSQ-VNAQKHHNINFQQMAQQQHLTRASKSD 667
+
+Query: 325 F 325
+           +
+Sbjct: 668 Y 668
+
+
+>RO3G_09225T0 | RO3G_09225 | Rhizopus delemar 99-880 hypothetical protein (305
+           aa)
+          Length = 304
+
+ Score = 33.5 bits (75), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGI 214
+           CY C   +H +K+CP    P   GKR R  + +
+Sbjct: 130 CYACKSLEHLVKDCPKIGSPIVGGKRARTESHV 162
+
+
+>RO3G_08623T0 | RO3G_08623 | Rhizopus delemar 99-880 hypothetical protein (573
+           aa)
+          Length = 572
+
+ Score = 33.5 bits (75), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 19/56 (33%), Positives = 31/56 (55%), Gaps = 1/56 (1%)
+
+Query: 268 QIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVES 323
+           Q++ ++   RK + K +PD  K  L  GLL Q V TS+  NI+F +   +  L ++
+Sbjct: 429 QLEEEKAALRKNNKKKMPDPSKANLADGLLSQ-VNTSRHHNINFQQMVQQQQLTKA 483
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 5,139,503
+Number of extensions: 226680
+Number of successful extensions: 643
+Number of sequences better than 10.0: 35
+Number of HSP's gapped: 637
+Number of HSP's successfully gapped: 38
+Length of query: 441
+Length of database: 5,971,044
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,277,521
+Effective search space: 1471467224
+Effective search space used: 1471467224
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

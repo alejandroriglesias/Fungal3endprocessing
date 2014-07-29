@@ -1,0 +1,156 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00000268 pep:known supercontig:CADRE:1.11:863915:865814:...   141   6e-37
+CADATEAP00000923 pep:known supercontig:CADRE:1.11:1363064:136941...    31   1.0  
+CADATEAP00003432 pep:known supercontig:CADRE:1.10:762187:764636:...    29   2.5  
+CADATEAP00006474 pep:known supercontig:CADRE:1.9:808729:814331:1...    29   4.0  
+
+>CADATEAP00000268 pep:known supercontig:CADRE:1.11:863915:865814:1
+           gene:CADATEAG00000268 transcript:CADATEAT00000268
+           description:"mRNA cleavage and polyadenylation factor
+           clp1"
+          Length = 588
+
+ Score =  141 bits (356), Expect = 6e-37,   Method: Compositional matrix adjust.
+ Identities = 112/410 (27%), Positives = 190/410 (46%), Gaps = 61/410 (14%)
+
+Query: 3   SLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAV 62
+           SLPG+D    S E         ++ +  GS+W+ ++     + VK+ SG  E+FGTELA 
+Sbjct: 34  SLPGLDLTQPSAEREFAPAPPSQITLSAGSEWRFEVAFGTTVRVKLISGTAELFGTELAP 93
+
+Query: 63  DDEYTFQNWKFPIYAVEETELLWKCPDLTT----------------------NTITVKPN 100
+              YTF   K  IY     EL     D  +                      +  T +  
+Sbjct: 94  SQTYTFCGTKSAIYTWHGCELEVGAGDAISALEATGMNGAATAQGFGAGGCQSEYTAEET 153
+
+Query: 101 HTMKYIYNLHFMLEKIRM----SNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPL 156
+             ++Y  N+HF LE +R     +  +GPRV+I+G    GKTSLS+ L +YA K    QP+
+Sbjct: 154 PMVEYA-NVHFALETMRQEAKATGKDGPRVLILGPEDAGKTSLSKILTAYATKIG-RQPI 211
+
+Query: 157 YINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLER-I 215
+            +NLDP + + +VPG ++AT    ++D +   WG S  SG + +  K P+V  + ++  +
+Sbjct: 212 VVNLDPAEGMLSVPGTLTATAFRTMMDIE-EGWGSSPMSGPSAVPVKLPLVYFYPMQNPL 270
+
+Query: 216 NENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSI-SQLDENLAEL-HHIIEKLN 273
+             +  +Y   +S+L   V  R+  D   R +G IVDTP + SQ      E+ +HI+ + +
+Sbjct: 271 EGDGSVYRSIVSRLALSVMGRMAEDEDSRETGIIVDTPGVLSQSKAGSLEMINHIVTEFS 330
+
+Query: 274 VNIMLVLCSETDPLWEKVKKTFGPELGNN----------NIFFIPKLDGVSAVDDVYKRS 323
+           +  +LV+ SE   L+  + K +  +  ++          ++  + K  G    D  + + 
+Sbjct: 331 ITTILVIGSER--LYSTMMKNYDNKPTSSASAVASDERISVVKLSKSGGCVDRDAAFMKH 388
+
+Query: 324 LQRTSIREYFYG-----------------SLDTALSPYAIGVDYEDLTIW 356
+           ++ + IR YF+G                 + +  LSP+A  +D+  L ++
+Sbjct: 389 VRESQIRTYFFGNPIPSTASAALSVSASSTTNVTLSPHAQQLDFNSLGLY 438
+
+
+>CADATEAP00000923 pep:known supercontig:CADRE:1.11:1363064:1369414:-1
+           gene:CADATEAG00000923 transcript:CADATEAT00000923
+           description:"Predicted protein"
+          Length = 2078
+
+ Score = 30.8 bits (68), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (51%), Gaps = 3/62 (4%)
+
+Query: 128 IVGGSQTGKTSLSRTL---CSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDA 184
+           I G   +GKT LS  +     Y +   +Y+P+++ ++ + P  T P  I  T +S I D 
+Sbjct: 342 IAGKPGSGKTILSSVMIDHLQYPIGGVSYKPIFVPINSRVPAKTTPQGIVKTILSQIFDK 401
+
+Query: 185 QL 186
+           ++
+Sbjct: 402 RI 403
+
+
+>CADATEAP00003432 pep:known supercontig:CADRE:1.10:762187:764636:-1
+           gene:CADATEAG00003432 transcript:CADATEAT00003432
+           description:"Predicted protein"
+          Length = 785
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 31/72 (43%), Gaps = 7/72 (9%)
+
+Query: 104 KYIYNLHFMLEKIRMSNFEGPRVVIV---GGSQTGKTSLSRTLCSYALKFNAYQPLYINL 160
+           +Y  N+H +   +   +F G    ++   GG  +G TS   +LC          P    L
+Sbjct: 300 RYFSNIHRLFPIVCEQDFRGHAQHLLAQKGGGASG-TSQEESLCLLYAVLAVASP---QL 355
+
+Query: 161 DPQQPIFTVPGC 172
+            P  P++T+P C
+Sbjct: 356 SPTDPVYTLPDC 367
+
+
+>CADATEAP00006474 pep:known supercontig:CADRE:1.9:808729:814331:1 gene:CADATEAG00006474
+            transcript:CADATEAT00006474 description:"Putative
+            uncharacterized protein"
+          Length = 1814
+
+ Score = 28.9 bits (63), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 25/44 (56%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+            N+T +Y  +L  +L  +  S   G +V IVG +  GK+SL+  L
+Sbjct: 1528 NYTTRYRPDLDPVLRSVSFSVQPGEKVGIVGRTGAGKSSLALAL 1571
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,445,707
+Number of extensions: 188949
+Number of successful extensions: 449
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 446
+Number of HSP's successfully gapped: 8
+Length of query: 445
+Length of database: 5,192,116
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,183,122
+Effective search space: 1455726456
+Effective search space used: 1455726456
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

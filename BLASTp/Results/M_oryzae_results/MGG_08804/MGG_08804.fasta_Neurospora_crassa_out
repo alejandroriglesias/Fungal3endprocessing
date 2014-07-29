@@ -1,0 +1,142 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000006086 pep:known supercontig:ASM18292v1:7.26:327235:3...   311   e-100
+EFNCRP00000001563 pep:known supercontig:ASM18292v1:7.4:1025333:1...    30   1.8  
+EFNCRP00000009686 pep:known supercontig:ASM18292v1:7.93:59200:60...    28   3.7  
+
+>EFNCRP00000006086 pep:known supercontig:ASM18292v1:7.26:327235:329051:1
+           gene:EFNCRG00000006084 transcript:EFNCRT00000006094
+           description:"Protein CLP1"
+          Length = 491
+
+ Score =  311 bits (796), Expect = e-100,   Method: Compositional matrix adjust.
+ Identities = 192/493 (38%), Positives = 262/493 (53%), Gaps = 42/493 (8%)
+
+Query: 1   MSIPGLGLIPEKPATSASRTYTLEPRQEYRFSVSH----------GASITITLTRGTAER 50
+           MSIPGLG I  +  T+  RT  L P  E+RFS+ H           A +T+ L  GTAER
+Sbjct: 1   MSIPGLGQIAPQAPTTTQRTINLRPFGEWRFSIPHQHSTFSSNSSAAGVTVRLVAGTAER 60
+
+Query: 51  DGTELALNVAYT-LSGVKSKILSWHGANLSIEG-----ITDHESVAGPDDAANTAHLNLH 104
+           DGTELA N  YT L G KSK+ +  G  L I       + D      P+ +   +++NLH
+Sbjct: 61  DGTELAPNCVYTFLPGTKSKLFTDQGCTLEINNTGGYPLEDRVVEHPPEQSPMLSYINLH 120
+
+Query: 105 AFLQ------------------XXXXXXXXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRT 146
+             LQ                                    GPRVL+ G  G G+TSL + 
+Sbjct: 121 FGLQDHERAAAAQAQQQHPTHHQQQQQGRGAGAGVARSKPGPRVLICGPPGVGKTSLAKL 180
+
+Query: 147 LAAWATRTGAQPMVVDADXXXXXXXXXXXXSAAVFGTVMDVXXXXX---XXXXXXXXXXX 203
+           LAA ATR G+QP+V + +             AAVFGT+MDV                   
+Sbjct: 181 LAALATRMGSQPLVANLNPTDGLLCLPGTLGAAVFGTLMDVEEPAGGFGVTNTPISGPSA 240
+
+Query: 204 VPVKLPLVFYYGRRRVEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPYVEG- 262
+           VPVK PL FY+G  +VE+D D+++ +              +  VR AG+L+DT P   G 
+Sbjct: 241 VPVKNPLTFYFGHEKVEDDVDMWRQMTERLAVLARRKFERNRDVRVAGLLVDTAPVEAGD 300
+
+Query: 263 -KGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVKNVLGEHVSVVALDKSSGVMER 321
+            +G ++L     + + N +V + +  L TEL QRF+  K    E ++V+ LDKS G ++ 
+Sbjct: 301 KEGQELLGWAVRQFDANFVVVLGSEQLKTELGQRFASEKTSFEEPITVLGLDKSDGAVQI 360
+
+Query: 322 DEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEPGALERIPQ 381
+           D+ + Q   E +IKEYFFG  K  LSPFTQ  +FDEL ++ +P+   Y   P  LER+ +
+Sbjct: 361 DKAWRQKSTETAIKEYFFGGIKARLSPFTQSASFDELVVFKAPD-EPYEGAP-VLERV-E 417
+
+Query: 382 PLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPL 441
+             PEMAHW LA+M A+  D P  IR++ V GF+ +A VD+ERRR+K L+PVSGRLG+ PL
+Sbjct: 418 ITPEMAHWTLAVMIASVTDSPQAIRFSSVLGFIVIADVDQERRRVKFLSPVSGRLGNHPL 477
+
+Query: 442 VWGKWPEPHINLL 454
+           +WG+WPEP++NLL
+Sbjct: 478 IWGRWPEPYLNLL 490
+
+
+>EFNCRP00000001563 pep:known supercontig:ASM18292v1:7.4:1025333:1027456:-1
+           gene:EFNCRG00000001561 transcript:EFNCRT00000001563
+           description:"Iron-sulfur clusters transporter atm-1,
+           mitochondrial"
+          Length = 707
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 17/23 (73%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTL 147
+           P G +V + G +GCG+++L+R L
+Sbjct: 464 PAGKKVAIVGPSGCGKSTLLRLL 486
+
+
+>EFNCRP00000009686 pep:known supercontig:ASM18292v1:7.93:59200:60642:1
+           gene:EFNCRG00000009685 transcript:EFNCRT00000009704
+           description:"Predicted protein"
+          Length = 480
+
+ Score = 28.5 bits (62), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 25/88 (28%), Positives = 41/88 (46%), Gaps = 9/88 (10%)
+
+Query: 305 EHVSVVALDKSSGVME---RDE--GFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELA 359
+           E  +VVA D  +GV +   RD   G++  +  A +++   G+ +  L  +     FD   
+Sbjct: 384 EANAVVAFDADTGVTQTVVRDPRLGWVDSLSVAELEDEETGETQSWL--YISSDQFDRSW 441
+
+Query: 360 IYTSPEA--SDYSAEPGALERIPQPLPE 385
+            + +P A   D    P  L R+P PLP+
+Sbjct: 442 WFWAPGAHSGDIQERPFGLFRVPLPLPD 469
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 4,198,748
+Number of extensions: 174128
+Number of successful extensions: 427
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 421
+Number of HSP's successfully gapped: 10
+Length of query: 455
+Length of database: 4,779,891
+Length adjustment: 96
+Effective length of query: 359
+Effective length of database: 3,835,347
+Effective search space: 1376889573
+Effective search space used: 1376889573
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

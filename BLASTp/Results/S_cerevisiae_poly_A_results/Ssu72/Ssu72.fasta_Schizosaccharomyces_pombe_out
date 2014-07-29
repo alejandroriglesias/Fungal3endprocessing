@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC3G9.04.1:pep pep:known chromosome:ASM294v2:I:3176427:3177452...   228   1e-75
+SPBC776.09.1:pep pep:known chromosome:ASM294v2:II:3191319:319380...    27   1.5  
+SPBC651.07.1:pep pep:known chromosome:ASM294v2:II:1248596:124999...    27   1.8  
+SPBC9B6.07.1:pep pep:known chromosome:ASM294v2:II:1824518:182562...    25   4.6  
+
+>SPAC3G9.04.1:pep pep:known chromosome:ASM294v2:I:3176427:3177452:-1 gene:SPAC3G9.04
+           transcript:SPAC3G9.04.1 description:"phosphoric ester
+           hydrolase Ssu72 (predicted)"
+          Length = 197
+
+ Score =  228 bits (580), Expect = 1e-75,   Method: Compositional matrix adjust.
+ Identities = 104/200 (52%), Positives = 145/200 (72%), Gaps = 7/200 (3%)
+
+Query: 7   SNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYND 66
+           +NL+   +CASN NRSME+H VL+ AGY V S+GTGSAVRLPG SIDKPN+Y FG PY++
+Sbjct: 5   TNLQISVICASNQNRSMEAHNVLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYQFGYPYDE 64
+
+Query: 67  IYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCEDL 126
+           IY +L +Q +  Y +NGLL+MLDRNRR+K+AP +WQ+   +++ V TCEERC+DA+CEDL
+Sbjct: 65  IYKELEAQDSRLYTANGLLKMLDRNRRIKRAPCRWQDQDSIYNIVITCEERCYDAICEDL 124
+
+Query: 127 MNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMDI 186
+             RG  LN+ V++INVDIKD+ E A +G KAIL+L + L +  ++        E+    I
+Sbjct: 125 YRRGETLNRPVYLINVDIKDNHEEASVGGKAILDLVNKLTEAQDK-------LEELFPSI 177
+
+Query: 187 LTEWQSSHSQLPSLYAPSYY 206
+           + ++QS+H +LP LY   ++
+Sbjct: 178 MADFQSNHPKLPVLYTIHFF 197
+
+
+>SPBC776.09.1:pep pep:known chromosome:ASM294v2:II:3191319:3193807:1 gene:SPBC776.09
+           transcript:SPBC776.09.1 description:"ATP-dependent RNA
+           helicase Ste13"
+          Length = 485
+
+ Score = 27.3 bits (59), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 332 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 364
+
+
+>SPBC651.07.1:pep pep:known chromosome:ASM294v2:II:1248596:1249996:1 gene:SPBC651.07
+           transcript:SPBC651.07.1 description:"sequence orphan"
+          Length = 268
+
+ Score = 26.9 bits (58), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 14/57 (24%), Positives = 24/57 (42%), Gaps = 8/57 (14%)
+
+Query: 136 IVHVINVDIKDDDENAKIGSKAILELA--------DMLNDKIEQCEKDDIPFEDCIM 184
+           IV  +++             + ILELA          LN+++E C+  D P   C++
+Sbjct: 37  IVQTLSIPSSTSSAPLVTSVREILELACNDAVLDKSFLNERLEHCKLQDFPLVGCLV 93
+
+
+>SPBC9B6.07.1:pep pep:known chromosome:ASM294v2:II:1824518:1825623:1 gene:SPBC9B6.07
+           transcript:SPBC9B6.07.1 description:"nucleolar protein
+           Nop52 family (predicted)"
+          Length = 217
+
+ Score = 25.4 bits (54), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 36/79 (45%), Gaps = 5/79 (6%)
+
+Query: 121 AVCEDLMNRG--GKLNKIVHVIN---VDIKDDDENAKIGSKAILELADMLNDKIEQCEKD 175
+           A   D+  R     L+K+V   N   +D   + EN    +  +  LAD+  +++ +   +
+Sbjct: 116 AAFRDIQTRSKTALLDKVVAEYNQMWMDGPFNTENLAFPNGILFHLADIWTEELRKVYPE 175
+
+Query: 176 DIPFEDCIMDILTEWQSSH 194
+           D+P  D  +   +  +SSH
+Sbjct: 176 DVPKADWYLPFDSTIKSSH 194
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 1,078,872
+Number of extensions: 46505
+Number of successful extensions: 142
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 141
+Number of HSP's successfully gapped: 14
+Length of query: 206
+Length of database: 2,387,769
+Length adjustment: 84
+Effective length of query: 122
+Effective length of database: 1,955,673
+Effective search space: 238592106
+Effective search space used: 238592106
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 48 (23.1 bits)

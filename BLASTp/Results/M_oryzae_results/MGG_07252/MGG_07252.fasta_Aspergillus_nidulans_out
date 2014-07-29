@@ -1,0 +1,219 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00001272 pep:known chromosome:ASM1142v1:VIII:731311:7323...   220   1e-72
+CADANIAP00000083 pep:known chromosome:ASM1142v1:IV:215003:217031...    58   1e-10
+CADANIAP00009611 pep:known chromosome:ASM1142v1:VI:706490:707784...    49   2e-07
+CADANIAP00005779 pep:known chromosome:ASM1142v1:III:1396346:1401...    49   3e-07
+CADANIAP00001739 pep:known chromosome:ASM1142v1:VIII:2026311:202...    47   8e-07
+CADANIAP00000536 pep:known chromosome:ASM1142v1:IV:1507375:15107...    46   2e-06
+CADANIAP00002277 pep:known chromosome:ASM1142v1:VIII:3546220:354...    46   2e-06
+CADANIAP00006131 pep:known chromosome:ASM1142v1:III:2363742:2366...    45   4e-06
+CADANIAP00007513 pep:known chromosome:ASM1142v1:I:2924979:292688...    45   4e-06
+CADANIAP00008145 pep:known chromosome:ASM1142v1:VII:994869:99642...    44   9e-06
+CADANIAP00005540 pep:known chromosome:ASM1142v1:III:731018:73330...    44   1e-05
+CADANIAP00005680 pep:known chromosome:ASM1142v1:III:1106630:1107...    44   1e-05
+CADANIAP00010091 pep:known chromosome:ASM1142v1:VI:2110548:21113...    42   1e-05
+CADANIAP00006943 pep:known chromosome:ASM1142v1:I:1339514:134082...    42   4e-05
+CADANIAP00003836 pep:known chromosome:ASM1142v1:V:3060905:306202...    41   7e-05
+CADANIAP00008065 pep:known chromosome:ASM1142v1:VII:768719:77044...    41   1e-04
+CADANIAP00006735 pep:known chromosome:ASM1142v1:I:742780:743318:...    39   3e-04
+CADANIAP00004687 pep:known chromosome:ASM1142v1:II:2319073:23216...    38   0.001
+CADANIAP00006868 pep:known chromosome:ASM1142v1:I:1107028:110778...    37   0.002
+CADANIAP00007014 pep:known chromosome:ASM1142v1:I:1533932:153528...    37   0.002
+CADANIAP00003953 pep:known chromosome:ASM1142v1:II:265614:266745...    37   0.002
+CADANIAP00006114 pep:known chromosome:ASM1142v1:III:2323593:2325...    37   0.003
+CADANIAP00010006 pep:known chromosome:ASM1142v1:VI:1887778:18905...    36   0.004
+CADANIAP00005939 pep:known chromosome:ASM1142v1:III:1831573:1832...    35   0.004
+CADANIAP00005768 pep:known chromosome:ASM1142v1:III:1370021:1371...    35   0.007
+CADANIAP00001543 pep:known chromosome:ASM1142v1:VIII:1495991:149...    35   0.009
+CADANIAP00005417 pep:known chromosome:ASM1142v1:III:389477:39172...    32   0.11 
+CADANIAP00007705 pep:known chromosome:ASM1142v1:I:3468021:346930...    32   0.11 
+CADANIAP00007461 pep:known chromosome:ASM1142v1:I:2760845:276214...    30   0.48 
+CADANIAP00004740 pep:known chromosome:ASM1142v1:II:2467835:24688...    30   0.49 
+CADANIAP00007269 pep:known chromosome:ASM1142v1:I:2250066:225122...    30   0.49 
+CADANIAP00000573 pep:known chromosome:ASM1142v1:IV:1617258:16197...    30   0.52 
+CADANIAP00009524 pep:known chromosome:ASM1142v1:VI:463677:467205...    28   1.3  
+CADANIAP00008033 pep:known chromosome:ASM1142v1:VII:680504:68214...    28   1.7  
+CADANIAP00002182 pep:known chromosome:ASM1142v1:VIII:3289639:329...    28   2.3  
+CADANIAP00009519 pep:known chromosome:ASM1142v1:VI:449483:451116...    28   2.4  
+CADANIAP00001437 pep:known chromosome:ASM1142v1:VIII:1197699:119...    27   2.5  
+CADANIAP00001062 pep:known chromosome:ASM1142v1:VIII:167710:1693...    26   6.4  
+CADANIAP00004984 pep:known chromosome:ASM1142v1:II:3160697:31631...    26   8.8  
+
+>CADANIAP00001272 pep:known chromosome:ASM1142v1:VIII:731311:732333:1
+           gene:CADANIAG00001272 transcript:CADANIAT00001272
+           description:"RNP domain protein (AFU_orthologue\x3b
+           AFUA_1G09490)"
+          Length = 187
+
+ Score =  220 bits (560), Expect = 1e-72,   Method: Compositional matrix adjust.
+ Identities = 104/124 (83%), Positives = 114/124 (91%), Gaps = 1/124 (0%)
+
+Query: 33  AMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEIQAH 92
+           AMK+RVAEME EAAKLREMQA+LD QS+ L  E ++D+D+RSIFVGNVDY ASPEEIQAH
+Sbjct: 29  AMKRRVAEMESEAAKLREMQATLDQQSESLK-EDKEDIDARSIFVGNVDYGASPEEIQAH 87
+
+Query: 93  FQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPKRTNY 152
+           FQSCGSINRVTILLDKFTGQPKG+AYVEF EPSLVAQALVLNESVF+GRN+KV PKRTN 
+Sbjct: 88  FQSCGSINRVTILLDKFTGQPKGYAYVEFAEPSLVAQALVLNESVFRGRNLKVVPKRTNL 147
+
+Query: 153 PGMS 156
+           PGMS
+Sbjct: 148 PGMS 151
+
+
+>CADANIAP00000083 pep:known chromosome:ASM1142v1:IV:215003:217031:-1
+           gene:CADANIAG00000083 transcript:CADANIAT00000083
+           description:"translation initiation factor 4B
+           (AFU_orthologue\x3b AFUA_2G16400)"
+          Length = 497
+
+ Score = 58.2 bits (139), Expect = 1e-10,   Method: Compositional matrix adjust.
+ Identities = 29/73 (39%), Positives = 43/73 (58%), Gaps = 1/73 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ + A+  +I   F  CG  N V I+ DK T  PKGF YVEF     + +AL L
+Sbjct: 83  TAHIGNLSFDATSGDISDLFADCGVTN-VRIVEDKLTKAPKGFGYVEFETVDGLKKALDL 141
+
+Query: 134 NESVFKGRNIKVS 146
+           + +  +GR+I+VS
+Sbjct: 142 SGATLQGRSIRVS 154
+
+
+>CADANIAP00009611 pep:known chromosome:ASM1142v1:VI:706490:707784:-1
+           gene:CADANIAG00009611 transcript:CADANIAT00009611
+           description:"RNA binding protein Rnp24, putative
+           (AFU_orthologue\x3b AFUA_3G05840)"
+          Length = 357
+
+ Score = 48.5 bits (114), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 33/50 (66%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           S+ +FVGN+ +  + E ++ HF  CG++  V +   + +G+ KG+A+VEF
+Sbjct: 179 SKRLFVGNLSFDTTKEFLEEHFSQCGTVTNVHVATFQDSGKCKGYAWVEF 228
+
+
+
+ Score = 47.4 bits (111), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 29/89 (32%), Positives = 47/89 (52%), Gaps = 9/89 (10%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILL-------DKFT-GQPKGFAYVEFTEPS 125
+            I++GN+ +S + E+I+    +  S    TI         DK +  Q KGFAYV+F+ P 
+Sbjct: 71  GIWIGNLAFSVTKEDIRRFLTTNCSFTDATITRVHLPKPSDKSSRAQNKGFAYVDFSTPK 130
+
+Query: 126 LVAQALVLNESVFKGRNIKVSPKRTNYPG 154
+            + +AL L+E +  GR + +   + NY G
+Sbjct: 131 ALEEALGLSEQLVSGRRVLIKDAK-NYKG 158
+
+
+>CADANIAP00005779 pep:known chromosome:ASM1142v1:III:1396346:1401173:1
+            gene:CADANIAG00005779 transcript:CADANIAT00005779
+            description:"pre-mRNA splicing factor (Prp24), putative
+            (AFU_orthologue\x3b AFUA_2G01820)"
+          Length = 1290
+
+ Score = 48.9 bits (115), Expect = 3e-07,   Method: Compositional matrix adjust.
+ Identities = 29/78 (37%), Positives = 44/78 (56%), Gaps = 3/78 (3%)
+
+Query: 71   DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQA 130
+            + R I V NV++SAS ++++  F   G++  V  L  K  G  KGF YV F+       A
+Sbjct: 994  EGREIHVSNVNWSASEDDLKELFSRFGTVELVR-LPRKVDGGSKGFGYVVFSSKEEATAA 1052
+
+Query: 131  LVLNESVFKGR--NIKVS 146
+            L ++E  F+GR  ++KVS
+Sbjct: 1053 LAMHEQEFRGRPLHVKVS 1070
+
+
+
+ Score = 33.9 bits (76), Expect = 0.027,   Method: Compositional matrix adjust.
+ Identities = 31/115 (26%), Positives = 54/115 (46%), Gaps = 3/115 (2%)
+
+Query: 32  SAMKKRVAEMEEEAAKLREMQASLDSQSQELSTES-RDDVDSRSIFVGNVDYSASPEEIQ 90
+           S  +KR  E E  A  L   +A  D  S E    + R D ++ ++ V N+    +  +++
+Sbjct: 787 SQSEKRKREDESTANGLPTKRARADRASVEAEPVALRRDRENSTVVVKNLPQGTTEHKVR 846
+
+Query: 91  AHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKV 145
+             F+ CG+IN V ++  +  G+ +  A +EF      A A   ++  F G  I+V
+Sbjct: 847 QFFRDCGAINGVKMMPGE-DGKSE-VAMIEFNTRDDAAAAQTRDQKTFDGNTIQV 899
+
+
+>CADANIAP00001739 pep:known chromosome:ASM1142v1:VIII:2026311:2028705:1
+           gene:CADANIAG00001739 transcript:CADANIAT00001739
+           description:"RNA splicing factor (Pad-1), putative
+           (AFU_orthologue\x3b AFUA_1G15810)"
+          Length = 552
+
+ Score = 47.0 bits (110), Expect = 8e-07,   Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 57/102 (55%), Gaps = 2/102 (1%)
+
+Query: 46  AKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTIL 105
+           A+L E + +  +++ E S+ ++       ++VGN+ +S    ++Q+ F+  G +  V + 
+Sbjct: 246 AQLTEAEKNRQARNSEASSGNKHSAPFHRLYVGNIHFSIDENDLQSVFEPFGELEFVQLQ 305
+
+Query: 106 LDKFTGQPKGFAYVEFTEPSLVAQAL-VLNESVFKGRNIKVS 146
+            D+ TG+ +G+ +V+F +P+   +AL  +N     GR I+V 
+Sbjct: 306 KDE-TGRSRGYGFVQFRDPNQAREALEKMNGYDLGGRAIRVG 346
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 1,340,633
+Number of extensions: 46196
+Number of successful extensions: 245
+Number of sequences better than 10.0: 54
+Number of HSP's gapped: 240
+Number of HSP's successfully gapped: 63
+Length of query: 193
+Length of database: 5,078,913
+Length adjustment: 88
+Effective length of query: 105
+Effective length of database: 4,151,921
+Effective search space: 435951705
+Effective search space used: 435951705
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 50 (23.9 bits)

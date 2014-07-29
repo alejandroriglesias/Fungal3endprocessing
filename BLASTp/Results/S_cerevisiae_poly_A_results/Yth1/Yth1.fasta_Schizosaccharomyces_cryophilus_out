@@ -1,0 +1,193 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY49649 pep:novel supercontig:GCA_000004155.2:supercont4.8:4688...   129   8e-38
+EPY49417 pep:novel supercontig:GCA_000004155.2:supercont4.9:4974...    51   2e-08
+EPY52730 pep:novel supercontig:GCA_000004155.2:supercont4.2:1142...    33   0.018
+EPY53184 pep:novel supercontig:GCA_000004155.2:supercont4.1:3315...    30   0.13 
+EPY50957 pep:novel supercontig:GCA_000004155.2:supercont4.5:8613...    30   0.17 
+EPY51212 pep:novel supercontig:GCA_000004155.2:supercont4.4:3847...    28   0.59 
+EPY52969 pep:novel supercontig:GCA_000004155.2:supercont4.2:1663...    28   0.63 
+EPY49455 pep:novel supercontig:GCA_000004155.2:supercont4.8:4277...    28   0.89 
+EPY51854 pep:novel supercontig:GCA_000004155.2:supercont4.3:6034...    25   5.8  
+
+>EPY49649 pep:novel supercontig:GCA_000004155.2:supercont4.8:468825:470138:1
+           gene:SPOG_01530 transcript:EPY49649 description:"zinc
+           finger protein Yth1"
+          Length = 170
+
+ Score =  129 bits (325), Expect = 8e-38,   Method: Compositional matrix adjust.
+ Identities = 56/112 (50%), Positives = 81/112 (72%), Gaps = 2/112 (1%)
+
+Query: 63  NKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIP 122
+             +VC+HWLRGLCKK +QC++LHEYNL+KMP C F+++ G+C+   +C YLH+DP+ ++ 
+Sbjct: 50  GSVVCKHWLRGLCKKGEQCDFLHEYNLKKMPPCHFYAERGWCSNGEECLYLHLDPSKQVG 109
+
+Query: 123 KCENYEMGFCPLGSSCPRRHIKK-VFCQRYMTGFCPLGKDECDMEHPQFIIP 173
+            C  Y MGFCPLG  C  +H++K   C+RY++GFCP G + C   HP+ + P
+Sbjct: 110 VCAWYNMGFCPLGPVCRGKHVRKPKICERYLSGFCPSGPN-CPDPHPKHVDP 160
+
+
+
+ Score = 30.0 bits (66), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 26/59 (44%), Gaps = 10/59 (16%)
+
+Query: 25  FSLDPDR--PICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQC 81
+             LDP +   +C +YN       CP GP+C  KHV    +   +C  +L G C     C
+Sbjct: 100 LHLDPSKQVGVCAWYNM----GFCPLGPVCRGKHV----RKPKICERYLSGFCPSGPNC 150
+
+
+>EPY49417 pep:novel supercontig:GCA_000004155.2:supercont4.9:497487:499167:-1
+           gene:SPOG_04233 transcript:EPY49417 description:"ZC3H3
+           protein"
+          Length = 378
+
+ Score = 51.2 bits (121), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 55/116 (47%), Gaps = 9/116 (7%)
+
+Query: 29  PDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLHEYN 88
+           P    C +YNS      C  G  C   H       +++C  +L   C K D C   H+ +
+Sbjct: 202 PSSVYCRYYNS---SGYCANGSSCMFVHDPT---RRMICPKFLNEKCTKGDNCSLSHDLD 255
+
+Query: 89  LRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPKC-ENYEMGFCPLGSSCPRRHI 143
+            +++P C +F + G C  + +C+Y+H+  +   P C E  +  +C  G+SC  +HI
+Sbjct: 256 TKRIPACYYFLQ-GKCN-NVNCRYVHVHYSETAPICFEFAKYNYCERGTSCKEKHI 309
+
+
+>EPY52730 pep:novel supercontig:GCA_000004155.2:supercont4.2:1142637:1144960:
+           -1 gene:SPOG_02050 transcript:EPY52730 description:"zinc
+           finger protein Cps3"
+          Length = 585
+
+ Score = 33.1 bits (74), Expect = 0.018,   Method: Compositional matrix adjust.
+ Identities = 27/105 (25%), Positives = 47/105 (44%), Gaps = 12/105 (11%)
+
+Query: 88  NLRKMPECVFFSKNGYCTQSPDCQYLH-IDPASKIPKCENYEMGFCPLGSSCPRRHI--- 143
+           +L+ +P C FF + G CT   +C + H ++ A +   C+ ++ G C  GS C   HI   
+Sbjct: 35  SLQHVP-CKFF-RQGTCTSGKNCIFSHDLESAFEKTVCKYFQKGNCKFGSKCALEHILPD 92
+
+Query: 144 -----KKVFCQRYMTG-FCPLGKDECDMEHPQFIIPDEGSKLRIK 182
+                 +      + G   P  +    M +P+F      S+LR++
+Sbjct: 93  GRRVKTRALTSSMLAGPMNPTDQVASTMVNPRFSKEIADSELRME 137
+
+
+
+ Score = 28.5 bits (62), Expect = 0.59,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 26/52 (50%), Gaps = 4/52 (7%)
+
+Query: 34 CEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLH 85
+          C+F+  R+G  +C  G  C   H L     K VC+++ +G CK   +C   H
+Sbjct: 41 CKFF--RQG--TCTSGKNCIFSHDLESAFEKTVCKYFQKGNCKFGSKCALEH 88
+
+
+>EPY53184 pep:novel supercontig:GCA_000004155.2:supercont4.1:331543:332831:
+          -1 gene:SPOG_03722 transcript:EPY53184
+          description:"U2AF small subunit"
+          Length = 218
+
+ Score = 30.0 bits (66), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 23/43 (53%), Gaps = 3/43 (6%)
+
+Query: 25 FSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVC 67
+          +  + D+  C FY S+ G  +C  G  C +KHV P F   I+C
+Sbjct: 9  YGTEQDKVNCTFY-SKIG--ACRHGERCSRKHVKPNFSQTILC 48
+
+
+
+ Score = 25.0 bits (53), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 20/69 (28%), Positives = 24/69 (34%), Gaps = 3/69 (4%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYLHIDPA-SKIPKCENYEMG--FCPLGSSCPRRHIKKVFCQRY 151
+           C F+SK G C     C   H+ P  S+   C N        P G     R +   F   Y
+Sbjct: 18  CTFYSKIGACRHGERCSRKHVKPNFSQTILCPNLYKNPIHEPAGKRMSGRELNYQFDAFY 77
+
+Query: 152 MTGFCPLGK 160
+              FC   K
+Sbjct: 78  EDMFCEFAK 86
+
+
+>EPY50957 pep:novel supercontig:GCA_000004155.2:supercont4.5:861357:863819:-1
+           gene:SPOG_04952 transcript:EPY50957
+           description:"RNA-binding protein Cwf2"
+          Length = 389
+
+ Score = 30.0 bits (66), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (58%), Gaps = 6/39 (15%)
+
+Query: 67  CRHWLRGLCKKNDQCEYLHEYNLRKMP-ECVFFSKNGYC 104
+           C ++ RG+C +  +CEYLH     ++P E  FF+ N  C
+Sbjct: 117 CLYFARGMCSEGSKCEYLH-----RLPNETDFFNANVDC 150
+
+
+
+ Score = 25.0 bits (53), Expect = 7.2,   Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 15/20 (75%), Gaps = 1/20 (5%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYLH 114
+           C++F++ G C++   C+YLH
+Sbjct: 117 CLYFAR-GMCSEGSKCEYLH 135
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,133,665
+Number of extensions: 51940
+Number of successful extensions: 143
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 129
+Number of HSP's successfully gapped: 21
+Length of query: 208
+Length of database: 2,338,516
+Length adjustment: 84
+Effective length of query: 124
+Effective length of database: 1,903,396
+Effective search space: 236021104
+Effective search space used: 236021104
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 48 (23.1 bits)

@@ -1,0 +1,126 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK24404 pep:novel supercontig:ASM17099v1:4:649970:651124:1 gene...    64   9e-12
+EHK25528 pep:novel supercontig:ASM17099v1:3:1524542:1527385:-1 g...    29   2.4  
+EHK24655 pep:novel supercontig:ASM17099v1:4:1407365:1408746:1 ge...    29   2.4  
+EHK20606 pep:novel supercontig:ASM17099v1:79:556006:559354:1 gen...    28   3.7  
+
+>EHK24404 pep:novel supercontig:ASM17099v1:4:649970:651124:1
+           gene:TRIVIDRAFT_71755 transcript:EHK24404
+           description:"hypothetical protein"
+          Length = 328
+
+ Score = 63.9 bits (154), Expect = 9e-12,   Method: Compositional matrix adjust.
+ Identities = 33/97 (34%), Positives = 56/97 (57%), Gaps = 5/97 (5%)
+
+Query: 133 ITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVG--IT--TIDPEVL-KE 187
+           +   E ++  +A  + A  +D     A   +ID++   +  + G  IT   ID ++   +
+Sbjct: 97  VKRDEDSKTTSALNIAAPSADQTSAAASKSTIDINANPVHPAAGKPITQVNIDEDLPDSD 156
+
+Query: 188 KPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDY 224
+           KPWR+PG ++SDYFNYGF+EFTW  Y  +QE ++ ++
+Sbjct: 157 KPWRKPGTDISDYFNYGFDEFTWALYAAKQESIRGEF 193
+
+
+>EHK25528 pep:novel supercontig:ASM17099v1:3:1524542:1527385:-1
+           gene:TRIVIDRAFT_212005 transcript:EHK25528
+           description:"hypothetical protein"
+          Length = 900
+
+ Score = 28.9 bits (63), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 20/32 (62%)
+
+Query: 147 VKATESDGNVPKAMTGSIDLDKEGIFDSVGIT 178
+           V+  +  GNVPKA+TG  +L  + +  S G++
+Sbjct: 375 VQGLKLSGNVPKAVTGKFNLSIKAVSKSTGLS 406
+
+
+>EHK24655 pep:novel supercontig:ASM17099v1:4:1407365:1408746:1
+           gene:TRIVIDRAFT_54516 transcript:EHK24655
+           description:"serine/threonine protein kinase, AGC
+           family"
+          Length = 397
+
+ Score = 28.9 bits (63), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 16/23 (69%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           ++YLHR+  + +D  P  IL+G+
+Sbjct: 233 LQYLHRKHVIHRDIKPENILVGI 255
+
+
+>EHK20606 pep:novel supercontig:ASM17099v1:79:556006:559354:1
+            gene:TRIVIDRAFT_49087 transcript:EHK20606
+            description:"hypothetical protein"
+          Length = 1048
+
+ Score = 28.5 bits (62), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 16/58 (27%), Positives = 27/58 (46%)
+
+Query: 113  VISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEG 170
+            +I  + D  +  +   DE +I  G A        +  TE+D + P+ +  SID  K+G
+Sbjct: 962  LIKFSPDSQSLASAADDEIMIIWGLAIDSAITLRLTITETDLSQPRKIVHSIDFTKDG 1019
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 2,743,811
+Number of extensions: 111293
+Number of successful extensions: 343
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 343
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 5,836,678
+Length adjustment: 95
+Effective length of query: 232
+Effective length of database: 4,658,108
+Effective search space: 1080681056
+Effective search space used: 1080681056
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

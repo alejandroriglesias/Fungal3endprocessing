@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ26341 pep:novel supercontig:GCA_000149035.1:GG697334:647154:6...    29   3.5  
+EFQ28466 pep:novel supercontig:GCA_000149035.1:GG697341:174586:1...    28   9.1  
+EFQ25532 pep:novel supercontig:GCA_000149035.1:GG697332:720344:7...    28   9.2  
+
+>EFQ26341 pep:novel supercontig:GCA_000149035.1:GG697334:647154:648486:1
+           gene:GLRG_01485 transcript:EFQ26341
+           description:"replication factor C"
+          Length = 383
+
+ Score = 28.9 bits (63), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 23/83 (27%), Positives = 40/83 (48%), Gaps = 6/83 (7%)
+
+Query: 364 PKKARISSIKF--LDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFEDM 421
+           P  +R S  +F  LD     K  GD   N+G+Q+    +  ++K   EG+ ++ I +   
+Sbjct: 187 PLASRCSKFRFKSLDQGNAKKRLGDIAENEGVQLEDGAVDALIK-CSEGDLRKAITYLQS 245
+
+Query: 422 SIKLKPLDLMFLKNTNSDDYMDI 444
+           + +L        K+T+ DD MD+
+Sbjct: 246 AARLVGAG---DKDTSGDDAMDV 265
+
+
+>EFQ28466 pep:novel supercontig:GCA_000149035.1:GG697341:174586:182813:1
+            gene:GLRG_03610 transcript:EFQ28466
+            description:"ubiquitin carboxyl-terminal hydrolase"
+          Length = 2569
+
+ Score = 28.1 bits (61), Expect = 9.1,   Method: Composition-based stats.
+ Identities = 46/194 (23%), Positives = 79/194 (40%), Gaps = 36/194 (18%)
+
+Query: 1    MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK 60
+            M+A VP   N +HAL   T +++   M + ++     S+ +  I  Y +++    NQ   
+Sbjct: 1661 MNARVPSQAN-THALLRET-RKLFAFMQESSRKFIDPSLLVGSIKTYEETIIDVHNQMDV 1718
+
+Query: 61   D---NLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDF 117
+            D   NL  +R E  ++ AD +    L+S Y   L Q +  K                 D 
+Sbjct: 1719 DEFYNLLFDRWEGQLSTADDR--KALRSFYGGQLVQQVASKE---------------CDH 1761
+
+Query: 118  FVNQLPKFSP------------EERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDT 165
+               +L  FS             +  + Y+D  I+  ++  + S  D  VDAV   C+ D 
+Sbjct: 1762 ISERLEPFSAIQCDIKGKSTLQDSLQAYVDGEIMEGDNKYKCSSCDRHVDAVKRACLKD- 1820
+
+Query: 166  SVAENVRSYMKLLD 179
+             + +N+  ++K  D
+Sbjct: 1821 -IPDNLIFHLKRFD 1833
+
+
+>EFQ25532 pep:novel supercontig:GCA_000149035.1:GG697332:720344:725203:-1
+            gene:GLRG_00676 transcript:EFQ25532 description:"vacuolar
+            assembly/sorting protein VPS8"
+          Length = 1576
+
+ Score = 28.1 bits (61), Expect = 9.2,   Method: Compositional matrix adjust.
+ Identities = 26/106 (24%), Positives = 49/106 (46%), Gaps = 14/106 (13%)
+
+Query: 82   GLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVNQLPKFSPEERKNYIDNLILNK 141
+            G++  YL  L     L+ EKQ   +P   + V ++ +V  + K+ P    +YI    L +
+Sbjct: 1107 GIQFFYLKTL-----LEPEKQDGESPTNPDRVLIERYVQLMCKYDPSHVSDYIG---LVQ 1158
+
+Query: 142  NSHNRLSKM------DGLVDAVINLCVLDTSVAENVRSYMKLLDTL 181
+            + + RL  +       G++DA + L   +  V + +   +K + TL
+Sbjct: 1159 SVNLRLDVLLPAMEETGVIDAAVVLMAREGQVKDAMERLVKHIGTL 1204
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 4,871,060
+Number of extensions: 193183
+Number of successful extensions: 295
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 295
+Number of HSP's successfully gapped: 8
+Length of query: 533
+Length of database: 5,585,764
+Length adjustment: 99
+Effective length of query: 434
+Effective length of database: 4,395,784
+Effective search space: 1907770256
+Effective search space used: 1907770256
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

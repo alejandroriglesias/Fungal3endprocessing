@@ -1,0 +1,228 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10195:Serine/threonine-protein phosphatase PP1
+         (309 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_06867T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   631   0.0  
+MAPG_00405T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   408   e-140
+MAPG_01073T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   284   6e-94
+MAPG_00468T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   253   8e-82
+MAPG_03970T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   206   3e-62
+MAPG_08365T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   201   3e-61
+MAPG_05267T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   145   8e-40
+MAPG_02425T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    36   0.012
+MAPG_11134T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   0.86 
+MAPG_09027T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   1.2  
+MAPG_10038T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   5.2  
+
+>MAPG_06867T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:3205003:3
+           206440:1 gene:MAPG_06867 transcript:MAPG_06867T0
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 326
+
+ Score =  631 bits (1628), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 303/305 (99%), Positives = 304/305 (99%)
+
+Query: 1   MADQHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIK 60
+           M DQHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIK
+Sbjct: 2   MTDQHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIK 61
+
+Query: 61  ICGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFI 120
+           ICGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFI
+Sbjct: 62  ICGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFI 121
+
+Query: 121 LRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDL 180
+           LRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDL
+Sbjct: 122 LRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDL 181
+
+Query: 181 NSMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHD 240
+           NSMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHD
+Sbjct: 182 NSMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHD 241
+
+Query: 241 MDLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAE 300
+           MDLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAE
+Sbjct: 242 MDLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAE 301
+
+Query: 301 KKQKF 305
+           KKQK+
+Sbjct: 302 KKQKY 306
+
+
+>MAPG_00405T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:1276507:1
+           280814:1 gene:MAPG_00405 transcript:MAPG_00405T0
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 526
+
+ Score =  408 bits (1049), Expect = e-140,   Method: Compositional matrix adjust.
+ Identities = 201/313 (64%), Positives = 240/313 (76%), Gaps = 4/313 (1%)
+
+Query: 1   MADQHDVDLDSIIDRLLEVR-GSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPI 59
+           M+D  D+DLD  I RLL+     +  K V L  AEI  +C +ARE F+SQP LLEL+AP+
+Sbjct: 195 MSDIKDIDLDDFIKRLLDAAYAGKVTKSVCLRNAEISAICHRARECFLSQPALLELDAPV 254
+
+Query: 60  KICGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFF 119
+           KI GD+HGQY DL+R+FE  GFPP AN+LFLGDYVDRGKQSLETI LLL YK+KYPENFF
+Sbjct: 255 KIVGDVHGQYTDLIRMFEMCGFPPSANFLFLGDYVDRGKQSLETILLLLCYKLKYPENFF 314
+
+Query: 120 ILRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPD 179
+           +LRGNHECA++ R+YGFYDECKRR N+K+WKTF D FN LPIAAI+  KIF +HGGLSP 
+Sbjct: 315 LLRGNHECANVTRVYGFYDECKRRCNVKVWKTFVDTFNTLPIAAIVAGKIFCVHGGLSPT 374
+
+Query: 180 LNSMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKH 239
+           L+ M+ IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V++ FL +H
+Sbjct: 375 LSHMDDIRNIARPTDVPDYGLLNDLLWSDPADMEQDWEANERGVSYCFGKKVITEFLAQH 434
+
+Query: 240 DMDLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA 299
+           D DL+CRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP 
+Sbjct: 435 DFDLVCRAHMVVEDGYEFFNDRVLVTVFSAPNYCGEFDNWGAVMSVSSELLCSFELLKPL 494
+
+Query: 300 EK---KQKFGRGR 309
+           +    K    +GR
+Sbjct: 495 DSNALKSHIKKGR 507
+
+
+>MAPG_01073T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:3554604:3
+           557768:1 gene:MAPG_01073 transcript:MAPG_01073T0
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 328
+
+ Score =  284 bits (726), Expect = 6e-94,   Method: Compositional matrix adjust.
+ Identities = 136/294 (46%), Positives = 195/294 (66%), Gaps = 10/294 (3%)
+
+Query: 9   LDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICGDIHGQ 68
+           LD  I+ L+  +        QL+E++++ LC KAR++   +  +  ++ P+ +CGDIHGQ
+Sbjct: 29  LDGWIESLMACK--------QLVESDVQRLCEKARDVLQEESNVQPVKCPVTVCGDIHGQ 80
+
+Query: 69  YYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECA 128
+           ++DL+ LF+ GG  P+ NYLF+GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE  
+Sbjct: 81  FHDLMELFKIGGPNPDTNYLFMGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESR 140
+
+Query: 129 SINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQIR 187
+            I ++YGFYDEC R+Y N  +WK FTD F+ LP+ A+ID +IF +HGGLSP +++++ IR
+Sbjct: 141 QITQVYGFYDECLRKYGNANVWKYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIR 200
+
+Query: 188 RVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDLICRA 247
+            + R  ++P  G +CDLLWSDPD D  GW  + RG  +TFG D+   F   + + LI RA
+Sbjct: 201 ALDRIQEVPHEGPMCDLLWSDPD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLIARA 259
+
+Query: 248 HQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK 301
+           HQ+V +GY +   R +VT+FSAPNYC    N  A+M +DE L  +F    P  +
+Sbjct: 260 HQLVMEGYNWSQDRNVVTIFSAPNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPR 313
+
+
+>MAPG_00468T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:1469564:1
+           471551:1 gene:MAPG_00468 transcript:MAPG_00468T0
+           description:"serine/threonine-protein phosphatase"
+          Length = 320
+
+ Score =  253 bits (645), Expect = 8e-82,   Method: Compositional matrix adjust.
+ Identities = 122/299 (40%), Positives = 189/299 (63%), Gaps = 9/299 (3%)
+
+Query: 7   VDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKICGDIH 66
+           VDLD  I RL         K+  L E+ I  +C K +E+ + +  ++ + AP+ + GDIH
+Sbjct: 8   VDLDECISRLY--------KKELLAESVIEAICAKTKELLMRESNVVHVRAPVTVVGDIH 59
+
+Query: 67  GQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 126
+           GQ++DL+ +F+ GG+ P+ NYLFLGDYVDRG  S+ETI LL+  K++YP    ++RGNHE
+Sbjct: 60  GQFFDLIEIFKIGGWCPDTNYLFLGDYVDRGMFSVETISLLVCLKLRYPNRVHLIRGNHE 119
+
+Query: 127 CASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNSMEQ 185
+              + + YGFY EC R+Y N  +W  FTD F+ L ++ +I+++IF +HGGLSP ++S++Q
+Sbjct: 120 SRGVTQSYGFYTECSRKYGNANVWHHFTDMFDFLTLSVVINDQIFCVHGGLSPSIHSIDQ 179
+
+Query: 186 IRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMDLIC 245
+           I+ + R  +IP  G + DL+WSDPD +   +S + RG  +TFG  VV +FL  ++M  I 
+Sbjct: 180 IKIIDRFREIPHEGPMADLVWSDPDPERDEFSLSPRGAGYTFGAQVVKKFLSVNNMSHIL 239
+
+Query: 246 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKKQK 304
+           RAHQ+ ++GY+     +L T++SAPNYC    N  +++ V +     F +   A +  +
+Sbjct: 240 RAHQLCQEGYQVLYDDRLSTVWSAPNYCYRCGNMASVLEVSDMGERYFNVFAAAPENDQ 298
+
+
+>MAPG_03970T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:1397004:1
+           399878:1 gene:MAPG_03970 transcript:MAPG_03970T0
+           description:"serine/threonine-protein phosphatase 5"
+          Length = 480
+
+ Score =  206 bits (525), Expect = 3e-62,   Method: Compositional matrix adjust.
+ Identities = 106/260 (40%), Positives = 155/260 (59%), Gaps = 9/260 (3%)
+
+Query: 43  REIFISQPILLELEAP----IKICGDIHGQYYDLLRLFEYGGFPPEAN-YLFLGDYVDRG 97
+           R+I   +P ++E+E P    + +CGD HGQYYDL+ LF   G P + + YLF GD+VDRG
+Sbjct: 197 RKIIYDEPTMVEIEVPDDVTLTVCGDTHGQYYDLMELFRLNGVPSDKHWYLFNGDFVDRG 256
+
+Query: 98  KQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFN 157
+             S E   LL A K   P  FF+ RGNHE   +NR YGF  ECK +YN + +K F++ F+
+Sbjct: 257 SWSTEIALLLYANKWLRPNAFFLNRGNHETDDMNRAYGFEGECKVKYNERTFKLFSESFS 316
+
+Query: 158 CLPIAAIIDEKIFTMHGGLSPDLN-SMEQIRRVMRPTDIP--DCGLLCDLLWSDPDKDIT 214
+            LP+A +I +K   +HGGL  D N ++E IR++ R         GL+ ++LW+DP  +  
+Sbjct: 317 ALPLATLIGKKYLVLHGGLFSDDNITLEDIRKLDRHKQRQPGQAGLMMEMLWTDPQAE-P 375
+
+Query: 215 GWSENDRGVSFTFGPDVVSRFLQKHDMDLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCG 274
+           G   + RGV   FGPDV ++F +K+ ++ I R+H+V  +GYE     + +T+FSAP YC 
+Sbjct: 376 GRGPSKRGVGMQFGPDVTAKFCEKNGLEAIIRSHEVRMEGYEEEHDGKCITVFSAPKYCD 435
+
+Query: 275 EFDNAGAMMSVDESLLCSFQ 294
+             +N GA +++       F 
+Sbjct: 436 MTENKGAYINIGSDYKLKFH 455
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.325    0.144    0.451 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 3,291,589
+Number of extensions: 142727
+Number of successful extensions: 309
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 298
+Number of HSP's successfully gapped: 13
+Length of query: 309
+Length of database: 4,928,244
+Length adjustment: 93
+Effective length of query: 216
+Effective length of database: 3,870,834
+Effective search space: 836100144
+Effective search space used: 836100144
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (21.6 bits)
+S2: 52 (24.6 bits)

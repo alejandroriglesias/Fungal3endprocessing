@@ -1,0 +1,196 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_07252T0 pep:known chromosome:MG8:2:6955377:6957162:1 gene:MG...   295   e-102
+MGG_09885T0 pep:known chromosome:MG8:1:4229946:4232150:-1 gene:M...    55   1e-09
+MGG_01268T0 pep:known chromosome:MG8:2:2902978:2905478:1 gene:MG...    52   2e-08
+MGG_06296T0 pep:known chromosome:MG8:4:4259200:4260264:1 gene:MG...    49   9e-08
+MGG_05264T0 pep:known chromosome:MG8:3:5208867:5212400:1 gene:MG...    47   1e-06
+MGG_03722T0 pep:known chromosome:MG8:4:915927:918929:1 gene:MGG_...    46   2e-06
+MGG_00985T0 pep:known chromosome:MG8:5:921519:923163:1 gene:MGG_...    46   2e-06
+MGG_12370T0 pep:known chromosome:MG8:2:6674929:6676666:1 gene:MG...    45   4e-06
+MGG_06881T0 pep:known chromosome:MG8:1:3103981:3108534:-1 gene:M...    44   2e-05
+MGG_09505T0 pep:known chromosome:MG8:3:3451692:3455332:-1 gene:M...    43   2e-05
+MGG_11418T0 pep:known chromosome:MG8:2:502358:503855:-1 gene:MGG...    43   2e-05
+MGG_03506T0 pep:known chromosome:MG8:4:1660843:1662672:-1 gene:M...    42   4e-05
+MGG_12101T0 pep:known chromosome:MG8:6:2573755:2576576:-1 gene:M...    41   9e-05
+MGG_11457T1 pep:known chromosome:MG8:5:899193:901196:-1 gene:MGG...    41   9e-05
+MGG_08741T0 pep:known chromosome:MG8:6:295797:297340:1 gene:MGG_...    40   2e-04
+MGG_01217T0 pep:known chromosome:MG8:2:2703881:2706986:1 gene:MG...    40   2e-04
+MGG_04816T0 pep:known chromosome:MG8:2:1476815:1479480:1 gene:MG...    39   3e-04
+MGG_01746T0 pep:known chromosome:MG8:2:4677846:4680076:-1 gene:M...    38   0.001
+MGG_02730T0 pep:known chromosome:MG8:7:1717869:1720069:-1 gene:M...    37   0.002
+MGG_11457T0 pep:known chromosome:MG8:5:898574:901665:-1 gene:MGG...    37   0.002
+MGG_03740T0 pep:known chromosome:MG8:4:859213:860563:-1 gene:MGG...    35   0.005
+MGG_01274T0 pep:known chromosome:MG8:2:2930372:2932006:-1 gene:M...    35   0.007
+MGG_08898T0 pep:known chromosome:MG8:2:2037215:2041051:1 gene:MG...    35   0.010
+MGG_08840T0 pep:known chromosome:MG8:2:1825256:1827444:-1 gene:M...    35   0.013
+MGG_03086T0 pep:known chromosome:MG8:7:348006:349362:-1 gene:MGG...    34   0.018
+MGG_06400T0 pep:known chromosome:MG8:4:3862385:3866191:1 gene:MG...    33   0.032
+MGG_11063T0 pep:known chromosome:MG8:2:562080:564289:1 gene:MGG_...    33   0.035
+MGG_04727T0 pep:known chromosome:MG8:1:6855229:6859910:1 gene:MG...    33   0.043
+MGG_15607T0 pep:known chromosome:MG8:2:2062999:2065633:1 gene:MG...    32   0.11 
+MGG_01579T0 pep:known chromosome:MG8:2:4072214:4074123:-1 gene:M...    30   0.12 
+MGG_00594T0 pep:known chromosome:MG8:5:2362259:2369207:1 gene:MG...    28   1.5  
+MGG_09562T0 pep:known chromosome:MG8:3:3263175:3266773:-1 gene:M...    28   2.0  
+MGG_07511T0 pep:known chromosome:MG8:3:880833:884180:-1 gene:MGG...    28   2.3  
+MGG_13526T0 pep:known chromosome:MG8:4:1419518:1424019:1 gene:MG...    26   7.9  
+
+>MGG_07252T0 pep:known chromosome:MG8:2:6955377:6957162:1 gene:MGG_07252
+           transcript:MGG_07252T0
+           description:"Polyadenylate-binding protein 2"
+          Length = 193
+
+ Score =  295 bits (754), Expect = e-102,   Method: Compositional matrix adjust.
+ Identities = 146/156 (93%), Positives = 146/156 (93%)
+
+Query: 1   MADVEKKEEPVATEQHENXXXXXXXXXXEEISAMKKRVAEMEEEAAKLREMQASLDSQSQ 60
+           MADVEKKEEPVATEQHEN          EEISAMKKRVAEMEEEAAKLREMQASLDSQSQ
+Sbjct: 1   MADVEKKEEPVATEQHENDTGAGDDGDDEEISAMKKRVAEMEEEAAKLREMQASLDSQSQ 60
+
+Query: 61  ELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVE 120
+           ELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVE
+Sbjct: 61  ELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVE 120
+
+Query: 121 FTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS 156
+           FTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS
+Sbjct: 121 FTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS 156
+
+
+>MGG_09885T0 pep:known chromosome:MG8:1:4229946:4232150:-1 gene:MGG_09885
+           transcript:MGG_09885T0 description:"Cleavage stimulation
+           factor 64-kDa subunit"
+          Length = 305
+
+ Score = 55.1 bits (131), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           SR +FVGN+ Y  S E+I   F   G +    ++ D+ TG+PKGF + E+ +    A A+
+Sbjct: 7   SRVVFVGNIPYGLSEEQITDIFSRAGKVLNFRLVYDRETGKPKGFGFAEYPDNDSAASAV 66
+
+Query: 132 V-LNESVFKGRNIKV 145
+             LN++   GR ++V
+Sbjct: 67  RNLNDTEIMGRKLRV 81
+
+
+>MGG_01268T0 pep:known chromosome:MG8:2:2902978:2905478:1 gene:MGG_01268
+           transcript:MGG_01268T0 description:"Nuclear localization
+           sequence binding protein"
+          Length = 486
+
+ Score = 52.0 bits (123), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 23/73 (31%), Positives = 40/73 (54%), Gaps = 1/73 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           ++FVGN+ ++     +   F+ CG++    ++ D+ +G+ KGF YV+F  P    +A   
+Sbjct: 240 TLFVGNLSWNVDDAMLAEEFKFCGTVTSARVITDRESGRSKGFGYVDFATPEEAEKAHGE 299
+
+Query: 134 NESVF-KGRNIKV 145
+            +  F  GR IKV
+Sbjct: 300 KQGAFIDGREIKV 312
+
+
+
+ Score = 39.7 bits (91), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 21/76 (27%), Positives = 37/76 (48%), Gaps = 1/76 (1%)
+
+Query: 71  DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQA 130
+           +S ++FVGN+ + A  + + A F     +  + +  ++ +G+ KGF YV F        A
+Sbjct: 340 ESDTLFVGNLPFDADEDSVGAFFSEVAEVKSLRLPTEQESGRRKGFGYVTFNSVEDAKSA 399
+
+Query: 131 L-VLNESVFKGRNIKV 145
+              LN     GRN ++
+Sbjct: 400 FEQLNGQSINGRNCRL 415
+
+
+>MGG_06296T0 pep:known chromosome:MG8:4:4259200:4260264:1 gene:MGG_06296
+           transcript:MGG_06296T0 description:"Nuclear cap-binding
+           protein subunit 2"
+          Length = 185
+
+ Score = 48.9 bits (115), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 18/52 (34%), Positives = 32/52 (61%)
+
+Query: 70  VDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+            +S +++VGN+ +  + E++   F  CG I R+ + LD+F   P GF +VE+
+Sbjct: 45  ANSTTLYVGNLSFYTTEEQVYELFSKCGEIKRLVMGLDRFNKTPCGFCFVEY 96
+
+
+>MGG_05264T0 pep:known chromosome:MG8:3:5208867:5212400:1 gene:MGG_05264
+           transcript:MGG_05264T0 description:"Translation
+           initiation factor 4B"
+          Length = 563
+
+ Score = 47.0 bits (110), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 23/72 (31%), Positives = 40/72 (55%), Gaps = 1/72 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ Y A+ E +   F +C  ++ V I+ D+   +PKGF Y EF     + +AL  
+Sbjct: 83  TAHLGNLSYDATNETVTDFFAACEVVS-VRIVEDREQQRPKGFGYAEFATAEGLQKALNF 141
+
+Query: 134 NESVFKGRNIKV 145
+           +   F+GR I++
+Sbjct: 142 DGDSFQGRVIRI 153
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 1,494,472
+Number of extensions: 51630
+Number of successful extensions: 284
+Number of sequences better than 10.0: 61
+Number of HSP's gapped: 283
+Number of HSP's successfully gapped: 71
+Length of query: 193
+Length of database: 5,666,059
+Length adjustment: 89
+Effective length of query: 104
+Effective length of database: 4,530,864
+Effective search space: 471209856
+Effective search space used: 471209856
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 51 (24.3 bits)

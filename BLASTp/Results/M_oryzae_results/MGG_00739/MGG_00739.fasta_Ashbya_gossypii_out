@@ -1,0 +1,196 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00739T0:Cft-1
+         (1452 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS50306 pep:known chromosome:ASM9102v1:I:241007:244924:1 gene:A...   195   6e-51
+AAS53326 pep:known chromosome:ASM9102v1:VI:354394:356043:1 gene:...    34   0.12 
+AAS54738 pep:known chromosome:ASM9102v1:VII:1527856:1528221:-1 g...    28   4.6  
+AAS54749 pep:known chromosome:ASM9102v1:VII:1544188:1546584:-1 g...    28   8.7  
+
+>AAS50306 pep:known chromosome:ASM9102v1:I:241007:244924:1 gene:AGOS_AAL060W
+            transcript:AAS50306 description:"Protein CFT1"
+          Length = 1305
+
+ Score =  195 bits (495), Expect = 6e-51,   Method: Compositional matrix adjust.
+ Identities = 134/512 (26%), Positives = 249/512 (48%), Gaps = 31/512 (6%)
+
+Query: 940  GYSAVFMPGHSPSFLIKSAKATPKVIGLRGSGVRAMSSFHTEGCERGFIYADSAGVARVA 999
+            GYS +F+ G  P  +IK   + P++       + +M    T   E   +  D    AR+ 
+Sbjct: 800  GYSVIFITGTVPYIIIKEDNSVPRIFPFANITLVSM----TRWGENSVMCVDDVKNARIM 855
+
+Query: 1000 QIPKDTS-FSELGLSVKKVPLG------IDADGIAYHSPTGVYVLTCSYWEPFE---LPK 1049
+             +  D   +    +S+ K+ L          + I YH  T  +++  SY +  +   L +
+Sbjct: 856  TLNLDRDRYYGNKMSLAKIYLEDPLEDFQTLNNITYHERTQTFIV--SYAKSIDYVALSE 913
+
+Query: 1050 DDDYHCEWAKENISFKPMVERSVLKVINPINWSDIWTEEFEQHEVAMCIRSLNLEVSQST 1109
+            +D+    +  + I    M  +S + +++P +W  I   E+ ++ +   +R++ ++++ +T
+Sbjct: 914  EDEPLVGYNPDKI--HAMGFQSGIILLSPKSWEIIDKIEYGKNSLINDMRTMMIQLNSNT 971
+
+Query: 1110 NERRQLITVGTAMCKGEDLPVRGGIYVFDLASVVPQKGRPETDKKLKQVAKEEIPRGAVT 1169
+              RR+ + VG    + ED+   G  Y++D+  VVP+ G+P+T+ K K + +E+I RG V+
+Sbjct: 972  KRRREYLVVGNTYVRDEDIGGTGSFYLYDITEVVPEPGKPDTNYKFKDIFQEDI-RGTVS 1030
+
+Query: 1170 SLSEIGTQGLMMVAQGQKTLVRGLQEDGKLPPVAFMDMNCYVTCVKELAGTGLCVMADAF 1229
+            ++ EI   G  M++Q  K +VR +QED  + PVAF+DM  ++T  K      L ++ D+ 
+Sbjct: 1031 TVCEIS--GRFMISQSSKAMVRDIQEDNSVVPVAFLDMPVFITDAKSFGN--LMIIGDSM 1086
+
+Query: 1230 KGVWFCGYTEGPYKMMLFGKSSTNLECMNVDLLPDGKDLLIVAADSDGNLHVLQFDPEHP 1289
+            +G  F G+   PY+M+  GKS + LE M V+ L +  D+  +  D +  +HVL++ P+ P
+Sbjct: 1087 QGFSFLGFDAEPYRMLTLGKSVSKLETMCVEFLVNNGDVYFLVTDRNNLMHVLKYAPDEP 1146
+
+Query: 1290 KSLQGHLLLNRTTFSTGAHHPQKSLLLPTTDPRPSTNQPSSDAERQHILMASPTGVLAAV 1349
+             SL G  L++ T+F+  + +    L+    +    +            + +   G +  V
+Sbjct: 1147 NSLSGQRLVHCTSFNLHSTNTCMRLIKKNDEFGKVSRGFGIYMPSFQCIGSQADGTIFKV 1206
+
+Query: 1350 QPLSQSTYTRLSALASNLMASVPHHAALNPKAYRLP-PTSTRNQVAAVDISVGRAVVDGS 1408
+             PLS+++Y  L  +   L+        LNP+  RL  P      +        R ++D +
+Sbjct: 1207 VPLSEASYRSLYLIQQQLIDKEVQLCGLNPRMERLENPFYQMGHIL-------RPMLDFT 1259
+
+Query: 1409 LLARWAELASGRRAEVAGRAGFSGAAEVRSEL 1440
+            +L R+A L+   R  +A +AG    AE+  +L
+Sbjct: 1260 VLKRFATLSIPTRMTMASKAGRQAHAEIWRDL 1291
+
+
+
+ Score = 75.9 bits (185), Expect = 3e-14,   Method: Compositional matrix adjust.
+ Identities = 107/478 (22%), Positives = 194/478 (40%), Gaps = 100/478 (20%)
+
+Query: 1   MQCYTELTPPSAVTHSLTLPFTSPKSNNLVVAKSSLLQIFATRLVPAELDGTSQSAKATH 60
+           M  + E+   + V +S+T  FT+     L++ +++LL +                     
+Sbjct: 1   MNVFDEVINATVVNNSVTGHFTTTLREELIITRTNLLSVLH------------------- 41
+
+Query: 61  NYDTKLNDDEGLEASFLGGDAAIIRSDRNHTKLVLVAEFPLSGTITGLARVKANATKTXX 120
+                  D+EG                    +LVL  E+ LSG + GL+ V   +     
+Sbjct: 42  ------KDNEG--------------------RLVLAYEWKLSGRVHGLSLVPHKSGLGR- 74
+
+Query: 121 XXXXXXXXXXXDFLLIAFKDAKLSLVEWDPDRRSLETISIHYYEQN--ELQS-SPWAAPL 177
+                        L +     ++S+V +D + ++LET S+HYY+    EL + +  AAP 
+Sbjct: 75  -------------LAVLTGRGRVSIVRFDAENQTLETESLHYYDAKFEELSALTVGAAPR 121
+
+Query: 178 SDYVNFLVADPGSRCAALKFGARSLAIIPFKQADGDIGMDDWDEELDGPRPAQEKPATAA 237
+                 L  +P +RC  +  G   LA++P +           +EE +     +E PA  A
+Sbjct: 122 ------LEQEPAARCLLVHNGD-CLAVLPLR---------GHEEEGEEAEEEEEHPAKRA 165
+
+Query: 238 TNGTTDNVVEDTPYTPSFVLRLPNLDPALLHPVHLAFLYEYREPTFGILSSNITPSTYLA 297
+                  +V  +   P+      +L   + +   + FL    +   G+L     P     
+Sbjct: 166 RTDADGRLVGASTVMPA-----SHLHSDIKNVKDMRFLRGLNKSAVGVLYQ---PQLSWC 217
+
+Query: 298 RKDHLT-----YTVFTLDLQQKASTTILSVGGLPKDLTRVIALPAPVGGALLVGSNELIH 352
+             + LT     + + +LDL  + ST I  + GLP  L  +I L     G +L G NEL++
+Sbjct: 218 GNEKLTRQTMKFIILSLDLDDEKSTVINMLQGLPNTLHTIIPLS---NGCVLAGVNELLY 274
+
+Query: 353 IDQSGKANG-VAVNPMTKSCTSFSLADQSDLGLRLEGCMINVLSAEDGQFIIVLND--GR 409
+           +D +G   G +++N  + S  +  + D S L    E  +    +  +G+ I++L D   R
+Sbjct: 275 VDNTGALQGAISLNAFSNSGLNTRIQDNSKLQAFFEQPLCYFATQSNGRDILLLMDEKAR 334
+
+Query: 410 LATLVFHIDGR---TVSGLKIKMVAPEAGGQLLQTSVSCLTRLGRNALFAGSDRGDSV 464
+           +  ++   +GR   T + +++ +V       ++ TS+     L   +LF G   GD++
+Sbjct: 335 MYNVIIEAEGRLLTTFNCVQLPIVNEIFKRNMMPTSICGNMNLETGSLFIGFQSGDAM 392
+
+
+>AAS53326 pep:known chromosome:ASM9102v1:VI:354394:356043:1 gene:AGOS_AFL046W
+            transcript:AAS53326 description:"Imidazole glycerol
+            phosphate synthase subunit hisF"
+          Length = 549
+
+ Score = 34.3 bits (77), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 45/145 (31%), Positives = 58/145 (40%), Gaps = 11/145 (7%)
+
+Query: 1165 RGAVTSLSEIGTQG--LMMVAQGQKTLVRGLQEDGKLPPVAFMDMNCY-----VTCVKEL 1217
+            RG V ++S     G  LM +  G + L R  +ED     +A +DM+          V E+
+Sbjct: 64   RGFVDAISSYIASGRPLMGICVGLQVLFRSSEEDPGAEGLALVDMSLSRFRDESKPVPEI 123
+
+Query: 1218 AGTGLCVMADAFKGVWFCG--YTEGPYKMMLF-GKSSTNLECMNVDLLPDGKDLLIVAAD 1274
+                L +  D F G+  CG  Y    Y  ML  G      +   V     G D   VAA 
+Sbjct: 124  GWNTLQLDGDQFFGLDPCGRYYFVHSYAAMLANGAGRLREQGWRVATARYG-DERFVAAL 182
+
+Query: 1275 SDGNLHVLQFDPEHPKSLQGHLLLN 1299
+            + GNL   QF PE    L   LL N
+Sbjct: 183  ARGNLFATQFHPEKSGKLGLQLLAN 207
+
+
+>AAS54738 pep:known chromosome:ASM9102v1:VII:1527856:1528221:-1
+            gene:AGOS_AGR248C transcript:AAS54738
+            description:"Mediator of RNA polymerase II transcription
+            subunit 22"
+          Length = 121
+
+ Score = 27.7 bits (60), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 11/30 (36%), Positives = 18/30 (60%)
+
+Query: 1166 GAVTSLSEIGTQGLMMVAQGQKTLVRGLQE 1195
+            G   S++ + T G+MMV      L+RG+Q+
+Sbjct: 43   GTTDSITSVATNGVMMVHAHTTQLIRGVQD 72
+
+
+>AAS54749 pep:known chromosome:ASM9102v1:VII:1544188:1546584:-1
+            gene:AGOS_AGR259C transcript:AAS54749
+            description:"AGR259Cp"
+          Length = 798
+
+ Score = 28.1 bits (61), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 11/29 (37%), Positives = 20/29 (68%), Gaps = 1/29 (3%)
+
+Query: 1056 EWAKENISFKPMVERSVLKVINPINWSDI 1084
+            +WA   + FKP+++R VLK++ P +  D+
+Sbjct: 159  KWADPRL-FKPIIDREVLKILGPKDERDV 186
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.317    0.133    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 6,187,255
+Number of extensions: 259039
+Number of successful extensions: 683
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 671
+Number of HSP's successfully gapped: 11
+Length of query: 1452
+Length of database: 2,335,236
+Length adjustment: 101
+Effective length of query: 1351
+Effective length of database: 1,852,860
+Effective search space: 2503213860
+Effective search space used: 2503213860
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

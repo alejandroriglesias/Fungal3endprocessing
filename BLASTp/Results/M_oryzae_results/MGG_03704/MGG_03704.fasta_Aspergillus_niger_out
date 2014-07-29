@@ -1,0 +1,90 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00005990 pep:known chromosome:CADRE:IV:1827816:1828616:1...   312   e-107
+
+>CADANGAP00005990 pep:known chromosome:CADRE:IV:1827816:1828616:1
+           gene:CADANGAG00006111 transcript:CADANGAT00006111
+           description:"Putative uncharacterized protein
+           An07g08370"
+          Length = 251
+
+ Score =  312 bits (800), Expect = e-107,   Method: Compositional matrix adjust.
+ Identities = 155/235 (65%), Positives = 174/235 (74%), Gaps = 15/235 (6%)
+
+Query: 27  FKLKFCTVCASNQNRSMEAHLQLSKAN--YPVISFGTGSLVRLPGPTITQPNVYKFNSTS 84
+           +KL+FCTVCASNQNRSMEAHL+LS A   +PVISFGTGSLVRLPGP+ITQPNVY FN+TS
+Sbjct: 30  YKLRFCTVCASNQNRSMEAHLRLSTATSPFPVISFGTGSLVRLPGPSITQPNVYNFNTTS 89
+
+Query: 85  YDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTE 144
+           Y  MY EL  KD RLY  NG+LNMLERNRN+K GPER+QDW             G+ GTE
+Sbjct: 90  YSQMYDELLSKDERLYRNNGLLNMLERNRNLKWGPERFQDW-------------GALGTE 136
+
+Query: 145 AGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANS 204
+            GVVD++ TCEERCWDAVV+DL  +GSPLNRPVHV NVDIKDNHEEA VGG+ ILDLAN 
+Sbjct: 137 GGVVDVIITCEERCWDAVVDDLMNKGSPLNRPVHVFNVDIKDNHEEALVGGKAILDLANR 196
+
+Query: 205 LNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           LN AA++ER                     RV D+LAEWQERWP+LPA WTLAW 
+Sbjct: 197 LNEAASQERKTNGADGWENGVGEARRNFDARVPDILAEWQERWPHLPALWTLAWL 251
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 3,318,721
+Number of extensions: 133510
+Number of successful extensions: 265
+Number of sequences better than 10.0: 1
+Number of HSP's gapped: 262
+Number of HSP's successfully gapped: 1
+Length of query: 259
+Length of database: 6,195,193
+Length adjustment: 93
+Effective length of query: 166
+Effective length of database: 4,886,869
+Effective search space: 811220254
+Effective search space used: 811220254
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

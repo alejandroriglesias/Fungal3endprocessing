@@ -1,0 +1,201 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU74168 pep:novel supercontig:EF1:HF943565:296569:300410:-1 gen...   226   3e-63
+CCU81893 pep:novel supercontig:EF1:HF943509:116146:118101:-1 gen...    34   0.070
+CCU76611 pep:novel supercontig:EF1:HF943537:987095:994367:1 gene...    30   1.1  
+CCU82264 pep:novel supercontig:EF1:HF943559:681785:683008:-1 gen...    30   1.5  
+CCU75866 pep:novel supercontig:EF1:HF943548:2234181:2236928:1 ge...    30   1.7  
+CCU81248 pep:novel supercontig:EF1:HF943526:466617:468431:1 gene...    27   9.6  
+
+>CCU74168 pep:novel supercontig:EF1:HF943565:296569:300410:-1
+           gene:BGHDH14_bgh02510 transcript:CCU74168
+           description:"CFIA complex component Rna14"
+          Length = 1053
+
+ Score =  226 bits (575), Expect = 3e-63,   Method: Compositional matrix adjust.
+ Identities = 174/612 (28%), Positives = 282/612 (46%), Gaps = 94/612 (15%)
+
+Query: 31  LRERIK-DNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR 89
+           L +RIK D   ++ ++  LI+   ++    + R VYE+F   FP  +  W   ++ EL  
+Sbjct: 218 LEDRIKEDTRGDLDAWLALIKEHRSRNKLDEARSVYERFFKVFPQAAGIWVAYIEMELEN 277
+
+Query: 90  DEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLI---TGGQEARAVIVKAFQLV 146
+           D F   E I  + L   L   +++LWS YL+YIRR+N+L+   TG   ARA + +++  V
+Sbjct: 278 DNFTAAENIFGRSL---LTVPNVALWSVYLNYIRRRNDLMNDMTG--SARATVTQSYDFV 332
+
+Query: 147 MQKCAIFEPKSSSFWNEYLNFLEQWKPF---NKWEEQQRIDMLREFYKKMLCVPFDNLEK 203
+           +    I +  S   W+EY+ F+         N W++QQ++D LR+ Y++ + VP   L  
+Sbjct: 333 LANIGI-DKDSGKIWHEYIQFIRSAPGTIGGNSWQDQQKMDQLRKAYQRAINVPMSTLNA 391
+
+Query: 204 MWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKN 263
+           +W  Y Q+E  +N +T RKF+ E S  YM ARS      N+T GL       +RT   + 
+Sbjct: 392 LWKEYDQFEMSLNKITGRKFLQEKSPSYMSARSANTTLENLTRGL-------VRTTLPQL 444
+
+Query: 264 IPQPGTSDSN--IQQLQIWLNWIKWERENKLMLSED---MLSQRISYVYKQGIQYMIFSA 318
+            P PG       ++Q+++W  WI WE+E+ L+L +D      QR+ YVYKQ +  + F  
+Sbjct: 445 PPAPGFEGDQEYLRQVELWQKWITWEQEDPLVLKDDEPETYKQRVLYVYKQAVMSLRFWP 504
+
+Query: 319 EMWYDYSMYISENS-DRQN--ILYTALLANPDSPSLTFKLSECYELD-----------ND 364
+           E++ D + +   N  D++    L +   ANP+S  +TFK ++  EL              
+Sbjct: 505 EIFVDAADWCFGNGLDKEGDAFLSSGQSANPESCLITFKKADRLELTLAIDEADKSPAER 564
+
+Query: 365 SESVSNCFDKCTQTLLSQYKKI----ASDVNSGEDNNT---------------------- 398
+             +V   +D+   TL    K +    A D+   E+++                       
+Sbjct: 565 GATVRAPYDQLFNTLYDMIKHLKAREARDLAKLEESSALDASISAIISKAEDDDEEPDSD 624
+
+Query: 399 ----EYEQELLYK--------QREKLTFVFCV----YMNTMKRISGL-------SAARTV 435
+               E  +++  K        Q + L+    V     M  M+R+ G          +R +
+Sbjct: 625 KQAREASKDIQIKAIQHGYSIQADILSRTISVAWIALMRAMRRVQGKGNNKDSNGGSRKI 684
+
+Query: 436 FGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIF 495
+           F   R+  + LT DVYV  A +E     D     K+ E G K F  D  +  +YL  L+ 
+Sbjct: 685 FSDARQRGK-LTSDVYVAAALIEHHVYKD-PAGTKIFERGAKLFPEDADFTLEYLKHLLS 742
+
+Query: 496 LNKDSQIKTLFETSVEKVQDLTQL----KEIYKKMISYESKFGNLNNVYSLEKRFFERFP 551
+           +   +  +  FET V ++    +L    K +Y     YES++G L+ +  LE+R  E FP
+Sbjct: 743 IGDTTNARVTFETVVSRLTQRPELVPKAKRLYSYFHKYESQYGELSQISKLEQRMAELFP 802
+
+Query: 552 QENLIEVFTSRY 563
+           ++  +  F SRY
+Sbjct: 803 EDPKLARFASRY 814
+
+
+>CCU81893 pep:novel supercontig:EF1:HF943509:116146:118101:-1
+          gene:BGHDH14_bgh05591 transcript:CCU81893
+          description:"hypothetical protein"
+          Length = 634
+
+ Score = 34.3 bits (77), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 27/50 (54%)
+
+Query: 48 LIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEK 97
+          + Q++++  S  KVR V +   +  P   P  T++ K  L +DE  T+E+
+Sbjct: 1  MAQFIQSIPSRPKVRPVNKIHTSKAPLIHPGRTIETKPRLGKDEVATLER 50
+
+
+>CCU76611 pep:novel supercontig:EF1:HF943537:987095:994367:1
+           gene:BGHDH14_bgh05722 transcript:CCU76611
+           description:"myosin-9 or myosin-11/myosin type II heavy
+           chain, putative"
+          Length = 2388
+
+ Score = 30.4 bits (67), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 46/209 (22%), Positives = 87/209 (41%), Gaps = 27/209 (12%)
+
+Query: 309 QGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYELDNDSESV 368
+           QG     ++AE+ Y    ++ +N D  N   T LLAN  +  +    S+C  +D++  S 
+Sbjct: 654 QGFMLTHYAAEVEYSTEGWLKKNKDPLNDNVTRLLANSSNQHVATLFSDCAVMDDEPGSS 713
+
+Query: 369 SNCFDKCT-QTLLSQYKKIASDVNSGEDNNTEYEQELLYKQREKLTFVFCVYMNTMKRIS 427
+            +   K   +T+  ++K+  S++ +   +   +             FV C+  N  KR  
+Sbjct: 714 RSRVKKGLFRTVAQRHKEQLSNLMAQLHSTHPH-------------FVRCIIPNHKKRPK 760
+
+Query: 428 GLSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQ---NDYKTAFKVLELGLKYFQNDGV 484
+             SA   V  + R    +L     +  A   F N+   ++++  ++VL   +        
+Sbjct: 761 QYSAP-LVLDQLR-CNGVLEG---IRIARTGFPNRLSFSEFRQRYEVLSRNMPR-----C 810
+
+Query: 485 YINKYLDFLIFLNKDSQIKTLFETSVEKV 513
+           Y++     +I L+K    KT+F   + KV
+Sbjct: 811 YLDGRSAAIIMLDKLGLTKTVFRVGLSKV 839
+
+
+>CCU82264 pep:novel supercontig:EF1:HF943559:681785:683008:-1
+           gene:BGHDH14_bgh06553 transcript:CCU82264
+           description:"U3 snoRNP protein"
+          Length = 407
+
+ Score = 29.6 bits (65), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 24/107 (22%), Positives = 38/107 (35%), Gaps = 21/107 (19%)
+
+Query: 106 KLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYL 165
+           K    D++LW +YLDY R                +K F+ +M       P     W    
+Sbjct: 100 KKHPGDVALWLSYLDYTR------------ACKAIKKFRAIMTSVIRLHPTKPELWILAA 147
+
+Query: 166 NFLEQWKPFNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWE 212
+            +         WE +  I+  R F ++      +N E +W  Y + E
+Sbjct: 148 KY--------TWESEADINGARSFMQRGTRFCTNNSE-IWIEYAKLE 185
+
+
+>CCU75866 pep:novel supercontig:EF1:HF943548:2234181:2236928:1
+           gene:BGHDH14_bgh01607 transcript:CCU75866
+           description:"pre-mRNA splicing factor SYF1/pre-mRNA
+           splicing factor syf-1"
+          Length = 823
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 26/102 (25%), Positives = 56/102 (54%), Gaps = 5/102 (4%)
+
+Query: 429 LSAARTVFGKCRKLK-RILTH--DVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGV- 484
+           + +AR +  K  K+  R ++   D+++E A +E +N+N +  A K+L   ++  +   V 
+Sbjct: 425 IRSARVIMEKAVKVPFRSVSELADMWIEWAEMELRNEN-FDEAVKILAKAVQAPKRSTVD 483
+
+Query: 485 YINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKM 526
+           Y ++ L     ++K  ++ + +   VE V  LT+ K+IY+++
+Sbjct: 484 YFDETLTPQQRVHKSWKLWSFYVDLVESVSTLTETKKIYERI 525
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 4,154,509
+Number of extensions: 176986
+Number of successful extensions: 540
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 532
+Number of HSP's successfully gapped: 15
+Length of query: 677
+Length of database: 3,131,961
+Length adjustment: 97
+Effective length of query: 580
+Effective length of database: 2,504,371
+Effective search space: 1452535180
+Effective search space used: 1452535180
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

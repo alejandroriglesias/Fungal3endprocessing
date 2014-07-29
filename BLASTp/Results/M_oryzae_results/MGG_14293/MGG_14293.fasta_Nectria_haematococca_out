@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP81518 pep:known chromosome:v2.0:6:1575968:1577110:1 gene:N...   149   8e-42
+
+>NechaP81518 pep:known chromosome:v2.0:6:1575968:1577110:1 gene:NechaG81518
+           transcript:NechaT81518 description:"Putative
+           uncharacterized protein"
+          Length = 323
+
+ Score =  149 bits (377), Expect = 8e-42,   Method: Compositional matrix adjust.
+ Identities = 81/146 (55%), Positives = 99/146 (67%), Gaps = 17/146 (11%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPV------- 131
+           RKDG+  APPSQSKYS+IR+IPQRS + D  +P ++AP KKE   + S    V       
+Sbjct: 58  RKDGSKPAPPSQSKYSDIRNIPQRSASND--SPTQSAPVKKEGESRQSSSVNVAAPSADK 115
+
+Query: 132 -----TKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFS 186
+                +KS  D  AIP H  +GKP+TQVNIDE   E+  PWRKPGTDISDYFNYGFDEF+
+Sbjct: 116 TSAAASKSTIDVNAIPVHAASGKPITQVNIDE---ENDKPWRKPGTDISDYFNYGFDEFT 172
+
+Query: 187 WAIYAQKQNQLRSEYSADAMSQNSKK 212
+           WA+YA KQ  +R E+ AD  +QN+KK
+Sbjct: 173 WALYAAKQEAVRGEFGADVFAQNNKK 198
+
+
+
+ Score = 27.3 bits (59), Expect = 8.5,   Method: Compositional matrix adjust.
+ Identities = 10/15 (66%), Positives = 13/15 (86%)
+
+Query: 3  VEMDEDDDFYAPEEP 17
+          +++DEDDD Y PEEP
+Sbjct: 1  MDIDEDDDLYVPEEP 15
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 3,066,328
+Number of extensions: 121100
+Number of successful extensions: 381
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 377
+Number of HSP's successfully gapped: 18
+Length of query: 332
+Length of database: 7,529,425
+Length adjustment: 97
+Effective length of query: 235
+Effective length of database: 6,006,040
+Effective search space: 1411419400
+Effective search space used: 1411419400
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

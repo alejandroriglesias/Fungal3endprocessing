@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_09468T0 | HMPREF1544_09468 | Mucor circinelloides f. ...   110   2e-25
+HMPREF1544_10499T0 | HMPREF1544_10499 | Mucor circinelloides f. ...    34   0.097
+HMPREF1544_11421T0 | HMPREF1544_11421 | Mucor circinelloides f. ...    30   2.7  
+HMPREF1544_04481T0 | HMPREF1544_04481 | Mucor circinelloides f. ...    28   6.7  
+
+>HMPREF1544_09468T0 | HMPREF1544_09468 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (611 aa)
+          Length = 610
+
+ Score =  110 bits (275), Expect = 2e-25,   Method: Compositional matrix adjust.
+ Identities = 55/133 (41%), Positives = 75/133 (56%)
+
+Query: 4   DTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYA 63
+           D E + +++ S L ELTFNS+PIIT LT +A+EN   A   V  IE+++      QKL  
+Sbjct: 24  DVEQVARNYRSALSELTFNSKPIITNLTIMAQENQGAASVIVKEIENQLRNNAAGQKLPV 83
+
+Query: 64  FYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGLPLF 123
+            Y +DSICKNVG  Y   FSRN+ N++   Y L D T R     + + W N    G P+F
+Sbjct: 84  LYLIDSICKNVGGVYITNFSRNMVNVFLDAYTLTDPTVRKSFERLLQTWKNGMPGGHPVF 143
+
+Query: 124 EGSALEKIEQFLI 136
+               +E IE+ +I
+Sbjct: 144 PRHIIEPIERSII 156
+
+
+
+ Score = 73.6 bits (179), Expect = 6e-14,   Method: Compositional matrix adjust.
+ Identities = 51/203 (25%), Positives = 93/203 (45%), Gaps = 40/203 (19%)
+
+Query: 404 IVQNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGI 463
+           I +   + LLY ++P +C  CG R+  +E  +   + HLD HFR N ++K        G+
+Sbjct: 407 IARPGAVELLYSAEPLQCKQCGFRYPKTEKGQAKMDAHLDSHFRQNRKMK---ERVKRGL 463
+
+Query: 464 SNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDP--HAN-KNIDKSAL 520
+           S               R+W+++  +W   +  E+ S +      D   H N K+++KS  
+Sbjct: 464 S---------------RSWFVTVDEWINGEGGELMSQQAPAFLHDGMGHVNQKSVEKSN- 507
+
+Query: 521 NIHADENDEGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESG 580
+                 + E ++D  L +            V++P+    +   C IC E     ++++  
+Sbjct: 508 ----QPSGEDAIDPNLYT------------VIMPDDG--IRKPCAICGERFIDFWNDDEE 549
+
+Query: 581 EWVWKNTIEVNGKYFHSTCYHET 603
+           EW++KN I V+GK +H+TC+ + 
+Sbjct: 550 EWMYKNAILVDGKIYHATCHADA 572
+
+
+>HMPREF1544_10499T0 | HMPREF1544_10499 | Mucor circinelloides f. circinelloides
+          1006PhL hypothetical protein (662 aa)
+          Length = 661
+
+ Score = 34.3 bits (77), Expect = 0.097,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 29/69 (42%)
+
+Query: 4  DTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYA 63
+          D  +  KD  SILE     S   IT+L  LA  +     Y    I   IE   P  +L  
+Sbjct: 6  DRTLFDKDLKSILETKLPVSASKITSLQALATAHPQHHNYITQCIARFIENAPPDYRLAG 65
+
+Query: 64 FYALDSICK 72
+           Y +D+I +
+Sbjct: 66 LYVIDAISR 74
+
+
+>HMPREF1544_11421T0 | HMPREF1544_11421 | Mucor circinelloides f. circinelloides 1006PhL
+           pre-mRNA-processing-splicing factor 8 (2352 aa)
+          Length = 2351
+
+ Score = 30.0 bits (66), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 37/138 (26%), Positives = 53/138 (38%), Gaps = 15/138 (10%)
+
+Query: 97  VDNTT-RTKLINMFKLWLNPNDTGLP--LFEGSALEKIEQFLIKASALHQKNLQAMLPTP 153
+           VD T  R  L  + +LWL          L +G  +   E   I  S +H    +   P P
+Sbjct: 785 VDKTICRKNLGRLTRLWLKAEQERQHNYLKDGPYITAEEAVAIYTSTVHWLESRKFSPIP 844
+
+Query: 154 TVPLLLRDIDKLTCLTSERLK---------NQPNDEKLKMKLLVLSQLKQELKREK---L 201
+             PL  +   KL  L  ERL+         NQ   E+L +         + L R K   L
+Sbjct: 845 FPPLSYKHDTKLLILALERLREAYSVQGRLNQSQREELGLIEQAYDNPHEALSRIKRLLL 904
+
+Query: 202 TLNALKQVQMQLRQVFSQ 219
+           T  A K+V ++   ++S 
+Sbjct: 905 TQRAFKEVGIEFMDLYSH 922
+
+
+>HMPREF1544_04481T0 | HMPREF1544_04481 | Mucor circinelloides f. circinelloides 1006PhL
+            hypothetical protein (1175 aa)
+          Length = 1174
+
+ Score = 28.5 bits (62), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 19/56 (33%), Positives = 29/56 (51%), Gaps = 6/56 (10%)
+
+Query: 415  RSKPNKCSVCGKRFGNSESEKLLQNEH----LDWHFRINTRIKGSQNTANTGISNS 466
+            RS+PN+  +  K  G   S  L+Q E     + W++  NTR++ S  T N  IS +
+Sbjct: 963  RSRPNEYIL--KIHGIGMSNVLMQVESEKDLIKWNYWFNTRVQSSPPTTNLSISTT 1016
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 6,596,328
+Number of extensions: 289845
+Number of successful extensions: 1004
+Number of sequences better than 10.0: 33
+Number of HSP's gapped: 1001
+Number of HSP's successfully gapped: 35
+Length of query: 626
+Length of database: 5,364,083
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,141,383
+Effective search space: 2178367458
+Effective search space used: 2178367458
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

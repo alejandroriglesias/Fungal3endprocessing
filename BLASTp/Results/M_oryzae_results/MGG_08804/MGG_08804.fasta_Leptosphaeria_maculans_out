@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX93973 pep:novel supercontig:ASM23037v1:FP929116:1498691:15003...   233   2e-70
+CBX94884 pep:novel supercontig:ASM23037v1:FP929125:978489:980440...    30   2.1  
+CBX98547 pep:novel supercontig:ASM23037v1:FP929134:150258:152363...    29   3.3  
+CBY01855 pep:novel supercontig:ASM23037v1:FP929139:2337150:23395...    28   4.0  
+
+>CBX93973 pep:novel supercontig:ASM23037v1:FP929116:1498691:1500337:-1
+           gene:LEMA_P036470.1 transcript:CBX93973
+           description:"Similar to pre-mRNA cleavage complex II
+           protein Clp1 "
+          Length = 477
+
+ Score =  233 bits (593), Expect = 2e-70,   Method: Compositional matrix adjust.
+ Identities = 155/478 (32%), Positives = 239/478 (50%), Gaps = 39/478 (8%)
+
+Query: 1   MSIPGLGLIPE------KPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTE 54
+           +S+PGL L  +       PA++  RT  L    EYRF V+ G ++TI L  GTAE  GTE
+Sbjct: 2   ISLPGLNLASQPIEPTNAPASTTIRTQDLAANTEYRFEVAFGKNLTIKLQSGTAEFFGTE 61
+
+Query: 55  LALNVAYTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXX 114
+           L     YT  G K  I +WHG  L I G  + + VA  ++    +  NLH  L+      
+Sbjct: 62  LGPATTYTFEGTKGAIFTWHGCRLEIGGEVESDYVA--EETPMMSVANLHFALEDLRDKS 119
+
+Query: 115 XXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXX 174
+                       GPRVLV G    G+TSLV+ L ++A +TG QPMV++ D          
+Sbjct: 120 IASGNADL----GPRVLVVGPDNSGKTSLVKILTSYAVKTGRQPMVINLDSREGMLSIPG 175
+
+Query: 175 XXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXX 234
+             SAA + +++D+                +PVK PLV+ YG +  EE + ++K +V    
+Sbjct: 176 SFSAAAYSSIIDI--EQGWGSSPISGPSPIPVKQPLVYQYGLKDAEEGK-VFKPLVTRMA 232
+
+Query: 235 XXXXXXXXDDPAVRSAGMLIDTPPYV-EGKGA--DVLIHIAEELNVNIIVTIDTPSLHTE 291
+                   +D A + AG +ID+   + +GK    D + HI  E +VNI++T+ +  L+++
+Sbjct: 233 LAVTSRLEEDTASKQAGFIIDSSGSISQGKNGVYDNIEHIVSEFSVNIVITLGSERLYSD 292
+
+Query: 292 LTQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAK-ITLSPFT 350
+           L+++FS       + +SV+ LDKS G ++R E +++ +  + I+ YFFG  + + L+P +
+Sbjct: 293 LSRKFSTRSPDPADAISVIRLDKSGGCIDRSEPYMRALRHSQIRSYFFGSGEALPLAPSS 352
+
+Query: 351 QQVAFDELAIYTSPEA-SDYSAEPG-------------------ALERIPQPLPEMAHWV 390
+           Q   F +L IY   EA S + +  G                     E++     E+   +
+Sbjct: 353 QMADFADLNIYRVKEADSGFVSSAGDAADYGYGYGNGSGGEVEEIYEKVGVTAAELQDSL 412
+
+Query: 391 LAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPE 448
+           LA+  A   D    IR A V GFVYVA VD+ +R++K+L+P+ G +    LV G+WPE
+Sbjct: 413 LAVTMAGAGDKHGAIRDACVRGFVYVADVDEAKRKVKLLSPMPGSVAGNALVLGRWPE 470
+
+
+>CBX94884 pep:novel supercontig:ASM23037v1:FP929125:978489:980440:1
+           gene:LEMA_P118870.1 transcript:CBX94884
+           description:"Putative uncharacterized protein "
+          Length = 593
+
+ Score = 29.6 bits (65), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 11/19 (57%), Positives = 17/19 (89%)
+
+Query: 129 RVLVAGKTGCGRTSLVRTL 147
+           +VLVAG +G G+TSL+R++
+Sbjct: 241 KVLVAGPSGIGKTSLIRSI 259
+
+
+>CBX98547 pep:novel supercontig:ASM23037v1:FP929134:150258:152363:1
+           gene:LEMA_P077860.1 transcript:CBX98547
+           description:"Predicted protein "
+          Length = 683
+
+ Score = 28.9 bits (63), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 24/76 (31%), Positives = 35/76 (46%), Gaps = 14/76 (18%)
+
+Query: 317 GVMERDEG---FLQHMGEASI------KEYFFGDAKITLSPFTQQVAFDELAIYTSPEAS 367
+           G   RD+    +LQ + EA++      + ++FG+A   L  F Q  A  E      PE +
+Sbjct: 439 GQPRRDDNLHQYLQLLVEAAVYKQTHYRGFYFGNAAAELGRFHQAYALSEKDKLLPPELT 498
+
+Query: 368 DYS-----AEPGALER 378
+           DY+     AE   LER
+Sbjct: 499 DYNRSWTYAESRLLER 514
+
+
+>CBY01855 pep:novel supercontig:ASM23037v1:FP929139:2337150:2339511:1
+           gene:LEMA_P006420.1 transcript:CBY01855
+           description:"Similar to iron-sulfur clusters transporter
+           atm1 "
+          Length = 728
+
+ Score = 28.5 bits (62), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 17/23 (73%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTL 147
+           P G +V + G +GCG+++++R L
+Sbjct: 489 PAGKKVAIVGPSGCGKSTILRLL 511
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 4,527,642
+Number of extensions: 183163
+Number of successful extensions: 420
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 415
+Number of HSP's successfully gapped: 9
+Length of query: 455
+Length of database: 5,217,443
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,007,950
+Effective search space: 1434846100
+Effective search space used: 1434846100
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

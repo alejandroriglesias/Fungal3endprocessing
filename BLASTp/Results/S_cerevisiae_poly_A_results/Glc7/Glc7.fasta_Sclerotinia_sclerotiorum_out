@@ -1,0 +1,217 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN97699 pep:novel supercontig:ASM14694v1:CH476641:520869:522063...   475   e-170
+EDN99689 pep:novel supercontig:ASM14694v1:CH476623:1172367:11740...   412   e-141
+EDN92650 pep:novel supercontig:ASM14694v1:CH476631:1018313:10194...   228   1e-72
+EDN92626 pep:novel supercontig:ASM14694v1:CH476631:966298:967630...   224   8e-72
+EDN96862 pep:novel supercontig:ASM14694v1:CH476622:1858440:18602...   223   7e-68
+EDN98615 pep:novel supercontig:ASM14694v1:CH476645:268100:269471...   207   1e-63
+EDN92557 pep:novel supercontig:ASM14694v1:CH476631:779786:781248...   143   4e-39
+EDO00657 pep:novel supercontig:ASM14694v1:CH476624:61026:62010:-...    33   0.047
+
+>EDN97699 pep:novel supercontig:ASM14694v1:CH476641:520869:522063:-1
+           gene:SS1G_12553 transcript:EDN97699
+           description:"serine/threonine protein phosphatase PP1"
+          Length = 282
+
+ Score =  475 bits (1223), Expect = e-170,   Method: Compositional matrix adjust.
+ Identities = 239/300 (79%), Positives = 248/300 (82%), Gaps = 40/300 (13%)
+
+Query: 1   MDSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           M  Q VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKI
+Sbjct: 1   MAEQDVDLDSIIDRLLEVRGSRPGKQVQLLEQEIRYLCTKAREIFISQPILLELEAPIKI 60
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+           CGDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL
+Sbjct: 61  CGDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           R                                        AIIDEKIF MHGGLSPDLN
+Sbjct: 121 R----------------------------------------AIIDEKIFTMHGGLSPDLN 140
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+           SMEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM
+Sbjct: 141 SMEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDM 200
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK 300
+           +LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K
+Sbjct: 201 DLICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK 260
+
+
+>EDN99689 pep:novel supercontig:ASM14694v1:CH476623:1172367:1174047:1
+           gene:SS1G_02547 transcript:EDN99689
+           description:"hypothetical protein"
+          Length = 542
+
+ Score =  412 bits (1058), Expect = e-141,   Method: Compositional matrix adjust.
+ Identities = 190/296 (64%), Positives = 230/296 (77%), Gaps = 1/296 (0%)
+
+Query: 7   DVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIH 65
+           ++D+ I RLL+     K  + V L+  EI  +C + R I + QP L+ELEAP+KI GDIH
+Sbjct: 216 ELDDYISRLLDAGYQGKSTKGVCLKSAEINSICLRVREILLDQPPLVELEAPVKIVGDIH 275
+
+Query: 66  GQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 125
+           GQY DL+R+FE  GFPP SN+LFLGDYVDRGKQSLETI LL+ YKIKYPENFF+LRGNHE
+Sbjct: 276 GQYSDLIRMFEMCGFPPSSNFLFLGDYVDRGKQSLETILLLMCYKIKYPENFFLLRGNHE 335
+
+Query: 126 CASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQI 185
+           CA++ R+YGFYDECKRR N+K+WKTF D FNCLPIAAI+  KIFC+HGGLSP L+ M+ I
+Sbjct: 336 CANVTRVYGFYDECKRRANVKVWKTFVDVFNCLPIAAIVAGKIFCVHGGLSPALSHMDDI 395
+
+Query: 186 RRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICR 245
+           R + RPTD+PD GLL DLLWSDP      W  ++RGVS++FG  V++ FL + D +L+CR
+Sbjct: 396 RHIARPTDVPDFGLLNDLLWSDPADQENDWETSERGVSYSFGKKVISEFLARHDFDLVCR 455
+
+Query: 246 AHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           AH VVEDGYEFF  R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP   S
+Sbjct: 456 AHMVVEDGYEFFEDRILVTVFSAPNYCGEFDNYGAVMSVSTELLCSFELLKPLDSS 511
+
+
+>EDN92650 pep:novel supercontig:ASM14694v1:CH476631:1018313:1019491:-1
+           gene:SS1G_08513 transcript:EDN92650
+           description:"hypothetical protein"
+          Length = 307
+
+ Score =  228 bits (582), Expect = 1e-72,   Method: Compositional matrix adjust.
+ Identities = 113/288 (39%), Positives = 174/288 (60%), Gaps = 21/288 (7%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E+ I  +C+K + + +++  ++ + AP+ + GDIHGQ++DL+ +F+ GGF P++NYLF
+Sbjct: 23  LAESVIEAICAKTKELLMQESNVVHVLAPVTVVGDIHGQFFDLIEIFKIGGFCPDTNYLF 82
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           LGDYVDRG  S+ETI LL+  K++YP    ++RGNHE   + + YGFY EC R+Y N  +
+Sbjct: 83  LGDYVDRGMFSVETISLLVCLKLRYPHRVHLIRGNHESRGVTQSYGFYTECSRKYGNANV 142
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           W  FTD F+ L ++ +I+++IFC+HG                R  +IP  G + DL+WSD
+Sbjct: 143 WHHFTDMFDFLTLSVVINDQIFCVHGD---------------RFREIPHEGPMADLVWSD 187
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD +   +S + RG  +TFG  VV +FL+   M  I RAHQ+ ++GY+     +L T++S
+Sbjct: 188 PDPERDEFSLSPRGAGYTFGAQVVKKFLEVNKMSHILRAHQLCQEGYQVLYDDRLSTVWS 247
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPA-----QKSLPRQAGGRK 310
+           APNYC    N  +++ V ++    F +   A      K   +QAG  K
+Sbjct: 248 APNYCYRCGNMASVLEVSDTGERFFNVFAAAPENDQHKGEMQQAGQDK 295
+
+
+>EDN92626 pep:novel supercontig:ASM14694v1:CH476631:966298:967630:1
+           gene:SS1G_08489 transcript:EDN92626
+           description:"serine/threonine protein phosphatase PP2A
+           catalytic subunit"
+          Length = 266
+
+ Score =  224 bits (572), Expect = 8e-72,   Method: Compositional matrix adjust.
+ Identities = 105/213 (49%), Positives = 143/213 (67%), Gaps = 2/213 (0%)
+
+Query: 90  GDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKLW 148
+           GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +W
+Sbjct: 41  GDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANVW 100
+
+Query: 149 KTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDP 208
+           K FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSDP
+Sbjct: 101 KYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSDP 160
+
+Query: 209 DKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFSA 268
+           D D  GW  + RG  +TFG D+   F     + L+ RAHQ+V +GY +   R +VT+FSA
+Sbjct: 161 D-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLVARAHQLVMEGYNWSQDRNVVTIFSA 219
+
+Query: 269 PNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           PNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 220 PNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 252
+
+
+>EDN96862 pep:novel supercontig:ASM14694v1:CH476622:1858440:1860249:1
+           gene:SS1G_01788 transcript:EDN96862
+           description:"serine/threonine protein phosphatase 2B
+           catalytic subunit"
+          Length = 546
+
+ Score =  223 bits (567), Expect = 7e-68,   Method: Compositional matrix adjust.
+ Identities = 103/274 (37%), Positives = 172/274 (62%), Gaps = 13/274 (4%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +  ++  +   +  ++P LLE++API +CGD+HGQYYDL++LFE GG P E+ YLF
+Sbjct: 79  LTEEQALFILEEGTKVLKQEPNLLEMDAPITVCGDVHGQYYDLMKLFEVGGDPAETRYLF 138
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRYNIKLW 148
+           LGDYVDRG  S+E +  L + KI YP   ++LRGNHEC  +   + F  ECK +Y+ +++
+Sbjct: 139 LGDYVDRGYFSIECVLYLWSLKIWYPNTLWLLRGNHECRHLTDYFTFKLECKHKYSERIY 198
+
+Query: 149 KTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDP 208
+           +   D F  LP+AA+++++  C+HGGLSP+L++++ ++ + R  + P  GL+CD+LW+DP
+Sbjct: 199 EACMDSFCALPLAAVMNKQFLCIHGGLSPELHTLDDLKSIDRFREPPTHGLMCDILWADP 258
+
+Query: 209 DKDIVGWSEND-------RGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQ 261
+            ++      ++       RG S+ F       FL+K ++  I RAH+  + GY  + K +
+Sbjct: 259 LEEFGQEKTSEYFIHNHVRGCSYFFSYPAACNFLEKNNLLSIIRAHEAQDAGYRMYRKTR 318
+
+Query: 262 ------LVTLFSAPNYCGEFDNAGAMMSVDESLL 289
+                 ++T+FSAPNY   ++N  A++  + +++
+Sbjct: 319 TTGFPSVMTIFSAPNYLDVYNNKAAVLKYENNVM 352
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 2,510,987
+Number of extensions: 108948
+Number of successful extensions: 200
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 190
+Number of HSP's successfully gapped: 12
+Length of query: 312
+Length of database: 3,721,581
+Length adjustment: 91
+Effective length of query: 221
+Effective length of database: 2,795,656
+Effective search space: 617839976
+Effective search space used: 617839976
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 51 (24.3 bits)

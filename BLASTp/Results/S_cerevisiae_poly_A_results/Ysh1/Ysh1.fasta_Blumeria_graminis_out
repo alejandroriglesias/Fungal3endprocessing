@@ -1,0 +1,224 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81747 pep:novel supercontig:EF1:HF943519:1413239:1416226:1 ge...   612   0.0  
+CCU74909 pep:novel supercontig:EF1:HF943549:4903358:4906443:1 ge...    65   2e-11
+CCU81609 pep:novel supercontig:EF1:HF943563:1426654:1434097:-1 g...    30   2.3  
+CCU82604 pep:novel supercontig:EF1:HF943506:398342:400028:-1 gen...    28   5.6  
+CCU82550 pep:novel supercontig:EF1:HF943487:680006:681751:-1 gen...    28   8.7  
+
+>CCU81747 pep:novel supercontig:EF1:HF943519:1413239:1416226:1
+           gene:BGHDH14_bgh03446 transcript:CCU81747
+           description:"endoribonuclease YSH1"
+          Length = 825
+
+ Score =  612 bits (1577), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 361/855 (42%), Positives = 494/855 (57%), Gaps = 144/855 (16%)
+
+Query: 11  FFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFH 70
+           F  LGG NEVGRSCHILQYKGKT  LDAG H  Y+GLASLPFYD+FDLS VD+LLISHFH
+Sbjct: 26  FLCLGGGNEVGRSCHILQYKGKT--LDAGQHAGYEGLASLPFYDDFDLSTVDVLLISHFH 83
+
+Query: 71  LDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLFSD 130
+           +DHAASLPYV+ +TNF+GRVFMTHPTKAIY+WL++D VRV           +  + ++++
+Sbjct: 84  VDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGG-------ASSTSQPVYTE 136
+
+Query: 131 EDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVD 190
+            D + +F  IE +DYH+T  ++ I+ T + AGHVLGAAMF IEIAGL++ FTGDYSRE D
+Sbjct: 137 ADHLSTFPLIEAIDYHTTHTISSIRVTPYPAGHVLGAAMFLIEIAGLKIFFTGDYSREDD 196
+
+Query: 191 RHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALG 249
+           RHL SAEVP  +  +VLI EST+G A+H PR+ RE  L + I   + RGGRVL+PVFALG
+Sbjct: 197 RHLISAEVPKGVKIDVLITESTYGIASHVPRVERELALMKSITGILNRGGRVLMPVFALG 256
+
+Query: 250 RAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRD-- 307
+           RAQE++LILDEYW ++ +     ++PI+YASNLA+KCM V+QTYV  MND+I++ FR+  
+Sbjct: 257 RAQELLLILDEYWGRNPEY---QKIPIYYASNLARKCMLVYQTYVGAMNDNIKRLFRERM 313
+
+Query: 308 ----------SQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPE 357
+                      +  P+ FK I  L+NL+ F D G  VMLASPGMLQ+G+SR+LLERW P 
+Sbjct: 314 AEAEASPDGTGKGGPWDFKYIRSLKNLDRFDDVGSCVMLASPGMLQNGVSRELLERWAPS 373
+
+Query: 358 DKNLVLITGYSIEGTMAKFIMLEPDTI---------------PSINNPEITIPRRCQVEE 402
+           +KN V+ITGYS+EGTMAK +M EPD I               P   N ++ IPRRC ++E
+Sbjct: 374 EKNGVIITGYSVEGTMAKHVMQEPDQIQAVMNRSSVGGARRGPGGVNEKVMIPRRCSIQE 433
+
+Query: 403 ISFAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNP 462
+           +SFAAHVD  EN EFIE+I+AP +ILVHGE + M RLKS LLS  A       +V VF+P
+Sbjct: 434 LSFAAHVDGVENREFIEEIAAPVVILVHGEQHNMMRLKSKLLSLNAD---KTTKVKVFSP 490
+
+Query: 463 RNCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKG 522
+           RNC E+ + F+  K AK VG                                    A   
+Sbjct: 491 RNCEELRIPFKADKTAKVVGKL----------------------------------ASIP 516
+
+Query: 523 LVDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELI 582
+             D   ++  +++G+LV +D  F++  ++  DLRE+    +TTI  +++        ELI
+Sbjct: 517 PPDTNGNQSQLITGVLVQND--FKMSLMAPEDLREYAGLTTTTITCKQRLTMGAAGIELI 574
+
+Query: 583 YWHILQMFGEAEVLQD---------DDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIKL 633
+            W +   FG  E + D         DD+  N      EESK  +T+       +MG + +
+Sbjct: 575 KWALEGTFGSIEEISDIQNSKTHSNDDKHGNGSDIKVEESKCKITS-----YLVMGCVTI 629
+
+Query: 634 TIVNTLAV-VEWTQDLMNDTVADSIIAILMNVDSAPASVK------LSSH--------SC 678
+               +  + +EW  +++ND +AD+I+A+L +V+S+PA+VK      L SH        S 
+Sbjct: 630 NHWKSGEIELEWEGNILNDGIADAIMAVLFSVESSPAAVKSLFPFLLFSHFLTPTESSSA 689
+
+Query: 679 DDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFG--DCFTLFLNK--------------- 721
+             H H     N    +   ER++++    + QFG  +   + + K               
+Sbjct: 690 HCHSHKLPAQNPHAHLSPTERLERLFMFLEAQFGSENIIPIPIPKLSSHAPSLSTIDENA 749
+
+Query: 722 -DEYASNKE---------ETITGV--------VTIGKSTAKIDFNNMKILECNSNPLKGR 763
+            D  ASN E         E + G+        + + K+ AK+   ++++ EC S  L  R
+Sbjct: 750 EDPMASNNELEKEQKREIERLHGIGIPVPGVEIHVDKNVAKVWLEDLEV-ECTSRVLGER 808
+
+Query: 764 VESLLNIGGNLVTPL 778
+           V  ++     +  PL
+Sbjct: 809 VRGVVERAVEVTAPL 823
+
+
+>CCU74909 pep:novel supercontig:EF1:HF943549:4903358:4906443:1
+           gene:BGHDH14_bgh05989 transcript:CCU74909
+           description:"cleavage and polyadenylation specificity
+           factor subunit 2"
+          Length = 951
+
+ Score = 65.5 bits (158), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 90/430 (20%), Positives = 171/430 (39%), Gaps = 75/430 (17%)
+
+Query: 9   FKFFSL-GGSNEVGRSCHILQYKGKT-VMLDAGIHPAYQGLASLPFYDEFDLSKVDILLI 66
+           F F SL G  +E   S  +L+  G   +++D G    +  +A L    E  +  + I+L+
+Sbjct: 2   FTFCSLLGAQSESAASQSLLELDGGVKILVDVGWDELFD-VAKLKEL-EKQVPTLSIILL 59
+
+Query: 67  SHFHLDHAASLPYVMQRTNFQGRV--FMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKD 124
+           +H  + H  +  +  +      R+  + T P   + R LL+D    + +           
+Sbjct: 60  THATISHIGAFAHCCKHFPLFTRIPIYATLPVIQLGRTLLQDLYSSSPLAGTTIPASALS 119
+
+Query: 125 EGLFS-------------------DEDLVDSFDKIETVDYHSTVDV---------NGIKF 156
+           E  +S                   +E++   F  I  + Y               NG+  
+Sbjct: 120 EASYSCSQKSVINIDSDILLPSPTNEEIQTYFGLIHPLKYSQPQQPLPSPLSPPLNGLTI 179
+
+Query: 157 TAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE------------VPPLSSN 204
+           TA++AGH LG  ++ I+     +++  D+++  +  L  A             +  L   
+Sbjct: 180 TAYNAGHTLGGTIWHIQHGLESIVYAVDWNQARENVLAGAAWFGGAGGGGGEIIELLRKP 239
+
+Query: 205 VLIVESTFG---TATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEIMLILDEY 261
+             ++ S+ G   +A    +  R+  L ++I S   +GG +L+P  +  R  E+  +L+  
+Sbjct: 240 TALICSSRGCERSALLGGKAKRDELLLEMIKSAARKGGIILIPTDSSARVMELAYLLEHA 299
+
+Query: 262 W-SQHADELGGGQVPIFY-ASNLAKKCMSVFQTYVNMMNDDIRKKFRD------------ 307
+           W ++  D+    Q    Y AS      M   ++ +  M++ I ++F              
+Sbjct: 300 WRTETEDDSSPLQASKLYLASKNIGATMRYTRSMLEWMDEGIVREFEANAGTQQKQGVQD 359
+
+Query: 308 --SQTNPFIFKNISYL-------RNLEDFQDFGPS---VMLASPGMLQSGLSRDLLERWC 355
+             S   PF F+++  L       R L +    G S   V++AS   L+ G SR++L +  
+Sbjct: 360 NVSNVGPFDFRHLRLLERRGQIDRVLGETDSLGRSISKVIVASDTSLEWGFSREVLRKIA 419
+
+Query: 356 PEDKNLVLIT 365
+            + +NLV++T
+Sbjct: 420 DDSRNLVILT 429
+
+
+>CCU81609 pep:novel supercontig:EF1:HF943563:1426654:1434097:-1
+            gene:BGHDH14_bgh05868 transcript:CCU81609
+            description:"putative phosphatidylinositol 3-kinase tor2"
+          Length = 2432
+
+ Score = 29.6 bits (65), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 21/98 (21%), Positives = 41/98 (41%), Gaps = 19/98 (19%)
+
+Query: 679  DDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLNKDEYASNKEETITGVVTI 738
+            D H  N +     GKI  ++            FGDCF + +++++Y       +T ++T 
+Sbjct: 2207 DRHPSNLMLDKVTGKIIHID------------FGDCFEIAMHREKYPERVPFRLTRMLTY 2254
+
+Query: 739  GKSTAKIDF-------NNMKILECNSNPLKGRVESLLN 769
+                + I+        N M++L  N   L   +E+ ++
+Sbjct: 2255 AMEVSNIEGSFRITCENVMRVLRDNKESLMAVLEAFIH 2292
+
+
+>CCU82604 pep:novel supercontig:EF1:HF943506:398342:400028:-1
+           gene:BGHDH14_bgh00982 transcript:CCU82604
+           description:"putative DnaJ domain-containing protein"
+          Length = 516
+
+ Score = 28.1 bits (61), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 15/54 (27%), Positives = 30/54 (55%), Gaps = 1/54 (1%)
+
+Query: 545 FELDFLSLSDLREHHPDLSTTILRERQS-VRVNCKKELIYWHILQMFGEAEVLQ 597
+           FE    SL D+ EHHPD      + +++ +++  +K   Y+ +L++  +A+  Q
+Sbjct: 363 FEAAINSLQDILEHHPDSEEAKQKMQETQLKLRQQKAKDYYKVLEVSRDADAAQ 416
+
+
+>CCU82550 pep:novel supercontig:EF1:HF943487:680006:681751:-1
+           gene:BGHDH14_bghG006515000001001 transcript:CCU82550
+           description:"Bgh-specific hypothetical protein"
+          Length = 581
+
+ Score = 27.7 bits (60), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 15/40 (37%), Positives = 22/40 (55%), Gaps = 4/40 (10%)
+
+Query: 266 ADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKF 305
+           +D+L  G+VP     N+  K  S+   Y NM +D I +KF
+Sbjct: 266 SDQLSNGRVP----PNILTKTSSISSQYQNMRSDIIFRKF 301
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 4,425,993
+Number of extensions: 181003
+Number of successful extensions: 464
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 452
+Number of HSP's successfully gapped: 16
+Length of query: 779
+Length of database: 3,131,961
+Length adjustment: 98
+Effective length of query: 681
+Effective length of database: 2,497,901
+Effective search space: 1701070581
+Effective search space used: 1701070581
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 55 (25.8 bits)

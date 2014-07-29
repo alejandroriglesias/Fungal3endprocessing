@@ -1,0 +1,179 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPBP8B7.15c.1:pep pep:known chromosome:ASM294v2:II:3659809:36625...   291   4e-93
+SPBC28F2.08c.1:pep pep:known chromosome:ASM294v2:II:1581815:1584...    30   0.46 
+SPAC1687.05.1:pep pep:known chromosome:ASM294v2:I:908736:911854:...    30   0.83 
+SPAC26F1.13c.1:pep pep:known chromosome:ASM294v2:I:5148780:51524...    28   2.0  
+SPAC30D11.10.1:pep pep:known chromosome:ASM294v2:I:1099489:11015...    27   4.0  
+SPAC26F1.01.1:pep pep:known chromosome:ASM294v2:I:5182774:518619...    27   4.1  
+SPAC17A5.10.1:pep pep:known chromosome:ASM294v2:I:1770119:177202...    27   6.0  
+SPAC13D6.02c.1:pep pep:known chromosome:ASM294v2:I:2247229:22485...    26   6.6  
+SPBP4H10.07.1:pep pep:known chromosome:ASM294v2:II:2881775:28837...    27   7.8  
+
+>SPBP8B7.15c.1:pep pep:known chromosome:ASM294v2:II:3659809:3662598:-1
+           gene:SPBP8B7.15c transcript:SPBP8B7.15c.1
+           description:"ubiquitin-protein ligase E3 RBBP6 family
+           involved in mRNA cleavage (predicted)"
+          Length = 482
+
+ Score =  291 bits (744), Expect = 4e-93,   Method: Compositional matrix adjust.
+ Identities = 165/407 (40%), Positives = 230/407 (56%), Gaps = 58/407 (14%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGT-GLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEY 59
+           MS  I+Y+FKSQ++ SRI FDGT G++VFD+KREII + KLG+G DF L +YN ++ EEY
+Sbjct: 1   MSGVIYYKFKSQKDPSRITFDGTIGMSVFDVKREIIMQKKLGNGLDFDLLLYNANSNEEY 60
+
+Query: 60  DDDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPR--------- 110
+           DDD F+IPRSTSVIV+R PA KS                G A RYV+G P+         
+Sbjct: 61  DDDTFIIPRSTSVIVRRVPAQKS--------------GKGTAARYVSGAPKTTGARSDSV 106
+
+Query: 111 -----VLQKRQHXXXXXXNVS---GTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKS 162
+                +LQK+        N++    ++E+  I  MF             M++ATP+ +K 
+Sbjct: 107 KRPVPMLQKKAPITSGESNINKSPSSSEDAAIQQMFQVSSDQWRETQDKMASATPI-YKP 165
+
+Query: 163 QTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKS 221
+              + +A   + PPPPGY+CYRCG + HWI+ CPTN+DPN++GK R++RTTGIP+ FLK+
+Sbjct: 166 NQRRIAASVPDKPPPPGYICYRCGQKGHWIQACPTNADPNYDGKPRVKRTTGIPRSFLKN 225
+
+Query: 222 IEIDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHF 281
+           +E       P E     IMI  EG +VV   D  SWE YQ ++          +     +
+Sbjct: 226 VE------RPAEGDAANIMINAEGDYVVVQPDVASWETYQSRK--------AALTANDVY 271
+
+Query: 282 KDLPDD--LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDS 339
+           K  P +  L C L   L R   +T  CC+  F +E ++ AL++SDF CPNC  +D+LLD+
+Sbjct: 272 KMQPPNISLACTLCKKLARNACRTP-CCDKLFCEECIQTALLDSDFECPNCHRKDVLLDT 330
+
+Query: 340 LVPDQDKEKEVETFLK-------KQEELHGSSKDGNQPETKKMKLMD 379
+           L PD  K++E+E  +K       K  +  G+S D N P ++K K  D
+Sbjct: 331 LNPDYQKQREIEAVVKSVLGSNSKNSDKVGTSDDNNTPMSEKRKRED 377
+
+
+>SPBC28F2.08c.1:pep pep:known chromosome:ASM294v2:II:1581815:1584320:-1
+           gene:SPBC28F2.08c transcript:SPBC28F2.08c.1
+           description:"HRD ubiquitin ligase complex subunit
+           (predicted)"
+          Length = 713
+
+ Score = 30.4 bits (67), Expect = 0.46,   Method: Compositional matrix adjust.
+ Identities = 19/62 (30%), Positives = 30/62 (48%)
+
+Query: 48  LKIYNPDTEEEYDDDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTG 107
+           L  + PD   EY  D + + R++S  V++   I  +     L+GN  +A +  AT Y  G
+Sbjct: 166 LSHFAPDIAAEYPVDLYDLSRTSSYSVQKKDDIVEYLKDYALRGNNISAHISLATIYQYG 225
+
+Query: 108 RP 109
+            P
+Sbjct: 226 TP 227
+
+
+>SPAC1687.05.1:pep pep:known chromosome:ASM294v2:I:908736:911854:1 gene:SPAC1687.05
+           transcript:SPAC1687.05.1 description:"SUMO E3 ligase
+           Pli1"
+          Length = 727
+
+ Score = 29.6 bits (65), Expect = 0.83,   Method: Compositional matrix adjust.
+ Identities = 31/122 (25%), Positives = 54/122 (44%), Gaps = 25/122 (20%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNID-FSKEA-LENALVESDFVCPNCETR----DILLD--- 338
+           LKCPL+   +  PV++  C +I  F   A LE       ++CP C +     D+++D   
+Sbjct: 303 LKCPLSFSRISLPVRSVFCKHIQCFDASAFLEMNKQTPSWMCPVCASHIQFSDLIIDGFM 362
+
+Query: 339 ------------SLVPDQDKEKEVETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAGL 386
+                       ++  D +   ++ TF +  E    SS+D   P+ K ++L D  G + +
+Sbjct: 363 QHILESTPSNSETITVDPEGNWKLNTFDEPVE----SSEDEFVPKEKVIELSDGEGISTM 418
+
+Query: 387 NN 388
+            N
+Sbjct: 419 AN 420
+
+
+>SPAC26F1.13c.1:pep pep:known chromosome:ASM294v2:I:5148780:5152492:1 gene:SPAC26F1.13c
+           transcript:SPAC26F1.13c.1 description:"cytoplasmic
+           leucine-tRNA ligase Lrs1 (predicted)"
+          Length = 1111
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 28/56 (50%), Gaps = 1/56 (1%)
+
+Query: 310 DFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEELHGSSK 365
+           D+ +E   +  +  D VC   ET+ +LL +  P   +   + T LKK + +H S +
+Sbjct: 853 DWYREVTADRKMHRDLVCRWIETQVLLLATFAPHWSEHIWLTT-LKKPQSIHVSGR 907
+
+
+>SPAC30D11.10.1:pep pep:known chromosome:ASM294v2:I:1099489:1101583:-1
+           gene:SPAC30D11.10 transcript:SPAC30D11.10.1
+           description:"DNA recombination protein Rad52 (previously
+           Rad22)"
+          Length = 469
+
+ Score = 27.3 bits (59), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 22/38 (57%)
+
+Query: 351 ETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAGLNN 388
+           E+F+KKQ+ L+ +    NQP   K + + P   A LN+
+Sbjct: 192 ESFIKKQKTLNSTRTVNNQPLVNKGEQLAPRRAAELND 229
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,010,225
+Number of extensions: 87116
+Number of successful extensions: 216
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 209
+Number of HSP's successfully gapped: 18
+Length of query: 441
+Length of database: 2,387,769
+Length adjustment: 91
+Effective length of query: 350
+Effective length of database: 1,919,665
+Effective search space: 671882750
+Effective search space used: 671882750
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 51 (24.3 bits)

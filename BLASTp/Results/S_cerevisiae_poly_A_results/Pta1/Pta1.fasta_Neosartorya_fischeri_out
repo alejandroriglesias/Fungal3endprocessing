@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00008649 pep:known contig:CADRE:9299:1050057:1052879:-1 ...    92   2e-19
+CADNFIAP00009216 pep:known contig:CADRE:9374:469511:471627:1 gen...    32   0.73 
+
+>CADNFIAP00008649 pep:known contig:CADRE:9299:1050057:1052879:-1
+           gene:CADNFIAG00008863 transcript:CADNFIAT00008863
+           description:"Putative uncharacterized protein"
+          Length = 777
+
+ Score = 92.0 bits (227), Expect = 2e-19,   Method: Compositional matrix adjust.
+ Identities = 51/172 (29%), Positives = 84/172 (48%), Gaps = 31/172 (18%)
+
+Query: 626 WLHVLIRLVTRGIEAQEASD-----------------LIREELLGFFIQDFEQRVSLIIE 668
+           W+ +L RL TR     E  D                  IRE L  + ++DF  RV++ I 
+Sbjct: 524 WVTLLTRLATRAPATLEVDDKKTESDPRARKTPAISNFIRESLYRYILEDFRARVNVGIM 583
+
+Query: 669 WLNEEWF-------FQTSLHQD-------PSNYKKWSLRVLESLGPFLENKHRRFFIRLM 714
+           WLNEEW+       F  +   +       P +Y +W LR+L+   P+L+++  + FIR +
+Sbjct: 584 WLNEEWYNDRIQMKFAATQRTEEDEEASVPLHYDQWVLRLLDGFLPYLDSRDTKIFIRFL 643
+
+Query: 715 SELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQL 766
+           SE+P +     + +  +  DP R +L  Q+L +L+MFRPP ++   + L  +
+Sbjct: 644 SEIPEVTIPITKRVSSLAKDPERVNLCVQSLLYLVMFRPPAREMCLNALEDV 695
+
+
+
+ Score = 62.0 bits (149), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 48/180 (26%), Positives = 82/180 (45%), Gaps = 33/180 (18%)
+
+Query: 90  ADVLVYKNIVLIMCASYPLVL-DLVAKTSNQEMFDQLCMLKKFVLSHWRTA-YPLRATVD 147
+            D  V K+IV I  + YPL    ++    +  +++ +  +K+ +L  W ++ YP      
+Sbjct: 91  GDTPVLKHIVQIAASLYPLAFRHIINHPEDSALWENMTAVKQDILRKWDSSPYP------ 144
+
+Query: 148 DETDVEQWLAQIDQNIGVKLATIKFISEVVLSQT-------KSPSGNEINSSTIPDNHPV 200
+                            VK+  IKF+  VV  QT       + P  NE + + +P NH +
+Sbjct: 145 -----------------VKVCCIKFVQRVVQVQTHGPIADPRRPEHNETSLAIVPKNHSI 187
+
+Query: 201 LNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRF 260
+           L  P LE+EA  LLD LL+ + +E      +    +N L+ +I+ R     +I++ +L F
+Sbjct: 188 LALPHLEAEASGLLDRLLS-VFQEDASDPLLVNATLNCLAVLIRNRQSVGNKIINAVLNF 246
+
+
+
+ Score = 35.4 bits (80), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 15/40 (37%), Positives = 26/40 (65%)
+
+Query: 443 DVTQLPNDILIKLSTEAILQMDSTKLITGLSIVASRYTDL 482
+           DV QLP D+L+K++   + ++DS+ L+  +  V +RY  L
+Sbjct: 367 DVKQLPPDLLVKIAVPVLARVDSSALMQAVEGVRARYQTL 406
+
+
+>CADNFIAP00009216 pep:known contig:CADRE:9374:469511:471627:1 gene:CADNFIAG00009456
+           transcript:CADNFIAT00009456 description:"ATP-dependent
+           RNA helicase has1"
+          Length = 622
+
+ Score = 32.0 bits (71), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + ++I F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 442 ICTDVAARGLDIPAVDWIIQFDPP--DDPRDYIHRVGRTARGANAKGRSLM 490
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 6,107,301
+Number of extensions: 224014
+Number of successful extensions: 667
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 666
+Number of HSP's successfully gapped: 4
+Length of query: 785
+Length of database: 5,073,492
+Length adjustment: 101
+Effective length of query: 684
+Effective length of database: 4,022,890
+Effective search space: 2751656760
+Effective search space used: 2751656760
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

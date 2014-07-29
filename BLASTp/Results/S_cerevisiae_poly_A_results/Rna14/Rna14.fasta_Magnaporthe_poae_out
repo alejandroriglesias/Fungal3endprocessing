@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_03784T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   234   1e-65
+
+>MAPG_03784T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:798794:80
+           2229:-1 gene:MAPG_03784 transcript:MAPG_03784T0
+           description:"mRNA 3'-end-processing protein RNA-14"
+          Length = 1070
+
+ Score =  234 bits (596), Expect = 1e-65,   Method: Compositional matrix adjust.
+ Identities = 172/608 (28%), Positives = 280/608 (46%), Gaps = 105/608 (17%)
+
+Query: 34  RIKDNPTNIL-SYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARDEF 92
+           R+K++P   + ++  L+     + +  + R+VYE+F   FP  +  W   L+ EL    F
+Sbjct: 176 RVKEDPRGAMDAWLSLVAAYHQRNNIQETRDVYERFLAIFPHAADMWVKYLEMELNEGNF 235
+
+Query: 93  ETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQKCAI 152
+              E +  + L   +   ++ LW+ YLDYIRR+N+L     +AR V+ +A++ V+    I
+Sbjct: 236 VEAEALFGKSL---MSVPNVQLWTVYLDYIRRRNDLNDPSGQARKVVTQAYEFVIDNVGI 292
+
+Query: 153 FEPKSSSFWNEYLNFLEQWKPF----NKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRY 208
+            +  S   WN+Y+ F+ +  P     + W++QQ++D LR+ +++ +CVP  N+  +W  Y
+Sbjct: 293 -DKDSGKIWNDYIQFI-RLAPGVIGGSAWQDQQKMDQLRKTFQRAVCVPISNVNSLWREY 350
+
+Query: 209 TQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIPQPG 268
+            Q+E+ +N  T RKF+ E S  YM A+S                  N  T    + P+  
+Sbjct: 351 DQFEKGLNPTTGRKFLNERSPAYMTAKS-----------------ANDGTRQHHSKPRFE 393
+
+Query: 269 TSDSNIQQLQIWLNWIKWERENKLMLSED---MLSQRISYVYKQGIQYMIFSAEMWYDYS 325
+                 +QL+IW  WIKWERE+ L L+ D   +L +RI Y Y+Q I  + F  E+W D +
+Sbjct: 394 GDVEFAEQLEIWKRWIKWEREDPLDLANDEPELLKKRILYTYRQAIMALRFCPEIWVDAA 453
+
+Query: 326 MYISENSDRQN-------ILYTALLANPDSPSLTFKLSECYELDND-----------SES 367
+            +  EN    N        L  A+ ANP+S  L  K ++  E  +              +
+Sbjct: 454 EWCFENGMVLNGKDAGLAFLTEAIEANPESVLLALKHADRIETTHPIGEGDEAKIARGNA 513
+
+Query: 368 VSNCFDKCTQTLLSQYKKI-----------------------ASDVNSGE--------DN 396
+           V   + K   TL +Q K +                       + D + GE        D 
+Sbjct: 514 VKAPYSKVLDTLYAQIKSLKEREKAEIAKIRESAAQAVPAQKSEDDDDGEPSTEKPQPDE 573
+
+Query: 397 NTE----------YEQELLYKQREKLTFVFCVYMNTMKRISG-------LSAARTVFGKC 439
+           N E           + ELL +    ++FV+      M+RI G       L   R VF + 
+Sbjct: 574 NQEKISALEKGFAAQTELLAR---TVSFVWIALARAMRRIQGKGTPGAPLGGMRQVFTEA 630
+
+Query: 440 RKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKD 499
+           R+  R LT DVY+  A LE+    D  +  K+LE G + F  D  ++ +YL +L   +  
+Sbjct: 631 RQRGR-LTSDVYIAMAQLEWTVYKD-PSGGKILERGARLFPEDEYFMLEYLKYLHAKDDT 688
+
+Query: 500 SQIKTLFETSVEKV----QDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQENL 555
+           +  + +FET V ++      + + K +Y     YES+FG L+    LEKR  E FP++  
+Sbjct: 689 TNARVVFETCVNRLTQQPASVHKAKPLYSYFHQYESRFGELSQTAKLEKRMAELFPEDPQ 748
+
+Query: 556 IEVFTSRY 563
+           +  F++R+
+Sbjct: 749 LAHFSARF 756
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 6,016,491
+Number of extensions: 234384
+Number of successful extensions: 570
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 563
+Number of HSP's successfully gapped: 9
+Length of query: 677
+Length of database: 4,928,244
+Length adjustment: 100
+Effective length of query: 577
+Effective length of database: 3,791,244
+Effective search space: 2187547788
+Effective search space used: 2187547788
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

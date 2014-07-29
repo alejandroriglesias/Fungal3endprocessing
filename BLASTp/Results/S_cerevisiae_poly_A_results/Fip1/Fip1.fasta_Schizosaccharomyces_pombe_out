@@ -1,0 +1,112 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC22G7.10.1:pep pep:known chromosome:ASM294v2:I:753624:755676:...    85   2e-19
+SPCC16C4.10.1:pep pep:known chromosome:ASM294v2:III:685848:68740...    29   0.78 
+SPCC320.13c.1:pep pep:known chromosome:ASM294v2:III:141627:14303...    28   2.1  
+
+>SPAC22G7.10.1:pep pep:known chromosome:ASM294v2:I:753624:755676:1 gene:SPAC22G7.10
+           transcript:SPAC22G7.10.1 description:"mRNA cleavage and
+           polyadenylation specificity factor complex subunit, Fip1
+           homolog (predicted)"
+          Length = 344
+
+ Score = 85.1 bits (209), Expect = 2e-19,   Method: Compositional matrix adjust.
+ Identities = 43/104 (41%), Positives = 57/104 (54%), Gaps = 2/104 (1%)
+
+Query: 143 TATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFN 202
+           TA  VK TE            +D+D     D   I  ID E   +KPWR+PGA++SDYFN
+Sbjct: 84  TAVEVKTTEPQDLSTAETAPKVDIDAVPTIDGKNIFEIDLESFDDKPWRKPGADISDYFN 143
+
+Query: 203 YGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQGKLNSAN 246
+           YGF+EFTW  Y  +Q  L+ D++P++ +  L   Q  G L S N
+Sbjct: 144 YGFDEFTWAAYCAKQTTLRDDFSPQKFMASL--AQIPGPLPSGN 185
+
+
+>SPCC16C4.10.1:pep pep:known chromosome:ASM294v2:III:685848:687406:1 gene:SPCC16C4.10
+           transcript:SPCC16C4.10.1
+           description:"6-phosphogluconolactonase (predicted)"
+          Length = 257
+
+ Score = 28.9 bits (63), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 20/37 (54%)
+
+Query: 153 DGNVPKAMTGSIDLDKEGIFDSVGITTIDPEVLKEKP 189
+           D N   A+   +  DK   FD   I TI+PE+LKE P
+Sbjct: 76  DENSNYALCKKLIFDKFEGFDPKKIHTINPELLKENP 112
+
+
+>SPCC320.13c.1:pep pep:known chromosome:ASM294v2:III:141627:143038:1 gene:SPCC320.13c
+           transcript:SPCC320.13c.1 description:"aurora-B kinase
+           Ark1"
+          Length = 355
+
+ Score = 27.7 bits (60), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 17/31 (54%)
+
+Query: 203 YGFNEFTWMEYLHRQEKLQQDYNPRRILMGL 233
+           Y F     + YLH++  + +D  P  IL+G+
+Sbjct: 192 YIFQMANALSYLHKKHVIHRDIKPENILLGI 222
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 1,090,603
+Number of extensions: 43568
+Number of successful extensions: 161
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 159
+Number of HSP's successfully gapped: 19
+Length of query: 327
+Length of database: 2,387,769
+Length adjustment: 89
+Effective length of query: 238
+Effective length of database: 1,929,953
+Effective search space: 459328814
+Effective search space used: 459328814
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

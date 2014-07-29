@@ -1,0 +1,168 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00012418 pep:known chromosome:CADRE:V:2643363:2644398:-1...   430   e-152
+CADANGAP00005867 pep:known chromosome:CADRE:IV:1529046:1530195:-...    33   0.086
+CADANGAP00005335 pep:known chromosome:CADRE:IV:314686:316817:-1 ...    32   0.17 
+CADANGAP00007026 pep:known chromosome:CADRE:VIII:3581459:3583174...    30   0.53 
+CADANGAP00001548 pep:known chromosome:CADRE:IV:5818220:5819298:-...    28   3.8  
+CADANGAP00009617 pep:known chromosome:CADRE:III:1655617:1657184:...    28   4.0  
+CADANGAP00003238 pep:known chromosome:CADRE:VI:3595813:3596194:1...    27   4.2  
+CADANGAP00006444 pep:known chromosome:CADRE:VIII:2179440:2181376...    27   6.0  
+CADANGAP00013124 pep:known chromosome:CADRE:V:979944:983882:-1 g...    27   7.5  
+CADANGAP00001318 pep:known chromosome:CADRE:II:4220792:4222713:1...    27   8.0  
+CADANGAP00012021 pep:known chromosome:CADRE:III:3956550:3958018:...    27   8.1  
+
+>CADANGAP00012418 pep:known chromosome:CADRE:V:2643363:2644398:-1
+           gene:CADANGAG00012658 transcript:CADANGAT00012658
+           description:"Complex\x3a in human"
+          Length = 277
+
+ Score =  430 bits (1106), Expect = e-152,   Method: Compositional matrix adjust.
+ Identities = 210/261 (80%), Positives = 225/261 (86%), Gaps = 4/261 (1%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MST T TA+QS +PPIIP  F+A QP+TIRLYPLSNYTFG KETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTTTATAIQSSRPPIIPKDFSAQQPKTIRLYPLSNYTFGTKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY+ HGMRRTCEG+LVCHEHNHPH+LMLQIANAFFKLPGDYL  EDDEVEGFK RL+ER
+Sbjct: 61  EHYDLHGMRRTCEGVLVCHEHNHPHVLMLQIANAFFKLPGDYLHFEDDEVEGFKKRLNER 120
+
+Query: 121 LAPVGRLGEGEEAG-DWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE    DW+IGD LAQWWRPNFETFMYPF+P HVTRPKECKKLYFIQLP  
+Sbjct: 121 LAPVGSQFSGEGVNEDWEIGDTLAQWWRPNFETFMYPFLPGHVTRPKECKKLYFIQLPKK 180
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE  NVVA TPG+ P
+Sbjct: 181 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDENDNVVAATPGT-P 239
+
+Query: 240 GEGDHVPKTKVLAG--GDDVD 258
+                +P+TKVLAG  GD  D
+Sbjct: 240 LPDHQIPRTKVLAGDSGDGQD 260
+
+
+>CADANGAP00005867 pep:known chromosome:CADRE:IV:1529046:1530195:-1
+           gene:CADANGAG00005988 transcript:CADANGAT00005988
+           description:"Complex\x3a five proteins interact with
+           mCBP in the yeast two hybrid system"
+          Length = 360
+
+ Score = 32.7 bits (73), Expect = 0.086,   Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 22/45 (48%), Gaps = 1/45 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY-PFVPAHV 162
+           ER+  V    EG E   W+IG CL   W+    T +Y P V A V
+Sbjct: 174 ERIVEVQGTPEGIEKAVWEIGKCLIDDWQRGTGTILYNPAVRASV 218
+
+
+>CADANGAP00005335 pep:known chromosome:CADRE:IV:314686:316817:-1
+           gene:CADANGAG00005443 transcript:CADANGAT00005443
+           description:"Similarity to hypothetical protein
+           CAD21260.1 - Neurospora crassa"
+          Length = 585
+
+ Score = 32.3 bits (72), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 32/75 (42%), Gaps = 15/75 (20%)
+
+Query: 70  RTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERLAPVGRLGE 129
+           R C GI V H H HP ++   I+   +   G+Y              LDER A VG + +
+Sbjct: 513 RIC-GIAVNHAHCHPALVTAVISIGLY---GEYF-----------TELDEREALVGIINQ 557
+
+Query: 130 GEEAGDWQIGDCLAQ 144
+             +   W +  C A+
+Sbjct: 558 TRDLHSWPMQKCYAR 572
+
+
+>CADANGAP00007026 pep:known chromosome:CADRE:VIII:3581459:3583174:1
+           gene:CADANGAG00007158 transcript:CADANGAT00007158
+           description:"Remark\x3a immunoglobulin variable region
+           used by the ITC63B heavy chain"
+          Length = 571
+
+ Score = 30.4 bits (67), Expect = 0.53,   Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 18/34 (52%), Gaps = 4/34 (11%)
+
+Query: 146 WRPNFETFM----YPFVPAHVTRPKECKKLYFIQ 175
+           W    ++FM    +P    H+ R  EC+ LYFIQ
+Sbjct: 411 WSGTTQSFMQEPIHPATNGHIRRSDECRLLYFIQ 444
+
+
+>CADANGAP00001548 pep:known chromosome:CADRE:IV:5818220:5819298:-1
+           gene:CADANGAG00001599 transcript:CADANGAT00001599
+           description:"Catalytic activity\x3a vestitone + NADP+
+           \x3d 2'-hydroxyformononetin + NADPH"
+          Length = 309
+
+ Score = 27.7 bits (60), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 24/87 (27%), Positives = 36/87 (41%), Gaps = 19/87 (21%)
+
+Query: 28  TIRLYPLSNYTFGVKETQPEEDPS------VLARLKRLEEHYNAHGMRRTCEGILV---- 77
+           T R  P S Y+    E     DPS      V   LK+ +  Y      R C G+L+    
+Sbjct: 99  TKRFVP-SEYSVIQTEDLLPHDPSIKYWLDVAEMLKKTKLQYT-----RVCPGVLMDYWG 152
+
+Query: 78  ---CHEHNHPHILMLQIANAFFKLPGD 101
+                 + H H++ + +AN +  +PGD
+Sbjct: 153 MPRVRTNIHQHVIGIDVANCWAGIPGD 179
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 3,903,093
+Number of extensions: 183949
+Number of successful extensions: 393
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 392
+Number of HSP's successfully gapped: 14
+Length of query: 266
+Length of database: 6,195,193
+Length adjustment: 93
+Effective length of query: 173
+Effective length of database: 4,886,869
+Effective search space: 845428337
+Effective search space used: 845428337
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

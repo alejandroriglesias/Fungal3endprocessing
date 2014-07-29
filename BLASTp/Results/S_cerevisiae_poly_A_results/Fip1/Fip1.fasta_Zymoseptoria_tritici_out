@@ -1,0 +1,83 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P110826 pep:known chromosome:MG2:9:1484039:1485160:1 gene:...    59   5e-10
+
+>Mycgr3P110826 pep:known chromosome:MG2:9:1484039:1485160:1 gene:Mycgr3G110826
+           transcript:Mycgr3T110826 description:"Putative
+           uncharacterized protein"
+          Length = 308
+
+ Score = 58.5 bits (140), Expect = 5e-10,   Method: Compositional matrix adjust.
+ Identities = 33/85 (38%), Positives = 51/85 (60%), Gaps = 10/85 (11%)
+
+Query: 146 TVKATESDGN-----VPKAMTGSIDLDKEGIFDSVG--ITTIDPEV-LKE--KPWRQPGA 195
+           TVK T +  N      P   + ++D++   I+ + G  IT ID +  L E  KPWR PG 
+Sbjct: 113 TVKPTLTHNNKEGKEFPALRSSAVDVNDTPIWPANGKPITAIDIDADLAEHSKPWRLPGT 172
+
+Query: 196 NLSDYFNYGFNEFTWMEYLHRQEKL 220
+           + +D+FNYGF+E+TW++Y  RQ+ +
+Sbjct: 173 DQTDFFNYGFDEYTWVQYSLRQQTM 197
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 2,246,267
+Number of extensions: 91498
+Number of successful extensions: 301
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 299
+Number of HSP's successfully gapped: 11
+Length of query: 327
+Length of database: 4,742,065
+Length adjustment: 93
+Effective length of query: 234
+Effective length of database: 3,725,482
+Effective search space: 871762788
+Effective search space used: 871762788
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

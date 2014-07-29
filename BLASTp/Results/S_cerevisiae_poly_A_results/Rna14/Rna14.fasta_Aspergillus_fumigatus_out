@@ -1,0 +1,245 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00003734 pep:known scaffold:CADRE:DS499596:1192026:11952...   272   6e-79
+CADAFUBP00002258 pep:known scaffold:CADRE:DS499595:1702356:17052...    33   0.24 
+CADAFUBP00004986 pep:known scaffold:CADRE:DS499597:557710:559396...    32   0.74 
+CADAFUBP00005506 pep:known scaffold:CADRE:DS499597:2105025:21124...    31   1.0  
+CADAFUBP00008626 pep:known scaffold:CADRE:DS499601:580308:581919...    31   1.2  
+CADAFUBP00002285 pep:known scaffold:CADRE:DS499595:1849518:18512...    28   5.7  
+CADAFUBP00000083 pep:known scaffold:CADRE:DS499594:221371:222754...    28   7.7  
+CADAFUBP00004042 pep:known scaffold:CADRE:DS499596:2069484:20723...    28   7.9  
+
+>CADAFUBP00003734 pep:known scaffold:CADRE:DS499596:1192026:1195281:1
+           gene:CADAFUBG00003799 transcript:CADAFUBT00003799
+           description:"CFIA complex component Rna14, putative"
+          Length = 1029
+
+ Score =  272 bits (696), Expect = 6e-79,   Method: Compositional matrix adjust.
+ Identities = 201/636 (31%), Positives = 305/636 (47%), Gaps = 94/636 (14%)
+
+Query: 2   SSSTTPDLLYPSADKVAEPSDNIHGDELRLRERIKDNP-TNILSYFQLIQYLETQESYAK 60
+           S++ TP    PS  K   P D +      L +RI+++P  +I ++ +LI    ++  +  
+Sbjct: 230 SATATPTPDSPSTSKGRLPHDRVG----ILEDRIQEDPRGDIPAWLELINEHRSRNRFDS 285
+
+Query: 61  VREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLD 120
+            R+V+E+F   FPF +  W    K E   ++   +E+I  + L   L   D+ LWS YLD
+Sbjct: 286 ARDVFERFLKVFPFAAEQWVAYAKMESELNDLYRLEQIFNRTL---LTIPDVQLWSVYLD 342
+
+Query: 121 YIRRKNNLITG--GQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFN--- 175
+           Y+RR+N L T   GQ AR +I  A++L  Q   + +  S S W++Y+ F++   P N   
+Sbjct: 343 YVRRRNPLTTDTTGQ-ARRIISSAYELAFQHIGV-DKDSGSIWSDYVQFIKSG-PGNVGG 399
+
+Query: 176 -KWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKA 234
+             W++QQ++D+LR+ Y+K +CVP   +  +W  Y Q+E  +N LT RKF+ E S  YM A
+Sbjct: 400 SGWQDQQKMDLLRKAYQKAICVPTQAVNTLWKEYDQFEMGLNKLTGRKFLQEQSPAYMTA 459
+
+Query: 235 RSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNI---QQLQIWLNWIKWERENK 291
+           RS Y E  N+T  L       +RT   +  P PG SD +I   QQ+ IW  WIKWE+ + 
+Sbjct: 460 RSSYTELQNITRDL-------IRTTLPRLPPVPG-SDGDIEFTQQVDIWKRWIKWEKGDP 511
+
+Query: 292 LMLSED---MLSQRISYVYKQGIQYMIFSAEMWYDYSMYISEN---SDRQNILYTALLAN 345
+           L+L E+       R+ YVYKQ +  + F  EMW+D + +   N   S+    L   + AN
+Sbjct: 512 LVLKEEDPAAFKGRVVYVYKQALMALRFLPEMWFDAAEFCFLNDLESEGNEFLKQGMEAN 571
+
+Query: 346 PDSPSLTFKLSECYELDNDSE--------SVSNCFDKCTQTLLSQYKKI----ASDVNSG 393
+           P+S  L FK ++  E+ ++SE         V   +DK    L     K     A DV   
+Sbjct: 572 PESCLLAFKRADRLEITSESEQDPIKRGAKVREPYDKLLDALYDLIAKARTREAQDVARL 631
+
+Query: 394 E--------DNNTEYEQELLYKQREK----------------------------LTFVFC 417
+           E        DN      +    Q E                             ++F + 
+Sbjct: 632 EETFAKMNADNPPAKTDDDDDDQSESKARESVKNAQIDAVRKAHAIQIGILSKTISFAWI 691
+
+Query: 418 VYMNTMKRISG------LSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKV 471
+             M  M+RI G         +R VF   RK  RI T DVY+ +A +E+    D   A K+
+Sbjct: 692 ALMRAMRRIQGKGKPGETPGSRQVFADARKRGRI-TSDVYIASALIEYHCYKD-PAATKI 749
+
+Query: 472 LELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKV----QDLTQLKEIYKKMI 527
+            E G K F +D  +  +YL  LI +N     + +FE +V K+     ++ + K I+  + 
+Sbjct: 750 FERGAKLFPDDENFALEYLKHLIDINDIINARAVFEMTVRKLASNPDNVHKTKPIFAFLH 809
+
+Query: 528 SYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRY 563
+            YES++G+L  V +LE R  E FP++  +E F  RY
+Sbjct: 810 EYESRYGDLVQVINLENRMRELFPEDPTLEQFAHRY 845
+
+
+
+ Score = 30.8 bits (68), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 12/42 (28%), Positives = 25/42 (59%), Gaps = 1/42 (2%)
+
+Query: 629 SELPTEVLDLLSVIPKRQYFNTNLLDAQKLVNFLNDQVEIPT 670
+           + LP +++ LLS+IP    +       +KLV+ +  ++E+P+
+Sbjct: 951 APLPRDIVHLLSIIPPASAYTAGRFSPEKLVDLIR-RIEMPS 991
+
+
+>CADAFUBP00002258 pep:known scaffold:CADRE:DS499595:1702356:1705242:-1
+           gene:CADAFUBG00002309 transcript:CADAFUBT00002309
+           description:"mRNA splicing factor (Prp1/Zer1), putative"
+          Length = 926
+
+ Score = 33.1 bits (74), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 32/120 (26%), Positives = 47/120 (39%), Gaps = 14/120 (11%)
+
+Query: 50  QYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLEN 109
+           Q  E Q  Y + RE Y       P   P W L  + E           +L +      ++
+Sbjct: 715 QIYEYQNKYPQAREAYSTGTRACPKSVPLWLLASRLEEKSGAVVKARSVLDRARLAVPKS 774
+
+Query: 110 NDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLE 169
+            +  LW+  +   RR NN+   GQ A+ ++ KA Q V        P S   W+E +  LE
+Sbjct: 775 AE--LWTESVRVERRANNI---GQ-AKVLMAKALQEV--------PTSGLLWSESIWHLE 820
+
+
+>CADAFUBP00004986 pep:known scaffold:CADRE:DS499597:557710:559396:1
+           gene:CADAFUBG00005075 transcript:CADAFUBT00005075
+           description:"Splicing factor 3a subunit 3, putative"
+          Length = 542
+
+ Score = 31.6 bits (70), Expect = 0.74,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 42/72 (58%), Gaps = 3/72 (4%)
+
+Query: 181 QRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARK-FIGELS-AEYMKARSLY 238
+           +++D +++F+K+    P +NLE+ + R    E E   +     F GE +  +++   +L+
+Sbjct: 84  RQLDEIKDFHKRYPNEPVENLERAYKRRQPGEGEPTGVEIDTMFSGEEAYGQFLDLTTLH 143
+
+Query: 239 QEWLNVTNGLKR 250
+           +++LN+  G+KR
+Sbjct: 144 EDYLNLP-GVKR 154
+
+
+>CADAFUBP00005506 pep:known scaffold:CADRE:DS499597:2105025:2112475:-1
+           gene:CADAFUBG00005603 transcript:CADAFUBT00005603
+           description:"Myosin type II heavy chain, putative"
+          Length = 2405
+
+ Score = 31.2 bits (69), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 28/58 (48%)
+
+Query: 309 QGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYELDNDSE 366
+           QG     ++AE+ YD   ++ +N D  N   T LLA      +    S+C + D D+E
+Sbjct: 663 QGFVLTHYAAEVEYDTEGWLEKNKDPLNDNVTRLLARSTDKHVACLFSDCGDPDEDNE 720
+
+
+>CADAFUBP00008626 pep:known scaffold:CADRE:DS499601:580308:581919:1
+           gene:CADAFUBG00008786 transcript:CADAFUBT00008786
+           description:"RNA binding protein, putative"
+          Length = 459
+
+ Score = 30.8 bits (68), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 36/135 (26%), Positives = 56/135 (41%), Gaps = 31/135 (22%)
+
+Query: 415 VFCVYMNTMKRISGLSAARTVFGK---CRKLKRILTHDVYVENAYLEFQNQNDYKTAFKV 471
+           +F   +N + +   L    + FG    C  ++   T D  ++ A++EF+NQ D + A   
+Sbjct: 250 LFVCKLNPVTQDEDLQLIFSRFGPILSCEVIRDKRTGD-SLQYAFIEFENQKDCEQA--- 305
+
+Query: 472 LELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYK-KMISYE 530
+                 YF+  GV I+           D +I   F  SV K      L E ++   IS  
+Sbjct: 306 ------YFKMQGVLID-----------DHRIHVDFSQSVSK------LSESWRNATISKR 342
+
+Query: 531 SKFGNLNNVYSLEKR 545
+           S+ G    V  LEK+
+Sbjct: 343 SQRGGFGGVAELEKK 357
+
+
+>CADAFUBP00002285 pep:known scaffold:CADRE:DS499595:1849518:1851294:-1
+           gene:CADAFUBG00002336 transcript:CADAFUBT00002336
+           description:"COP9 subunit 3, putative"
+          Length = 497
+
+ Score = 28.5 bits (62), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 22/34 (64%), Gaps = 2/34 (5%)
+
+Query: 96  EKILAQCLSGKLE--NNDLSLWSTYLDYIRRKNN 127
+           E++L   L+G L+  N+DL L S +L ++RR  N
+Sbjct: 433 ERLLLTTLAGNLDQSNHDLELSSEHLQFLRRAKN 466
+
+
+>CADAFUBP00000083 pep:known scaffold:CADRE:DS499594:221371:222754:-1
+           gene:CADAFUBG00000084 transcript:CADAFUBT00000084
+           description:"Putative uncharacterized protein"
+          Length = 420
+
+ Score = 28.1 bits (61), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 16/24 (66%)
+
+Query: 189 FYKKMLCVPFDNLEKMWNRYTQWE 212
+           F KK L  P+ NLEK+W  +T +E
+Sbjct: 207 FLKKHLDGPYFNLEKIWEEHTYYE 230
+
+
+>CADAFUBP00004042 pep:known scaffold:CADRE:DS499596:2069484:2072348:-1
+           gene:CADAFUBG00004114 transcript:CADAFUBT00004114
+           description:"Probable dipeptidyl-aminopeptidase B"
+          Length = 919
+
+ Score = 28.1 bits (61), Expect = 7.9,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 22/44 (50%), Gaps = 10/44 (22%)
+
+Query: 23  NIHGDELRLRERIKDNPTNILSYFQLIQYLETQESYAKVREVYE 66
+           N HGDE+   +RI+DN           Q  +  E+YA   EVY+
+Sbjct: 609 NTHGDEITYEDRIEDN----------AQLTKMVEAYALPTEVYQ 642
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 6,084,989
+Number of extensions: 246516
+Number of successful extensions: 639
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 630
+Number of HSP's successfully gapped: 14
+Length of query: 677
+Length of database: 4,796,137
+Length adjustment: 100
+Effective length of query: 577
+Effective length of database: 3,804,537
+Effective search space: 2195217849
+Effective search space used: 2195217849
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

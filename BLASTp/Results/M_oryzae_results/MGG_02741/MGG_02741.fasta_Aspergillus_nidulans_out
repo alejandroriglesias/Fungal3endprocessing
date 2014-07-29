@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00005622 pep:known chromosome:ASM1142v1:III:949538:95177...   171   2e-48
+CADANIAP00005779 pep:known chromosome:ASM1142v1:III:1396346:1401...    32   0.52 
+
+>CADANIAP00005622 pep:known chromosome:ASM1142v1:III:949538:951773:1
+           gene:CADANIAG00005622 transcript:CADANIAT00005622
+           description:"RRM domain protein (AFU_orthologue\x3b
+           AFUA_3G06890)"
+          Length = 391
+
+ Score =  171 bits (433), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 113/229 (49%), Positives = 129/229 (56%), Gaps = 32/229 (13%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGGDDNKHDQSYEGGDHQDGHGANDNEQYRDD----- 50
+           MA ED  F+IDIYGD    N   QG     HD   E  D      A+DN Q   +     
+Sbjct: 1   MATEDDNFDIDIYGDGSGYNANDQGDFKQDHDMKQEDTDLI--LDASDNAQNSGNSTDSG 58
+
+Query: 51  ---QQXXXXXXXXXXXXXXXXTES----ATPQQSNPLKRKEGSDDRAIDPGATSAILISE 103
+              QQ                 +      TPQQ   +KRKE  D+R +DP AT A+LISE
+Sbjct: 59  TIQQQPNVTTNGAPVTQSDTNNQQMQKDTTPQQG--VKRKE-LDERPVDPDATPALLISE 115
+
+Query: 104 LQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLES 163
+           L WW TDDDIRGW REAGCE+ELKD+TFSEHKVNGKSKGQ ++E TS  AATA KH ++S
+Sbjct: 116 LHWWTTDDDIRGWTREAGCEDELKDVTFSEHKVNGKSKGQAFLEFTSLPAATATKHHIDS 175
+
+Query: 164 SGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQP------RTGKDGQNRP 206
+               G  Q+GRK  V Y+SP  NPFRTLPKD P      RTG  G N P
+Sbjct: 176 LSTTG--QSGRKFLVNYTSPIPNPFRTLPKDNPMRKDNARTG--GFNSP 220
+
+
+>CADANIAP00005779 pep:known chromosome:ASM1142v1:III:1396346:1401173:1
+            gene:CADANIAG00005779 transcript:CADANIAT00005779
+            description:"pre-mRNA splicing factor (Prp24), putative
+            (AFU_orthologue\x3b AFUA_2G01820)"
+          Length = 1290
+
+ Score = 31.6 bits (70), Expect = 0.52,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 4/58 (6%)
+
+Query: 99   ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATA 156
+            I +S + W  ++DD++      G  E ++       KV+G SKG  Y+  +S++ ATA
+Sbjct: 998  IHVSNVNWSASEDDLKELFSRFGTVELVR----LPRKVDGGSKGFGYVVFSSKEEATA 1051
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 2,689,192
+Number of extensions: 105852
+Number of successful extensions: 337
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 330
+Number of HSP's successfully gapped: 17
+Length of query: 424
+Length of database: 5,078,913
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 4,067,649
+Effective search space: 1334188872
+Effective search space used: 1334188872
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

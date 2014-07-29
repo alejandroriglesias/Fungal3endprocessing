@@ -1,0 +1,23 @@
+for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/Ane_orthologues/*fasta`; do echo $f; done
+
+
+
+#BLASTp in the case of no e-value cutoff
+for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/Ane_orthologues/*fasta`; do blastp -query $f -db /home/alexx/Fungal3endprocessing/FASTA_fungal_genomes/FASTA_genomes.fasta -out $f"_"FASTA_genomes_out  -outfmt 0; done 
+
+
+-num_descriptions <Integer, >=0>
+   Number of database sequences to show one-line descriptions for
+   Not applicable for outfmt > 4
+   Default = `500'
+    * Incompatible with:  max_target_seqs
+ -num_alignments <Integer, >=0>
+   Number of database sequences to show alignments for
+   Default = `250'
+    * Incompatible with:  max_target_seqs
+
+
+
+
+#adding the increment of descriptions and alignments output view
+for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/Ane_orthologues/*fasta`; do blastp -query $f -db /home/alexx/Fungal3endprocessing/FASTA_fungal_genomes/FASTA_genomes.fasta -out $f"_"FASTA_genomes_out  -outfmt 0 -num_descriptions 100000 -num_alignments 100000; done

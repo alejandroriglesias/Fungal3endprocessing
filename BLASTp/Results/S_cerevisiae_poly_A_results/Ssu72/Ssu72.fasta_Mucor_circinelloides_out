@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.fa
+
+           12,227 sequences; 5,364,083 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+HMPREF1544_08471T0 | HMPREF1544_08471 | Mucor circinelloides f. ...   214   3e-70
+HMPREF1544_08570T0 | HMPREF1544_08570 | Mucor circinelloides f. ...    28   1.2  
+HMPREF1544_12091T0 | HMPREF1544_12091 | Mucor circinelloides f. ...    28   1.3  
+HMPREF1544_09110T0 | HMPREF1544_09110 | Mucor circinelloides f. ...    27   3.5  
+HMPREF1544_02739T0 | HMPREF1544_02739 | Mucor circinelloides f. ...    27   3.8  
+HMPREF1544_02180T0 | HMPREF1544_02180 | Mucor circinelloides f. ...    27   5.0  
+HMPREF1544_11422T0 | HMPREF1544_11422 | Mucor circinelloides f. ...    27   5.3  
+HMPREF1544_10770T0 | HMPREF1544_10770 | Mucor circinelloides f. ...    26   7.8  
+HMPREF1544_02329T0 | HMPREF1544_02329 | Mucor circinelloides f. ...    26   9.5  
+
+>HMPREF1544_08471T0 | HMPREF1544_08471 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (192 aa)
+          Length = 191
+
+ Score =  214 bits (546), Expect = 3e-70,   Method: Compositional matrix adjust.
+ Identities = 103/198 (52%), Positives = 136/198 (68%), Gaps = 10/198 (5%)
+
+Query: 10  KFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIYN 69
+           K+  +CASN NRSME+H VL + G+NV SYGTG+ VRLPG +IDKPN+Y FGTPY  +Y 
+Sbjct: 3   KYAVICASNQNRSMEAHHVLNKKGFNVRSYGTGTMVRLPGPAIDKPNIYPFGTPYEQVYQ 62
+
+Query: 70  DLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCEDLMNR 129
+           +L  Q    Y  NGLL MLDRNR+ K+AP++W ES ++FD + TCEERCFD+V EDL NR
+Sbjct: 63  ELKKQDQALYTQNGLLSMLDRNRKTKEAPQRWHESRELFDVIITCEERCFDSVVEDLSNR 122
+
+Query: 130 GGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMD-ILT 188
+           G  LN+  HVINV+IKD+ E+A +G +AIL+LA M+         +DI   D  MD I+ 
+Sbjct: 123 GQNLNQSTHVINVEIKDNHEDALLGGRAILQLAQMIE------ASNDI---DADMDGIIE 173
+
+Query: 189 EWQSSHSQLPSLYAPSYY 206
+           E+   +   P L+  +Y+
+Sbjct: 174 EFTLRNPGFPILHTVAYF 191
+
+
+>HMPREF1544_08570T0 | HMPREF1544_08570 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (241 aa)
+          Length = 240
+
+ Score = 28.5 bits (62), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/67 (23%), Positives = 33/67 (49%), Gaps = 5/67 (7%)
+
+Query: 117 RCFDAVCEDLMNRGGKLNKIVH--VINVDIKDDDENAKIGSKAILEL---ADMLNDKIEQ 171
+           R   ++ ED+  RGG ++ + H   I   IK +D  + I  K +       ++  + +E+
+Sbjct: 121 RHLQSIAEDIYKRGGVVSAVCHGPAILPGIKGEDGKSIINGKTVTGFTTEGEVQMNILEK 180
+
+Query: 172 CEKDDIP 178
+            ++D +P
+Sbjct: 181 IKQDKVP 187
+
+
+>HMPREF1544_12091T0 | HMPREF1544_12091 | Mucor circinelloides f. circinelloides 1006PhL
+           hypothetical protein (598 aa)
+          Length = 597
+
+ Score = 28.5 bits (62), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 17/39 (43%), Positives = 23/39 (58%), Gaps = 5/39 (12%)
+
+Query: 122 VCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILE 160
+           VC  L NR     KI+ ++N D+   D +AKIG+ A LE
+Sbjct: 82  VCNPLQNR-----KILILLNFDVVQVDVDAKIGAPASLE 115
+
+
+>HMPREF1544_09110T0 | HMPREF1544_09110 | Mucor circinelloides f. circinelloides 1006PhL
+           ATP-dependent RNA helicase DHH1 (514 aa)
+          Length = 513
+
+ Score = 27.3 bits (59), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 326 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 358
+
+
+>HMPREF1544_02739T0 | HMPREF1544_02739 | Mucor circinelloides f. circinelloides 1006PhL
+           ATP-dependent RNA helicase dhh1 (500 aa)
+          Length = 499
+
+ Score = 26.9 bits (58), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 326 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 358
+
+
+  Database: mucor_circinelloides_f._circinelloides_1006phl_1_proteins.
+  fa
+    Posted date:  Feb 27, 2014  9:31 AM
+  Number of letters in database: 5,364,083
+  Number of sequences in database:  12,227
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12227
+Number of Hits to DB: 2,418,170
+Number of extensions: 104234
+Number of successful extensions: 349
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 349
+Number of HSP's successfully gapped: 19
+Length of query: 206
+Length of database: 5,364,083
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,275,880
+Effective search space: 500277960
+Effective search space used: 500277960
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

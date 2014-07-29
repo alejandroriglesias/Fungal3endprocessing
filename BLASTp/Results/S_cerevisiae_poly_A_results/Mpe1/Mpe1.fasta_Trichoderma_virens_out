@@ -1,0 +1,166 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK16525 pep:novel supercontig:ASM17099v1:90:545744:547870:1 gen...   269   1e-82
+EHK17965 pep:novel supercontig:ASM17099v1:87:416126:418154:1 gen...    35   0.034
+EHK20268 pep:novel supercontig:ASM17099v1:80:112019:118328:1 gen...    33   0.27 
+EHK21172 pep:novel supercontig:ASM17099v1:74:157904:161653:-1 ge...    30   2.2  
+EHK26999 pep:novel supercontig:ASM17099v1:1:865350:865807:-1 gen...    28   3.3  
+EHK19554 pep:novel supercontig:ASM17099v1:83:555989:557344:1 gen...    28   5.8  
+EHK20860 pep:novel supercontig:ASM17099v1:77:178589:182746:1 gen...    28   7.0  
+
+>EHK16525 pep:novel supercontig:ASM17099v1:90:545744:547870:1
+           gene:TRIVIDRAFT_2145 transcript:EHK16525
+           description:"hypothetical protein"
+          Length = 631
+
+ Score =  269 bits (687), Expect = 1e-82,   Method: Compositional matrix adjust.
+ Identities = 145/376 (38%), Positives = 211/376 (56%), Gaps = 35/376 (9%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++F++FKSQ+  +R+ FDGTG++VF+LKREII ++ LGDGTDF L IY  D  EEYD
+Sbjct: 1   MSSSVFFKFKSQKEPTRVEFDGTGISVFELKREIINKSGLGDGTDFDLYIYTDDNSEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  ++PRST+VI +R PA+K                 G A RYV+G+  V  K      
+Sbjct: 61  DDTTIVPRSTTVIARRQPAVK--------------PGAGRAARYVSGKMPVAAKNAGRKE 106
+
+Query: 121 XXXNVSGT--------------TEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNK 166
+               VS T              TEE+R+A+MFA            +S   PV F    +K
+Sbjct: 107 QLTKVSATKPNTNAFSQMNDAMTEEDRMAAMFAAQTEQWSAQQEELSHQAPVPFGKPGSK 166
+
+Query: 167 NSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE-- 223
+             A   +  PP GY+CYRCG + HWI+ CPTN DP+F+ + R++RTTGIP+ FL+ ++  
+Sbjct: 167 RPANVPDHDPPNGYICYRCGNKGHWIQLCPTNDDPDFDNRPRVKRTTGIPRSFLQKVDKS 226
+
+Query: 224 -IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFK 282
+            I  ++   E      IM+  EG FV+   DK SWE +Q K ++               +
+Sbjct: 227 VILAQSEGDETKRPSGIMVNAEGDFVIAEPDKASWEQFQAKAKSSSAAAKTAQAEDKEMQ 286
+
+Query: 283 DLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVP 342
+           +    L+C +   +  +P+KT  CC   F  + + NAL+ESDFVCP C+T  +L+D L P
+Sbjct: 287 ER--GLECSIDKKMFIEPMKTP-CCQKTFCNDCITNALIESDFVCPACQTEGVLIDDLQP 343
+
+Query: 343 DQDKEKEVETFLKKQE 358
+           D++  K+++ ++K++E
+Sbjct: 344 DEEVSKKIQEYIKEKE 359
+
+
+>EHK17965 pep:novel supercontig:ASM17099v1:87:416126:418154:1
+           gene:TRIVIDRAFT_67185 transcript:EHK17965
+           description:"hypothetical protein"
+          Length = 596
+
+ Score = 35.4 bits (80), Expect = 0.034,   Method: Compositional matrix adjust.
+ Identities = 10/15 (66%), Positives = 11/15 (73%)
+
+Query: 182 CYRCGGRDHWIKNCP 196
+           CY CGGR HW+  CP
+Sbjct: 17  CYNCGGRGHWVVACP 31
+
+
+>EHK20268 pep:novel supercontig:ASM17099v1:80:112019:118328:1
+            gene:TRIVIDRAFT_90152 transcript:EHK20268
+            description:"glycosyltransferase family 2 protein"
+          Length = 1858
+
+ Score = 32.7 bits (73), Expect = 0.27,   Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (60%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDET 274
+            +K++I+DEGKF      K+ WE+YQ +    Q   D+T
+Sbjct: 1686 KKVLISDEGKFDPSSIPKKKWEEYQAELWETQTSRDDT 1723
+
+
+>EHK21172 pep:novel supercontig:ASM17099v1:74:157904:161653:-1
+           gene:TRIVIDRAFT_83649 transcript:EHK21172
+           description:"hypothetical protein"
+          Length = 1169
+
+ Score = 29.6 bits (65), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 33/81 (40%), Gaps = 4/81 (4%)
+
+Query: 249 VQVEDKQSWEDYQRKRENRQIDGDETI----WRKGHFKDLPDDLKCPLTGGLLRQPVKTS 304
+           +  E +  W  Y+R  E  +   D       W KG F+DL  DL   +        +++S
+Sbjct: 97  ILAEAEPLWLSYKRVVEGVRPSPDRKAPLVQWDKGRFEDLIRDLTASIDTLYDLSRMRSS 156
+
+Query: 305 KCCNIDFSKEALENALVESDF 325
+              N   +K   ++A  E DF
+Sbjct: 157 DAANHLVTKSPFKSAAAEGDF 177
+
+
+>EHK26999 pep:novel supercontig:ASM17099v1:1:865350:865807:-1
+           gene:TRIVIDRAFT_196883 transcript:EHK26999
+           description:"hypothetical protein"
+          Length = 129
+
+ Score = 27.7 bits (60), Expect = 3.3,   Method: Composition-based stats.
+ Identities = 12/31 (38%), Positives = 16/31 (51%), Gaps = 4/31 (12%)
+
+Query: 182 CYRCGGRDHWIKNCPT----NSDPNFEGKRI 208
+           CY C  R H  +NCP+     +  N  G+RI
+Sbjct: 90  CYDCSRRGHLSRNCPSRRGRTTVQNLSGRRI 120
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 5,079,454
+Number of extensions: 221098
+Number of successful extensions: 454
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 449
+Number of HSP's successfully gapped: 18
+Length of query: 441
+Length of database: 5,836,678
+Length adjustment: 98
+Effective length of query: 343
+Effective length of database: 4,620,890
+Effective search space: 1584965270
+Effective search space used: 1584965270
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

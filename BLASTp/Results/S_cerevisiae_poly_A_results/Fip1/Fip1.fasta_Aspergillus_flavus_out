@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00004368 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:5...    63   2e-11
+CADAFLAP00012901 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1...    28   6.3  
+
+>CADAFLAP00004368 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:563070:564168:-1
+           gene:CADAFLAG00004368 transcript:CADAFLAT00004368
+           description:"Cleavage and polyadenylylation specificity
+           factor subunit Fip1 "
+          Length = 328
+
+ Score = 62.8 bits (151), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 21/37 (56%), Positives = 34/37 (91%)
+
+Query: 187 EKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           +KPWR+PG+++SDYFNYGF+EFTW  Y+ +Q++L+++
+Sbjct: 166 DKPWRRPGSDISDYFNYGFDEFTWASYVLKQQELRKE 202
+
+
+>CADAFLAP00012901 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:140443:144341:-1
+           gene:CADAFLAG00012901 transcript:CADAFLAT00012901
+           description:"5-oxo-L-prolinase, putative "
+          Length = 1280
+
+ Score = 27.7 bits (60), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 205 FNEFTWMEYLHRQEKLQQDYNPRRILMGLLSL 236
+           FNE T      R+EK Q +Y P  + +G L +
+Sbjct: 433 FNELTQKINAERKEKGQPEYAPEEVALGFLKV 464
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 2,660,344
+Number of extensions: 107826
+Number of successful extensions: 319
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 317
+Number of HSP's successfully gapped: 13
+Length of query: 327
+Length of database: 5,672,061
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,404,283
+Effective search space: 1026197939
+Effective search space used: 1026197939
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

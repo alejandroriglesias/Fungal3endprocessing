@@ -1,0 +1,173 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_04996P0 pep:known chromosome:ASM24013v2:3:847604:849104:-1 ...   382   e-128
+FGSG_00503P0 pep:known chromosome:ASM24013v2:1:1572765:1574532:1...    33   0.25 
+FGSG_10911P0 pep:known chromosome:ASM24013v2:3:6282831:6284977:-...    32   0.42 
+FGSG_06012P0 pep:known chromosome:ASM24013v2:3:4033704:4035991:1...    31   0.73 
+FGSG_05392P0 pep:known chromosome:ASM24013v2:3:2117218:2119259:-...    31   0.97 
+FGSG_07258P0 pep:known chromosome:ASM24013v2:4:2914445:2929225:1...    30   1.6  
+FGSG_07569P0 pep:known chromosome:ASM24013v2:4:3900062:3902762:-...    30   2.0  
+FGSG_06706P0 pep:known chromosome:ASM24013v2:4:916260:919047:1 g...    29   3.5  
+
+>FGSG_04996P0 pep:known chromosome:ASM24013v2:3:847604:849104:-1 gene:FGSG_04996
+           transcript:FGSG_04996T0 description:"conserved
+           hypothetical protein"
+          Length = 454
+
+ Score =  382 bits (980), Expect = e-128,   Method: Compositional matrix adjust.
+ Identities = 204/463 (44%), Positives = 277/463 (59%), Gaps = 17/463 (3%)
+
+Query: 1   MSIPGLGLIPEKPA-TSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNV 59
+           MSIPGLG IP +P  T+ +R  TL P  E+RF  S  + + + L  GTAE+DG EL    
+Sbjct: 1   MSIPGLGQIPSQPTITATNRVVTLRPLCEWRFQTSQASPVIVKLLSGTAEKDGVELGPKN 60
+
+Query: 60  AYTLSGVKSKILSWHGANLSIEGITDHESVA---GPDDAANTAHLNLHAFLQXXXXXXXX 116
+           AYT +GVKSKIL+WHG  L I+G  D ESVA    P D     H+NLH  L         
+Sbjct: 61  AYTFAGVKSKILTWHGCELEIDGRCDAESVAEYANPTDNPANTHMNLHGQLNDMRQAAAR 120
+
+Query: 117 XXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXXXX 176
+                     GPR L+ G    G+T+L RTL ++ATR G QP+VV+A+            
+Sbjct: 121 EGR------EGPRALIVGPADVGKTTLARTLTSYATRQGYQPLVVNANPREGLLSLPGTL 174
+
+Query: 177 SAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXXXX 236
+           SA+V  T++D                 VPVKLPLVFYYG+   ++D D Y+ + +     
+Sbjct: 175 SASVLATILDPEAVDGWGSTPTSGPSSVPVKLPLVFYYGQTSPDQDPDFYRELTSKLAGS 234
+
+Query: 237 XXXXXXDDPAVRSAGMLIDTPPYVEGK--GADVLIHIAEELN--VNIIVTIDTPSLHTEL 292
+                 +D  V+S+G++ID     E    G +++ HI +E +  VN+I+ + +P++ +EL
+Sbjct: 235 VSARLSEDQDVKSSGVIIDGMGLTEQSKDGHELVAHIVDEFSETVNVIIVVGSPAISSEL 294
+
+Query: 293 TQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQ 352
+           ++RF   +  LGE +SVV +DKS GV+ RDE FLQH+ EA+IKEYF+GD++ TLSP  QQ
+Sbjct: 295 SRRFGTERTSLGEPISVVPIDKSDGVVVRDEAFLQHVREAAIKEYFYGDSRRTLSPLIQQ 354
+
+Query: 353 VAFDELAIYTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSG 412
+           V FD + +Y + +   Y  +    E    P   M HW LA+M+AAP D P  +R A V G
+Sbjct: 355 VDFDNVVVYHTSDEHSYPDQGITRE---DPCTPMQHWTLAVMNAAPKDAPDVVRAASVMG 411
+
+Query: 413 FVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+           F+YV+ VD+ERR++K+LAPVSGRLGD+PLVWGKWPEP+INLLG
+Sbjct: 412 FLYVSDVDEERRKIKLLAPVSGRLGDQPLVWGKWPEPYINLLG 454
+
+
+>FGSG_00503P0 pep:known chromosome:ASM24013v2:1:1572765:1574532:1 gene:FGSG_00503
+           transcript:FGSG_00503T0 description:"conserved
+           hypothetical protein"
+          Length = 554
+
+ Score = 32.7 bits (73), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 34/130 (26%), Positives = 51/130 (39%), Gaps = 27/130 (20%)
+
+Query: 278 NIIVTIDTPSLHTELTQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEY 337
+           NI V   +  L T +T+ FSG  NV+G    +V L+  S   +         GE+   E 
+Sbjct: 329 NIDVISHSDILLTSITKSFSGYANVMG---GLVVLNPLSCHYQALHSLF---GESHHNEL 382
+
+Query: 338 FFGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAA 397
+           F  DA++ LS                  +SD+    G L R    + E  H  +    + 
+Sbjct: 383 FTADAQVLLS-----------------NSSDFLERTGILNRNALAMAEFLHEAI----SP 421
+
+Query: 398 PNDPPHKIRY 407
+           PN P   ++Y
+Sbjct: 422 PNSPVINVQY 431
+
+
+>FGSG_10911P0 pep:known chromosome:ASM24013v2:3:6282831:6284977:-1
+           gene:FGSG_10911 transcript:FGSG_10911T0
+           description:"Iron-sulfur clusters transporter ATM1,
+           mitochondrial"
+          Length = 698
+
+ Score = 32.0 bits (71), Expect = 0.42,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 23/40 (57%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDAD 164
+           P G +V V G +GCG+++L+R L       G + ++ D D
+Sbjct: 463 PAGKKVAVVGPSGCGKSTLLRLLFRSYDVQGGRVLIDDQD 502
+
+
+>FGSG_06012P0 pep:known chromosome:ASM24013v2:3:4033704:4035991:1 gene:FGSG_06012
+           transcript:FGSG_06012T0 description:"hypothetical
+           protein similar to ABC fatty acid transporter"
+          Length = 709
+
+ Score = 31.2 bits (69), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 15/22 (68%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTL 147
+           HG  +LV G  GCG++SL R L
+Sbjct: 488 HGDHLLVVGPNGCGKSSLFRIL 509
+
+
+>FGSG_05392P0 pep:known chromosome:ASM24013v2:3:2117218:2119259:-1
+           gene:FGSG_05392 transcript:FGSG_05392T0
+           description:"conserved hypothetical protein"
+          Length = 615
+
+ Score = 30.8 bits (68), Expect = 0.97,   Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 19/20 (95%)
+
+Query: 129 RVLVAGKTGCGRTSLVRTLA 148
+           +++VAG++G G+TSL++TLA
+Sbjct: 195 KIMVAGQSGIGKTSLIKTLA 214
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 5,069,105
+Number of extensions: 203972
+Number of successful extensions: 520
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 515
+Number of HSP's successfully gapped: 10
+Length of query: 455
+Length of database: 5,933,672
+Length adjustment: 98
+Effective length of query: 357
+Effective length of database: 4,628,508
+Effective search space: 1652377356
+Effective search space used: 1652377356
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

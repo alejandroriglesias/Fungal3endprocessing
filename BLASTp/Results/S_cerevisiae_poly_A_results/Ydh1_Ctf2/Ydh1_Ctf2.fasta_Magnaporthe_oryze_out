@@ -1,0 +1,134 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_06570T0 pep:known chromosome:MG8:4:3236048:3239350:-1 gene:M...   112   2e-25
+MGG_09313T0 pep:known chromosome:MG8:1:4189107:4191698:1 gene:MG...    29   6.8  
+
+>MGG_06570T0 pep:known chromosome:MG8:4:3236048:3239350:-1 gene:MGG_06570
+           transcript:MGG_06570T0 description:"Putative
+           uncharacterized protein"
+          Length = 962
+
+ Score =  112 bits (279), Expect = 2e-25,   Method: Compositional matrix adjust.
+ Identities = 103/336 (30%), Positives = 152/336 (45%), Gaps = 48/336 (14%)
+
+Query: 14  TTVGSVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSL 72
+           T   S++  D  V +LID GW+ +    E+ +K  EK +P + +I+L+  T+  L A   
+Sbjct: 15  TASQSLLELDGGVKVLIDIGWDET-FDVEK-LKEVEKQVPTLSLILLTHATVPHLSALVH 72
+
+Query: 73  LYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGV----------------IGPYDT 116
+              NF     +RI +YAT P I+LGR    D Y+S                        T
+Sbjct: 73  CCKNFP--LFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAEASYSFSQTQT 130
+
+Query: 117 NKLDL-------EDIEISFDHIVPLKYSQLVD-LRSRY----DGLTLLAYNAGVCPGGSI 164
+           N           ++I   F  I PLKYSQ    L S +    +GLT+ AYNAG   GG+I
+Sbjct: 131 NGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAYNAGHSLGGTI 190
+
+Query: 165 WCISTYSEKLVYAKRWNHTRDNIL-----NAASILDATGKPLSTLMRPSAIITTLDRFGS 219
+           W I    E +VYA  WN  RDN+                + +  L +P+A++ +      
+Sbjct: 191 WHIQHGMESIVYAVDWNLARDNVYAGAAWMGGGHGGGGAEVIEQLRKPTALVCSTRTAEG 250
+
+Query: 220 SQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPV 279
+                 R K   DT++  +S  G+V+IPVD S + L+L      LL  + +  A T+   
+Sbjct: 251 GLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAY----LLEHAWRSEASTEGGG 306
+
+Query: 280 LILS--YARGR----TLTYAKSMLEWLSPSLLKTWE 309
+           L  +  Y  GR    T+  AKSM EW+  S+++ +E
+Sbjct: 307 LSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFE 342
+
+
+
+ Score = 69.3 bits (168), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 56/219 (25%), Positives = 102/219 (46%), Gaps = 36/219 (16%)
+
+Query: 643 TISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNEEITAKLIKKN 702
+           T +TV+V L+ +++  +   L D+RS +++ P ++ RK++L A    + E +     +  
+Sbjct: 703 TSTTVSVNLRLALI--DFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNA 760
+
+Query: 703 IEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQRISDSYTVATVVGRLV------KE 756
+           IEV   P+  +V+ S       + +   L   LKWQ++     + TV  +L       K 
+Sbjct: 761 IEVFTPPVGAVVDASVDTNAWVVKLADPLVKRLKWQQVR-GLGIVTVTAQLTATPAAQKN 819
+
+Query: 757 SLP------------------QVNNHQKTASRSKLVLKP--------LHGSSRSHKTGAL 790
+            +P                   V++ + TA    + + P        +  +SRS     L
+Sbjct: 820 GIPLLIADDDGANKRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAAQ-VL 878
+
+Query: 791 SIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRK 829
+            +G++RLA L++ +    + A+F+GEGTL+I+  V VRK
+Sbjct: 879 HVGELRLADLRRTMQNLGHSADFRGEGTLLIDGTVVVRK 917
+
+
+>MGG_09313T0 pep:known chromosome:MG8:1:4189107:4191698:1 gene:MGG_09313
+           transcript:MGG_09313T0 description:"Ribosome biogenesis
+           protein ERB1"
+          Length = 777
+
+ Score = 28.9 bits (63), Expect = 6.8,   Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%)
+
+Query: 158 VCPGGSIWCISTYSEKLVYAKRWNHTRDNILNAAS 192
+           + P   +W +   S++ V A RW  T+D ++ AA+
+Sbjct: 461 INPARQVWAVKLSSDEAVNAVRWRPTKDTMILAAA 495
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 8,840,782
+Number of extensions: 357702
+Number of successful extensions: 873
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 871
+Number of HSP's successfully gapped: 10
+Length of query: 859
+Length of database: 5,666,059
+Length adjustment: 103
+Effective length of query: 756
+Effective length of database: 4,352,294
+Effective search space: 3290334264
+Effective search space used: 3290334264
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

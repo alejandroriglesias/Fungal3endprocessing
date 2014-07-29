@@ -1,0 +1,194 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00002417 pep:known chromosome:ASM1142v1:VIII:3927829:392...   157   3e-47
+CADANIAP00008164 pep:known chromosome:ASM1142v1:VII:1047060:1048...    56   9e-10
+CADANIAP00009587 pep:known chromosome:ASM1142v1:VI:636048:637889...    33   0.033
+CADANIAP00007728 pep:known chromosome:ASM1142v1:I:3525262:352669...    32   0.11 
+CADANIAP00005166 pep:known chromosome:ASM1142v1:II:3651253:36535...    30   0.63 
+CADANIAP00003424 pep:known chromosome:ASM1142v1:V:1851589:185266...    29   0.70 
+CADANIAP00008932 pep:known chromosome:ASM1142v1:VII:3249377:3250...    27   3.0  
+CADANIAP00004776 pep:known chromosome:ASM1142v1:II:2589133:25908...    27   3.3  
+
+>CADANIAP00002417 pep:known chromosome:ASM1142v1:VIII:3927829:3928593:1
+           gene:CADANIAG00002417 transcript:CADANIAT00002417
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit, putative
+           (AFU_orthologue\x3b AFUA_1G02810)"
+          Length = 254
+
+ Score =  157 bits (398), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 81/188 (43%), Positives = 110/188 (58%), Gaps = 25/188 (13%)
+
+Query: 3   LIHPDTAKYP----FKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVL 58
+           L+  D  + P    F F PFLR+ Y F L  D P+C+ Y+  EG   CP GP CP +H  
+Sbjct: 12  LVSTDRTREPGFDRFSFVPFLRKSYGFGLVTDVPVCKAYS--EG--HCPLGPACPDRHPT 67
+
+Query: 59  P----------------IFQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNG 102
+           P                     +VC+H+L+GLCKK  +CEYLHEYNLR+MPEC  FS++G
+Sbjct: 68  PSRVTTSTTTASGLAPSTTHGSLVCKHFLKGLCKKGMKCEYLHEYNLRRMPECQSFSRSG 127
+
+Query: 103 YCTQSPDCQYLHIDPASKIPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDE 162
+           YC    DC Y H+   +++P CE+Y+ GFCPLG  C +RH+++  C  Y+ GFCP G + 
+Sbjct: 128 YCPNGDDCLYQHVREQARLPPCEHYDQGFCPLGPLCAKRHVRRRLCPYYVAGFCPEGPN- 186
+
+Query: 163 CDMEHPQF 170
+           C   HP++
+Sbjct: 187 CANAHPRW 194
+
+
+>CADANIAP00008164 pep:known chromosome:ASM1142v1:VII:1047060:1048953:-1
+           gene:CADANIAG00008164 transcript:CADANIAT00008164
+           description:"CCCH zinc finger protein
+           (AFU_orthologue\x3b AFUA_8G05480)"
+          Length = 467
+
+ Score = 56.2 bits (134), Expect = 9e-10,   Method: Compositional matrix adjust.
+ Identities = 41/127 (32%), Positives = 65/127 (51%), Gaps = 14/127 (11%)
+
+Query: 45  SCPRGPLCPKKHVLPIFQNKI-VCRHWLR-GLCKKNDQCEYLHEYNLRKMPECVFFSKNG 102
+           +C +GP CP  H      NK+ +C+ +L+ G C   + C+  HE +  + P CV F + G
+Sbjct: 283 TCYKGPSCPYIH----DPNKVAICKDFLQTGKCSAGNSCDLSHEPSPHRSPACVHFLR-G 337
+
+Query: 103 YCTQSPDCQYLHIDPASKIPKCENYE-MGFCPLGSSCPRRHIKKVFCQRYM-TGFCPLGK 160
+            C+ +P+C+Y H+      P C  +  +G+C  G +C  RH+ +  C  Y  TG C   K
+Sbjct: 338 RCS-NPECRYAHVRVTPGAPVCRAFATLGYCDKGETCEERHVHE--CPDYANTGVCK--K 392
+
+Query: 161 DECDMEH 167
+             C + H
+Sbjct: 393 KHCRLPH 399
+
+
+
+ Score = 34.3 bits (77), Expect = 0.020,   Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 35/75 (46%), Gaps = 11/75 (14%)
+
+Query: 77  KNDQCEYLHEYNLRKMPE--------CVFFSKNGYCTQSPDCQYLHIDPASKIPKCENY- 127
+           KN     L     +++P         C  F+  G C + P C Y+H DP +K+  C+++ 
+Sbjct: 249 KNGNLHRLGAVTSKRVPSAVKKKDELCQRFTTTGTCYKGPSCPYIH-DP-NKVAICKDFL 306
+
+Query: 128 EMGFCPLGSSCPRRH 142
+           + G C  G+SC   H
+Sbjct: 307 QTGKCSAGNSCDLSH 321
+
+
+>CADANIAP00009587 pep:known chromosome:ASM1142v1:VI:636048:637889:-1
+           gene:CADANIAG00009587 transcript:CADANIAT00009587
+           description:"spindle poison sensitivity protein Scp3,
+           putative (AFU_orthologue\x3b AFUA_3G05570)"
+          Length = 549
+
+ Score = 33.5 bits (75), Expect = 0.033,   Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 3/60 (5%)
+
+Query: 85  HEYNLRKMPECVFFSKNGYCTQSPDCQYLH-IDPASKIPKCENYEMGFCPLGSSCPRRHI 143
+           ++ N + +P C FF + G C   P C +LH  D A +   C+ +  G C  G+ C   HI
+Sbjct: 64  NQSNTKHVP-CKFF-RQGACQAGPACPFLHSTDAAIEYAPCKYFTKGNCKFGAKCALAHI 121
+
+
+
+ Score = 27.7 bits (60), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 15/54 (27%), Positives = 25/54 (46%), Gaps = 2/54 (3%)
+
+Query: 65  IVCRHWLRGLCKKNDQCEYLHEYNLR-KMPECVFFSKNGYCTQSPDCQYLHIDP 117
+           + C+ + +G C+    C +LH  +   +   C +F+K G C     C   HI P
+Sbjct: 71  VPCKFFRQGACQAGPACPFLHSTDAAIEYAPCKYFTK-GNCKFGAKCALAHILP 123
+
+
+>CADANIAP00007728 pep:known chromosome:ASM1142v1:I:3525262:3526696:1
+           gene:CADANIAG00007728 transcript:CADANIAT00007728
+           description:"CCCH finger DNA binding protein, putative
+           (AFU_orthologue\x3b AFUA_5G13930)"
+          Length = 340
+
+ Score = 32.0 bits (71), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 36/132 (27%), Positives = 51/132 (38%), Gaps = 25/132 (18%)
+
+Query: 15  FEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKI-----VCRH 69
+           F+P   Q+  F +DP   +C+FY  ++G   C +G  C   H L + +            
+Sbjct: 78  FKPVQVQKVPFGVDPKTVLCQFY--KQG--HCEKGRKCKFSHDLNVDRKAAKKDLYTDSR 133
+
+Query: 70  WLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPD--CQYLHIDPASKIPKCENY 127
+                 KK D  E   E  LR     V  SK+G    + D  C+Y        I   EN 
+Sbjct: 134 EAEDEKKKADTMEQWDEAKLR----SVVLSKHGNPRTTTDKVCKYF-------IEAVENQ 182
+
+Query: 128 EMGF---CPLGS 136
+           + G+   CP G 
+Sbjct: 183 KYGWFWVCPNGG 194
+
+
+>CADANIAP00005166 pep:known chromosome:ASM1142v1:II:3651253:3653561:1
+           gene:CADANIAG00005166 transcript:CADANIAT00005166
+           description:"CCCH zinc finger and SMR domain protein
+           (AFU_orthologue\x3b AFUA_4G13020)"
+          Length = 734
+
+ Score = 29.6 bits (65), Expect = 0.63,   Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 25/48 (52%), Gaps = 4/48 (8%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYLHIDPASKIPKCENYEMGFCPLGSSCPRRH 142
+           C ++   G C ++ DC++ H D  S +  C+ + MG C  G  CP  H
+Sbjct: 286 CKYWLSTGQCLRA-DCRFSH-DLTSHL--CKYWVMGNCLAGDGCPFSH 329
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 2,370,500
+Number of extensions: 105303
+Number of successful extensions: 211
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 191
+Number of HSP's successfully gapped: 18
+Length of query: 208
+Length of database: 5,078,913
+Length adjustment: 89
+Effective length of query: 119
+Effective length of database: 4,141,387
+Effective search space: 492825053
+Effective search space used: 492825053
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 51 (24.3 bits)

@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ33346 pep:novel supercontig:GCA_000149035.1:GG697369:357607:3...   496   e-178
+EFQ34737 pep:novel supercontig:GCA_000149035.1:GG697383:179710:1...    27   2.8  
+EFQ30351 pep:novel supercontig:GCA_000149035.1:GG697349:65081:65...    28   3.3  
+EFQ31018 pep:novel supercontig:GCA_000149035.1:GG697352:440347:4...    28   4.4  
+EFQ32891 pep:novel supercontig:GCA_000149035.1:GG697365:375225:3...    25   5.5  
+EFQ28936 pep:novel supercontig:GCA_000149035.1:GG697342:969766:9...    27   6.0  
+
+>EFQ33346 pep:novel supercontig:GCA_000149035.1:GG697369:357607:358508:-1
+           gene:GLRG_08490 transcript:EFQ33346
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 269
+
+ Score =  496 bits (1276), Expect = e-178,   Method: Compositional matrix adjust.
+ Identities = 233/261 (89%), Positives = 246/261 (94%), Gaps = 1/261 (0%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTITTTALQSG  PIIPL+FN+NQPETIRLYPLSNYTFGVKETQPEEDPSV+ARLKRLE
+Sbjct: 1   MSTITTTALQSGHAPIIPLAFNSNQPETIRLYPLSNYTFGVKETQPEEDPSVIARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHYN HGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFK+RLDER
+Sbjct: 61  EHYNQHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKSRLDER 120
+
+Query: 121 LAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+           LAPVGR+GEGEE  DWQ+GDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLP SK
+Sbjct: 121 LAPVGRIGEGEEPADWQVGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPKSK 180
+
+Query: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPG 240
+           VLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDE GN+VA TPGS   
+Sbjct: 181 VLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDENGNIVAATPGSSAP 240
+
+Query: 241 EGDHVPKTKVLAGGDDVDMKQ 261
+           EG +VP TK+LA GDD DM++
+Sbjct: 241 EG-YVPTTKILASGDDTDMQE 260
+
+
+>EFQ34737 pep:novel supercontig:GCA_000149035.1:GG697383:179710:180365:1
+           gene:GLRG_09881 transcript:EFQ34737
+           description:"thioredoxin"
+          Length = 142
+
+ Score = 27.3 bits (59), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 43/91 (47%), Gaps = 3/91 (3%)
+
+Query: 135 DWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSKVLSVPKNMKLLAVP 194
+           D+ I D  A W  P     + P + A ++  ++  KL+FI++   +V  V + + + A+P
+Sbjct: 50  DFVIVDAFATWCGPC--KAIAPIL-AGLSNEEKNSKLHFIKIDVDEVPDVSQELGIRAMP 106
+
+Query: 195 LFELYDNSARYGPQLSAIPHLLSKYNFEFVD 225
+            F L+    +    + A P  L +   +F +
+Sbjct: 107 TFLLFQKGEKAQEIVGANPPALKQAIEKFAE 137
+
+
+>EFQ30351 pep:novel supercontig:GCA_000149035.1:GG697349:65081:65866:1
+          gene:GLRG_05495 transcript:EFQ30351
+          description:"Asp/Glu/Hydantoin racemase"
+          Length = 261
+
+ Score = 27.7 bits (60), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 25/90 (27%), Positives = 42/90 (46%), Gaps = 21/90 (23%)
+
+Query: 16 IIPLSFNANQPETIRLY---PLSNYTF----GV--------KETQPEEDPSVLARLKRLE 60
+          I+P+S      + +R+Y   P  + +F    G+         ETQ  E  S  A L R  
+Sbjct: 13 IVPISTTGMTEDLVRIYKPRPGLDISFIDGRGLLGCPPCIENETQAFE--STRAVLPRTV 70
+
+Query: 61 EHYNAHGMRRTCEGILVCHEHNHPHILMLQ 90
+          ++ ++H    T +G+L+C   NHP +  L+
+Sbjct: 71 DYISSH----TLDGVLICCFSNHPLVSALR 96
+
+
+>EFQ31018 pep:novel supercontig:GCA_000149035.1:GG697352:440347:448351:-1
+           gene:GLRG_06162 transcript:EFQ31018
+           description:"beta-ketoacyl synthase domain-containing
+           protein"
+          Length = 2460
+
+ Score = 27.7 bits (60), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 24/50 (48%)
+
+Query: 24  NQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCE 73
+           N P  + L   S+    V      ++P VLAR  R+E  Y++H M+   E
+Sbjct: 712 NSPSNVTLSGESDVLQDVLHNIRLKNPEVLARALRVECGYHSHHMKTAAE 761
+
+
+>EFQ32891 pep:novel supercontig:GCA_000149035.1:GG697365:375225:375386:1
+           gene:GLRG_08035 transcript:EFQ32891
+           description:"hypothetical protein"
+          Length = 53
+
+ Score = 25.0 bits (53), Expect = 5.5,   Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 6/24 (25%)
+
+Query: 225 DEQGN------VVAQTPGSGPGEG 242
+           DEQG         A +PG+GPGEG
+Sbjct: 8   DEQGGRRVEACSTASSPGNGPGEG 31
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 3,546,970
+Number of extensions: 168194
+Number of successful extensions: 378
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 377
+Number of HSP's successfully gapped: 7
+Length of query: 266
+Length of database: 5,585,764
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,479,924
+Effective search space: 779506776
+Effective search space used: 779506776
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

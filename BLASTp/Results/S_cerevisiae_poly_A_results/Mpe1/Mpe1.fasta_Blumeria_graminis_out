@@ -1,0 +1,164 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81545 pep:novel supercontig:EF1:HF943563:173622:175533:-1 gen...   239   3e-72
+CCU75896 pep:novel supercontig:EF1:HF943548:2759070:2765178:1 ge...    29   1.9  
+CCU75659 pep:novel supercontig:EF1:HF943546:6084717:6087096:-1 g...    29   2.2  
+CCU83133 pep:novel supercontig:EF1:HF943551:6437:8101:-1 gene:BG...    28   2.7  
+CCU76155 pep:novel supercontig:EF1:HF943536:2094530:2095358:-1 g...    27   4.6  
+CCU77140 pep:novel supercontig:EF1:HF943525:416521:418194:1 gene...    27   6.0  
+CCU77590 pep:novel supercontig:EF1:HF943532:1035615:1038804:-1 g...    27   6.8  
+CCU77167 pep:novel supercontig:EF1:HF943525:774694:775815:1 gene...    26   9.8  
+
+>CCU81545 pep:novel supercontig:EF1:HF943563:173622:175533:-1
+           gene:BGHDH14_bgh01268 transcript:CCU81545
+           description:"zinc knuckle domain protein"
+          Length = 590
+
+ Score =  239 bits (611), Expect = 3e-72,   Method: Compositional matrix adjust.
+ Identities = 146/377 (38%), Positives = 211/377 (55%), Gaps = 52/377 (13%)
+
+Query: 3   STIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYDDD 62
+           S++FY+FKSQ+  SR+ FDGTG++VF+LKR+II ++ LGDG DF L I+N D  EEYDDD
+Sbjct: 2   SSVFYKFKSQKEPSRVEFDGTGISVFELKRDIIIKSGLGDGADFDLAIFNDDETEEYDDD 61
+
+Query: 63  AFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGR--------PRVLQK 114
+             +IPRST+VI +R PA K                 G A RY+TG+         R  Q 
+Sbjct: 62  TTIIPRSTTVIARRLPASKK--------------GAGRAQRYMTGKMPMNSKNTTRKDQA 107
+
+Query: 115 RQHXXXXXXNV---SGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQE 171
+           +        N+   S  TE++R+A+MF             M+  T V      +    + 
+Sbjct: 108 KATKANSAANMAVNSNMTEDQRLAAMFEASSQQWSEQLEEMAKQTKVH-----HMGGKKV 162
+
+Query: 172 NEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETMT 230
+           +EG PPPGY+CYRCG + HWIK CPTN DPNFE K RI+RTTGIP+ FL++  +D  T++
+Sbjct: 163 SEGEPPPGYVCYRCGEKGHWIKECPTNDDPNFENKPRIKRTTGIPRSFLRA--VDKPTVS 220
+
+Query: 231 PEEMAQRK----IMITDEGKFVVQVEDKQSWEDYQRKRENRQID------GDETIWRKGH 280
+           P +    K    +MI  EG+FV+   DK+SWE +Q K ++          GD+ +  +G 
+Sbjct: 221 PGDGNDVKQPSGVMINAEGQFVIAEPDKKSWEQFQAKTKSSAAAEKAAAVGDKELQDRG- 279
+
+Query: 281 FKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSL 340
+                  L+C +   +   P+KT  CC   +  + + N+L+ESDF CP C+   +LLD L
+Sbjct: 280 -------LECSVDRRIFLDPMKTP-CCEKTYCNDCITNSLIESDFTCPGCQAEGVLLDDL 331
+
+Query: 341 VPDQDKEKEVETFLKKQ 357
+            PD+     ++ +L+++
+Sbjct: 332 KPDEVTSLNIKCYLEEK 348
+
+
+>CCU75896 pep:novel supercontig:EF1:HF943548:2759070:2765178:1
+            gene:BGHDH14_bgh00324 transcript:CCU75896
+            description:"chitin synthase"
+          Length = 1705
+
+ Score = 28.9 bits (63), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 21/37 (56%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            +KI+ITDEGKF       + WE+YQ +    Q   D+
+Sbjct: 1444 KKIVITDEGKFDPDSIPHKKWEEYQAELWEAQTVKDD 1480
+
+
+>CCU75659 pep:novel supercontig:EF1:HF943546:6084717:6087096:-1
+           gene:BGHDH14_bgh01426 transcript:CCU75659
+           description:"Putative ATP-dependent RNA helicase"
+          Length = 777
+
+ Score = 28.9 bits (63), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 12/38 (31%), Positives = 23/38 (60%)
+
+Query: 3   STIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKL 40
+           + IF+R K + + +RI+F  +GL   +L   + QE ++
+Sbjct: 510 TIIFFRQKKEAHRARIIFSLSGLKASELHGSMSQEQRI 547
+
+
+>CCU83133 pep:novel supercontig:EF1:HF943551:6437:8101:-1
+           gene:BGHDH14_bgh04759 transcript:CCU83133
+           description:"hypothetical protein"
+          Length = 554
+
+ Score = 28.5 bits (62), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 11/15 (73%)
+
+Query: 182 CYRCGGRDHWIKNCP 196
+           CY+C G +H  +NCP
+Sbjct: 213 CYKCHGSNHISRNCP 227
+
+
+>CCU76155 pep:novel supercontig:EF1:HF943536:2094530:2095358:-1
+           gene:BGHDH14_bgh01469 transcript:CCU76155
+           description:"putative DNL zinc finger domain-containing
+           protein"
+          Length = 175
+
+ Score = 26.9 bits (58), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 13/47 (27%), Positives = 24/47 (51%), Gaps = 2/47 (4%)
+
+Query: 311 FSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQ 357
+            SK+   +  V +   CP C+ R ++ D L    DK+  +E  +++Q
+Sbjct: 104 ISKQGYHHGSVLA--TCPGCKNRHVISDHLRIFADKDLTIEDIMREQ 148
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 2,726,662
+Number of extensions: 120675
+Number of successful extensions: 302
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 296
+Number of HSP's successfully gapped: 18
+Length of query: 441
+Length of database: 3,131,961
+Length adjustment: 93
+Effective length of query: 348
+Effective length of database: 2,530,251
+Effective search space: 880527348
+Effective search space used: 880527348
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP30895 pep:known chromosome:v2.0:1:4401034:4401860:1 gene:N...   381   e-134
+NechaP46175 pep:known chromosome:v2.0:8:654562:656021:-1 gene:Ne...    30   1.0  
+NechaP43342 pep:known chromosome:v2.0:6:3397316:3399946:-1 gene:...    27   9.3  
+
+>NechaP30895 pep:known chromosome:v2.0:1:4401034:4401860:1 gene:NechaG30895
+           transcript:NechaT30895 description:"Predicted protein"
+          Length = 255
+
+ Score =  381 bits (979), Expect = e-134,   Method: Compositional matrix adjust.
+ Identities = 180/235 (76%), Positives = 193/235 (82%)
+
+Query: 25  DGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTS 84
+           DG+KL FCTVCASN NRSMEAHL+LS+A YPVISFGTGSLVRLPGPTITQPNVY FN TS
+Sbjct: 21  DGYKLTFCTVCASNNNRSMEAHLRLSQAEYPVISFGTGSLVRLPGPTITQPNVYHFNKTS 80
+
+Query: 85  YDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTE 144
+           YD+M+KELE KD RLY  NGILNML RNR VK GPERWQDWQ+G+PRL H+ DRGSEGTE
+Sbjct: 81  YDSMFKELESKDPRLYKNNGILNMLNRNRGVKWGPERWQDWQVGVPRLNHSKDRGSEGTE 140
+
+Query: 145 AGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANS 204
+            G+VD+V TCEERCWDAV++DL  RGSPLNRPVHVINV+IKDNHEEAAVGGQGILDLANS
+Sbjct: 141 GGLVDVVITCEERCWDAVIDDLLNRGSPLNRPVHVINVEIKDNHEEAAVGGQGILDLANS 200
+
+Query: 205 LNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           LN  A EERD I                  RV DVLA WQERWPNLPATWTLAWF
+Sbjct: 201 LNAVAREERDAIGAAAFDNGSAASRATFDERVPDVLASWQERWPNLPATWTLAWF 255
+
+
+>NechaP46175 pep:known chromosome:v2.0:8:654562:656021:-1 gene:NechaG46175
+           transcript:NechaT46175 description:"Putative
+           uncharacterized protein"
+          Length = 403
+
+ Score = 29.6 bits (65), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 13/42 (30%), Positives = 19/42 (45%)
+
+Query: 147 VVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNH 188
+           + D  F   + CWD V +DL+ R  P  +   +    I  NH
+Sbjct: 288 LADRPFISTKLCWDGVAKDLNFRVCPYPKTTGLYVATIGSNH 329
+
+
+>NechaP43342 pep:known chromosome:v2.0:6:3397316:3399946:-1 gene:NechaG43342
+           transcript:NechaT43342 description:"Putative
+           uncharacterized protein"
+          Length = 818
+
+ Score = 26.9 bits (58), Expect = 9.3,   Method: Compositional matrix adjust.
+ Identities = 10/21 (47%), Positives = 15/21 (71%)
+
+Query: 129 IPRLEHASDRGSEGTEAGVVD 149
+           +PR+EHA+D+ S     GV+D
+Sbjct: 672 LPRIEHATDKSSNNGYIGVLD 692
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 4,072,154
+Number of extensions: 164852
+Number of successful extensions: 344
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 343
+Number of HSP's successfully gapped: 5
+Length of query: 259
+Length of database: 7,529,425
+Length adjustment: 94
+Effective length of query: 165
+Effective length of database: 6,053,155
+Effective search space: 998770575
+Effective search space used: 998770575
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

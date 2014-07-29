@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU43222 pep:novel supercontig:GCA_000149985.1:supercont1.13:240...   606   0.0  
+EDU41495 pep:novel supercontig:GCA_000149985.1:supercont1.1:5925...    86   2e-17
+EDU47701 pep:novel supercontig:GCA_000149985.1:supercont1.4:1143...    36   0.032
+EDU45366 pep:novel supercontig:GCA_000149985.1:supercont1.2:1687...    34   0.14 
+EDU41539 pep:novel supercontig:GCA_000149985.1:supercont1.1:6158...    33   0.31 
+EDU41368 pep:novel supercontig:GCA_000149985.1:supercont1.1:5555...    32   0.91 
+EDU45293 pep:novel supercontig:GCA_000149985.1:supercont1.2:1485...    28   8.5  
+
+>EDU43222 pep:novel supercontig:GCA_000149985.1:supercont1.13:240097:243138:1
+           gene:PTRG_10171 transcript:EDU43222
+           description:"endoribonuclease YSH1"
+          Length = 871
+
+ Score =  606 bits (1562), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 324/694 (46%), Positives = 450/694 (64%), Gaps = 60/694 (8%)
+
+Query: 11  FFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFH 70
+           F  LGG NEVGRSCHI+QYKGKTVMLDAG+HPA++GL+++PFYD+FDLS VD+LLISHFH
+Sbjct: 26  FLCLGGGNEVGRSCHIIQYKGKTVMLDAGMHPAHEGLSAMPFYDDFDLSTVDVLLISHFH 85
+
+Query: 71  LDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLFSD 130
+           +DHAASLPYV+ +TNF+GRVFMTHPTKAIY+WL++D VRV   G       TK + ++++
+Sbjct: 86  VDHAASLPYVLAKTNFKGRVFMTHPTKAIYKWLIQDSVRV---GNMSSNSETKIQ-MYTE 141
+
+Query: 131 EDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVD 190
+            D ++++  IE++D+++T  V G++ T + AGHVLGAAMF +EIAGL++LFTGDYSRE D
+Sbjct: 142 ADHLNTYPMIESIDFYTTHTVAGVRITPYPAGHVLGAAMFLMEIAGLKILFTGDYSREDD 201
+
+Query: 191 RHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALG 249
+           RHL SA VP  +  +VLI ESTFG + H PR+ RE +L + I   + RGGR LLPVFALG
+Sbjct: 202 RHLVSASVPAGVKVDVLITESTFGISMHTPRVEREAQLMKAITDVLNRGGRALLPVFALG 261
+
+Query: 250 RAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR--- 306
+           RAQE++LILDEYWS+H +     ++PI+Y S+LA+KCM V+QTYV+ MND+I++ F    
+Sbjct: 262 RAQELLLILDEYWSKHPEV---QKIPIYYNSSLARKCMQVYQTYVSAMNDNIKRLFAERM 318
+
+Query: 307 --------DSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPED 358
+                     +   + FK +  L++LE F D G  VMLASPGM+QSG SR+LLERW P+ 
+Sbjct: 319 AEAEAAGDTGRRGAWDFKFVRSLKSLERFDDLGGCVMLASPGMMQSGTSRELLERWAPDP 378
+
+Query: 359 KNLVLITGYSIEGTMAKFIMLEPDTIPSI--------------NNPEITIPRRCQVEEIS 404
+           +N V+ITGYS+EGTMAK I+ EPD IP+I               N +  IPRRC V+E S
+Sbjct: 379 RNGVIITGYSVEGTMAKQIVHEPDQIPAIMTRASNTARRPGQRENEQTMIPRRCTVQEYS 438
+
+Query: 405 FAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRN 464
+           FAAHVD +EN+EF+++++AP +ILVHGE   M RLKS LLS F + K    +  +++P N
+Sbjct: 439 FAAHVDGKENMEFVQEVAAPVVILVHGEKGNMTRLKSKLLS-FNAQKAIPTK--IYSPAN 495
+
+Query: 465 CVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLV 524
+           C E+ + F+  K+AK VG                                +D +  KG  
+Sbjct: 496 CEELRIPFKTDKIAKVVG-------------KLASIAPPLPRSLTPGGSEIDQKGGKG-- 540
+
+Query: 525 DEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYW 584
+           DE E  D+ +SG+L+ +D  F++  ++  DL+E+    +TTIL  +         +LI W
+Sbjct: 541 DESERVDL-ISGVLIQND--FKISLMAPEDLKEYAGLTTTTILCRQHLTLSAAGIDLIRW 597
+
+Query: 585 HILQMFG--EAEVLQD---DDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTL 639
+            +   FG  +   L D   + ++   E   KEE  D   N  +    IM  + + + N  
+Sbjct: 598 ALEGTFGAIKESSLTDAAVNGKMNGAENGHKEEEADEEVNRTQTKFTIMDCVSVLVKNGG 657
+
+Query: 640 AV-VEWTQDLMNDTVADSIIAILMNVDSAPASVK 672
+            V VEW  +++ND +AD+++A+L  V+S+PA+V+
+Sbjct: 658 RVEVEWEGNVINDGIADAVLAVLFTVESSPAAVR 691
+
+
+>EDU41495 pep:novel supercontig:GCA_000149985.1:supercont1.1:5925806:5928780:
+           1 gene:PTRG_02057 transcript:EDU41495
+           description:"cleavage and polyadenylation specificity
+           factor subunit 2"
+          Length = 954
+
+ Score = 85.9 bits (211), Expect = 2e-17,   Method: Compositional matrix adjust.
+ Identities = 90/390 (23%), Positives = 159/390 (40%), Gaps = 78/390 (20%)
+
+Query: 55  EFDLSKVDILLISHFHLDHAASLPYVMQRTNF----QGRVFMTHPTKAIYRWLLRDFVRV 110
+           E  +  +  +L++H    H  +  YV    NF    +  V+ T+P  ++ R LL+D    
+Sbjct: 48  ERHVPTISFILLTHATTAHLGA--YVHCCKNFPLFTRIPVYATNPVISLGRTLLQDLYES 105
+
+Query: 111 TSIGXXXXXMGTKDEGLFS-------------------DEDLVDSFDKIETVDY---HST 148
+           T +          +E  +S                    +++ D F +I  + Y   H  
+Sbjct: 106 TPLASSIIPTEALNESAYSFSSALKGGNNPNILLQAPTSQEIADYFARINPLRYSQPHEP 165
+
+Query: 149 VD------VNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE----- 197
+           +       +NG+  TA+ AGH LG +++ I+     V++  D+++  +  L+ A      
+Sbjct: 166 IPSPHSPPLNGLTITAYSAGHTLGGSIWHIQHGMESVVYAVDWNQAREHVLSGAAWLGGP 225
+
+Query: 198 -------VPPLSSNVLIVESTFGTA----THEPRLNRERKLTQLIHSTVMRGGRVLLPVF 246
+                  +  L     ++ ST  T        P   R+  L ++I +T+  GG VL+P  
+Sbjct: 226 GTGGSEVLEQLRHPTALICSTKNTGMVKKARSPN-ERDEALLEMIRNTISNGGTVLIPSD 284
+
+Query: 247 ALGRAQEIMLILDEYWSQHADELGGGQVP-----IFYASNLAKKCMSVFQTYVNMMNDDI 301
+           +  R  E+  +L++ W +   E G G  P     ++ AS      M   ++ +  M + I
+Sbjct: 285 SSARILELAYLLEDTWEREVTE-GDGSGPLSTTKLYLASRTGGATMRYVRSMLEWMEEGI 343
+
+Query: 302 RKKFRDSQTN-----------------PFIFKNISYL----RNLEDFQDFGPSVMLASPG 340
+            K+F  S  +                 PF F++I+ L    R        GP V+LAS  
+Sbjct: 344 VKEFEASAADQDRRTKEGQEEERVAKVPFDFRHITLLERKTRVARMLAGAGPRVILASDA 403
+
+Query: 341 MLQSGLSRDLLERWCPEDKNLVLITGYSIE 370
+            L+ G S+D +     ++KNLV++T  S E
+Sbjct: 404 TLEWGFSKDAIRSLASDEKNLVILTERSGE 433
+
+
+>EDU47701 pep:novel supercontig:GCA_000149985.1:supercont1.4:1143731:1145560:
+           -1 gene:PTRG_04794 transcript:EDU47701
+           description:"hypothetical protein"
+          Length = 609
+
+ Score = 36.2 bits (82), Expect = 0.032,   Method: Compositional matrix adjust.
+ Identities = 18/38 (47%), Positives = 21/38 (55%)
+
+Query: 152 NGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREV 189
+           N I+ T   A H +GA MF IE  G  VL+TGD   E 
+Sbjct: 40  NTIRVTLIDANHCVGAVMFLIEGKGEIVLYTGDIRAET 77
+
+
+>EDU45366 pep:novel supercontig:GCA_000149985.1:supercont1.2:1687468:1688523:
+           -1 gene:PTRG_02843 transcript:EDU45366
+           description:"conserved hypothetical protein"
+          Length = 351
+
+ Score = 33.9 bits (76), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 21/64 (32%), Positives = 33/64 (51%), Gaps = 10/64 (15%)
+
+Query: 20  VGRSCHILQYKGKTVMLD-----AGIH----PAYQGLASL-PFYDEFDLSKVDILLISHF 69
+           VG +  IL+++G  ++ D     AG H    P         P  D  DL ++D++L+SH+
+Sbjct: 50  VGTATTILEWEGLRILTDPNFLHAGDHVHLGPGVNATRQTNPAIDLEDLPRIDVILLSHY 109
+
+Query: 70  HLDH 73
+           H DH
+Sbjct: 110 HEDH 113
+
+
+>EDU41539 pep:novel supercontig:GCA_000149985.1:supercont1.1:6158749:6160985:
+           -1 gene:PTRG_02101 transcript:EDU41539
+           description:"hypothetical protein"
+          Length = 293
+
+ Score = 32.7 bits (73), Expect = 0.31,   Method: Compositional matrix adjust.
+ Identities = 28/88 (31%), Positives = 39/88 (44%), Gaps = 8/88 (9%)
+
+Query: 130 DEDLVDSF---DKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYS 186
+           D  +VD F   D IE++      DV        HA   + A   +  IAGL+ L    ++
+Sbjct: 162 DSPMVDDFLQDDDIESIHSEQEFDVETTHLVT-HAK--VYAIAEKYGIAGLKALARSKFA 218
+
+Query: 187 REVDRHLNSAEVPPLSSNVLIVESTFGT 214
+            +++ HLNS E P         ESTF T
+Sbjct: 219 DQIELHLNSVEFPEACQEAY--ESTFHT 244
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 7,681,648
+Number of extensions: 311392
+Number of successful extensions: 669
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 658
+Number of HSP's successfully gapped: 11
+Length of query: 779
+Length of database: 5,459,076
+Length adjustment: 102
+Effective length of query: 677
+Effective length of database: 4,217,838
+Effective search space: 2855476326
+Effective search space used: 2855476326
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

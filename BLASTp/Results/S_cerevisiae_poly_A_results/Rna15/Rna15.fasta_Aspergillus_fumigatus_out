@@ -1,0 +1,1020 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+interacts with the A-rich polyadenylation signa /.../omplex with
+Rna14p and Hrp1p; mutant displays reduced transcription elongation in
+the G-less-based run-on (GLRO) assay; required for gene looping
+         (296 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00002441 pep:known scaffold:CADRE:DS499595:2314562:23155...    67   5e-13
+CADAFUBP00004055 pep:known scaffold:CADRE:DS499596:2101758:21035...    65   5e-12
+CADAFUBP00001124 pep:known scaffold:CADRE:DS499594:3236869:32385...    57   1e-09
+CADAFUBP00008011 pep:known scaffold:CADRE:DS499600:709634:710768...    57   2e-09
+CADAFUBP00001986 pep:known scaffold:CADRE:DS499595:845983:846561...    51   3e-08
+CADAFUBP00001504 pep:known scaffold:CADRE:DS499594:4341945:43438...    52   7e-08
+CADAFUBP00007632 pep:known scaffold:CADRE:DS499599:1780536:17826...    52   9e-08
+CADAFUBP00006172 pep:known scaffold:CADRE:DS499598:176165:177820...    52   1e-07
+CADAFUBP00004237 pep:known scaffold:CADRE:DS499596:2618367:26194...    50   2e-07
+CADAFUBP00006162 pep:known scaffold:CADRE:DS499598:157197:159419...    49   1e-06
+CADAFUBP00009046 pep:known scaffold:CADRE:DS499602:60122:61329:-...    46   4e-06
+CADAFUBP00008837 pep:known scaffold:CADRE:DS499601:1269018:12710...    45   1e-05
+CADAFUBP00000512 pep:known scaffold:CADRE:DS499594:1450935:14538...    45   2e-05
+CADAFUBP00002260 pep:known scaffold:CADRE:DS499595:1709416:17127...    41   2e-04
+CADAFUBP00002513 pep:known scaffold:CADRE:DS499595:2498424:24995...    41   2e-04
+CADAFUBP00008886 pep:known scaffold:CADRE:DS499601:1427453:14284...    40   3e-04
+CADAFUBP00002393 pep:known scaffold:CADRE:DS499595:2187138:21879...    39   4e-04
+CADAFUBP00000447 pep:known scaffold:CADRE:DS499594:1275417:12778...    40   4e-04
+CADAFUBP00000875 pep:known scaffold:CADRE:DS499594:2522704:25236...    39   6e-04
+CADAFUBP00002217 pep:known scaffold:CADRE:DS499595:1571151:15736...    39   0.001
+CADAFUBP00008626 pep:known scaffold:CADRE:DS499601:580308:581919...    39   0.001
+CADAFUBP00005353 pep:known scaffold:CADRE:DS499597:1669489:16709...    39   0.001
+CADAFUBP00008632 pep:known scaffold:CADRE:DS499601:597452:598893...    38   0.002
+CADAFUBP00007210 pep:known scaffold:CADRE:DS499599:522931:524043...    38   0.002
+CADAFUBP00000326 pep:known scaffold:CADRE:DS499594:915838:917271...    37   0.003
+CADAFUBP00005469 pep:known scaffold:CADRE:DS499597:2010511:20115...    37   0.005
+CADAFUBP00007510 pep:known scaffold:CADRE:DS499599:1407769:14098...    36   0.011
+CADAFUBP00003144 pep:known scaffold:CADRE:DS499595:4322834:43246...    35   0.013
+CADAFUBP00005471 pep:known scaffold:CADRE:DS499597:2015495:20173...    35   0.027
+CADAFUBP00004937 pep:known scaffold:CADRE:DS499597:429904:431887...    33   0.054
+CADAFUBP00002210 pep:known scaffold:CADRE:DS499595:1545238:15488...    34   0.055
+CADAFUBP00008832 pep:known scaffold:CADRE:DS499601:1250580:12517...    32   0.11 
+CADAFUBP00005822 pep:known scaffold:CADRE:DS499597:2988750:29896...    32   0.12 
+CADAFUBP00002800 pep:known scaffold:CADRE:DS499595:3315330:33158...    32   0.13 
+CADAFUBP00007049 pep:known scaffold:CADRE:DS499599:61398:62282:-...    32   0.13 
+CADAFUBP00000236 pep:known scaffold:CADRE:DS499594:673450:675874...    32   0.23 
+CADAFUBP00004133 pep:known scaffold:CADRE:DS499596:2329771:23311...    31   0.37 
+CADAFUBP00003968 pep:known scaffold:CADRE:DS499596:1849800:18504...    29   0.63 
+CADAFUBP00002246 pep:known scaffold:CADRE:DS499595:1659564:16603...    28   0.80 
+CADAFUBP00006016 pep:known scaffold:CADRE:DS499597:3547228:35478...    28   1.4  
+CADAFUBP00003538 pep:known scaffold:CADRE:DS499596:601054:602961...    28   3.3  
+CADAFUBP00003826 pep:known scaffold:CADRE:DS499596:1466940:14685...    27   5.9  
+
+>CADAFUBP00002441 pep:known scaffold:CADRE:DS499595:2314562:2315508:1
+          gene:CADAFUBG00002492 transcript:CADAFUBT00002492
+          description:"Polyadenylation factor subunit CstF64,
+          putative"
+          Length = 296
+
+ Score = 67.0 bits (162), Expect = 5e-13,   Method: Compositional matrix adjust.
+ Identities = 34/81 (41%), Positives = 58/81 (71%)
+
+Query: 18 RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+          + V+LG+IPY+ TEEQ+ D+ S+ G V   ++M +P+TG+ KGY F +F D +++ASAVR
+Sbjct: 8  KSVFLGNIPYNLTEEQVKDILSSAGTVTKFRLMMNPETGKPKGYGFADFADADAAASAVR 67
+
+Query: 78 NLNGYQLGSRFLKCGYSSNSD 98
+          NLN +++  R ++  +  N++
+Sbjct: 68 NLNDFEIMGRKIRVDWPHNNE 88
+
+
+>CADAFUBP00004055 pep:known scaffold:CADRE:DS499596:2101758:2103504:-1
+           gene:CADAFUBG00004127 transcript:CADAFUBT00004127
+           description:"Nucleolin protein Nsr1, putative"
+          Length = 546
+
+ Score = 64.7 bits (156), Expect = 5e-12,   Method: Compositional matrix adjust.
+ Identities = 25/88 (28%), Positives = 54/88 (61%)
+
+Query: 8   NAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFR 67
+           N G Q +P S  +++G+IP+   E+ + +L    G ++ +++  DP++GR KG+ +++F 
+Sbjct: 398 NFGDQTSPESDTLFVGNIPFSANEDSVSELFGQSGTIVGIRLPTDPESGRPKGFGYVQFS 457
+
+Query: 68  DLESSASAVRNLNGYQLGSRFLKCGYSS 95
+            ++ +  A  +LNG +L  R ++  +S+
+Sbjct: 458 SVDEARQAFNDLNGAELNGRPVRLDFST 485
+
+
+
+ Score = 32.0 bits (71), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 10/47 (21%), Positives = 30/47 (63%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           +++G++ ++  EE +     + G +  ++++ D  +GRS+G+ ++E+
+Sbjct: 304 LFVGNLSWNVDEEWLRQEFESFGELSGVRIVTDRDSGRSRGFGYVEY 350
+
+
+>CADAFUBP00001124 pep:known scaffold:CADRE:DS499594:3236869:3238556:-1
+           gene:CADAFUBG00001150 transcript:CADAFUBT00001150
+           description:"Nuclear and cytoplasmic polyadenylated
+           RNA-binding protein pub1"
+          Length = 489
+
+ Score = 57.4 bits (137), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 46/75 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G +  +  +E +L   S  G V   ++M+D +TGRS+GY F+ FR+   +  A+  +
+Sbjct: 183 IFVGDLSNEVNDEILLQAFSAFGSVSEARVMWDMKTGRSRGYGFVAFRERADAEKALNAM 242
+
+Query: 80  NGYQLGSRFLKCGYS 94
+           +G  LGSR ++C ++
+Sbjct: 243 DGEWLGSRAIRCNWA 257
+
+
+
+ Score = 45.1 bits (105), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 26/87 (29%), Positives = 45/87 (51%), Gaps = 7/87 (8%)
+
+Query: 11  VQNNPPSRVV-YLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           VQ  P  +   Y+G++    T+  ++ L  N G V+  ++  D      +G+AFI+    
+Sbjct: 299 VQQTPQWQTTCYVGNLTPYTTQNDLVPLFHNFGYVLETRLQAD------RGFAFIKMDTH 352
+
+Query: 70  ESSASAVRNLNGYQLGSRFLKCGYSSN 96
+           E++A A+  LNGY +  R LKC +  +
+Sbjct: 353 ENAAMAICQLNGYNVNGRPLKCSWGKD 379
+
+
+>CADAFUBP00008011 pep:known scaffold:CADRE:DS499600:709634:710768:1
+           gene:CADAFUBG00008156 transcript:CADAFUBT00008156
+           description:"Nucleic acid-binding protein"
+          Length = 324
+
+ Score = 56.6 bits (135), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 27/83 (32%), Positives = 50/83 (60%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+            P SR +YLG++ ++ T+  + +L  ++  VI++++  D +TG+ +G+A  EF D+ES+ 
+Sbjct: 228 RPASRTLYLGNLSFEMTDRDLNELFRDINNVIDVRVSVDRRTGQPRGFAHAEFLDVESAQ 287
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYSSN 96
+            A   L+G     R ++  YSS 
+Sbjct: 288 KAFEILSGKAPYGRRIRVDYSST 310
+
+
+
+ Score = 42.0 bits (97), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 46/85 (54%), Gaps = 1/85 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           +N  P + VY+G++ YD T E + +     G V  + ++ D + G S+G+A++ F  +E+
+Sbjct: 138 ENLRPRQTVYVGNLFYDVTAEDLKNHMQQFGVVERVDLITDNR-GLSRGFAYVHFDSIEA 196
+
+Query: 72  SASAVRNLNGYQLGSRFLKCGYSSN 96
+           + S V  ++      R +   Y+S+
+Sbjct: 197 AKSCVEAMHLQIFEGRRITAQYASS 221
+
+
+>CADAFUBP00001986 pep:known scaffold:CADRE:DS499595:845983:846561:1
+           gene:CADAFUBG00002027 transcript:CADAFUBT00002027
+           description:"RNA binding protein (Rbm8A), putative"
+          Length = 158
+
+ Score = 50.8 bits (120), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 42/76 (55%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           ++   +I  + +EE + DL +  G + N  +  D +TG  KGYA IE+  L  ++ A++ 
+Sbjct: 42  IIIATNIHEEASEEDVTDLFAEYGEIKNFSLNLDRRTGYVKGYALIEYSTLPEASDAIKA 101
+
+Query: 79  LNGYQLGSRFLKCGYS 94
+           LNG +L  + +   Y+
+Sbjct: 102 LNGAKLLDQTIHVDYA 117
+
+
+>CADAFUBP00001504 pep:known scaffold:CADRE:DS499594:4341945:4343814:-1
+           gene:CADAFUBG00001539 transcript:CADAFUBT00001539
+           description:"RNA splicing factor (Pad-1), putative"
+          Length = 566
+
+ Score = 52.0 bits (123), Expect = 7e-08,   Method: Compositional matrix adjust.
+ Identities = 28/94 (29%), Positives = 52/94 (55%), Gaps = 4/94 (4%)
+
+Query: 2   NRQSG---VNAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRS 58
+           NRQ+     ++G  +  P   +Y+G+I +  TE  + ++    G +  +++  D + GRS
+Sbjct: 256 NRQARNPEASSGHNHAAPFHRLYVGNIHFSITENDLQNVFEPFGELEFVQLQKD-EAGRS 314
+
+Query: 59  KGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCG 92
+           KGY F++FRD   +  A+  +NG+ L  R ++ G
+Sbjct: 315 KGYGFVQFRDPNQAREALEKMNGFDLAGRAIRVG 348
+
+
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 20/67 (29%), Positives = 38/67 (56%), Gaps = 1/67 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +++  +      ++++     VGPV   +++ D  +GRSKG  ++EF+  ES A A++
+Sbjct: 176 RTIFVQQLAARLRTKELIAFFEKVGPVKEAQIVKDRVSGRSKGVGYVEFKSEESVAPAIQ 235
+
+Query: 78  NLNGYQL 84
+            L G +L
+Sbjct: 236 -LTGQKL 241
+
+
+>CADAFUBP00007632 pep:known scaffold:CADRE:DS499599:1780536:1782607:-1
+           gene:CADAFUBG00007768 transcript:CADAFUBT00007768
+           description:"RNP domain protein"
+          Length = 480
+
+ Score = 51.6 bits (122), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 44/75 (58%), Gaps = 1/75 (1%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           ++Y+ ++P+    + ++DL S +G V   ++ ++P  GRS+G   ++F + E++ +A+  
+Sbjct: 378 IIYVRNLPWSTCNDDLVDLFSTIGKVERAEIQYEP-NGRSRGTGVVQFDNAETAETAIAK 436
+
+Query: 79  LNGYQLGSRFLKCGY 93
+             GYQ G R L   +
+Sbjct: 437 FTGYQYGGRPLGITF 451
+
+
+
+ Score = 37.4 bits (85), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 22/77 (28%), Positives = 38/77 (49%), Gaps = 4/77 (5%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDL---CSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           R +Y+ ++P++   + + DL    +  G VI   +  D  TGR KG   + F   E + +
+Sbjct: 221 RQLYVSNLPFNVGWQDLKDLFRQAAQQGAVIRADVHTD-ATGRPKGSGIVAFESPEDARN 279
+
+Query: 75  AVRNLNGYQLGSRFLKC 91
+           A++  NGY    R L+ 
+Sbjct: 280 AIQQFNGYDWQGRTLEV 296
+
+
+
+ Score = 30.4 bits (67), Expect = 0.57,   Method: Compositional matrix adjust.
+ Identities = 22/74 (29%), Positives = 34/74 (45%), Gaps = 3/74 (4%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSK--GYAFIEFRDLESSASA 75
+           R VY+G++ YD     + D     G VI   ++  P  G SK    A +E+   E + +A
+Sbjct: 105 RRVYVGNLSYDVKWHHLKDFMRQAGEVIFADVLLLP-NGMSKVGTNAIVEYATREQAQNA 163
+
+Query: 76  VRNLNGYQLGSRFL 89
+           V  L+   L  R +
+Sbjct: 164 VNTLSNQSLMGRLV 177
+
+
+>CADAFUBP00006172 pep:known scaffold:CADRE:DS499598:176165:177820:-1
+           gene:CADAFUBG00006295 transcript:CADAFUBT00006295
+           description:"Ribosomal biogenesis protein Gar2"
+          Length = 509
+
+ Score = 51.6 bits (122), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 37/75 (49%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            VY+G IP+   E Q+    S  G +  L++  +  TGRSK YAF+EF     +      
+Sbjct: 263 TVYVGRIPHGFYEHQMRAYFSQFGDITRLRLSRNRITGRSKHYAFVEFASSTVAKIVAET 322
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           ++ Y +    LKC Y
+Sbjct: 323 MDNYLMYGHILKCKY 337
+
+
+>CADAFUBP00004237 pep:known scaffold:CADRE:DS499596:2618367:2619485:1
+           gene:CADAFUBG00004309 transcript:CADAFUBT00004309
+           description:"RNA binding protein Rnp24, putative"
+          Length = 372
+
+ Score = 50.4 bits (119), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 43/72 (59%)
+
+Query: 8   NAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFR 67
+           +A     PPS+ +++G++ +D T+E + +     G V ++ +     +G+ KGYA++EF 
+Sbjct: 170 SAATVTKPPSKRIFVGNLGFDVTKEVLEEHFGQCGTVAHVHVATFQDSGKCKGYAWVEFE 229
+
+Query: 68  DLESSASAVRNL 79
+           DL ++ +AV+  
+Sbjct: 230 DLAAAEAAVKGF 241
+
+
+>CADAFUBP00006162 pep:known scaffold:CADRE:DS499598:157197:159419:-1
+           gene:CADAFUBG00006285 transcript:CADAFUBT00006285
+           description:"Ribosome biogenesis (Nop4), putative"
+          Length = 740
+
+ Score = 48.5 bits (114), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 42/79 (53%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P R +++ S+P   T E + +  S    + +  ++ DP+T   KGY F+ F DLE + +A
+Sbjct: 46  PKRTLFVRSLPTSATTESLTEYFSQSYVIKHAIVVNDPETKLCKGYGFVTFADLEDAQAA 105
+
+Query: 76  VRNLNGYQLGSRFLKCGYS 94
+           ++  NG     + ++  Y+
+Sbjct: 106 LKEFNGSVFEGKTIRVDYA 124
+
+
+
+ Score = 39.7 bits (91), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 35/59 (59%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+            +++ ++P+  T+E + +  +  GP+   +++ DP+T R +G  F+ F  +E +A  VR
+Sbjct: 326 TIFIRNLPFSCTDEALYEHFTQFGPLRYARIVVDPETERPRGTGFVCFWKVEDAALCVR 384
+
+
+
+ Score = 30.0 bits (66), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 17/27 (62%)
+
+Query: 56  GRSKGYAFIEFRDLESSASAVRNLNGY 82
+           GRS+GY FIE+     +   +R LNG+
+Sbjct: 598 GRSRGYGFIEYYTHRHALMGLRWLNGH 624
+
+
+>CADAFUBP00009046 pep:known scaffold:CADRE:DS499602:60122:61329:-1
+           gene:CADAFUBG00009212 transcript:CADAFUBT00009212
+           description:"Splicing factor 3b subunit 4"
+          Length = 352
+
+ Score = 46.2 bits (108), Expect = 4e-06,   Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 37/69 (53%)
+
+Query: 30  TEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           TE+ + D  S  G ++N+  +       SKGY F+ F D ESS +A+ N+NG  L ++ +
+Sbjct: 113 TEQVLYDTFSRFGTLVNIPKVARDDNNLSKGYGFVSFADFESSDAAIANMNGQYLMNKQV 172
+
+Query: 90  KCGYSSNSD 98
+              Y+   D
+Sbjct: 173 SVQYAYKKD 181
+
+
+
+ Score = 39.7 bits (91), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 40/77 (51%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+           VY+G++    T+  + +L    G ++N+ +  D  T   +GY F+EF   E +  A R 
+Sbjct: 14 TVYIGNLDERVTDSLVWELMLQAGRIVNVHLPKDRVTQSHQGYGFVEFISEEDAEYASRI 73
+
+Query: 79 LNGYQLGSRFLKCGYSS 95
+          +NG +L  + ++   +S
+Sbjct: 74 MNGIRLYGKPIRVNKAS 90
+
+
+>CADAFUBP00008837 pep:known scaffold:CADRE:DS499601:1269018:1271051:-1
+           gene:CADAFUBG00009003 transcript:CADAFUBT00009003
+           description:"Splicing factor u2af large subunit"
+          Length = 567
+
+ Score = 45.1 bits (105), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 25/72 (34%), Positives = 39/72 (54%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           + + +IP    EE +  L  + G + +  ++ D  T  S+G AF E+ D  ++A AV  L
+Sbjct: 362 ICVSNIPQYIPEEPVTMLLKSFGELKSFVLVKDSSTEESRGIAFCEYADPSATAIAVEGL 421
+
+Query: 80  NGYQLGSRFLKC 91
+           NG +LG R LK 
+Sbjct: 422 NGMELGDRHLKV 433
+
+
+>CADAFUBP00000512 pep:known scaffold:CADRE:DS499594:1450935:1453818:-1
+           gene:CADAFUBG00000520 transcript:CADAFUBT00000520
+           description:"Pre-rRNA processing protein Mrd1, putative"
+          Length = 825
+
+ Score = 44.7 bits (104), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 17/73 (23%), Positives = 42/73 (57%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           S  +++ ++PYD +E  +  + S  G +  + + FD ++  SKG+A++++ + +++  A 
+Sbjct: 300 SSRLFVRNLPYDASESDLEPVFSKFGKIEEIHVAFDTRSTTSKGFAYVQYIEPDAAVQAY 359
+
+Query: 77  RNLNGYQLGSRFL 89
+           + L+G     R +
+Sbjct: 360 KELDGKHFQGRLM 372
+
+
+>CADAFUBP00002260 pep:known scaffold:CADRE:DS499595:1709416:1712752:1
+           gene:CADAFUBG00002311 transcript:CADAFUBT00002311
+           description:"Heterogeneous nuclear ribonucleoprotein
+           HRP1"
+          Length = 608
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 17/57 (29%), Positives = 33/57 (57%), Gaps = 1/57 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           +++G +  + TE++  +  +  G VI+  +M D  TGR +G+ F+ F D E++  A 
+Sbjct: 191 IFVGGVSQEATEQEFKEFFTQFGRVIDATLMIDKDTGRPRGFGFVTF-DSEAAVEAA 246
+
+
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 30/49 (61%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRD 68
+           +++G + ++ T++ + D  S  G V    +M D  TGRS+G+ F+ F+D
+Sbjct: 107 MFIGGLNWETTDQSLRDYFSQFGEVQECTVMRDSATGRSRGFGFLTFKD 155
+
+
+>CADAFUBP00002513 pep:known scaffold:CADRE:DS499595:2498424:2499526:1
+           gene:CADAFUBG00002565 transcript:CADAFUBT00002565
+           description:"Eukaryotic translation initiation factor 3
+           subunit G"
+          Length = 290
+
+ Score = 40.8 bits (94), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 21/59 (35%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query: 31  EEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           E ++ DL    G V  + +  D +T R+KG+AFI F D   +A A   ++G+  G R L
+Sbjct: 223 ESELRDLFERFGRVTRVFLARDRETQRAKGFAFISFADRTDAARACEKMDGF--GYRHL 279
+
+
+>CADAFUBP00008886 pep:known scaffold:CADRE:DS499601:1427453:1428448:-1
+           gene:CADAFUBG00009052 transcript:CADAFUBT00009052
+           description:"Ribonucleoprotein, putative"
+          Length = 289
+
+ Score = 40.4 bits (93), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 38/75 (50%), Gaps = 1/75 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVG-PVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           R +Y+G++PY    E +  L +    P+  + +  DP TGR+  Y F++    E +  A+
+Sbjct: 41  RRLYVGNMPYTAKSEDVQALFTAANFPIERIDIAIDPFTGRNPSYCFVDLETRELANKAM 100
+
+Query: 77  RNLNGYQLGSRFLKC 91
+             L+G  +  R +K 
+Sbjct: 101 TELDGRDMLGRPVKI 115
+
+
+
+ Score = 28.5 bits (62), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 8/75 (10%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNV---GPVINLKMMFDPQTGR-----SKGYAFIEFRD 68
+           SR +Y+G +P     E I    +N      V N+  +F P   +        Y F+EF  
+Sbjct: 170 SRRLYVGGLPKLTDPEIITTNITNFFKGYKVENVSKLFTPHPAKRFEPGDHYYLFVEFSS 229
+
+Query: 69  LESSASAVRNLNGYQ 83
+            E + +A+  LNG +
+Sbjct: 230 TEEAQNAMDTLNGQE 244
+
+
+>CADAFUBP00002393 pep:known scaffold:CADRE:DS499595:2187138:2187922:1
+           gene:CADAFUBG00002444 transcript:CADAFUBT00002444
+           description:"Small subunit of nuclear cap-binding
+           protein complex"
+          Length = 184
+
+ Score = 39.3 bits (90), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 37/72 (51%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            +Y+G++ +  TEEQI +L S  G +  L M  D       G+ F+E+   + +   ++ 
+Sbjct: 56  TLYVGNLSFYTTEEQIHELFSKCGEIKRLVMGLDRYNKTPCGFCFVEYYTHQDALDCLKY 115
+
+Query: 79  LNGYQLGSRFLK 90
+           + G +L  R ++
+Sbjct: 116 IGGTKLDERIIR 127
+
+
+>CADAFUBP00000447 pep:known scaffold:CADRE:DS499594:1275417:1277812:-1
+           gene:CADAFUBG00000455 transcript:CADAFUBT00000455
+           description:"Polyadenylate-binding protein"
+          Length = 753
+
+ Score = 40.4 bits (93), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 37/66 (56%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P S  +Y+G +    TE  + +L S++G V ++++  D  T RS GYA++ + +      
+Sbjct: 49  PHSASLYVGELDPSVTEAMLYELFSSIGQVASIRVCRDAVTRRSLGYAYVNYNNTADGER 108
+
+Query: 75  AVRNLN 80
+           A+ +LN
+Sbjct: 109 ALEDLN 114
+
+
+
+ Score = 36.6 bits (83), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 39/73 (53%), Gaps = 1/73 (1%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+ +I  + T+E+   +    G + +  +  D Q G+S+G+ F+ F   +S+ +AV  +
+Sbjct: 235 VYIKNIDQEVTDEEFRKMFEKFGEITSATLSRD-QEGKSRGFGFVNFSTHDSAQAAVDEM 293
+
+Query: 80  NGYQLGSRFLKCG 92
+           N  ++  + L  G
+Sbjct: 294 NDKEIKGQKLYVG 306
+
+
+
+ Score = 34.7 bits (78), Expect = 0.029,   Method: Compositional matrix adjust.
+ Identities = 16/60 (26%), Positives = 35/60 (58%), Gaps = 1/60 (1%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKCGY 93
+           + D  +  G +++ K+  D + G SKGY F+ +   E++ +A++++NG  L  + +  G+
+Sbjct: 156 LHDTFAAFGNILSCKVAQD-EFGNSKGYGFVHYETAEAANNAIKHVNGMLLNDKKVFVGH 214
+
+
+>CADAFUBP00000875 pep:known scaffold:CADRE:DS499594:2522704:2523630:1
+           gene:CADAFUBG00000898 transcript:CADAFUBT00000898
+           description:"RNP domain protein"
+          Length = 215
+
+ Score = 38.9 bits (89), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 31/50 (62%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           +R +++G++ Y  + E+I     + G +  + ++ D  TG+ KGYA++EF
+Sbjct: 91  ARSIFVGNVDYGASPEEIQAHFQSCGSINRVTILLDKFTGQPKGYAYVEF 140
+
+
+>CADAFUBP00002217 pep:known scaffold:CADRE:DS499595:1571151:1573667:1
+           gene:CADAFUBG00002264 transcript:CADAFUBT00002264
+           description:"Differentiation regulator (Nrd1), putative"
+          Length = 838
+
+ Score = 38.9 bits (89), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 37/69 (53%), Gaps = 6/69 (8%)
+
+Query: 11  VQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLE 70
+           VQ +  SR VYLG++P + TE+++ +     GP+  +K++      R K   F+ F  + 
+Sbjct: 275 VQQSGASRNVYLGNLPEELTEDELREDLGKFGPIDTVKIV------REKAIGFVHFLSIS 328
+
+Query: 71  SSASAVRNL 79
+           ++  AV  L
+Sbjct: 329 NAMKAVSQL 337
+
+
+
+ Score = 37.4 bits (85), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 48/90 (53%), Gaps = 9/90 (10%)
+
+Query: 10  GVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDL 69
+           G  NN  +R +YLG+I  + T E+I ++    G + +++ + D      K   F+ F D 
+Sbjct: 408 GGVNNLGNRTIYLGNIHPETTIEEICNVVRG-GLLHHIRYIPD------KHICFVTFIDP 460
+
+Query: 70  ESSAS--AVRNLNGYQLGSRFLKCGYSSNS 97
+            S+AS  A+ NL G  + +R LK G+  +S
+Sbjct: 461 TSAASFYALSNLQGLMIHNRRLKIGWGKHS 490
+
+
+
+ Score = 33.1 bits (74), Expect = 0.075,   Method: Compositional matrix adjust.
+ Identities = 20/56 (35%), Positives = 33/56 (58%), Gaps = 7/56 (12%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+           SR VYLG+IP + + E+IL+   + G + +++++ D      K  AFI F D  S+
+Sbjct: 190 SRTVYLGNIPAETSAEEILNHVRS-GQIESVRLLPD------KNCAFISFLDSNSA 238
+
+
+
+ Score = 26.9 bits (58), Expect = 7.1,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 34/72 (47%), Gaps = 6/72 (8%)
+
+Query: 17  SRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAV 76
+           SR VY+G++    TEE++    S  G +  +  +      R K  AF+ F ++ ++  A+
+Sbjct: 506 SRNVYVGNLDETWTEERLRQDFSEYGEIELVNTL------REKSCAFVNFTNIANAIKAI 559
+
+Query: 77  RNLNGYQLGSRF 88
+             +   +   RF
+Sbjct: 560 EGMRNREEYKRF 571
+
+
+>CADAFUBP00008626 pep:known scaffold:CADRE:DS499601:580308:581919:1
+           gene:CADAFUBG00008786 transcript:CADAFUBT00008786
+           description:"RNA binding protein, putative"
+          Length = 459
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 42/82 (51%), Gaps = 2/82 (2%)
+
+Query: 14  NPPSRVVYLGSI-PYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESS 72
+            PP  V+++  + P  Q E+  L + S  GP+++ +++ D +TG S  YAFIEF + +  
+Sbjct: 244 KPPENVLFVCKLNPVTQDEDLQL-IFSRFGPILSCEVIRDKRTGDSLQYAFIEFENQKDC 302
+
+Query: 73  ASAVRNLNGYQLGSRFLKCGYS 94
+             A   + G  +    +   +S
+Sbjct: 303 EQAYFKMQGVLIDDHRIHVDFS 324
+
+
+>CADAFUBP00005353 pep:known scaffold:CADRE:DS499597:1669489:1670938:1
+           gene:CADAFUBG00005448 transcript:CADAFUBT00005448
+           description:"RNP domain protein"
+          Length = 352
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 38/70 (54%), Gaps = 1/70 (1%)
+
+Query: 18  RVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVR 77
+           R +Y+G++ Y  TE ++ +   N   + +  +  +P+T R  GYAF++      + +A+ 
+Sbjct: 42  RRLYIGNLAYATTEGELKEFFKNYK-IESTSIPVNPRTNRPVGYAFVDLATAHEATAAIE 100
+
+Query: 78  NLNGYQLGSR 87
+            L+G ++  R
+Sbjct: 101 ELSGKEILQR 110
+
+
+
+ Score = 32.7 bits (73), Expect = 0.095,   Method: Compositional matrix adjust.
+ Identities = 20/88 (22%), Positives = 43/88 (48%), Gaps = 15/88 (17%)
+
+Query: 16  PSRV-VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDP-------------QTGRSKGY 61
+           PS+  V + ++PYD TE+++ ++ ++  PV + K+   P             +  + +G+
+Sbjct: 226 PSKTKVMVANLPYDLTEDKLKEIFADYQPV-SAKIALRPIPRFMIKKLQARNERRKGRGF 284
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQLGSRFL 89
+            F+     E    AV+ +NG ++  R +
+Sbjct: 285 GFVTLGSEELQEKAVKEMNGKEIEGREI 312
+
+
+>CADAFUBP00008632 pep:known scaffold:CADRE:DS499601:597452:598893:1
+           gene:CADAFUBG00008792 transcript:CADAFUBT00008792
+           description:"mRNA binding post-transcriptional regulator
+           (Csx1), putative"
+          Length = 418
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 21/76 (27%), Positives = 38/76 (50%), Gaps = 1/76 (1%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVI-NLKMMFDPQTGRSKGYAFIEFRDLESSAS 74
+           P   +++G +  +  E  ++ L  N  P   + K+M DP +G S+GY F+ F D      
+Sbjct: 159 PEYSIFVGDLGPEVNEYVLVSLFQNRFPSCKSAKIMTDPISGMSRGYGFVRFSDENDQQR 218
+
+Query: 75  AVRNLNGYQLGSRFLK 90
+           A+  + G   G+R ++
+Sbjct: 219 ALTEMQGVYCGNRPMR 234
+
+
+
+ Score = 34.3 bits (77), Expect = 0.034,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 38/70 (54%), Gaps = 1/70 (1%)
+
+Query: 12  QNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLES 71
+           Q N     +++G +     E  I +L   +G  +N+KM+ D  +G + GY F++F    +
+Sbjct: 61  QGNEGKTTLWMGELEPWIDENFIRNLWFQMGEQVNVKMIRDKFSGSNAGYCFVDFSSPAA 120
+
+Query: 72  SASAVRNLNG 81
+           +A A+ +LNG
+Sbjct: 121 AAKAL-SLNG 129
+
+
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 15/81 (18%), Positives = 37/81 (45%), Gaps = 6/81 (7%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSA 73
+           +P +  V++G +    TE+++       G +  +K+         KG  F++F    ++ 
+Sbjct: 283 DPNNTTVFVGGLSGYVTEDELRSFFQGFGEITYVKIP------PGKGCGFVQFVQRHAAE 336
+
+Query: 74  SAVRNLNGYQLGSRFLKCGYS 94
+            A+  + GY +G+  ++  + 
+Sbjct: 337 MAINQMQGYPIGNSRVRLSWG 357
+
+
+>CADAFUBP00007210 pep:known scaffold:CADRE:DS499599:522931:524043:-1
+           gene:CADAFUBG00007343 transcript:CADAFUBT00007343
+           description:"RNP domain protein"
+          Length = 370
+
+ Score = 37.7 bits (86), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 38/68 (55%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           +++G++  + T++ +L   S    V   +++ D +T +SKGY F+ F + +   +A R +
+Sbjct: 248 LFVGNLAGEVTDDSLLKAFSRYSSVQKARVIRDKRTQKSKGYGFVSFSNGDDYFAAAREM 307
+
+Query: 80  NGYQLGSR 87
+            G  +GS 
+Sbjct: 308 QGKYIGSH 315
+
+
+>CADAFUBP00000326 pep:known scaffold:CADRE:DS499594:915838:917271:-1
+           gene:CADAFUBG00000333 transcript:CADAFUBT00000333
+           description:"RNA binding protein"
+          Length = 425
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 22/89 (24%), Positives = 42/89 (47%), Gaps = 4/89 (4%)
+
+Query: 3   RQSGVNAGVQNNP---PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSK 59
+           R+   +   Q NP   P R +++ ++    T   +     + G +   +M  +P TGR K
+Sbjct: 253 RKPSSSDQTQQNPRFSPRRTIFIQNLSPTTTPHDLTLFLQDAGTIEQCEMPLNPDTGRCK 312
+
+Query: 60  GYAFIEFRDLESSASAVRNLN-GYQLGSR 87
+           G+A + FR  + +  A+   N  + LG++
+Sbjct: 313 GFARVTFRSADEAKRAIALYNTAFFLGAK 341
+
+
+>CADAFUBP00005469 pep:known scaffold:CADRE:DS499597:2010511:2011559:1
+           gene:CADAFUBG00005565 transcript:CADAFUBT00005565
+           description:"RNA binding protein, putative"
+          Length = 334
+
+ Score = 36.6 bits (83), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 39/75 (52%), Gaps = 9/75 (12%)
+
+Query: 15  PPSRVVYLGSIPYDQTEEQI--------LDLCSNVGPVINLKMMFDPQTGRSKGYAFIEF 66
+           P    + + ++ YD TE  +         DL + +GPV NL +++D + GRS+G A++ +
+Sbjct: 79  PAGAKIRVENLHYDITESDLELADEFSFQDLFNRIGPVSNLSLVYD-RAGRSEGVAYVTY 137
+
+Query: 67  RDLESSASAVRNLNG 81
+                + +A+   +G
+Sbjct: 138 NRANDARTAIAEFDG 152
+
+
+>CADAFUBP00007510 pep:known scaffold:CADRE:DS499599:1407769:1409888:1
+           gene:CADAFUBG00007646 transcript:CADAFUBT00007646
+           description:"RNA binding protein MSSP-2, putative"
+          Length = 624
+
+ Score = 35.8 bits (81), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 31/66 (46%), Gaps = 2/66 (3%)
+
+Query: 20  VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+           VY+       T+E +    +  G +   K + D  TG  KG+ F++F + ES  + +R  
+Sbjct: 282 VYIRGFLPQTTDEMLHSYAARFGKIDRCKAIVDLDTGLCKGFGFVQFYNFESCENCIRGF 341
+
+Query: 80  N--GYQ 83
+              GYQ
+Sbjct: 342 FYLGYQ 347
+
+
+>CADAFUBP00003144 pep:known scaffold:CADRE:DS499595:4322834:4324649:-1
+           gene:CADAFUBG00003202 transcript:CADAFUBT00003202
+           description:"Translation initiation factor 4B"
+          Length = 494
+
+ Score = 35.4 bits (80), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 41/76 (53%), Gaps = 2/76 (2%)
+
+Query: 16  PSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASA 75
+           P    ++G++ ++ T   I DL +  G V N++++ D  T   KG+ ++EF  ++    A
+Sbjct: 69  PPYTAHVGNLSFEATSADINDLFAGCG-VTNVRIVEDKLTRSPKGFGYVEFETVDGLRRA 127
+
+Query: 76  VRNLNGYQLGSRFLKC 91
+           + +L+G  L  R ++ 
+Sbjct: 128 L-DLSGTTLQGRAIRV 142
+
+
+>CADAFUBP00005471 pep:known scaffold:CADRE:DS499597:2015495:2017345:-1
+           gene:CADAFUBG00005568 transcript:CADAFUBT00005568
+           description:"RNA binding protein"
+          Length = 616
+
+ Score = 34.7 bits (78), Expect = 0.027,   Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 39/80 (48%), Gaps = 22/80 (27%)
+
+Query: 14  NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG------RSKGYA---FI 64
+           NPP   +Y+G++P D +EE+             LK +F  Q G      R+K      F+
+Sbjct: 403 NPPCNTLYVGNLPPDTSEEE-------------LKALFSKQRGYKRLCFRNKQNGPMCFV 449
+
+Query: 65  EFRDLESSASAVRNLNGYQL 84
+           EF ++  ++ A+  L GY+L
+Sbjct: 450 EFDEVAMASKALNELYGYKL 469
+
+
+>CADAFUBP00004937 pep:known scaffold:CADRE:DS499597:429904:431887:1
+           gene:CADAFUBG00005026 transcript:CADAFUBT00005026
+           description:"R3H domain protein, putative"
+          Length = 607
+
+ Score = 33.5 bits (75), Expect = 0.054,   Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 36/75 (48%)
+
+Query: 19  VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRN 78
+            + + +IP+   +EQ++ L + +   +     +    G  +G AF  F   E +A+ +  
+Sbjct: 159 AIVIKNIPFAVKKEQLVQLMTELNLPLPYAFNYHFDNGVFRGLAFANFTSAEETATVIEV 218
+
+Query: 79  LNGYQLGSRFLKCGY 93
+           LN ++L  R L+  Y
+Sbjct: 219 LNHFELQGRKLRVEY 233
+
+
+>CADAFUBP00002210 pep:known scaffold:CADRE:DS499595:1545238:1548862:-1
+           gene:CADAFUBG00002257 transcript:CADAFUBT00002257
+           description:"RNA binding protein Jsn1, putative"
+          Length = 1182
+
+ Score = 33.9 bits (76), Expect = 0.055,   Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 46/95 (48%), Gaps = 9/95 (9%)
+
+Query: 3   RQSGVNAGVQN-NPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGY 61
+           R SG  A   N + P+R +++GSIP   T   +  +    G + + +++        K  
+Sbjct: 458 RASGEAADESNQDGPTRALWIGSIPVSTTVTSLEAIFGIYGKIESTRVLTH------KNC 511
+
+Query: 62  AFIEFRDLESSASAVRNLNGYQL--GSRFLKCGYS 94
+            F+ F  LES+  A   LNG ++  G+  ++ GY+
+Sbjct: 512 GFVNFERLESAVQAKSLLNGKEIFPGAGPVRIGYA 546
+
+
+>CADAFUBP00008832 pep:known scaffold:CADRE:DS499601:1250580:1251723:1
+           gene:CADAFUBG00008998 transcript:CADAFUBT00008998
+           description:"Transformer-SR ribonucleoprotein, putative"
+          Length = 304
+
+ Score = 32.3 bits (72), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 19/60 (31%), Positives = 28/60 (46%)
+
+Query: 30  TEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFL 89
+           TE  I  L    G V +  +M DP T  S+G+ F++    E + +A   L G  +  R L
+Sbjct: 79  TESDISRLFEKYGDVESCSIMVDPHTKESRGFGFVKMVTAEQADAAKEGLQGEVIEGRTL 138
+
+
+>CADAFUBP00005822 pep:known scaffold:CADRE:DS499597:2988750:2989616:-1
+          gene:CADAFUBG00005929 transcript:CADAFUBT00005929
+          description:"U1 small nuclear ribonucleoprotein,
+          putative"
+          Length = 255
+
+ Score = 32.0 bits (71), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 38/72 (52%), Gaps = 3/72 (4%)
+
+Query: 25 IPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+          I  DQ +  + ++ S  G ++ +    +    ++KG AFI F ++ES+  A+  +NG++L
+Sbjct: 30 IKVDQLKVALEEIFSEYGNIVEIVAKTNL---KAKGQAFIVFDNVESATRAIEEVNGFEL 86
+
+Query: 85 GSRFLKCGYSSN 96
+            + +   Y+  
+Sbjct: 87 FDKPMVLDYAKT 98
+
+
+>CADAFUBP00002800 pep:known scaffold:CADRE:DS499595:3315330:3315844:1
+          gene:CADAFUBG00002855 transcript:CADAFUBT00002855
+          description:"Peptidyl prolyl cis-trans isomerase
+          Cyclophilin, putative"
+          Length = 152
+
+ Score = 31.6 bits (70), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 19/76 (25%), Positives = 39/76 (51%), Gaps = 3/76 (3%)
+
+Query: 19 VVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFD--PQTGR-SKGYAFIEFRDLESSASA 75
+           VY+G +    T + + +     G V+++ +     P +G   +G+ ++EF   E +A A
+Sbjct: 10 TVYVGGLDQAVTVQTLAEAFVPFGEVVDITLPKPDVPNSGDLHRGFGYVEFDLPEDAAEA 69
+
+Query: 76 VRNLNGYQLGSRFLKC 91
+          + N++G +L  R +K 
+Sbjct: 70 IDNMDGSELYGRTIKV 85
+
+
+>CADAFUBP00007049 pep:known scaffold:CADRE:DS499599:61398:62282:-1
+           gene:CADAFUBG00007181 transcript:CADAFUBT00007181
+           description:"U1 small nuclear ribonucleoprotein A,
+           putative"
+          Length = 294
+
+ Score = 32.0 bits (71), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 30/51 (58%), Gaps = 3/51 (5%)
+
+Query: 34  ILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNLNGYQL 84
+           +  L S  G V+++  M   +T + +G A I F+D+++S  A+R L G++ 
+Sbjct: 125 LYTLFSTYGTVLDVVAM---KTEKMRGQAHIVFKDVQASTQAMRALQGFEF 172
+
+
+>CADAFUBP00000236 pep:known scaffold:CADRE:DS499594:673450:675874:1
+           gene:CADAFUBG00000241 transcript:CADAFUBT00000241
+           description:"Eukaryotic translation initiation factor 3
+           subunit B"
+          Length = 740
+
+ Score = 31.6 bits (70), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 20/30 (66%)
+
+Query: 58  SKGYAFIEFRDLESSASAVRNLNGYQLGSR 87
+           S+GYAF+EF   E + +AV+ L+G  L  +
+Sbjct: 87  SEGYAFVEFETPEQAVAAVKQLHGTPLDKK 116
+
+
+>CADAFUBP00004133 pep:known scaffold:CADRE:DS499596:2329771:2331115:1
+           gene:CADAFUBG00004205 transcript:CADAFUBT00004205
+           description:"RRM domain protein"
+          Length = 396
+
+ Score = 30.8 bits (68), Expect = 0.37,   Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 25/43 (58%), Gaps = 3/43 (6%)
+
+Query: 56  GRSKGYAFIEFRDLESSASA---VRNLNGYQLGSRFLKCGYSS 95
+           G+SKG AF+EF  L+++ +A   + NLN    G R     Y++
+Sbjct: 153 GKSKGQAFVEFTTLQAATAAKHQIENLNVSSQGGRKYMVHYTN 195
+
+
+>CADAFUBP00003968 pep:known scaffold:CADRE:DS499596:1849800:1850475:-1
+          gene:CADAFUBG00004039 transcript:CADAFUBT00004039
+          description:"Glycine-rich RNA-binding protein,
+          putative"
+          Length = 118
+
+ Score = 28.9 bits (63), Expect = 0.63,   Method: Compositional matrix adjust.
+ Identities = 15/76 (19%), Positives = 36/76 (47%)
+
+Query: 20 VYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTGRSKGYAFIEFRDLESSASAVRNL 79
+          +++G + +  T++ +       G V    ++ D  T RS+G+ F+ F     + +A+  +
+Sbjct: 4  LFIGGLAWHTTDDALRQGFEPYGVVEEAIVVKDRDTNRSRGFGFVRFSSDTEADAAMDAM 63
+
+Query: 80 NGYQLGSRFLKCGYSS 95
+          N  +   R ++   +S
+Sbjct: 64 NNQEFDGRTIRVDKAS 79
+
+
+>CADAFUBP00002246 pep:known scaffold:CADRE:DS499595:1659564:1660310:-1
+          gene:CADAFUBG00002294 transcript:CADAFUBT00002294
+          description:"Pre-mRNA branch site protein p14,
+          putative"
+          Length = 100
+
+ Score = 28.5 bits (62), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 18/27 (66%)
+
+Query: 18 RVVYLGSIPYDQTEEQILDLCSNVGPV 44
+          R++++ ++ Y+ T EQ+ DL    GP+
+Sbjct: 11 RILFVKNLNYNVTAEQLFDLFGKFGPI 37
+
+
+>CADAFUBP00006016 pep:known scaffold:CADRE:DS499597:3547228:3547847:-1
+          gene:CADAFUBG00006138 transcript:CADAFUBT00006138
+          description:"RNA annealing protein Yra1, putative"
+          Length = 170
+
+ Score = 28.5 bits (62), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 21/38 (55%)
+
+Query: 54 QTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+          Q G S+G A I F   +++A A + LNG  +  R +K 
+Sbjct: 6  QNGTSRGIASIVFSRPDTAAKAAKELNGLLVDGRPMKI 43
+
+
+>CADAFUBP00003538 pep:known scaffold:CADRE:DS499596:601054:602961:-1
+          gene:CADAFUBG00003603 transcript:CADAFUBT00003603
+          description:"T-complex protein 1, gamma subunit,
+          putative"
+          Length = 540
+
+ Score = 28.1 bits (61), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 23/75 (30%), Positives = 36/75 (48%), Gaps = 9/75 (12%)
+
+Query: 8  NAGVQNNPPSRVVYLGSIPYDQTEEQILDLCSNVGPVINLKMMFDPQTG---RSKGYAFI 64
+          NAG  +    R   L +I   +T   I+  C  +GP   LKM+ DP  G    + G+A  
+Sbjct: 11 NAG--DRQVGRKAQLSNITAAKTVADIIRSC--LGPKAMLKMLLDPMGGIVLTNDGHAI- 65
+
+Query: 65 EFRDLESSASAVRNL 79
+            R++E S  A +++
+Sbjct: 66 -LREIEVSHPAAKSM 79
+
+
+>CADAFUBP00003826 pep:known scaffold:CADRE:DS499596:1466940:1468535:1
+           gene:CADAFUBG00003894 transcript:CADAFUBT00003894
+           description:"Pre-RNA splicing factor Srp2, putative"
+          Length = 272
+
+ Score = 26.9 bits (58), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 11/38 (28%), Positives = 19/38 (50%)
+
+Query: 54  QTGRSKGYAFIEFRDLESSASAVRNLNGYQLGSRFLKC 91
+           +TGR +G  F+EF       +A+  L+G +     + C
+Sbjct: 106 ETGREQGRGFVEFETAADLKTAIDKLDGREFKGSRVSC 143
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.315    0.132    0.381 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,260,718
+Number of extensions: 74645
+Number of successful extensions: 258
+Number of sequences better than 10.0: 44
+Number of HSP's gapped: 252
+Number of HSP's successfully gapped: 65
+Length of query: 296
+Length of database: 4,796,137
+Length adjustment: 93
+Effective length of query: 203
+Effective length of database: 3,873,949
+Effective search space: 786411647
+Effective search space used: 786411647
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

@@ -1,0 +1,107 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000008853 pep:known supercontig:ASM18292v1:7.64:22672:25...    30   1.4  
+EFNCRP00000000075 pep:known supercontig:ASM18292v1:7.1:295241:29...    28   3.1  
+
+>EFNCRP00000008853 pep:known supercontig:ASM18292v1:7.64:22672:25101:-1
+           gene:EFNCRG00000008857 transcript:EFNCRT00000008871
+           description:"Phenylalanyl-tRNA synthetase beta chain"
+          Length = 643
+
+ Score = 30.4 bits (67), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 37/182 (20%), Positives = 66/182 (36%), Gaps = 57/182 (31%)
+
+Query: 5   VPQLVNISHA----------LQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAA 54
+           +P ++N  H+          ++ +   Q +LD+V         +I +A   KY D     
+Sbjct: 259 LPPIINSDHSKITLDTKNVFIEITATDQTKLDIV--------CNIMVAMFSKYCDE---- 306
+
+Query: 55  LNQFTKDNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHH---------- 104
+              FT + + I  +    T     L++ +  + +DYLNQ   L+   +            
+Sbjct: 307 --PFTIEPVKIVSEHNGTTRVTPSLHTRVMDVEVDYLNQCCGLQESPESLCKLLGKMAYT 364
+
+Query: 105 -------------STPP----------IANDVSLDFFVNQLPKFSPEERKNYIDNLILNK 141
+                        S PP          +  DV++ +  N LP+ SP +       L++NK
+Sbjct: 365 AVPDKEDAKLIKVSVPPTRADVLHACDVMEDVAIAYGYNNLPRTSPNQASTIGKPLMINK 424
+
+Query: 142 NS 143
+            S
+Sbjct: 425 VS 426
+
+
+>EFNCRP00000000075 pep:known supercontig:ASM18292v1:7.1:295241:296788:1
+           gene:EFNCRG00000000075 transcript:EFNCRT00000000075
+           description:"Mitochondrial import inner membrane
+           translocase subunit tim-14"
+          Length = 105
+
+ Score = 27.7 bits (60), Expect = 3.1,   Method: Composition-based stats.
+ Identities = 18/48 (37%), Positives = 22/48 (45%), Gaps = 2/48 (4%)
+
+Query: 469 FNPDLNKRPPREPIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPY 516
+           F P +NK+     +   LN  T +   I KA     LL   DRGG PY
+Sbjct: 44  FEPRMNKK--EASLILSLNERTITKDKIRKAHRTLMLLNHPDRGGSPY 89
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 4,316,972
+Number of extensions: 176013
+Number of successful extensions: 284
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 284
+Number of HSP's successfully gapped: 6
+Length of query: 533
+Length of database: 4,779,891
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 3,815,669
+Effective search space: 1659816015
+Effective search space used: 1659816015
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

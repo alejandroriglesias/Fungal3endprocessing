@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00005648 pep:known supercontig:CADRE:1.15:82113:82803:1 ...   157   1e-47
+CADATEAP00001228 pep:known supercontig:CADRE:1.8:107424:109638:1...    28   1.7  
+CADATEAP00000113 pep:known supercontig:CADRE:1.3:863040:864523:-...    28   1.8  
+CADATEAP00003350 pep:known supercontig:CADRE:1.14:268785:277831:...    28   2.7  
+CADATEAP00006742 pep:known supercontig:CADRE:1.13:1392628:139433...    27   3.9  
+CADATEAP00009689 pep:known supercontig:CADRE:1.5:1540626:1543993...    26   9.1  
+
+>CADATEAP00005648 pep:known supercontig:CADRE:1.15:82113:82803:1
+           gene:CADATEAG00005648 transcript:CADATEAT00005648
+           description:"Protein SSU72"
+          Length = 219
+
+ Score =  157 bits (398), Expect = 1e-47,   Method: Compositional matrix adjust.
+ Identities = 84/169 (49%), Positives = 107/169 (63%), Gaps = 24/169 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAG--YNVSSYGTGSAVRLPGLSIDKPNVYSFGTP-YN 65
+           L+FCTVCASN NRSME+H  L  A   + V S+GTGS VRLPG SI +PNVY+F T  Y 
+Sbjct: 50  LRFCTVCASNQNRSMEAHLRLSSAPSPFPVISFGTGSLVRLPGPSITQPNVYNFNTTSYA 109
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE---------------------S 104
+            +Y++LL++    Y+ NGLL ML+RNR LK  PE++Q+                      
+Sbjct: 110 QMYDELLAKDERLYRHNGLLNMLERNRNLKWGPERFQDWVPGMPRVDHVSKGDKGALGTE 169
+
+Query: 105 TKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKI 153
+             V D + TCEERC+DAV +DLMN+G  LN+ VHV NVDIKD+ E A +
+Sbjct: 170 GGVVDVIITCEERCWDAVVDDLMNKGSALNRPVHVFNVDIKDNHEEALV 218
+
+
+>CADATEAP00001228 pep:known supercontig:CADRE:1.8:107424:109638:1
+           gene:CADATEAG00001228 transcript:CADATEAT00001228
+           description:"Putative uncharacterized protein"
+          Length = 487
+
+ Score = 28.1 bits (61), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 17/28 (60%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNV 36
+           LK  TV  S   R++E+ K L E+GY V
+Sbjct: 276 LKPLTVWTSTRRRTIETAKYLYESGYKV 303
+
+
+>CADATEAP00000113 pep:known supercontig:CADRE:1.3:863040:864523:-1
+           gene:CADATEAG00000113 transcript:CADATEAT00000113
+           description:"Predicted protein"
+          Length = 475
+
+ Score = 28.1 bits (61), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 18/87 (20%), Positives = 39/87 (44%), Gaps = 2/87 (2%)
+
+Query: 51  SIDKPNVYSFGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDF 110
+           SID P+ +++  P+  + + L S      +   L ++L   + L+    KW   + + DF
+Sbjct: 237 SIDNPDKWAWPAPHAPVPSKLKSLDLRTIREGCLGELLAVTKNLETLRWKWYYESHLGDF 296
+
+Query: 111 VFTCEERCFDAVCEDLMNRGGKLNKIV 137
+           +    +   D +  +L +  G L  ++
+Sbjct: 297 ITQTVD--LDQIATELSHVRGTLTDLI 321
+
+
+>CADATEAP00003350 pep:known supercontig:CADRE:1.14:268785:277831:1
+            gene:CADATEAG00003350 transcript:CADATEAT00003350
+            description:"Putative uncharacterized protein"
+          Length = 2774
+
+ Score = 27.7 bits (60), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 21/61 (34%), Positives = 30/61 (49%), Gaps = 8/61 (13%)
+
+Query: 25   SHKVLQEAGYNVSSYGTG--SAVRLPGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSN 82
+            S +VL+  G      GTG  +AV L GL+ D  N       + DI    L ++ +R+KS 
+Sbjct: 1291 SIRVLEVGG------GTGGDTAVALNGLTPDNENWLYSKYTFTDISPGFLGEAKERFKSY 1344
+
+Query: 83   G 83
+            G
+Sbjct: 1345 G 1345
+
+
+>CADATEAP00006742 pep:known supercontig:CADRE:1.13:1392628:1394338:1
+           gene:CADATEAG00006742 transcript:CADATEAT00006742
+           description:"ATP-dependent RNA helicase dhh1"
+          Length = 509
+
+ Score = 26.9 bits (58), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,219,473
+Number of extensions: 90400
+Number of successful extensions: 213
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 210
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 5,192,116
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,266,338
+Effective search space: 499161546
+Effective search space used: 499161546
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

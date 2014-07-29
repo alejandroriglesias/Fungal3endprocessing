@@ -1,0 +1,187 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa 
+           12,020 sequences; 5,034,962 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1192_Cercospora_zeae_zm1_GeneCatalog_                                 139   1e-36
+7137_Cercospora_zeae_zm1_GeneCatalog_                                  54   4e-08
+9058_Cercospora_zeae_zm1_GeneCatalog_                                  32   0.16 
+10772_Cercospora_zeae_zm1_GeneCatalog_                                 30   0.61 
+5347_Cercospora_zeae_zm1_GeneCatalog_                                  30   1.4  
+152_Cercospora_zeae_zm1_GeneCatalog_                                   29   3.5  
+5834_Cercospora_zeae_zm1_GeneCatalog_                                  27   9.4  
+
+>1192_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 480
+
+ Score =  139 bits (351), Expect = 1e-36,   Method: Compositional matrix adjust.
+ Identities = 106/413 (25%), Positives = 203/413 (49%), Gaps = 37/413 (8%)
+
+Query: 33  DWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTT 92
+           +W+ ++  + +  VK+ SG  E+FG ELA    Y F   K  I+  +  +L     +L+ 
+Sbjct: 41  EWRFEVGFKQQYNVKLESGYAELFGVELAPKQTYKFSGCKGAIFTWQGCQL-----ELSG 95
+
+Query: 93  NTITVKPNHTMKYI---YNLHFMLEKIRM-SNFEGPRVVIVGGSQTGKTSLSRTLCSYAL 148
+           N  +       +Y     N+H MLE +R  S  + PRV+++G    GK+SL R+L ++A+
+Sbjct: 96  NAESEYAGQETEYAVEWLNVHGMLEGMRAPSASDAPRVLVLGPDFVGKSSLVRSLAAWAV 155
+
+Query: 149 KFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVK 208
+           +   + P  +NLDP++ +   PG +S   +   LD +   +G S +SG T+   + P++ 
+Sbjct: 156 RI-GHAPTVVNLDPREGLLAPPGSLSIVTVDSSLDIEN-GYGISSSSGPTVSPVRTPLIY 213
+
+Query: 209 NFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTP-SISQLDENLAELHH 267
+           +F  +  +E  +++    +++   V  RL  +   +RSG I+DTP S++    +   + H
+Sbjct: 214 HFPYQSPSEKPEVFKPITTRMALSVTNRLEENVAAKRSGIIIDTPGSLNDPKSSYELIAH 273
+
+Query: 268 IIEKLNVNIMLVLCSE--TDPLWEKVKKTFGPELGNNNIFFIPKLDGVSAVDDVYKRSLQ 325
+           I+ + ++N++L + SE  +  +  +   T  P+    ++  I K  G    D  + R ++
+Sbjct: 274 IVSEFSINMILTIGSERLSSDMSRRFASTKNPDE-TVHVLRITKPGGAVERDVDFMRQVR 332
+
+Query: 326 RTSIREYFYGSLDTALSPYAIGVDYEDLTIWK-PSNVFDN---------EVGRVELFPVT 375
+             S+++YF+GS   +L+P++  + + DL +++  S V  N         + G     P  
+Sbjct: 333 TQSLKQYFFGSSKESLNPHSHTMPFTDLDVYRVKSGVALNTEDAGFAAGDEGDDYDIPYA 392
+
+Query: 376 -----------ITPS-NLQHAIIAITFAERRADQATVIKSPILGFALITEVNE 416
+                      +TPS  +   ++AI F     D+ T+  S ++GF    +V+E
+Sbjct: 393 NRPAGNTTYEKVTPSAAMTGGLLAIKFCSGGVDEQTIRDSAVMGFLYAADVDE 445
+
+
+>7137_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 479
+
+ Score = 53.9 bits (128), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 53/106 (50%), Gaps = 9/106 (8%)
+
+Query: 123 GPRVVIVGGSQTGKTSLSRTLC-SYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDI 181
+            PR++ +GG  +GK++ +R LC +   + +     Y++LDP QP F  PG +S      +
+Sbjct: 136 APRILAIGGKSSGKSTFNRILCNTVTSRASTSSCFYLDLDPGQPEFGSPGQLS------L 189
+
+Query: 182 LDAQLPTWGQSLTSGATLLHNKQPMVKNFGLER--INENKDLYLEC 225
+           ++   P  G + T  A+    K  +V++  +      E+ D YL C
+Sbjct: 190 IEVTAPILGPAFTHLASTFSTKYRLVRSHTIASTTFKEDPDHYLAC 235
+
+
+>9058_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 260
+
+ Score = 32.3 bits (72), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 30/68 (44%), Gaps = 8/68 (11%)
+
+Query: 45  IVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKC---PDLTTNTITVKPNH 101
+           I K + G    F  E   DD+Y F+N    +Y    T L   C   P L +N  TVKP H
+Sbjct: 107 IKKKSLGDRNRFAEEYGDDDDYGFENLGLALYRY-RTPLPSTCFHLPYLVSNAHTVKPTH 165
+
+Query: 102 TMKYIYNL 109
+                YN+
+Sbjct: 166 ----FYNM 169
+
+
+>10772_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 132
+
+ Score = 30.0 bits (66), Expect = 0.61,   Method: Composition-based stats.
+ Identities = 22/94 (23%), Positives = 40/94 (42%), Gaps = 18/94 (19%)
+
+Query: 20  DNEW------HKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKF 73
+           D  W      H +++ +GS   +++   G +I+    G  ++   E AVD E    +W+ 
+Sbjct: 22  DGRWDGLPIPHAVIVARGSSRDMEVHKTGIIIITAACGSGKVRCAEGAVDREL-LTDWRC 80
+
+Query: 74  PIYAVEETELLWKCPDLTTNTITVKPNHTMKYIY 107
+                    L+W+   LT       P H++ YI+
+Sbjct: 81  ---------LIWR--RLTAQACKRDPVHSLLYIF 103
+
+
+>5347_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 1514
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 25/44 (56%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+            N  M+Y   L  +L+ + MS   G R+ +VG +  GK+++  TL
+Sbjct: 1238 NVQMRYRAGLPLVLKGLTMSVRAGERIGVVGRTGAGKSTIMSTL 1281
+
+
+>152_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 557
+
+ Score = 28.9 bits (63), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 14/37 (37%), Positives = 18/37 (48%)
+
+Query: 173 ISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKN 209
+           IS     D L+ Q   WG +LT     LHN+Q  + N
+Sbjct: 271 ISTHLCYDYLNQQTGEWGPNLTCYKERLHNRQDRISN 307
+
+
+>5834_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 504
+
+ Score = 27.3 bits (59), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%)
+
+Query: 112 MLEKIRMSNFEGPRVVIVGGSQTGKTSLS 140
+           +L+ IR     G  V++ GG  TGKT+L+
+Sbjct: 73  VLDLIRAKKMAGKAVMLAGGPGTGKTALA 101
+
+
+  Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa
+    Posted date:  Feb 26, 2014  1:02 PM
+  Number of letters in database: 5,034,962
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 4,254,422
+Number of extensions: 178363
+Number of successful extensions: 423
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 417
+Number of HSP's successfully gapped: 7
+Length of query: 445
+Length of database: 5,034,962
+Length adjustment: 96
+Effective length of query: 349
+Effective length of database: 3,881,042
+Effective search space: 1354483658
+Effective search space used: 1354483658
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

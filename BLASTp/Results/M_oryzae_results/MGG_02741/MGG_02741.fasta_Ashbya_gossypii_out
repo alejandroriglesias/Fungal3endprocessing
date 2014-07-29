@@ -1,0 +1,80 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1 gene:...    30   0.61 
+
+>AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1 gene:AGOS_ADL160W
+           transcript:AAS51760 description:"ADL160Wp"
+          Length = 526
+
+ Score = 30.0 bits (66), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 23/103 (22%), Positives = 42/103 (40%), Gaps = 20/103 (19%)
+
+Query: 99  ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVK 158
+           + I  L W  T+D++R +  + G   E+K +        G+S+G  ++      +   V 
+Sbjct: 165 MFIGGLNWETTEDNLREYFSKYGNVTEVKIM---RDGTTGRSRGFGFLSFADASSVDEVV 221
+
+Query: 159 HRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPK-DQPRTGK 200
+                           K Q I     ++P R +P+ +Q +TGK
+Sbjct: 222 ----------------KTQHILDGKVIDPKRAIPREEQDKTGK 248
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,162,799
+Number of extensions: 44847
+Number of successful extensions: 156
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 150
+Number of HSP's successfully gapped: 10
+Length of query: 424
+Length of database: 2,335,236
+Length adjustment: 91
+Effective length of query: 333
+Effective length of database: 1,900,620
+Effective search space: 632906460
+Effective search space used: 632906460
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

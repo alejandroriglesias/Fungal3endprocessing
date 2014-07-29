@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa 
+           12,169 sequences; 5,459,076 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDU41983 pep:novel supercontig:GCA_000149985.1:supercont1.10:622...   179   1e-50
+EDU46800 pep:novel supercontig:GCA_000149985.1:supercont1.3:1697...    30   1.3  
+EDU50828 pep:novel supercontig:GCA_000149985.1:supercont1.8:1131...    29   2.4  
+
+>EDU41983 pep:novel supercontig:GCA_000149985.1:supercont1.10:622394:623925:1
+           gene:PTRG_08932 transcript:EDU41983 description:"mRNA
+           cleavage and polyadenylation factor IA/II complex"
+          Length = 463
+
+ Score =  179 bits (454), Expect = 1e-50,   Method: Compositional matrix adjust.
+ Identities = 134/471 (28%), Positives = 225/471 (47%), Gaps = 47/471 (9%)
+
+Query: 1   MASLPG-------IDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIV 53
+           M SLPG       +D H T     T   E     +   ++++ ++     L +K+ SG  
+Sbjct: 1   MISLPGLNLSSQSVDPHNTPTSTATRTQE-----LAANTEYRFEVAFSHTLTIKLQSGTA 55
+
+Query: 54  EIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTIT----VKPNHTMKYIYNL 109
+           E FGTELA    YTFQ  K  I+        W    L          V     M    NL
+Sbjct: 56  EFFGTELAPSTTYTFQGTKGAIFT-------WHGCKLDIGGQAEGEYVAEETPMMSAANL 108
+
+Query: 110 HFMLEKIRMSNFE------GPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQ 163
+           HF LE +R  +        GPR+++VG   +GKTSL + L SYA+K +  QP+ +NLDP+
+Sbjct: 109 HFALENLRDKSVASGSVEMGPRILVVGPENSGKTSLVKILTSYAVKMD-RQPMVVNLDPR 167
+
+Query: 164 QPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYL 223
+           Q + +VPG  SA   S I+D +   WG S  SG + +  K P+V ++GL+   E + ++ 
+Sbjct: 168 QGMLSVPGSFSAAAFSSIVDIE-EGWGSSPISGPSPIPVKMPLVYHYGLKDPEEGR-VFK 225
+
+Query: 224 ECISQLGQVVGQRLHLDPQVRRSGCIVDTP-SISQLDENLAE-LHHIIEKLNVNIMLVLC 281
+             ++++   V  RL  D   +++G I+D+P +ISQ    + + + HI+ + +VN+++ + 
+Sbjct: 226 PLVTRMALAVTSRLEEDKLSKQAGFIIDSPGAISQGRNGVYDNIEHIVSEFSVNVLVTIG 285
+
+Query: 282 SETDPLWEKVKKTFGPELGNN-----NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGS 336
+           SE   L+  + + F    G++     ++  I K  G     + Y ++L+   IREYF+G 
+Sbjct: 286 SER--LYSDLSRKFTSRPGSDPSEAVSVIRIDKSGGCVDRSEEYMKTLRHAQIREYFFGK 343
+
+Query: 337 LDTALSPYAIGVDYEDLTIWKPSN---VFDNEVG---RVELFPVTITPSNLQHAIIAITF 390
+            D  L+P +   D  DL I++ S+   +  ++ G     ++F       ++++ I+A+T 
+Sbjct: 344 GDETLAPSSQNADTADLNIFRVSDGHGIIVDDYGVTQERQVFDKVAPTESMENHILAVTT 403
+
+Query: 391 AERRADQATVIKSPILGFALITEVNEXXXXXXXXXXXXXXXXSKAMILTSY 441
+           A     Q  +  S I G+  + +V++                  AMIL S+
+Sbjct: 404 ASPNDSQTVIRDSSIRGYIYVADVDDAKKKVKLLSPLPGQTPGNAMILGSW 454
+
+
+>EDU46800 pep:novel supercontig:GCA_000149985.1:supercont1.3:1697706:1699055:
+           -1 gene:PTRG_03962 transcript:EDU46800 description:"NADH
+           oxidase"
+          Length = 449
+
+ Score = 30.0 bits (66), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 23/41 (56%)
+
+Query: 373 PVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITE 413
+           P++ +   LQ  I+ +TFA+ RA     IK+ I GFA   E
+Sbjct: 142 PISASDVQLQGNIMGMTFAKPRAATEQDIKNVIEGFAHAAE 182
+
+
+>EDU50828 pep:novel supercontig:GCA_000149985.1:supercont1.8:1131485:1133017:
+           -1 gene:PTRG_07909 transcript:EDU50828
+           description:"predicted protein"
+          Length = 510
+
+ Score = 29.3 bits (64), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 26/55 (47%), Gaps = 5/55 (9%)
+
+Query: 356 WKPSNVFDNEVGRVELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFAL 410
+           W P N+ +   G  E+F +++ P+N    +I  TF     D  T  K  +  F++
+Sbjct: 394 WLPDNITEQAAGDEEVFCLSVKPNNRDAQVIKQTF-----DANTSEKHKMYAFSM 443
+
+
+  Database: Pyrenophora_triticirepentis.GCA_000149985.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 5,459,076
+  Number of sequences in database:  12,169
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12169
+Number of Hits to DB: 4,667,404
+Number of extensions: 199362
+Number of successful extensions: 427
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 422
+Number of HSP's successfully gapped: 6
+Length of query: 445
+Length of database: 5,459,076
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,278,683
+Effective search space: 1488981684
+Effective search space used: 1488981684
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

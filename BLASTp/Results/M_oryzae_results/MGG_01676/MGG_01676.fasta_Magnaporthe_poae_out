@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_06419T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   509   0.0  
+MAPG_10738T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   1.6  
+MAPG_05288T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   2.8  
+MAPG_07180T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   3.3  
+
+>MAPG_06419T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:1720871:1
+           722797:-1 gene:MAPG_06419 transcript:MAPG_06419T0
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 266
+
+ Score =  509 bits (1310), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 246/266 (92%), Positives = 250/266 (93%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTITTTALQSGQPP+IP  FN NQP TIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTITTTALQSGQPPVIPRDFNGNQPTTIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY+AHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER
+Sbjct: 61  EHYSAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+
+Query: 121 LAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+           LAPVGRLGEGEEAGDWQ+GDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK
+Sbjct: 121 LAPVGRLGEGEEAGDWQVGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+
+Query: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPG 240
+           VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLS+YNFEFVDE GNVVA TPG G  
+Sbjct: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSRYNFEFVDEAGNVVAVTPGGGGP 240
+
+Query: 241 EGDHVPKTKVLAGGDDVDMKQENGAH 266
+                PKTKVLAGGDDVDM QENG H
+Sbjct: 241 PDGSTPKTKVLAGGDDVDMSQENGTH 266
+
+
+>MAPG_10738T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.13:217231:2
+           19703:-1 gene:MAPG_10738 transcript:MAPG_10738T0
+           description:"hypothetical protein"
+          Length = 678
+
+ Score = 28.9 bits (63), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 18/37 (48%), Gaps = 7/37 (18%)
+
+Query: 37  YTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCE 73
+           Y  G  E Q E       +LKRL E +N HG R  C+
+Sbjct: 255 YMLGRVEVQGE-------KLKRLYESFNLHGSRSCCD 284
+
+
+>MAPG_05288T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.4:1514981:1
+           518828:1 gene:MAPG_05288 transcript:MAPG_05288T0
+           description:"hypothetical protein"
+          Length = 817
+
+ Score = 28.1 bits (61), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 24/44 (54%)
+
+Query: 204 RYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPGEGDHVPK 247
+           R G + +A+P+  S  +FEFV    N+      SG G  D+VP+
+Sbjct: 525 RLGRRWAAVPYARSVKHFEFVKLARNLNDALNDSGFGIRDYVPE 568
+
+
+>MAPG_07180T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:815868:81
+           9199:1 gene:MAPG_07180 transcript:MAPG_07180T0
+           description:"CMGC/CDK/CDC2 protein kinase"
+          Length = 328
+
+ Score = 27.7 bits (60), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 21/46 (45%), Gaps = 1/46 (2%)
+
+Query: 40  GVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPH 85
+           G  +  PE   S L+RL  L E+     M + CEG   CH H   H
+Sbjct: 102 GRGKALPEGSSSQLSRLG-LGENIIKKFMSQLCEGTRYCHSHRILH 146
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 3,206,726
+Number of extensions: 153990
+Number of successful extensions: 373
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 373
+Number of HSP's successfully gapped: 9
+Length of query: 266
+Length of database: 4,928,244
+Length adjustment: 91
+Effective length of query: 175
+Effective length of database: 3,893,574
+Effective search space: 681375450
+Effective search space used: 681375450
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

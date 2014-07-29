@@ -1,0 +1,145 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_4755T1 pep:novel supercontig:B05.10_v2:Supercontig_1.12:40...   523   e-180
+B0510_925T1 pep:novel supercontig:B05.10_v2:Supercontig_1.2:1111...    31   0.97 
+B0510_5158T1 pep:novel supercontig:B05.10_v2:Supercontig_1.13:91...    28   8.9  
+
+>B0510_4755T1 pep:novel supercontig:B05.10_v2:Supercontig_1.12:408200:410384:1
+           gene:B0510_4755 transcript:B0510_4755T1 description:""
+          Length = 573
+
+ Score =  523 bits (1347), Expect = e-180,   Method: Compositional matrix adjust.
+ Identities = 276/579 (47%), Positives = 379/579 (65%), Gaps = 35/579 (6%)
+
+Query: 2   SSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQR 61
+           ++ +  GIT P+ST   T AE +  D+LI+E+ KE  FE+  +T  R  VL  LQ + + 
+Sbjct: 4   AAPRQLGITPPLSTALPTDAEKQATDALIEEMTKENLFESRADTEKRSAVLASLQSITEE 63
+
+Query: 62  FVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD 121
+           FV  V +K+N+ + +  +AGG+IFTYGS+RLGV+GPGSDIDTLVVVPK+V+RE++F +F 
+Sbjct: 64  FVKRVCRKQNLPENIVNNAGGRIFTYGSFRLGVYGPGSDIDTLVVVPKNVSREEYFELFP 123
+
+Query: 122 SLLRE---RKELDEIAPVPDAFVPIIKIKFSGISIDLICARLD-QPQVPLSLTLSDKNLL 177
+            LL E      ++++ PVP+AFVPIIK ++SGISIDLI AR++   Q+  SL+L+D NLL
+Sbjct: 124 DLLVEMAPEGAIEDLTPVPEAFVPIIKFEYSGISIDLIFARIEVLTQISRSLSLNDDNLL 183
+
+Query: 178 RNLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWA 237
+             LDE  LR+LNGTRVTD+IL LVP+  VFR ALR +KLWAQRRA+YANI GFPGGVAWA
+Sbjct: 184 TGLDEAGLRSLNGTRVTDDILNLVPEKAVFRTALRGVKLWAQRRAIYANIMGFPGGVAWA 243
+
+Query: 238 MLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRS 297
+           MLVAR+CQLYP A ++ ++ +FF I+S+W WPQPV+L+ I+ G L VRVWNP++Y  D  
+Sbjct: 244 MLVARVCQLYPQATASTVILKFFRIMSQWQWPQPVLLQAIKGGKLNVRVWNPRVYKGDGY 303
+
+Query: 298 HRMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFR 357
+           H MP+ITP+YPSMCATHNIT+STK++I +E  RG  IT+ I + K SW +LF K+ FF +
+Sbjct: 304 HLMPIITPSYPSMCATHNITKSTKEIICRELARGGNITDRIMTGKASWKDLFVKHTFFTK 363
+
+Query: 358 -YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCP 416
+            YK+YL + + +  + E  L W+GLVESKVRLLV  +E    I +AHPF K FE  + C 
+Sbjct: 364 NYKYYLSVISAST-TKEAQLIWAGLVESKVRLLVANVENHESIALAHPFNKGFERVHKCS 422
+
+Query: 417 TEDDYEMIQD---KYG-----------SHKTETALNALKLVTDENKEEESIKDAPKAYLS 462
+           +ED+ E +++   +Y            SH T T   A+K    +  + E  K     Y +
+Sbjct: 423 SEDEIESVKEGNLQYQIKEIPTVTTDPSHDT-TLGTAVKDQNGDAPKSEPEKKESLVYTT 481
+
+Query: 463 TMYIGLDFNIENKKEKVDIHIPCTEFVNLCRS---FNEDYGDHKVFNLALRFVKGYDLPD 519
+           T YIGL+  +    + +D+     EF  +CRS   +NE+     V N      +  DLPD
+Sbjct: 482 THYIGLE--LREGAKSLDLAWCVDEFKRVCRSWEKYNEELNTLSVVN-----TRNCDLPD 534
+
+Query: 520 EVFDENEKRPSKKSKRKNL----DARHETVKRSKSDAAS 554
+           +VF E E +P++  K+K      D  + + KR +  AA 
+Sbjct: 535 DVFTEGEVKPTRSQKKKKRSSADDVENASTKRRQVVAAG 573
+
+
+>B0510_925T1 pep:novel supercontig:B05.10_v2:Supercontig_1.2:1111493:1113962:1
+           gene:B0510_925 transcript:B0510_925T1 description:""
+          Length = 788
+
+ Score = 31.2 bits (69), Expect = 0.97,   Method: Compositional matrix adjust.
+ Identities = 20/82 (24%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query: 84  IFTYGSYRLGVHGPGSDIDTLVVV--------PKHVTREDFFTVFDSLLRERKELDEIAP 135
+           I  +GS+  G++ P +D+D ++V         PK+ ++   + V  ++ R+R     I  
+Sbjct: 493 ILPFGSFPAGLYLPTADMDVVMVSDEFMDGGWPKYSSKSHIWRVKSNIERDRLNTGRIDV 552
+
+Query: 136 VPDAFVPIIKI--KFSGISIDL 155
+           +  A VP+ K     +G+ +D+
+Sbjct: 553 ITSAKVPLAKWVDAITGLKVDM 574
+
+
+>B0510_5158T1 pep:novel supercontig:B05.10_v2:Supercontig_1.13:915417:919967:1
+           gene:B0510_5158 transcript:B0510_5158T1 description:""
+          Length = 1463
+
+ Score = 28.1 bits (61), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 15/36 (41%), Positives = 20/36 (55%), Gaps = 1/36 (2%)
+
+Query: 182 EKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLW 217
+           E+DL  L GT + D + E VP   +  +A   IKLW
+Sbjct: 885 ERDLTLLGGTAIEDRLQEGVPD-TIALLAEAGIKLW 919
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 6,002,674
+Number of extensions: 267712
+Number of successful extensions: 730
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 726
+Number of HSP's successfully gapped: 7
+Length of query: 568
+Length of database: 5,266,216
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,241,467
+Effective search space: 1989248023
+Effective search space used: 1989248023
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

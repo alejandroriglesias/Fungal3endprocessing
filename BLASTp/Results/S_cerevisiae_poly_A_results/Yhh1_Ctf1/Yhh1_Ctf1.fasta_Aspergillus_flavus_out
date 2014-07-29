@@ -1,0 +1,229 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding subunit of the mRNA cleavage and polyadenylation
+factor; involved in poly(A) site recognition and required for both
+pre-mRNA cleavage and polyadenylation, 51% sequence similarity with
+mammalian AAUAA-binding subunit of CPSF
+         (1357 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00013321 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1...   204   2e-53
+CADAFLAP00000055 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:1...    31   2.0  
+CADAFLAP00005552 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:1...    31   2.1  
+CADAFLAP00001831 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:4...    31   2.5  
+CADAFLAP00008744 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:3...    30   6.4  
+CADAFLAP00008617 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:6...    29   8.2  
+
+>CADAFLAP00013321 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1246895:1251561:-1
+            gene:CADAFLAG00013321 transcript:CADAFLAT00013321
+            description:"Cleavage and polyadenylation specificity
+            factor subunit A, putative "
+          Length = 1204
+
+ Score =  204 bits (519), Expect = 2e-53,   Method: Compositional matrix adjust.
+ Identities = 145/533 (27%), Positives = 263/533 (49%), Gaps = 55/533 (10%)
+
+Query: 845  SSIERIMHYFP-----DYNGYSVIFVTGSVPYILIKEDDSTPKIFKFGNIPLVSVTPWSE 899
+            SS E ++   P     + +G+S IF  G  P  +++   S+P           S++ +  
+Sbjct: 680  SSTEEVIKSVPLRIVSNISGFSAIFRPGVSPGFIVRTSTSSPHFLGLKGGYAQSLSKF-- 737
+
+Query: 900  RSVMCVDDIKNARVYTLTTDNMYYGNKLPL----------KQIKISNVLDDYKTLQKLVY 949
+            ++  C +         L +  + +  ++PL          +QI I   +D       L Y
+Sbjct: 738  QTSECGEGF-----ILLDSKGVIHVCQMPLGVQLDYPWTIQQIPIGEQVD------HLAY 786
+
+Query: 950  HERAQLFLVSYCKRVPYEALGEDGEKVIGYDENVPH--AEGFQSGILLINPKSWKVIDKI 1007
+               + ++++    R  ++ L ED E    +   +     E  +S + +++PK+W VID  
+Sbjct: 787  SSSSGMYVIGTSHRTEFK-LPEDDELHPEWRNEMTSFFPEVQRSSLKVVSPKTWTVIDSY 845
+
+Query: 1008 DFPKNSVVNEMRSSMIQINSKTKRKREYIIAGVANATTEDTPPTGAFHIYDVIEVVPEPG 1067
+                   V  +++  ++I+  T  +++ I+ G A A  ED    G  ++++VI+VVP+P 
+Sbjct: 846  LLSPAEHVMAVKNMSLEISENTHERKDMIVVGTAFARGEDIASRGCVYVFEVIKVVPDPK 905
+
+Query: 1068 KPDTNYKLKEIFQEEVSGTVSTVCEVSGR--FMISQSQKVLVRDIQEDNSVIPVAFLDIP 1125
+            +P+ + KL+ + +E V G V+ + E+ G+   +++Q QK +VR ++ED S++PVAF+D+ 
+Sbjct: 906  RPEMDRKLRLVGKEPVKGAVTALSEIGGQGFLIVAQGQKCIVRGLKEDGSLLPVAFMDVQ 965
+
+Query: 1126 VFVTDSKSFGN--LLIIGDAMQGFQFIGFDAEPYRMISLGRSMSKFQTMSLEFLVNGGDM 1183
+              V+  K      + II DA++G  F G+  EPY+M    + +   + ++ +FL +G  +
+Sbjct: 966  CHVSVVKELKGTGMCIIADAVKGLWFAGYSEEPYKMSLFAKDLDYLEVLAADFLPDGNKL 1025
+
+Query: 1184 YFAATDADRNVHVLKYAPDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPR----NEEFGSP 1239
+            +    D+D N+HVL+Y P++P S +G RL+  S F   +  S + LLPR    +E+  S 
+Sbjct: 1026 FILVADSDCNLHVLQYDPEDPKSSNGDRLLSRSKFHTGNFISTLTLLPRTSVSSEQMISD 1085
+
+Query: 1240 --------QVPSFQNVGGQVDGSVFKIVPLSEEKYRRLYVIQQQIIDRELQLGGLNPRME 1291
+                    ++P  Q +    +GSV  +  +SEE YRRL  +Q Q+ +      GLNPR  
+Sbjct: 1086 VDAMDVDIKIPRHQMLITSQNGSVGLVTCVSEESYRRLSALQSQLTNTIEHPCGLNPRAF 1145
+
+Query: 1292 RLANDFYQMGHSMRPMLDFNVIRRFCGLAIDRRKSIAQKAGRH-----AHFEA 1339
+            R        G + R MLD  ++ ++  ++  R+  IA + G +     A FEA
+Sbjct: 1146 RAVE---SDGTAGRGMLDGKLLFQWLDMSKQRKVEIASRVGANEWEIKADFEA 1195
+
+
+
+ Score = 84.3 bits (207), Expect = 2e-16,   Method: Compositional matrix adjust.
+ Identities = 97/360 (26%), Positives = 155/360 (43%), Gaps = 43/360 (11%)
+
+Query: 1   MNVYDDVLDATVVSHSLATHFTTSDYEELLVVRTNILSVYR-----PTRDG-------KL 48
+           M  Y ++L  T V+HSLA  F +     L+V RT+ L ++      P   G       KL
+Sbjct: 1   MQCYTELLPPTGVTHSLALPFISESANNLVVARTSRLQIFSLLDVGPRPGGIEEQGVPKL 60
+
+Query: 49  YLTDEFKFHGLITDIGLIP--QKDSPLSCLLLCTGVAKISILKFNTLTNSIDTLSLHYYE 106
+            L  E+   G +TD+  +      S    +LL    AK+++++++     I T+S+HYYE
+Sbjct: 61  VLEREYALPGTVTDLCRVKLLNTKSGGEAILLAFRNAKLALIEWDPGRYGICTISIHYYE 120
+
+Query: 107 GKFKGKS--LVELAKI-STLRMDPGSSCALLFNNDI--IAFLPFHVNKNXXXXXXXXXXX 161
+                 S  + +L+   S L +DP S CA +FN  I  +A LPFH   +           
+Sbjct: 121 RDDSTSSPWVPDLSSCGSILSVDPSSRCA-VFNFGIRNLAILPFHQPGDDLVMDDYGE-- 177
+
+Query: 162 XXXXXXLIHSMNQKSQGTNTFNKRKRTKLGDKFTAP---SVVLVASELYEGAKNIIDIQF 218
+                  +      S G  +      TK      AP   S VL  + L     + I + F
+Sbjct: 178 -------LDDERLGSHGLESGTDCDMTKESIAHRAPYSSSFVLPLAALDPSILHPISLAF 230
+
+Query: 219 LKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILTLNIQPAESATKIESTTIAFVKELP 278
+           L  + +PT  +LY             K    Y + TL+++      +  STT+  V  LP
+Sbjct: 231 LYEYREPTFGILYSQVATSNALLHERKDVVFYTVFTLDLE------QRASTTLLSVSRLP 284
+
+Query: 279 WDLHTIV---PVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADKELQKTKIINNSSLEI 335
+            DL  +V   P   GA+++G+NEL  +D  G   + V +N F+ +++    + + S L +
+Sbjct: 285 SDLFKVVALPPPVGGALLIGSNELVHVDQAGKTNA-VGVNEFS-RQVSSFSMTDQSDLAL 342
+
+
+>CADAFLAP00000055 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:141154:142467:-1
+           gene:CADAFLAG00000055 transcript:CADAFLAT00000055
+           description:"Putative uncharacterized protein "
+          Length = 437
+
+ Score = 31.2 bits (69), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 32/142 (22%), Positives = 56/142 (39%), Gaps = 21/142 (14%)
+
+Query: 206 LYEGAKNIIDIQFLKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILTLNIQPAESAT- 264
+           LY  A +  +++++KN T   IA +Y                   ++L +N  P    T 
+Sbjct: 125 LYSDANDATEVKWIKNGT--AIAAIYSD-----------------LVLMINHTPDNPETD 165
+
+Query: 265 KIESTTIAFVKELPWDLHTIVPVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADKELQK 324
+           K+ +  +    E  W+ HT+ P+    + VGT      D   V  S+V  N   D+ L  
+Sbjct: 166 KLITFAVCRQNEFLWNAHTLEPLPGDRVAVGTTGSNAWDGILVYNSSV-DNPLVDEPLIL 224
+
+Query: 325 TKIINNSSLEIMFREKNTTSIW 346
+             I    ++  M  ++    +W
+Sbjct: 225 QNITGLRAIHGMIWDEQEQMLW 246
+
+
+>CADAFLAP00005552 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:1085392:1087162:1
+            gene:CADAFLAG00005552 transcript:CADAFLAT00005552
+            description:"Putative uncharacterized protein "
+          Length = 533
+
+ Score = 31.2 bits (69), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 28/44 (63%), Gaps = 1/44 (2%)
+
+Query: 1239 PQVPSFQNVGGQVDGSVFKIVPLS-EEKYRRLYVIQQQIIDREL 1281
+            P +P F+  GG++  +    V LS  + ++R++V+Q+ ++ R++
+Sbjct: 203  PPLPKFKGPGGELQAAATTAVDLSCRQWFKRIWVLQEYLLARKV 246
+
+
+>CADAFLAP00001831 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:428816:429786:-1
+           gene:CADAFLAG00001831 transcript:CADAFLAT00001831
+           description:"Putative uncharacterized protein "
+          Length = 262
+
+ Score = 30.8 bits (68), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 46/96 (47%), Gaps = 24/96 (25%)
+
+Query: 483 TTNDSKGTVETVQPFDIELLSSLRNVGPITSLTVGKVSSIDDVVKGLPNPNKNEYSLVAT 542
+           + N S GT++   P       +L +VG +  L  G+ SS+D        P      L   
+Sbjct: 181 SNNSSHGTLDLSLP-------ALHDVGHL--LLQGRFSSLD-------TPK-----LTNI 219
+
+Query: 543 SGNGSGSHLTVIQTSVQPEIELA---LKFISITQIW 575
+           SG GSGS+  ++++   PEI+L+   LK+I    +W
+Sbjct: 220 SGFGSGSYSILLRSEEGPEIDLSFPELKYIQDDSLW 255
+
+
+>CADAFLAP00008744 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:376722:379367:1
+           gene:CADAFLAG00008744 transcript:CADAFLAT00008744
+           description:"Alpha-1,2-mannosidase, putative subfamily "
+          Length = 801
+
+ Score = 30.0 bits (66), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 27/52 (51%), Gaps = 4/52 (7%)
+
+Query: 522 IDDVVKGLPNPNKNEYSLVATSGNGSGSHLTVIQTSVQPEIELALKFISITQ 573
+           +DD V+    P KN  SL A+   G+ +  T  Q +   ++ + + FIS TQ
+Sbjct: 255 LDDEVR----PGKNTVSLNASGSGGAFARFTPPQANGTIDVRVGISFISATQ 302
+
+
+>CADAFLAP00008617 pep:known supercontig:JCVI-afl1-v2.0:EQ963480:67701:69854:1
+           gene:CADAFLAG00008617 transcript:CADAFLAT00008617
+           description:"Succinyl-CoA\x3a3-ketoacid-coenzyme A
+           transferase "
+          Length = 549
+
+ Score = 29.3 bits (64), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 19/69 (27%), Positives = 33/69 (47%)
+
+Query: 267 ESTTIAFVKELPWDLHTIVPVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADKELQKTK 326
+           E+   A  +  P DLH++  VSN A   G   L+ L   G +   +L     +K L+K  
+Sbjct: 97  ETIISAIHRRGPEDLHSLTAVSNNAGAPGKGGLSTLTQAGQVNRLILSYLGNNKALEKKY 156
+
+Query: 327 IINNSSLEI 335
+           +  + ++E+
+Sbjct: 157 LTGDIAIEL 165
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.319    0.136    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 14,178,970
+Number of extensions: 592952
+Number of successful extensions: 1160
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 1155
+Number of HSP's successfully gapped: 10
+Length of query: 1357
+Length of database: 5,672,061
+Length adjustment: 106
+Effective length of query: 1251
+Effective length of database: 4,242,439
+Effective search space: 5307291189
+Effective search space used: 5307291189
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 59 (27.3 bits)

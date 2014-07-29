@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBY00321 pep:novel supercontig:ASM23037v1:FP929138:680985:682041...   452   e-161
+CBX93077 pep:novel supercontig:ASM23037v1:FP929105:443273:448169...    28   3.5  
+CBX99723 pep:novel supercontig:ASM23037v1:FP929137:234550:237907...    27   8.6  
+
+>CBY00321 pep:novel supercontig:ASM23037v1:FP929138:680985:682041:1
+           gene:LEMA_P014510.1 transcript:CBY00321
+           description:"Similar to cleavage and polyadenylation
+           specificity factor subunit 5 "
+          Length = 272
+
+ Score =  452 bits (1163), Expect = e-161,   Method: Compositional matrix adjust.
+ Identities = 217/262 (82%), Positives = 232/262 (88%), Gaps = 2/262 (0%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTIT  A QS  PP++P  FNANQP+TIRLYPLSNYTFG K+ QPEEDPSVLARLKRLE
+Sbjct: 1   MSTITQEASQSSYPPVLPKDFNANQPKTIRLYPLSNYTFGTKDGQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  +GMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLR EDDE+EGFKARL+ER
+Sbjct: 61  EHYTEYGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRAEDDEIEGFKARLNER 120
+
+Query: 121 LAPVGRLGEGEEAGD-WQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE   D WQ+GD LAQWWRPNFETFMYPF+PAHVTRPKECKKLYFIQLP S
+Sbjct: 121 LAPVGTQFTGEGVNDEWQVGDTLAQWWRPNFETFMYPFIPAHVTRPKECKKLYFIQLPRS 180
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           KVLSVPKNMKLLAVPLFELYDN+ARYGPQLSAIPHLLS+YNFEFVDEQGNV A TPG+GP
+Sbjct: 181 KVLSVPKNMKLLAVPLFELYDNTARYGPQLSAIPHLLSRYNFEFVDEQGNVSACTPGAGP 240
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQ 261
+            EGD  P TKVLAGG+D+ M+ 
+Sbjct: 241 TEGD-APTTKVLAGGEDLKMEH 261
+
+
+>CBX93077 pep:novel supercontig:ASM23037v1:FP929105:443273:448169:-1
+           gene:LEMA_P039780.1 transcript:CBX93077
+           description:"Similar to phospholipid-translocating
+           P-type ATPase domain containing protein "
+          Length = 1545
+
+ Score = 27.7 bits (60), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 18/30 (60%)
+
+Query: 103 LRPEDDEVEGFKARLDERLAPVGRLGEGEE 132
+           L+  DD V   +++LDE+LA  G  G  EE
+Sbjct: 954 LKTTDDNVASVESQLDEKLAIFGLTGSEEE 983
+
+
+>CBX99723 pep:novel supercontig:ASM23037v1:FP929137:234550:237907:-1
+           gene:LEMA_P073120.1 transcript:CBX99723
+           description:"Putative uncharacterized protein "
+          Length = 1051
+
+ Score = 26.6 bits (57), Expect = 8.6,   Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 27/61 (44%), Gaps = 3/61 (4%)
+
+Query: 15  PIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEG 74
+           PI+P    +   E  ++ P   Y F  K   P+E P+    +K    HY   G R+TC G
+Sbjct: 618 PILPHPSGSKTLEPDQILPPGAY-FEAK--SPDEKPAWRCCIKHAMGHYYNAGDRKTCRG 674
+
+Query: 75  I 75
+            
+Sbjct: 675 C 675
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 3,325,956
+Number of extensions: 157323
+Number of successful extensions: 347
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 345
+Number of HSP's successfully gapped: 4
+Length of query: 266
+Length of database: 5,217,443
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,070,295
+Effective search space: 708231330
+Effective search space used: 708231330
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

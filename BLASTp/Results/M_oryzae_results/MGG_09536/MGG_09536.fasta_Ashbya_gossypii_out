@@ -1,0 +1,153 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS50840 pep:known chromosome:ASM9102v1:II:519259:520449:-1 gene...   230   1e-68
+AAS50677 pep:known chromosome:ASM9102v1:II:222466:223239:1 gene:...    30   0.78 
+AAS52175 pep:known chromosome:ASM9102v1:IV:1146089:1147519:1 gen...    30   1.2  
+AAS53836 pep:known chromosome:ASM9102v1:VI:1279667:1281085:-1 ge...    29   2.3  
+AAS50487 pep:known chromosome:ASM9102v1:I:559401:562094:1 gene:A...    29   2.7  
+AAS52109 pep:known chromosome:ASM9102v1:IV:1034498:1035307:1 gen...    28   3.4  
+AAS54400 pep:known chromosome:ASM9102v1:VII:851806:852849:1 gene...    28   3.7  
+
+>AAS50840 pep:known chromosome:ASM9102v1:II:519259:520449:-1
+           gene:AGOS_ABR070C transcript:AAS50840
+           description:"ABR070Cp"
+          Length = 396
+
+ Score =  230 bits (586), Expect = 1e-68,   Method: Compositional matrix adjust.
+ Identities = 135/353 (38%), Positives = 191/353 (54%), Gaps = 30/353 (8%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           +P+R+ FDGTGI+VF+LKRDII ++ LGDGT F L +Y  D  EEYDDD T++ RS++V+
+Sbjct: 14  DPSRILFDGTGITVFDLKRDIIQENKLGDGTGFQLRLYNPDTGEEYDDDGTVVARSSMVI 73
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+            RR P+    AG A+RYV G+  V A+                            TEEER
+Sbjct: 74  VRRAPAEHGVAGNASRYVQGRPRVAARAQG-------PAVGGSFGSYVAGGVGGGTEEER 126
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWI 193
+           +A MF +Q  QW   Q+ +S   P+Y+ +       A   +  PP GY+CYRCG K HWI
+Sbjct: 127 IARMFASQENQWQETQQAMSAAVPVYHSR----SHGAAQDEGPPPPGYMCYRCGGKDHWI 182
+
+Query: 194 QLCPTNDNPEFDNRPRVKRTTGIPKSFLKTV--DKATVLGQAGVDGEEGKVPSGVMVNAD 251
+           + CPTN +P F+ + R++RTTGIPK FLK+V  D  T+         E      +MV  D
+Sbjct: 183 KNCPTNSDPNFEGK-RIRRTTGIPKKFLKSVEIDPLTMT-------PEEMAERKIMVTDD 234
+
+Query: 252 GDFVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRG------LECPMDKRLFNEP 305
+           G FV+   D+ +WE +Q +             D   L +R       L+CP+   L  +P
+Sbjct: 235 GKFVVQVADQHSWEDYQRK--QQQQKIAVREQDAVWLPNRFEDLPAELKCPITNGLVRDP 292
+
+Query: 306 MKTP-CCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQY 357
+           ++T  CC +      + +AL+ SDFVCP C A  VL+D+L PD E+   + ++
+Sbjct: 293 VRTARCCARLVSRAPMEDALLASDFVCPLCGAPDVLLDSLAPDAESAKAVDEF 345
+
+
+>AAS50677 pep:known chromosome:ASM9102v1:II:222466:223239:1 gene:AGOS_ABL094W
+           transcript:AAS50677 description:"ABL094Wp"
+          Length = 257
+
+ Score = 30.0 bits (66), Expect = 0.78,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 20/46 (43%), Gaps = 4/46 (8%)
+
+Query: 294 ECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDF-VCPGCQAEG 338
+           EC   + + N P  T CC  TYC  C+   LI  D   C  C   G
+Sbjct: 200 ECAKCRDVPNNPYSTSCCGATYCYVCV---LISLDIKFCNNCGNRG 242
+
+
+>AAS52175 pep:known chromosome:ASM9102v1:IV:1146089:1147519:1
+           gene:AGOS_ADR255W transcript:AAS52175
+           description:"Protein SIP5"
+          Length = 476
+
+ Score = 29.6 bits (65), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 17/36 (47%), Gaps = 1/36 (2%)
+
+Query: 287 ELQDRGLECPMDKRLFNEPMKTP-CCEKTYCNDCIT 321
+           +L   G ECP+    F EPM    CC +  C +C  
+Sbjct: 251 DLYRNGAECPICFLYFPEPMNVSRCCLQPICTECFV 286
+
+
+>AAS53836 pep:known chromosome:ASM9102v1:VI:1279667:1281085:-1
+           gene:AGOS_AFR465C transcript:AAS53836
+           description:"AFR465Cp"
+          Length = 472
+
+ Score = 28.9 bits (63), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 16/45 (35%), Positives = 23/45 (51%), Gaps = 4/45 (8%)
+
+Query: 157 PIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWIQLCPTNDN 201
+           PI +  PGVG   A  PDH  P  ++ +    +G W Q  P +D+
+Sbjct: 418 PITSFSPGVGHMQAGEPDH--PMAFVHHHF--EGSWKQQGPKHDD 458
+
+
+>AAS50487 pep:known chromosome:ASM9102v1:I:559401:562094:1 gene:AGOS_AAR121W
+           transcript:AAS50487 description:"AAR121Wp"
+          Length = 897
+
+ Score = 28.9 bits (63), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 23/48 (47%), Gaps = 3/48 (6%)
+
+Query: 293 LECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESD---FVCPGCQAE 337
+           L+CP+       P+K+  C+   C D ++  L +     + CP CQ +
+Sbjct: 320 LQCPISYSRMKYPVKSVRCDHLQCFDAMSFILSQMQIPTWQCPVCQKQ 367
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 2,154,744
+Number of extensions: 85572
+Number of successful extensions: 259
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 253
+Number of HSP's successfully gapped: 16
+Length of query: 659
+Length of database: 2,335,236
+Length adjustment: 95
+Effective length of query: 564
+Effective length of database: 1,881,516
+Effective search space: 1061175024
+Effective search space used: 1061175024
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 53 (25.0 bits)

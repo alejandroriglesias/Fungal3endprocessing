@@ -1,0 +1,100 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX74550 pep:novel supercontig:GCA_000150505.2:supercont6.1:2707...    82   2e-18
+EPX74039 pep:novel supercontig:GCA_000150505.2:supercont6.1:1563...    27   3.2  
+
+>EPX74550 pep:novel supercontig:GCA_000150505.2:supercont6.1:2707728:2710444:
+           1 gene:SOCG_02033 transcript:EPX74550 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 362
+
+ Score = 82.4 bits (202), Expect = 2e-18,   Method: Compositional matrix adjust.
+ Identities = 31/71 (43%), Positives = 49/71 (69%)
+
+Query: 164 IDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+           +D++     D   I  +D E L++KPWR+PGA++SDYFNYGF+EFTW  Y  +Q  L+ D
+Sbjct: 108 VDINPTAKIDGKNIFEVDLESLEDKPWRKPGADISDYFNYGFDEFTWAAYCAKQTTLRDD 167
+
+Query: 224 YNPRRILMGLL 234
+           ++P++ +  L+
+Sbjct: 168 FSPQKFMASLM 178
+
+
+>EPX74039 pep:novel supercontig:GCA_000150505.2:supercont6.1:1563767:1565414:
+           -1 gene:SOCG_03254 transcript:EPX74039
+           description:"CK1/CK1/CK1-D protein kinase Hhp1"
+          Length = 363
+
+ Score = 26.9 bits (58), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FN+   +FT              +E++H +  L +D  P   LMG+
+Sbjct: 88  GPSLEDLFNFCNRKFTLKTVLLLADQLISRIEFIHSKSFLHRDIKPDNFLMGI 140
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 1,062,467
+Number of extensions: 43052
+Number of successful extensions: 147
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 146
+Number of HSP's successfully gapped: 9
+Length of query: 327
+Length of database: 2,302,372
+Length adjustment: 88
+Effective length of query: 239
+Effective length of database: 1,863,604
+Effective search space: 445401356
+Effective search space used: 445401356
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

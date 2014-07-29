@@ -1,0 +1,79 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_14293 pep:known supercontig:ASM14691v1:supercont1.31:19280:...    27   7.8  
+
+>SNOT_14293 pep:known supercontig:ASM14691v1:supercont1.31:19280:21262:-1
+           gene:SNOG_14293 transcript:SNOT_14293
+           description:"Putative uncharacterized protein"
+          Length = 660
+
+ Score = 26.9 bits (58), Expect = 7.8,   Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 25/59 (42%), Gaps = 3/59 (5%)
+
+Query: 89  PDPTRLDAKLLDSYSTAATSSSKDVIS---VATDVSNTITKTSDERLITEGEANQGVTA 144
+           P P R DA    S S  A    +D      V       +T+TS    +T G  N+G+TA
+Sbjct: 552 PQPLRRDAIARQSGSPRAPLQRRDAAGSPRVPPQARGPVTRTSLASTMTSGRGNRGMTA 610
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 2,493,574
+Number of extensions: 101845
+Number of successful extensions: 320
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 318
+Number of HSP's successfully gapped: 9
+Length of query: 327
+Length of database: 5,238,126
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,073,372
+Effective search space: 949095676
+Effective search space used: 949095676
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

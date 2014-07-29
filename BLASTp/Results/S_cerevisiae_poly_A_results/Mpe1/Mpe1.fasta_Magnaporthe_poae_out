@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_09086T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   263   2e-80
+MAPG_01759T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    44   7e-05
+MAPG_11089T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.30 
+MAPG_01089T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   1.8  
+MAPG_09393T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   2.7  
+MAPG_07603T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   5.6  
+
+>MAPG_09086T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.9:666895:67
+           0674:1 gene:MAPG_09086 transcript:MAPG_09086T0
+           description:"hypothetical protein"
+          Length = 657
+
+ Score =  263 bits (673), Expect = 2e-80,   Method: Compositional matrix adjust.
+ Identities = 147/416 (35%), Positives = 225/416 (54%), Gaps = 70/416 (16%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++F++FKSQ+  +R+ FDGTG++VF+LKR+II ++ LGDGTDF L IY  D  EEYD
+Sbjct: 1   MSSSVFFKFKSQKEPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  +IPRST+V+ +R P+IK                 G A RYV+G+  V  K      
+Sbjct: 61  DDTTIIPRSTTVVARRLPSIK--------------PGAGRAARYVSGKMPVNAKNNSRKE 106
+
+Query: 121 XXXNVS-------------GTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKN 167
+                +               TEEER+A+MF             +S  TPVF     N N
+Sbjct: 107 QVAKAAAKTTSTALTQMSNALTEEERLAAMFQAQSEQWTAQQEELSHQTPVFH----NNN 162
+
+Query: 168 SAQENEGP-------PPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFL 219
+            A   + P       PP GY+CYRCG + HWI+ CPTN +P+F+ + R++RTTGIPK  L
+Sbjct: 163 KAGPGKRPVNVPDHDPPNGYICYRCGEKGHWIQLCPTNDNPDFDNRPRVKRTTGIPKSML 222
+
+Query: 220 KSIE----IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENR------QI 269
+           K+++    +    +  +      +M+  +G+FV+ ++DK  W+ +Q + ++        +
+Sbjct: 223 KTVDKATILGQNGLDDDAKVPSGVMVNADGEFVIALQDKAVWQKFQARTKSSAAAQKVAV 282
+
+Query: 270 DGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPN 329
+            GD+ +  +G        L+CP+   L  +P+KT  CC   +  + + NAL+ESDFVCP 
+Sbjct: 283 QGDKELQDRG--------LECPMDKRLFNEPMKTP-CCEKTYCNDCITNALIESDFVCPG 333
+
+Query: 330 CETRDILLDSLVPDQDKEKEVETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAG 385
+           C++  +L+D+L PD D   +++ +L ++E      KD +Q ++       PT  AG
+Sbjct: 334 CQSEGVLIDNLKPDDDTSAKIKEYLDEKE-----GKDKDQAKS-------PTAAAG 377
+
+
+>MAPG_01759T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:5753665:5
+           756467:1 gene:MAPG_01759 transcript:MAPG_01759T0
+           description:"hypothetical protein"
+          Length = 653
+
+ Score = 43.9 bits (102), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 21/50 (42%), Positives = 28/50 (56%), Gaps = 5/50 (10%)
+
+Query: 160 FKSQTNKNSAQENEGP-----PPPGYMCYRCGGRDHWIKNCPTNSDPNFE 204
+             SQ  K   Q+N  P     P   Y+C RCG   H+++NCPTN DP+F+
+Sbjct: 160 ISSQRQKGDKQKNGSPSSDFVPNGRYVCRRCGVPGHFLQNCPTNLDPSFD 209
+
+
+>MAPG_11089T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.14:327274:3
+           29133:-1 gene:MAPG_11089 transcript:MAPG_11089T0
+           description:"mating-type switching protein swi10"
+          Length = 407
+
+ Score = 32.0 bits (71), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 20/31 (64%)
+
+Query: 35  IQENKLGDGTDFQLKIYNPDTEEEYDDDAFV 65
+           ++E+  G     Q +++NP+  +EYDDDA +
+Sbjct: 325 LRESAGGKAAAAQTQVWNPNIADEYDDDAAL 355
+
+
+>MAPG_01089T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:3632961:364
+            0148:-1 gene:MAPG_01089 transcript:MAPG_01089T0
+            description:"hypothetical protein"
+          Length = 1829
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 23/38 (60%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDET 274
+            +K+++TDEGKF      ++ WE+YQ +  + Q   D+ 
+Sbjct: 1687 KKVVVTDEGKFDPSSIPRKKWEEYQGELWDAQTARDDA 1724
+
+
+>MAPG_09393T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.11:134145:1
+           35122:-1 gene:MAPG_09393 transcript:MAPG_09393T0
+           description:"hypothetical protein"
+          Length = 185
+
+ Score = 28.5 bits (62), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 12/28 (42%), Positives = 16/28 (57%), Gaps = 2/28 (7%)
+
+Query: 168 SAQENEGPPPPGYMCYRCGGRDHWIKNC 195
+           S +E  GPPP    C  CG + HW ++C
+Sbjct: 21  SLREEGGPPP--RACQVCGDKGHWHEDC 46
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 4,486,755
+Number of extensions: 200422
+Number of successful extensions: 410
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 404
+Number of HSP's successfully gapped: 13
+Length of query: 441
+Length of database: 4,928,244
+Length adjustment: 96
+Effective length of query: 345
+Effective length of database: 3,836,724
+Effective search space: 1323669780
+Effective search space used: 1323669780
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

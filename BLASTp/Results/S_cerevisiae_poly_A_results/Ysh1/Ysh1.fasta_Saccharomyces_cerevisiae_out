@@ -1,0 +1,242 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1...  1530   0.0  
+YOR179C pep:known chromosome:SacCer_Apr2011:XV:671845:672411:-1 ...   121   2e-31
+YLR115W pep:known chromosome:SacCer_Apr2011:XII:377985:380564:1 ...    58   5e-09
+YBR080C pep:known chromosome:SacCer_Apr2011:II:398614:400890:-1 ...    32   0.40 
+YLR452C pep:known chromosome:SacCer_Apr2011:XII:1039270:1041366:...    29   3.0  
+
+>YLR277C pep:known chromosome:SacCer_Apr2011:XII:697156:699495:-1
+           gene:YLR277C transcript:YLR277C description:"Putative
+           endoribonuclease, subunit of the mRNA cleavage and
+           polyadenylation specificity complex\x3b required for 3'
+           processing, splicing, and transcriptional termination of
+           mRNAs and snoRNAs"
+          Length = 779
+
+ Score = 1530 bits (3962), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 744/779 (95%), Positives = 744/779 (95%)
+
+Query: 1   MERTNTTTFKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSK 60
+           MERTNTTTFKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSK
+Sbjct: 1   MERTNTTTFKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSK 60
+
+Query: 61  VDILLISHFHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXM 120
+           VDILLISHFHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIG     M
+Sbjct: 61  VDILLISHFHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGSSSSSM 120
+
+Query: 121 GTKDEGLFSDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVL 180
+           GTKDEGLFSDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVL
+Sbjct: 121 GTKDEGLFSDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVL 180
+
+Query: 181 FTGDYSREVDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGR 240
+           FTGDYSREVDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGR
+Sbjct: 181 FTGDYSREVDRHLNSAEVPPLSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGR 240
+
+Query: 241 VLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDD 300
+           VLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDD
+Sbjct: 241 VLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDD 300
+
+Query: 301 IRKKFRDSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKN 360
+           IRKKFRDSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKN
+Sbjct: 301 IRKKFRDSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKN 360
+
+Query: 361 LVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLEFIEK 420
+           LVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLEFIEK
+Sbjct: 361 LVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLEFIEK 420
+
+Query: 421 ISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVKVAKA 480
+           ISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVKVAKA
+Sbjct: 421 ISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPRNCVEVDLEFQGVKVAKA 480
+
+Query: 481 VGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGLVDEEEHKDIVVSGILVS 540
+           VG                              DNLDSQAEKGLVDEEEHKDIVVSGILVS
+Sbjct: 481 VGNIVNEIYKEENVEIKEEIAAKIEPIKEENEDNLDSQAEKGLVDEEEHKDIVVSGILVS 540
+
+Query: 541 DDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVLQDDD 600
+           DDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVLQDDD
+Sbjct: 541 DDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIYWHILQMFGEAEVLQDDD 600
+
+Query: 601 RVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAVVEWTQDLMNDTVADSIIAI 660
+           RVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAVVEWTQDLMNDTVADSIIAI
+Sbjct: 601 RVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAVVEWTQDLMNDTVADSIIAI 660
+
+Query: 661 LMNVDSAPASVKLSSHSCDDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLN 720
+           LMNVDSAPASVKLSSHSCDDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLN
+Sbjct: 661 LMNVDSAPASVKLSSHSCDDHDHNNVQSNAQGKIDEVERVKQISRLFKEQFGDCFTLFLN 720
+
+Query: 721 KDEYASNKEETITGVVTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPLC 779
+           KDEYASNKEETITGVVTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPLC
+Sbjct: 721 KDEYASNKEETITGVVTIGKSTAKIDFNNMKILECNSNPLKGRVESLLNIGGNLVTPLC 779
+
+
+>YOR179C pep:known chromosome:SacCer_Apr2011:XV:671845:672411:-1
+           gene:YOR179C transcript:YOR179C description:"Subunit of
+           the APT subcomplex of cleavage and polyadenylation
+           factor, may have a role in 3' end formation of both
+           polyadenylated and non-polyadenylated RNAs"
+          Length = 188
+
+ Score =  121 bits (303), Expect = 2e-31,   Method: Compositional matrix adjust.
+ Identities = 73/199 (36%), Positives = 112/199 (56%), Gaps = 39/199 (19%)
+
+Query: 582 IYWHILQMFGEAEVLQDDDRVTNQEPKVKEESKDNLTNTGKLILQIMGDIKLTIVNTLAV 641
+           +Y HI+Q FG  E    +                   N  KL++  +GD+++ I  +   
+Sbjct: 28  LYLHIVQTFGCIETTATE-------------------NATKLLM--LGDVEVEISASSVS 66
+
+Query: 642 VEWTQ-DLMNDTVADSIIAILMNVDSAPASVKLSSHSCDDHDHNNVQSNAQGKIDEVERV 700
+           +EWTQ  +++ T+ADSI+ +++ + ++  +V LS     + +HN            V ++
+Sbjct: 67  IEWTQKSMISQTIADSIVIMIIGLCASDKNV-LSESELKERNHN------------VWKI 113
+
+Query: 701 KQISRLFKEQFGDCFTLFLNKDEYASNKEETITGVVTIGKSTAKIDFNNMKILECNSNPL 760
+           +++  LF+EQFGD F++    DE    KE    G VTIGKS A IDF+ MK+++CNSNPL
+Sbjct: 114 QELQNLFREQFGDSFSI----DEGIGKKENVKNGSVTIGKSKATIDFSTMKLIDCNSNPL 169
+
+Query: 761 KGRVESLLNIGGNLVTPLC 779
+           KGRVES+L+IG  L TPLC
+Sbjct: 170 KGRVESILSIGQKLTTPLC 188
+
+
+>YLR115W pep:known chromosome:SacCer_Apr2011:XII:377985:380564:1
+           gene:YLR115W transcript:YLR115W description:"Subunit of
+           the mRNA cleavage and polyadenlylation factor (CPF)\x3b
+           required for pre-mRNA cleavage, polyadenylation and
+           poly(A) site recognition, 43% similarity with the
+           mammalian CPSF-100 protein."
+          Length = 859
+
+ Score = 57.8 bits (138), Expect = 5e-09,   Method: Compositional matrix adjust.
+ Identities = 66/320 (20%), Positives = 139/320 (43%), Gaps = 34/320 (10%)
+
+Query: 15  GGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFHLD-- 72
+           G    VG    ++++   T+++D G +P+         Y E  + ++D++++S   ++  
+Sbjct: 11  GSGTTVG---SVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECL 67
+
+Query: 73  HAASLPYVMQRTNFQGR--VFMTHPTKAIYRWLLRDFVRVTSIGXXXXX--MGTKDEGLF 128
+            A SL Y    ++F  R  V+ T P        + +  RV++I        +G  D    
+Sbjct: 68  GAHSLLYYNFTSHFISRIQVYATLP--------VINLGRVSTIDSYASAGVIGPYDTNKL 119
+
+Query: 129 SDEDLVDSFDKIETVDYHSTVDV----NGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGD 184
+             ED+  SFD I  + Y   VD+    +G+   A++AG   G +++ I     ++++   
+Sbjct: 120 DLEDIEISFDHIVPLKYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKR 179
+
+Query: 185 YSREVDRHLNSAEV-----PPLS-----SNVLIVESTFGTATHEPRLNRERKLTQLIHST 234
+           ++   D  LN+A +      PLS     S ++     FG++  +P   R +     +   
+Sbjct: 180 WNHTRDNILNAASILDATGKPLSTLMRPSAIITTLDRFGSS--QPFKKRSKIFKDTLKKG 237
+
+Query: 235 VMRGGRVLLPVFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYV 294
+           +   G V++PV   G+  ++   + E   +        QVP+   S    + ++  ++ +
+Sbjct: 238 LSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSML 297
+
+Query: 295 NMMNDDIRKKFRD-SQTNPF 313
+             ++  + K + + + T+PF
+Sbjct: 298 EWLSPSLLKTWENRNNTSPF 317
+
+
+>YBR080C pep:known chromosome:SacCer_Apr2011:II:398614:400890:-1
+           gene:YBR080C transcript:YBR080C description:"ATPase
+           required for vesicular transport between ER and Golgi,
+           the 'priming' step in homotypic vacuole fusion,
+           autophagy, and protein secretion\x3b releases Sec17p
+           from SNAP complexes\x3b has similarity to mammalian NSF"
+          Length = 758
+
+ Score = 32.0 bits (71), Expect = 0.40,   Method: Compositional matrix adjust.
+ Identities = 28/104 (26%), Positives = 50/104 (48%), Gaps = 11/104 (10%)
+
+Query: 301 IRKKFRDSQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKN 360
+           I   FRD+  +P     I  L  L D+   GP     S  +LQ  + +  L+R  P+D+ 
+Sbjct: 606 IDNTFRDAYKSPLNILVIDSLETLVDWVPIGPRF---SNNILQ--MLKVALKRKPPQDRR 660
+
+Query: 361 LVLITGYSIEGTMAKFIMLEPDTIPSINNPEITIPRRCQVEEIS 404
+           L+++T      T + + +L+   I S  + EI +P    ++E++
+Sbjct: 661 LLIMT------TTSAYSVLQQMDILSCFDNEIAVPNMTNLDELN 698
+
+
+>YLR452C pep:known chromosome:SacCer_Apr2011:XII:1039270:1041366:-1
+           gene:YLR452C transcript:YLR452C
+           description:"GTPase-activating protein for Gpa1p,
+           regulates desensitization to alpha factor pheromone\x3b
+           also required to prevent receptor-independent signaling
+           of the mating pathway\x3b member of the RGS (regulator
+           of G-protein signaling) family"
+          Length = 698
+
+ Score = 29.3 bits (64), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 36/152 (23%), Positives = 69/152 (45%), Gaps = 19/152 (12%)
+
+Query: 524 VDEEEHKDIVVSGILVSDDKNFELDFLSLSDLR-----EHHPDLSTTILRERQSVRVNCK 578
+           + E++H     S +L +  K+F   F     ++     E   D++TT +    +V  N K
+Sbjct: 42  LKEKKHSSDTKSFLLTAFTKHFHFTFTYQEAIKAMGQLELKVDMNTTCI----NVSYNIK 97
+
+Query: 579 KELIYWHILQMFGEAEVLQDDDRVTNQEPKVK---EESKDNLTNTGKLI----LQIMGDI 631
+             L   H+L +F  +++L      T  EPK K   + +   +    K +    L+ M DI
+Sbjct: 98  PSLAR-HLLTLFMSSKLLHTPQDRTRGEPKEKVLFQPTPKGVAVLQKYVRDIGLKTMPDI 156
+
+Query: 632 KLTIVNTLAVVEWTQDLMNDTV--ADSIIAIL 661
+            L+  N++ +  + +  + D++  +D +I IL
+Sbjct: 157 LLSSFNSMKLFTFERSSVTDSIIHSDYLIHIL 188
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 4,437,150
+Number of extensions: 191495
+Number of successful extensions: 506
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 501
+Number of HSP's successfully gapped: 9
+Length of query: 779
+Length of database: 3,010,216
+Length adjustment: 98
+Effective length of query: 681
+Effective length of database: 2,354,400
+Effective search space: 1603346400
+Effective search space used: 1603346400
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 54 (25.4 bits)

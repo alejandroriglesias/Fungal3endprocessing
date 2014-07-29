@@ -1,0 +1,482 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_09536T0 pep:known chromosome:MG8:3:3343187:3346863:1 gene:MG...   254   7e-77
+MGG_01763T0 pep:known chromosome:MG8:2:4751249:4752472:-1 gene:M...    42   3e-04
+MGG_13013T0 pep:known chromosome:MG8:3:3211279:3217913:1 gene:MG...    33   0.22 
+MGG_17553T0 pep:known chromosome:MG8:5:4459061:4460892:1 gene:MG...    31   0.73 
+MGG_00893T0 pep:known chromosome:MG8:5:1216212:1218092:1 gene:MG...    30   0.98 
+MGG_17654T0 pep:known chromosome:MG8:6:1338269:1339852:1 gene:MG...    30   1.1  
+MGG_08837T0 pep:known chromosome:MG8:2:1817124:1819316:-1 gene:M...    30   1.1  
+MGG_17613T0 pep:known chromosome:MG8:6:890280:891865:-1 gene:MGG...    30   1.1  
+MGG_17284T0 pep:known chromosome:MG8:4:5498444:5499821:-1 gene:M...    30   1.2  
+MGG_15987T0 pep:known chromosome:MG8:1:78452:80047:-1 gene:MGG_1...    30   1.2  
+MGG_17020T0 pep:known chromosome:MG8:4:330200:331577:-1 gene:MGG...    30   1.2  
+MGG_16400T0 pep:known chromosome:MG8:1:5578029:5580261:-1 gene:M...    30   1.4  
+MGG_17588T0 pep:known chromosome:MG8:6:541474:543048:-1 gene:MGG...    30   1.4  
+MGG_16972T0 pep:known chromosome:MG8:3:6318551:6320140:-1 gene:M...    30   1.4  
+MGG_16063T0 pep:known chromosome:MG8:1:965891:967788:1 gene:MGG_...    30   1.4  
+MGG_17307T0 pep:known chromosome:MG8:5:203241:204980:1 gene:MGG_...    30   1.5  
+MGG_16167T0 pep:known chromosome:MG8:1:2795299:2796906:1 gene:MG...    30   1.6  
+MGG_17847T0 pep:known chromosome:MG8:7:19914:22192:1 gene:MGG_17...    29   2.6  
+MGG_17620T0 pep:known chromosome:MG8:6:960893:963401:-1 gene:MGG...    29   2.8  
+MGG_07393T0 pep:known chromosome:MG8:3:423851:427601:1 gene:MGG_...    29   3.5  
+MGG_16473T0 pep:known chromosome:MG8:1:6513399:6514646:1 gene:MG...    28   3.6  
+MGG_16168T0 pep:known chromosome:MG8:1:2802225:2803591:-1 gene:M...    28   4.1  
+MGG_00592T0 pep:known chromosome:MG8:5:2377017:2379179:1 gene:MG...    28   4.2  
+MGG_00840T0 pep:known chromosome:MG8:5:1432269:1434660:1 gene:MG...    28   4.7  
+MGG_02781T0 pep:known chromosome:MG8:7:1521950:1526963:-1 gene:M...    28   5.5  
+MGG_15917T0 pep:known chromosome:MG8:2:7456427:7456886:-1 gene:M...    27   7.0  
+MGG_06057T0 pep:known chromosome:MG8:3:2414218:2417679:-1 gene:M...    27   9.6  
+
+>MGG_09536T0 pep:known chromosome:MG8:3:3343187:3346863:1 gene:MGG_09536
+           transcript:MGG_09536T0 description:"Putative
+           uncharacterized protein"
+          Length = 659
+
+ Score =  254 bits (648), Expect = 7e-77,   Method: Compositional matrix adjust.
+ Identities = 138/378 (36%), Positives = 204/378 (53%), Gaps = 46/378 (12%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++F++FKSQ+  +R+ FDGTG++VF+LKR+II ++ LGDGTDF L IY  D  EEYD
+Sbjct: 1   MSSSVFFKFKSQKEPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DD  +IPRST V+ +R P++K                 G A RYV+G+  V  K      
+Sbjct: 61  DDTTIIPRSTIVVARRLPSMKP--------------GAGRAARYVSGKAPVNAKNSSRKE 106
+
+Query: 121 XXXNVSGT--------------TEEERIASMFAXXXXXXXXXXXXMSAATPVF-FKSQTN 165
+                S T              TEEER+A+MF             +S  TP++  K    
+Sbjct: 107 QVAKASTTKAPSAALAQMSNAVTEEERLAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVG 166
+
+Query: 166 KNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE- 223
+           K  A   +  PP GY+CYRCG + HWI+ CPTN +P F+ + R++RTTGIPK FLK+++ 
+Sbjct: 167 KRPANVPDHEPPNGYICYRCGEKGHWIQLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDK 226
+
+Query: 224 --------IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETI 275
+                   +D E    E      +M+  +G FV+   DK +WE +Q + +         +
+Sbjct: 227 ATVLGQAGVDGE----EGKVPSGVMVNADGDFVIAQPDKAAWEKFQARTKVSAAAQKVAV 282
+
+Query: 276 WRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDI 335
+             +   +D    L+CP+   L  +P+KT  CC   +  + + NAL+ESDFVCP C+   +
+Sbjct: 283 QDEKELQDR--GLECPMDKRLFNEPMKTP-CCEKTYCNDCITNALIESDFVCPGCQAEGV 339
+
+Query: 336 LLDSLVPDQDKEKEVETF 353
+           L+D+L PD +   +++ +
+Sbjct: 340 LIDNLKPDDETTAKIKQY 357
+
+
+>MGG_01763T0 pep:known chromosome:MG8:2:4751249:4752472:-1 gene:MGG_01763
+           transcript:MGG_01763T0 description:"Putative
+           uncharacterized protein"
+          Length = 383
+
+ Score = 41.6 bits (96), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 23/68 (33%), Positives = 34/68 (50%), Gaps = 5/68 (7%)
+
+Query: 176 PPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRT---TGIPKKFLKSIEIDPETMTPE 232
+           P   Y+C RC    HW+  CPTN DP+F+    R      G   K LK+  + P+   P 
+Sbjct: 12  PSDTYVCKRCNVPGHWLPQCPTNLDPSFDAVPPRLQCPLCGAVGKHLKT--LCPKNTDPN 69
+
+Query: 233 EMAQRKIM 240
+            + Q++I+
+Sbjct: 70  SINQQRIL 77
+
+
+>MGG_13013T0 pep:known chromosome:MG8:3:3211279:3217913:1 gene:MGG_13013
+            transcript:MGG_13013T0 description:"Chitin synthase 8"
+          Length = 1872
+
+ Score = 32.7 bits (73), Expect = 0.22,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 24/38 (63%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDET 274
+            +K+++TDEGKF      ++ WE+YQ +  + Q   D+T
+Sbjct: 1684 KKVVVTDEGKFDPSSIPRKKWEEYQSELWDAQTSKDDT 1721
+
+
+>MGG_17553T0 pep:known chromosome:MG8:5:4459061:4460892:1 gene:MGG_17553
+           transcript:MGG_17553T0 description:"Putative
+           uncharacterized protein"
+          Length = 560
+
+ Score = 31.2 bits (69), Expect = 0.73,   Method: Compositional matrix adjust.
+ Identities = 13/32 (40%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  KNCP N +  P+F GK
+Sbjct: 337 PKSGKCFKCDKTGHIAKNCPRNQEDIPDFRGK 368
+
+
+>MGG_00893T0 pep:known chromosome:MG8:5:1216212:1218092:1 gene:MGG_00893
+           transcript:MGG_00893T0 description:"Pfs and NB-ARC
+           domain-containing protein"
+          Length = 428
+
+ Score = 30.4 bits (67), Expect = 0.98,   Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 10/15 (66%)
+
+Query: 182 CYRCGGRDHWIKNCP 196
+           CYRCG   HW+  CP
+Sbjct: 411 CYRCGLGGHWVDKCP 425
+
+
+>MGG_17654T0 pep:known chromosome:MG8:6:1338269:1339852:1 gene:MGG_17654
+           transcript:MGG_17654T0 description:"Putative
+           uncharacterized protein"
+          Length = 355
+
+ Score = 30.4 bits (67), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 265 PKNGKCFKCDKTGHIARNCPRNQENVPDFRGK 296
+
+
+>MGG_08837T0 pep:known chromosome:MG8:2:1817124:1819316:-1 gene:MGG_08837
+           transcript:MGG_08837T0 description:"MIZ zinc finger
+           protein"
+          Length = 431
+
+ Score = 30.4 bits (67), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 28/103 (27%), Positives = 45/103 (43%), Gaps = 4/103 (3%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVES--DFVCPNCETRDILLDSLVPDQ- 344
+           LKCPL+   L  PV+++ C +I          L E    ++CP C  +    DSL  D+ 
+Sbjct: 242 LKCPLSYSRLVDPVRSTACKHIQCFDALSYLQLQEQGPQWICPICN-KPAPFDSLAVDEY 300
+
+Query: 345 DKEKEVETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAGLN 387
+            +E   +T    ++     S +   P ++ + L D  G  G N
+Sbjct: 301 AREILAKTSQSIEQVTIDPSGEWRIPGSESVDLRDEAGNGGGN 343
+
+
+>MGG_17613T0 pep:known chromosome:MG8:6:890280:891865:-1 gene:MGG_17613
+           transcript:MGG_17613T0 description:"Putative
+           uncharacterized protein"
+          Length = 355
+
+ Score = 30.0 bits (66), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 265 PKNGKCFKCDKTGHIARNCPRNQEDIPDFRGK 296
+
+
+>MGG_17284T0 pep:known chromosome:MG8:4:5498444:5499821:-1 gene:MGG_17284
+           transcript:MGG_17284T0 description:"Putative
+           uncharacterized protein"
+          Length = 355
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 265 PKNGKCFKCDKTGHIARNCPRNQEDIPDFRGK 296
+
+
+>MGG_15987T0 pep:known chromosome:MG8:1:78452:80047:-1 gene:MGG_15987
+           transcript:MGG_15987T0 description:"Putative
+           uncharacterized protein"
+          Length = 364
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 259 PKSGKCFKCDKTGHIARNCPRNQEDIPDFRGK 290
+
+
+>MGG_17020T0 pep:known chromosome:MG8:4:330200:331577:-1 gene:MGG_17020
+           transcript:MGG_17020T0 description:"Putative
+           uncharacterized protein"
+          Length = 355
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 265 PKNGKCFKCDKTGHIARNCPRNQEDIPDFRGK 296
+
+
+>MGG_16400T0 pep:known chromosome:MG8:1:5578029:5580261:-1 gene:MGG_16400
+           transcript:MGG_16400T0 description:"Putative
+           uncharacterized protein"
+          Length = 560
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 337 PKSGKCFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_17588T0 pep:known chromosome:MG8:6:541474:543048:-1 gene:MGG_17588
+           transcript:MGG_17588T0 description:"Putative
+           uncharacterized protein"
+          Length = 524
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 337 PKSGKCFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_16972T0 pep:known chromosome:MG8:3:6318551:6320140:-1 gene:MGG_16972
+           transcript:MGG_16972T0 description:"Putative
+           uncharacterized protein"
+          Length = 474
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 337 PKSGKCFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_16063T0 pep:known chromosome:MG8:1:965891:967788:1 gene:MGG_16063
+           transcript:MGG_16063T0 description:"Putative
+           uncharacterized protein"
+          Length = 560
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%), Gaps = 2/32 (6%)
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           P    C++C    H  +NCP N +  P+F GK
+Sbjct: 337 PKSGKCFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_17307T0 pep:known chromosome:MG8:5:203241:204980:1 gene:MGG_17307
+           transcript:MGG_17307T0 description:"Putative
+           uncharacterized protein"
+          Length = 560
+
+ Score = 30.0 bits (66), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 342 CFKCDKTGHIARNCPRNQENIPDFRGK 368
+
+
+>MGG_16167T0 pep:known chromosome:MG8:1:2795299:2796906:1 gene:MGG_16167
+           transcript:MGG_16167T0 description:"Putative
+           uncharacterized protein"
+          Length = 535
+
+ Score = 30.0 bits (66), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 342 CFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_17847T0 pep:known chromosome:MG8:7:19914:22192:1 gene:MGG_17847
+           transcript:MGG_17847T0 description:"Putative
+           uncharacterized protein"
+          Length = 728
+
+ Score = 29.3 bits (64), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 342 CFKCDKTGHIARNCPRNQEDIPDFRGK 368
+
+
+>MGG_17620T0 pep:known chromosome:MG8:6:960893:963401:-1 gene:MGG_17620
+           transcript:MGG_17620T0 description:"Putative
+           uncharacterized protein"
+          Length = 699
+
+ Score = 29.3 bits (64), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 342 CFKCDKTGHIARNCPKNQEDIPDFRGK 368
+
+
+>MGG_07393T0 pep:known chromosome:MG8:3:423851:427601:1 gene:MGG_07393
+           transcript:MGG_07393T0 description:"Histone-lysine
+           N-methyltransferase SET9"
+          Length = 885
+
+ Score = 28.9 bits (63), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 27/91 (29%), Positives = 36/91 (39%), Gaps = 13/91 (14%)
+
+Query: 262 RKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALV 321
+           R ++ RQ D DE   R    K +P D    LT  LL +P+     C+          A V
+Sbjct: 572 RSKKARQDDKDEPSQRGQSKKRMPGDYT--LTPVLLSEPMTAWVHCS------NCATAFV 623
+
+Query: 322 ESDFV-----CPNCETRDILLDSLVPDQDKE 347
+           + D       CP CE   IL   + P  + E
+Sbjct: 624 QRDAYYTRANCPRCERHSILYGYVWPKTEPE 654
+
+
+>MGG_16473T0 pep:known chromosome:MG8:1:6513399:6514646:1 gene:MGG_16473
+           transcript:MGG_16473T0 description:"Putative
+           uncharacterized protein"
+          Length = 285
+
+ Score = 28.5 bits (62), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 212 CFKCDRIGHIARNCPRNQENIPDFRGK 238
+
+
+>MGG_16168T0 pep:known chromosome:MG8:1:2802225:2803591:-1 gene:MGG_16168
+           transcript:MGG_16168T0 description:"Putative
+           uncharacterized protein"
+          Length = 424
+
+ Score = 28.5 bits (62), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 231 CFKCDKTGHIARNCPRNQEDIPDFRGK 257
+
+
+>MGG_00592T0 pep:known chromosome:MG8:5:2377017:2379179:1 gene:MGG_00592
+           transcript:MGG_00592T0 description:"Cell wall
+           glucanosyltransferase"
+          Length = 367
+
+ Score = 28.5 bits (62), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 32/69 (46%), Gaps = 16/69 (23%)
+
+Query: 253 DKQSWE----DYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCN 308
+           D+  WE    D  R + N    G++T++ +G F DLP +             + TS    
+Sbjct: 121 DEIDWEHVGNDQMRVQSNYFSKGNDTVYGRGQFHDLPAN------------GMDTSLTYT 168
+
+Query: 309 IDFSKEALE 317
+           +D++K+ L+
+Sbjct: 169 LDWTKDQLQ 177
+
+
+>MGG_00840T0 pep:known chromosome:MG8:5:1432269:1434660:1 gene:MGG_00840
+           transcript:MGG_00840T0 description:"Putative
+           uncharacterized protein"
+          Length = 553
+
+ Score = 28.5 bits (62), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 21/56 (37%), Positives = 32/56 (57%), Gaps = 2/56 (3%)
+
+Query: 225 DPETMTPEEMAQRKIMI-TDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKG 279
+           DP+T   +  AQ+K M   DE K   +V +K++W   +R+ E  +I  DET+ RK 
+Sbjct: 418 DPKTALAKLEAQKKRMAGLDEDKRK-EVLEKETWLAARRRAEGEKIRDDETLLRKA 472
+
+
+>MGG_02781T0 pep:known chromosome:MG8:7:1521950:1526963:-1 gene:MGG_02781
+           transcript:MGG_02781T0 description:"Protein EFR3"
+          Length = 1196
+
+ Score = 28.5 bits (62), Expect = 5.5,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 28/53 (52%), Gaps = 1/53 (1%)
+
+Query: 26  TVFDLKREIIQENKLGDGTDF-QLKIYNPDTEEEYDDDAFVIPRSTSVIVKRS 77
+           T +D+   +I EN   D  +F ++ ++    EE+ D D  ++ R TSV   R+
+Sbjct: 197 TQYDILVPMILENLWTDNEEFLEILLHRAHLEEKVDTDKLLLRRRTSVATVRT 249
+
+
+>MGG_15917T0 pep:known chromosome:MG8:2:7456427:7456886:-1 gene:MGG_15917
+           transcript:MGG_15917T0 description:"Putative
+           uncharacterized protein"
+          Length = 121
+
+ Score = 26.9 bits (58), Expect = 7.0,   Method: Compositional matrix adjust.
+ Identities = 11/27 (40%), Positives = 16/27 (59%), Gaps = 2/27 (7%)
+
+Query: 182 CYRCGGRDHWIKNCPTNSD--PNFEGK 206
+           C++C    H  +NCP N +  P+F GK
+Sbjct: 36  CFKCDKTGHIARNCPRNQEDIPDFRGK 62
+
+
+>MGG_06057T0 pep:known chromosome:MG8:3:2414218:2417679:-1 gene:MGG_06057
+           transcript:MGG_06057T0 description:"Multispanning
+           membrane protein"
+          Length = 719
+
+ Score = 27.3 bits (59), Expect = 9.6,   Method: Compositional matrix adjust.
+ Identities = 14/39 (35%), Positives = 20/39 (51%)
+
+Query: 43  GTDFQLKIYNPDTEEEYDDDAFVIPRSTSVIVKRSPAIK 81
+           G D + K Y P  EE  D+D   IP + SV  +   +I+
+Sbjct: 251 GGDLEQKSYRPAEEEALDEDKMSIPYTYSVYFREDNSIE 289
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 5,114,573
+Number of extensions: 228537
+Number of successful extensions: 513
+Number of sequences better than 10.0: 30
+Number of HSP's gapped: 507
+Number of HSP's successfully gapped: 31
+Length of query: 441
+Length of database: 5,666,059
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,428,824
+Effective search space: 1523515456
+Effective search space used: 1523515456
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

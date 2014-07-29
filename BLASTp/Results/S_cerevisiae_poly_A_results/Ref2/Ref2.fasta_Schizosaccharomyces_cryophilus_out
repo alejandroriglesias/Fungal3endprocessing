@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY53087 pep:novel supercontig:GCA_000004155.2:supercont4.1:1183...    27   4.4  
+EPY54005 pep:novel supercontig:GCA_000004155.2:supercont4.1:2105...    27   5.4  
+EPY51543 pep:novel supercontig:GCA_000004155.2:supercont4.4:1123...    27   9.2  
+
+>EPY53087 pep:novel supercontig:GCA_000004155.2:supercont4.1:118321:119316:-1
+           gene:SPOG_03632 transcript:EPY53087
+           description:"iron/ascorbate oxidoreductase family"
+          Length = 251
+
+ Score = 27.3 bits (59), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 22/41 (53%), Gaps = 10/41 (24%)
+
+Query: 483 EFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGL----PYKHV 519
+           ++D N   +S       +G  +LL +KD+GGL    PY HV
+Sbjct: 118 DYDENAGAHSN------YGSITLLFQKDKGGLEVRPPYPHV 152
+
+
+>EPY54005 pep:novel supercontig:GCA_000004155.2:supercont4.1:2105982:2111039:
+           1 gene:SPOG_02772 transcript:EPY54005
+           description:"DNA-directed RNA polymerase I complex large
+           subunit Nuc1"
+          Length = 1672
+
+ Score = 27.3 bits (59), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 25/41 (60%), Gaps = 1/41 (2%)
+
+Query: 148 SKMDGLVDAVINLCVLDTSVAENVRSYMKLLDTLGFQKGSN 188
+            KM+GL  ++IN C+ D  + +   ++M+ + T+   KGSN
+Sbjct: 898 GKMNGLTSSIINKCIPDGLLTKFPENHMQAM-TVSGAKGSN 937
+
+
+>EPY51543 pep:novel supercontig:GCA_000004155.2:supercont4.4:1123422:1126007:
+           1 gene:SPOG_02714 transcript:EPY51543
+           description:"spindle pole body protein Ppc89"
+          Length = 777
+
+ Score = 26.6 bits (57), Expect = 9.2,   Method: Compositional matrix adjust.
+ Identities = 16/54 (29%), Positives = 28/54 (51%), Gaps = 6/54 (11%)
+
+Query: 455 ETRTPLIYRKNFNHFNPDLNKRPPREPI-----EFDLNGNTNSTPTIAKAFGKN 503
+           E R P  Y +N + F P   + P  + I     +F +NG+ ++ P++ K  G+N
+Sbjct: 41  ENRNP-SYAQNKDSFEPFFKETPKSKSINKHFQDFTMNGSLSTQPSVEKPRGRN 93
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 2,154,925
+Number of extensions: 91585
+Number of successful extensions: 220
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 220
+Number of HSP's successfully gapped: 8
+Length of query: 533
+Length of database: 2,338,516
+Length adjustment: 93
+Effective length of query: 440
+Effective length of database: 1,856,776
+Effective search space: 816981440
+Effective search space used: 816981440
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 52 (24.6 bits)

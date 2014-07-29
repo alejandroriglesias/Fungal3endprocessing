@@ -1,0 +1,175 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_02607T0 pep:known chromosome:ASM14955v1:5:112808:114766:-1 ...   526   e-179
+FVEG_10449T0 pep:known chromosome:ASM14955v1:9:2673852:2675492:1...    34   0.098
+FVEG_09277T0 pep:known chromosome:ASM14955v1:5:3777553:3778320:1...    30   1.2  
+FVEG_03179T0 pep:known chromosome:ASM14955v1:5:1909226:1910103:-...    30   1.3  
+FVEG_03015T0 pep:known chromosome:ASM14955v1:5:1466243:1468563:-...    29   3.5  
+FVEG_05336T0 pep:known chromosome:ASM14955v1:3:3289368:3290213:1...    29   4.9  
+
+>FVEG_02607T0 pep:known chromosome:ASM14955v1:5:112808:114766:-1 gene:FVEG_02607
+           transcript:FVEG_02607T0 description:"hypothetical
+           protein similar to zinc knuckle domain protein"
+          Length = 618
+
+ Score =  526 bits (1354), Expect = e-179,   Method: Compositional matrix adjust.
+ Identities = 262/464 (56%), Positives = 320/464 (68%), Gaps = 24/464 (5%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           EPTRVEFDGTGISVFELKR+II KSGLGDGTDFDL IYT+D +EEYDDDTTIIPRST V+
+Sbjct: 14  EPTRVEFDGTGISVFELKREIITKSGLGDGTDFDLHIYTDDNSEEYDDDTTIIPRSTTVI 73
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+           ARR P++KPGAGRAARYVSGK PV AKN+ RKEQ               QM+NA+TEEE+
+Sbjct: 74  ARRQPALKPGAGRAARYVSGKMPVTAKNAGRKEQAAKASSSKPSSDAISQMNNAMTEEEK 133
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWI 193
+           +AAMF AQ+EQW+AQQEE+SHQTP++       KRPANVPDH+PPNGYICYRCG KGHWI
+Sbjct: 134 MAAMFAAQTEQWSAQQEEMSHQTPVFKAG---AKRPANVPDHDPPNGYICYRCGNKGHWI 190
+
+Query: 194 QLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMVNADGD 253
+           QLCPTND+PEFDNRPRVKRTTGIP+SFL+ VDK+ VL Q   +G+E K PSG+MVNA+GD
+Sbjct: 191 QLCPTNDDPEFDNRPRVKRTTGIPRSFLQKVDKSVVLAQ--TEGDESKRPSGIMVNAEGD 248
+
+Query: 254 FVIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEK 313
+           FVIA+PDKA+WE+FQA+             + KE++++GLEC +DK++F EPMKTPCC+K
+Sbjct: 249 FVIAEPDKASWEQFQAKA-KSSSTANAPLAENKEIREQGLECSIDKKMFIEPMKTPCCQK 307
+
+Query: 314 TYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQYHXXXXXX-----XXXX 368
+           T+CNDCITNALIESDFVCP CQ+EGVLID+L+PD+E + KI++Y                
+Sbjct: 308 TFCNDCITNALIESDFVCPACQSEGVLIDDLQPDEEASKKIQEYLKDKETAKTPPPASPK 367
+
+Query: 369 XXXXXXXXXXXXXXXXXXXXXXXXXTTENNGADSKEVGKASS--KSPTTSVKSLAKDPTS 426
+                                     TEN  ++  +        KSP +   ++   P  
+Sbjct: 368 TLADAKPDGEKQEKSTEETSDNMEQKTENEPSEQTKDSAVDEKPKSPASQTATVNSPPAG 427
+
+Query: 427 PTEISTPNG-----------TVSNPKKRPADQPAENPRVPRAPK 459
+           P  + + +            T +N KKRPAD   +NPR+PR PK
+Sbjct: 428 PKNLVSASQDANKQLDNLKPTDTNSKKRPADDILDNPRIPRGPK 471
+
+
+
+ Score = 68.2 bits (165), Expect = 4e-12,   Method: Compositional matrix adjust.
+ Identities = 28/37 (75%), Positives = 32/37 (86%)
+
+Query: 623 FSNQAATEDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           F   A  ++DAYFRKPVNPHRHQN+Q+RVRPSDYREL
+Sbjct: 582 FGQGAGADEDAYFRKPVNPHRHQNKQRRVRPSDYREL 618
+
+
+>FVEG_10449T0 pep:known chromosome:ASM14955v1:9:2673852:2675492:1 gene:FVEG_10449
+           transcript:FVEG_10449T0 description:"conserved
+           hypothetical protein"
+          Length = 200
+
+ Score = 33.9 bits (76), Expect = 0.098,   Method: Compositional matrix adjust.
+ Identities = 23/68 (33%), Positives = 32/68 (47%), Gaps = 5/68 (7%)
+
+Query: 290 DRGLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQA---EGVLIDNLKP 346
+           +  L C + K  +  PM T CC  T+C+ CI   L  ++  CP C+A   E  L  N   
+Sbjct: 24  ENALRCQICKDFYKTPMITSCCH-TFCSLCIRRTL-SNEGKCPVCRASEQELKLRSNWAM 81
+
+Query: 347 DDETTAKI 354
+           +D   A I
+Sbjct: 82  EDAVQAFI 89
+
+
+>FVEG_09277T0 pep:known chromosome:ASM14955v1:5:3777553:3778320:1 gene:FVEG_09277
+           transcript:FVEG_09277T0 description:"zinc-finger protein
+           GIS2"
+          Length = 223
+
+ Score = 30.4 bits (67), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 24/51 (47%), Gaps = 2/51 (3%)
+
+Query: 161 GKPGVGKRPANVPDHEPPN--GYICYRCGEKGHWIQLCPTNDNPEFDNRPR 209
+           GK G   R    P+  P N  G  CY+CGE GH  + CP  + P     P+
+Sbjct: 154 GKLGHISRDCTAPNGGPLNTAGKTCYQCGEAGHISRDCPQKNAPGVGEIPQ 204
+
+
+>FVEG_03179T0 pep:known chromosome:ASM14955v1:5:1909226:1910103:-1
+           gene:FVEG_03179 transcript:FVEG_03179T0
+           description:"predicted protein"
+          Length = 238
+
+ Score = 30.4 bits (67), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 21/49 (42%)
+
+Query: 265 EKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEK 313
+           E+FQ R             +  ELQ R  +  M + LFN+   T CC K
+Sbjct: 16  EEFQNRFQYVTNELRKAVAEHNELQCRKRDLKMLRELFNKHAATLCCRK 64
+
+
+>FVEG_03015T0 pep:known chromosome:ASM14955v1:5:1466243:1468563:-1
+           gene:FVEG_03015 transcript:FVEG_03015T0
+           description:"conserved hypothetical protein"
+          Length = 178
+
+ Score = 28.9 bits (63), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 14/22 (63%)
+
+Query: 176 EPPNGYICYRCGEKGHWIQLCP 197
+           E  NG  CY CGE GH+ + CP
+Sbjct: 131 ECVNGMKCYNCGESGHYSRDCP 152
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 5,934,451
+Number of extensions: 249932
+Number of successful extensions: 822
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 819
+Number of HSP's successfully gapped: 26
+Length of query: 659
+Length of database: 5,950,719
+Length adjustment: 101
+Effective length of query: 558
+Effective length of database: 4,518,034
+Effective search space: 2521062972
+Effective search space used: 2521062972
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,210 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_07487T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   362   e-125
+MAPG_06375T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    55   9e-09
+MAPG_03687T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    37   0.003
+MAPG_09256T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    37   0.006
+MAPG_08525T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   1.8  
+MAPG_11284T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   2.9  
+MAPG_00024T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   4.3  
+MAPG_03985T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.0  
+MAPG_01137T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.4  
+MAPG_00058T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   8.7  
+MAPG_09657T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    26   8.7  
+
+>MAPG_07487T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:1784814:1
+           786159:1 gene:MAPG_07487 transcript:MAPG_07487T0
+           description:"mRNA 3'-end-processing protein yth-1"
+          Length = 293
+
+ Score =  362 bits (928), Expect = e-125,   Method: Compositional matrix adjust.
+ Identities = 174/225 (77%), Positives = 193/225 (85%), Gaps = 10/225 (4%)
+
+Query: 3   SPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLER 62
+           +PSVAK  + ML+H+AP YSFSFTPFLQQTYQHSLP DRPIC+VYASGGNC NGTRCLER
+Sbjct: 2   APSVAKTVEQMLSHAAPHYSFSFTPFLQQTYQHSLPPDRPICRVYASGGNCANGTRCLER 61
+
+Query: 63  HVADPSQLS--NAQSGYGSGKR-DGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPE 119
+           HV+DPS  +  N  +  G GKR DGPAFNS+VCKHWLRGLCKKGD CEFLHEYNLR+MPE
+Sbjct: 62  HVSDPSSTADNNTTTQGGRGKRGDGPAFNSMVCKHWLRGLCKKGDSCEFLHEYNLRKMPE 121
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRN-LCPYYLC 178
+           CNFY+R+G+CQNGEEC+YLHIDPQSKLPPCPHYDQGFCPLGPRC+KKHVRR  LCPYYLC
+Sbjct: 122 CNFYLRHGFCQNGEECMYLHIDPQSKLPPCPHYDQGFCPLGPRCAKKHVRRQVLCPYYLC 181
+
+Query: 179 GFCPDGRLCKQGAHPGWNPKLDPPTVKVEKP------AGEEDAMG 217
+           GFCPDGR CKQGAHP W+PK++ PTVKVE+P         ED MG
+Sbjct: 182 GFCPDGRACKQGAHPRWDPKMEKPTVKVERPPQQPSAVAAEDEMG 226
+
+
+>MAPG_06375T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:1551916:1
+           554395:-1 gene:MAPG_06375 transcript:MAPG_06375T0
+           description:"CCCH zinc finger protein"
+          Length = 460
+
+ Score = 54.7 bits (130), Expect = 9e-09,   Method: Compositional matrix adjust.
+ Identities = 36/127 (28%), Positives = 58/127 (45%), Gaps = 25/127 (19%)
+
+Query: 44  CKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RGLCKK 102
+           C++++  G+C NG RC  R++ DP++++                   +C+ +L  G C  
+Sbjct: 270 CRMFSMTGSCTNGPRC--RYIHDPAKVA-------------------ICRDFLVTGNCVS 308
+
+Query: 103 GDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-GFCPLGP 161
+           GD C+  HE    R P C  Y + G C N  +C Y H+        C  +   G+C  G 
+Sbjct: 309 GDSCDLSHELTDERTPACVHYAK-GKCTN-PDCQYAHMQVTPGALVCRDFGMFGYCSKGA 366
+
+Query: 162 RCSKKHV 168
+            C ++HV
+Sbjct: 367 NCDERHV 373
+
+
+
+ Score = 40.0 bits (92), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 25/99 (25%), Positives = 44/99 (44%), Gaps = 8/99 (8%)
+
+Query: 96  LRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQG 155
+           + G C  G  C ++H+    ++  C  ++  G C +G+ C   H     + P C HY +G
+Sbjct: 275 MTGSCTNGPRCRYIHD--PAKVAICRDFLVTGNCVSGDSCDLSHELTDERTPACVHYAKG 332
+
+Query: 156 FCPLGPRCSKKHVRRN----LC-PYYLCGFCPDGRLCKQ 189
+            C   P C   H++      +C  + + G+C  G  C +
+Sbjct: 333 KC-TNPDCQYAHMQVTPGALVCRDFGMFGYCSKGANCDE 370
+
+
+
+ Score = 30.4 bits (67), Expect = 0.45,   Method: Compositional matrix adjust.
+ Identities = 26/103 (25%), Positives = 41/103 (39%), Gaps = 20/103 (19%)
+
+Query: 38  PSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR 97
+           P+   IC+ +   GNC +G  C   H     +L++ ++         PA     C H+ +
+Sbjct: 291 PAKVAICRDFLVTGNCVSGDSCDLSH-----ELTDERT---------PA-----CVHYAK 331
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHI 140
+           G C   D C++ H         C  +   GYC  G  C   H+
+Sbjct: 332 GKCTNPD-CQYAHMQVTPGALVCRDFGMFGYCSKGANCDERHV 373
+
+
+
+ Score = 29.6 bits (65), Expect = 0.85,   Method: Compositional matrix adjust.
+ Identities = 26/82 (31%), Positives = 33/82 (40%), Gaps = 9/82 (10%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHY-DQGFCPLGPRCSKKH----VRRNLCP 174
+           C  +   G C NG  C Y+H DP +K+  C  +   G C  G  C   H     R   C 
+Sbjct: 270 CRMFSMTGSCTNGPRCRYIH-DP-AKVAICRDFLVTGNCVSGDSCDLSHELTDERTPACV 327
+
+Query: 175 YYLCGFC--PDGRLCKQGAHPG 194
+           +Y  G C  PD +       PG
+Sbjct: 328 HYAKGKCTNPDCQYAHMQVTPG 349
+
+
+>MAPG_03687T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:493830:49
+           9768:-1 gene:MAPG_03687 transcript:MAPG_03687T0
+           description:"hypothetical protein"
+          Length = 671
+
+ Score = 37.4 bits (85), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 22/71 (30%), Positives = 30/71 (42%), Gaps = 13/71 (18%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCG 179
+           C F+ R G CQ G  C + H    +    C ++ +G C  GP+C+  HV           
+Sbjct: 73  CKFF-RQGACQAGNACPFSHDLSMAAENVCKYFAKGNCKFGPKCANIHV----------- 120
+
+Query: 180 FCPDGRLCKQG 190
+             PDGR    G
+Sbjct: 121 -LPDGRRINYG 130
+
+
+>MAPG_09256T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.9:1199295:1
+           202609:-1 gene:MAPG_09256 transcript:MAPG_09256T0
+           description:"hypothetical protein"
+          Length = 906
+
+ Score = 36.6 bits (83), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 37/133 (27%), Positives = 51/133 (38%), Gaps = 12/133 (9%)
+
+Query: 41  RPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFN---SLVCKHWLR 97
+           R  C  +ASG  C  G  C   H  D    S +     +     PA     + +C+ +  
+Sbjct: 11  RAQCHFFASG-RCMKGASCPFSHAIDQESPSPSARPLRNTTTAPPASLKSPATICRFFQA 69
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGE---ECLYLHIDPQSKLPPCPHYDQ 154
+           G C KGD C FLHE   + +      +   + + G    E L    D +S L PC  +  
+Sbjct: 70  GKCHKGDECVFLHEETAKPV----LVVERTFTKPGAPAPETLPATADSRS-LVPCRFFTA 124
+
+Query: 155 GFCPLGPRCSKKH 167
+           G C  G  C   H
+Sbjct: 125 GGCKNGSSCPFMH 137
+
+
+>MAPG_08525T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.8:493961:49
+           6522:1 gene:MAPG_08525 transcript:MAPG_08525T0
+           description:"hypothetical protein"
+          Length = 482
+
+ Score = 28.5 bits (62), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (47%), Gaps = 2/44 (4%)
+
+Query: 94  HWLRGLCKKGDGCEFLHEYNLR--RMPECNFYIRNGYCQNGEEC 135
+           H+LR  C+KG  C F H+Y           F  R   C NG++C
+Sbjct: 390 HYLRPPCQKGSACCFEHDYEPTGPERTAIAFLARLNPCTNGQDC 433
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 3,102,314
+Number of extensions: 157017
+Number of successful extensions: 338
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 316
+Number of HSP's successfully gapped: 24
+Length of query: 276
+Length of database: 4,928,244
+Length adjustment: 92
+Effective length of query: 184
+Effective length of database: 3,882,204
+Effective search space: 714325536
+Effective search space used: 714325536
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

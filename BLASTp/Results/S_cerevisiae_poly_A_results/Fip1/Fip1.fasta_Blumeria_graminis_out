@@ -1,0 +1,84 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU74699 pep:novel supercontig:EF1:HF943549:2461854:2463031:1 ge...    67   3e-13
+
+>CCU74699 pep:novel supercontig:EF1:HF943549:2461854:2463031:1
+           gene:BGHDH14_bgh01539 transcript:CCU74699
+           description:"putative pre-mRNA polyadenylation factor
+           fip1"
+          Length = 308
+
+ Score = 67.4 bits (163), Expect = 3e-13,   Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 60/99 (60%), Gaps = 11/99 (11%)
+
+Query: 140 QGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVG--ITTID-----PEVLKEKPWRQ 192
+           + ++  T+ A E +  +P      ID++ + +++  G  IT ++     PE   EKPWR+
+Sbjct: 96  KALSKATLNAPEVE--LPGVSISKIDVNVKPVYEPAGKPITQVNIDEDLPE--NEKPWRR 151
+
+Query: 193 PGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILM 231
+           PG +++DYFNYGF+EF+W  Y  +QE ++ +Y+  +I +
+Sbjct: 152 PGTDITDYFNYGFDEFSWALYASKQEAVRSEYSADKIAL 190
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,455,634
+Number of extensions: 58408
+Number of successful extensions: 168
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 168
+Number of HSP's successfully gapped: 10
+Length of query: 327
+Length of database: 3,131,961
+Length adjustment: 91
+Effective length of query: 236
+Effective length of database: 2,543,191
+Effective search space: 600193076
+Effective search space used: 600193076
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

@@ -1,0 +1,227 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_05351T0 pep:known chromosome:ASM14955v1:3:3341445:3344345:-...   582   0.0  
+FVEG_00704T0 pep:known chromosome:ASM14955v1:1:3651089:3653562:-...   411   e-140
+FVEG_06432T0 pep:known chromosome:ASM14955v1:2:1890905:1893073:-...   286   1e-94
+FVEG_06252T0 pep:known chromosome:ASM14955v1:2:1322548:1324032:1...   240   2e-77
+FVEG_04738T0 pep:known chromosome:ASM14955v1:4:1228110:1230635:1...   223   1e-67
+FVEG_09543T0 pep:known chromosome:ASM14955v1:1:301853:303473:1 g...   206   6e-63
+FVEG_07873T0 pep:known chromosome:ASM14955v1:3:1124845:1126799:-...   207   2e-62
+FVEG_04175T0 pep:known chromosome:ASM14955v1:2:4283034:4284630:1...   114   4e-29
+FVEG_04257T0 pep:known chromosome:ASM14955v1:2:4542218:4544718:-...    28   5.2  
+
+>FVEG_05351T0 pep:known chromosome:ASM14955v1:3:3341445:3344345:-1
+           gene:FVEG_05351 transcript:FVEG_05351T0
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 308
+
+ Score =  582 bits (1500), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 281/309 (90%), Positives = 292/309 (94%), Gaps = 3/309 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQHEVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK- 301
+
+Query: 302 LPRQAGGRK 310
+             +Q  GR+
+Sbjct: 302 --KQKFGRR 308
+
+
+>FVEG_00704T0 pep:known chromosome:ASM14955v1:1:3651089:3653562:-1
+           gene:FVEG_00704 transcript:FVEG_00704T0
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 532
+
+ Score =  411 bits (1056), Expect = e-140,   Method: Compositional matrix adjust.
+ Identities = 190/297 (63%), Positives = 229/297 (77%), Gaps = 1/297 (0%)
+
+Query: 6   VDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDI 64
+           +D+D+ I RLL+     K  + V L+  EI  +C +AR + + QP LLEL+AP+K+ GD+
+Sbjct: 207 IDLDDFIKRLLDAGYAGKVTKSVCLKNAEIVAICQRAREVLLSQPALLELDAPVKVVGDV 266
+
+Query: 65  HGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNH 124
+           HGQY D++R+FE  GFPP SNYLFLGDYVDRGKQSLETI LLL YK+K+PENFF+LRGNH
+Sbjct: 267 HGQYTDVIRMFEMCGFPPNSNYLFLGDYVDRGKQSLETILLLLCYKLKFPENFFLLRGNH 326
+
+Query: 125 ECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQ 184
+           ECA++ R+YGFYDECKRR N+K+WKTF DCFN LPIAAI+  KIFC+HGGLSP L  M+ 
+Sbjct: 327 ECANVTRVYGFYDECKRRCNVKIWKTFIDCFNTLPIAAIVAGKIFCVHGGLSPALVHMDD 386
+
+Query: 185 IRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELIC 244
+           IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FL   D +LIC
+Sbjct: 387 IRNIARPTDVPDYGLLNDLLWSDPADMEQDWEANERGVSYCFGKRVITEFLAVHDFDLIC 446
+
+Query: 245 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           RAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP   S
+Sbjct: 447 RAHMVVEDGYEFFNDRVLVTVFSAPNYCGEFDNWGAVMSVSAELLCSFELLKPLDSS 503
+
+
+>FVEG_06432T0 pep:known chromosome:ASM14955v1:2:1890905:1893073:-1
+           gene:FVEG_06432 transcript:FVEG_06432T0
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 328
+
+ Score =  286 bits (731), Expect = 1e-94,   Method: Compositional matrix adjust.
+ Identities = 132/274 (48%), Positives = 187/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +++ LC KAR +  ++  +  ++ P+ +CGDIHGQ++DL+ LF+ GG  P++NYLF
+Sbjct: 42  LAEADVQRLCDKAREVLQEESNVQPVKCPVTVCGDIHGQFHDLMELFKIGGPNPDTNYLF 101
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 102 MGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANV 161
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 162 WKYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSD 221
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + LI RAHQ+V +GY +   R +VT+FS
+Sbjct: 222 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLIARAHQLVMEGYNWSQDRNVVTIFS 280
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 281 APNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 314
+
+
+>FVEG_06252T0 pep:known chromosome:ASM14955v1:2:1322548:1324032:1 gene:FVEG_06252
+           transcript:FVEG_06252T0
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 281
+
+ Score =  240 bits (612), Expect = 2e-77,   Method: Compositional matrix adjust.
+ Identities = 109/257 (42%), Positives = 173/257 (67%), Gaps = 1/257 (0%)
+
+Query: 46  IKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICL 105
+           +++  ++ ++API + GDIHGQ++DL+ +F  GG+ P++NYLFLGDYVDRG  S+ETI L
+Sbjct: 1   MRESNVVHVKAPITVVGDIHGQFFDLIEIFRIGGYCPDTNYLFLGDYVDRGMFSVETISL 60
+
+Query: 106 LLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAII 164
+           L+  K++YP    ++RGNHE   + + YGFY EC R+Y N  +W  FTD F+ L ++ +I
+Sbjct: 61  LVCLKLRYPNRVHLIRGNHESRGVTQSYGFYTECSRKYGNANVWHYFTDMFDFLTLSVVI 120
+
+Query: 165 DEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSF 224
+           +++IFC+HGGLSP ++S++QI+ + R  +IP  G + DL+WSDPD +   +S + RG  +
+Sbjct: 121 NDQIFCVHGGLSPSIHSIDQIKIIDRFREIPHEGPMADLVWSDPDPERDEFSLSPRGAGY 180
+
+Query: 225 TFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSV 284
+           TFG  VV +FL   +M  I RAHQ+ ++G++     +L T++SAPNYC    N  +++ V
+Sbjct: 181 TFGAQVVKKFLAVNNMSHILRAHQLCQEGFQVLYDDRLSTVWSAPNYCYRCGNMASVLEV 240
+
+Query: 285 DESLLCSFQILKPAQKS 301
+            ++    F +   A ++
+Sbjct: 241 SDTGERFFNVFAAAPEN 257
+
+
+>FVEG_04738T0 pep:known chromosome:ASM14955v1:4:1228110:1230635:1 gene:FVEG_04738
+           transcript:FVEG_04738T0
+           description:"serine/threonine-protein phosphatase 2B
+           catalytic subunit"
+          Length = 566
+
+ Score =  223 bits (568), Expect = 1e-67,   Method: Compositional matrix adjust.
+ Identities = 105/274 (38%), Positives = 170/274 (62%), Gaps = 13/274 (4%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +  ++  K   +   +P LLE++API +CGD+HGQYYDL++LFE GG P E+ YLF
+Sbjct: 97  LTEEQALWIIRKGTELLRAEPNLLEMDAPITVCGDVHGQYYDLMKLFEVGGDPAETRYLF 156
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRYNIKLW 148
+           LGDYVDRG  S+E +  L   KI YP+  ++LRGNHEC  +   + F  ECK +Y+  ++
+Sbjct: 157 LGDYVDRGYFSIECVLYLWCLKIHYPKTLWLLRGNHECRHLTDYFTFKLECKHKYSETIY 216
+
+Query: 149 KTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSDP 208
+           +   + F  LP+AA+++++  C+HGGLSP+L++++ ++ + R  + P  GL+CD+LW+DP
+Sbjct: 217 EACMESFCALPLAAVMNKQFLCIHGGLSPELHTLDDLKSIDRFREPPTQGLMCDILWADP 276
+
+Query: 209 DKDIVGWSEND-------RGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQ 261
+            +D      +D       RG S+ F       FL+K ++  I RAH+  + GY  + K +
+Sbjct: 277 LEDFGQEKTSDYFLHNHVRGCSYFFSYPAACAFLEKNNLLSIIRAHEAQDAGYRMYRKTR 336
+
+Query: 262 ------LVTLFSAPNYCGEFDNAGAMMSVDESLL 289
+                 ++T+FSAPNY   ++N  A++  + +++
+Sbjct: 337 TTGFPSVMTIFSAPNYLDVYNNKAAVLKYENNVM 370
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 4,063,287
+Number of extensions: 180200
+Number of successful extensions: 299
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 287
+Number of HSP's successfully gapped: 12
+Length of query: 312
+Length of database: 5,950,719
+Length adjustment: 94
+Effective length of query: 218
+Effective length of database: 4,617,329
+Effective search space: 1006577722
+Effective search space used: 1006577722
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 53 (25.0 bits)

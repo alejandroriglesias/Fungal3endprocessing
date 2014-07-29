@@ -1,0 +1,157 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY53719 pep:novel supercontig:GCA_000004155.2:supercont4.1:1483...   279   2e-88
+EPY49660 pep:novel supercontig:GCA_000004155.2:supercont4.8:4905...    34   0.022
+EPY50733 pep:novel supercontig:GCA_000004155.2:supercont4.5:3735...    32   0.22 
+EPY51406 pep:novel supercontig:GCA_000004155.2:supercont4.4:8302...    27   4.6  
+
+>EPY53719 pep:novel supercontig:GCA_000004155.2:supercont4.1:1483666:1486342:
+           1 gene:SPOG_03048 transcript:EPY53719
+           description:"ubiquitin-protein ligase E3 RBBP6 family
+           protein"
+          Length = 496
+
+ Score =  279 bits (714), Expect = 2e-88,   Method: Compositional matrix adjust.
+ Identities = 154/387 (39%), Positives = 217/387 (56%), Gaps = 56/387 (14%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGT-GLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEY 59
+           MS  I+Y+FKSQ++ SR+ FDGT G++VFD+KREIIQ+ KLG G DF L +YN +T EEY
+Sbjct: 1   MSGVIYYKFKSQKDPSRVSFDGTVGMSVFDVKREIIQQKKLGSGLDFDLLLYNANTNEEY 60
+
+Query: 60  DDDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPR--------- 110
+           DDD ++IPRSTSVIV+R PA KS                G A RYV+G PR         
+Sbjct: 61  DDDTYIIPRSTSVIVRRVPAQKS--------------GKGTAARYVSGAPRTTGNTRPEL 106
+
+Query: 111 ------VLQKRQHXXXXXXN-------VSGTTEEERIASMFAXXXXXXXXXXXXMSAATP 157
+                 +LQK+                  GT+EE  I  MF             M++ATP
+Sbjct: 107 AKKPVPMLQKKPQTNTATSGDPSATKLAPGTSEEAAIQQMFQVSSDQWRETQDKMASATP 166
+
+Query: 158 VFFKSQTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPK 216
+           + +K    + +A   + PPPPGY+CYRCG + HWI+ CPTN+DPN++GK R++RTTGIP+
+Sbjct: 167 I-YKPNQRRIAASIPDKPPPPGYICYRCGLKGHWIQACPTNADPNYDGKPRVKRTTGIPR 225
+
+Query: 217 KFLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIW 276
+            FLKSI+       P E     IMI  EG++VV   D+ SWE YQ ++          + 
+Sbjct: 226 SFLKSID------APAEGDTANIMINAEGEYVVAQPDQASWESYQARK--------VALT 271
+
+Query: 277 RKGHFKDLPDD--LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRD 334
+               +K  P D  L C +   L +   +T  CC+  F ++ ++ AL+++DF CP+C  +D
+Sbjct: 272 ANDVYKMQPPDSSLACTICKKLAKNAFRTP-CCDQLFCEDCIQTALLDTDFECPHCHQKD 330
+
+Query: 335 ILLDSLVPDQDKEKEVETFLKKQEELH 361
+           +LLDSL  D   ++++E+ ++     H
+Sbjct: 331 VLLDSLKADYQVQRKIESVVRSVLATH 357
+
+
+>EPY49660 pep:novel supercontig:GCA_000004155.2:supercont4.8:490556:491635:-1
+           gene:SPOG_01541 transcript:EPY49660 description:"TIM23
+           translocase complex subunit Tim15"
+          Length = 180
+
+ Score = 33.9 bits (76), Expect = 0.022,   Method: Compositional matrix adjust.
+ Identities = 34/112 (30%), Positives = 49/112 (43%), Gaps = 24/112 (21%)
+
+Query: 286 DDLKCPLTG--GLLRQP------VKTSKCCNI----DFSKEALENALVESDFV-CPNCET 332
+           +D K P++   G L QP        T   CN       SK+A  N  V   FV CP C+ 
+Sbjct: 55  NDAKVPISKSTGELEQPKPAYHITFTCTVCNHRSGHKLSKQAYHNGTV---FVECPQCKN 111
+
+Query: 333 RDILLDSLVPDQDKEKEVETFLKKQEEL----HGSSKDGN----QPETKKMK 376
+           R ++ D L    DK   +E  +  + E+    +G   DGN    +P+  K+K
+Sbjct: 112 RHLMADHLKIFSDKRVTIEDIISNKGEILKKGYGQIVDGNVVEIEPDNLKLK 163
+
+
+>EPY50733 pep:novel supercontig:GCA_000004155.2:supercont4.5:373527:375563:1
+           gene:SPOG_00726 transcript:EPY50733 description:"SUMO E3
+           ligase Pli1"
+          Length = 678
+
+ Score = 31.6 bits (70), Expect = 0.22,   Method: Compositional matrix adjust.
+ Identities = 29/102 (28%), Positives = 42/102 (41%), Gaps = 19/102 (18%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNID-FSKEA-LENALVESDFVCPNCETRDILLDSLVPDQD 345
+           LKCPL+   +  PV++S C +I  F   A LE       ++CP C    I    LV    
+Sbjct: 243 LKCPLSFTRISLPVRSSYCKHIQCFDARAFLEMNQQTPSWMCPVCNIH-IRYPDLV---- 297
+
+Query: 346 KEKEVETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAGLN 387
+               V+ F++   E        N P   +   +DP G   +N
+Sbjct: 298 ----VDGFMQHILE--------NSPSNSETITVDPVGNWSMN 327
+
+
+>EPY51406 pep:novel supercontig:GCA_000004155.2:supercont4.4:830272:831495:1
+           gene:SPOG_02577 transcript:EPY51406 description:"zf-CCHC
+           type zinc finger protein"
+          Length = 221
+
+ Score = 26.9 bits (58), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 7/16 (43%), Positives = 12/16 (75%)
+
+Query: 181 MCYRCGGRDHWIKNCP 196
+           +C+RCG ++H +  CP
+Sbjct: 103 ICFRCGSKEHTLSACP 118
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,982,117
+Number of extensions: 86155
+Number of successful extensions: 219
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 212
+Number of HSP's successfully gapped: 16
+Length of query: 441
+Length of database: 2,338,516
+Length adjustment: 91
+Effective length of query: 350
+Effective length of database: 1,867,136
+Effective search space: 653497600
+Effective search space used: 653497600
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 51 (24.3 bits)

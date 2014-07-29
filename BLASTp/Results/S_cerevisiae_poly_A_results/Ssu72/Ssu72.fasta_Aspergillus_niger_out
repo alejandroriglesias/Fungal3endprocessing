@@ -1,0 +1,197 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00005990 pep:known chromosome:CADRE:IV:1827816:1828616:1...   197   2e-62
+CADANGAP00004845 pep:known chromosome:CADRE:VII:142948:145914:1 ...    33   0.045
+CADANGAP00008157 pep:known chromosome:CADRE:V:190214:197537:-1 g...    33   0.049
+CADANGAP00005259 pep:known chromosome:CADRE:IV:156733:161145:-1 ...    33   0.050
+CADANGAP00004210 pep:known chromosome:CADRE:VI:1049491:1053903:1...    33   0.051
+CADANGAP00004916 pep:known chromosome:CADRE:VIII:4543306:4547718...    33   0.053
+CADANGAP00013463 pep:known chromosome:CADRE:VIII:162431:166843:1...    33   0.053
+CADANGAP00008800 pep:known chromosome:CADRE:VII:1807804:1812216:...    33   0.053
+CADANGAP00008882 pep:known chromosome:CADRE:VII:1618622:1623034:...    33   0.053
+CADANGAP00004296 pep:known chromosome:CADRE:VI:858652:863064:-1 ...    33   0.053
+CADANGAP00002367 pep:known chromosome:CADRE:IV:3735486:3739898:1...    33   0.053
+CADANGAP00007477 pep:known chromosome:CADRE:I:3218847:3223259:-1...    33   0.053
+CADANGAP00007496 pep:known chromosome:CADRE:I:3169623:3174035:1 ...    33   0.053
+CADANGAP00009012 pep:known chromosome:CADRE:VII:1319173:1323585:...    33   0.053
+CADANGAP00007208 pep:known chromosome:CADRE:VIII:4019847:4025263...    33   0.055
+CADANGAP00001698 pep:known chromosome:CADRE:IV:5466170:5469937:1...    29   0.95 
+CADANGAP00005076 pep:known chromosome:CADRE:VIII:4975819:4976757...    28   2.0  
+CADANGAP00001457 pep:known chromosome:CADRE:II:4579372:4580577:1...    27   3.6  
+CADANGAP00009260 pep:known chromosome:CADRE:VII:671489:673181:-1...    27   4.4  
+CADANGAP00013657 pep:known chromosome:CADRE:VIII:603860:604959:-...    27   5.0  
+
+>CADANGAP00005990 pep:known chromosome:CADRE:IV:1827816:1828616:1
+           gene:CADANGAG00006111 transcript:CADANGAT00006111
+           description:"Putative uncharacterized protein
+           An07g08370"
+          Length = 251
+
+ Score =  197 bits (500), Expect = 2e-62,   Method: Compositional matrix adjust.
+ Identities = 106/219 (48%), Positives = 140/219 (63%), Gaps = 22/219 (10%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAG--YNVSSYGTGSAVRLPGLSIDKPNVYSFGTP-YN 65
+           L+FCTVCASN NRSME+H  L  A   + V S+GTGS VRLPG SI +PNVY+F T  Y+
+Sbjct: 32  LRFCTVCASNQNRSMEAHLRLSTATSPFPVISFGTGSLVRLPGPSITQPNVYNFNTTSYS 91
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE------STKVFDFVFTCEERCF 119
+            +Y++LLS+    Y++NGLL ML+RNR LK  PE++Q+         V D + TCEERC+
+Sbjct: 92  QMYDELLSKDERLYRNNGLLNMLERNRNLKWGPERFQDWGALGTEGGVVDVIITCEERCW 151
+
+Query: 120 DAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIP- 178
+           DAV +DLMN+G  LN+ VHV NVDIKD+ E A +G KAIL+LA+ LN+   Q  K +   
+Sbjct: 152 DAVVDDLMNKGSPLNRPVHVFNVDIKDNHEEALVGGKAILDLANRLNEAASQERKTNGAD 211
+
+Query: 179 ------------FEDCIMDILTEWQSSHSQLPSLYAPSY 205
+                       F+  + DIL EWQ     LP+L+  ++
+Sbjct: 212 GWENGVGEARRNFDARVPDILAEWQERWPHLPALWTLAW 250
+
+
+>CADANGAP00004845 pep:known chromosome:CADRE:VII:142948:145914:1
+           gene:CADANGAG00004944 transcript:CADANGAT00004944
+           description:"Function\x3a Tto1 can transpose
+           autonomously through reverse transcription"
+          Length = 988
+
+ Score = 33.5 bits (75), Expect = 0.045,   Method: Compositional matrix adjust.
+ Identities = 40/158 (25%), Positives = 66/158 (41%), Gaps = 28/158 (17%)
+
+Query: 45  VRLPGLS---IDKPNVYS--FGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPE 99
+           V LP L    +  PN YS    +P    + D +    D+ ++ G  ++++R    +  P 
+Sbjct: 453 VTLPHLKQHEVVVPNTYSEAMKSPLAPYWKDAMDTQIDKIQNMGTYEIVNRPPTARAIPG 512
+
+Query: 100 KWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAIL 159
+           KW    KV    F  + R    VC +    G             I  D+  A + S+A L
+Sbjct: 513 KWVYDLKVNTDGFVTQFRARWVVCGNRQIPG-------------IDYDESFAPVASEAAL 559
+
+Query: 160 ELADMLNDKIEQCEKDDIPFEDCIMDILTEWQSSHSQL 197
+           +L  M N  I+     D+ +E C  DI++ +   H+Q+
+Sbjct: 560 KLF-MTNVAIK-----DLEWEQC--DIVSAYL--HAQI 587
+
+
+>CADANGAP00008157 pep:known chromosome:CADRE:V:190214:197537:-1 gene:CADANGAG00008303
+            transcript:CADANGAT00008303 description:"Putative
+            uncharacterized protein An10g00740"
+          Length = 2327
+
+ Score = 33.5 bits (75), Expect = 0.049,   Method: Compositional matrix adjust.
+ Identities = 40/158 (25%), Positives = 66/158 (41%), Gaps = 28/158 (17%)
+
+Query: 45   VRLPGLS---IDKPNVYS--FGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPE 99
+            V LP L    +  PN YS    +P    + D +    D+ ++ G  ++++R    +  P 
+Sbjct: 935  VTLPHLKQHEVVVPNTYSEAMKSPLAPYWKDAMDTQIDKIQNMGTYEIVNRPPTARAIPG 994
+
+Query: 100  KWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAIL 159
+            KW    KV    F  + R    VC +    G             I  D+  A + S+A L
+Sbjct: 995  KWVYDLKVNTDGFVTQFRARWVVCGNRQIPG-------------IDYDESFAPVASEAAL 1041
+
+Query: 160  ELADMLNDKIEQCEKDDIPFEDCIMDILTEWQSSHSQL 197
+            +L  M N  I+     D+ +E C  DI++ +   H+Q+
+Sbjct: 1042 KLF-MTNVAIK-----DLEWEQC--DIVSAYL--HAQI 1069
+
+
+>CADANGAP00005259 pep:known chromosome:CADRE:IV:156733:161145:-1 gene:CADANGAG00005366
+            transcript:CADANGAT00005366 description:"Similarity to
+            hypothetical retrotransposon Tto1 - Nicotiana tabacum"
+          Length = 1457
+
+ Score = 33.5 bits (75), Expect = 0.050,   Method: Compositional matrix adjust.
+ Identities = 40/158 (25%), Positives = 66/158 (41%), Gaps = 28/158 (17%)
+
+Query: 45   VRLPGLS---IDKPNVYS--FGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPE 99
+            V LP L    +  PN YS    +P    + D +    D+ ++ G  ++++R    +  P 
+Sbjct: 922  VTLPHLKQHEVVVPNTYSEAMKSPLAPYWKDAMDTQIDKIQNMGTYEIVNRPPTARAIPG 981
+
+Query: 100  KWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAIL 159
+            KW    KV    F  + R    VC +    G             I  D+  A + S+A L
+Sbjct: 982  KWVYDLKVNTDGFVTQFRARWVVCGNRQIPG-------------IDYDESFAPVASEAAL 1028
+
+Query: 160  ELADMLNDKIEQCEKDDIPFEDCIMDILTEWQSSHSQL 197
+            +L  M N  I+     D+ +E C  DI++ +   H+Q+
+Sbjct: 1029 KLF-MTNVAIK-----DLEWEQC--DIVSAYL--HAQI 1056
+
+
+>CADANGAP00004210 pep:known chromosome:CADRE:VI:1049491:1053903:1 gene:CADANGAG00004305
+            transcript:CADANGAT00004305 description:"Similarity to
+            reverse transcriptase pol - Volvox carteri"
+          Length = 1470
+
+ Score = 33.5 bits (75), Expect = 0.051,   Method: Compositional matrix adjust.
+ Identities = 40/158 (25%), Positives = 66/158 (41%), Gaps = 28/158 (17%)
+
+Query: 45   VRLPGLS---IDKPNVYS--FGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPE 99
+            V LP L    +  PN YS    +P    + D +    D+ ++ G  ++++R    +  P 
+Sbjct: 935  VTLPHLKQHEVVVPNTYSEAMKSPLAPYWKDAMDTQIDKIQNMGTYEIVNRPPTARAIPG 994
+
+Query: 100  KWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAIL 159
+            KW    KV    F  + R    VC +    G             I  D+  A + S+A L
+Sbjct: 995  KWVYDLKVNTDGFVTQFRARWVVCGNRQIPG-------------IDYDESFAPVASEAAL 1041
+
+Query: 160  ELADMLNDKIEQCEKDDIPFEDCIMDILTEWQSSHSQL 197
+            +L  M N  I+     D+ +E C  DI++ +   H+Q+
+Sbjct: 1042 KLF-MTNVAIK-----DLEWEQC--DIVSAYL--HAQI 1069
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 2,658,092
+Number of extensions: 108328
+Number of successful extensions: 271
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 267
+Number of HSP's successfully gapped: 22
+Length of query: 206
+Length of database: 6,195,193
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,929,073
+Effective search space: 571772468
+Effective search space used: 571772468
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

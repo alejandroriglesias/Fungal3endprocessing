@@ -1,0 +1,177 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB06738 pep:novel supercontig:GCA_000149845.2:supercont5.3:2363...   172   2e-48
+EEB05999 pep:novel supercontig:GCA_000149845.2:supercont5.1:2145...    30   0.69 
+EEB08627 pep:novel supercontig:GCA_000149845.2:supercont5.2:3786...    29   1.1  
+EEB07479 pep:novel supercontig:GCA_000149845.2:supercont5.1:9876...    28   2.0  
+EEB06805 pep:novel supercontig:GCA_000149845.2:supercont5.3:2500...    27   3.3  
+EEB08636 pep:novel supercontig:GCA_000149845.2:supercont5.2:3770...    26   5.9  
+EEB08100 pep:novel supercontig:GCA_000149845.2:supercont5.2:6828...    27   7.1  
+
+>EEB06738 pep:novel supercontig:GCA_000149845.2:supercont5.3:2363703:2366628:
+           -1 gene:SJAG_01791 transcript:EEB06738 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 466
+
+ Score =  172 bits (435), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 128/446 (28%), Positives = 208/446 (46%), Gaps = 66/446 (14%)
+
+Query: 25  KLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELL 84
+           ++ I K  +W+ ++  E ++ +K+ SG  E FGTELAV   Y F+  K  I+      L 
+Sbjct: 3   EITIAKECEWRFEVD-EPEIEIKLLSGTAECFGTELAVGPPYKFRYQKAAIFTWHGCVLQ 61
+
+Query: 85  WKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIR-MSNFE----------GPRVVIVGGSQ 133
+                L        P   M    NLHF L  +R  + F           GPRV IVG   
+Sbjct: 62  LDGEPLVEYIAEETP---MLTYLNLHFALNGLRKQAEFSSATPDSEASLGPRVCIVGPKD 118
+
+Query: 134 TGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQ-LPTWGQS 192
+            GKTSL +TL +YALK   Y P+ +NL P Q +  +PG  SA  ++ +LD Q    +G S
+Sbjct: 119 AGKTSLLKTLEAYALK-QFYHPICVNLSPTQSMLALPGSFSAFHLATMLDIQDADGFGSS 177
+
+Query: 193 LTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDT 252
+           + +G T +  K P+V ++GL+   +N  LY  C+S+L   V  R+  +   RRSG ++DT
+Sbjct: 178 MATGPTQIQAKSPLVYSYGLDEALDNPKLYKNCVSRLAITVASRMSQNDDARRSGLLIDT 237
+
+Query: 253 PSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELGNNNIFFIPKLDG 312
+           P +   ++    LH I+    VN+ LVL SE   L+  +K+ +  +     +  IPK  G
+Sbjct: 238 PGMVDSEKGYNILHSILTDFRVNVCLVLGSER--LYSAIKRKYN-DAHWLKVLKIPKSGG 294
+
+Query: 313 VSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWK---------PSNVF- 362
+                  + +  Q   +++YFYG     LSP +I +D +++ +++          S+V  
+Sbjct: 295 CVDRSSEWIQHWQAACVKQYFYGDYRMPLSPLSIVLDAQEVVVYRVLEASAHLMRSSVLP 354
+
+Query: 363 --------------------------------DNEVGRVELFPVTITPSNLQHAIIAITF 390
+                                           DN + R+    +TI    LQ++I+A++ 
+Sbjct: 355 LGMGGDGEEDGTSAAAVENGDSGDGLGGHFMQDNHLERIHTDSMTI----LQNSILAVSS 410
+
+Query: 391 AERRADQATVIKSPILGFALITEVNE 416
+                D+  ++ S ILG+  +++V++
+Sbjct: 411 VSADEDEHLILDSCILGYVFVSDVDD 436
+
+
+>EEB05999 pep:novel supercontig:GCA_000149845.2:supercont5.1:2145913:2150762:-1
+            gene:SJAG_05213 transcript:EEB05999
+            description:"ATP-binding cassette transporter abc1"
+          Length = 1457
+
+ Score = 30.0 bits (66), Expect = 0.69,   Method: Compositional matrix adjust.
+ Identities = 28/104 (26%), Positives = 48/104 (46%), Gaps = 18/104 (17%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTLCSYALK------FNAY 153
+            N  ++Y+ N   ++  + +    G +V IVG + +GK++L  +L  + L+       N  
+Sbjct: 1214 NLCVRYMENSPDVIHNLNLHVQSGEKVAIVGRTGSGKSTLGLSLLRFTLRSSGTILINGR 1273
+
+Query: 154  QPLYINLD---------PQQPIFTVPGCISAT--PISDILDAQL 186
+                INLD         PQ+PI    G I +   P +++ DA L
+Sbjct: 1274 DIETINLDALRQRISFIPQEPIL-FSGTIRSNLDPFNELDDAIL 1316
+
+
+>EEB08627 pep:novel supercontig:GCA_000149845.2:supercont5.2:3786316:3790143:
+           1 gene:SJAG_03789 transcript:EEB08627 description:"AAA
+           family ATPase Grc3"
+          Length = 722
+
+ Score = 29.3 bits (64), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 31/59 (52%), Gaps = 3/59 (5%)
+
+Query: 125 RVVIVGGSQTGKTSLSRTLCSYALK-FNAYQPLYINLDPQQPIFTVPGCISATPISDIL 182
+           R+++ G   +GK+  +R L +  L+  N  Q  Y++ DP Q  F   GC+S   I+  L
+Sbjct: 317 RILVSGPKGSGKSMFARYLANRLLESLNEIQ--YLDSDPGQAEFLPIGCVSLNHINKPL 373
+
+
+>EEB07479 pep:novel supercontig:GCA_000149845.2:supercont5.1:987649:989758:1
+           gene:SJAG_02564 transcript:EEB07479
+           description:"F1-ATPase alpha subunit"
+          Length = 537
+
+ Score = 28.5 bits (62), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 29/101 (28%), Positives = 46/101 (45%), Gaps = 13/101 (12%)
+
+Query: 45  IVKVNSGIVEI-FGTEL---AVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPN 100
+           +VK    IV++  G EL    VD      + K P+ A E   +  K P +   T   +P 
+Sbjct: 116 VVKRTGSIVDVPVGPELLGRVVDVLGQPIDGKGPLNAKERRRVQVKAPGILPRTSVCEPM 175
+
+Query: 101 HT-MKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLS 140
+            T +K I ++        +    G R +I+G  QTGKT+++
+Sbjct: 176 QTGLKAIDSM--------VPIGRGQRELIIGDRQTGKTAIA 208
+
+
+>EEB06805 pep:novel supercontig:GCA_000149845.2:supercont5.3:2500473:2501920:
+           1 gene:SJAG_01861 transcript:EEB06805
+           description:"hypothetical protein"
+          Length = 255
+
+ Score = 27.3 bits (59), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 24/51 (47%)
+
+Query: 1   MASLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSG 51
+           MAS P ++   T+ E+  G         P GS +QI+L +   L +   SG
+Sbjct: 57  MASYPNVNIEVTTVEVEAGSAVISTKDFPTGSGFQINLVSTSDLSIYAQSG 107
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,924,353
+Number of extensions: 82526
+Number of successful extensions: 213
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 209
+Number of HSP's successfully gapped: 9
+Length of query: 445
+Length of database: 2,277,407
+Length adjustment: 91
+Effective length of query: 354
+Effective length of database: 1,833,509
+Effective search space: 649062186
+Effective search space used: 649062186
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 51 (24.3 bits)

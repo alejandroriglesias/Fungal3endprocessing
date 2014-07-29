@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY53396 pep:novel supercontig:GCA_000004155.2:supercont4.1:7925...   233   6e-78
+EPY50148 pep:novel supercontig:GCA_000004155.2:supercont4.6:7202...    28   1.2  
+EPY54199 pep:novel supercontig:GCA_000004155.2:supercont4.1:2571...    27   1.4  
+EPY54028 pep:novel supercontig:GCA_000004155.2:supercont4.1:2160...    27   2.1  
+EPY51186 pep:novel supercontig:GCA_000004155.2:supercont4.4:3245...    27   2.3  
+EPY52033 pep:novel supercontig:GCA_000004155.2:supercont4.3:9894...    27   2.6  
+EPY49627 pep:novel supercontig:GCA_000004155.2:supercont4.8:4320...    25   7.8  
+
+>EPY53396 pep:novel supercontig:GCA_000004155.2:supercont4.1:792520:793514:-1
+           gene:SPOG_03921 transcript:EPY53396
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  233 bits (595), Expect = 6e-78,   Method: Compositional matrix adjust.
+ Identities = 108/201 (53%), Positives = 143/201 (71%), Gaps = 7/201 (3%)
+
+Query: 6   NSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYN 65
+           N+ L+   +CASN NRSME+H +L+ AGY V S+GTGSAVRLPG SIDKPN+Y FG PY+
+Sbjct: 4   NTQLEISVICASNQNRSMEAHNLLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYPFGYPYD 63
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCED 125
+            IY +L SQ +  Y +NGLL+MLDRNR +K+AP +WQ+   ++D V TCEERC+DA+CED
+Sbjct: 64  SIYKELESQDSRLYTANGLLKMLDRNRHIKRAPNRWQDQESIYDVVITCEERCYDAICED 123
+
+Query: 126 LMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMD 185
+           L  RG   ++ V++INVDIKD+ E A +G KAIL+L   LND      KD   FED   +
+Sbjct: 124 LYRRGESKSRPVYLINVDIKDNHEEASVGGKAILDLVQRLNDA-----KDS--FEDEFTN 176
+
+Query: 186 ILTEWQSSHSQLPSLYAPSYY 206
+           ++ EWQ+ H  LP+LY   ++
+Sbjct: 177 VMAEWQAKHPTLPALYTIHFF 197
+
+
+>EPY50148 pep:novel supercontig:GCA_000004155.2:supercont4.6:72021:75605:1
+           gene:SPOG_00909 transcript:EPY50148 description:"fungal
+           specific transcription factor domain-containing protein"
+          Length = 663
+
+ Score = 27.7 bits (60), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 11/23 (47%), Positives = 16/23 (69%)
+
+Query: 28  VLQEAGYNVSSYGTGSAVRLPGL 50
+           +L EAG N S+  TG++V +P L
+Sbjct: 111 ILSEAGINASALPTGASVTIPTL 133
+
+
+>EPY54199 pep:novel supercontig:GCA_000004155.2:supercont4.1:2571846:2577200:1
+            gene:SPOG_04092 transcript:EPY54199 description:"AMP
+            binding enzyme"
+          Length = 1465
+
+ Score = 27.3 bits (59), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 29/107 (27%), Positives = 47/107 (43%), Gaps = 17/107 (15%)
+
+Query: 64   YNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVC 123
+            Y  +   L+S S +RY+ N +LQ++ +N   K        S    +F+    E+     C
+Sbjct: 1091 YTGLPTVLVSVSCNRYRENSILQIMLKNHITK--------SVLPMNFLLNILEK--TQTC 1140
+
+Query: 124  EDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIE 170
+            E        LN ++  I V   +  + +K+   AI+E    LN KIE
+Sbjct: 1141 EH-----ESLNDMIKCIVVPCYEKPKTSKV--TAIIENMLRLNLKIE 1180
+
+
+>EPY54028 pep:novel supercontig:GCA_000004155.2:supercont4.1:2160279:2162793:
+           1 gene:SPOG_02749 transcript:EPY54028
+           description:"ATP-dependent RNA helicase Ste13"
+          Length = 486
+
+ Score = 26.9 bits (58), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  V+N D   + E
+Sbjct: 331 CRNLVCSDLLTRGIDIQAVNVVVNFDFPKNAE 362
+
+
+>EPY51186 pep:novel supercontig:GCA_000004155.2:supercont4.4:324518:327182:-1
+           gene:SPOG_02363 transcript:EPY51186 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           associated protein"
+          Length = 725
+
+ Score = 26.9 bits (58), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 24/85 (28%), Positives = 34/85 (40%), Gaps = 4/85 (4%)
+
+Query: 13  TVCASNNNRSMESHKVLQEAGY----NVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIY 68
+           T  +S N+++  + KV    G     N+S+  TG A   P  S       S  TP + I 
+Sbjct: 404 TNVSSTNSKNPSTKKVTSVPGTSFFKNLSNPKTGPATSAPKPSTVSAKQTSTSTPLSSIV 463
+
+Query: 69  NDLLSQSADRYKSNGLLQMLDRNRR 93
+             L  + A+  KS  L      N R
+Sbjct: 464 AGLKGKDAELQKSQSLRTESQSNSR 488
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 1,055,698
+Number of extensions: 45376
+Number of successful extensions: 127
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 126
+Number of HSP's successfully gapped: 12
+Length of query: 206
+Length of database: 2,338,516
+Length adjustment: 84
+Effective length of query: 122
+Effective length of database: 1,903,396
+Effective search space: 232214312
+Effective search space used: 232214312
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 48 (23.1 bits)

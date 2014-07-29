@@ -1,0 +1,222 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN91050 pep:novel supercontig:ASM14694v1:CH476621:1174210:11772...   605   0.0  
+EDN95272 pep:novel supercontig:ASM14694v1:CH476637:530336:533146...    73   1e-13
+EDO03318 pep:novel supercontig:ASM14694v1:CH476627:548491:552266...    35   0.059
+EDN91002 pep:novel supercontig:ASM14694v1:CH476621:1050581:10514...    32   0.25 
+EDO00129 pep:novel supercontig:ASM14694v1:CH476623:2298410:23005...    30   2.2  
+EDN91505 pep:novel supercontig:ASM14694v1:CH476621:2345953:23469...    29   2.7  
+EDO02396 pep:novel supercontig:ASM14694v1:CH476626:118163:118894...    28   3.8  
+EDN95106 pep:novel supercontig:ASM14694v1:CH476637:68136:69772:-...    28   8.0  
+
+>EDN91050 pep:novel supercontig:ASM14694v1:CH476621:1174210:1177273:-1
+           gene:SS1G_00452 transcript:EDN91050
+           description:"conserved hypothetical protein"
+          Length = 820
+
+ Score =  605 bits (1560), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 340/745 (45%), Positives = 462/745 (62%), Gaps = 93/745 (12%)
+
+Query: 11  FFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILLISHFH 70
+           F +LGG NEVGRSCHI+QYKGKTVMLDAG+H  Y GLA+LPFYD+FDLS VD+LLISHFH
+Sbjct: 26  FTNLGGGNEVGRSCHIIQYKGKTVMLDAGMHAGYDGLAALPFYDDFDLSTVDLLLISHFH 85
+
+Query: 71  LDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDEGLFSD 130
+           +DHAASLPYV+ +TNF+GRVFMTHPTKAIY+WL+ D VRV   G      G+    ++++
+Sbjct: 86  VDHAASLPYVLAKTNFKGRVFMTHPTKAIYKWLIIDSVRV---GGASSNGGS--HSVYTE 140
+
+Query: 131 EDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVD 190
+            D + +F +IE +DYH+T  ++ I+ T + AGHVLGAAMF IEIAGL++ FTGDYSRE D
+Sbjct: 141 ADHLTTFAQIEAIDYHTTHTISSIRVTPYPAGHVLGAAMFLIEIAGLKIFFTGDYSREDD 200
+
+Query: 191 RHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALG 249
+           RHL SAEVP  +  +VLI EST+G A+H PRL RE+ L + + S + RGGRVL+PVFALG
+Sbjct: 201 RHLVSAEVPKGVKIDVLITESTYGIASHIPRLEREQALMKSVTSILNRGGRVLMPVFALG 260
+
+Query: 250 RAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFRD-- 307
+           RAQE++LILDEYW +H +     ++PI+YASNLA+KCM V+QTYV  MN++I++ FR+  
+Sbjct: 261 RAQELLLILDEYWDKHPE---FQKIPIYYASNLARKCMLVYQTYVGSMNENIKRLFRERM 317
+
+Query: 308 ----------SQTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPE 357
+                      +  P+ FK I  L+NL+ F D G  V+LASPGMLQ+G+SR LLERW P 
+Sbjct: 318 AEAEANSTSGGRGGPWDFKYIRSLKNLDRFDDVGGCVILASPGMLQNGISRQLLERWAPS 377
+
+Query: 358 DKNLVLITGYSIEGTMAKFIMLEPDTIPSI-NNPE-------------ITIPRRCQVEEI 403
+           DKN V+ITGYS+EGTMAK IM EPD I +I + P+               IPRRC V+E 
+Sbjct: 378 DKNGVIITGYSVEGTMAKQIMQEPDHIQAIMSGPQGFTRRSVPGETEKAMIPRRCSVQEF 437
+
+Query: 404 SFAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTDNEVHVFNPR 463
+           SFAAHVD  EN EFIE+I+AP +ILVHGE + M RLKS LLS  A       +V VF+P+
+Sbjct: 438 SFAAHVDGVENREFIEEIAAPVVILVHGEQHNMMRLKSKLLSLNAD---KTTKVKVFSPK 494
+
+Query: 464 NCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDNLDSQAEKGL 523
+           NC  + + F   K AK VG                               N    A+   
+Sbjct: 495 NCEPLRIPFVTSKTAKVVGKLA----------------------------NNPPPADSSQ 526
+
+Query: 524 VDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVRVNCKKELIY 583
+                    +++G+LV +D  F++  ++  DLRE+    +TTI  +++        +LI 
+Sbjct: 527 ---------LITGVLVQND--FKMSLMAPEDLREYAGLTTTTITCKQRMTLSAAGIDLIR 575
+
+Query: 584 WHILQMFGEAEVLQDD---------DRVTNQEPKVKEESKDNLTNTGKLILQ-IMGDIKL 633
+           W +   FG+ + L +          +  T+      EE+ + + NT  +    +MG + +
+Sbjct: 576 WALEGTFGKIDELPESRGKQKHSIGNGDTHMNGSSDEEADEEIANTNAVTAYLVMGCVTV 635
+
+Query: 634 TIVNTLAV-VEWTQDLMNDTVADSIIAILMNVDSAPASVKLS-SHSCDDHDH----NNVQ 687
+              +   V +EW  +++ND +AD+I+A+L +V+S+PA+VK S S S   H H       +
+Sbjct: 636 RYRSNGEVELEWEGNMLNDGIADAIMAVLYSVESSPAAVKQSASKSPHSHSHFHPPTPSK 695
+
+Query: 688 SNAQGKIDEVERVKQISRLFKEQFG 712
+            N    +   ER++++    + QFG
+Sbjct: 696 RNLHAHLSPTERLERLFMFLEAQFG 720
+
+
+>EDN95272 pep:novel supercontig:ASM14694v1:CH476637:530336:533146:-1
+           gene:SS1G_11148 transcript:EDN95272
+           description:"hypothetical protein"
+          Length = 936
+
+ Score = 72.8 bits (177), Expect = 1e-13,   Method: Compositional matrix adjust.
+ Identities = 84/373 (22%), Positives = 154/373 (41%), Gaps = 71/373 (19%)
+
+Query: 55  EFDLSKVDILLISHFHLDHAASLPYVMQRTNFQGR--VFMTHPTKAIYRWLLRDFVRVTS 112
+           E  +  + ++L++H  + H A+  +  +      R  V+ THP  A+ R LL+D    T 
+Sbjct: 48  EKQIPTLSLILLTHATVPHIAAYAHCCKHFPLFTRIPVYATHPVIALGRTLLQDLYSSTP 107
+
+Query: 113 IGXXXXXMGTKDEGLF---SDEDLVDSFDKIETVDYHST-VDVNGIKFTAFHAGHVLGAA 168
+           +      + T    L    + E++   F  +  + Y      +NG+  TA++AGH LG  
+Sbjct: 108 LASTV--IPTTSSFLLQPPTKEEINYYFSLVRPLKYSQPHQPLNGVTITAYNAGHSLGGT 165
+
+Query: 169 MFQIEIAGLRVLFTGDYSR--------------------EVDRHLNSAEVPPLSSNVLIV 208
+           ++ I+     +++  D+++                    EV   L            LI 
+Sbjct: 166 IWHIQHGLESIVYAVDWNQARENVLAGAAWLGGAGAGGAEVIEQLRKP-------TALIC 218
+
+Query: 209 ESTFGTATHEP--RLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQEIMLILDEYW--SQ 264
+            S  G     P  R  R+  L  +I S++ RGG VL+P  +  R  E+  +L+  W    
+Sbjct: 219 SSKGGERVALPGGRAKRDELLLDMIKSSIKRGGIVLIPTDSGARMMELAYLLEHAWRTGN 278
+
+Query: 265 HADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKKFR------------------ 306
+             +E        + A + ++  M   ++    M++ I ++F                   
+Sbjct: 279 QEEESAFRSAKPYLAVSTSEMTMRYTRSMFEWMDEAIIREFEAQPGHEEQQTGQQRRHAY 338
+
+Query: 307 --DSQTN--PFIFKNISYL-------RNLEDFQDFGPS---VMLASPGMLQSGLSRDLLE 352
+             +S+ N  PF FK++  L       R L +  + G S   V+LAS   ++ G S+++L 
+Sbjct: 339 SDESKQNAGPFEFKHLRLLGRKGQIDRMLNETDNLGRSVGKVILASDTSIEWGFSKEVLR 398
+
+Query: 353 RWCPEDKNLVLIT 365
+           +   +DKNL+++T
+Sbjct: 399 KIADDDKNLLILT 411
+
+
+>EDO03318 pep:novel supercontig:ASM14694v1:CH476627:548491:552266:1
+           gene:SS1G_05799 transcript:EDO03318
+           description:"hypothetical protein"
+          Length = 1133
+
+ Score = 35.0 bits (79), Expect = 0.059,   Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 29/65 (44%), Gaps = 6/65 (9%)
+
+Query: 152 NGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAEVPPLSSNVLIVEST 211
+           N ++ T F A H  GA MF  E     VL+TGD   E         V  L+ N  ++E T
+Sbjct: 112 NEVRVTLFDANHCTGAVMFLFERENTAVLYTGDIRSE------PWFVNNLTRNPFLIEYT 165
+
+Query: 212 FGTAT 216
+            G  T
+Sbjct: 166 SGMKT 170
+
+
+>EDN91002 pep:novel supercontig:ASM14694v1:CH476621:1050581:1051408:-1
+           gene:SS1G_00402 transcript:EDN91002
+           description:"hypothetical protein"
+          Length = 231
+
+ Score = 32.3 bits (72), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 21/67 (31%), Positives = 32/67 (47%), Gaps = 2/67 (2%)
+
+Query: 333 SVMLASPGMLQSGLSRDLLERWCPEDKNLVLITG--YSIEGTMAKFIMLEPDTIPSINNP 390
+           +V+L  P  L+ G+  D+ + WC   K+ + +TG  Y  E    +    EP     I + 
+Sbjct: 142 TVILPCPDGLRMGMVWDIAQEWCLRRKHWLQMTGPEYEKEYRNPEVGYAEPMIPKMILHW 201
+
+Query: 391 EITIPRR 397
+            IT PRR
+Sbjct: 202 HITCPRR 208
+
+
+>EDO00129 pep:novel supercontig:ASM14694v1:CH476623:2298410:2300507:-1
+           gene:SS1G_02989 transcript:EDO00129
+           description:"hypothetical protein"
+          Length = 650
+
+ Score = 30.0 bits (66), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 26/98 (26%), Positives = 44/98 (44%), Gaps = 14/98 (14%)
+
+Query: 327 FQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKN-LVLITGYSIEGTMAKF-------IM 378
+           F+D  P     S  M+ +G   DLL R   ED N L+ +  +S +G+   F       + 
+Sbjct: 189 FEDITPP---PSSIMMVAGAKADLLRR---EDYNSLIHVRDFSAQGSFQPFPGGWGSPVT 242
+
+Query: 379 LEPDTIPSINNPEITIPRRCQVEEISFAAHVDFQENLE 416
+            +    PS++N    +PRR +   +S       ++NL+
+Sbjct: 243 TDKKEFPSVSNLNHALPRRDRTSSLSSVGSNGSRQNLK 280
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 5,277,013
+Number of extensions: 214023
+Number of successful extensions: 530
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 520
+Number of HSP's successfully gapped: 14
+Length of query: 779
+Length of database: 3,721,581
+Length adjustment: 99
+Effective length of query: 680
+Effective length of database: 2,714,256
+Effective search space: 1845694080
+Effective search space used: 1845694080
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,130 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_07068T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   410   e-145
+MAPG_10933T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   0.80 
+MAPG_09337T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.0  
+
+>MAPG_07068T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:480731:48
+           2687:1 gene:MAPG_07068 transcript:MAPG_07068T0
+           description:"RNA polymerase II subunit A domain
+           phosphatase SSU72"
+          Length = 254
+
+ Score =  410 bits (1054), Expect = e-145,   Method: Compositional matrix adjust.
+ Identities = 196/249 (78%), Positives = 210/249 (84%)
+
+Query: 11  GLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGP 70
+           G   T  A E+ R+DGFKLKFCTVCASNQNRSMEAHL+LS+AN+PVISFGTGSLVRLPGP
+Sbjct: 6   GGPATGQAPEQEREDGFKLKFCTVCASNQNRSMEAHLRLSQANFPVISFGTGSLVRLPGP 65
+
+Query: 71  TITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIP 130
+           TITQPNVYKFN T+YD MYKELEGKD RLY ANGILNML RNRNVKR PERWQDWQIGIP
+Sbjct: 66  TITQPNVYKFNDTTYDNMYKELEGKDPRLYRANGILNMLGRNRNVKRNPERWQDWQIGIP 125
+
+Query: 131 RLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEE 190
+           RL+HASDRGS GTE GVVD+VFTCEERCWDAV++DLHARGSPLNR VHVINVDIKDNHEE
+Sbjct: 126 RLDHASDRGSAGTEGGVVDVVFTCEERCWDAVIDDLHARGSPLNRAVHVINVDIKDNHEE 185
+
+Query: 191 AAVGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNL 250
+           AA+GG GILDLA SLN+ A EERDK+                  RV +VLAEWQERWPNL
+Sbjct: 186 AAIGGSGILDLAESLNKVAMEERDKVGAAVFDGAGGAGRSGFDERVPEVLAEWQERWPNL 245
+
+Query: 251 PATWTLAWF 259
+           PATWTLAWF
+Sbjct: 246 PATWTLAWF 254
+
+
+>MAPG_10933T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.13:749560:7
+           53426:-1 gene:MAPG_10933 transcript:MAPG_10933T0
+           description:"vacuolar morphogenesis protein AvaB"
+          Length = 963
+
+ Score = 29.6 bits (65), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 21/64 (32%), Positives = 27/64 (42%), Gaps = 10/64 (15%)
+
+Query: 56  VISFGTGSLVRLPGPTITQPN---------VYKFNSTSYDAMYKELEGKDRRLYTANGIL 106
+            I+    + +  P P  + P          V+K N+T YD   KEL     R   A  IL
+Sbjct: 338 TITLSGATQMHFPAPAPSLPKGFHVSSDRCVWKMNATDYDEQVKELLAA-ARYDEAISIL 396
+
+Query: 107 NMLE 110
+           NMLE
+Sbjct: 397 NMLE 400
+
+
+>MAPG_09337T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.9:1459100:1
+           463206:1 gene:MAPG_09337 transcript:MAPG_09337T0
+           description:"hypothetical protein"
+          Length = 1368
+
+ Score = 27.3 bits (59), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 32/63 (50%), Gaps = 5/63 (7%)
+
+Query: 124 DWQIGIPRL---EHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLN-RPVHV 179
+           DW   + R    E      +EG E+ +   + TCE + +D+ VED+   G P +  P+++
+Sbjct: 886 DWATDLQRFTGDEWTDPTDAEGDESQLPGALSTCETKTFDS-VEDVEKAGVPFHCAPIYM 944
+
+Query: 180 INV 182
+            +V
+Sbjct: 945 ADV 947
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 2,699,623
+Number of extensions: 110272
+Number of successful extensions: 220
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 219
+Number of HSP's successfully gapped: 6
+Length of query: 259
+Length of database: 4,928,244
+Length adjustment: 91
+Effective length of query: 168
+Effective length of database: 3,893,574
+Effective search space: 654120432
+Effective search space used: 654120432
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

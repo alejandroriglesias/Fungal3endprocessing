@@ -1,0 +1,129 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX72424 pep:novel supercontig:GCA_000150505.2:supercont6.2:1694...    28   2.7  
+EPX70811 pep:novel supercontig:GCA_000150505.2:supercont6.3:9147...    28   3.3  
+EPX71728 pep:novel supercontig:GCA_000150505.2:supercont6.2:5798...    27   5.1  
+EPX70710 pep:novel supercontig:GCA_000150505.2:supercont6.3:6859...    27   7.2  
+
+>EPX72424 pep:novel supercontig:GCA_000150505.2:supercont6.2:1694698:1700035:
+           -1 gene:SOCG_00187 transcript:EPX72424
+           description:"DNA-directed RNA polymerase I complex large
+           subunit Nuc1"
+          Length = 1685
+
+ Score = 28.5 bits (62), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 26/41 (63%), Gaps = 1/41 (2%)
+
+Query: 148 SKMDGLVDAVINLCVLDTSVAENVRSYMKLLDTLGFQKGSN 188
+            KM+GL  +VIN C+ D  + +  +++M+ + T+   KGSN
+Sbjct: 911 GKMNGLTSSVINKCIPDGLLTKFPQNHMQAM-TVSGAKGSN 950
+
+
+>EPX70811 pep:novel supercontig:GCA_000150505.2:supercont6.3:914723:917754:1
+           gene:SOCG_04146 transcript:EPX70811 description:"MS ion
+           channel protein 2"
+          Length = 805
+
+ Score = 28.1 bits (61), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 37/79 (46%), Gaps = 7/79 (8%)
+
+Query: 112 DVSLDFFVNQLPKFSPEERKNYIDNLILNKNSHNRLSKMD-------GLVDAVINLCVLD 164
+           D S    +++L +FS E    +    I  ++    LSK+D       G++  +I +  LD
+Sbjct: 408 DYSRSITLDELEQFSREVADEFFSIRISLRDVDVALSKLDRVGLAAVGIIGILIFISFLD 467
+
+Query: 165 TSVAENVRSYMKLLDTLGF 183
+           TS A  + +Y   L +L F
+Sbjct: 468 TSFATILAAYGTTLLSLSF 486
+
+
+>EPX71728 pep:novel supercontig:GCA_000150505.2:supercont6.2:57980:61680:1
+           gene:SOCG_03664 transcript:EPX71728
+           description:"ubiquitin carboxy terminal hydrolase Ubp12"
+          Length = 974
+
+ Score = 27.3 bits (59), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 11/17 (64%), Positives = 13/17 (76%)
+
+Query: 451 PIHCETRTPLIYRKNFN 467
+           PIH ET+TPL Y K F+
+Sbjct: 674 PIHNETKTPLFYTKVFH 690
+
+
+>EPX70710 pep:novel supercontig:GCA_000150505.2:supercont6.3:685920:687185:-1
+           gene:SOCG_04246 transcript:EPX70710
+           description:"aminotransferase class I and II"
+          Length = 421
+
+ Score = 26.9 bits (58), Expect = 7.2,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 22/41 (53%), Gaps = 2/41 (4%)
+
+Query: 106 TPPIANDVSLDFFVNQLPKFSPEERKNYIDNLILNKNSHNR 146
+            PP++  +S  FF    PKF  +  K  ID++  N+ SH R
+Sbjct: 32  VPPVS--LSQGFFNYSPPKFVLDAAKKCIDDVSCNQYSHTR 70
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 2,131,901
+Number of extensions: 91230
+Number of successful extensions: 189
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 189
+Number of HSP's successfully gapped: 10
+Length of query: 533
+Length of database: 2,302,372
+Length adjustment: 93
+Effective length of query: 440
+Effective length of database: 1,838,674
+Effective search space: 809016560
+Effective search space used: 809016560
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 52 (24.6 bits)

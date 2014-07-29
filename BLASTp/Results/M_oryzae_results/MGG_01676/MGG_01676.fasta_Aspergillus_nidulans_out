@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00004066 pep:known chromosome:ASM1142v1:II:589423:590618...   373   e-130
+CADANIAP00005892 pep:known chromosome:ASM1142v1:III:1692297:1694...    32   0.20 
+CADANIAP00004185 pep:known chromosome:ASM1142v1:II:907059:914349...    29   1.8  
+CADANIAP00009438 pep:known chromosome:ASM1142v1:VI:236245:237223...    27   3.9  
+CADANIAP00001398 pep:known chromosome:ASM1142v1:VIII:1082703:108...    27   5.0  
+
+>CADANIAP00004066 pep:known chromosome:ASM1142v1:II:589423:590618:1
+           gene:CADANIAG00004066 transcript:CADANIAT00004066
+           description:"cleavage and polyadenylation specific
+           factor 5 (AFU_orthologue\x3b AFUA_5G02030)"
+          Length = 275
+
+ Score =  373 bits (957), Expect = e-130,   Method: Compositional matrix adjust.
+ Identities = 188/266 (70%), Positives = 208/266 (78%), Gaps = 8/266 (3%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MST T TA+QS  PPI P  F+A QPETIRLYPLSNYTFG KETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTTTITAIQSSFPPIAPKDFSAKQPETIRLYPLSNYTFGTKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY  HGMRRTCEGILVCHEHNHPH+LMLQIANAFFKLPGDYL  +DDE+EGFK RL+ER
+Sbjct: 61  EHYEKHGMRRTCEGILVCHEHNHPHVLMLQIANAFFKLPGDYLLHDDDEIEGFKRRLNER 120
+
+Query: 121 LAPVGRLGEGEEAG-DWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNS 179
+           LAPVG    GE    DW+IGD LAQWWRPNFETF+   +         C ++       +
+Sbjct: 121 LAPVGSQFSGEGVNEDWEIGDTLAQWWRPNFETFIKDQMSLVGHDMLMCLRVA------A 174
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGP 239
+           +VLSVPKNMKLLAVPLFELYDN+ RYGPQLS+IPHLLS+YNFEFVDE  NVVA TPG G 
+Sbjct: 175 EVLSVPKNMKLLAVPLFELYDNNQRYGPQLSSIPHLLSRYNFEFVDENDNVVAATPGMG- 233
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQENGA 265
+             GD VPKTKVLAG ++   K+E+  
+Sbjct: 234 SPGDQVPKTKVLAGDNNGKAKEEDSG 259
+
+
+>CADANIAP00005892 pep:known chromosome:ASM1142v1:III:1692297:1694180:1
+           gene:CADANIAG00005892 transcript:CADANIAT00005892
+           description:"KH domain RNA-binding protein
+           (AFU_orthologue\x3b AFUA_2G02780)"
+          Length = 542
+
+ Score = 31.6 bits (70), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 17/45 (37%), Positives = 22/45 (48%), Gaps = 1/45 (2%)
+
+Query: 119 ERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMY-PFVPAHV 162
+           ER+  V    EG E   W+IG CL   W+    T +Y P V + V
+Sbjct: 358 ERIVEVQGTPEGIEKAIWEIGKCLIDDWQRGTGTILYNPAVRSSV 402
+
+
+>CADANIAP00004185 pep:known chromosome:ASM1142v1:II:907059:914349:-1
+            gene:CADANIAG00004185 transcript:CADANIAT00004185
+            description:"ABC multidrug transporter (Eurofung)"
+          Length = 1773
+
+ Score = 28.9 bits (63), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 36/84 (42%), Gaps = 9/84 (10%)
+
+Query: 12   GQPPIIPLSFNANQPETIRLYPLSNYTFG--------VKETQPEEDPSVLARLKRLEEHY 63
+            G   +  ++FN++    +R +     + G        VK  +PEED    ARL  L   +
+Sbjct: 1480 GVALVTVMTFNSSLMNLVRFWTEMETSIGAVKRVKNYVKTAEPEEDDVSQARLAELPYSW 1539
+
+Query: 64   NAHGMRRTCEGILVCHEHNHPHIL 87
+               G  R  EG++  H  + P IL
+Sbjct: 1540 PEKGDIR-FEGVMAGHLPSSPPIL 1562
+
+
+>CADANIAP00009438 pep:known chromosome:ASM1142v1:VI:236245:237223:-1
+           gene:CADANIAG00009438 transcript:CADANIAT00009438
+           description:"conserved hypothetical protein"
+          Length = 177
+
+ Score = 26.9 bits (58), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 14/30 (46%), Positives = 17/30 (56%)
+
+Query: 90  QIANAFFKLPGDYLRPEDDEVEGFKARLDE 119
+           +I NAF     D LR E DE+E  K+  DE
+Sbjct: 146 RIENAFRSFRADTLRKEADELEKGKSVTDE 175
+
+
+>CADANIAP00001398 pep:known chromosome:ASM1142v1:VIII:1082703:1084554:1
+           gene:CADANIAG00001398 transcript:CADANIAT00001398
+           description:"SIR2 family histone deacetylase (Hst4),
+           putative (AFU_orthologue\x3b AFUA_1G10540)"
+          Length = 595
+
+ Score = 27.3 bits (59), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 27/112 (24%), Positives = 48/112 (42%), Gaps = 17/112 (15%)
+
+Query: 9   LQSGQPPI---IPLSFNANQPETIRLYP------------LSNYTFGV--KETQPEEDPS 51
+           +++  PP+   IPL+  A  P TI+L+             +S +   +  +   PE    
+Sbjct: 227 IETSMPPLATQIPLNVKAPWPRTIQLHGSLEKMVCQKCRHMSTFDRVMFDRPDAPECPEC 286
+
+Query: 52  VLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYL 103
+           VL    R+E    +HG+ +    I++ +EHN     +  + NA  +   D L
+Sbjct: 287 VLTNQFRMETGQRSHGIGKMRPRIVLYNEHNPDEEAITSVMNADIRSRPDAL 338
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 3,186,811
+Number of extensions: 150166
+Number of successful extensions: 350
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 347
+Number of HSP's successfully gapped: 9
+Length of query: 266
+Length of database: 5,078,913
+Length adjustment: 92
+Effective length of query: 174
+Effective length of database: 4,109,785
+Effective search space: 715102590
+Effective search space used: 715102590
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

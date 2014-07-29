@@ -1,0 +1,200 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YPR107C pep:known chromosome:SacCer_Apr2011:XVI:741438:742064:-1...   428   e-154
+YDR151C pep:known chromosome:SacCer_Apr2011:IV:764178:765155:-1 ...    30   0.25 
+YPL054W pep:known chromosome:SacCer_Apr2011:XVI:455759:456664:1 ...    30   0.32 
+YGL122C pep:known chromosome:SacCer_Apr2011:VII:278946:280523:-1...    29   0.43 
+YLR136C pep:known chromosome:SacCer_Apr2011:XII:415801:416658:-1...    28   0.92 
+YDL209C pep:known chromosome:SacCer_Apr2011:IV:86207:87226:-1 ge...    27   2.5  
+YOR264W pep:known chromosome:SacCer_Apr2011:XV:818866:820158:1 g...    27   3.2  
+YGR170W pep:known chromosome:SacCer_Apr2011:VII:837142:840558:1 ...    26   7.2  
+
+>YPR107C pep:known chromosome:SacCer_Apr2011:XVI:741438:742064:-1
+           gene:YPR107C transcript:YPR107C description:"Essential
+           RNA-binding component of cleavage and polyadenylation
+           factor, contains five zinc fingers\x3b required for
+           pre-mRNA 3'-end processing and polyadenylation"
+          Length = 208
+
+ Score =  428 bits (1101), Expect = e-154,   Method: Compositional matrix adjust.
+ Identities = 208/208 (100%), Positives = 208/208 (100%)
+
+Query: 1   MSLIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPI 60
+           MSLIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPI
+Sbjct: 1   MSLIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPI 60
+
+Query: 61  FQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASK 120
+           FQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASK
+Sbjct: 61  FQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASK 120
+
+Query: 121 IPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKLR 180
+           IPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKLR
+Sbjct: 121 IPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKLR 180
+
+Query: 181 IKRDDEINTRKMDEEKERRLNAIINGEV 208
+           IKRDDEINTRKMDEEKERRLNAIINGEV
+Sbjct: 181 IKRDDEINTRKMDEEKERRLNAIINGEV 208
+
+
+>YDR151C pep:known chromosome:SacCer_Apr2011:IV:764178:765155:-1
+           gene:YDR151C transcript:YDR151C description:"Member of
+           the CCCH zinc finger family\x3b has similarity to
+           mammalian Tis11 protein, which activates transcription
+           and also has a role in mRNA degradation\x3b may function
+           with Tis11p in iron homeostasis"
+          Length = 325
+
+ Score = 30.0 bits (66), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 37/81 (45%), Gaps = 10/81 (12%)
+
+Query: 46  CPRGPL-CPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPE---------C 95
+           C R PL  P+     +++ ++     ++G CK  ++C++ H  N  K  +         C
+Sbjct: 189 CRRAPLQLPQLVNKTLYKTELCESFTIKGYCKYGNKCQFAHGLNELKFKKKSNNYRTKPC 248
+
+Query: 96  VFFSKNGYCTQSPDCQYLHID 116
+           + +SK GYC     C + H D
+Sbjct: 249 INWSKLGYCPYGKRCCFKHGD 269
+
+
+
+ Score = 29.6 bits (65), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 26/110 (23%), Positives = 37/110 (33%), Gaps = 10/110 (9%)
+
+Query: 80  QCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLH-IDPASKIPKCENY---------EM 129
+           Q   L    L K   C  F+  GYC     CQ+ H ++      K  NY         ++
+Sbjct: 195 QLPQLVNKTLYKTELCESFTIKGYCKYGNKCQFAHGLNELKFKKKSNNYRTKPCINWSKL 254
+
+Query: 130 GFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKL 179
+           G+CP G  C  +H      + Y        KD      P  + P     +
+Sbjct: 255 GYCPYGKRCCFKHGDDKDVEIYQNANDGRSKDTALTPLPTSLAPSNNDNI 304
+
+
+>YPL054W pep:known chromosome:SacCer_Apr2011:XVI:455759:456664:1
+           gene:YPL054W transcript:YPL054W description:"Zinc-finger
+           protein of unknown function"
+          Length = 301
+
+ Score = 29.6 bits (65), Expect = 0.32,   Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 37/76 (48%), Gaps = 13/76 (17%)
+
+Query: 119 SKIPKCENYEMGFCPLGSSCPRRHIKKVF-------CQRYMTGFCPLGKDECDMEHPQFI 171
+           S +P C+ ++MG C  GSSCP  H   +        C+ +  G C  G ++C   H   +
+Sbjct: 89  SHVP-CKFFKMGNCQAGSSCPFSHSPDIISSANNLPCKYFAKGNCKFG-NKCVNAH---V 143
+
+Query: 172 IPDEGSKLRIKRDDEI 187
+           +P+ G K+  K   +I
+Sbjct: 144 LPN-GFKMNSKEPIDI 158
+
+
+
+ Score = 26.6 bits (57), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 13/43 (30%), Positives = 21/43 (48%), Gaps = 2/43 (4%)
+
+Query: 45  SCPRGPLCPKKHVLPIFQ--NKIVCRHWLRGLCKKNDQCEYLH 85
+           +C  G  CP  H   I    N + C+++ +G CK  ++C   H
+Sbjct: 100 NCQAGSSCPFSHSPDIISSANNLPCKYFAKGNCKFGNKCVNAH 142
+
+
+>YGL122C pep:known chromosome:SacCer_Apr2011:VII:278946:280523:-1
+           gene:YGL122C transcript:YGL122C description:"Nuclear
+           polyadenylated RNA-binding protein required for nuclear
+           mRNA export and poly(A) tail length control\x3b binds
+           nuclear pore protein Mlp1p\x3b autoregulates mRNA
+           levels\x3b related to human hnRNPs\x3b nuclear
+           localization sequence binds Kap104p"
+          Length = 525
+
+ Score = 29.3 bits (64), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 30/69 (43%), Gaps = 7/69 (10%)
+
+Query: 132 CPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKLRIKRD-DEINTR 190
+           CPLG SCP  H  KV C  Y    CP     C+  HP     DE     ++R  +E   R
+Sbjct: 268 CPLGRSCPHAHPTKV-CNEYPN--CPKPPGTCEFLHPN---EDEELMKEMERTREEFQKR 321
+
+Query: 191 KMDEEKERR 199
+           K D    +R
+Sbjct: 322 KADLLAAKR 330
+
+
+>YLR136C pep:known chromosome:SacCer_Apr2011:XII:415801:416658:-1
+           gene:YLR136C transcript:YLR136C
+           description:"mRNA-binding protein expressed during iron
+           starvation\x3b binds to a sequence element in the
+           3'-untranslated regions of specific mRNAs to mediate
+           their degradation\x3b involved in iron homeostasis"
+          Length = 285
+
+ Score = 28.1 bits (61), Expect = 0.92,   Method: Compositional matrix adjust.
+ Identities = 20/64 (31%), Positives = 27/64 (42%), Gaps = 10/64 (15%)
+
+Query: 89  LRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPK---------CENYE-MGFCPLGSSC 138
+           L K   C  F+  G C     CQ+ H     K+ K         C N+E +G+CP G  C
+Sbjct: 169 LYKTELCESFTLKGSCPYGSKCQFAHGLGELKVKKSCKNFRTKPCVNWEKLGYCPYGRRC 228
+
+Query: 139 PRRH 142
+             +H
+Sbjct: 229 CFKH 232
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 1,443,190
+Number of extensions: 66178
+Number of successful extensions: 182
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 171
+Number of HSP's successfully gapped: 16
+Length of query: 208
+Length of database: 3,010,216
+Length adjustment: 86
+Effective length of query: 122
+Effective length of database: 2,434,704
+Effective search space: 297033888
+Effective search space used: 297033888
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 49 (23.5 bits)

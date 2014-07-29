@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU78132 pep:novel supercontig:EF1:HF943535:653009:654480:1 gene...   368   e-128
+
+>CCU78132 pep:novel supercontig:EF1:HF943535:653009:654480:1
+           gene:BGHDH14_bgh04197 transcript:CCU78132
+           description:"RNA polymerase II subunit A C-terminal
+           domain phosphatase SSU72"
+          Length = 274
+
+ Score =  368 bits (944), Expect = e-128,   Method: Compositional matrix adjust.
+ Identities = 187/277 (67%), Positives = 205/277 (74%), Gaps = 21/277 (7%)
+
+Query: 1   MEQPQTDAVGGLSQTNAAVEKPRDDGFKLKFCTVCASNQNR------------------S 42
+           M Q Q  A  G S T+   EK   D FKLKFCTVCASNQNR                  S
+Sbjct: 1   MAQAQLPATNGNSLTHR--EKRDPDSFKLKFCTVCASNQNRCEYTSVTIIQKLTLLKNRS 58
+
+Query: 43  MEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTA 102
+           ME+HL+L+ ANYPVISFGTGSLVRLPGP+ITQPNVY+FN TSYD+MYKELE KD RLY A
+Sbjct: 59  MESHLRLASANYPVISFGTGSLVRLPGPSITQPNVYQFNKTSYDSMYKELEAKDPRLYRA 118
+
+Query: 103 NGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAV 162
+           NG+LNML+RNRNVK GPERWQDWQ+G+PRLEH+ DRGSEG E GVVDIV TCEERCWDAV
+Sbjct: 119 NGLLNMLDRNRNVKWGPERWQDWQVGVPRLEHSKDRGSEGIEGGVVDIVITCEERCWDAV 178
+
+Query: 163 VEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRAAAEERDKIXXXXXX 222
+           V+DL ARGSPLNRPVHVINVDIKDNHEEA VGG+GILDLA+SLN AA +ER  I      
+Sbjct: 179 VDDLLARGSPLNRPVHVINVDIKDNHEEALVGGRGILDLADSLNEAAIKER-AINPTGFD 237
+
+Query: 223 XXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+                        V  ++ EWQERWPNLPA WTLAWF
+Sbjct: 238 SGNPSSRSGFDELVPTIIGEWQERWPNLPAIWTLAWF 274
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,601,438
+Number of extensions: 64540
+Number of successful extensions: 127
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 125
+Number of HSP's successfully gapped: 2
+Length of query: 259
+Length of database: 3,131,961
+Length adjustment: 88
+Effective length of query: 171
+Effective length of database: 2,562,601
+Effective search space: 438204771
+Effective search space used: 438204771
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

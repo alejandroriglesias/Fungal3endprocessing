@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_04164P0 pep:known chromosome:ASM24013v2:2:4904217:4905375:1...    68   6e-13
+FGSG_02399P0 pep:known chromosome:ASM24013v2:1:7734326:7735552:1...    28   3.8  
+FGSG_04211P0 pep:known chromosome:ASM24013v2:2:4756022:4757185:1...    27   8.3  
+
+>FGSG_04164P0 pep:known chromosome:ASM24013v2:2:4904217:4905375:1 gene:FGSG_04164
+           transcript:FGSG_04164T0 description:"Pre-mRNA
+           polyadenylation factor FIP1"
+          Length = 325
+
+ Score = 67.8 bits (164), Expect = 6e-13,   Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 50/84 (59%), Gaps = 2/84 (2%)
+
+Query: 143 TATTVKATESDGNVPKAMTGSIDLDKEGIFDSVG--ITTIDPEVLKEKPWRQPGANLSDY 200
+           T+  V A  +D     A   +ID++   I    G  IT ++ +   +KPWR+PG ++SDY
+Sbjct: 106 TSVNVAAPSADKTSAAASKSTIDVNVNPIHPGTGKPITQVNIDEENDKPWRKPGTDISDY 165
+
+Query: 201 FNYGFNEFTWMEYLHRQEKLQQDY 224
+           FNYGF+EFTW  Y  +QE ++ ++
+Sbjct: 166 FNYGFDEFTWALYASKQETVRGEF 189
+
+
+>FGSG_02399P0 pep:known chromosome:ASM24013v2:1:7734326:7735552:1 gene:FGSG_02399
+           transcript:FGSG_02399T0 description:"Protein kinase
+           Eg2-like protein"
+          Length = 371
+
+ Score = 28.1 bits (61), Expect = 3.8,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 16/23 (69%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           ++YLHR+  + +D  P  IL+G+
+Sbjct: 216 LQYLHRKNIIHRDIKPENILVGM 238
+
+
+>FGSG_04211P0 pep:known chromosome:ASM24013v2:2:4756022:4757185:1 gene:FGSG_04211
+           transcript:FGSG_04211T0 description:"conserved
+           hypothetical protein"
+          Length = 369
+
+ Score = 26.9 bits (58), Expect = 8.3,   Method: Compositional matrix adjust.
+ Identities = 15/29 (51%), Positives = 17/29 (58%)
+
+Query: 135 EGEANQGVTATTVKATESDGNVPKAMTGS 163
+           E E ++G   T  KA  S G VPKAMT S
+Sbjct: 120 ETEGSEGEFKTKFKANASVGMVPKAMTKS 148
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 2,854,114
+Number of extensions: 118293
+Number of successful extensions: 446
+Number of sequences better than 10.0: 24
+Number of HSP's gapped: 443
+Number of HSP's successfully gapped: 26
+Length of query: 327
+Length of database: 5,933,672
+Length adjustment: 95
+Effective length of query: 232
+Effective length of database: 4,668,462
+Effective search space: 1083083184
+Effective search space used: 1083083184
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

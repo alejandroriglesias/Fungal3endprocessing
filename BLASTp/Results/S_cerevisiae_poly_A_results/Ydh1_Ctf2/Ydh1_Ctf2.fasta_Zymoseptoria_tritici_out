@@ -1,0 +1,174 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P109995 pep:known chromosome:MG2:6:2340075:2344314:1 gene:...   120   6e-28
+Mycgr3P108197 pep:known chromosome:MG2:2:2587150:2588609:-1 gene...    37   0.018
+Mycgr3P104274 pep:known chromosome:MG2:4:2234960:2236663:-1 gene...    29   4.3  
+Mycgr3P98251 pep:known chromosome:MG2:1:1313483:1315374:1 gene:M...    29   6.7  
+
+>Mycgr3P109995 pep:known chromosome:MG2:6:2340075:2344314:1 gene:Mycgr3G109995
+           transcript:Mycgr3T109995 description:"Putative
+           uncharacterized protein"
+          Length = 1108
+
+ Score =  120 bits (300), Expect = 6e-28,   Method: Compositional matrix adjust.
+ Identities = 97/329 (29%), Positives = 152/329 (46%), Gaps = 43/329 (13%)
+
+Query: 18  SVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYN 76
+           S++  D  V LL+D GW+  +    + ++  EK +  + VI+L+  T+E +GA    Y +
+Sbjct: 19  SLLELDGGVKLLVDVGWD--ETFDAEKLQTLEKHVSTLSVILLTHATVEHIGA----YAH 72
+
+Query: 77  FTSHF--ISRIQVYATLPVINLGRVSTIDSYASA----------------GVIGPYDTNK 118
+              H    ++I VYAT PVINLGR    D YAS+                  + P  T  
+Sbjct: 73  CCKHIPAFNKIPVYATTPVINLGRTLIADIYASSPLAASVIPTSSISSSPVALAPESTPN 132
+
+Query: 119 L-----DLEDIEISFDHIVPLKYSQLVD-----LRSRYDGLTLLAYNAGVCPGGSIWCIS 168
+           L       ++I   F+ I PLKYSQ               LT+ AY+AG   GG+IW I 
+Sbjct: 133 LLFQPPTADEIASYFNLIHPLKYSQPHQPIPSPWSPSLGNLTITAYSAGHTIGGTIWHIQ 192
+
+Query: 169 TYSEKLVYAKRWNHTRDNILNAASILDAT---GKPLSTLMRPSAIITTLDRF--GSSQPF 223
+              E +VYA  WN  R+N+L+ A+ L +T    + +  L RP+A+I +        + P 
+Sbjct: 193 HSMESIVYAADWNQGRENLLSGAAWLGSTSGGAEIIEALRRPTALICSSKGVEKTDTMPR 252
+
+Query: 224 KKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDL---FTQVHELLFESTKINAHTQVPVL 280
+           KKR +     ++  ++  G V+IP D S + L+L     Q  +        + +    + 
+Sbjct: 253 KKRDETLVGLIRDTIAQGGKVLIPTDSSARVLELAFVLNQNWKENINGPHADTYRHAKIY 312
+
+Query: 281 ILSYARGRTLTYAKSMLEWLSPSLLKTWE 309
+           + S     T+   + MLEWL  S+++  E
+Sbjct: 313 MASKTSSSTVRQLQGMLEWLDESIIRDAE 341
+
+
+
+ Score = 51.6 bits (122), Expect = 8e-07,   Method: Compositional matrix adjust.
+ Identities = 69/352 (19%), Positives = 122/352 (34%), Gaps = 62/352 (17%)
+
+Query: 532 SKHKMFPFNPAKIKKDDYGTVVDFTMFLP----DDSDNVNQN----------SRKRPLKD 577
+            + KMFPF   + K D+YG ++    +L     DD D V+             +KR   D
+Sbjct: 568 GREKMFPFVAHRAKADEYGDIIRPEDYLRAEERDDVDGVDMRETVKQEAPAVGQKRKWDD 627
+
+Query: 578 GAKTTSPVXXXXXXXXXXXGYNMSDPISKRSKH---------RASRYSGFSGTGEAENFD 628
+            A    P                     K  +          +A+     +  G+ E+  
+Sbjct: 628 AATLNGPGGKGRRSLKQEPNKRTKAEEPKEPRQPDDIDALIAKATGEGEGAANGDEESDG 687
+
+Query: 629 NLDYLKIDKTL---SKRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSA 685
+             DY   D       K   +T  V L   +  ++   L ++R   ++ P ++ RK++L +
+Sbjct: 688 ESDYEPEDAAADGPQKIVFTTQTVALHLRIAHVDFSGLHEKRDLQMLIPLIRPRKLILIS 747
+
+Query: 686 PKQIQNEEITAKLIK------KNIEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQR 739
+               + + +     +       + +V    + ++V+ S       + +   L   L WQ 
+Sbjct: 748 GSMSETQTLAEDCRQLLAGDGNSTDVFAPIIGEMVDASVDTNAWTLKLSRQLVKKLTWQN 807
+
+Query: 740 ISDSYTVATVVGRLVKESLPQ---------------VNNHQKTASRSKLVLKPLH----- 779
+           +     VA + GRL  E +                  N  ++    + L  +P       
+Sbjct: 808 VKGLGVVA-LTGRLEAEEVETDEVADQGDKKKLKLIKNEKEEDTKMTGLEARPSMPVLDL 866
+
+Query: 780 ---------GSSRSHKTGALSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVIN 822
+                    G      T  + +GD+RLA L+ L+ E  + AEF+GEG    N
+Sbjct: 867 VNMMAAGGVGVVHHRATQPVHVGDLRLADLRNLMRESGHTAEFRGEGRTTYN 918
+
+
+>Mycgr3P108197 pep:known chromosome:MG2:2:2587150:2588609:-1 gene:Mycgr3G108197
+           transcript:Mycgr3T108197 description:"Putative
+           uncharacterized protein"
+          Length = 401
+
+ Score = 37.0 bits (84), Expect = 0.018,   Method: Compositional matrix adjust.
+ Identities = 29/109 (26%), Positives = 47/109 (43%), Gaps = 17/109 (15%)
+
+Query: 385 EQDERNWKTFP-EDGKSFLCDNYISIDT-------------IKEEPLSKEETEAFKV--- 427
+           E D R+   F   DGKS +C  Y+S  T               E+P +  +T   K+   
+Sbjct: 240 EGDVRSLLNFAITDGKSVVCTRYVSSKTDEAASLFFSSGTNWAEQPSATPQTGRGKIGKG 299
+
+Query: 428 QLKEKKRDRNKKILLVKRESKKLANGNAIIDDTNGERAMRNQDILVENV 476
+           + K ++RD+   I+LV  E       N +   TN    + NQ++L+  +
+Sbjct: 300 EYKMERRDKGADIVLVASEPLTFERDNWVTVPTNSVLTIHNQNVLIHPI 348
+
+
+>Mycgr3P104274 pep:known chromosome:MG2:4:2234960:2236663:-1 gene:Mycgr3G104274
+           transcript:Mycgr3T104274 description:"Putative
+           uncharacterized protein"
+          Length = 475
+
+ Score = 29.3 bits (64), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 15/36 (41%), Positives = 20/36 (55%), Gaps = 2/36 (5%)
+
+Query: 597 GYNMSDPISKRSKHRASRY--SGFSGTGEAENFDNL 630
+           GY  SDP    S  +ASRY  SG+ G G + + D +
+Sbjct: 144 GYGNSDPYGTGSSQQASRYGPSGYGGLGRSNSQDTM 179
+
+
+>Mycgr3P98251 pep:known chromosome:MG2:1:1313483:1315374:1 gene:Mycgr3G98251
+           transcript:Mycgr3T98251 description:"Putative
+           uncharacterized protein"
+          Length = 529
+
+ Score = 28.9 bits (63), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 18/35 (51%)
+
+Query: 280 LILSYARGRTLTYAKSMLEWLSPSLLKTWENRNNT 314
+           L LS +RG  +T     L WL+ SL + W   N T
+Sbjct: 361 LNLSTSRGERVTPTNDFLSWLAISLFRQWLAENTT 395
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 7,405,192
+Number of extensions: 299494
+Number of successful extensions: 772
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 764
+Number of HSP's successfully gapped: 9
+Length of query: 859
+Length of database: 4,742,065
+Length adjustment: 101
+Effective length of query: 758
+Effective length of database: 3,638,034
+Effective search space: 2757629772
+Effective search space used: 2757629772
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

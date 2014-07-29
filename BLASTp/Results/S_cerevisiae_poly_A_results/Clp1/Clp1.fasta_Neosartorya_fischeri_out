@@ -1,0 +1,138 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00007125 pep:known contig:CADRE:9292:995337:997158:-1 ge...   142   3e-37
+CADNFIAP00010241 pep:known contig:CADRE:9564:558217:560177:-1 ge...    31   0.65 
+CADNFIAP00007570 pep:known contig:CADRE:9292:56817:60197:1 gene:...    28   5.7  
+
+>CADNFIAP00007125 pep:known contig:CADRE:9292:995337:997158:-1 gene:CADNFIAG00007292
+           transcript:CADNFIAT00007292 description:"mRNA cleavage
+           and polyadenylation factor clp1"
+          Length = 559
+
+ Score =  142 bits (357), Expect = 3e-37,   Method: Compositional matrix adjust.
+ Identities = 110/411 (26%), Positives = 187/411 (45%), Gaps = 61/411 (14%)
+
+Query: 3   SLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAV 62
+           SLPG++   TS E         ++ + KGS+W+ ++     + VK+ +G  E+FGTELA 
+Sbjct: 2   SLPGLELSQTSSEREFVPAPPTQITLSKGSEWRFEVAFGTAIRVKLLAGTAELFGTELAA 61
+
+Query: 63  DDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKP----------------------- 99
+              YTF   K  IY      L     D  +    + P                       
+Sbjct: 62  SQTYTFSGTKAAIYTWHGCTLEVSAGDTISTIDGLGPAGLNGEGARGYGAGGCQSEYTAE 121
+
+Query: 100 NHTMKYIYNLHFMLEKIRM----SNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQP 155
+              M    N+HF LE +R     +  +GPRV+I+G    GKTS+++ L +YA K    QP
+Sbjct: 122 ETPMVEYANVHFALEAMRQEAKATGKDGPRVLILGPENAGKTSVAKILTAYATKVG-RQP 180
+
+Query: 156 LYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLER- 214
+           + +NLDP + + +VPG ++AT    +++ +   WG S  SG + +  K P+V  + L+  
+Sbjct: 181 IVVNLDPAEGMLSVPGTLTATAFRTMMNVE-EGWGSSPMSGPSAVPVKLPLVYFYPLQNP 239
+
+Query: 215 INENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSISQLDE--NLAELHHIIEKL 272
+           +     +Y   +S+L   V  R+  D   R +G IVDTP I    +  +L  ++HI+ + 
+Sbjct: 240 LEAEGAVYRPIVSRLALSVTGRMAEDEDTRETGIIVDTPGILSAGKPGSLEIINHIVTEF 299
+
+Query: 273 NVNIMLVLCSETDPLWEKVKKTFGPELGNN----------NIFFIPKLDGVSAVDDVYKR 322
+            +  +LV+ SE   L+  + K +  +  ++           +  + K  G    D  + +
+Sbjct: 300 AITTILVIGSER--LYSTMMKNYDNKPTSSASAAASDERITVVKLSKSGGCVDRDAAFMK 357
+
+Query: 323 SLQRTSIREYFYG-----------------SLDTALSPYAIGVDYEDLTIW 356
+           S++ + IR YF+G                 + +  LSP+A  +DY+ L ++
+Sbjct: 358 SVRESQIRTYFFGNPIPSTASAALSMSASSTTNVTLSPHAQQLDYDSLAVY 408
+
+
+>CADNFIAP00010241 pep:known contig:CADRE:9564:558217:560177:-1 gene:CADNFIAG00010517
+           transcript:CADNFIAT00010517
+           description:"Carboxylesterase family protein"
+          Length = 587
+
+ Score = 31.2 bits (69), Expect = 0.65,   Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 26/56 (46%), Gaps = 6/56 (10%)
+
+Query: 306 FIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNV 361
+           F P++ G+S+  D    +         +  S   A  P A+G  YE+ T+WKP N 
+Sbjct: 485 FNPEVRGISSSQDEIAGTFHA------YITSFIVAGDPNAVGGKYENRTVWKPYNA 534
+
+
+>CADNFIAP00007570 pep:known contig:CADRE:9292:56817:60197:1 gene:CADNFIAG00007737
+           transcript:CADNFIAT00007737
+           description:"Pyridoxal-dependent decarboxylase conserved
+           domain protein"
+          Length = 977
+
+ Score = 28.1 bits (61), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 30/109 (27%), Positives = 39/109 (35%), Gaps = 22/109 (20%)
+
+Query: 143 LCSYALKFNAYQPLYI-NLDPQQPIFTVPGCISATPI-----------SDILDAQLPTWG 190
+           LC   +   A QP  + N D ++  F  PG      I            D+L   L  +G
+Sbjct: 868 LCLTGVPEAAMQPFAVKNTDDRKDFFFRPGQEFQVKIWRDLKRADESGPDLLPDSLDDFG 927
+
+Query: 191 QSLTSGATLLHN----------KQPMVKNFGLERINENKDLYLECISQL 229
+             L SG   L N          K P  K  G E   + +DL+ E   QL
+Sbjct: 928 PELASGTVRLQNEVLVDAKEVNKDPFDKESGEEENEKWRDLFQEIRDQL 976
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,318,637
+Number of extensions: 183715
+Number of successful extensions: 424
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 420
+Number of HSP's successfully gapped: 7
+Length of query: 445
+Length of database: 5,073,492
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,064,498
+Effective search space: 1414445304
+Effective search space used: 1414445304
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

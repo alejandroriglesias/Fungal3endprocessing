@@ -1,0 +1,303 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06881:Putative uncharacterized protein
+         (568 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU78311 pep:novel supercontig:EF1:HF943535:1179386:1180862:1 ge...   298   7e-95
+CCU76868 pep:novel supercontig:EF1:HF943534:1724255:1727105:-1 g...    89   6e-19
+CCU81249 pep:novel supercontig:EF1:HF943526:470296:472514:-1 gen...    76   4e-15
+CCU81352 pep:novel supercontig:EF1:HF943526:1309271:1310557:1 ge...    68   5e-13
+CCU75091 pep:novel supercontig:EF1:HF943549:8012886:8014815:-1 g...    69   6e-13
+CCU78867 pep:novel supercontig:EF1:HF943531:1172995:1174380:-1 g...    63   6e-12
+CCU76662 pep:novel supercontig:EF1:HF943537:1748392:1749481:-1 g...    55   2e-08
+CCU81752 pep:novel supercontig:EF1:HF943519:1486259:1488864:-1 g...    55   2e-08
+CCU82068 pep:novel supercontig:EF1:HF943521:319950:322455:-1 gen...    54   4e-08
+CCU76740 pep:novel supercontig:EF1:HF943537:2671039:2671803:1 ge...    52   4e-08
+CCU76249 pep:novel supercontig:EF1:HF943536:3115495:3116523:1 ge...    51   3e-07
+CCU75339 pep:novel supercontig:EF1:HF943546:1528941:1531315:-1 g...    51   4e-07
+CCU76173 pep:novel supercontig:EF1:HF943536:2212839:2213934:-1 g...    50   6e-07
+CCU76819 pep:novel supercontig:EF1:HF943534:1004093:1006780:-1 g...    50   7e-07
+CCU75953 pep:novel supercontig:EF1:HF943548:3486818:3488178:1 ge...    48   2e-06
+CCU76351 pep:novel supercontig:EF1:HF943547:550043:551454:1 gene...    48   3e-06
+CCU78279 pep:novel supercontig:EF1:HF943535:1033779:1035063:1 ge...    48   3e-06
+CCU78358 pep:novel supercontig:EF1:HF943535:1422432:1423750:1 ge...    42   8e-05
+CCU77243 pep:novel supercontig:EF1:HF943525:1512752:1513314:1 ge...    41   1e-04
+CCU81883 pep:novel supercontig:EF1:HF943516:1555275:1556553:1 ge...    42   1e-04
+CCU76376 pep:novel supercontig:EF1:HF943547:817341:819144:1 gene...    40   8e-04
+CCU79147 pep:novel supercontig:EF1:HF943528:1006046:1008201:-1 g...    40   0.001
+CCU74987 pep:novel supercontig:EF1:HF943549:5926961:5929689:1 ge...    38   0.004
+CCU76219 pep:novel supercontig:EF1:HF943536:2791204:2793759:-1 g...    38   0.004
+CCU78346 pep:novel supercontig:EF1:HF943535:1362728:1363783:-1 g...    37   0.007
+CCU81573 pep:novel supercontig:EF1:HF943563:581724:582382:1 gene...    35   0.020
+CCU76999 pep:novel supercontig:EF1:HF943530:983158:985862:1 gene...    35   0.038
+CCU76144 pep:novel supercontig:EF1:HF943536:1906780:1907933:1 ge...    33   0.046
+CCU82765 pep:novel supercontig:EF1:HF943538:100705:101769:1 gene...    33   0.071
+CCU81996 pep:novel supercontig:EF1:HF943513:644254:645633:-1 gen...    33   0.094
+CCU80899 pep:novel supercontig:EF1:HF943541:1225426:1228721:1 ge...    33   0.11 
+CCU81603 pep:novel supercontig:EF1:HF943563:1379700:1381242:-1 g...    32   0.21 
+CCU78120 pep:novel supercontig:EF1:HF943535:625456:626657:-1 gen...    30   0.47 
+CCU81975 pep:novel supercontig:EF1:HF943513:472494:474396:1 gene...    29   2.5  
+CCU81281 pep:novel supercontig:EF1:HF943526:712733:715470:1 gene...    28   3.1  
+CCU81316 pep:novel supercontig:EF1:HF943526:986524:988342:1 gene...    28   4.1  
+
+>CCU78311 pep:novel supercontig:EF1:HF943535:1179386:1180862:1
+           gene:BGHDH14_bgh00231 transcript:CCU78311
+           description:"hypothetical protein"
+          Length = 445
+
+ Score =  298 bits (764), Expect = 7e-95,   Method: Compositional matrix adjust.
+ Identities = 149/214 (69%), Positives = 166/214 (77%), Gaps = 7/214 (3%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVKE 180
+           MFIGGLNWETTD+SL++YFSQFGEV+EC VMRDG +GRSRGFGFLTFKD +TVNIVMVKE
+Sbjct: 1   MFIGGLNWETTDQSLKEYFSQFGEVVECMVMRDGVSGRSRGFGFLTFKDARTVNIVMVKE 60
+
+Query: 181 HYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDT 240
+           HYLDGKIIDPKRAIPRDEQE+TSKIFVGGVSQE T+Q+FK++F QFGR+VDATLMMDKDT
+Sbjct: 61  HYLDGKIIDPKRAIPRDEQERTSKIFVGGVSQEATEQDFKEYFMQFGRIVDATLMMDKDT 120
+
+Query: 241 GRPRGFGFVTFESEAGVEACLARDLEIHGKLIEVKKAQPXXXXXXXXXXXXXXXXXXXKF 300
+           GRPRGFGFVTF+SEA V+ACL+  LEI GK IEVKKAQP                   +F
+Sbjct: 121 GRPRGFGFVTFDSEAAVDACLSVPLEILGKPIEVKKAQP---RGNIKEEEEPRSSRGGRF 177
+
+Query: 301 RK----QGEGQADASGAGNPAAGGMTPQMMANYW 330
+           RK    Q   Q           GGMTPQ+MA YW
+Sbjct: 178 RKAEETQSPSQIQQGNGTQGTQGGMTPQLMAQYW 211
+
+
+
+ Score = 72.8 bits (177), Expect = 3e-14,   Method: Compositional matrix adjust.
+ Identities = 32/77 (41%), Positives = 50/77 (64%)
+
+Query: 120 KMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVK 179
+           K+F+GG++ E T++  ++YF QFG +++ T+M D  TGR RGFGF+TF     V+  +  
+Sbjct: 84  KIFVGGVSQEATEQDFKEYFMQFGRIVDATLMMDKDTGRPRGFGFVTFDSEAAVDACLSV 143
+
+Query: 180 EHYLDGKIIDPKRAIPR 196
+              + GK I+ K+A PR
+Sbjct: 144 PLEILGKPIEVKKAQPR 160
+
+
+
+ Score = 45.1 bits (105), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 37/82 (45%), Positives = 40/82 (48%), Gaps = 1/82 (1%)
+
+Query: 487 SYEGMYDDVPQANXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXXXXTGPKNAG 545
+           S+EGMYDDVPQ N                                        TGPKNAG
+Sbjct: 364 SWEGMYDDVPQPNIPVAPSGNNRGNVQSGARGASRTSAPPPTGPGSAPPANAPTGPKNAG 423
+
+Query: 546 KPGSNYRGGGRGMSRGFHPYAR 567
+           KPG+NYRGGGRG +RGFHPYAR
+Sbjct: 424 KPGANYRGGGRGGNRGFHPYAR 445
+
+
+>CCU76868 pep:novel supercontig:EF1:HF943534:1724255:1727105:-1
+           gene:BGHDH14_bgh01609 transcript:CCU76868
+           description:"putative polyadenylate-binding protein"
+          Length = 771
+
+ Score = 89.0 bits (219), Expect = 6e-19,   Method: Compositional matrix adjust.
+ Identities = 52/164 (31%), Positives = 91/164 (55%), Gaps = 20/164 (12%)
+
+Query: 119 GKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMV 178
+           G +FI  L+    +++L D F+ FG ++ C V +D   G S+G+GF+ ++  +  +  + 
+Sbjct: 148 GNIFIKNLDTAIDNKALHDTFAAFGNILSCKVAQD-ENGASKGYGFVHYETDEAASQAI- 205
+
+Query: 179 KEHYLDGKIIDPKRA-----IPR-DEQEKT-------SKIFVGGVSQETTDQEFKDFFAQ 225
+              +++G +++ K+      IP+ D Q K        + +++  +  E TD+EF+D F +
+Sbjct: 206 --KHVNGMLLNEKKVFVGHHIPKKDRQSKFEEMKANFTNVYIKNIPVEVTDEEFRDLFEK 263
+
+Query: 226 FGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARDLEIHG 269
+           +G V  A+L  D DTG+ RGFGFV F +     A LA D E++G
+Sbjct: 264 YGEVTSASLARDMDTGKSRGFGFVNFVNHE--HAALAVD-ELNG 304
+
+
+
+ Score = 64.3 bits (155), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 41/173 (23%), Positives = 79/173 (45%), Gaps = 14/173 (8%)
+
+Query: 112 GPNSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTF---- 167
+            P+ +    +++G L+   T+  L + FSQ G V    V RD  T RS G+ ++ +    
+Sbjct: 53  APHPQASASLYVGELDPSVTEAMLFELFSQIGSVASIRVCRDAVTRRSLGYAYVNYNTTI 112
+
+Query: 168 ---KDPKTVNIVMVKEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFA 224
+              K  + +N  ++K      +I+  +R  P   +     IF+  +     ++   D FA
+Sbjct: 113 DGEKALEELNYTLIKGR--PCRIMWSQRD-PALRKTGQGNIFIKNLDTAIDNKALHDTFA 169
+
+Query: 225 QFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARDLEIHGKLIEVKKA 277
+            FG ++   +  D++ G  +G+GFV +E++      +     ++G L+  KK 
+Sbjct: 170 AFGNILSCKVAQDEN-GASKGYGFVHYETDEAASQAIKH---VNGMLLNEKKV 218
+
+
+
+ Score = 33.1 bits (74), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 20/92 (21%), Positives = 33/92 (35%), Gaps = 41/92 (44%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTT------------------------ 156
+           +++  L+ +  DE LR+ F+ FG +    VMRD                           
+Sbjct: 347 LYVKNLDDDFDDEKLRELFTPFGSITSAKVMRDNVAEPTEFDDKETKDAEKDKENIKEEE 406
+
+Query: 157 -----------------GRSRGFGFLTFKDPK 171
+                            G+S+GFGF+ F +P+
+Sbjct: 407 KEDETESDATKLEKRPMGKSKGFGFVCFNNPE 438
+
+
+>CCU81249 pep:novel supercontig:EF1:HF943526:470296:472514:-1
+           gene:BGHDH14_bgh04905 transcript:CCU81249
+           description:"Nuclear localization sequence-binding
+           protein"
+          Length = 611
+
+ Score = 76.3 bits (186), Expect = 4e-15,   Method: Compositional matrix adjust.
+ Identities = 53/183 (28%), Positives = 82/183 (44%), Gaps = 26/183 (14%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTF--KDPKTVNIVMV 178
+           +F+G L+W   DE L   F +FGE+    V+ D  +GRS+GFG++ F   +     +   
+Sbjct: 371 LFVGNLSWNVDDEWLYREFEEFGEITRANVLTDKASGRSKGFGYVEFSSAESAAAALKAK 430
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQ------------------EKTSKIFVGGVSQETTDQEFK 220
+           K   +DG+  +   + PRD                    E +  +F G +S    +    
+Sbjct: 431 KGALIDGREANVDFSTPRDASAPKDRAQGRAQKFGDTMNEPSDTLFCGNLSFTADENMVG 490
+
+Query: 221 DFFAQFGRVVDATLMMDKDTGRPRGFGFVTFES----EAGVEACLARDLEIHGKLIEVKK 276
+           + F     VV+  L  D D+G P+GFG+VTF S    +   EA L    EI G+ + +  
+Sbjct: 491 EAFGAHATVVNVRLPTDMDSGNPKGFGYVTFASVDDAKTAYEAMLG--AEIGGRAVRLDY 548
+
+Query: 277 AQP 279
+           A P
+Sbjct: 549 ATP 551
+
+
+
+ Score = 44.3 bits (103), Expect = 5e-05,   Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 39/74 (52%), Gaps = 1/74 (1%)
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQEKTSK-IFVGGVSQETTDQEFKDFFAQFGRVVDATLMMD 237
+           K+   D ++  P +    D  +  SK +FVG +S    D+     F +FG +  A ++ D
+Sbjct: 344 KKRKADNEVSAPAKKAKSDGGDSDSKNLFVGNLSWNVDDEWLYREFEEFGEITRANVLTD 403
+
+Query: 238 KDTGRPRGFGFVTF 251
+           K +GR +GFG+V F
+Sbjct: 404 KASGRSKGFGYVEF 417
+
+
+>CCU81352 pep:novel supercontig:EF1:HF943526:1309271:1310557:1
+           gene:BGHDH14_bgh02124 transcript:CCU81352
+           description:"RNA binding domain containing protein"
+          Length = 282
+
+ Score = 67.8 bits (164), Expect = 5e-13,   Method: Compositional matrix adjust.
+ Identities = 44/164 (26%), Positives = 81/164 (49%), Gaps = 10/164 (6%)
+
+Query: 113 PNSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKT 172
+           P+      +++G + ++ T E L   FSQ+G V   T+  D   G S+GFG++ F+  K 
+Sbjct: 99  PDLLPSASIYVGNIIFDLTAERLEQEFSQYGTVKSATIATDAR-GLSKGFGYVEFESVKE 157
+
+Query: 173 VNIVMV--KEHYLDGK--IIDPKRAIPRDEQEK--TSKIFVGGVSQETTDQEFKDFFAQF 226
+               +    +  L+G+  I++ +    R  +    ++ +FVG ++ E TD +    F + 
+Sbjct: 158 AEAAISGKNQTELEGRRMIVNFQAKSKRSNKVNPPSNTLFVGNLAFEMTDSDLNKLFKEV 217
+
+Query: 227 GRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACLARDLEIHGK 270
+             V+D  + +D+ TG+PRGF    F S   +E  +    ++ GK
+Sbjct: 218 RNVIDVRVAVDRRTGQPRGFAHAEFVS---IEDAIKAKEQLTGK 258
+
+
+>CCU75091 pep:novel supercontig:EF1:HF943549:8012886:8014815:-1
+           gene:BGHDH14_bgh00478 transcript:CCU75091
+           description:"poly(A) RNA-binding protein"
+          Length = 497
+
+ Score = 69.3 bits (168), Expect = 6e-13,   Method: Compositional matrix adjust.
+ Identities = 41/149 (27%), Positives = 68/149 (45%), Gaps = 8/149 (5%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP-------KTV 173
+           +++GGL+   T++ LR  F   G V    ++ D    +   +GF+ + DP       +T+
+Sbjct: 90  LYVGGLDPRVTEDVLRQIFETTGHVQNVKIIPD-KNAKGFNYGFVEYDDPGAAERAMQTL 148
+
+Query: 174 NIVMVKEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDAT 233
+           N   V +  +            +++      IFVG +S E  D+     F+ FG V +A 
+Sbjct: 149 NGRRVHQAEIRVNWAYQSNTSNKEDTSNHFHIFVGDLSNEVNDEVLLQAFSAFGSVSEAR 208
+
+Query: 234 LMMDKDTGRPRGFGFVTFESEAGVEACLA 262
+           ++ D  TGR RG+GFV F      E  L+
+Sbjct: 209 VIWDMKTGRSRGYGFVAFRERQDAEKALS 237
+
+
+
+ Score = 62.4 bits (150), Expect = 9e-11,   Method: Compositional matrix adjust.
+ Identities = 49/204 (24%), Positives = 79/204 (38%), Gaps = 58/204 (28%)
+
+Query: 120 KMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVMVK 179
+            +F+G L+ E  DE L   FS FG V E  V+ D  TGRSRG+GF+ F++ +     +  
+Sbjct: 179 HIFVGDLSNEVNDEVLLQAFSAFGSVSEARVIWDMKTGRSRGYGFVAFRERQDAEKALSS 238
+
+Query: 180 EHYLDGKIIDPKRAI----------PRDEQEKT--------------------------- 202
+              +DG+ +   RAI          P   Q++                            
+Sbjct: 239 ---MDGEWLG-SRAIRCNWANQKGQPSISQQQAMTAVGMTPTTPFGHHHFPTHGVQSYDM 294
+
+Query: 203 ---------SKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFES 253
+                    + ++VG ++  TT  +    F  FG VV+     D      RGF FV  ++
+Sbjct: 295 IVQQTPQWQTTVYVGNLTPYTTQNDLIPLFHNFGYVVETRFQAD------RGFAFVKLDT 348
+
+Query: 254 E--AGVEACLARDLEIHGKLIEVK 275
+              A +  C      ++G+ ++  
+Sbjct: 349 HENAAMAICQLSGYNVNGRPLKCS 372
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.313    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 2,158,007
+Number of extensions: 69646
+Number of successful extensions: 224
+Number of sequences better than 10.0: 36
+Number of HSP's gapped: 202
+Number of HSP's successfully gapped: 71
+Length of query: 568
+Length of database: 3,131,961
+Length adjustment: 95
+Effective length of query: 473
+Effective length of database: 2,517,311
+Effective search space: 1190688103
+Effective search space used: 1190688103
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,226 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP40329 pep:known chromosome:v2.0:5:1024066:1027001:1 gene:N...  1085   0.0  
+NechaP90237 pep:known chromosome:v2.0:1:3978357:3981228:-1 gene:...    67   2e-11
+NechaP92750 pep:known chromosome:v2.0:4:2005765:2007564:-1 gene:...    31   2.8  
+NechaP86412 pep:known chromosome:v2.0:11:471299:472540:-1 gene:N...    31   2.9  
+NechaP78120 pep:known chromosome:v2.0:3:3277506:3278675:1 gene:N...    30   4.4  
+NechaP31603 pep:known chromosome:v2.0:1:2637744:2638776:-1 gene:...    30   5.0  
+
+>NechaP40329 pep:known chromosome:v2.0:5:1024066:1027001:1 gene:NechaG40329
+           transcript:NechaT40329 description:"Predicted protein"
+          Length = 958
+
+ Score = 1085 bits (2807), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 572/985 (58%), Positives = 695/985 (70%), Gaps = 50/985 (5%)
+
+Query: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILLT 60
+           MFTF PLQGALSE+ ASQSLLELDGGVKVL+D+GWDE+FD  KLKE+EKQV TLSLIL+T
+Sbjct: 1   MFTFCPLQGALSESPASQSLLELDGGVKVLVDLGWDESFDAGKLKEIEKQVTTLSLILVT 60
+
+Query: 61  HATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAE 120
+           HAT  HL+A  HCCKN P F RIP+YAT+P IDLGRTLIQDLY+S+PAAAT+IP S+L+E
+Sbjct: 61  HATASHLAAYAHCCKNIPQFTRIPVYATRPVIDLGRTLIQDLYNSSPAAATTIPQSSLSE 120
+
+Query: 121 ASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY 180
+            ++SF+QT T     LLQ+P+ ++IA+YFSLIQPLKYSQPHQPL SPFSPPLNGLTITAY
+Sbjct: 121 TAFSFAQTATTAQNLLLQSPTNEDIARYFSLIQPLKYSQPHQPLPSPFSPPLNGLTITAY 180
+
+Query: 181 NAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTA 240
+           N+GH+LGGTIWHIQHG+ESIVYAVDWN AR+NV+               EVIEQLRKPTA
+Sbjct: 181 NSGHTLGGTIWHIQHGLESIVYAVDWNQARENVF-AGAAWLGGAGGGGAEVIEQLRKPTA 239
+
+Query: 241 LVCST----RTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAW 296
+           L+CS+    RTA+ G  RA RD+QL+DT++  ++RGGTVLIPVDSSARVLEL+YLLEHAW
+Sbjct: 240 LICSSRGADRTAQAG-GRAKRDEQLIDTIKACVTRGGTVLIPVDSSARVLELSYLLEHAW 298
+
+Query: 297 RSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFRRTXXXX 356
+           R++A++E G L  AKLYLAGR++ ST++ A+SM EWMD++IVQEFEA A +G R+     
+Sbjct: 299 RTDAASEDGVLKAAKLYLAGRNMSSTMRYARSMLEWMDDTIVQEFEAFA-EGQRKV---- 353
+
+Query: 357 XXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTD--ELRGKVILATDTSLEWGFSKDI 414
+                      PFDFKYLRLL+RKAQ+++LL    +  E  G+VILA+D+S+EWGFSKD+
+Sbjct: 354 -NGAGDKKEGGPFDFKYLRLLERKAQIVRLLSRGFENVETEGRVILASDSSIEWGFSKDL 412
+
+Query: 415 ISAIANDSRNMVILPEKPAESSRDNPSISRQLWRWWKERRDGVADEQSSGAGSAEQVFAG 474
+           I  +A DSRN+VIL +KP  S  D PSI+R LW WWKER+DGV+ EQ+S   S E V+AG
+Sbjct: 413 IKGLARDSRNLVILTDKPGLSKDDKPSIARTLWDWWKERKDGVSVEQTSSGDSIELVYAG 472
+
+Query: 475 GRELQIRESKKVPLADSELSIYQQWLATQRQLNATVQGGGXXXXXXXXXXXXXXXXXXXX 534
+           GREL+IRE+++  L   EL++YQQWLATQRQL AT Q GG                    
+Sbjct: 473 GRELEIREAQRQALEGDELAVYQQWLATQRQLQATQQSGGAAGLEASADVVDDASSESSS 532
+
+Query: 535 XXXXXXNEQQGKALNASTT--QASRKKVVLQDEDLGVMILLKKPGVYDFPVKGKKGRERM 592
+                  EQQGKALN STT  QA RK VVL+DEDLG+ +L+KK GV+DF  +GKKGRER 
+Sbjct: 533 DSEDEDGEQQGKALNVSTTIGQAGRKHVVLKDEDLGINVLIKKKGVHDFDSRGKKGRERT 592
+
+Query: 593 FPLAVRRKRNDEFGELIRPEDYLRAEEREENERPDTQQLQSDGQDGFGQKRKWDDAGSRN 652
+           FP+A+RRKR+D+FGELIRPEDYLRAEE+EE+ + +     +D  D  G+KR+WDD     
+Sbjct: 593 FPIAIRRKRHDDFGELIRPEDYLRAEEKEEDGQDNANMEAAD--DKLGKKRRWDDVAKNG 650
+
+Query: 653 AANGLNXXXXXXXXXXXXXXXXXSGPAPXXXXXXXXXXXXXXTGPAKLVHTSTTVSVNLR 712
+                                   G  P              TGP KL + + T++ NLR
+Sbjct: 651 VGANKRQQTTRAGSVDDAEPGAGDGFVPDELDNVEDIEPEEPTGPCKLSYQTETITANLR 710
+
+Query: 713 LALIDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRR-------------- 758
+           +A +DFSGLHD+RSL MLIPLI+PRKLILV G  +ET A+A+DCRR              
+Sbjct: 711 IAYVDFSGLHDKRSLNMLIPLIKPRKLILVGGGREETLALAEDCRRALGGDAAAGDGSSE 770
+
+Query: 759 NAIEVFTPPVGAVVDASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQK 818
+             ++V+TP +G +VDASVDTNAWVVKLAD LVK++KWQ VRGLGIVT+T QL AT   + 
+Sbjct: 771 RTVDVYTPEIGTLVDASVDTNAWVVKLADSLVKKIKWQNVRGLGIVTITGQLLAT---KL 827
+
+Query: 819 NGIPLLIADDDGANKRQKIKATGVDDQEPTAEDEDVGV-MPTLDVLPVAMVSASRSAAQV 877
+           +  P    D D ANKRQK      ++   TA    V   MPTLDVLP  +VSA RSAAQ 
+Sbjct: 828 DDAP--AGDQDAANKRQK-----TEESSTTALSTVVASPMPTLDVLPANLVSAVRSAAQP 880
+
+Query: 878 LHVGELRLADLRRTMQNLGHSADFRGEGTLLIDGTVVVRKTAAGRVEIESXXXXXXXXXX 937
+           LHVG+LRLADLRR MQ+ GH+A+FRGEGTL++DGTV VRKTAAGRVE+ES          
+Sbjct: 881 LHVGDLRLADLRRAMQSAGHTAEFRGEGTLVVDGTVAVRKTAAGRVEVES-------VGM 933
+
+Query: 938 XXXXXXXFYAVKKTIYDGLAVVAGA 962
+                  FY V+K IYD LAVV GA
+Sbjct: 934 PTARRSTFYEVRKVIYDNLAVVTGA 958
+
+
+>NechaP90237 pep:known chromosome:v2.0:1:3978357:3981228:-1 gene:NechaG90237
+           transcript:NechaT90237 description:"Predicted protein"
+          Length = 827
+
+ Score = 67.4 bits (163), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 78/378 (20%), Positives = 148/378 (39%), Gaps = 70/378 (18%)
+
+Query: 53  TLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQD--LYSSTPAAA 110
+           T+ ++L++H  + H ++L +         R+  + T P   + + LIQD     +T +  
+Sbjct: 76  TVDVLLISHFHIDHAASLPYVLARTNFRGRV--FMTHPTKAIYKWLIQDSVRVGNTSSNP 133
+
+Query: 111 TSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSP 170
+           TS P     +   +F Q                        I+ + Y   H         
+Sbjct: 134 TSQPIYTEQDHLSTFPQ------------------------IEAIDYHTTHT-------- 161
+
+Query: 171 PLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXE 230
+            ++ + IT Y AGH LG  ++ I+ G  +I +  D++  +D                  E
+Sbjct: 162 -ISSIRITPYPAGHVLGAAMFLIEIGGLNIFFTGDYSREQDR------------HLVSAE 208
+
+Query: 231 VIEQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAY 290
+           V + ++    +  ST      + R  R++ L+ ++   ++RGG VL+PV +  R  EL  
+Sbjct: 209 VPKGVKIDVLITESTYGIASHVPRLEREQALMKSITSILNRGGRVLMPVFALGRAQELLL 268
+
+Query: 291 LLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFR 350
+           +L+  W   +           +Y A       + + ++    M+++I         + FR
+Sbjct: 269 ILDEYWGKHSD-----FQKYPIYYASNLARKCMLVYQTYVGAMNDNI--------KRLFR 315
+
+Query: 351 RTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEWGF 410
+                            P+DFKY+R L    +         D++ G V+LA+   L+ G 
+Sbjct: 316 ERMAEAEASGDGAGKGGPWDFKYIRSLKNLDRF--------DDVGGCVMLASPGMLQNGV 367
+
+Query: 411 SKDIISAIANDSRNMVIL 428
+           S++++   A   +N VI+
+Sbjct: 368 SRELLERWAPSEKNGVII 385
+
+
+>NechaP92750 pep:known chromosome:v2.0:4:2005765:2007564:-1 gene:NechaG92750
+           transcript:NechaT92750 description:"Predicted protein"
+          Length = 544
+
+ Score = 30.8 bits (68), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (60%), Gaps = 2/38 (5%)
+
+Query: 815 AAQKNGIP--LLIADDDGANKRQKIKATGVDDQEPTAE 850
+           AA+ NG+P  + + DD+ A+ + KIK  G+ D  P  E
+Sbjct: 435 AAEANGVPFAIFLGDDEVASGKVKIKEMGLQDGHPEKE 472
+
+
+>NechaP86412 pep:known chromosome:v2.0:11:471299:472540:-1 gene:NechaG86412
+           transcript:NechaT86412 description:"Predicted protein"
+          Length = 397
+
+ Score = 30.8 bits (68), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 31/140 (22%), Positives = 54/140 (38%), Gaps = 20/140 (14%)
+
+Query: 734 IQPRKLILVAGSADETEAVADDCRRNAIEVFTPPVGAVVDASVDTNAWVVKLADPLVKRL 793
+           + P +L L       + A  + C +NA  V     G+++        +++     L++  
+Sbjct: 13  VGPAELGLTIADFSASLAHGEYCAKNASYVRPDDAGSILPWPYTLAWFLIHFPITLIRVH 72
+
+Query: 794 KWQQVRGLGIV----TVTAQLTAT-----PAAQKNGIPLLIADDDGANKRQKIKATGVDD 844
+           +W++V+ L I+    TV  QL A      P A    +P+ +  D GA  +          
+Sbjct: 73  RWERVQALSIILAVTTVWFQLQAYTSSIEPEAVLVWMPIFVVLDIGAMMQLVFLIV---- 128
+
+Query: 845 QEPTAEDEDVGVMPTLDVLP 864
+                  ED G  P +  LP
+Sbjct: 129 -------EDTGFWPLVRALP 141
+
+
+>NechaP78120 pep:known chromosome:v2.0:3:3277506:3278675:1 gene:NechaG78120
+           transcript:NechaT78120 description:"Putative
+           uncharacterized protein"
+          Length = 353
+
+ Score = 30.0 bits (66), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 15/47 (31%), Positives = 26/47 (55%), Gaps = 3/47 (6%)
+
+Query: 781 WVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQKNGIPLLIAD 827
+           W  +L DP++ RL+   V+G+ I+    + T T   + + IPL  +D
+Sbjct: 179 WEYELTDPMIDRLREGAVKGIWILN---EYTRTVGVRAHEIPLFTSD 222
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 12,814,880
+Number of extensions: 525539
+Number of successful extensions: 1537
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 1522
+Number of HSP's successfully gapped: 16
+Length of query: 962
+Length of database: 7,529,425
+Length adjustment: 106
+Effective length of query: 856
+Effective length of database: 5,864,695
+Effective search space: 5020178920
+Effective search space used: 5020178920
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 58 (26.9 bits)

@@ -1,0 +1,109 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU74699 pep:novel supercontig:EF1:HF943549:2461854:2463031:1 ge...   151   6e-43
+CCU82111 pep:novel supercontig:EF1:HF943523:293012:301455:1 gene...    27   7.8  
+
+>CCU74699 pep:novel supercontig:EF1:HF943549:2461854:2463031:1
+           gene:BGHDH14_bgh01539 transcript:CCU74699
+           description:"putative pre-mRNA polyadenylation factor
+           fip1"
+          Length = 308
+
+ Score =  151 bits (381), Expect = 6e-43,   Method: Compositional matrix adjust.
+ Identities = 81/142 (57%), Positives = 100/142 (70%), Gaps = 4/142 (2%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPA--KAAPNKKEDTVKGSDLPPVTKSNF 136
+           RKDG S   P+ SKY+EIRSIPQR VA+  T+    K A +K        +LP V+ S  
+Sbjct: 61  RKDG-SKTTPTPSKYNEIRSIPQR-VASGETSKLGNKKALSKATLNAPEVELPGVSISKI 118
+
+Query: 137 DPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQ 196
+           D    P ++P GKP+TQVNIDEDL E+  PWR+PGTDI+DYFNYGFDEFSWA+YA KQ  
+Sbjct: 119 DVNVKPVYEPAGKPITQVNIDEDLPENEKPWRRPGTDITDYFNYGFDEFSWALYASKQEA 178
+
+Query: 197 LRSEYSADAMSQNSKKMMEDLN 218
+           +RSEYSAD ++ N KK+ ED+N
+Sbjct: 179 VRSEYSADKIALNGKKLFEDMN 200
+
+
+
+ Score = 30.4 bits (67), Expect = 0.35,   Method: Compositional matrix adjust.
+ Identities = 12/14 (85%), Positives = 14/14 (100%)
+
+Query: 3  VEMDEDDDFYAPEE 16
+          +E+DEDDDFYAPEE
+Sbjct: 1  MEVDEDDDFYAPEE 14
+
+
+>CCU82111 pep:novel supercontig:EF1:HF943523:293012:301455:1
+            gene:BGHDH14_bgh06773 transcript:CCU82111
+            description:"ubiquitin hydrolase"
+          Length = 2597
+
+ Score = 26.6 bits (57), Expect = 7.8,   Method: Composition-based stats.
+ Identities = 14/41 (34%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query: 173  DISDYFNYGFDEFSWAIYAQKQNQ-LRSEYSADAMSQNSKK 212
+            D+ +++N  FD +   IYA +  Q LRS Y    + Q   K
+Sbjct: 1735 DVDEFYNLLFDRWESQIYAPRAKQTLRSFYGGQLVQQVKSK 1775
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,212,119
+Number of extensions: 46441
+Number of successful extensions: 138
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 136
+Number of HSP's successfully gapped: 13
+Length of query: 332
+Length of database: 3,131,961
+Length adjustment: 91
+Effective length of query: 241
+Effective length of database: 2,543,191
+Effective search space: 612909031
+Effective search space used: 612909031
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 51 (24.3 bits)

@@ -1,0 +1,213 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_08804T0 pep:known chromosome:MG8:6:66797:69396:1 gene:MGG_08...   157   6e-43
+MGG_02029T0 pep:known chromosome:MG8:1:283527:285411:-1 gene:MGG...    31   0.60 
+MGG_00382T0 pep:known chromosome:MG8:5:3058465:3060281:1 gene:MG...    30   1.2  
+MGG_15074T0 pep:known chromosome:MG8:2:6260644:6261630:-1 gene:M...    30   1.5  
+MGG_10266T0 pep:known supercontig:MG8:supercont8.8:246921:248416...    30   1.6  
+MGG_06024T0 pep:known chromosome:MG8:3:2310186:2317070:1 gene:MG...    28   4.4  
+MGG_03303T0 pep:known chromosome:MG8:4:2335692:2338496:-1 gene:M...    28   6.2  
+MGG_02608T0 pep:known chromosome:MG8:7:2213210:2215525:1 gene:MG...    27   9.9  
+
+>MGG_08804T0 pep:known chromosome:MG8:6:66797:69396:1 gene:MGG_08804
+           transcript:MGG_08804T0 description:"Protein CLP1"
+          Length = 455
+
+ Score =  157 bits (398), Expect = 6e-43,   Method: Compositional matrix adjust.
+ Identities = 112/408 (27%), Positives = 193/408 (47%), Gaps = 38/408 (9%)
+
+Query: 33  DWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTT 92
+           +++  +     + + +  G  E  GTELA++  YT    K  I       L W   +L+ 
+Sbjct: 28  EYRFSVSHGASITITLTRGTAERDGTELALNVAYTLSGVKSKI-------LSWHGANLSI 80
+
+Query: 93  NTIT-----VKPNHTMKYIY-NLHFMLEKIR----------MSNFEGPRVVIVGGSQTGK 136
+             IT       P+      + NLH  L++ R           S   GPRV++ G +  G+
+Sbjct: 81  EGITDHESVAGPDDAANTAHLNLHAFLQRSREAAARNNGGGRSAPHGPRVLVAGKTGCGR 140
+
+Query: 137 TSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILD-AQLPTWGQSLTS 195
+           TSL RTL ++A +  A QP+ ++ DP + + T+PG +SA     ++D A    WG + +S
+Sbjct: 141 TSLVRTLAAWATRTGA-QPMVVDADPGEGLLTLPGTLSAAVFGTVMDVASEGGWGAAPSS 199
+
+Query: 196 GATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSI 255
+           G + +  K P+V  +G  R+ E++DLY   ++ +   +  R   DP VR +G ++DTP  
+Sbjct: 200 GPSAVPVKLPLVFYYGRRRVEEDRDLYKGVVNSISSAISARAADDPAVRSAGMLIDTPPY 259
+
+Query: 256 SQLDENLAELHHIIEKLNVNIMLV-----LCSETDPLWEKVKKTFGPELGNNNIFFIPKL 310
+            +  +    L HI E+LNVNI++      L +E    +  VK   G  +   ++  + K 
+Sbjct: 260 VE-GKGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVKNVLGEHV---SVVALDKS 315
+
+Query: 311 DGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNVFD--NEVGR 368
+            GV   D+ + + +   SI+EYF+G     LSP+   V +++L I+      D   E G 
+Sbjct: 316 SGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAIYTSPEASDYSAEPGA 375
+
+Query: 369 VELFPVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITEVNE 416
+           +E  P  +    + H ++A+  A        +  +P+ GF  +  V++
+Sbjct: 376 LERIPQPL--PEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDK 421
+
+
+>MGG_02029T0 pep:known chromosome:MG8:1:283527:285411:-1 gene:MGG_02029
+           transcript:MGG_02029T0 description:"Putative
+           uncharacterized protein"
+          Length = 608
+
+ Score = 31.2 bits (69), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 30/48 (62%), Gaps = 5/48 (10%)
+
+Query: 124 PRVVIVGGSQTGKTS----LSRTLCSYALKFNAYQPLYINLDPQQPIF 167
+           P+++I G S TGKTS    ++  + +Y ++FN ++ +  ++D   P+F
+Sbjct: 290 PKILITGPSGTGKTSIVSEMASAMGTYLIRFN-FRQVKKDIDDHAPMF 336
+
+
+>MGG_00382T0 pep:known chromosome:MG8:5:3058465:3060281:1 gene:MGG_00382
+           transcript:MGG_00382T0 description:"GPN-loop GTPase 3
+           like protein"
+          Length = 300
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 21/66 (31%), Positives = 32/66 (48%), Gaps = 10/66 (15%)
+
+Query: 118 MSNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATP 177
+           MS F    V+++G +  GK++   +L ++ L+ N     Y+NLDP    F        TP
+Sbjct: 1   MSKF---GVMVMGPAGAGKSTFCASLITH-LRMNRRSSFYVNLDPAAESF------EHTP 50
+
+Query: 178 ISDILD 183
+             DI D
+Sbjct: 51  DLDIKD 56
+
+
+>MGG_15074T0 pep:known chromosome:MG8:2:6260644:6261630:-1 gene:MGG_15074
+           transcript:MGG_15074T0 description:"Putative
+           uncharacterized protein"
+          Length = 299
+
+ Score = 29.6 bits (65), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%)
+
+Query: 165 PIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFG 211
+           P    P   +ATP +++  AQ P   Q   +  TLLH  +P+ +N G
+Sbjct: 93  PHANFPQDPAATPANELRAAQHPEHIQDAVAAMTLLHTLRPLDRNRG 139
+
+
+>MGG_10266T0 pep:known supercontig:MG8:supercont8.8:246921:248416:1
+           gene:MGG_10266 transcript:MGG_10266T0
+           description:"hypothetical protein"
+          Length = 430
+
+ Score = 30.0 bits (66), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 29/70 (41%), Gaps = 2/70 (2%)
+
+Query: 42  GKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPNH 101
+           G L++     +  +F      D++  F NW+     ++E +  W       N  TV P  
+Sbjct: 246 GLLVIAAQDSVGGLFIRPPYADEQ--FANWEKSSAGMKEDDDRWVYVPPVPNVFTVFPGD 303
+
+Query: 102 TMKYIYNLHF 111
+            M+YI N H 
+Sbjct: 304 IMQYITNSHL 313
+
+
+>MGG_06024T0 pep:known chromosome:MG8:3:2310186:2317070:1 gene:MGG_06024
+           transcript:MGG_06024T0 description:"ABC transporter"
+          Length = 1354
+
+ Score = 28.5 bits (62), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 25/44 (56%)
+
+Query: 100 NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+           N T KY  +   +L+ + +    G RV IVG +  GK+S+ +TL
+Sbjct: 918 NVTAKYDQSDKLVLKDVTLEIKPGERVAIVGRTGAGKSSIIQTL 961
+
+
+>MGG_03303T0 pep:known chromosome:MG8:4:2335692:2338496:-1 gene:MGG_03303
+           transcript:MGG_03303T0 description:"Putative
+           uncharacterized protein"
+          Length = 725
+
+ Score = 28.1 bits (61), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 16/56 (28%), Positives = 28/56 (50%), Gaps = 7/56 (12%)
+
+Query: 126 VVIVGGSQTGKTSLSRTLCSYAL---KFNAYQP----LYINLDPQQPIFTVPGCIS 174
+           +++ G   +GK++  R L +  +   K    QP      +++DP QP F  PG +S
+Sbjct: 273 ILVCGPKSSGKSTFGRLLANRLVTETKRRNDQPQPGVAILDIDPGQPEFGAPGILS 328
+
+
+>MGG_02608T0 pep:known chromosome:MG8:7:2213210:2215525:1 gene:MGG_02608
+           transcript:MGG_02608T0 description:"26S proteasome
+           regulatory subunit RPN5"
+          Length = 507
+
+ Score = 27.3 bits (59), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 26/102 (25%), Positives = 47/102 (46%), Gaps = 11/102 (10%)
+
+Query: 215 INENKDLYLECISQLGQVVG-QRLHLDPQVRRS--GCIVDTPSISQLDENLAELHHIIEK 271
+           +++++D YL+      QV+  + +  DP   R+    ++    +S  D    +L H I +
+Sbjct: 255 LSQHEDKYLDVCKHYRQVLDTEAVEEDPAKLRAVLQRVIYFIILSPHDNEQHDLLHRIHR 314
+
+Query: 272 LNVNIMLVLCSETDPL--------WEKVKKTFGPELGNNNIF 305
+              N  + L +E   L        W +V KTFGP L + ++F
+Sbjct: 315 DTRNSQIQLDAELLKLFTVHELMRWPEVAKTFGPHLCSTDVF 356
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 4,758,566
+Number of extensions: 199618
+Number of successful extensions: 478
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 473
+Number of HSP's successfully gapped: 9
+Length of query: 445
+Length of database: 5,666,059
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,428,824
+Effective search space: 1541230752
+Effective search space used: 1541230752
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

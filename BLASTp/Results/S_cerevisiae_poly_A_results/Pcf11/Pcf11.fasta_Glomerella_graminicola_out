@@ -1,0 +1,109 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ32207 pep:novel supercontig:GCA_000149035.1:GG697360:275959:2...    94   3e-20
+
+>EFQ32207 pep:novel supercontig:GCA_000149035.1:GG697360:275959:278405:1
+           gene:GLRG_07351 transcript:EFQ32207
+           description:"hypothetical protein"
+          Length = 699
+
+ Score = 94.0 bits (232), Expect = 3e-20,   Method: Compositional matrix adjust.
+ Identities = 49/134 (36%), Positives = 69/134 (51%), Gaps = 3/134 (2%)
+
+Query: 8   IVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYAL 67
+           + +D+   LE+LT N R  I+ LT +A E    AQ   + ++  I K    +KL A Y L
+Sbjct: 10  VAEDYRQALEDLTTNVRFEISNLTMIAREQTEHAQVISEVLQDHILKAPAHKKLPALYVL 69
+
+Query: 68  DSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL---PLFE 124
+           DSI KNVG+PYT++F   L+  +   Y  VD   R K+  M + W  P    L   P+F 
+Sbjct: 70  DSIVKNVGTPYTLFFGAKLYTTFMEAYAAVDGQVRRKMDEMLRTWKEPVPGSLDKRPVFA 129
+
+Query: 125 GSALEKIEQFLIKA 138
+               + IE  L+KA
+Sbjct: 130 PEITQPIENALLKA 143
+
+
+
+ Score = 83.2 bits (204), Expect = 8e-17,   Method: Compositional matrix adjust.
+ Identities = 48/200 (24%), Positives = 80/200 (40%), Gaps = 46/200 (23%)
+
+Query: 406 QNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISN 465
+           Q +LI  ++     +C+ CG+RF   E  +  +  H+DWHF+ + R+             
+Sbjct: 497 QPHLIPSMFDQLGPQCTQCGRRFKTDEEGRKKKMAHMDWHFKAHQRL------------- 543
+
+Query: 466 SNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHAD 525
+                    K  Q R+WY+  + W   K  E     H                       
+Sbjct: 544 -----AEAEKRGQHRSWYVDSNDW--IKSREAIDVDHVQ--------------------- 575
+
+Query: 526 ENDEGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWK 585
+                S DN+  S    + E + +Y+ VP+ S  +   CPIC+E     + + + EWVW 
+Sbjct: 576 -----SADNSSSSPGRAKKEAKPRYIPVPDASSGINSICPICQEKFENKWLDTAQEWVWL 630
+
+Query: 586 NTIEVNGKYFHSTCYHETSQ 605
+           +T  V  + +H +C+ E +Q
+Sbjct: 631 DTTLVGNRAYHYSCHSEATQ 650
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 6,128,112
+Number of extensions: 243995
+Number of successful extensions: 553
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 550
+Number of HSP's successfully gapped: 8
+Length of query: 626
+Length of database: 5,585,764
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,383,764
+Effective search space: 2305859864
+Effective search space used: 2305859864
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

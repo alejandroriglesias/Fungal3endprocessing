@@ -1,0 +1,116 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ28912 pep:novel supercontig:GCA_000149035.1:GG697342:886710:8...    83   2e-16
+EFQ34753 pep:novel supercontig:GCA_000149035.1:GG697383:230527:2...    29   4.5  
+
+>EFQ28912 pep:novel supercontig:GCA_000149035.1:GG697342:886710:889234:-1
+           gene:GLRG_04056 transcript:EFQ28912 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 726
+
+ Score = 82.8 bits (203), Expect = 2e-16,   Method: Compositional matrix adjust.
+ Identities = 50/161 (31%), Positives = 85/161 (52%), Gaps = 25/161 (15%)
+
+Query: 626 WLHVLIRLVTR---GIE----AQEAS---------DLIREELLGFFIQDFEQRVSLIIEW 669
+           W+ ++ RL +R   G+E      EAS         + IR+ L  + ++DF +R+ + I W
+Sbjct: 521 WIAIITRLASRSSAGLEEFSPKDEASSSVPRPSLGNSIRDSLYTYVLEDFRRRIDVAITW 580
+
+Query: 670 LNEEWFF-QTSLHQD---PSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHL 725
+           L+EEW+  Q    Q+   P +Y+KW+L++++    +L N   +   R + E+P L    L
+Sbjct: 581 LHEEWYNDQLQKKQEGNRPLHYEKWALKLIDGFSQYL-NAQDKVLTRFLGEVPELSPAIL 639
+
+Query: 726 EALKPICLDPARSSLGFQTLKFLIMFRPPVQ----DTVRDL 762
+             +K +C DP    L   +L +L+M RPP +    DTV+D+
+Sbjct: 640 SRVKLMCRDPLVVPLALTSLLYLVMMRPPAKELALDTVQDI 680
+
+
+
+ Score = 54.3 bits (129), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 39/106 (36%), Positives = 59/106 (55%), Gaps = 12/106 (11%)
+
+Query: 165 VKLATIKFISEVVLSQT-KSPS----GNEINSS--TIPDNHPVLNKPALESEAKRLLDML 217
+           V++  IKF   VVL+Q+  +P+    G+ ++ S   IP NH  L+   L++E   LLD +
+Sbjct: 146 VRICCIKFAQRVVLAQSVANPNEPRRGDSLDISLDKIPPNHQTLDARTLDAEGAGLLDRM 205
+
+Query: 218 LNYLIEEQYMVSSVFI--GIINSLSFVIKRRPQTTIRILSGLLRFN 261
+           L+ L E     S V +    +N LS +I+ RP T  RIL+ +L FN
+Sbjct: 206 LSVLQENS---SDVLLVDATLNCLSILIRSRPGTANRILNAVLNFN 248
+
+
+>EFQ34753 pep:novel supercontig:GCA_000149035.1:GG697383:230527:231590:1
+           gene:GLRG_09897 transcript:EFQ34753
+           description:"hypothetical protein"
+          Length = 334
+
+ Score = 29.3 bits (64), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 28/58 (48%), Gaps = 1/58 (1%)
+
+Query: 164 GVKLATIKFISEVVLSQTKSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLLNYL 221
+           G++   +  +     SQT  PSG   NSS + D H  + + A  S A  L D L N+L
+Sbjct: 158 GLQSQPVSAVPTPSQSQTPGPSG-APNSSPLHDAHQGIQQTAATSGATSLPDGLRNHL 214
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 6,668,101
+Number of extensions: 242427
+Number of successful extensions: 696
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 692
+Number of HSP's successfully gapped: 6
+Length of query: 785
+Length of database: 5,585,764
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,359,724
+Effective search space: 2977691492
+Effective search space used: 2977691492
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

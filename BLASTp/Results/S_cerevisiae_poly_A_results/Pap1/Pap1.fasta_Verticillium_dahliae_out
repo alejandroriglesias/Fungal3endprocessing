@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY15457 pep:novel supercontig:GCA_000150675.1:supercont1.14:720...   516   e-176
+EGY13366 pep:novel supercontig:GCA_000150675.1:supercont1.1:1665...    30   1.3  
+EGY16144 pep:novel supercontig:GCA_000150675.1:supercont1.16:384...    29   4.3  
+
+>EGY15457 pep:novel supercontig:GCA_000150675.1:supercont1.14:72005:75500:-1
+           gene:VDAG_06621 transcript:EGY15457 description:"Poly(A)
+           polymerase pla1"
+          Length = 604
+
+ Score =  516 bits (1328), Expect = e-176,   Method: Compositional matrix adjust.
+ Identities = 277/587 (47%), Positives = 377/587 (64%), Gaps = 46/587 (7%)
+
+Query: 7   FGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRFVYEV 66
+            G+T P+ST   T AE+  N ++++ELK++ +FE+  ET  R QVL+ LQ +   FV +V
+Sbjct: 8   LGVTPPISTALPTEAEHATNKTMLEELKQQKTFESPAETQKRHQVLEQLQTICDEFVKQV 67
+
+Query: 67  SKKKN-MSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLR 125
+           ++K+   S+ + +DA G+IFTYGS+RLGV+GPGSDIDTLVVVPK+VTR+D+F +F  LL+
+Sbjct: 68  ARKREEGSEALIKDARGRIFTYGSFRLGVYGPGSDIDTLVVVPKYVTRDDYFEIFPGLLQ 127
+
+Query: 126 ERKELDEI---APVPDAFVPIIKIKFSGISIDLICARLDQ----PQVPLSLTLSDKNLLR 178
+           +    D I   A V DAFVPIIK +F GISIDLI +R+      P+ P   +L+D NLLR
+Sbjct: 128 KMTPADAITDLAVVSDAFVPIIKFEFFGISIDLIFSRIASLKQLPKDP-QWSLADSNLLR 186
+
+Query: 179 NLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAM 238
+            LDE++LR+LNGTRVTDEI+ LVP+P+ FR+ALRAIKLWAQRRA+YANI GFPGGVAWAM
+Sbjct: 187 GLDERELRSLNGTRVTDEIINLVPEPSTFRLALRAIKLWAQRRAIYANIMGFPGGVAWAM 246
+
+Query: 239 LVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSH 298
+           LVAR+CQLYP A S+VI+N+FF I+  W WPQPV+LK +E+GPLQVRVWNPK+Y  D+ H
+Sbjct: 247 LVARVCQLYPKATSSVIVNKFFHIMRRWPWPQPVLLKAVEEGPLQVRVWNPKLYRGDQFH 306
+
+Query: 299 RMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFR- 357
+            MP+ITPAYPSMCAT NIT+S   VI +E  RG +IT+++  +K+ W +LF K+ FF   
+Sbjct: 307 LMPIITPAYPSMCATFNITKSAMTVIQRELQRGCEITDNVMLSKRPWGDLFIKHTFFTSG 366
+
+Query: 358 YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPT 417
+           YK+Y+ +   T  + E H  WSG VESKVR+LV  LE    I IAH F K ++  + C  
+Sbjct: 367 YKYYISVVT-TSTTKEAHKIWSGYVESKVRVLVQGLEQHQSIAIAHAFNKGYDRRHVCHN 425
+
+Query: 418 EDDYEMIQD-----------------KYGSHKTETALNALKLVTDENKE----------- 449
+           E +   +Q+                 +    KTE  L    L  D   E           
+Sbjct: 426 ETELSQVQEGSLQYLAGQETIETPNPEIADAKTEGGLALDDLPVDGATETGIEANGNGEG 485
+
+Query: 450 -EESIKDAPK-AYLSTMYIGLDFNIENKKEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNL 507
+            EE ++  P   + +T YIGL+       + +D+      F  LC  + E Y   K+ +L
+Sbjct: 486 VEEEVQIWPTDVFTTTHYIGLELG--EGAKSLDLSYQVDSFKQLCGQW-EKY-SAKLNHL 541
+
+Query: 508 ALRFVKGYDLPDEVFDENEKRPSKKSKR-KNLDARHETVKRSKSDAA 553
+            ++ V+ ++LPD++F+  EK+P K+ KR    +   +T KR  S+ A
+Sbjct: 542 TVQHVRNFNLPDDLFEPGEKKPQKQQKRAAGANGSAQTKKRGASEEA 588
+
+
+>EGY13366 pep:novel supercontig:GCA_000150675.1:supercont1.1:166582:167703:1
+           gene:VDAG_00048 transcript:EGY13366
+           description:"hypothetical protein"
+          Length = 321
+
+ Score = 30.0 bits (66), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 31/59 (52%), Gaps = 3/59 (5%)
+
+Query: 392 KLEVLAGIKIAHPFTKPFESSYCCPTEDDYEMIQDKYGSHKTE-TALNALKLVTDENKE 449
+           KLE L+GI I  P   P+E+      EDD+  IQ  Y +H+T+       K ++ E KE
+Sbjct: 13  KLEDLSGITIL-PGQNPYEA-LIKACEDDHAEIQSLYSAHRTKRNQQQKEKFLSSEYKE 69
+
+
+>EGY16144 pep:novel supercontig:GCA_000150675.1:supercont1.16:384278:386614:-
+           1 gene:VDAG_07308 transcript:EGY16144
+           description:"Poly(A) RNA polymerase cid14"
+          Length = 726
+
+ Score = 28.9 bits (63), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 23/94 (24%), Positives = 46/94 (48%), Gaps = 11/94 (11%)
+
+Query: 81  GGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVT-REDFFTVFDSLLRERKELDE------- 132
+           G ++  +GSY  G++ P +D+D ++   + ++ R   F    SL + R  L +       
+Sbjct: 450 GCEVHPFGSYMSGLYLPTADMDIVICSKEWLSGRMTAFPGGSSLYKFRAFLTQNRLADPS 509
+
+Query: 133 -IAPVPDAFVPIIKI--KFSGISIDLICARLDQP 163
+            +  +  A VP++K     +G+ +D+   R+D P
+Sbjct: 510 SVEVIAKARVPLVKYIDAVTGLRVDISFDRMDGP 543
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 5,589,136
+Number of extensions: 243552
+Number of successful extensions: 611
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 606
+Number of HSP's successfully gapped: 8
+Length of query: 568
+Length of database: 4,984,196
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 3,941,231
+Effective search space: 1848437339
+Effective search space used: 1848437339
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

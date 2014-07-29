@@ -1,0 +1,143 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00001515 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:4...   327   e-112
+CADAFLAP00001044 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2...    32   0.11 
+CADAFLAP00000849 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2...    28   2.1  
+CADAFLAP00010720 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:1...    27   5.2  
+
+>CADAFLAP00001515 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:4045932:4046804:-1
+           gene:CADAFLAG00001515 transcript:CADAFLAT00001515
+           description:"Transcription/RNA-processing factor Ssu72 "
+          Length = 290
+
+ Score =  327 bits (837), Expect = e-112,   Method: Compositional matrix adjust.
+ Identities = 157/247 (63%), Positives = 187/247 (75%), Gaps = 4/247 (1%)
+
+Query: 17  AAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKAN--YPVISFGTGSLVRLPGPTITQ 74
+           A  ++ + D +KL+FCTVCASNQNRSMEAHL+LS A   +PVISFGTGSLVRLPGP+ITQ
+Sbjct: 44  APTQEQQSDSYKLRFCTVCASNQNRSMEAHLRLSTAPSPFPVISFGTGSLVRLPGPSITQ 103
+
+Query: 75  PNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEH 134
+           PNVY FN+TSY  MY+EL  KD RLY  NG+LNMLERNRN+K GPER+QDW  G+PR++H
+Sbjct: 104 PNVYNFNTTSYSQMYEELYSKDERLYRNNGLLNMLERNRNLKWGPERFQDWVPGMPRVDH 163
+
+Query: 135 AS--DRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAA 192
+            +  D+G+ GTE GVVD++ TCEERCWDAVV+DL  +GS LNRPVHV NVDIKDNHEEA 
+Sbjct: 164 VAKGDKGALGTEGGVVDVIITCEERCWDAVVDDLMNKGSLLNRPVHVFNVDIKDNHEEAL 223
+
+Query: 193 VGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPA 252
+           VGG+ IL+LAN LN AA +ER                     +V ++LA WQE+WPNLPA
+Sbjct: 224 VGGKAILELANRLNEAAVQERKANNSEGWENGTGEARRSFDEKVPEILAAWQEKWPNLPA 283
+
+Query: 253 TWTLAWF 259
+            WTLAW 
+Sbjct: 284 LWTLAWL 290
+
+
+>CADAFLAP00001044 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2782013:2782714:-1
+           gene:CADAFLAG00001044 transcript:CADAFLAT00001044
+           description:"Putative uncharacterized protein "
+          Length = 233
+
+ Score = 32.0 bits (71), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 37/84 (44%), Gaps = 8/84 (9%)
+
+Query: 37  SNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQP----NVYKFNSTSYDAMY--- 89
+           S   R ME     S+   P +      L+ L   T+T+P    N ++     YD ++   
+Sbjct: 4   SESAREMETQKSGSQPEEPTVEGPIWRLIPLGFETLTEPGERINKFQEELVKYDPVFCLV 63
+
+Query: 90  -KELEGKDRRLYTANGILNMLERN 112
+              LE K  +LYT   ++++ ERN
+Sbjct: 64  TPSLESKKVQLYTHKLVIDLTERN 87
+
+
+>CADAFLAP00000849 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2276983:2278983:-1
+           gene:CADAFLAG00000849 transcript:CADAFLAT00000849
+           description:"Putative uncharacterized protein "
+          Length = 453
+
+ Score = 28.5 bits (62), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 25/40 (62%), Gaps = 1/40 (2%)
+
+Query: 109 LERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+           LE+N+  K  P    + Q+G+PR + +SD+  E TE G+V
+Sbjct: 94  LEQNKRDKSLPGLKLEKQLGLPRHKMSSDK-PEVTEVGMV 132
+
+
+>CADAFLAP00010720 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:1763254:1764484:-1
+           gene:CADAFLAG00010720 transcript:CADAFLAT00010720
+           description:"Isopenicillin N-CoA epimerase, putative "
+          Length = 381
+
+ Score = 27.3 bits (59), Expect = 5.2,   Method: Compositional matrix adjust.
+ Identities = 20/70 (28%), Positives = 32/70 (45%), Gaps = 7/70 (10%)
+
+Query: 49  LSKANYPVISFGTGSLVRL---PGPTITQPN----VYKFNSTSYDAMYKELEGKDRRLYT 101
+           L+KA+  +  +  G L RL   P   + + N    V +      D  YK++ G D     
+Sbjct: 72  LAKADILIDPYRPGVLERLGLSPSEVLLKYNPRLIVARMTGFRRDGKYKDMAGHDINYIA 131
+
+Query: 102 ANGILNMLER 111
+            +G+L+ML R
+Sbjct: 132 VSGVLSMLGR 141
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 3,029,320
+Number of extensions: 122379
+Number of successful extensions: 268
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 265
+Number of HSP's successfully gapped: 6
+Length of query: 259
+Length of database: 5,672,061
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,431,257
+Effective search space: 740019919
+Effective search space used: 740019919
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

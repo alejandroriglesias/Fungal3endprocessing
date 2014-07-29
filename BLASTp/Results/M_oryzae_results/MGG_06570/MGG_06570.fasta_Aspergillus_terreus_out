@@ -1,0 +1,229 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00009320 pep:known supercontig:CADRE:1.6:686317:689405:-...   832   0.0  
+CADATEAP00004383 pep:known supercontig:CADRE:1.7:521246:524340:-...    68   7e-12
+CADATEAP00002463 pep:known supercontig:CADRE:1.2:1780625:1782041...    30   3.1  
+CADATEAP00006030 pep:known supercontig:CADRE:1.1:957282:964379:-...    30   4.4  
+CADATEAP00000844 pep:known supercontig:CADRE:1.8:1479449:1480265...    28   9.8  
+
+>CADATEAP00009320 pep:known supercontig:CADRE:1.6:686317:689405:-1
+            gene:CADATEAG00009320 transcript:CADATEAT00009320
+            description:"Putative uncharacterized protein"
+          Length = 1005
+
+ Score =  832 bits (2150), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 490/1033 (47%), Positives = 631/1033 (61%), Gaps = 99/1033 (9%)
+
+Query: 1    MFTFSPLQGALSEATASQS-LLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILL 59
+            MFTF+PL GA S ++ +   +LE DGG+K+L+D+GWD+TFD   L+E+EK VPTLSLILL
+Sbjct: 1    MFTFTPLLGAQSSSSKASQSILEFDGGIKILVDVGWDDTFDPLVLQELEKHVPTLSLILL 60
+
+Query: 60   THATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALA 119
+            THAT  H+ A VHCCK FPLF +IP+YAT P I LGRTL+QDLY+S P AAT +P ++++
+Sbjct: 61   THATPAHIGAFVHCCKTFPLFTQIPVYATSPVIALGRTLLQDLYASAPLAATFLPKASIS 120
+
+Query: 120  E-----ASYSFSQTQTNGHG---------FLLQAPSPDEIAKYFSLIQPLKYSQPHQPLA 165
+            E     ++ S   T T G G          LLQ P+ +EIA+YFSLI PLKYSQPHQP  
+Sbjct: 121  EPGAGTSAASAGATATEGEGSADAPHPSRILLQPPTNEEIARYFSLIHPLKYSQPHQPSP 180
+
+Query: 166  SPFSPPLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXX 225
+            SPFSPPLNGLT+TAYNAGH++GGTIWHIQHGMESIVYAVDWN AR++V            
+Sbjct: 181  SPFSPPLNGLTLTAYNAGHTVGGTIWHIQHGMESIVYAVDWNQARESVVAGAAWFGGPGA 240
+
+Query: 226  XXXXEVIEQLRKPTALVCSTRTAE-----GGLTRAARDKQLLDTMRMAISRGGTVLIPVD 280
+                EVIEQLRKPTALVCSTR  +     GG  R  RD  LLD +R  +++GGTVLIP D
+Sbjct: 241  SGT-EVIEQLRKPTALVCSTRGGDKFALPGG--RKKRDDLLLDMIRSTLAKGGTVLIPTD 297
+
+Query: 281  SSARVLELAYLLEHAWRSEAST--EGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIV 338
+            +SARVLELAY LEHAWR  A++  E   L  A LYLAGR VH+T++LA+SM EWMD +IV
+Sbjct: 298  TSARVLELAYALEHAWRDAAASGSEDKTLKEAGLYLAGRKVHTTMRLARSMLEWMDENIV 357
+
+Query: 339  QEFEA--GAD----QGFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTD 392
+            +EFEA  G D    Q  +R                PF FK L+L++R+ ++ K+L   T 
+Sbjct: 358  REFEAAEGVDATTGQSIQRPGGQKDEKGVG-----PFTFKNLKLVERRKKLEKILADQTP 412
+
+Query: 393  ELRGKVILATDTSLEWGFSKDIISAIANDSRNMVILPE-------KPAESSRDNPSISRQ 445
+                KVILA+D+SL+WGF+K+ +  IA  S N+++L E       +  +      ++   
+Sbjct: 413  ----KVILASDSSLDWGFAKESLRLIAEGSNNLLLLTESLHKERLQEDQEGAQRRTLGGM 468
+
+Query: 446  LWRWWKERRDGVADEQSSGAGSAEQVFAGGRELQIRESKKVPLADSELSIYQQWLATQRQ 505
+            +W W++ER+DGVA E+++     EQV +GGREL   + ++ PL   E  +YQQ+LAT+RQ
+Sbjct: 469  IWDWYEERKDGVALEKAADGEMIEQVHSGGRELSWTDVRRAPLDPGEQMLYQQYLATKRQ 528
+
+Query: 506  LNATVQGGGXXXXXXXXXXXXXXXXXXXXXXXXXXNEQQGKALNASTT--QASRKKVVLQ 563
+            L    Q  G                           EQQG+ LN +T+   A+R K+ L 
+Sbjct: 529  LQDASQARGQENIDNTADALDDRSSSTSEDSE---TEQQGRVLNFTTSIAHANRSKLGLS 585
+
+Query: 564  DEDLGVMILLKKPGVYDFPVKGKKGRERMFPLAVRRKRNDEFGELIRPEDYLRAEEREEN 623
+            DEDLGV ILL++  VYD+ V+GKKGRERMFP    RK+ DE+GE IRPE+YLRAEEREE 
+Sbjct: 586  DEDLGVNILLRRKHVYDWDVRGKKGRERMFPYVAPRKKGDEYGEFIRPEEYLRAEEREE- 644
+
+Query: 624  ERPDTQQLQSDGQDGFGQKRKWDD---AGSRNAANG-----LNXXXXXXXXXXXXXXXXX 675
+               D QQ +++ Q   GQKR+WD+    G R + +G     L+                 
+Sbjct: 645  --VDMQQRRTESQTKLGQKRRWDETGPGGRRLSGSGSKRQQLSDGQRRDTSVADDLSLAE 702
+
+Query: 676  SGPAPXXXXXXXXXXXXXXTGPAKLVHTSTTVSVNLRLALIDFSGLHDRRSLAMLIPLIQ 735
+             G                  GPAK  +   T+++N RLA +DF GLHD+RSL MLIPLIQ
+Sbjct: 703  DGEGGEDAVVSEDEADQSFEGPAKATYEKETLTINARLAFVDFRGLHDKRSLEMLIPLIQ 762
+
+Query: 736  PRKLILVAGSADETEAVADDCRR--------------NAIEVFTPPVGAVVDASVDTNAW 781
+            PRKLILV G   ET A+A +CR+              ++  +FTP  G VVDASVDTNAW
+Sbjct: 763  PRKLILVGGMKGETTALATECRKLLAAKAGVDVASSTDSAIIFTPANGEVVDASVDTNAW 822
+
+Query: 782  VVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQKNGIPLLIADDDGANKRQKIK--- 838
+            +VKL++ LV+RLKWQ VR LG+VT+TAQ+     A  +         D  +K+QK++   
+Sbjct: 823  MVKLSNNLVRRLKWQHVRSLGVVTLTAQVRGPDVAPPDETA------DAPSKKQKLEGEA 876
+
+Query: 839  ---------ATGVDDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAAQVLHVGELRLADLR 889
+                     AT     +PT +  DV   P LD+LP  M + +RS  + LHVG+LRLADLR
+Sbjct: 877  STTTEPDSSATTAVQAKPTTDKTDV--YPLLDILPANMAAGTRSMTRPLHVGDLRLADLR 934
+
+Query: 890  RTMQNLGHSADFRGEGTLLIDGTVVVRKTAAGRVEIESXXXXXXXXXXXXXXXXXFYAVK 949
+            + MQ  GH A+FRGEGTLLIDGTV VRK+  G++EIE+                 F AVK
+Sbjct: 935  KLMQGAGHRAEFRGEGTLLIDGTVAVRKSGTGKIEIEA--SAQASHAAPGRGVGSFLAVK 992
+
+Query: 950  KTIYDGLAVVAGA 962
+            + IY+GLAV+AG 
+Sbjct: 993  RKIYEGLAVIAGG 1005
+
+
+>CADATEAP00004383 pep:known supercontig:CADRE:1.7:521246:524340:-1
+           gene:CADATEAG00004383 transcript:CADATEAT00004383
+           description:"Putative uncharacterized protein"
+          Length = 870
+
+ Score = 68.2 bits (165), Expect = 7e-12,   Method: Compositional matrix adjust.
+ Identities = 81/381 (21%), Positives = 153/381 (40%), Gaps = 65/381 (17%)
+
+Query: 48  EKQVPTLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTP 107
+           E  + T+ ++L++H  V H SAL +         R+  + T     + + LIQD    + 
+Sbjct: 71  EFDLSTVDVLLISHFHVDHSSALPYVLSKTNFKGRV--FMTHATKAIYKWLIQDNVRVSN 128
+
+Query: 108 AAATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASP 167
+            A++S   + L              H  L   P          LI+ + ++  H      
+Sbjct: 129 TASSSDQRTTL-----------YTEHDHLSTLP----------LIETIDFNTTHT----- 162
+
+Query: 168 FSPPLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXX 227
+               +N + IT + AGH LG  ++ +     +I++  D++   D                
+Sbjct: 163 ----VNSIHITPFPAGHVLGAAMFLVSIAGLNILFTGDYSREEDR------------HLI 206
+
+Query: 228 XXEVIEQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLE 287
+             EV + ++    +  ST        R  R+  L+ ++   ++RGG VL+PV +  R  E
+Sbjct: 207 PAEVPKGVKIDVLITESTFGISSNPPRLEREAALMKSITGVLNRGGRVLMPVFALGRAQE 266
+
+Query: 288 LAYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQ 347
+           L  +L+  W +        L    +Y  G +    + + ++    M+++I         +
+Sbjct: 267 LLLILDEYWETHPE-----LQKIPIYYIGNTARRCMVVYQTYIGAMNDNI--------KR 313
+
+Query: 348 GFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLE 407
+            FR+                P+DF+++R        L+ LE   D++ G V+LA+   L+
+Sbjct: 314 LFRQRMAEAEASGDKNASAGPWDFRFVR-------SLRSLE-RFDDVGGCVMLASPGMLQ 365
+
+Query: 408 WGFSKDIISAIANDSRNMVIL 428
+            G S++++   A + RN VI+
+Sbjct: 366 SGTSRELLERWAPNERNGVIM 386
+
+
+>CADATEAP00002463 pep:known supercontig:CADRE:1.2:1780625:1782041:-1
+           gene:CADATEAG00002463 transcript:CADATEAT00002463
+           description:"Mitochondrial phosphate carrier protein 2"
+          Length = 377
+
+ Score = 30.0 bits (66), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 15/27 (55%), Positives = 18/27 (66%)
+
+Query: 140 PSPDEIAKYFSLIQPLKYSQPHQPLAS 166
+           PS D IA+ FS   PL+ SQP +P AS
+Sbjct: 3   PSEDAIARAFSPHHPLQQSQPAEPPAS 29
+
+
+>CADATEAP00006030 pep:known supercontig:CADRE:1.1:957282:964379:-1
+           gene:CADATEAG00006030 transcript:CADATEAT00006030
+           description:"Putative uncharacterized protein"
+          Length = 2211
+
+ Score = 30.0 bits (66), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 25/48 (52%), Gaps = 2/48 (4%)
+
+Query: 778 TNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQKNGIPLLI 825
+           T AW    A P  +RL W   +  G+  V+    ++PA+ ++G+P  I
+Sbjct: 82  TTAWGSPYAAPSPRRLSWSLSQDAGVGRVSRD--SSPASMRSGVPNTI 127
+
+
+>CADATEAP00000844 pep:known supercontig:CADRE:1.8:1479449:1480265:-1
+           gene:CADATEAG00000844 transcript:CADATEAT00000844
+           description:"Putative uncharacterized protein"
+          Length = 249
+
+ Score = 28.1 bits (61), Expect = 9.8,   Method: Compositional matrix adjust.
+ Identities = 16/65 (24%), Positives = 28/65 (43%), Gaps = 1/65 (1%)
+
+Query: 114 PDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLN 173
+           P+S  A   +  S   +   G L  +  P+ +  YF   +PL +++        F+ P N
+Sbjct: 84  PESEAAPNLHKLSPLLSGAVGLLFTSRDPESVLSYFDTFRPLDFARAGTVSTRSFTIP-N 142
+
+Query: 174 GLTIT 178
+           GL  +
+Sbjct: 143 GLVYS 147
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 8,836,728
+Number of extensions: 364710
+Number of successful extensions: 1078
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 1064
+Number of HSP's successfully gapped: 10
+Length of query: 962
+Length of database: 5,192,116
+Length adjustment: 103
+Effective length of query: 859
+Effective length of database: 4,120,710
+Effective search space: 3539689890
+Effective search space used: 3539689890
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

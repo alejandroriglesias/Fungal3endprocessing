@@ -1,0 +1,207 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_04619T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...  1299   0.0  
+GGTG_05894T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    62   8e-10
+GGTG_06978T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    38   0.011
+GGTG_09499T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    31   1.7  
+
+>GGTG_04619T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:6119295:6122916:
+           1 gene:GGTG_04619 transcript:GGTG_04619T0
+           description:"endoribonuclease YSH1"
+          Length = 868
+
+ Score = 1299 bits (3362), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 662/869 (76%), Positives = 697/869 (80%), Gaps = 41/869 (4%)
+
+Query: 1   MASKRKASAMNVAAPDEPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAY 60
+           MASKRKASAM  AAPDEPVDPADEL+FTCLGGGNEVGRSCHIIQY+GKTVMLDAGQHPAY
+Sbjct: 1   MASKRKASAMATAAPDEPVDPADELIFTCLGGGNEVGRSCHIIQYRGKTVMLDAGQHPAY 60
+
+Query: 61  DGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLI 120
+           DGLAALPFFDDFDLSTVDVLLISHFH+DHAASLPYVL+KTNFKGRVFMTHPTKAIYKWL+
+Sbjct: 61  DGLAALPFFDDFDLSTVDVLLISHFHIDHAASLPYVLAKTNFKGRVFMTHPTKAIYKWLM 120
+
+Query: 121 QDSVRVGNTSSNPTSQPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAM 180
+           QDSVRVGNTSSNPTSQPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAM
+Sbjct: 121 QDSVRVGNTSSNPTSQPVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLGAAM 180
+
+Query: 181 FLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQALM 240
+           FLIEIAG+N+FFTGDYSREQDRHLVSAEVPRGV+IDVLITESTYGIASHVPR+EREQALM
+Sbjct: 181 FLIEIAGLNVFFTGDYSREQDRHLVSAEVPRGVQIDVLITESTYGIASHVPRMEREQALM 240
+
+Query: 241 KSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMVVYQ 300
+           KSITGILNRGGRVLMPVFALGRAQELLLILDEYW +H EYQKVPIYYASNLARKCMVVYQ
+Sbjct: 241 KSITGILNRGGRVLMPVFALGRAQELLLILDEYWDRHSEYQKVPIYYASNLARKCMVVYQ 300
+
+Query: 301 TYVGAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVMLAS 360
+           TYVGAMNDNIKRLFRERL               PWDFK+IRSLKNLDRFDDLGPCVMLAS
+Sbjct: 301 TYVGAMNDNIKRLFRERL-AEAEAAGNVGTGGGPWDFKFIRSLKNLDRFDDLGPCVMLAS 359
+
+Query: 361 PGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAASRR 420
+           PGMLQ GVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEP+QI A+MTRNAAAASRR
+Sbjct: 360 PGMLQTGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPDQIHAVMTRNAAAASRR 419
+
+Query: 421 ADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKSKLLSL 480
+           ADGEK MIPRRCSVAEFSFAAHVDGTENREFIEEV APVVILVHGE NNMMRLKSKLLSL
+Sbjct: 420 ADGEKLMIPRRCSVAEFSFAAHVDGTENREFIEEVNAPVVILVHGEVNNMMRLKSKLLSL 479
+
+Query: 481 NATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPTRLPTDD---DYHLHPQ-- 535
+           NA KTEKVK++SPRNCEELRIPFK DK AKVVGKLA+I PPT+LP  D   D  L  Q  
+Sbjct: 480 NANKTEKVKVFSPRNCEELRIPFKADKMAKVVGKLAAIPPPTKLPPADGGLDGPLQQQQQ 539
+
+Query: 536 -LVTGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIRWALESTFGAV 594
+            L+TGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQ+I L+AAGVDLI+WALESTFGA+
+Sbjct: 540 RLITGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQRIRLSAAGVDLIKWALESTFGAI 599
+
+Query: 595 DELPEMRQL--HKEVPNGDDMILDAKXX-----------------XXXXXXXXRPVAGYI 635
+           DELPEMR+L   K+ P   D   D +                           RPVAGY+
+Sbjct: 600 DELPEMRKLARQKQAPGDVDGATDDEKQDGEEAKAEPDADGDTNMEAADEEVERPVAGYL 659
+
+Query: 636 VMGSINVRCFGSGEVELEWEGNTMNDGFADAVMAVLLTVEXXXXXXXXXXXXXXXXXXXQ 695
+           VMG +NVRCF SGE+ELEWEGN +NDGFADAVMAVLLTVE                    
+Sbjct: 660 VMGCVNVRCFASGELELEWEGNMLNDGFADAVMAVLLTVESSPAAVKRSSRKHSHSHSQD 719
+
+Query: 696 EEYVLPTRNLHARLSPXXXXXXXXXXXXAQFGADHVSPIKDPRLP--------------- 740
+           + +VLPTRNLHA LSP            AQFGADHV PIK+P+LP               
+Sbjct: 720 DSFVLPTRNLHAHLSPEERLERLFMFLEAQFGADHVEPIKEPKLPPLGEEEAKGEKSEGG 779
+
+Query: 741 VSDDTSGEAENGDDDGGXXXXXXXXXXXXXXXLHKIGIPVPGVAIKIDDKLNAKVWLEDL 800
+              D     E G   G                LHKIGIPVPGVAIKID+KLNAKVWLEDL
+Sbjct: 780 SGGDADESMEEGKPAGNEAKRLEERRRAELARLHKIGIPVPGVAIKIDEKLNAKVWLEDL 839
+
+Query: 801 EVECANKAFGDXXXXXXXXXXXXTAPLWG 829
+           EVEC+NKAFGD            TAPLWG
+Sbjct: 840 EVECSNKAFGDRVRVVVERAAEITAPLWG 868
+
+
+>GGTG_05894T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:2331429:2335245:
+           -1 gene:GGTG_05894 transcript:GGTG_05894T0
+           description:"hypothetical protein"
+          Length = 974
+
+ Score = 61.6 bits (148), Expect = 8e-10,   Method: Compositional matrix adjust.
+ Identities = 79/378 (20%), Positives = 147/378 (38%), Gaps = 66/378 (17%)
+
+Query: 76  TVDVLLISHFHVDHAASLPYVLSKTNFKGR--VFMTHPTKAIYKWLIQD--------SVR 125
+           T+ ++L++H  V H ++  +         R  V+ T P   + + LIQD        +  
+Sbjct: 53  TLSLILLTHATVPHLSAFVHCCKHFPLFARIPVYATQPVIDLGRTLIQDLYSSTPLAATT 112
+
+Query: 126 VGNTS----SNPTSQPVY---------TEQDHLNTFPQIEAIDYYTTHT---------IS 163
+           + +TS    +   SQP +         T ++    F  I+ + Y   H          ++
+Sbjct: 113 IPDTSLAEAAFSYSQPQFSNNFLLQAPTTEEIAKYFSLIQPLKYSQPHQPLASPFSPPLN 172
+
+Query: 164 SIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSA------------EVPR 211
+            + IT Y +GH LG  ++ I+    +I +  D++  +D     A            EV  
+Sbjct: 173 GLTITAYNSGHSLGGTIWHIQHGLESIVYAVDWNLARDNVYAGAAWMGSGHGSGGAEVME 232
+
+Query: 212 GVKIDVLITESTYGIASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLLILD 271
+            ++    +  S       + R  R+Q L+ ++   + RGG VL+P+ +  R  EL  +L+
+Sbjct: 233 QLRKPTALICSARAGEGGLSRGARDQQLLDTMRRTVARGGTVLIPIDSSARVLELAYLLE 292
+
+Query: 272 EYWGKHQE-------YQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLXXXXXX 324
+             W                 +Y A       + + ++    M+D+I + F          
+Sbjct: 293 HAWRSEASGVTEAGALGTAKLYLAGRSVNSTIRLAKSMFEWMDDSIVQEFEAVADQGGKR 352
+
+Query: 325 XXXXX-----XXXXPWDFKYIRSLKNLDRFD----------DLGPCVMLASPGMLQNGVS 369
+                         P+DFKY+R L    + +          +L   V+LAS   L+ G S
+Sbjct: 353 TNGNTDGGRGRDAGPFDFKYLRVLDRKAQVEKVLSQSSTPNELRGKVILASDTSLEWGFS 412
+
+Query: 370 RELLERWAPSDKNGVVIT 387
+           ++++ R A   +N V++T
+Sbjct: 413 KDVMARIADDSRNLVILT 430
+
+
+>GGTG_06978T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:5545515:5547932:
+           1 gene:GGTG_06978 transcript:GGTG_06978T0
+           description:"hypothetical protein"
+          Length = 615
+
+ Score = 38.1 bits (87), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 31/104 (29%), Positives = 49/104 (47%), Gaps = 9/104 (8%)
+
+Query: 101 NFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYTEQDHLNTFPQIEAIDYYTTH 160
+           + +G V+ + PT+ +   L +   R+ N ++      V T + HL T   ++ I   T  
+Sbjct: 13  DIRGNVYCSAPTRELLLRLERYPCRI-NYANGILEARVQTYK-HLKTL--LKPIPLETPT 68
+
+Query: 161 TIS-----SIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSRE 199
+           TI       +R+T + A H  GA MFL E  G  + +TGD   E
+Sbjct: 69  TIELEPGRRLRVTLFDANHCTGAVMFLFEGDGKAVVYTGDIRSE 112
+
+
+>GGTG_09499T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:1527478:1528623:
+           -1 gene:GGTG_09499 transcript:GGTG_09499T0
+           description:"DNA polymerase epsilon subunit C"
+          Length = 381
+
+ Score = 30.8 bits (68), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 21/85 (24%), Positives = 37/85 (43%), Gaps = 9/85 (10%)
+
+Query: 455 VAAPVVILVHGEQNNMMRLKSKLLSLNATKTEKVKIYSPRN--CEELRIPFKTDKTAKVV 512
+           VA+PV I  H       + + +L  L + +T      +P+    ++L  P  T       
+Sbjct: 156 VASPVQIQFHSSYGTPGQPQGQLYQLESPQTHPTICAAPQQNFAQQLGGPIPT------- 208
+
+Query: 513 GKLASITPPTRLPTDDDYHLHPQLV 537
+           G    + PP  + +++DYH H Q+ 
+Sbjct: 209 GHSHCLEPPPHIKSENDYHHHAQVA 233
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 9,784,710
+Number of extensions: 404934
+Number of successful extensions: 896
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 890
+Number of HSP's successfully gapped: 10
+Length of query: 829
+Length of database: 6,264,428
+Length adjustment: 103
+Effective length of query: 726
+Effective length of database: 4,783,288
+Effective search space: 3472667088
+Effective search space used: 3472667088
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

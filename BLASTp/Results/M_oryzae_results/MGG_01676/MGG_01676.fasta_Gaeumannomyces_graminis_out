@@ -1,0 +1,155 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_01921T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...   516   0.0  
+GGTG_02488T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    29   1.5  
+GGTG_07519T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    28   4.3  
+GGTG_10435T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    27   5.5  
+GGTG_03909T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    27   7.1  
+
+>GGTG_01921T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:6054204:6055812:
+           1 gene:GGTG_01921 transcript:GGTG_01921T0
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 266
+
+ Score =  516 bits (1329), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 248/267 (92%), Positives = 254/267 (95%), Gaps = 2/267 (0%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTITTTALQSGQPP+IP  FN NQP TIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTITTTALQSGQPPVIPRDFNGNQPTTIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+           EHY+AHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER
+Sbjct: 61  EHYSAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDER 120
+
+Query: 121 LAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+           LAPVGRLGEGEEAGDWQ+GDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK
+Sbjct: 121 LAPVGRLGEGEEAGDWQVGDCLAQWWRPNFETFMYPFVPAHVTRPKECKKLYFIQLPNSK 180
+
+Query: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSG-P 239
+           VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLS+YNFEFVDEQGN+VA TPG G P
+Sbjct: 181 VLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSRYNFEFVDEQGNIVAVTPGGGVP 240
+
+Query: 240 GEGDHVPKTKVLAGGDDVDMKQENGAH 266
+            E D  PKTK+LAGGDDVDM QENG H
+Sbjct: 241 TEVD-APKTKILAGGDDVDMSQENGTH 266
+
+
+>GGTG_02488T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:7799146:7805302:
+           1 gene:GGTG_02488 transcript:GGTG_02488T0
+           description:"hypothetical protein"
+          Length = 1854
+
+ Score = 29.3 bits (64), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 24/78 (30%), Positives = 32/78 (41%), Gaps = 8/78 (10%)
+
+Query: 4   ITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQ----PEEDPSVLARLKRL 59
+           +T  AL   QP  +P    A+QPE     P S  +    ET       + P V A+ K  
+Sbjct: 914 VTEKALSGQQPHGVPAQCGADQPEA----PSSKQSNAPPETHVAKAKSKSPEVFAKPKDA 969
+
+Query: 60  EEHYNAHGMRRTCEGILV 77
+           E H   +G+  T E  L 
+Sbjct: 970 ESHTLDYGLTPTVESTLT 987
+
+
+>GGTG_07519T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:332544:335634:1
+           gene:GGTG_07519 transcript:GGTG_07519T0
+           description:"CMGC/CDK/CDC2 protein kinase"
+          Length = 328
+
+ Score = 27.7 bits (60), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 17/46 (36%), Positives = 21/46 (45%), Gaps = 1/46 (2%)
+
+Query: 40  GVKETQPEEDPSVLARLKRLEEHYNAHGMRRTCEGILVCHEHNHPH 85
+           G  +  PE   S L+RL  L E+     M + CEG   CH H   H
+Sbjct: 102 GRGKALPEGSSSQLSRLG-LGENIIKKFMSQLCEGTRYCHSHRILH 146
+
+
+>GGTG_10435T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:215631:219856:1
+            gene:GGTG_10435 transcript:GGTG_10435T0
+            description:"hypothetical protein"
+          Length = 1312
+
+ Score = 27.3 bits (59), Expect = 5.5,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 19/40 (47%)
+
+Query: 224  VDEQGNVVAQTPGSGPGEGDHVPKTKVLAGGDDVDMKQEN 263
+            VD +GN   +TP S   E  H    K+L G   VD+   +
+Sbjct: 1152 VDSKGNTYGETPLSWAAEKGHEAVVKLLLGTGKVDVDSRD 1191
+
+
+>GGTG_03909T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:4012322:4015474:
+           -1 gene:GGTG_03909 transcript:GGTG_03909T0
+           description:"hypothetical protein"
+          Length = 911
+
+ Score = 26.9 bits (58), Expect = 7.1,   Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 20/35 (57%)
+
+Query: 207 PQLSAIPHLLSKYNFEFVDEQGNVVAQTPGSGPGE 241
+           PQ S+ P   +  N + VD+ G +V ++ GS P E
+Sbjct: 867 PQSSSPPSTNAGANDDIVDDTGAIVVKSQGSEPAE 901
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 4,100,699
+Number of extensions: 198013
+Number of successful extensions: 474
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 474
+Number of HSP's successfully gapped: 10
+Length of query: 266
+Length of database: 6,264,428
+Length adjustment: 93
+Effective length of query: 173
+Effective length of database: 4,927,088
+Effective search space: 852386224
+Effective search space used: 852386224
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

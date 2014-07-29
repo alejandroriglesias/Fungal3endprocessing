@@ -1,0 +1,110 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX93746 pep:novel supercontig:ASM23037v1:FP929116:800414:801587...    81   1e-17
+CBX91223 pep:novel supercontig:ASM23037v1:FP929072:35999:37733:-...    28   3.5  
+CBY01174 pep:novel supercontig:ASM23037v1:FP929138:3171426:31722...    27   7.6  
+
+>CBX93746 pep:novel supercontig:ASM23037v1:FP929116:800414:801587:-1
+           gene:LEMA_P034200.1 transcript:CBX93746
+           description:"Putative uncharacterized protein "
+          Length = 346
+
+ Score = 81.3 bits (199), Expect = 1e-17,   Method: Compositional matrix adjust.
+ Identities = 39/94 (41%), Positives = 54/94 (57%), Gaps = 4/94 (4%)
+
+Query: 125 GSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDE 184
+           G+  P +  S  D  A P + P  KPL  +++D DL E    WR PGTD +D+FNYGFDE
+Sbjct: 131 GTSYPAIRTSTLDINANPIYPPVNKPLLSIDMDADLAESQKIWRIPGTDQTDFFNYGFDE 190
+
+Query: 185 FSWAIYAQKQ----NQLRSEYSADAMSQNSKKMM 214
+           F+W +Y Q+Q    N L+ E +      N+ +MM
+Sbjct: 191 FTWELYRQRQLSMANALQLEKTQLQTMHNNMQMM 224
+
+
+>CBX91223 pep:novel supercontig:ASM23037v1:FP929072:35999:37733:-1
+           gene:LEMA_P067310.1 transcript:CBX91223
+           description:"Similar to 6-phosphogluconate dehydrogenase
+           "
+          Length = 525
+
+ Score = 28.1 bits (61), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%)
+
+Query: 90  QSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLP 129
+           Q+ +  +R +  ++V TD  APA AA  +      G+DLP
+Sbjct: 432 QNCFPALRRVVAKAVETDQVAPAMAATLEYFKISTGTDLP 471
+
+
+>CBY01174 pep:novel supercontig:ASM23037v1:FP929138:3171426:3172265:-1
+           gene:LEMA_P023040.1 transcript:CBY01174
+           description:"Putative uncharacterized protein "
+          Length = 279
+
+ Score = 26.9 bits (58), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 26/46 (56%), Gaps = 4/46 (8%)
+
+Query: 83  TSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDL 128
+           T+AAPPS    + +RSIP    +++GT    +AP  K D   G D+
+Sbjct: 48  TTAAPPSSYHLTYVRSIPG---SSEGTWHMVSAP-PKSDRETGHDI 89
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 2,143,618
+Number of extensions: 85898
+Number of successful extensions: 285
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 283
+Number of HSP's successfully gapped: 19
+Length of query: 332
+Length of database: 5,217,443
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 4,045,357
+Effective search space: 962794966
+Effective search space used: 962794966
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

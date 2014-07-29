@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_08804T0 pep:known chromosome:MG8:6:66797:69396:1 gene:MGG_08...   800   0.0  
+MGG_03406T0 pep:known chromosome:MG8:4:1991491:1995373:1 gene:MG...    31   0.72 
+MGG_10939T0 pep:known chromosome:MG8:3:6590169:6590948:1 gene:MG...    29   1.6  
+MGG_01469T0 pep:known chromosome:MG8:2:3660590:3664880:1 gene:MG...    29   3.6  
+MGG_12479T0 pep:known chromosome:MG8:2:8019471:8021427:-1 gene:M...    29   3.7  
+MGG_08614T0 pep:known chromosome:MG8:1:7576416:7578290:-1 gene:M...    28   6.2  
+MGG_06024T0 pep:known chromosome:MG8:3:2310186:2317070:1 gene:MG...    28   6.2  
+MGG_08115T0 pep:known chromosome:MG8:2:5739603:5741185:1 gene:MG...    28   8.1  
+MGG_08918T0 pep:known chromosome:MG8:2:2110382:2113139:1 gene:MG...    28   8.7  
+
+>MGG_08804T0 pep:known chromosome:MG8:6:66797:69396:1 gene:MGG_08804
+           transcript:MGG_08804T0 description:"Protein CLP1"
+          Length = 455
+
+ Score =  800 bits (2066), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 400/455 (87%), Positives = 400/455 (87%)
+
+Query: 1   MSIPGLGLIPEKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNVA 60
+           MSIPGLGLIPEKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNVA
+Sbjct: 1   MSIPGLGLIPEKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALNVA 60
+
+Query: 61  YTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXXXXXXXX 120
+           YTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQ            
+Sbjct: 61  YTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQRSREAAARNNGG 120
+
+Query: 121 XXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXXXXSAAV 180
+               PHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDAD            SAAV
+Sbjct: 121 GRSAPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADPGEGLLTLPGTLSAAV 180
+
+Query: 181 FGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXXXXXXXX 240
+           FGTVMDV                VPVKLPLVFYYGRRRVEEDRDLYKGVVN         
+Sbjct: 181 FGTVMDVASEGGWGAAPSSGPSAVPVKLPLVFYYGRRRVEEDRDLYKGVVNSISSAISAR 240
+
+Query: 241 XXDDPAVRSAGMLIDTPPYVEGKGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVK 300
+             DDPAVRSAGMLIDTPPYVEGKGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVK
+Sbjct: 241 AADDPAVRSAGMLIDTPPYVEGKGADVLIHIAEELNVNIIVTIDTPSLHTELTQRFSGVK 300
+
+Query: 301 NVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAI 360
+           NVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAI
+Sbjct: 301 NVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQVAFDELAI 360
+
+Query: 361 YTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVD 420
+           YTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVD
+Sbjct: 361 YTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVD 420
+
+Query: 421 KERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+           KERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG
+Sbjct: 421 KERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+
+
+>MGG_03406T0 pep:known chromosome:MG8:4:1991491:1995373:1 gene:MGG_03406
+           transcript:MGG_03406T0 description:"Iron-sulfur clusters
+           transporter ATM1"
+          Length = 700
+
+ Score = 31.2 bits (69), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 23/40 (57%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDAD 164
+           P G +V + G +GCG+++L+R L  +      + ++ D D
+Sbjct: 463 PAGKKVAIVGPSGCGKSTLLRLLFRFYDAQSGRILIDDQD 502
+
+
+>MGG_10939T0 pep:known chromosome:MG8:3:6590169:6590948:1 gene:MGG_10939
+           transcript:MGG_10939T0 description:"Putative
+           uncharacterized protein"
+          Length = 150
+
+ Score = 29.3 bits (64), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 18/59 (30%), Positives = 26/59 (44%)
+
+Query: 50  RDGTELALNVAYTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQ 108
+           R GT LAL +A T    +       G  +++E   DH +    D   N A L+ H  +Q
+Sbjct: 20  RKGTALALTIAVTPCAEQEPSPVTRGLEMNMEADPDHVTELESDVGYNQAMLHFHRGMQ 78
+
+
+>MGG_01469T0 pep:known chromosome:MG8:2:3660590:3664880:1 gene:MGG_01469
+           transcript:MGG_01469T0 description:"Homoserine
+           O-acetyltransferase"
+          Length = 436
+
+ Score = 28.9 bits (63), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 29/110 (26%), Positives = 47/110 (42%), Gaps = 14/110 (12%)
+
+Query: 245 PAVRSAGMLIDTPPYVEGKGADVLIHIAEELNVNIIV------TIDTPSLHTELTQRFSG 298
+           P++ +A  +I+ P  V G  +D L   AE+  +   V       ID+P  H     +F  
+Sbjct: 325 PSIANALAMIEQPTLVLGIESDGLFTFAEQEEIAEHVPNARLEKIDSPEGHDAFLLQFEQ 384
+
+Query: 299 VKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASI----KEYFFGDAKI 344
+           V     E +  V  D    +ME+D        E+S+    K   FG+A++
+Sbjct: 385 VNRYTLEFLREVLPD----IMEKDGDGSSETVESSVGQLTKSSTFGEAEV 430
+
+
+>MGG_12479T0 pep:known chromosome:MG8:2:8019471:8021427:-1 gene:MGG_12479
+           transcript:MGG_12479T0 description:"Ent-kaurene oxidase"
+          Length = 519
+
+ Score = 28.9 bits (63), Expect = 3.7,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 32/69 (46%), Gaps = 8/69 (11%)
+
+Query: 376 LERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGR 435
+           L+ +P  L  +A W +  M        H+ R    +    VAA+  ERRR + + PVS  
+Sbjct: 226 LDLVPPLLRPLAQWCIPAM--------HRGRRQLATARGLVAAMIDERRRRQEVQPVSSD 277
+
+Query: 436 LGDKPLVWG 444
+            G+K  V G
+Sbjct: 278 GGEKKQVVG 286
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 4,956,737
+Number of extensions: 202951
+Number of successful extensions: 565
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 563
+Number of HSP's successfully gapped: 12
+Length of query: 455
+Length of database: 5,666,059
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,428,824
+Effective search space: 1585518992
+Effective search space used: 1585518992
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

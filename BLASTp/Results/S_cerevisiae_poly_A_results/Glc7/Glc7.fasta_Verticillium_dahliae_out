@@ -1,0 +1,239 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY14932 pep:novel supercontig:GCA_000150675.1:supercont1.12:447...   583   0.0  
+EGY15203 pep:novel supercontig:GCA_000150675.1:supercont1.13:299...   414   e-142
+EGY13860 pep:novel supercontig:GCA_000150675.1:supercont1.1:1785...   286   7e-95
+EGY16742 pep:novel supercontig:GCA_000150675.1:supercont1.18:376...   232   6e-74
+EGY20006 pep:novel supercontig:GCA_000150675.1:supercont1.3:1236...   204   8e-63
+EGY18027 pep:novel supercontig:GCA_000150675.1:supercont1.20:200...   194   1e-57
+EGY18035 pep:novel supercontig:GCA_000150675.1:supercont1.20:216...   181   3e-52
+EGY13802 pep:novel supercontig:GCA_000150675.1:supercont1.1:1614...   144   1e-39
+EGY21103 pep:novel supercontig:GCA_000150675.1:supercont1.4:8707...    36   0.011
+
+>EGY14932 pep:novel supercontig:GCA_000150675.1:supercont1.12:447243:450238:1
+           gene:VDAG_06422 transcript:EGY14932
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 308
+
+ Score =  583 bits (1504), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 280/309 (90%), Positives = 293/309 (94%), Gaps = 3/309 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   +D+DN+IDRLLEVRGS+PG+QV L E+EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQHEIDLDNVIDRLLEVRGSRPGKQVQLLESEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK- 301
+
+Query: 302 LPRQAGGRK 310
+             +Q  GR+
+Sbjct: 302 --KQKFGRR 308
+
+
+>EGY15203 pep:novel supercontig:GCA_000150675.1:supercont1.13:299537:301224:1
+           gene:VDAG_06057 transcript:EGY15203
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 517
+
+ Score =  414 bits (1063), Expect = e-142,   Method: Compositional matrix adjust.
+ Identities = 194/310 (62%), Positives = 237/310 (76%), Gaps = 3/310 (0%)
+
+Query: 6   VDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDI 64
+           +D+D+ I RLL+     K  + V L+  EI  +C +AR + + QP LLEL+AP+KI GD+
+Sbjct: 192 MDLDDYIKRLLDAAYAGKVTKGVCLKNAEIVAICQRAREVLLTQPALLELDAPVKIVGDV 251
+
+Query: 65  HGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNH 124
+           HGQY DL+R+FE  GFPP SNYLFLGDYVDRGKQSLETI LLL YK+K+P+NFF+LRGNH
+Sbjct: 252 HGQYTDLIRMFEMCGFPPSSNYLFLGDYVDRGKQSLETILLLLCYKVKFPDNFFLLRGNH 311
+
+Query: 125 ECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQ 184
+           ECA++ R+YGFYDECKRR N+K+WKTF DCFN LPIAA++  KIFC+HGGLSP LN M+ 
+Sbjct: 312 ECANVTRVYGFYDECKRRCNVKIWKTFIDCFNTLPIAAVVAGKIFCVHGGLSPALNHMDD 371
+
+Query: 185 IRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELIC 244
+           IR + RPTDIPD GLL DL+W+DP +    W  N+RGVS+ FG  V+  FL K D +LIC
+Sbjct: 372 IRGIARPTDIPDYGLLNDLVWADPAEMDSDWEANERGVSYCFGKTVIEDFLAKHDFDLIC 431
+
+Query: 245 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSLPR 304
+           RAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP   S  +
+Sbjct: 432 RAHMVVEDGYEFFTDRLLVTVFSAPNYCGEFDNWGAVMSVSSELLCSFELLKPLDSSALK 491
+
+Query: 305 Q--AGGRKKK 312
+                GR K+
+Sbjct: 492 SHIKKGRNKR 501
+
+
+>EGY13860 pep:novel supercontig:GCA_000150675.1:supercont1.1:1785101:1787250:
+           -1 gene:VDAG_00542 transcript:EGY13860
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 324
+
+ Score =  286 bits (732), Expect = 7e-95,   Method: Compositional matrix adjust.
+ Identities = 132/274 (48%), Positives = 187/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E +++ LC KAR +  ++  +  ++ P+ +CGDIHGQ++DL+ LF+ GG  P++NYLF
+Sbjct: 38  LAETDVQRLCEKAREVLQEESNVQPVKCPVTVCGDIHGQFHDLMELFKIGGPNPDTNYLF 97
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 98  MGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANV 157
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 158 WKFFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSD 217
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + LI RAHQ+V +GY +   R +VT+FS
+Sbjct: 218 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLIARAHQLVMEGYNWSQDRNVVTIFS 276
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 277 APNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 310
+
+
+>EGY16742 pep:novel supercontig:GCA_000150675.1:supercont1.18:376621:377841:1
+           gene:VDAG_07906 transcript:EGY16742
+           description:"serine/threonine-protein phosphatase PP2A-3
+           catalytic subunit"
+          Length = 312
+
+ Score =  232 bits (592), Expect = 6e-74,   Method: Compositional matrix adjust.
+ Identities = 119/304 (39%), Positives = 184/304 (60%), Gaps = 20/304 (6%)
+
+Query: 1   MDSQP--VDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPI 58
+           M S P  VD+D  I RL         ++  L E  I  +C+K + + +++  ++ + AP+
+Sbjct: 1   MPSLPSSVDLDECISRLY--------KKELLAEPVIEAICAKTKELLMRESNVVHVRAPV 52
+
+Query: 59  KICGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFF 118
+            + GDIHGQ+YDL+ +F+ GG+ P++NYLFLGDYVDRG  S+ETI LL+  K++YP+   
+Sbjct: 53  TVVGDIHGQFYDLIEIFKIGGWCPDTNYLFLGDYVDRGMFSVETISLLVCLKLRYPDRVH 112
+
+Query: 119 ILRGNHECASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSP 177
+           ++RGNHE   + + YGFY EC R+Y N  +W  FTD F+ L ++ +I+  IFC+HG    
+Sbjct: 113 LIRGNHESRGVTQSYGFYTECSRKYGNANVWHYFTDMFDFLTLSVVINNDIFCVHG---- 168
+
+Query: 178 DLNSMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQK 237
+                +QI  + R  +IP  G + DL+WSDPD D   +S + RG  +TFG  VV +FL  
+Sbjct: 169 -----DQIVVIDRFREIPHEGPMADLVWSDPDPDRDEFSLSPRGAGYTFGAQVVKKFLAV 223
+
+Query: 238 QDMELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 297
+            +M  I RAHQ+ ++G++     +L T++SAPNYC    N  +++ V ++    F +   
+Sbjct: 224 NNMSHILRAHQLCQEGFQVLYDDRLSTVWSAPNYCYRCGNMASVLEVSDTGERFFNVFAA 283
+
+Query: 298 AQKS 301
+           A ++
+Sbjct: 284 APEN 287
+
+
+>EGY20006 pep:novel supercontig:GCA_000150675.1:supercont1.3:1236781:1238118:
+           1 gene:VDAG_02022 transcript:EGY20006
+           description:"serine/threonine-protein phosphatase PP1-1"
+          Length = 347
+
+ Score =  204 bits (519), Expect = 8e-63,   Method: Compositional matrix adjust.
+ Identities = 97/231 (41%), Positives = 148/231 (64%), Gaps = 6/231 (2%)
+
+Query: 83  ESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRR 142
+           ++ ++FLGD+VDRG  SLET  LL+  K KYP+   ++RGNHE   I ++YGFY+EC+++
+Sbjct: 112 DTRFVFLGDFVDRGYFSLETFTLLMCLKAKYPDRIVLVRGNHESRQITQVYGFYEECQQK 171
+
+Query: 143 Y-NIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLC 201
+           Y N  +WK     F+ L +AAI+D ++ C+HGGLSP++ +++QIR V R  +IP  G  C
+Sbjct: 172 YGNASVWKACCHVFDFLVLAAIVDGELLCVHGGLSPEIRTIDQIRVVARAQEIPHEGAFC 231
+
+Query: 202 DLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEF-FSKR 260
+           DL+WSDP+ D+  W+ + RG  + FG  V   F     ++LI RAHQ+V +GY++ F + 
+Sbjct: 232 DLVWSDPE-DVETWAISPRGAGWLFGDKVATEFNHVNGLKLIARAHQLVNEGYKYHFQQN 290
+
+Query: 261 QLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA---QKSLPRQAGG 308
+            +VT++SAPNYC    N  ++M+VD+ +   F I       Q+ +P    G
+Sbjct: 291 SVVTVWSAPNYCYRCGNVASIMTVDKEMNPKFSIFSAVPDEQRHVPANRRG 341
+
+
+
+ Score = 44.3 bits (103), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 20/32 (62%), Positives = 24/32 (75%), Gaps = 1/32 (3%)
+
+Query: 55 EAPIKICGDIHGQYYDLLRLFEY-GGFPPESN 85
+          E  +++CGDIHGQ+YDLL LF   GG P ESN
+Sbjct: 10 EVLMEVCGDIHGQFYDLLELFRVAGGMPGESN 41
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 3,357,007
+Number of extensions: 145930
+Number of successful extensions: 266
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 255
+Number of HSP's successfully gapped: 12
+Length of query: 312
+Length of database: 4,984,196
+Length adjustment: 93
+Effective length of query: 219
+Effective length of database: 4,004,441
+Effective search space: 876972579
+Effective search space used: 876972579
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 52 (24.6 bits)

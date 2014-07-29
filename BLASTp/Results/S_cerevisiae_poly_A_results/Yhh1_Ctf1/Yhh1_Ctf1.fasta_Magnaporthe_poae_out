@@ -1,0 +1,182 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding subunit of the mRNA cleavage and polyadenylation
+factor; involved in poly(A) site recognition and required for both
+pre-mRNA cleavage and polyadenylation, 51% sequence similarity with
+mammalian AAUAA-binding subunit of CPSF
+         (1357 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_07575T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   226   4e-60
+MAPG_01349T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    37   0.040
+
+>MAPG_07575T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:2100712:210
+            5683:-1 gene:MAPG_07575 transcript:MAPG_07575T0
+            description:"cft-1"
+          Length = 1351
+
+ Score =  226 bits (575), Expect = 4e-60,   Method: Compositional matrix adjust.
+ Identities = 295/1285 (22%), Positives = 512/1285 (39%), Gaps = 169/1285 (13%)
+
+Query: 47   KLYLTDEFKFHGLITDIGLIPQKDSPLS-------------CLLLCTGVAKISILKFNTL 93
+            K+ L  EF   G +T  GL   K   +S              LL+    AK+S++ ++  
+Sbjct: 97   KIVLIAEFPLSGTVT--GLARVKPPSVSKTSSGSSSGGGGDLLLIAFKDAKLSLVAWDAE 154
+
+Query: 94   TNSIDTLSLHYYE-----GKFKGKSLVELAKISTLRMDPGSSCALL-FNNDIIAFLPFHV 147
+              S++TLS+HYYE     G      L + A    L  DPGS CA L F    +A LPF  
+Sbjct: 155  RRSLETLSIHYYEQDELQGSPWESPLSDYANF--LVADPGSRCAALKFGPRSLAILPFKQ 212
+
+Query: 148  NKNXXXXXXXXXXXXXXXXXLIHSMNQKSQGTNTFNKRKRTKLGDKFTAPSVVLVASELY 207
+                                     +    GT+T          D   +PS VL    L 
+Sbjct: 213  ADEDIGMGDWDEALDGPRPAQSQPASVAINGTSTIE--------DTPYSPSFVLRLPNLD 264
+
+Query: 208  EGAKNIIDIQFLKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILTLNIQPAESATKIE 267
+                + + + FL  + +PT  +L     +   N    K    Y + TL++Q      +  
+Sbjct: 265  PALLHPVHLAFLYEYREPTFGILSSS--LTPSNCLGRKDHLTYTVFTLDLQ------QKA 316
+
+Query: 268  STTIAFVKELPWDLHTIV----PVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADKELQ 323
+            STTI  V  LP DL  ++    PV  GA++VG NEL  +D +G     V +N    K+  
+Sbjct: 317  STTILSVSGLPKDLTRVIALPAPV-GGALLVGANELIHVDQSGKANG-VAVNPLT-KQCT 373
+
+Query: 324  KTKIINNSSLEIMFREKNTTSIWIPXXXXXXXXXXXDETLLLMDLKSNIYYIQMEAEGRL 383
+               + ++S L +   E  T  +               E L++++    +  I    +GR 
+Sbjct: 374  SFGLADHSDLNLRL-EGCTIEV---------LSAEHGELLVVLN-DGRLATITFHIDGRT 422
+
+Query: 384  LIKFDIFKLPIVNDLLKENSNPKCITRLNATNSNKNMDLFIGFGSGNALVLRLNNLKSTI 443
+            +      K+ ++      N  P  ++ L+    N    +F+G   G++ V+  N   S +
+Sbjct: 423  VSG---LKVRVIPPEAGGNLLPTAVSCLSRIGRNA---MFVGSERGDSAVIGWNRRSSQV 476
+
+Query: 444  ETREAH------NPSSGTNSLMXXXXXXXXXXXXXXXXXAPENGLTTNDSKGTVETVQPF 497
+              +++       +     + L                      GL ++ +K     ++  
+Sbjct: 477  SRKKSRVQDPDLDLDIDFDDLEDYDEDDDDDLYGDTEKTTAAAGLASSQAK-----LEDL 531
+
+Query: 498  DIELLSSLRNVGPITSLTVGKVSSIDDVVKGLPN--PNKNEYSLVATSGNGSGSHLTVIQ 555
+                   L ++ PI  +  GK     +   G  +    ++E  LVA  G    S L ++ 
+Sbjct: 532  VFRCHDRLISIAPIRDMVYGKPPPPPENEAGSKDSTSTQSELQLVAVVGRDKASSLAIMN 591
+
+Query: 556  TSVQPEIELALKFISITQIWNLKI-----------KGR-------------DRYLITTDS 591
+              + P       F     +W L             KG              D++++    
+Sbjct: 592  REMTPVSIGRFDFPEARGLWTLACQKPLPKVLQGEKGNKPVGGDFGVPVQYDKFMVV--- 648
+
+Query: 592  TKSRSDIYESDNNFKLHKGGRLRRDAT--------TVYISMFGEEKRIIQVTTNHLYLYD 643
+             K   D +ES N + L   G  +   T        T+     G   +IIQ+  + +  YD
+Sbjct: 649  AKEDDDNFESSNIYVLTAAGFEKLVGTEFEPAAGFTIEAGTMGNHTKIIQILKSEVRCYD 708
+
+Query: 644  THFRRLTTIK-FDYEVIH------VSVMDPYILVTVSRGDIKIFXXXXXXXXXXXXVDLP 696
+                    I   D E  H       S+ DPY+L+   R D   F            ++  
+Sbjct: 709  GDLGLTQIIPMLDEETNHEPRATSASIADPYLLII--RDDSSAFIAHVNEDSEIEEIEKE 766
+
+Query: 697  EILNEMVITSGLILKSNMCNEFLIGLS----KSQEEQLLFTFVTADNQIIFFTKDHNDRI 752
+            + + +        L ++    F    +    K  E  ++F         I+   D +  I
+Sbjct: 767  DKVIKTTKWIAGSLYADSRGAFASAQTDKSVKPTESVVMFLLSAVGALYIYALPDISKPI 826
+
+Query: 753  FQLNG---VDQLNESLYISTYQLGDEIVPDPSIKQVMINKLGHDN-KEEYLTILTFGGEI 808
+            +   G   V  L  + Y        E     S+ ++M+  LG    K  +L +     ++
+Sbjct: 827  YVAEGLCYVPPLLSADYAPRKGTSRE-----SLSELMVTDLGDTTFKSPHLILRHSNDDL 881
+
+Query: 809  YQYRKLPQRRSRFYRNVTRNDLAITGAPDNAYAK---------GVSSIERI-MHYFPDYN 858
+              Y   P +++   + ++ + L     P+ A AK           +S  R+ +    +  
+Sbjct: 882  TIYE--PFKKTESSQGLS-DTLRFRKLPNPAVAKSQDTKVSDDAPASTRRMPLRACGNIA 938
+
+Query: 859  GYSVIFVTGSVPYILIKEDDSTPKIFKFGNIPLVSVTPW----SERSVMCVDDIKNARVY 914
+            GYS +F+ G  P  LIK   STPK+       + +++P+     ER  +  D    ARV 
+Sbjct: 939  GYSCVFLPGHSPSFLIKSSKSTPKVIGLQGPGVRAMSPFHTEGCERGFIYADYEGVARVA 998
+
+Query: 915  TLTTDNMYYGNKLPLKQIKISNVLDDYKTLQKLVYHERAQLFLVSYCKRVPYEALGEDGE 974
+             + +D  +    L +K++ ++   D       + YH  + +++V+     P+E   +D  
+Sbjct: 999  QIPSDCSFAELGLSVKKVPLNMDADG------IAYHTPSGVYVVTCSFWEPFELPSDDEY 1052
+
+Query: 975  KVIGYDENV---PHAEGFQSGILLINPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKR 1031
+                  EN+   P  E   S + +INP +W  I   +F KN V   ++S  ++++  T  
+Sbjct: 1053 HREWAKENITFKPQTE--HSVLKVINPVNWSEIWSEEFDKNEVAMCIKSLNLEVSQSTNE 1110
+
+Query: 1032 KREYIIAGVANATTEDTPPTGAFHIYDVIEVVPEPGKPDTNYKLKEIFQEEVS-GTVSTV 1090
+            +R  I  G A    ED P  G  ++YD+  VVP+  +P+T+ KLK + ++EV  G V+ +
+Sbjct: 1111 RRHLITVGTAICKGEDLPVRGCVYVYDLASVVPQKDRPETDKKLKLMAKDEVPRGAVTAL 1170
+
+Query: 1091 CEVS--GRFMISQSQKVLVRDIQEDNSVIPVAFLDIPVFVTDSKSFG--NLLIIGDAMQG 1146
+             E+   G  +++Q QK LVR + ED  ++PVAF+D+  +V+ +K         + DA +G
+Sbjct: 1171 SEIGTQGLMLVAQGQKCLVRGLGEDGRLLPVAFMDMNCYVSCAKELPGTGFCAMADAFKG 1230
+
+Query: 1147 FQFIGFDAEPYRMISLGRSMSKFQTMSLEFLVNGGDMYFAATDADRNVHVLKYAPDEPNS 1206
+              F G+   PY+M+  G+S +  + ++++FL +G D+   A DA+ N+H+ ++ P+ P S
+Sbjct: 1231 VWFTGYTEGPYKMMMFGKSSTNLEVINVDFLPDGRDLLLVAADAEGNLHIFQFDPEHPKS 1290
+
+Query: 1207 LSGQRLVHCSSFTL---HSTNSCMM 1228
+            L G  L++ ++F+    H   S +M
+Sbjct: 1291 LQGHLLLNRTTFSTGAHHPQKSLLM 1315
+
+
+>MAPG_01349T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:4414631:4
+           418605:1 gene:MAPG_01349 transcript:MAPG_01349T0
+           description:"hypothetical protein"
+          Length = 1155
+
+ Score = 37.0 bits (84), Expect = 0.040,   Method: Compositional matrix adjust.
+ Identities = 27/91 (29%), Positives = 43/91 (47%), Gaps = 1/91 (1%)
+
+Query: 10  ATVVSHSLATHFTTSDYEELLVVRTNILSVYRPTRDGKLYLTDEFKFHGLITDIGLIPQK 69
+           ++ V H+L           L++ ++N L V++ T DG L LT     HG I  +  +  K
+Sbjct: 10  SSSVRHALQVRLLPESEPCLVLAKSNRLEVWQIT-DGHLTLTHSKTIHGTIVMLQALQPK 68
+
+Query: 70  DSPLSCLLLCTGVAKISILKFNTLTNSIDTL 100
+           DSP   LL+ T   +   + +N  T  + TL
+Sbjct: 69  DSPTEMLLVGTDRFRYFSVIWNRQTRELQTL 99
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.319    0.136    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 11,997,343
+Number of extensions: 488859
+Number of successful extensions: 884
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 879
+Number of HSP's successfully gapped: 4
+Length of query: 1357
+Length of database: 4,928,244
+Length adjustment: 105
+Effective length of query: 1252
+Effective length of database: 3,734,394
+Effective search space: 4675461288
+Effective search space used: 4675461288
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 58 (26.9 bits)

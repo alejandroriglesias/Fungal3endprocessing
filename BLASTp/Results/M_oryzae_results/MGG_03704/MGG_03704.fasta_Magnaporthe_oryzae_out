@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_03704T0 pep:known chromosome:MG8:4:963329:964748:1 gene:MGG_...   498   e-180
+MGG_07445T1 pep:known chromosome:MG8:3:665986:668956:1 gene:MGG_...    27   7.4  
+MGG_07445T0 pep:known chromosome:MG8:3:666540:667809:1 gene:MGG_...    27   7.7  
+
+>MGG_03704T0 pep:known chromosome:MG8:4:963329:964748:1 gene:MGG_03704
+           transcript:MGG_03704T0 description:"RNA polymerase II
+           subunit A domain phosphatase SSU72"
+          Length = 259
+
+ Score =  498 bits (1281), Expect = e-180,   Method: Compositional matrix adjust.
+ Identities = 241/259 (93%), Positives = 241/259 (93%)
+
+Query: 1   MEQPQTDAVGGLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFG 60
+           MEQPQTDAVGGLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFG
+Sbjct: 1   MEQPQTDAVGGLSQTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFG 60
+
+Query: 61  TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPE 120
+           TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPE
+Sbjct: 61  TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPE 120
+
+Query: 121 RWQDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVI 180
+           RWQDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVI
+Sbjct: 121 RWQDWQIGIPRLEHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVI 180
+
+Query: 181 NVDIKDNHEEAAVGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVL 240
+           NVDIKDNHEEAAVGGQGILDLANSLNRAAAEERDKI                  RVADVL
+Sbjct: 181 NVDIKDNHEEAAVGGQGILDLANSLNRAAAEERDKIGAAGFDSGSAAARSGFDDRVADVL 240
+
+Query: 241 AEWQERWPNLPATWTLAWF 259
+           AEWQERWPNLPATWTLAWF
+Sbjct: 241 AEWQERWPNLPATWTLAWF 259
+
+
+>MGG_07445T1 pep:known chromosome:MG8:3:665986:668956:1 gene:MGG_07445
+           transcript:MGG_07445T1 description:"Putative
+           uncharacterized protein"
+          Length = 342
+
+ Score = 26.6 bits (57), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 18/39 (46%)
+
+Query: 91  ELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGI 129
+           E+ GKD     +N  L  L R   + RGP   +DW   +
+Sbjct: 189 EVHGKDITAGLSNEALQNLSRATTMARGPISKKDWDTSV 227
+
+
+>MGG_07445T0 pep:known chromosome:MG8:3:666540:667809:1 gene:MGG_07445
+           transcript:MGG_07445T0 description:"Putative
+           uncharacterized protein"
+          Length = 362
+
+ Score = 26.6 bits (57), Expect = 7.7,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 18/39 (46%)
+
+Query: 91  ELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGI 129
+           E+ GKD     +N  L  L R   + RGP   +DW   +
+Sbjct: 189 EVHGKDITAGLSNEALQNLSRATTMARGPISKKDWDTSV 227
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 3,070,595
+Number of extensions: 124773
+Number of successful extensions: 270
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 269
+Number of HSP's successfully gapped: 9
+Length of query: 259
+Length of database: 5,666,059
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,492,599
+Effective search space: 750264033
+Effective search space used: 750264033
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

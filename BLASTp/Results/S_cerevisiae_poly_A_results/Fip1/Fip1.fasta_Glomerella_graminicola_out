@@ -1,0 +1,115 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ33815 pep:novel supercontig:GCA_000149035.1:GG697373:378757:3...    62   4e-11
+EFQ28459 pep:novel supercontig:GCA_000149035.1:GG697341:158261:1...    30   0.84 
+EFQ29561 pep:novel supercontig:GCA_000149035.1:GG697345:495623:4...    27   9.5  
+
+>EFQ33815 pep:novel supercontig:GCA_000149035.1:GG697373:378757:379995:1
+           gene:GLRG_08959 transcript:EFQ33815 description:"Fip1
+           domain-containing protein"
+          Length = 343
+
+ Score = 62.0 bits (149), Expect = 4e-11,   Method: Compositional matrix adjust.
+ Identities = 32/75 (42%), Positives = 48/75 (64%), Gaps = 5/75 (6%)
+
+Query: 163 SIDLDKEGIFDSVG--ITTID-PEVLKE--KPWRQPGANLSDYFNYGFNEFTWMEYLHRQ 217
+           +ID++    +  VG  IT ++  E L E  KPWR+PG ++SDYFNYGF+EFTW  Y  +Q
+Sbjct: 144 TIDVNANPDYPPVGKPITAVNIDEDLTENDKPWRKPGTDISDYFNYGFDEFTWALYAAKQ 203
+
+Query: 218 EKLQQDYNPRRILMG 232
+           E ++ +++   I  G
+Sbjct: 204 EAIRGEFSGDVIAAG 218
+
+
+>EFQ28459 pep:novel supercontig:GCA_000149035.1:GG697341:158261:159572:1
+           gene:GLRG_03603 transcript:EFQ28459
+           description:"hypothetical protein"
+          Length = 394
+
+ Score = 30.0 bits (66), Expect = 0.84,   Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 15/23 (65%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           + YLHR+  + +D  P  ILMG+
+Sbjct: 235 LRYLHRKHVIHRDIKPENILMGI 257
+
+
+>EFQ29561 pep:novel supercontig:GCA_000149035.1:GG697345:495623:497768:-1
+           gene:GLRG_04705 transcript:EFQ29561
+           description:"hypothetical protein"
+          Length = 518
+
+ Score = 26.9 bits (58), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 22/77 (28%), Positives = 33/77 (42%), Gaps = 3/77 (3%)
+
+Query: 88  GPDPTRLDAKLLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTV 147
+           GP   R  + LL   ST  T+ S D+   +TD     T  S   L+    A   V+ + +
+Sbjct: 143 GPTWVRTSSILL---STGVTTVSTDMTVTSTDSPPLPTANSTSSLVATRPATVTVSGSVI 199
+
+Query: 148 KATESDGNVPKAMTGSI 164
+               +   VP  +TGS+
+Sbjct: 200 TLISTLTGVPATLTGSV 216
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 2,670,911
+Number of extensions: 110379
+Number of successful extensions: 383
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 383
+Number of HSP's successfully gapped: 10
+Length of query: 327
+Length of database: 5,585,764
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,455,884
+Effective search space: 1038220972
+Effective search space used: 1038220972
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

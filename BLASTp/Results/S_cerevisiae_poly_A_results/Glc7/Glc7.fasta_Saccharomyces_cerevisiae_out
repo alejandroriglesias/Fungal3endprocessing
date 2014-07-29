@@ -1,0 +1,253 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YER133W pep:known chromosome:SacCer_Apr2011:V:432495:433958:1 ge...   644   0.0  
+YML016C pep:known chromosome:SacCer_Apr2011:XIII:239458:241536:-...   422   e-143
+YDR436W pep:known chromosome:SacCer_Apr2011:IV:1334821:1336953:1...   419   e-142
+YPL179W pep:known chromosome:SacCer_Apr2011:XVI:208157:209806:1 ...   384   e-130
+YDL134C pep:known chromosome:SacCer_Apr2011:IV:219662:220771:-1 ...   278   2e-91
+YDL188C pep:known chromosome:SacCer_Apr2011:IV:123865:124998:-1 ...   276   2e-90
+YDR075W pep:known chromosome:SacCer_Apr2011:IV:597156:598082:1 g...   254   7e-83
+YDL047W pep:known chromosome:SacCer_Apr2011:IV:369771:370706:1 g...   253   3e-82
+YNR032W pep:known chromosome:SacCer_Apr2011:XIV:686010:687116:1 ...   235   1e-74
+YLR433C pep:known chromosome:SacCer_Apr2011:XII:1004347:1006008:...   217   8e-66
+YML057W pep:known chromosome:SacCer_Apr2011:XIII:160180:161994:1...   215   1e-64
+YGR123C pep:known chromosome:SacCer_Apr2011:VII:736662:738203:-1...   206   4e-62
+YNL217W pep:known chromosome:SacCer_Apr2011:XIV:240331:241311:1 ...    36   0.005
+YKL002W pep:known chromosome:SacCer_Apr2011:XI:437778:438544:1 g...    28   1.7  
+YGL078C pep:known chromosome:SacCer_Apr2011:VII:360288:361859:-1...    28   2.1  
+
+>YER133W pep:known chromosome:SacCer_Apr2011:V:432495:433958:1 gene:YER133W
+           transcript:YER133W description:"Type 1 serine/threonine
+           protein phosphatase catalytic subunit, involved in many
+           processes (eg\x3a glycogen metabolism, sporulation,
+           mitosis)\x3b accumulates at mating projections by
+           interaction with Afr1p\x3b interacts with many
+           regulatory subunits"
+          Length = 312
+
+ Score =  644 bits (1661), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 312/312 (100%), Positives = 312/312 (100%)
+
+Query: 1   MDSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           MDSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI
+Sbjct: 1   MDSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+           CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL
+Sbjct: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN
+Sbjct: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+           SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM
+Sbjct: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK 300
+           ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK
+Sbjct: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK 300
+
+Query: 301 SLPRQAGGRKKK 312
+           SLPRQAGGRKKK
+Sbjct: 301 SLPRQAGGRKKK 312
+
+
+>YML016C pep:known chromosome:SacCer_Apr2011:XIII:239458:241536:-1
+           gene:YML016C transcript:YML016C
+           description:"Serine/threonine protein phosphatase Z,
+           isoform of Ppz2p\x3b involved in regulation of potassium
+           transport, which affects osmotic stability, cell cycle
+           progression, and halotolerance"
+          Length = 692
+
+ Score =  422 bits (1086), Expect = e-143,   Method: Compositional matrix adjust.
+ Identities = 197/312 (63%), Positives = 240/312 (76%), Gaps = 3/312 (0%)
+
+Query: 4   QPVDVDNIIDRLLEV-RGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICG 62
+           +P+D+D  I +LL+    +K  + V L+ NEI  +C KAR IF+ QP LLEL  P+KI G
+Sbjct: 359 KPIDIDETIQKLLDAGYAAKRTKNVCLKNNEILQICIKAREIFLSQPSLLELSPPVKIVG 418
+
+Query: 63  DIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 122
+           D+HGQY DLLRLF   GFPP SNYLFLGDYVDRGKQSLETI LL  YKIKYPENFF+LRG
+Sbjct: 419 DVHGQYGDLLRLFTKCGFPPSSNYLFLGDYVDRGKQSLETILLLFCYKIKYPENFFLLRG 478
+
+Query: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSM 182
+           NHECA++ R+YGFYDECKRR NIK+WKTF D FN LP+AAI+  KIFC+HGGLSP LNSM
+Sbjct: 479 NHECANVTRVYGFYDECKRRCNIKIWKTFIDTFNTLPLAAIVAGKIFCVHGGLSPVLNSM 538
+
+Query: 183 EQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMEL 242
+           ++IR V+RPTD+PD GL+ DLLWSDP      W +N+RGVS+ +    +N+FL K   +L
+Sbjct: 539 DEIRHVVRPTDVPDFGLINDLLWSDPTDSPNEWEDNERGVSYCYNKVAINKFLNKFGFDL 598
+
+Query: 243 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSL 302
+           +CRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV E LLCSF++L P   + 
+Sbjct: 599 VCRAHMVVEDGYEFFNDRSLVTVFSAPNYCGEFDNWGAVMSVSEGLLCSFELLDPLDSAA 658
+
+Query: 303 PRQA--GGRKKK 312
+            +Q    GR+++
+Sbjct: 659 LKQVMKKGRQER 670
+
+
+>YDR436W pep:known chromosome:SacCer_Apr2011:IV:1334821:1336953:1
+           gene:YDR436W transcript:YDR436W
+           description:"Serine/threonine protein phosphatase Z,
+           isoform of Ppz1p\x3b involved in regulation of potassium
+           transport, which affects osmotic stability, cell cycle
+           progression, and halotolerance"
+          Length = 710
+
+ Score =  419 bits (1076), Expect = e-142,   Method: Compositional matrix adjust.
+ Identities = 197/312 (63%), Positives = 240/312 (76%), Gaps = 3/312 (0%)
+
+Query: 4   QPVDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICG 62
+           +PVD+D II RLL+    +K  + V L+ +EI  +C KAR +F+ QP LLEL   +KI G
+Sbjct: 394 RPVDIDEIIQRLLDAGYAAKRTKNVCLKNSEIIQICHKARELFLAQPALLELSPSVKIVG 453
+
+Query: 63  DIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 122
+           D+HGQY DLLRLF   GFPP +NYLFLGDYVDRGKQSLETI LLL YKIKYPENFF+LRG
+Sbjct: 454 DVHGQYADLLRLFTKCGFPPMANYLFLGDYVDRGKQSLETILLLLCYKIKYPENFFLLRG 513
+
+Query: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSM 182
+           NHECA++ R+YGFYDECKRR NIK+WKTF D FN LP+AAI+  KIFC+HGGLSP LNSM
+Sbjct: 514 NHECANVTRVYGFYDECKRRCNIKIWKTFVDTFNTLPLAAIVTGKIFCVHGGLSPVLNSM 573
+
+Query: 183 EQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMEL 242
+           ++IR V RPTD+PD GL+ DLLWSDP      W +N+RGVSF +    +N+FL K   +L
+Sbjct: 574 DEIRHVSRPTDVPDFGLINDLLWSDPTDSSNEWEDNERGVSFCYNKVAINKFLNKFGFDL 633
+
+Query: 243 ICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKSL 302
+           +CRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+M+V E LLCSF++L P   + 
+Sbjct: 634 VCRAHMVVEDGYEFFNDRSLVTVFSAPNYCGEFDNWGAVMTVSEGLLCSFELLDPLDSTA 693
+
+Query: 303 PRQA--GGRKKK 312
+            +Q    GR+++
+Sbjct: 694 LKQVMKKGRQER 705
+
+
+>YPL179W pep:known chromosome:SacCer_Apr2011:XVI:208157:209806:1
+           gene:YPL179W transcript:YPL179W description:"Putative
+           protein serine/threonine phosphatase\x3b null mutation
+           enhances efficiency of translational suppressors"
+          Length = 549
+
+ Score =  384 bits (985), Expect = e-130,   Method: Compositional matrix adjust.
+ Identities = 176/298 (59%), Positives = 226/298 (75%), Gaps = 6/298 (2%)
+
+Query: 6   VDVDNIIDRLLEVRGSKPGQQVDLEEN------EIRYLCSKARSIFIKQPILLELEAPIK 59
+           +D+D  I++LL+V  S+   +   ++N      EI+ +C  AR IF+ QP LL L+APIK
+Sbjct: 238 LDIDVAIEKLLQVGESREITKTSKKKNFPFHSWEIQLICYHAREIFLNQPTLLRLQAPIK 297
+
+Query: 60  ICGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFI 119
+           + GD+HGQ+ DLLR+ +  G P ++NYLFLGDYVDRGK SLETI LLL YKIKY +NFF+
+Sbjct: 298 VVGDVHGQFNDLLRILKLSGVPSDTNYLFLGDYVDRGKNSLETILLLLCYKIKYKDNFFM 357
+
+Query: 120 LRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDL 179
+           LRGNHE A++ ++YGFYDECKRR + K+WK F D FN LP+AAII +KIFC+HGG+SPDL
+Sbjct: 358 LRGNHESANVTKMYGFYDECKRRLSSKVWKMFVDVFNTLPLAAIIQDKIFCVHGGISPDL 417
+
+Query: 180 NSMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQD 239
+           + M+QI +V RPTDIP+ GL+ DLLWSDPD  +  WSENDRGVS+TF    V  F  K  
+Sbjct: 418 HDMKQIEKVARPTDIPESGLVTDLLWSDPDPQVTDWSENDRGVSYTFSKRNVLDFCAKFK 477
+
+Query: 240 MELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 297
+            +LI R H VVEDGYEFF++++ VT+FSAPNYCGEF N GA+MSV   ++CSF++LKP
+Sbjct: 478 FDLILRGHMVVEDGYEFFARKKFVTIFSAPNYCGEFHNWGAVMSVTTGMMCSFELLKP 535
+
+
+>YDL134C pep:known chromosome:SacCer_Apr2011:IV:219662:220771:-1
+           gene:YDL134C transcript:YDL134C description:"Catalytic
+           subunit of protein phosphatase 2A (PP2A), functionally
+           redundant with Pph22p\x3b methylated at C terminus\x3b
+           forms alternate complexes with several regulatory
+           subunits\x3b involved in signal transduction and
+           regulation of mitosis"
+          Length = 369
+
+ Score =  278 bits (712), Expect = 2e-91,   Method: Compositional matrix adjust.
+ Identities = 132/283 (46%), Positives = 187/283 (66%), Gaps = 6/283 (2%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E+++  LC  A  +   +  +  +  P+ ICGD+HGQ++DLL LF+ GG  P++NYLF
+Sbjct: 83  LSEDDVARLCKMAVDVLQFEENVKPINVPVTICGDVHGQFHDLLELFKIGGPCPDTNYLF 142
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+  L+A K++YP    ILRGNHE   I ++YGFYDEC R+Y +  +
+Sbjct: 143 MGDYVDRGYYSVETVSYLVAMKVRYPHRITILRGNHESRQITQVYGFYDECLRKYGSANV 202
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+  PI A++D KIFC+HGGLSP + +++Q+R + R  ++P  G +CDLLWSD
+Sbjct: 203 WKMFTDLFDYFPITALVDNKIFCLHGGLSPMIETIDQVRELNRIQEVPHEGPMCDLLWSD 262
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  FTFG DV  +F    D+ LI RAHQ+V +GY +  ++ +VT+FS
+Sbjct: 263 PD-DRGGWGISPRGAGFTFGQDVSEQFNHTNDLSLIARAHQLVMEGYAWSHQQNVVTIFS 321
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSF----QILKPAQKSLPRQA 306
+           APNYC    N  A+M VDE+    F      ++P + S+ R+ 
+Sbjct: 322 APNYCYRCGNQAAIMEVDENHNRQFLQYDPSVRPGEPSVSRKT 364
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,055,568
+Number of extensions: 94448
+Number of successful extensions: 200
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 179
+Number of HSP's successfully gapped: 17
+Length of query: 312
+Length of database: 3,010,216
+Length adjustment: 90
+Effective length of query: 222
+Effective length of database: 2,407,936
+Effective search space: 534561792
+Effective search space used: 534561792
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 51 (24.3 bits)

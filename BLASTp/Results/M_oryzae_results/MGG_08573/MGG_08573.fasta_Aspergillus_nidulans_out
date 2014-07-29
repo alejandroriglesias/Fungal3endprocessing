@@ -1,0 +1,191 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00003108 pep:known chromosome:ASM1142v1:V:1016245:101844...   215   1e-60
+CADANIAP00003192 pep:known chromosome:ASM1142v1:V:1248254:125009...    36   0.026
+CADANIAP00008666 pep:known chromosome:ASM1142v1:VII:2458295:2459...    29   5.0  
+CADANIAP00004336 pep:known chromosome:ASM1142v1:II:1352528:13551...    29   5.6  
+CADANIAP00006398 pep:known chromosome:ASM1142v1:III:3203287:3208...    28   8.7  
+CADANIAP00010455 pep:known chromosome:ASM1142v1:VI:3174579:31796...    28   8.9  
+
+>CADANIAP00003108 pep:known chromosome:ASM1142v1:V:1016245:1018449:-1
+           gene:CADANIAG00003108 transcript:CADANIAT00003108
+           description:"mRNA cleavage factor complex component
+           Pcf11, putative (AFU_orthologue\x3b AFUA_1G07510)"
+          Length = 641
+
+ Score =  215 bits (548), Expect = 1e-60,   Method: Compositional matrix adjust.
+ Identities = 142/317 (44%), Positives = 181/317 (57%), Gaps = 48/317 (15%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           VAEDYK++LE LT+N R +ISNLT+IA+ENTE A AI+ VL +HI+   P +KLPALY++
+Sbjct: 10  VAEDYKNSLEDLTTNDRFQISNLTVIAKENTEHAMAISRVLENHIRTTPPAQKLPALYVV 69
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DSIVKNVGTPYTLF GR +YQTFM AY  VD+ TRRK+DEMLKTWKEPVPGSLDTRPVFP
+Sbjct: 70  DSIVKNVGTPYTLFLGRNMYQTFMNAYTLVDSQTRRKLDEMLKTWKEPVPGSLDTRPVFP 129
+
+Query: 130 PEVVRPIENALIKARTSALQAQQEQMRSQHHLLXXXXXXXXXXXXXXXXYRETPTPPGAR 189
+           P++ R IENALIKART+ALQ QQ + +                           TPPG R
+Sbjct: 130 PDITRSIENALIKARTAALQQQQARGQQDVF-----------------NRSRVGTPPGWR 172
+
+Query: 190 G----PNGYGQSYPPP----NGRGPENSQFPTPQPHHPQGMPILSHXXXXXXXXXXXXXX 241
+                P   G+ YPPP     G+ P ++ +PT  P     +P+ S               
+Sbjct: 173 NTLTTPQMPGR-YPPPANSLQGQRPASNGYPTGDP-----LPVRSTPTPQLQVQE----- 221
+
+Query: 242 XXXXXXXXTPDGISIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXXXXGN 301
+                       + + +L+ DV  LIAA R E A NP D S +                 
+Sbjct: 222 ------------VDLSSLNRDVEVLIAAARTEFANNPLDPSVQQRLKALLDLQGIMQRQQ 269
+
+Query: 302 LPRDQLVVVKSRIDELS 318
+           L ++QL +V+ ++  L+
+Sbjct: 270 LTQEQLKLVRDQVSALA 286
+
+
+
+ Score =  176 bits (447), Expect = 2e-47,   Method: Compositional matrix adjust.
+ Identities = 103/281 (36%), Positives = 144/281 (51%), Gaps = 50/281 (17%)
+
+Query: 422 LLAALRSKGILSAGPLPP-------------VVAPTPVSHAPGLPSVIAPPVAPAHVEIM 468
+           L+AALR+KG+L A   PP              + P  V + P +P+    P A +  E+ 
+Sbjct: 372 LIAALRAKGLLPASSAPPGGSVPSPTAGAFPFIVPGQVRYTPPVPT----PQAVSTAEVQ 427
+
+Query: 469 GDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARI 528
+            ++Q+ T+S+K PR  L+ +LY+     C  CGRRF   E G+  K  H+DWHFR   R+
+Sbjct: 428 VNVQMNTASIKIPRSMLIASLYEARSNRCGTCGRRFFATEEGKQKKARHLDWHFRTNQRM 487
+
+Query: 529 AEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXX 588
+           A+A ++ Q+RS+YVD RDW+ SRE  D                           GP    
+Sbjct: 488 ADAARRAQNRSWYVDERDWIKSRELGD----DQVITDAEATSENTAGNDSESKKGP---- 539
+
+Query: 589 XXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNR 648
+                       K+WI  P+  +  N+ CPICQE+FE  W ++ Q+W+W DA++   GNR
+Sbjct: 540 -----------AKQWIRAPNDATLRNTPCPICQEKFESTWSEDVQDWIWQDAIK--VGNR 586
+
+Query: 649 VFHASCHSEVT------GR----GATLTPPVGMVLGKRKAD 679
+           V+HASC++EVT      GR    G T TP    VLGKRKA+
+Sbjct: 587 VYHASCYAEVTKDGPPRGRETPSGRTGTP--DSVLGKRKAE 625
+
+
+>CADANIAP00003192 pep:known chromosome:ASM1142v1:V:1248254:1250097:1
+           gene:CADANIAG00003192 transcript:CADANIAT00003192
+           description:"mRNA splicing factor (Prp17), putative
+           (AFU_orthologue\x3b AFUA_6G07300)"
+          Length = 531
+
+ Score = 36.2 bits (82), Expect = 0.026,   Method: Compositional matrix adjust.
+ Identities = 26/94 (27%), Positives = 43/94 (45%), Gaps = 4/94 (4%)
+
+Query: 450 PGLPSVIAPPVAPA---HVEIMGDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRN 506
+           P +P+  AP V  A   + E    +++  ++     L   N  YDDL +P       F++
+Sbjct: 17  PSVPAASAPKVVAAPEVNTEDQSHMRMMLANTSSKAL-TYNATYDDLSRPSQGPSNPFKS 75
+
+Query: 507 DEAGRAAKTAHMDWHFRVAARIAEAEKKGQHRSY 540
+             AG   K  ++   +  AA I+E+    QHR+Y
+Sbjct: 76  AGAGNGLKRKNVPTGYAEAAAISESTFTAQHRTY 109
+
+
+>CADANIAP00008666 pep:known chromosome:ASM1142v1:VII:2458295:2459880:-1
+           gene:CADANIAG00008666 transcript:CADANIAT00008666
+           description:"RING and UBP finger domain protein,
+           putative (AFU_orthologue\x3b AFUA_4G10360)"
+          Length = 503
+
+ Score = 28.9 bits (63), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 38/88 (43%), Gaps = 6/88 (6%)
+
+Query: 430 GILSAGPLPPVVAPTPVSH---APGLPSVIAPPVAPAHVEIMGDIQLTTSSLKQPRLYLV 486
+           G+ S  P P  +A  P+S    AP  PS+I  P  P  +E M +     + + Q  ++  
+Sbjct: 139 GVSSTSPQPSTLAAAPLSTKPLAPPTPSLIELPTCPVCLERMDETTGLLTIICQ-HVFHC 197
+
+Query: 487 NTLYDDLGKPCTQCGRRFRNDEAGRAAK 514
+             L    G  C  C  R+  D+  + ++
+Sbjct: 198 TCLQKWKGSGCPVC--RYTQDDFRKTSQ 223
+
+
+>CADANIAP00004336 pep:known chromosome:ASM1142v1:II:1352528:1355128:1
+          gene:CADANIAG00004336 transcript:CADANIAT00004336
+          description:"RNA binding protein Nrd1, putative
+          (AFU_orthologue\x3b AFUA_5G04240)"
+          Length = 720
+
+ Score = 28.9 bits (63), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 11/47 (23%), Positives = 26/47 (55%)
+
+Query: 28 EISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVK 74
+          +I+++T +   N ++   + + +  H K+     KL  LY++DS+ +
+Sbjct: 27 KINSITSLCTANVQNESVLIQKIYTHFKKAPGTHKLGVLYVVDSVTR 73
+
+
+>CADANIAP00006398 pep:known chromosome:ASM1142v1:III:3203287:3208325:-1
+           gene:CADANIAG00006398 transcript:CADANIAT00006398
+           description:"conserved hypothetical protein"
+          Length = 1581
+
+ Score = 28.5 bits (62), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 18/53 (33%), Positives = 27/53 (50%), Gaps = 2/53 (3%)
+
+Query: 439 PVVAPTPVSHAPGLPSVI--APPVAPAHVEIMGDIQLTTSSLKQPRLYLVNTL 489
+           P  AP PVSH P  PS+      VA   + ++ D +L  +SL +     V++L
+Sbjct: 51  PTAAPVPVSHLPQAPSICEQVSMVADDQLVLLNDWKLAMTSLAKALDLTVSSL 103
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 5,851,664
+Number of extensions: 244159
+Number of successful extensions: 1076
+Number of sequences better than 10.0: 30
+Number of HSP's gapped: 1058
+Number of HSP's successfully gapped: 35
+Length of query: 695
+Length of database: 5,078,913
+Length adjustment: 100
+Effective length of query: 595
+Effective length of database: 4,025,513
+Effective search space: 2395180235
+Effective search space used: 2395180235
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

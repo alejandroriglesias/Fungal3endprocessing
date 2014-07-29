@@ -1,0 +1,165 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_10820T0 pep:known chromosome:MG8:2:554069:557627:-1 gene:MGG...    93   9e-20
+MGG_06522T0 pep:known chromosome:MG8:4:3424404:3426606:1 gene:MG...    34   0.20 
+MGG_01169T0 pep:known chromosome:MG8:2:2495306:2497442:-1 gene:M...    30   3.6  
+MGG_16109T0 pep:known chromosome:MG8:1:1600383:1601133:-1 gene:M...    27   4.3  
+MGG_04710T0 pep:known chromosome:MG8:1:6906317:6915247:-1 gene:M...    29   7.5  
+
+>MGG_10820T0 pep:known chromosome:MG8:2:554069:557627:-1 gene:MGG_10820
+           transcript:MGG_10820T0 description:"Putative
+           uncharacterized protein"
+          Length = 730
+
+ Score = 93.2 bits (230), Expect = 9e-20,   Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 89/177 (50%), Gaps = 18/177 (10%)
+
+Query: 626 WLHVLIRLVTRGIEAQEAS-------------DLIREELLGFFIQDFEQRVSLIIEWLNE 672
+           W+ V+ RL TR   A E +             D +RE L  + ++DF +R+ + I WL+E
+Sbjct: 530 WITVITRLATRSSSALEKTTIKEEDGTPQILGDKVREALYNYVLEDFRKRIDVAISWLSE 589
+
+Query: 673 EWF---FQTSLHQD-PSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLEAL 728
+           EW+    Q  +  D P +Y K +LR+++ + P+L  + +    R + E+P +    L+ +
+Sbjct: 590 EWYNDQLQKRMASDAPLHYDKVALRLVDGITPYLHAQDK-VLTRFLGEIPEVNPAILKRV 648
+
+Query: 729 KPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLLDRLK 785
+           + +C DP+ +SL   +L +L+M RPP ++   D +  +  E E         L R +
+Sbjct: 649 EGMCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWR 705
+
+
+
+ Score = 72.4 bits (176), Expect = 3e-13,   Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 84/178 (47%), Gaps = 30/178 (16%)
+
+Query: 91  DVLVYKNIVLIMCASYPLVLDLVAKTS-NQEMFDQLCMLKKFVLSHWRTAYPLRATVDDE 149
+           D  V ++ +    + YPLV+  +   S +   ++++  +K  +   W    P        
+Sbjct: 92  DAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERITAIKSRIFQLWSGEIP-------- 143
+
+Query: 150 TDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGN------EINSSTIPDNHPVLNK 203
+                         GVK+  IKF   VVL+QT S +G       +I+ S IP  HPVL+ 
+Sbjct: 144 --------------GVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLDP 189
+
+Query: 204 PALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRFN 261
+             LE+EA  LLD +L  L ++    + V    +N ++ +I+ RP T+ RIL+ +L FN
+Sbjct: 190 RNLEAEAIGLLDRMLGVL-QDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFN 246
+
+
+>MGG_06522T0 pep:known chromosome:MG8:4:3424404:3426606:1 gene:MGG_06522
+           transcript:MGG_06522T0 description:"ATP-dependent RNA
+           helicase HAS1"
+          Length = 587
+
+ Score = 33.9 bits (76), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 27/51 (52%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + +++ F PP  D  RD +H++ +   G +K+  SL+
+Sbjct: 412 ICTDVAARGLDIPAVDWIVQFDPP--DDPRDYIHRVGRTARGTNKKGRSLM 460
+
+
+>MGG_01169T0 pep:known chromosome:MG8:2:2495306:2497442:-1 gene:MGG_01169
+           transcript:MGG_01169T0 description:"Putative
+           uncharacterized protein"
+          Length = 360
+
+ Score = 29.6 bits (65), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query: 337 NFDPSKGNSKKTLSRQDKLKYISLWKRQLSALLSTLGVSTKTPTPV 382
+           +FDPS+ +    ++R     Y+++    L A+LS +  S  TP P+
+Sbjct: 103 SFDPSE-DDNSVIARDGTAWYVNVLASALRAILSGVSFSAMTPRPI 147
+
+
+>MGG_16109T0 pep:known chromosome:MG8:1:1600383:1601133:-1 gene:MGG_16109
+          transcript:MGG_16109T0 description:"Putative
+          uncharacterized protein"
+          Length = 88
+
+ Score = 27.3 bits (59), Expect = 4.3,   Method: Composition-based stats.
+ Identities = 16/52 (30%), Positives = 28/52 (53%), Gaps = 2/52 (3%)
+
+Query: 19 NNPTEMLPKVLETTASMYHNGNLSKLKLPLAKFFTQLVLDVVSMDSPIANTE 70
+          N+P+  LP+ L +T   +  G +++  LPL +F T+ V D  ++     N E
+Sbjct: 33 NHPS--LPQSLPSTLPAFGQGIIARPSLPLVRFETRRVTDFPALCRAHPNPE 82
+
+
+>MGG_04710T0 pep:known chromosome:MG8:1:6906317:6915247:-1 gene:MGG_04710
+            transcript:MGG_04710T0 description:"Translational
+            activator GCN1"
+          Length = 2678
+
+ Score = 28.9 bits (63), Expect = 7.5,   Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 34/73 (46%), Gaps = 2/73 (2%)
+
+Query: 28   VLETTASMYHNGNLSKLKLPLAKFFTQLVLDVVSMDSPIANTERPFIAAQYLPLLLAMAQ 87
+            V   +    HN   S++  P     + L L+ V +D+P A  E PF  A+ LP LL    
+Sbjct: 2432 VKNVSGDAAHNLIKSRVLTPTPTTSSVLGLNAVLLDAPAAIMEGPF--AEELPELLVQGI 2489
+
+Query: 88   STADVLVYKNIVL 100
+            S+   ++  N +L
+Sbjct: 2490 SSKIAMIADNSIL 2502
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 6,719,453
+Number of extensions: 242880
+Number of successful extensions: 731
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 727
+Number of HSP's successfully gapped: 7
+Length of query: 785
+Length of database: 5,666,059
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,365,049
+Effective search space: 2981328467
+Effective search space used: 2981328467
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

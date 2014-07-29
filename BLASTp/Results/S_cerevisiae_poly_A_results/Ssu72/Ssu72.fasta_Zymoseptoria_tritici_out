@@ -1,0 +1,124 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P35093 pep:known chromosome:MG2:1:384317:385260:1 gene:Myc...   190   1e-59
+Mycgr3P69294 pep:known chromosome:MG2:3:347014:348600:-1 gene:My...    30   0.34 
+Mycgr3P46623 pep:known chromosome:MG2:8:330979:332136:-1 gene:My...    28   1.1  
+
+>Mycgr3P35093 pep:known chromosome:MG2:1:384317:385260:1 gene:Mycgr3G35093
+           transcript:Mycgr3T35093 description:"Putative
+           uncharacterized protein"
+          Length = 275
+
+ Score =  190 bits (483), Expect = 1e-59,   Method: Compositional matrix adjust.
+ Identities = 104/235 (44%), Positives = 139/235 (59%), Gaps = 37/235 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVL---QEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF-GTPY 64
+           LKFCTVCASNNNRSME+H  L   Q   Y   S+GTGS VRLPG SI +PNVY+F  T Y
+Sbjct: 41  LKFCTVCASNNNRSMEAHLRLTTAQPTPYPTISFGTGSLVRLPGPSISQPNVYNFNSTSY 100
+
+Query: 65  NDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------ST 105
+             +Y++L S+    Y +NG+L ML+RN+ +K  PE+WQ+                     
+Sbjct: 101 ASMYDELASKDRRLYSANGILPMLERNKNVKFGPERWQDWRVGVPRTEWGDDKGAKGTEA 160
+
+Query: 106 KVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADML 165
+              D V TCEERC+DAV +DL+ RG  LN+ VHV NVDIKD+ E A +G +AILELAD L
+Sbjct: 161 GTVDVVITCEERCWDAVVDDLLTRGSPLNRPVHVFNVDIKDNHEEALVGGRAILELADKL 220
+
+Query: 166 ND-KIEQCE-------------KDDIPFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+           N+  +E+ E             +    F++ + D+L EWQ     LP+L+  +++
+Sbjct: 221 NEVAVEEREAYVKGGGRGFENGEGRSGFDERVPDVLAEWQERWPNLPALWTLAWF 275
+
+
+>Mycgr3P69294 pep:known chromosome:MG2:3:347014:348600:-1 gene:Mycgr3G69294
+           transcript:Mycgr3T69294 description:"Putative
+           uncharacterized protein"
+          Length = 509
+
+ Score = 30.4 bits (67), Expect = 0.34,   Method: Compositional matrix adjust.
+ Identities = 26/91 (28%), Positives = 42/91 (46%), Gaps = 7/91 (7%)
+
+Query: 79  YKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIV- 137
+           Y+S+G +   D  +RLK   E  +E T  F    T EER    V  +  ++GG  + ++ 
+Sbjct: 207 YRSSGFINQ-DDGQRLKARLEAGEELTAYFQQTQTIEERITQNVIAE--SKGGDPHNVIM 263
+
+Query: 138 ---HVINVDIKDDDENAKIGSKAILELADML 165
+              H+ +V       +   GS  +LE+ D L
+Sbjct: 264 LGAHLDSVKAGAGINDDGSGSSLLLEIFDGL 294
+
+
+>Mycgr3P46623 pep:known chromosome:MG2:8:330979:332136:-1 gene:Mycgr3G46623
+           transcript:Mycgr3T46623 description:"Putative
+           uncharacterized protein"
+          Length = 343
+
+ Score = 28.5 bits (62), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 15/47 (31%), Positives = 24/47 (51%), Gaps = 6/47 (12%)
+
+Query: 101 WQESTKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDD 147
+           W++  +   +V   +ERC DA+  +LM + G       VINV +  D
+Sbjct: 7   WEQDKESTLYVGNLDERCTDALVWELMLQAGP------VINVHLPRD 47
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 2,034,946
+Number of extensions: 83323
+Number of successful extensions: 211
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 207
+Number of HSP's successfully gapped: 8
+Length of query: 206
+Length of database: 4,742,065
+Length adjustment: 88
+Effective length of query: 118
+Effective length of database: 3,780,137
+Effective search space: 446056166
+Effective search space used: 446056166
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 50 (23.9 bits)

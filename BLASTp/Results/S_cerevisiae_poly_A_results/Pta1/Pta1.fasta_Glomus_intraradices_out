@@ -1,0 +1,151 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa 
+           30,282 sequences; 8,144,225 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+12889_Glomus_intraradices_1_GeneCatalo                                 95   4e-20
+11881_Glomus_intraradices_1_GeneCatalo                                 47   3e-05
+5893_Glomus_intraradices_1_GeneCatalo                                  33   0.58 
+13668_Glomus_intraradices_1_GeneCatalo                                 30   5.1  
+
+>12889_Glomus_intraradices_1_GeneCatalo 
+          Length = 663
+
+ Score = 94.7 bits (234), Expect = 4e-20,   Method: Compositional matrix adjust.
+ Identities = 53/139 (38%), Positives = 80/139 (57%), Gaps = 12/139 (8%)
+
+Query: 627 LHVLI-RLVTRGIEAQEAS----DLIREELLGFFIQDFEQRVSLIIEWLNEEWFFQT-SL 680
+           LH++  R +TRG+E  E      D +RE ++ F ++DF  +    + WL+EEW+  +  L
+Sbjct: 512 LHIMASRFLTRGLETFEDDRKQFDDLRELVIKFILKDFRNKTDFALTWLDEEWYHDSIML 571
+
+Query: 681 HQDPS---NYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLEALKPICLDPAR 737
+            +DPS   NY  W  R+L+ + P LE+   R F + + ++P L  D ++ +K  C DP R
+Sbjct: 572 RKDPSYKSNYSIWLCRLLDRIMPALED---RIFTQFLLDVPELFEDAVDRIKIFCNDPDR 628
+
+Query: 738 SSLGFQTLKFLIMFRPPVQ 756
+           SSLGF TL  LI  RPP +
+Sbjct: 629 SSLGFTTLSELIELRPPAR 647
+
+
+
+ Score = 34.3 bits (77), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 34/171 (19%), Positives = 74/171 (43%), Gaps = 27/171 (15%)
+
+Query: 94  VYKNIVLIMCASYPLVLDLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVE 153
+           + K  +L   + YPL+ + V + ++               S W  +  +++ +    D E
+Sbjct: 26  IIKKAILWNASVYPLIFERVVENASDST------------SLWNISLSIKSQIMRFFDSE 73
+
+Query: 154 QWLAQIDQNIGVKLATIKFISEVVLSQTK------SPSGNEINSSTIPDNHPVLNKPALE 207
+                 + + G+K   +K++  V   Q++           +I+ S     HP+L+   LE
+Sbjct: 74  ------NTSQGIKFCAVKYLVTVAKVQSRRMPDSLGKPEEDISLSHCHSLHPILDLQYLE 127
+
+Query: 208 SEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLL 258
+            E+  +++ +L  +  E    SSV   IIN+   +++ RPQ  +  ++ ++
+Sbjct: 128 KESISIVNGMLTVMRTES---SSVITAIINAFGPLLRVRPQYVLTFVNHVV 175
+
+
+>11881_Glomus_intraradices_1_GeneCatalo 
+          Length = 464
+
+ Score = 46.6 bits (109), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 29/73 (39%), Positives = 41/73 (56%), Gaps = 4/73 (5%)
+
+Query: 700 PFLENKHRRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQD-T 758
+           P LE+   R F + + ++P L  D ++ +K  C DP RSSLGF TL  LI  RPP +   
+Sbjct: 2   PALED---RIFTQFLLDVPELFEDAVDRIKIFCNDPDRSSLGFTTLSELIELRPPARPFC 58
+
+Query: 759 VRDLLHQLKQEDE 771
+           ++ LL     +DE
+Sbjct: 59  LKILLAYCLHKDE 71
+
+
+>5893_Glomus_intraradices_1_GeneCatalo 
+          Length = 1641
+
+ Score = 33.1 bits (74), Expect = 0.58,   Method: Compositional matrix adjust.
+ Identities = 23/87 (26%), Positives = 43/87 (49%), Gaps = 12/87 (13%)
+
+Query: 22  TEMLPKVLETTASMYHNGN---LSKLK-----LPLAKFFTQLVLDVVSMDSP----IANT 69
+           T +   +L+  +++Y + N    SK+K     + LA F   L++ +VS+ +P    + N 
+Sbjct: 136 TAVFCSLLQIRSALYSHSNSVNFSKIKRIEVLISLANFILSLIITIVSITTPRGPPLINN 195
+
+Query: 70  ERPFIAAQYLPLLLAMAQSTADVLVYK 96
+            RP  A +Y  L   +  +  D+L+ K
+Sbjct: 196 NRPVYATEYCSLWDFIMFNIVDLLMKK 222
+
+
+>13668_Glomus_intraradices_1_GeneCatalo 
+          Length = 755
+
+ Score = 30.0 bits (66), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 21/97 (21%), Positives = 48/97 (49%), Gaps = 4/97 (4%)
+
+Query: 122 FDQLCMLKKFVLSHWRTAYP---LRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVL 178
+           +D+LC +K    S +   Y    +   +D+     Q  ++IDQNI V L ++  ++ + L
+Sbjct: 326 YDRLCNIKHIAKSEFYKVYGANWIDGCIDEWDSHNQNWSRIDQNIFVALKSLNNLNNIEL 385
+
+Query: 179 SQTKSPSGNEINSST-IPDNHPVLNKPALESEAKRLL 214
+              +  + +E+   T  P+ +  +N  + +++  +L+
+Sbjct: 386 EFNEIATHHEVYGITQDPETNDYINWTSGDNDINKLI 422
+
+
+  Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa
+    Posted date:  Feb 27, 2014 12:29 PM
+  Number of letters in database: 8,144,225
+  Number of sequences in database:  30,282
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30282
+Number of Hits to DB: 10,606,417
+Number of extensions: 408832
+Number of successful extensions: 1243
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 1242
+Number of HSP's successfully gapped: 11
+Length of query: 785
+Length of database: 8,144,225
+Length adjustment: 103
+Effective length of query: 682
+Effective length of database: 5,025,179
+Effective search space: 3427172078
+Effective search space used: 3427172078
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

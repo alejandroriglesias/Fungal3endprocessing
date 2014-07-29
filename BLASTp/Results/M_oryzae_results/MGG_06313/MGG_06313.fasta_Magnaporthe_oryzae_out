@@ -1,0 +1,213 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06313:Poly(A) polymerase pla1
+         (616 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_06313T0 pep:known chromosome:MG8:4:4201535:4205081:1 gene:MG...  1196   0.0  
+MGG_06121T0 pep:known chromosome:MG8:3:2641292:2645365:-1 gene:M...    70   1e-12
+MGG_00073T0 pep:known chromosome:MG8:5:4213827:4216856:-1 gene:M...    37   0.022
+MGG_06223T0 pep:known chromosome:MG8:4:4485388:4486494:-1 gene:M...    31   1.1  
+MGG_04918T0 pep:known chromosome:MG8:3:3954004:3955250:1 gene:MG...    29   2.2  
+
+>MGG_06313T0 pep:known chromosome:MG8:4:4201535:4205081:1 gene:MGG_06313
+           transcript:MGG_06313T0 description:"Poly(A) polymerase
+           pla1"
+          Length = 616
+
+ Score = 1196 bits (3093), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 584/616 (94%), Positives = 584/616 (94%)
+
+Query: 1   METERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIAD 60
+           METERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIAD
+Sbjct: 1   METERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIAD 60
+
+Query: 61  AFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEH 120
+           AFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEH
+Sbjct: 61  AFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEH 120
+
+Query: 121 FPGLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSD 180
+           FPGLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSD
+Sbjct: 121 FPGLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSD 180
+
+Query: 181 SNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGG 240
+           SNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGG
+Sbjct: 181 SNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGG 240
+
+Query: 241 VAWAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYP 300
+           VAWAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYP
+Sbjct: 241 VAWAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYP 300
+
+Query: 301 GDRYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHT 360
+           GDRYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHT
+Sbjct: 301 GDRYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHT 360
+
+Query: 361 FFTKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSH 420
+           FFTKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSH
+Sbjct: 361 FFTKDFKYYIQVIAASKDKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRSH 420
+
+Query: 421 RYYDDSQFNQILEGSLANLCQDKDPQXXXXXXXXXXXXXXSNGTHTNGIAVKDEVAIKQE 480
+           RYYDDSQFNQILEGSLANLCQDKDPQ              SNGTHTNGIAVKDEVAIKQE
+Sbjct: 421 RYYDDSQFNQILEGSLANLCQDKDPQPEAKPEVPVKEEPVSNGTHTNGIAVKDEVAIKQE 480
+
+Query: 481 GHARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEAKSLDLSFQVNDFKWL 540
+           GHARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEAKSLDLSFQVNDFKWL
+Sbjct: 481 GHARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEAKSLDLSFQVNDFKWL 540
+
+Query: 541 CYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGETXXXXXXXXXXXXXXXXXXANEDN 600
+           CYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGET                  ANEDN
+Sbjct: 541 CYDWAKYKEDLTELCFVNIKDLRSFALPDDIFGPGETKPVKRLVKKKVPVDRKRPANEDN 600
+
+Query: 601 QAPAKRHQPATVGSGV 616
+           QAPAKRHQPATVGSGV
+Sbjct: 601 QAPAKRHQPATVGSGV 616
+
+
+>MGG_06121T0 pep:known chromosome:MG8:3:2641292:2645365:-1 gene:MGG_06121
+           transcript:MGG_06121T0 description:"Putative
+           uncharacterized protein"
+          Length = 1238
+
+ Score = 69.7 bits (169), Expect = 1e-12,   Method: Compositional matrix adjust.
+ Identities = 83/342 (24%), Positives = 143/342 (41%), Gaps = 47/342 (13%)
+
+Query: 89  GSLRLGVWGPGSDIDTLVVAPRYVTREDYFEHFPGLLVEMAPPNA--ITDLSVVVDAFVP 146
+           GS  LGV    SDID L + P  ++   +F      + + +  +   I  L  V      
+Sbjct: 668 GSWGLGVSTLSSDIDCLCIGP--LSSSTFFALTTQRIKKASVESGLEIKLLRRVRANSGV 725
+
+Query: 147 IIKFEFSGISIDLIF-SRIATMKQLPADPNWNLSDSNLLRGLDEKELRSVNGTRVTDEII 205
+           +++ E   + +DL + +  A  +Q PA     L  ++ +  L  + L  +   R  D + 
+Sbjct: 726 MLELEVMSVRVDLQYCAATAVAEQWPA--VLKLPPNDPIFALPAQTLGKLKALRDLDYLR 783
+
+Query: 206 SLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARVCQLYPR-----ATAS 260
+             +P+ + FR A RAIK WAQ R IY    G+ GG+  ++L+ARVC+L  R      +  
+Sbjct: 784 ETIPDLSKFRLAHRAIKTWAQSRGIYSAKFGYLGGIQVSILLARVCKLLARDYGQEVSVP 843
+
+Query: 261 VVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYPGDRYHLMPIITPAYPSMCAT 320
+            +++ FF     + W   +        P   +  N   Y       + I+    P++  T
+Sbjct: 844 DILSSFFSHYASFDWRNKIAFD-----PFFHKKLN---YLRSAREPLAILGFFPPALNTT 895
+
+Query: 321 FNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLF--------QKHTF------FTKDF 366
+              T  S   I REL +A +L N      + W   F        + H+       F   +
+Sbjct: 896 LAATVPSMKAIARELSQANELLN---EDGMTWDTFFGASSAGGDKTHSLARGAADFLSSY 952
+
+Query: 367 KYYIQV------IAASKDKESHKLWSGFVESKVRLLVQGLER 402
+           K ++++      I+ SK  +    + G++ES+  LL+  + R
+Sbjct: 953 KSFVKIELQYWGISLSKGSQ----FIGWLESRCPLLLVDMSR 990
+
+
+>MGG_00073T0 pep:known chromosome:MG8:5:4213827:4216856:-1 gene:MGG_00073
+           transcript:MGG_00073T0 description:"DNA polymerase
+           sigma"
+          Length = 703
+
+ Score = 36.6 bits (83), Expect = 0.022,   Method: Compositional matrix adjust.
+ Identities = 38/190 (20%), Positives = 78/190 (41%), Gaps = 39/190 (20%)
+
+Query: 75  AVLIKDAR---GKVFAYGSLRLGVWGPGSDIDTLVV--------APRYVTREDYFEHFPG 123
+           A LI++++     V+ +GS +  ++ P  D+D +          A RY ++   F+   G
+Sbjct: 403 AKLIRNSQFRDATVYPFGSFKSNLYLPTGDMDLVFCSDSYMSGRAARYSSKNHVFKF--G 460
+
+Query: 124 LLVEMAPPNAITDLSVVVDAFVPIIKF--EFSGISIDLIFSRIATMKQLPADPNWNLSDS 181
+             +E         +  +  A VP++K+    +G+ +D+ F  I  ++ +     W     
+Sbjct: 461 AFIERKQLAVDNHVEKISKARVPLVKYVDSRTGLKVDVSFENITGIRAIETFLAWREQFP 520
+
+Query: 182 NL------------LRGLDEKELRSVNGTRVTDEIISLV------------PEQNVFRTA 217
+           ++            +RGL+E     + GT V   ++S++            PE ++ +  
+Sbjct: 521 DMPVLVTCIKHFLAMRGLNEPANGGIGGTTVICLVVSMLQLSPDVQSRSMTPESHLGQLL 580
+
+Query: 218 LRAIKLWAQR 227
+           LR   L+  R
+Sbjct: 581 LRFFDLYGNR 590
+
+
+>MGG_06223T0 pep:known chromosome:MG8:4:4485388:4486494:-1 gene:MGG_06223
+           transcript:MGG_06223T0 description:"Putative
+           uncharacterized protein"
+          Length = 313
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 28/101 (27%), Positives = 43/101 (42%), Gaps = 5/101 (4%)
+
+Query: 214 FRTALRAIKLWAQRRAIYGNIVGFPGGVAWAMLVARVCQLYPRATASVVVNKFFCILMKW 273
+            R A  A+  W  R+ + GN++ F G VA       V  LY  A A +  + F   +   
+Sbjct: 145 IRLAQLALAYWTARK-VKGNLL-FVGSVAGYTSTVHV-PLYHAAKAGI--HGFVKSIAPL 199
+
+Query: 274 PWPQPVLLKAIEDGPLQARIWNPKIYPGDRYHLMPIITPAY 314
+                + +  I  GP++  IWNP +    R    P +TP +
+Sbjct: 200 HARLGIRVACIAPGPVRTPIWNPNVLIAKRGDEQPTLTPEF 240
+
+
+>MGG_04918T0 pep:known chromosome:MG8:3:3954004:3955250:1 gene:MGG_04918
+           transcript:MGG_04918T0 description:"Putative
+           uncharacterized protein"
+          Length = 184
+
+ Score = 29.3 bits (64), Expect = 2.2,   Method: Composition-based stats.
+ Identities = 27/84 (32%), Positives = 38/84 (45%), Gaps = 10/84 (11%)
+
+Query: 192 LRSVNGTRVTDEIISLVPEQNVFRTALRAI--------KLW--AQRRAIYGNIVGFPGGV 241
+           LR   GT   DE++ LV   NVF + L           KL+  A++  I G I G    +
+Sbjct: 99  LRKGRGTSGGDELLLLVYAFNVFFSTLLCAHDVYHWDEKLYTMAEKHFIVGGIYGSWMLI 158
+
+Query: 242 AWAMLVARVCQLYPRATASVVVNK 265
+            +AM V    +LY R + S +  K
+Sbjct: 159 PFAMFVDMYLRLYGRVSTSDIAKK 182
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 6,981,602
+Number of extensions: 292124
+Number of successful extensions: 553
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 552
+Number of HSP's successfully gapped: 6
+Length of query: 616
+Length of database: 5,666,059
+Length adjustment: 100
+Effective length of query: 516
+Effective length of database: 4,390,559
+Effective search space: 2265528444
+Effective search space used: 2265528444
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 56 (26.2 bits)

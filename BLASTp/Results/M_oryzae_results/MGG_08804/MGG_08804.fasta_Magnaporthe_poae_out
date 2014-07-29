@@ -1,0 +1,131 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_12038T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   249   4e-80
+MAPG_03077T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    35   0.043
+MAPG_04554T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   1.3  
+MAPG_05031T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   1.6  
+
+>MAPG_12038T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.131:15:784:
+           1 gene:MAPG_12038 transcript:MAPG_12038T0
+           description:"Clp1"
+          Length = 197
+
+ Score =  249 bits (635), Expect = 4e-80,   Method: Compositional matrix adjust.
+ Identities = 123/189 (65%), Positives = 146/189 (77%), Gaps = 10/189 (5%)
+
+Query: 277 VNIIVTIDTPSLHTELTQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKE 336
+           VNI+V + +  L  ELT+RF+  K  LGE V VV+LDKS GV+ERDEGFLQ   EA+IKE
+Sbjct: 9   VNIVVVLGSARLTQELTRRFATEKTSLGETVGVVSLDKSDGVVERDEGFLQQCREAAIKE 68
+
+Query: 337 YFFGDAKITLSPFTQQVAFDELAIY--------TSPEASDYSAEPGA--LERIPQPLPEM 386
+           YFFGDA +TLSP TQQVAFD++ IY        T+       A+ GA  LE++ QPLPE+
+Sbjct: 69  YFFGDASLTLSPSTQQVAFDDVHIYMPAGDGPATTTVVKADKADDGAAPLEKLTQPLPEL 128
+
+Query: 387 AHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKW 446
+           AHW L MM+AAP DPP KIR+A V+GFVYVAAVD++RRRMKILAPVSGRLGD+PLVWG+W
+Sbjct: 129 AHWTLTMMNAAPTDPPDKIRFASVAGFVYVAAVDRDRRRMKILAPVSGRLGDRPLVWGRW 188
+
+Query: 447 PEPHINLLG 455
+           PEPHINLLG
+Sbjct: 189 PEPHINLLG 197
+
+
+>MAPG_03077T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:3802478:3
+           807691:1 gene:MAPG_03077 transcript:MAPG_03077T0
+           description:"DNA repair protein RAD50"
+          Length = 1317
+
+ Score = 35.0 bits (79), Expect = 0.043,   Method: Compositional matrix adjust.
+ Identities = 15/33 (45%), Positives = 22/33 (66%), Gaps = 2/33 (6%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQP 158
+           H P  L+ G+ GCG+T+++  L  +AT TG QP
+Sbjct: 26  HTPLTLIVGENGCGKTTIIECL-KYAT-TGEQP 56
+
+
+>MAPG_04554T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:3256388:3
+           259576:1 gene:MAPG_04554 transcript:MAPG_04554T0
+           description:"iron-sulfur clusters transporter ATM1"
+          Length = 716
+
+ Score = 30.0 bits (66), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 11/23 (47%), Positives = 17/23 (73%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTL 147
+           P G +V V G +GCG+++L+R L
+Sbjct: 474 PAGKKVAVVGPSGCGKSTLLRLL 496
+
+
+>MAPG_05031T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.4:628844:62
+           9308:-1 gene:MAPG_05031 transcript:MAPG_05031T0
+           description:"hypothetical protein"
+          Length = 154
+
+ Score = 28.9 bits (63), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 20/59 (33%), Positives = 27/59 (45%), Gaps = 5/59 (8%)
+
+Query: 37  ASITITLTRGTAERDGTELALNVAYTLSGVKSKILSWHGANLSIEGITDHESVA-GPDD 94
+            SI  +  RG    D T + L   +  SG  S + +W G  L+  G    E+V  GPDD
+Sbjct: 68  GSIVESRRRGDGSWDSTAIVLRDQWDWSGNASDVRAWVGGPLACAG----EAVGDGPDD 122
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 4,387,357
+Number of extensions: 180930
+Number of successful extensions: 458
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 457
+Number of HSP's successfully gapped: 8
+Length of query: 455
+Length of database: 4,928,244
+Length adjustment: 96
+Effective length of query: 359
+Effective length of database: 3,836,724
+Effective search space: 1377383916
+Effective search space used: 1377383916
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,157 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX71394 pep:novel supercontig:GCA_000150505.2:supercont6.3:2376...   231   7e-77
+EPX73363 pep:novel supercontig:GCA_000150505.2:supercont6.2:3783...    28   1.1  
+EPX72088 pep:novel supercontig:GCA_000150505.2:supercont6.2:8538...    27   1.8  
+EPX72399 pep:novel supercontig:GCA_000150505.2:supercont6.2:1640...    27   2.0  
+EPX74025 pep:novel supercontig:GCA_000150505.2:supercont6.1:1530...    27   2.2  
+EPX70869 pep:novel supercontig:GCA_000150505.2:supercont6.3:1033...    26   3.3  
+EPX72067 pep:novel supercontig:GCA_000150505.2:supercont6.2:8026...    26   4.6  
+EPX74029 pep:novel supercontig:GCA_000150505.2:supercont6.1:1536...    25   6.0  
+
+>EPX71394 pep:novel supercontig:GCA_000150505.2:supercont6.3:2376152:2376806:
+           1 gene:SOCG_01612 transcript:EPX71394
+           description:"phosphoric ester hydrolase Ssu72"
+          Length = 197
+
+ Score =  231 bits (588), Expect = 7e-77,   Method: Compositional matrix adjust.
+ Identities = 108/201 (53%), Positives = 141/201 (70%), Gaps = 7/201 (3%)
+
+Query: 6   NSNLKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYN 65
+           N+ L    +CASN NRSME+H +L+ AGY V S+GTGSAVRLPG SIDKPN+Y FG PY+
+Sbjct: 4   NTKLDISVICASNQNRSMEAHNLLKNAGYQVDSFGTGSAVRLPGPSIDKPNIYPFGYPYD 63
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCED 125
+            IY +L SQ +  Y +NGLL+MLDRNR +K++P +WQ+   ++D V TCEERCFDA+CED
+Sbjct: 64  SIYKELESQDSRLYTANGLLKMLDRNRHIKRSPNRWQDQEFIYDVVITCEERCFDAICED 123
+
+Query: 126 LMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMD 185
+           L  RG   ++ V++INVDIKD+ E A +G KAIL+L   L D      KD   FED   D
+Sbjct: 124 LYRRGESKSRPVYLINVDIKDNHEEASVGGKAILDLVQQLTDA-----KDS--FEDEFTD 176
+
+Query: 186 ILTEWQSSHSQLPSLYAPSYY 206
+           I+ +WQ+ H  LP+LY   ++
+Sbjct: 177 IMAQWQAKHPNLPALYTIHFF 197
+
+
+>EPX73363 pep:novel supercontig:GCA_000150505.2:supercont6.2:3783579:3786742:
+           -1 gene:SOCG_01113 transcript:EPX73363
+           description:"hypothetical protein"
+          Length = 656
+
+ Score = 27.7 bits (60), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 15/23 (65%)
+
+Query: 28  VLQEAGYNVSSYGTGSAVRLPGL 50
+           VL EAG N S+  TG+ V +P L
+Sbjct: 111 VLSEAGINASAIPTGATVTIPTL 133
+
+
+>EPX72088 pep:novel supercontig:GCA_000150505.2:supercont6.2:853815:858024:1
+           gene:SOCG_04021 transcript:EPX72088 description:"tel Two
+           Interacting protein 1"
+          Length = 1102
+
+ Score = 26.9 bits (58), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 25/94 (26%), Positives = 45/94 (47%), Gaps = 13/94 (13%)
+
+Query: 107 VFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLN 166
+           +F F F+    C D++ +    R   L  ++ ++N   K++ + A IG K       M++
+Sbjct: 308 LFHFCFSLFTNCLDSLKD---CRIHLLETMLLLVNK--KENPQLASIGIK-------MIS 355
+
+Query: 167 DKIEQCEKDDIPFEDCIMDILTEWQSSHSQLPSL 200
+           D I   + + +  ED + D L  W S+ S + SL
+Sbjct: 356 DYISS-QNNTLIMEDILSDCLQSWSSTWSGISSL 388
+
+
+>EPX72399 pep:novel supercontig:GCA_000150505.2:supercont6.2:1640318:1642911:
+           -1 gene:SOCG_00163 transcript:EPX72399
+           description:"ATP-dependent RNA helicase Ste13"
+          Length = 486
+
+ Score = 26.9 bits (58), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  V+N D   + E
+Sbjct: 331 CRNLVCSDLLTRGIDIQAVNVVVNFDFPKNAE 362
+
+
+>EPX74025 pep:novel supercontig:GCA_000150505.2:supercont6.1:1530133:1531780:
+           -1 gene:SOCG_03240 transcript:EPX74025
+           description:"translation elongation factor EF-Tu Tuf1"
+          Length = 440
+
+ Score = 26.6 bits (57), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 13/43 (30%), Positives = 26/43 (60%), Gaps = 1/43 (2%)
+
+Query: 147 DDENAKIGSKAILELADMLNDKIEQCEKD-DIPFEDCIMDILT 188
+           +D N +IG ++I +L D ++  +   E++ D+PF   I D+ +
+Sbjct: 221 EDRNPEIGLQSITKLMDAVDSYVSTPERNIDMPFLMAIEDVFS 263
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 1,043,110
+Number of extensions: 44973
+Number of successful extensions: 147
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 146
+Number of HSP's successfully gapped: 15
+Length of query: 206
+Length of database: 2,302,372
+Length adjustment: 84
+Effective length of query: 122
+Effective length of database: 1,883,548
+Effective search space: 229792856
+Effective search space used: 229792856
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 48 (23.1 bits)

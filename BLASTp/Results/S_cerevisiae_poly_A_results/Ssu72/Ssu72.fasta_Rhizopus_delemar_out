@@ -1,0 +1,146 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: rhizopus_delemar_99-880_3_proteins.fasta 
+           17,459 sequences; 5,971,044 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+RO3G_03955T0 | RO3G_03955 | Rhizopus delemar 99-880 hypothetical...   164   2e-51
+RO3G_02426T0 | RO3G_02426 | Rhizopus delemar 99-880 hypothetical...    30   0.63 
+RO3G_01783T0 | RO3G_01783 | Rhizopus delemar 99-880 hypothetical...    28   1.4  
+RO3G_08607T0 | RO3G_08607 | Rhizopus delemar 99-880 ATP-dependen...    27   3.4  
+RO3G_06550T0 | RO3G_06550 | Rhizopus delemar 99-880 ATP-dependen...    27   3.5  
+RO3G_07518T0 | RO3G_07518 | Rhizopus delemar 99-880 ATP-dependen...    27   3.7  
+RO3G_06827T0 | RO3G_06827 | Rhizopus delemar 99-880 hypothetical...    27   7.4  
+RO3G_11905T0 | RO3G_11905 | Rhizopus delemar 99-880 calmodulin (...    25   9.3  
+RO3G_13246T0 | RO3G_13246 | Rhizopus delemar 99-880 hypothetical...    25   9.4  
+
+>RO3G_03955T0 | RO3G_03955 | Rhizopus delemar 99-880 hypothetical protein (127
+           aa)
+          Length = 126
+
+ Score =  164 bits (415), Expect = 2e-51,   Method: Compositional matrix adjust.
+ Identities = 73/125 (58%), Positives = 95/125 (76%)
+
+Query: 45  VRLPGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQES 104
+           VRLPG SI+KPN+Y FGTPY  +Y +L  Q  + Y  NGLL MLDRNR+ K AP++W ES
+Sbjct: 2   VRLPGPSINKPNIYPFGTPYEQVYQELKRQDPNLYTQNGLLNMLDRNRKTKSAPQRWHES 61
+
+Query: 105 TKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADM 164
+            +VFD + TCEERCFD+V EDL NRG  LN+  HVINV+IKD+ E+A +G +AIL+LA M
+Sbjct: 62  REVFDVIITCEERCFDSVVEDLANRGQNLNQSTHVINVEIKDNHEDALLGGRAILQLAQM 121
+
+Query: 165 LNDKI 169
+           + +++
+Sbjct: 122 VVNEL 126
+
+
+>RO3G_02426T0 | RO3G_02426 | Rhizopus delemar 99-880 hypothetical protein (3254 aa)
+          Length = 3253
+
+ Score = 30.0 bits (66), Expect = 0.63,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 3/78 (3%)
+
+Query: 24   ESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSNG 83
+            ES  VLQE+  ++ +   G+ V+      ++  +  FG PY  ++N  L +  D+     
+Sbjct: 1275 ESKIVLQESRVHIHTDEIGATVQYVSKKYERQTIV-FGIPYQHLHNKKLYEGQDQSTLVN 1333
+
+Query: 84   LLQMLDRNRRLKKAPEKW 101
+             L MLD    LK    KW
+Sbjct: 1334 ELVMLD--LALKGFDFKW 1349
+
+
+>RO3G_01783T0 | RO3G_01783 | Rhizopus delemar 99-880 hypothetical protein (485
+           aa)
+          Length = 484
+
+ Score = 28.5 bits (62), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 15/46 (32%), Positives = 25/46 (54%), Gaps = 3/46 (6%)
+
+Query: 54  KPNVYSFGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPE 99
+           K  +YSF +PY   ++D+ S++ D  +    +  LDR R  +  PE
+Sbjct: 399 KQGIYSFASPY---WDDISSEAIDLIRRLLTVNPLDRARSAEALPE 441
+
+
+>RO3G_08607T0 | RO3G_08607 | Rhizopus delemar 99-880 ATP-dependent RNA helicase
+           DHH1 (524 aa)
+          Length = 523
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 325 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 356
+
+
+>RO3G_06550T0 | RO3G_06550 | Rhizopus delemar 99-880 ATP-dependent RNA helicase
+           DHH1 (495 aa)
+          Length = 494
+
+ Score = 27.3 bits (59), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 331 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 363
+
+
+  Database: rhizopus_delemar_99-880_3_proteins.fasta
+    Posted date:  Feb 27, 2014  1:07 PM
+  Number of letters in database: 5,971,044
+  Number of sequences in database:  17,459
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 17459
+Number of Hits to DB: 2,722,476
+Number of extensions: 116021
+Number of successful extensions: 321
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 321
+Number of HSP's successfully gapped: 14
+Length of query: 206
+Length of database: 5,971,044
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,417,193
+Effective search space: 516811581
+Effective search space used: 516811581
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

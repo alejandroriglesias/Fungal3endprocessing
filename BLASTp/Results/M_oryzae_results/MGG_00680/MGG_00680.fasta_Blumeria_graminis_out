@@ -1,0 +1,193 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU82770 pep:novel supercontig:EF1:HF943538:327591:328493:1 gene...   212   1e-67
+CCU81340 pep:novel supercontig:EF1:HF943526:1217553:1219499:-1 g...    61   4e-11
+CCU75704 pep:novel supercontig:EF1:HF943548:165674:167559:-1 gen...    36   0.007
+CCU75061 pep:novel supercontig:EF1:HF943549:7803387:7804536:-1 g...    32   0.061
+CCU79004 pep:novel supercontig:EF1:HF943531:1834488:1836795:1 ge...    28   1.5  
+CCU74556 pep:novel supercontig:EF1:HF943549:905769:907656:-1 gen...    28   1.5  
+CCU77327 pep:novel supercontig:EF1:HF943544:359897:361124:1 gene...    28   2.1  
+CCU82478 pep:novel supercontig:EF1:HF943512:213575:214608:-1 gen...    26   5.7  
+CCU77472 pep:novel supercontig:EF1:HF943544:2220730:2222481:1 ge...    27   6.1  
+CCU76270 pep:novel supercontig:EF1:HF943536:3289302:3290921:1 ge...    26   6.5  
+CCU81727 pep:novel supercontig:EF1:HF943519:1200732:1202761:-1 g...    26   7.1  
+CCU78775 pep:novel supercontig:EF1:HF943531:693843:694600:1 gene...    25   9.4  
+
+>CCU82770 pep:novel supercontig:EF1:HF943538:327591:328493:1
+           gene:BGHDH14_bgh01661 transcript:CCU82770
+           description:"putative mRNA 3prime-end-processing protein
+           YTH1"
+          Length = 248
+
+ Score =  212 bits (539), Expect = 1e-67,   Method: Compositional matrix adjust.
+ Identities = 107/209 (51%), Positives = 139/209 (66%), Gaps = 28/209 (13%)
+
+Query: 4   PSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLERH 63
+           P   ++A  +L HSAP+Y+F+F+P+L + +   L  +RP+CK Y  G +CP+G+ C E+H
+Sbjct: 9   PGPRELAQQILQHSAPQYNFAFSPYLNEVFGFGLSPNRPVCKAYLQG-HCPSGSSCPEKH 67
+
+Query: 64  VADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFY 123
+             + +                   N+LVCKHWLRGLCKKGD CEFLHEYNLR+MPECNF+
+Sbjct: 68  NNNSNF------------------NNLVCKHWLRGLCKKGDSCEFLHEYNLRKMPECNFF 109
+
+Query: 124 IRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPD 183
+            R+GYC NG        DP SKLPPCPHY++GFC LGP CS++H+R+ LC +YL GFCPD
+Sbjct: 110 TRHGYCSNG--------DPSSKLPPCPHYEKGFCALGPACSQRHLRKVLCEFYLAGFCPD 161
+
+Query: 184 GRLCKQGAHPGWNPKLDPPTVKVEKPAGE 212
+           G+ CK  +HP W   L   TV+VEK A E
+Sbjct: 162 GKACKN-SHPRWPENLPKATVRVEKSAEE 189
+
+
+>CCU81340 pep:novel supercontig:EF1:HF943526:1217553:1219499:-1
+           gene:BGHDH14_bgh05444 transcript:CCU81340
+           description:"CCCH zinc finger protein"
+          Length = 462
+
+ Score = 61.2 bits (147), Expect = 4e-11,   Method: Compositional matrix adjust.
+ Identities = 46/151 (30%), Positives = 69/151 (45%), Gaps = 28/151 (18%)
+
+Query: 40  DRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RG 98
+           D P CK++ + G+CP G RC  R++ DPS+++                   VCK +L +G
+Sbjct: 267 DEP-CKIFTTTGSCPKGPRC--RYIHDPSKVA-------------------VCKEFLLKG 304
+
+Query: 99  LCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPC-PHYDQGFC 157
+            C  G+ C+  HE    R P C  + R G C N   C Y+H+        C P    G+C
+Sbjct: 305 SCASGESCDLSHELTPERTPSCLHFTR-GNCAN-PNCRYIHVRVSPLALVCRPFGMNGYC 362
+
+Query: 158 PLGPRCSKKHVRRNLCPYYLCGFCPDGRLCK 188
+             G  C+++H+    CP +      + R CK
+Sbjct: 363 EKGSTCTERHIHE--CPDFSNTGTCNNRGCK 391
+
+
+
+ Score = 33.1 bits (74), Expect = 0.044,   Method: Compositional matrix adjust.
+ Identities = 26/103 (25%), Positives = 38/103 (36%), Gaps = 20/103 (19%)
+
+Query: 38  PSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR 97
+           PS   +CK +   G+C +G  C   H   P +  +                   C H+ R
+Sbjct: 291 PSKVAVCKEFLLKGSCASGESCDLSHELTPERTPS-------------------CLHFTR 331
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHI 140
+           G C   + C ++H         C  +  NGYC+ G  C   HI
+Sbjct: 332 GNCANPN-CRYIHVRVSPLALVCRPFGMNGYCEKGSTCTERHI 373
+
+
+>CCU75704 pep:novel supercontig:EF1:HF943548:165674:167559:-1
+           gene:BGHDH14_bgh03491 transcript:CCU75704
+           description:"spindle poison sensitivity protein Scp3"
+          Length = 587
+
+ Score = 35.8 bits (81), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 21/66 (31%), Positives = 29/66 (43%), Gaps = 13/66 (19%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCG 179
+           C F+ R G CQ G  C + H    +    C ++ +G C  GP+C+  HV           
+Sbjct: 56  CKFF-RAGACQAGNSCPFSHDPASTTDNICKYFAKGNCKFGPKCANIHV----------- 103
+
+Query: 180 FCPDGR 185
+             PDGR
+Sbjct: 104 -LPDGR 108
+
+
+
+ Score = 31.6 bits (70), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 15/54 (27%), Positives = 27/54 (50%), Gaps = 1/54 (1%)
+
+Query: 92  CKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSK 145
+           CK +  G C+ G+ C F H+        C ++ + G C+ G +C  +H+ P  +
+Sbjct: 56  CKFFRAGACQAGNSCPFSHDPASTTDNICKYFAK-GNCKFGPKCANIHVLPDGR 108
+
+
+>CCU75061 pep:novel supercontig:EF1:HF943549:7803387:7804536:-1
+           gene:BGHDH14_bghG000946000001001 transcript:CCU75061
+           description:"CCCH finger DNA binding protein/zinc finger
+           containing protein"
+          Length = 366
+
+ Score = 32.3 bits (72), Expect = 0.061,   Method: Compositional matrix adjust.
+ Identities = 17/93 (18%), Positives = 42/93 (45%), Gaps = 12/93 (12%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLP 147
+            +++C+ + +G C+KG  C+F H+ N++R  E     ++   ++         D + K  
+Sbjct: 98  KTVLCQFFKKGHCEKGRKCKFSHDLNIQRKSEKKDLYQDTRDED---------DTKKKTE 148
+
+Query: 148 PCPHYDQG---FCPLGPRCSKKHVRRNLCPYYL 177
+               +D+       L  + ++K     +C +++
+Sbjct: 149 TSDDWDEEKLRSVVLSKKGNQKTTTDKVCKFFI 181
+
+
+>CCU79004 pep:novel supercontig:EF1:HF943531:1834488:1836795:1
+           gene:BGHDH14_bgh01403 transcript:CCU79004
+           description:"putative CCCH zinc finger and SMR
+           domain-containing"
+          Length = 737
+
+ Score = 28.5 bits (62), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 9/21 (42%), Positives = 14/21 (66%)
+
+Query: 91  VCKHWLRGLCKKGDGCEFLHE 111
+           +CK+W+ G C  G+ C F H+
+Sbjct: 310 ICKYWVMGNCLAGETCIFSHD 330
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,745,198
+Number of extensions: 79825
+Number of successful extensions: 196
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 171
+Number of HSP's successfully gapped: 20
+Length of query: 276
+Length of database: 3,131,961
+Length adjustment: 89
+Effective length of query: 187
+Effective length of database: 2,556,131
+Effective search space: 477996497
+Effective search space used: 477996497
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 50 (23.9 bits)

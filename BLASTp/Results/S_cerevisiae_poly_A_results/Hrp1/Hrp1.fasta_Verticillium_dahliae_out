@@ -1,0 +1,321 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage factor I, a five-subunit complex required
+for the cleavage and polyadenylation of pre-mRNA 3' ends;
+RRM-containing heteronuclear RNA binding protein and hnRNPA/B family
+member that binds to poly (A) signal sequences
+         (534 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY13443 pep:novel supercontig:GCA_000150675.1:supercont1.1:4239...   118   6e-29
+EGY17947 pep:novel supercontig:GCA_000150675.1:supercont1.2:2495...    67   5e-12
+EGY22948 pep:novel supercontig:GCA_000150675.1:supercont1.7:9606...    66   7e-12
+EGY21812 pep:novel supercontig:GCA_000150675.1:supercont1.5:8841...    63   9e-12
+EGY15855 pep:novel supercontig:GCA_000150675.1:supercont1.15:424...    64   5e-11
+EGY18120 pep:novel supercontig:GCA_000150675.1:supercont1.20:509...    58   3e-09
+EGY23139 pep:novel supercontig:GCA_000150675.1:supercont1.8:5846...    56   7e-09
+EGY15484 pep:novel supercontig:GCA_000150675.1:supercont1.14:142...    56   2e-08
+EGY15817 pep:novel supercontig:GCA_000150675.1:supercont1.15:293...    52   2e-07
+EGY17319 pep:novel supercontig:GCA_000150675.1:supercont1.2:6077...    51   5e-07
+EGY14833 pep:novel supercontig:GCA_000150675.1:supercont1.12:958...    51   6e-07
+EGY21354 pep:novel supercontig:GCA_000150675.1:supercont1.4:1660...    50   1e-06
+EGY22974 pep:novel supercontig:GCA_000150675.1:supercont1.7:1036...    49   2e-06
+EGY13663 pep:novel supercontig:GCA_000150675.1:supercont1.1:1151...    47   9e-06
+EGY13392 pep:novel supercontig:GCA_000150675.1:supercont1.1:2644...    45   1e-05
+EGY21201 pep:novel supercontig:GCA_000150675.1:supercont1.4:1205...    46   2e-05
+EGY21234 pep:novel supercontig:GCA_000150675.1:supercont1.4:1294...    46   2e-05
+EGY22816 pep:novel supercontig:GCA_000150675.1:supercont1.7:5533...    44   5e-05
+EGY13581 pep:novel supercontig:GCA_000150675.1:supercont1.1:8711...    43   1e-04
+EGY21082 pep:novel supercontig:GCA_000150675.1:supercont1.4:8098...    43   2e-04
+EGY13753 pep:novel supercontig:GCA_000150675.1:supercont1.1:1458...    39   0.002
+EGY22777 pep:novel supercontig:GCA_000150675.1:supercont1.7:4347...    38   0.006
+EGY19103 pep:novel supercontig:GCA_000150675.1:supercont1.26:572...    37   0.009
+EGY18764 pep:novel supercontig:GCA_000150675.1:supercont1.24:175...    34   0.027
+EGY14874 pep:novel supercontig:GCA_000150675.1:supercont1.12:247...    35   0.034
+EGY20949 pep:novel supercontig:GCA_000150675.1:supercont1.4:4492...    35   0.049
+EGY15529 pep:novel supercontig:GCA_000150675.1:supercont1.14:310...    35   0.054
+EGY21851 pep:novel supercontig:GCA_000150675.1:supercont1.5:1000...    33   0.063
+EGY14710 pep:novel supercontig:GCA_000150675.1:supercont1.11:743...    32   0.33 
+EGY21863 pep:novel supercontig:GCA_000150675.1:supercont1.5:1042...    31   0.98 
+EGY17363 pep:novel supercontig:GCA_000150675.1:supercont1.2:7575...    30   1.2  
+EGY21629 pep:novel supercontig:GCA_000150675.1:supercont1.5:2006...    28   1.8  
+EGY21623 pep:novel supercontig:GCA_000150675.1:supercont1.5:1879...    30   1.8  
+EGY16824 pep:novel supercontig:GCA_000150675.1:supercont1.18:620...    28   5.5  
+
+>EGY13443 pep:novel supercontig:GCA_000150675.1:supercont1.1:423966:425801:1
+           gene:VDAG_00125 transcript:EGY13443 description:"nuclear
+           polyadenylated RNA-binding protein"
+          Length = 484
+
+ Score =  118 bits (295), Expect = 6e-29,   Method: Compositional matrix adjust.
+ Identities = 61/149 (40%), Positives = 95/149 (63%), Gaps = 5/149 (3%)
+
+Query: 173 DNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVKTQHILDGKVIDPKR 232
+           ++LR+YF ++G V +  +M+D  TGRSRGFGFL+F+   +V+ V+  +H LDGK++  + 
+Sbjct: 51  ESLRDYFAQFGEVVECTVMRDSTTGRSRGFGFLTFKDAKTVNIVMVKEHFLDGKIMI-RS 109
+
+Query: 233 AIPRDEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTYD 292
+           A PRD+++   +IFVGG+                  + DA LM+DKDTG+ RGFGFVT++
+Sbjct: 110 AHPRDDREDE-QIFVGGVSKRR--LIRFRLLLSLAALSDATLMMDKDTGRPRGFGFVTFE 166
+
+Query: 293 SADAVDRVCQNKFIDFKDRKIEIKRAEPR 321
+           S + VD  C    ++   + IE+K+A+PR
+Sbjct: 167 SEEGVD-ACLKTHLEIHGKPIEVKKAQPR 194
+
+
+
+ Score = 56.2 bits (134), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 27/72 (37%), Positives = 43/72 (59%), Gaps = 2/72 (2%)
+
+Query: 250 IGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTYDSADAVDRVCQNKFIDFK 309
+           IG  +  +   ++F+Q+G +++  +M D  TG+SRGFGF+T+  A  V+ V   +   F 
+Sbjct: 44  IGLRLLTESLRDYFAQFGEVVECTVMRDSTTGRSRGFGFLTFKDAKTVNIVMVKE--HFL 101
+
+Query: 310 DRKIEIKRAEPR 321
+           D KI I+ A PR
+Sbjct: 102 DGKIMIRSAHPR 113
+
+
+>EGY17947 pep:novel supercontig:GCA_000150675.1:supercont1.2:2495301:2497633:
+           -1 gene:VDAG_01629 transcript:EGY17947
+           description:"polyadenylate-binding protein"
+          Length = 759
+
+ Score = 67.0 bits (162), Expect = 5e-12,   Method: Compositional matrix adjust.
+ Identities = 45/176 (25%), Positives = 90/176 (51%), Gaps = 19/176 (10%)
+
+Query: 161 MFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVKTQ 220
+           +FI  L+       L + F  +G +   K+ +D   G S+G+GF+ +E   +  + +K  
+Sbjct: 151 VFIKNLDVAIDNKALHDTFAAFGNILSCKVAQD-EHGNSKGYGFVHYETDEAAAQAIK-- 207
+
+Query: 221 HILDGKVIDPKRA-----IPR-DEQDKTGK-------IFVGGIGPDVRPKEFEEFFSQWG 267
+           H+ +G +++ K+      IP+ D Q K  +       ++V  I  +    EF + F+++G
+Sbjct: 208 HV-NGMLLNEKKVYVGHHIPKKDRQSKFEEMKANFTNVYVKNINSEASDDEFRDLFTKYG 266
+
+Query: 268 TIIDAQLMLDKDTGQSRGFGFVTYDSADAVDRVCQN-KFIDFKDRKIEIKRAEPRH 322
+            +  + L  D++ G+SRGFGFV + + +A  +  +     DF+ + + + RA+ +H
+Sbjct: 267 EVTSSSLARDQE-GKSRGFGFVNFTTHEAASQAVEELNGKDFRGQDLYVGRAQKKH 321
+
+
+
+ Score = 49.7 bits (117), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 68/140 (48%), Gaps = 27/140 (19%)
+
+Query: 161 MFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVKTQ 220
+           +++  +N + ++D  R+ F KYG VT   + +D   G+SRGFGF++F    +  + V+  
+Sbjct: 244 VYVKNINSEASDDEFRDLFTKYGEVTSSSLARD-QEGKSRGFGFVNFTTHEAASQAVEE- 301
+
+Query: 221 HILDGK--------VIDPKRAIPRDE----------QDKTGK-----IFVGGIGPDVRPK 257
+             L+GK        V   ++   R+E          Q+K  K     +++  +  DV  +
+Sbjct: 302 --LNGKDFRGQDLYVGRAQKKHEREEELRKSYEAARQEKANKYQGVNLYIKNLSDDVDDE 359
+
+Query: 258 EFEEFFSQWGTIIDAQLMLD 277
+           +    FS++G I  A++M D
+Sbjct: 360 KLRAMFSEFGPITSAKVMRD 379
+
+
+
+ Score = 37.0 bits (84), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 17/64 (26%), Positives = 32/64 (50%), Gaps = 2/64 (3%)
+
+Query: 230 PKRAIPRDEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFV 289
+           P  A+P+ +   +  ++VG + P V      E FS  G +   ++  D  T +S G+ +V
+Sbjct: 50  PNSAVPQPQ--ASASLYVGELEPQVTEAMLFELFSHIGPVASIRVCRDAVTRRSLGYAYV 107
+
+Query: 290 TYDS 293
+            Y++
+Sbjct: 108 NYNT 111
+
+
+
+ Score = 31.2 bits (69), Expect = 0.67,   Method: Compositional matrix adjust.
+ Identities = 23/120 (19%), Positives = 42/120 (35%), Gaps = 48/120 (40%)
+
+Query: 157 ESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPAT-------------------- 196
+           +   ++I  L+ D  ++ LR  F ++G +T  K+M+D  +                    
+Sbjct: 343 QGVNLYIKNLSDDVDDEKLRAMFSEFGPITSAKVMRDSISEGEDEEKAEEETPAPEAEVK 402
+
+Query: 197 --------------------------GRSRGFGFLSFEKPSSVDEVVK--TQHILDGKVI 228
+                                     G+S+GFGF+ F  P    + V    Q ++D K +
+Sbjct: 403 KEDSEADADSQEAADKKDAKKGDKKLGKSKGFGFVCFSNPEDATKAVADMNQRMIDNKPL 462
+
+
+>EGY22948 pep:novel supercontig:GCA_000150675.1:supercont1.7:960686:962405:1
+           gene:VDAG_04386 transcript:EGY22948 description:"gar2"
+          Length = 485
+
+ Score = 66.2 bits (160), Expect = 7e-12,   Method: Compositional matrix adjust.
+ Identities = 42/165 (25%), Positives = 79/165 (47%), Gaps = 22/165 (13%)
+
+Query: 153 DLSKESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSS 212
+           D+S++S  +F+G L W   +D L + F ++  +T  +++ D   GRSRGFG++ F    S
+Sbjct: 220 DMSEQSATLFVGSLAWAVNDDILYQAFSEFPNLTSARVITDREGGRSRGFGYVDFSDAES 279
+
+Query: 213 VDEVVKTQH--ILDGKVID-------PKRA-----IPRDEQDKTG--------KIFVGGI 250
+               ++ ++   L+G+ ++       P+R+        D   + G         +FVG I
+Sbjct: 280 AKAALEAKNGTELEGRNMNIDFSGKRPERSDNPGDRANDRAQRHGDSLSPESDTLFVGNI 339
+
+Query: 251 GPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTYDSAD 295
+             ++       FF+        +L  D ++G  +GFG+V++ S D
+Sbjct: 340 SFEMDQDTVHAFFATVAEPTSVRLPTDPESGNLKGFGYVSFSSID 384
+
+
+
+ Score = 52.8 bits (125), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 26/87 (29%), Positives = 48/87 (55%)
+
+Query: 218 KTQHILDGKVIDPKRAIPRDEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLD 277
+           K +  LD  VI PK+A   D  +++  +FVG +   V      + FS++  +  A+++ D
+Sbjct: 201 KKRKALDDPVIPPKKARTEDMSEQSATLFVGSLAWAVNDDILYQAFSEFPNLTSARVITD 260
+
+Query: 278 KDTGQSRGFGFVTYDSADAVDRVCQNK 304
+           ++ G+SRGFG+V +  A++     + K
+Sbjct: 261 REGGRSRGFGYVDFSDAESAKAALEAK 287
+
+
+
+ Score = 50.4 bits (119), Expect = 6e-07,   Method: Compositional matrix adjust.
+ Identities = 24/83 (28%), Positives = 47/83 (56%), Gaps = 3/83 (3%)
+
+Query: 146 KEERSKADLSKESCKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFL 205
+           + +R    LS ES  +F+G ++++  +D +  +F      T +++  DP +G  +GFG++
+Sbjct: 319 RAQRHGDSLSPESDTLFVGNISFEMDQDTVHAFFATVAEPTSVRLPTDPESGNLKGFGYV 378
+
+Query: 206 SFEKPSSVDEVVKTQHILDGKVI 228
+           SF   SS+D+  K    L+G+ +
+Sbjct: 379 SF---SSIDDAKKALSELNGQYL 398
+
+
+>EGY21812 pep:novel supercontig:GCA_000150675.1:supercont1.5:884161:886026:-1
+           gene:VDAG_03252 transcript:EGY21812
+           description:"glycine-rich RNA-binding protein"
+          Length = 175
+
+ Score = 63.2 bits (152), Expect = 9e-12,   Method: Compositional matrix adjust.
+ Identities = 31/77 (40%), Positives = 46/77 (59%), Gaps = 2/77 (2%)
+
+Query: 159 CKMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVK 218
+            K+FIGGL W TTE+ LR  F ++G V +  ++KD  TGRSRGFGF+ + +     + + 
+Sbjct: 2   SKLFIGGLAWHTTEETLRSRFEEFGAVDEAVVVKDRDTGRSRGFGFVRYSQDEDAQKAID 61
+
+Query: 219 TQHIL--DGKVIDPKRA 233
+             + +  DG+ I   RA
+Sbjct: 62  AMNNVEFDGRTIRVDRA 78
+
+
+
+ Score = 51.2 bits (121), Expect = 6e-08,   Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 45/79 (56%), Gaps = 7/79 (8%)
+
+Query: 244 KIFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTY----DSADAVDR 299
+           K+F+GG+      +     F ++G + +A ++ D+DTG+SRGFGFV Y    D+  A+D 
+Sbjct: 3   KLFIGGLAWHTTEETLRSRFEEFGAVDEAVVVKDRDTGRSRGFGFVRYSQDEDAQKAIDA 62
+
+Query: 300 VCQNKFIDFKDRKIEIKRA 318
+           +     ++F  R I + RA
+Sbjct: 63  MNN---VEFDGRTIRVDRA 78
+
+
+>EGY15855 pep:novel supercontig:GCA_000150675.1:supercont1.15:424249:426690:1
+           gene:VDAG_07019 transcript:EGY15855
+           description:"RNA-binding protein rsd1"
+          Length = 570
+
+ Score = 63.9 bits (154), Expect = 5e-11,   Method: Compositional matrix adjust.
+ Identities = 46/171 (26%), Positives = 83/171 (48%), Gaps = 17/171 (9%)
+
+Query: 161 MFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVKT- 219
+           +F+  L        L+E+F K G V + +I+KD  + RS+G G++ F+   +V + ++  
+Sbjct: 187 VFVQQLAARLRTRELKEFFEKVGPVNEAQIVKDRISQRSKGVGYVEFKSEDTVTQALQLT 246
+
+Query: 220 -QHILDGKVIDPKRAIPRDEQDKT-------------GKIFVGGIGPDVRPKEFEEFFSQ 265
+            Q +L   +I       ++ Q +T              +++VG I  +V  ++ +  F  
+Sbjct: 247 GQKLLGIPIIVQLTEAEKNRQVRTTEAAGTQSNSIPFHRLYVGNIHFNVTEQDLQAVFEP 306
+
+Query: 266 WGTIIDAQLMLDKDTGQSRGFGFVTY-DSADAVDRVCQNKFIDFKDRKIEI 315
+           +G +   QL  D DTG+SRG+GFV Y D+  A + + +    D   R I +
+Sbjct: 307 FGELEFVQLQKD-DTGRSRGYGFVQYRDAGQAREALEKMNGFDLAGRPIRV 356
+
+
+
+ Score = 47.4 bits (111), Expect = 7e-06,   Method: Compositional matrix adjust.
+ Identities = 22/69 (31%), Positives = 42/69 (60%), Gaps = 1/69 (1%)
+
+Query: 234 IPRDEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGTIIDAQLMLDKDTGQSRGFGFVTYDS 293
+           +  DE+D+   +FV  +   +R +E +EFF + G + +AQ++ D+ + +S+G G+V + S
+Sbjct: 177 LTEDERDRR-TVFVQQLAARLRTRELKEFFEKVGPVNEAQIVKDRISQRSKGVGYVEFKS 235
+
+Query: 294 ADAVDRVCQ 302
+            D V +  Q
+Sbjct: 236 EDTVTQALQ 244
+
+
+
+ Score = 42.7 bits (99), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 39/65 (60%), Gaps = 1/65 (1%)
+
+Query: 160 KMFIGGLNWDTTEDNLREYFGKYGTVTDLKIMKDPATGRSRGFGFLSFEKPSSVDEVVKT 219
+           ++++G ++++ TE +L+  F  +G +  +++ KD  TGRSRG+GF+ +       E ++ 
+Sbjct: 285 RLYVGNIHFNVTEQDLQAVFEPFGELEFVQLQKDD-TGRSRGYGFVQYRDAGQAREALEK 343
+
+Query: 220 QHILD 224
+            +  D
+Sbjct: 344 MNGFD 348
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.310    0.130    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 3,249,387
+Number of extensions: 119698
+Number of successful extensions: 359
+Number of sequences better than 10.0: 38
+Number of HSP's gapped: 347
+Number of HSP's successfully gapped: 73
+Length of query: 534
+Length of database: 4,984,196
+Length adjustment: 98
+Effective length of query: 436
+Effective length of database: 3,951,766
+Effective search space: 1722969976
+Effective search space used: 1722969976
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.7 bits)
+S2: 55 (25.8 bits)

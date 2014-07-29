@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00010075 pep:known contig:CADRE:9374:2286752:2287568:1 g...    30   1.2  
+CADNFIAP00008523 pep:known contig:CADRE:9292:2417864:2420485:1 g...    30   1.5  
+
+>CADNFIAP00010075 pep:known contig:CADRE:9374:2286752:2287568:1 gene:CADNFIAG00010315
+           transcript:CADNFIAT00010315 description:"Putative
+           uncharacterized protein"
+          Length = 236
+
+ Score = 30.0 bits (66), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 24/38 (63%), Gaps = 4/38 (10%)
+
+Query: 81  SGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFF 118
+           +GL S+  + +NQL    + KQ+ + PPIA D+ +D +
+Sbjct: 38  TGLASIMANRINQL----YSKQYANQPPIAADIPMDGY 71
+
+
+>CADNFIAP00008523 pep:known contig:CADRE:9292:2417864:2420485:1 gene:CADNFIAG00008690
+           transcript:CADNFIAT00008690 description:"Putative
+           uncharacterized protein"
+          Length = 786
+
+ Score = 30.4 bits (67), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 29/63 (46%), Gaps = 2/63 (3%)
+
+Query: 61  DNLHIER--KEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFF 118
+           +N  + R  +E  VT + +QL +G  S  LD +N     +  + H   PP A+ +  D  
+Sbjct: 204 ENSEVRRAAEEATVTRSGLQLRNGSNSPSLDTINSERSRQESEPHGRFPPEASVMPQDVV 263
+
+Query: 119 VNQ 121
+             Q
+Sbjct: 264 AEQ 266
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,364,062
+Number of extensions: 172989
+Number of successful extensions: 272
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 272
+Number of HSP's successfully gapped: 6
+Length of query: 533
+Length of database: 5,073,492
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 4,054,096
+Effective search space: 1763531760
+Effective search space used: 1763531760
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,230 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP60399 pep:known chromosome:v2.0:4:2935179:2937162:-1 gene:...   582   0.0  
+NechaP57603 pep:known chromosome:v2.0:1:4693275:4694910:-1 gene:...   412   e-141
+NechaP58275 pep:known chromosome:v2.0:2:2264284:2265795:-1 gene:...   286   9e-95
+NechaP7195 pep:known chromosome:v2.0:5:3538379:3539362:-1 gene:N...   265   7e-87
+NechaP90816 pep:known chromosome:v2.0:2:1099251:1100392:-1 gene:...   253   1e-81
+NechaP91172 pep:known chromosome:v2.0:2:2656303:2657724:1 gene:N...   224   7e-70
+NechaP48473 pep:known chromosome:v2.0:9:1828489:1830284:-1 gene:...   222   8e-68
+NechaP89795 pep:known chromosome:v2.0:1:1052752:1054118:-1 gene:...   207   5e-63
+NechaP89050 pep:known supercontig:v2.0:sca_89_unmapped:7385:8164...    46   6e-06
+NechaP102963 pep:known chromosome:v2.0:1:706671:708872:-1 gene:N...    30   1.4  
+NechaP75880 pep:known chromosome:v2.0:2:226804:228453:-1 gene:Ne...    29   2.2  
+
+>NechaP60399 pep:known chromosome:v2.0:4:2935179:2937162:-1 gene:NechaG60399
+           transcript:NechaT60399
+           description:"Serine/threonine-protein phosphatase"
+          Length = 308
+
+ Score =  582 bits (1500), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 281/309 (90%), Positives = 292/309 (94%), Gaps = 3/309 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQHEVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK- 301
+
+Query: 302 LPRQAGGRK 310
+             +Q  GR+
+Sbjct: 302 --KQKFGRR 308
+
+
+>NechaP57603 pep:known chromosome:v2.0:1:4693275:4694910:-1 gene:NechaG57603
+           transcript:NechaT57603
+           description:"Serine/threonine-protein phosphatase"
+          Length = 529
+
+ Score =  412 bits (1060), Expect = e-141,   Method: Compositional matrix adjust.
+ Identities = 192/301 (63%), Positives = 232/301 (77%), Gaps = 1/301 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           D + +D+D+ I RLL+     K  + V L+  EI  +C +AR +F+ QP LLEL+AP+K+
+Sbjct: 203 DIKDIDLDDFIKRLLDAGYAGKVTKSVCLKNAEIVAICQRAREVFLSQPALLELDAPVKV 262
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+            GD+HGQY D++R+FE  GFPP SNYLFLGDYVDRGKQSLETI LLL YK+K+PENFF+L
+Sbjct: 263 VGDVHGQYTDVIRMFEMCGFPPNSNYLFLGDYVDRGKQSLETILLLLCYKLKFPENFFLL 322
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           RGNHECA++ R+YGFYDECKRR N+K+WKTF DCFN LPIAAI+  KIFC+HGGLSP L 
+Sbjct: 323 RGNHECANVTRVYGFYDECKRRCNVKIWKTFIDCFNTLPIAAIVAGKIFCVHGGLSPALV 382
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+            M+ IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FL   D 
+Sbjct: 383 HMDDIRNIARPTDVPDYGLLNDLLWSDPADMEQDWEANERGVSYCFGKRVITEFLADHDF 442
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK 300
+           +LICRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP   
+Sbjct: 443 DLICRAHMVVEDGYEFFNDRVLVTVFSAPNYCGEFDNWGAVMSVSAELLCSFELLKPLDS 502
+
+Query: 301 S 301
+           S
+Sbjct: 503 S 503
+
+
+>NechaP58275 pep:known chromosome:v2.0:2:2264284:2265795:-1 gene:NechaG58275
+           transcript:NechaT58275
+           description:"Serine/threonine-protein phosphatase"
+          Length = 328
+
+ Score =  286 bits (733), Expect = 9e-95,   Method: Compositional matrix adjust.
+ Identities = 132/274 (48%), Positives = 188/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E++++ LC KAR +  ++  +  ++ P+ +CGDIHGQ++DL+ LF+ GG  P++NYLF
+Sbjct: 42  LAESDVQRLCDKAREVLQEESNVQPVKCPVTVCGDIHGQFHDLMELFKIGGPNPDTNYLF 101
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 102 MGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANV 161
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 162 WKYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSD 221
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + LI RAHQ+V +GY +   R +VT+FS
+Sbjct: 222 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLIARAHQLVMEGYNWSQDRNVVTIFS 280
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 281 APNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 314
+
+
+>NechaP7195 pep:known chromosome:v2.0:5:3538379:3539362:-1 gene:NechaG7195
+           transcript:NechaT7195
+           description:"Serine/threonine-protein phosphatase"
+          Length = 283
+
+ Score =  265 bits (677), Expect = 7e-87,   Method: Compositional matrix adjust.
+ Identities = 133/286 (46%), Positives = 188/286 (65%), Gaps = 9/286 (3%)
+
+Query: 8   VDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQ 67
+           +D II  LLE     P  ++ L   EI++LC+KA+ I I QP LLEL AP+ + G +HGQ
+Sbjct: 1   LDRIIHELLETNDLAPKTKIGLHLTEIQFLCAKAKEILIAQPTLLELAAPLTVVGPVHGQ 60
+
+Query: 68  YYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECA 127
+           + DLL++F+  G P  ++YLFLG+YVD GK SLE+ICLLLAYKIK+   FF+LRGNHE  
+Sbjct: 61  FDDLLKVFKCAGHPKATSYLFLGNYVDFGKSSLESICLLLAYKIKFSRTFFLLRGNHESE 120
+
+Query: 128 SINR-IYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIR 186
+             +R   GFY ECK RYNI+LWK F D FN LP+AA ++ K+FC+HGGL P   S++ I+
+Sbjct: 121 DGSRKKLGFYQECKERYNIRLWKRFVDIFNYLPLAATVNSKVFCVHGGLGPSFTSLQDIK 180
+
+Query: 187 RVMRPT----DIPDVGLLCDLLWSDPDKDIVGWSENDRGV-SFTFGPDVVNRFLQKQDME 241
+           ++ RP     +  D  +   L+  D + D+VGW  NDRG     FGPD V+ FL + +M+
+Sbjct: 181 QITRPIIERYNDKDEEIRRALVDGDFNNDVVGW--NDRGQDGIKFGPDRVSNFLTRNNMQ 238
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDES 287
+           LI    +  ++GY+F  + + + L++APN+ G   NAGA+ ++ E+
+Sbjct: 239 LIVSGRKAPKEGYQFCCENKFLRLWTAPNWNG-LGNAGAIWTIPEN 283
+
+
+>NechaP90816 pep:known chromosome:v2.0:2:1099251:1100392:-1 gene:NechaG90816
+           transcript:NechaT90816
+           description:"Serine/threonine-protein phosphatase"
+          Length = 320
+
+ Score =  253 bits (645), Expect = 1e-81,   Method: Compositional matrix adjust.
+ Identities = 120/297 (40%), Positives = 191/297 (64%), Gaps = 9/297 (3%)
+
+Query: 6   VDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIH 65
+           VD+D  I RL         ++  L E+ I  +C+K + + +++  ++ + API + GDIH
+Sbjct: 8   VDLDECISRLY--------KKELLAESVIEAICAKTKELLMRESNVVHVRAPITVVGDIH 59
+
+Query: 66  GQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHE 125
+           GQ++DL+ +F  GG+ P++NYLFLGDYVDRG  S+ETI LL+  K++YP    ++RGNHE
+Sbjct: 60  GQFFDLIEIFRIGGYCPDTNYLFLGDYVDRGMFSVETISLLVCLKLRYPNRVHLIRGNHE 119
+
+Query: 126 CASINRIYGFYDECKRRY-NIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQ 184
+              + + YGFY EC R+Y N  +W  FTD F+ L ++ +I+++IFC+HGGLSP ++S++Q
+Sbjct: 120 SRGVTQSYGFYTECSRKYGNANVWHYFTDMFDFLTLSVVINDQIFCVHGGLSPSIHSIDQ 179
+
+Query: 185 IRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELIC 244
+           I+ + R  +IP  G + DL+WSDPD +   +S + RG  +TFG  VV +FL   +M  I 
+Sbjct: 180 IKIIDRFREIPHEGPMADLVWSDPDPERDEFSLSPRGAGYTFGAQVVKKFLAVNNMSHIL 239
+
+Query: 245 RAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           RAHQ+ ++G++     +L T++SAPNYC    N  +++ V ++    F +   A ++
+Sbjct: 240 RAHQLCQEGFQVLYDDRLSTVWSAPNYCYRCGNMASVLEVSDTGERFFNVFAAAPEN 296
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 5,186,450
+Number of extensions: 232801
+Number of successful extensions: 392
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 381
+Number of HSP's successfully gapped: 14
+Length of query: 312
+Length of database: 7,529,425
+Length adjustment: 96
+Effective length of query: 216
+Effective length of database: 6,021,745
+Effective search space: 1300696920
+Effective search space used: 1300696920
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 54 (25.4 bits)

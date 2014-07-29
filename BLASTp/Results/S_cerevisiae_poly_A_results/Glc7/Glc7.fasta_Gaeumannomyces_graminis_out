@@ -1,0 +1,235 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_01677T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...   583   0.0  
+GGTG_01677T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:...   580   0.0  
+GGTG_03983T1 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   394   e-134
+GGTG_03983T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   394   e-134
+GGTG_03764T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   285   3e-94
+GGTG_04049T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   254   4e-82
+GGTG_02621T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   226   1e-68
+GGTG_04392T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...   206   1e-62
+GGTG_06153T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...   206   7e-62
+GGTG_08435T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...   142   1e-38
+GGTG_11439T0 pep:known supercontig:Gae_graminis_V2:supercont1.7:...    36   0.010
+GGTG_02426T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    33   0.023
+GGTG_12419T0 pep:known supercontig:Gae_graminis_V2:supercont1.8:...    30   0.75 
+GGTG_02634T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    28   6.4  
+GGTG_10514T0 pep:known supercontig:Gae_graminis_V2:supercont1.6:...    27   7.2  
+
+>GGTG_01677T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:5272060:5273630:
+           1 gene:GGTG_01677 transcript:GGTG_01677T0
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 325
+
+ Score =  583 bits (1502), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 281/310 (90%), Positives = 292/310 (94%), Gaps = 2/310 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQK- 300
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKK 302
+
+Query: 301 -SLPRQAGGR 309
+               ++ GGR
+Sbjct: 303 QKYVQRLGGR 312
+
+
+>GGTG_01677T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:5270900:5274037:
+           1 gene:GGTG_01677 transcript:GGTG_01677T1
+           description:"serine/threonine-protein phosphatase PP1"
+          Length = 309
+
+ Score =  580 bits (1496), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 281/310 (90%), Positives = 292/310 (94%), Gaps = 3/310 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   VD+D+IIDRLLEVRGS+PG+QV L E EIRYLC+KAR IFI QPILLELEAPIKIC
+Sbjct: 3   DQHDVDLDSIIDRLLEVRGSRPGKQVQLLEAEIRYLCTKAREIFISQPILLELEAPIKIC 62
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 63  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 122
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 123 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 182
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRRVMRPTDIPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 183 MEQIRRVMRPTDIPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 242
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 243 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEK- 301
+
+Query: 302 LPRQAGGRKK 311
+             +Q  GR +
+Sbjct: 302 --KQKFGRGR 309
+
+
+>GGTG_03983T1 pep:known supercontig:Gae_graminis_V2:supercont1.2:4246347:4252658:
+           1 gene:GGTG_03983 transcript:GGTG_03983T1
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 524
+
+ Score =  394 bits (1012), Expect = e-134,   Method: Compositional matrix adjust.
+ Identities = 190/297 (63%), Positives = 229/297 (77%), Gaps = 1/297 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           D + +D+D+ I RLL+     K  + V L   EI  +C +AR  F+ QP LLEL+AP+KI
+Sbjct: 201 DIKDIDLDDFIKRLLDAAYAGKVTKSVCLRNAEIAAICHRARECFLSQPALLELDAPVKI 260
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+            GD+HGQY DL+R+FE  GFPP +N+LFLGDYVDRGKQSLETI LLL YK+KYPENFF+L
+Sbjct: 261 VGDVHGQYTDLIRMFEMCGFPPSANFLFLGDYVDRGKQSLETILLLLCYKLKYPENFFLL 320
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           RGNHECA++ R+YGFYDECKRR N+K+WKTF D FN LPIAAI+  KIFC+HGGLSP L+
+Sbjct: 321 RGNHECANVTRVYGFYDECKRRCNVKVWKTFVDTFNTLPIAAIVAGKIFCVHGGLSPTLS 380
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+            M+ IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FL   D 
+Sbjct: 381 HMDDIRNIARPTDVPDYGLLNDLLWSDPADMEQDWEANERGVSYCFGKKVITEFLAHHDF 440
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 297
+           +L+CRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP
+Sbjct: 441 DLVCRAHMVVEDGYEFFNDRVLVTVFSAPNYCGEFDNWGAVMSVSSELLCSFELLKP 497
+
+
+>GGTG_03983T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:4246347:4252658:
+           1 gene:GGTG_03983 transcript:GGTG_03983T0
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 530
+
+ Score =  394 bits (1012), Expect = e-134,   Method: Compositional matrix adjust.
+ Identities = 190/297 (63%), Positives = 229/297 (77%), Gaps = 1/297 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEVR-GSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           D + +D+D+ I RLL+     K  + V L   EI  +C +AR  F+ QP LLEL+AP+KI
+Sbjct: 201 DIKDIDLDDFIKRLLDAAYAGKVTKSVCLRNAEIAAICHRARECFLSQPALLELDAPVKI 260
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+            GD+HGQY DL+R+FE  GFPP +N+LFLGDYVDRGKQSLETI LLL YK+KYPENFF+L
+Sbjct: 261 VGDVHGQYTDLIRMFEMCGFPPSANFLFLGDYVDRGKQSLETILLLLCYKLKYPENFFLL 320
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           RGNHECA++ R+YGFYDECKRR N+K+WKTF D FN LPIAAI+  KIFC+HGGLSP L+
+Sbjct: 321 RGNHECANVTRVYGFYDECKRRCNVKVWKTFVDTFNTLPIAAIVAGKIFCVHGGLSPTLS 380
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+            M+ IR + RPTD+PD GLL DLLWSDP      W  N+RGVS+ FG  V+  FL   D 
+Sbjct: 381 HMDDIRNIARPTDVPDYGLLNDLLWSDPADMEQDWEANERGVSYCFGKKVITEFLAHHDF 440
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 297
+           +L+CRAH VVEDGYEFF+ R LVT+FSAPNYCGEFDN GA+MSV   LLCSF++LKP
+Sbjct: 441 DLVCRAHMVVEDGYEFFNDRVLVTVFSAPNYCGEFDNWGAVMSVSSELLCSFELLKP 497
+
+
+>GGTG_03764T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:3556178:3559255:
+           -1 gene:GGTG_03764 transcript:GGTG_03764T0
+           description:"serine/threonine-protein phosphatase PP2A
+           catalytic subunit"
+          Length = 328
+
+ Score =  285 bits (729), Expect = 3e-94,   Method: Compositional matrix adjust.
+ Identities = 132/274 (48%), Positives = 187/274 (68%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E++++ LC KAR +   +  +  ++ P+ +CGDIHGQ++DL+ LF+ GG  P++NYLF
+Sbjct: 42  LVESDVQRLCEKARDVLQDESNVQPVKCPVTVCGDIHGQFHDLMELFKIGGPNPDTNYLF 101
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 102 MGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANV 161
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FTD F+ LP+ A+ID +IFC+HGGLSP +++++ IR + R  ++P  G +CDLLWSD
+Sbjct: 162 WKYFTDLFDYLPLTALIDNQIFCLHGGLSPSIDTLDNIRALDRIQEVPHEGPMCDLLWSD 221
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + LI RAHQ+V +GY +   R +VT+FS
+Sbjct: 222 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLIARAHQLVMEGYNWSQDRNVVTIFS 280
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 281 APNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 314
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 4,268,806
+Number of extensions: 184379
+Number of successful extensions: 299
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 287
+Number of HSP's successfully gapped: 19
+Length of query: 312
+Length of database: 6,264,428
+Length adjustment: 95
+Effective length of query: 217
+Effective length of database: 4,898,328
+Effective search space: 1062937176
+Effective search space used: 1062937176
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 53 (25.0 bits)

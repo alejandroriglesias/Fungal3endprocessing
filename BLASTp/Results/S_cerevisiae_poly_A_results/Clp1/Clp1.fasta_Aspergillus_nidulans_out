@@ -1,0 +1,148 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00002576 pep:known chromosome:ASM1142v1:VIII:4355289:435...   136   3e-35
+CADANIAP00004193 pep:known chromosome:ASM1142v1:II:941523:944198...    30   1.2  
+CADANIAP00004810 pep:known chromosome:ASM1142v1:II:2703375:27049...    28   3.3  
+CADANIAP00006532 pep:known chromosome:ASM1142v1:I:159216:163453:...    28   5.4  
+
+>CADANIAP00002576 pep:known chromosome:ASM1142v1:VIII:4355289:4357223:1
+           gene:CADANIAG00002576 transcript:CADANIAT00002576
+           description:"mRNA cleavage factor complex II protein
+           Clp1, putative (AFU_orthologue\x3b AFUA_5G11400)"
+          Length = 546
+
+ Score =  136 bits (342), Expect = 3e-35,   Method: Compositional matrix adjust.
+ Identities = 103/369 (27%), Positives = 175/369 (47%), Gaps = 40/369 (10%)
+
+Query: 3   SLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAV 62
+           SLPG++    S E  +      ++ +  GS+W+ ++     + VK+ +G  E+FGTELA 
+Sbjct: 2   SLPGLELTQPSAESQSASAPPTQINLSAGSEWRFEVAFGTTVRVKLLTGTAELFGTELAP 61
+
+Query: 63  DDEYTFQNWKFPIYAVEETELLWKCPDLTTN-------------------TITVKPNHTM 103
+              YTF   K  IY      L     D  +                    +  +     M
+Sbjct: 62  SQTYTFSGTKAAIYTWHGCTLEVSAGDAVSGLDGTTSASGRGGLGAGGCQSEYIAEETPM 121
+
+Query: 104 KYIYNLHFMLEKIRM----SNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYIN 159
+               N+HF LE +R     S  +GPRV+I+G    GKTSLS+ L +YA+K    +P+ +N
+Sbjct: 122 VEYANVHFALEGLRAEAKASGRDGPRVLILGPEDAGKTSLSKILTAYAVKVG-REPIVVN 180
+
+Query: 160 LDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGL-ERINEN 218
+           LDP + + +VPG +SAT    +LD +   WG S  SG + +  K P+V  + +   +   
+Sbjct: 181 LDPTEGMLSVPGTVSATAFRAMLDVE-EGWGSSPMSGPSAVPVKLPLVYFYPIVNPLEAE 239
+
+Query: 219 KDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSI-SQLDENLAEL-HHIIEKLNVNI 276
+             ++   +S+L   V  R+  D   + +G IVDTP I SQ      E+ +HI+ + ++  
+Sbjct: 240 GSVFRPIVSRLALSVMGRMAEDEDAKETGIIVDTPGILSQSRAGALEMINHIVTEFSITT 299
+
+Query: 277 MLVLCSETDPLWEKVKKTFGPELGNN----------NIFFIPKLDGVSAVDDVYKRSLQR 326
+           +LV+ SE   L+  + K++  +  ++          ++  + K  G    D  + ++++ 
+Sbjct: 300 ILVIGSER--LYSLMMKSYDNKPSSSASSAASDERISVVKLSKSGGCVDRDAAFMKAVRE 357
+
+Query: 327 TSIREYFYG 335
+           + IR YF+G
+Sbjct: 358 SQIRTYFFG 366
+
+
+>CADANIAP00004193 pep:known chromosome:ASM1142v1:II:941523:944198:-1
+           gene:CADANIAG00004193 transcript:CADANIAT00004193
+           description:"conserved hypothetical protein"
+          Length = 653
+
+ Score = 30.4 bits (67), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 17/40 (42%), Positives = 20/40 (50%), Gaps = 3/40 (7%)
+
+Query: 360 NVFDNEVGR---VELFPVTITPSNLQHAIIAITFAERRAD 396
+             F + +GR   + LFP T  PS LQ A  A    ERR D
+Sbjct: 115 RAFQSRLGRPSSIPLFPSTALPSRLQAASGATISTERRMD 154
+
+
+>CADANIAP00004810 pep:known chromosome:ASM1142v1:II:2703375:2704932:1
+           gene:CADANIAG00004810 transcript:CADANIAT00004810
+           description:"conserved hypothetical protein"
+          Length = 290
+
+ Score = 28.5 bits (62), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 15/46 (32%), Positives = 27/46 (58%), Gaps = 6/46 (13%)
+
+Query: 115 KIRMSNFEGPR------VVIVGGSQTGKTSLSRTLCSYALKFNAYQ 154
+           K  + NF  PR      ++++GGS+TGKTSL++ +     K + ++
+Sbjct: 98  KWEVENFISPRPNRRQSLLMIGGSRTGKTSLAQHIVHSHGKISEFE 143
+
+
+>CADANIAP00006532 pep:known chromosome:ASM1142v1:I:159216:163453:1
+            gene:CADANIAG00006532 transcript:CADANIAT00006532
+            description:"ABC multidrug transporter (Eurofung)"
+          Length = 1396
+
+ Score = 28.1 bits (61), Expect = 5.4,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (54%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+            N  M+Y   L  +L+ + M+   G R+ IVG +  GK+S+   L
+Sbjct: 1135 NVAMRYRPGLPLVLKNLSMNISGGERIGIVGRTGAGKSSIMSAL 1178
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 4,340,259
+Number of extensions: 185061
+Number of successful extensions: 422
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 419
+Number of HSP's successfully gapped: 6
+Length of query: 445
+Length of database: 5,078,913
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,057,115
+Effective search space: 1411876020
+Effective search space used: 1411876020
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

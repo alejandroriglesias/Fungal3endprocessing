@@ -1,0 +1,112 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_02467T0 pep:known chromosome:ASM14955v1:6:3552268:3554314:-...   186   4e-54
+FVEG_05567T0 pep:known chromosome:ASM14955v1:3:4037497:4039002:1...    30   1.4  
+
+>FVEG_02467T0 pep:known chromosome:ASM14955v1:6:3552268:3554314:-1
+           gene:FVEG_02467 transcript:FVEG_02467T0
+           description:"hypothetical protein"
+          Length = 365
+
+ Score =  186 bits (471), Expect = 4e-54,   Method: Compositional matrix adjust.
+ Identities = 110/220 (50%), Positives = 136/220 (61%), Gaps = 15/220 (6%)
+
+Query: 1   MAEEDFEIDIYGDANQEQQG----GDDNKHDQSYEGGDHQDGHGANDNEQYRDDQQXXXX 56
+           MAEEDFEIDIYGD + + Q     GDDN  D  ++G D +D HG  + E+Y  D      
+Sbjct: 1   MAEEDFEIDIYGDESNDHQQDDHRGDDNNQDH-HQGDDRRDSHGDQNMEEYHADNHHHAG 59
+
+Query: 57  XXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGW 116
+                       ++  T       KRK+  D R +D  AT++++ISEL WW TDDDIRGW
+Sbjct: 60  GSHSSSHHQAHGSQQGT-------KRKQEDDGRPVDQSATTSLMISELNWWNTDDDIRGW 112
+
+Query: 117 IREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQ 176
+            REA CE+E+KDITFSEHKVNGKSKGQ YIE  S QA+TA+K R+E    + +  A +K 
+Sbjct: 113 AREADCEDEIKDITFSEHKVNGKSKGQAYIEFYSPQASTAMKRRIEQIVAE-SQGAQKKL 171
+
+Query: 177 QVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYNNDR 216
+            + Y + T NPF+TLPKD P  GKD QNR  SG  YNNDR
+Sbjct: 172 TLTYWASTNNPFKTLPKDAPARGKD-QNRAPSGT-YNNDR 209
+
+
+
+ Score = 32.7 bits (73), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 12/14 (85%), Positives = 13/14 (92%)
+
+Query: 411 EWQNPHGAKRPRPE 424
+           +W NPHGAKRPRPE
+Sbjct: 352 DWGNPHGAKRPRPE 365
+
+
+>FVEG_05567T0 pep:known chromosome:ASM14955v1:3:4037497:4039002:1 gene:FVEG_05567
+           transcript:FVEG_05567T0 description:"conserved
+           hypothetical protein"
+          Length = 325
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 15/22 (68%)
+
+Query: 184 TMNPFRTLPKDQPRTGKDGQNR 205
+           T+ PF TLPK  P+ G  G+NR
+Sbjct: 298 TLPPFSTLPKGWPQLGWKGENR 319
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 3,219,801
+Number of extensions: 129255
+Number of successful extensions: 444
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 438
+Number of HSP's successfully gapped: 14
+Length of query: 424
+Length of database: 5,950,719
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,574,774
+Effective search space: 1495951098
+Effective search space used: 1495951098
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

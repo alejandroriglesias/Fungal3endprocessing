@@ -1,0 +1,158 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00005527 pep:known contig:CADRE:9288:2472577:2473920:1 g...   171   2e-48
+CADNFIAP00009259 pep:known contig:CADRE:9374:2385195:2386757:1 g...    29   1.9  
+CADNFIAP00004572 pep:known contig:CADRE:9201:2843238:2845670:1 g...    29   2.5  
+CADNFIAP00006191 pep:known contig:CADRE:9288:1968792:1969469:-1 ...    28   2.7  
+CADNFIAP00010072 pep:known contig:CADRE:9374:877721:879840:-1 ge...    29   3.0  
+CADNFIAP00005613 pep:known contig:CADRE:9288:2211162:2212864:-1 ...    27   9.1  
+
+>CADNFIAP00005527 pep:known contig:CADRE:9288:2472577:2473920:1 gene:CADNFIAG00005684
+           transcript:CADNFIAT00005684 description:"RRM domain
+           protein"
+          Length = 398
+
+ Score =  171 bits (433), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 114/235 (48%), Positives = 136/235 (57%), Gaps = 33/235 (14%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGGDDNKHD----------QSYEGGDHQDGHGANDNE 45
+           MA ED  F+IDIYGD    N   QG D  KH+          Q+  GG    G G N  E
+Sbjct: 1   MATEDDNFDIDIYGDGGGYNANDQG-DYIKHEDTELILDAPEQTQNGGA---GQGQNSTE 56
+
+Query: 46  QYRDDQQX-------XXXXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSA 98
+           Q    +Q                         +  PQQ   +KRKE  DDR  DP AT+A
+Sbjct: 57  QKAQQEQGDGTGPNGEHVTQAHDAQQQEASQAAPAPQQG--VKRKE-HDDRPSDPDATTA 113
+
+Query: 99  ILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVK 158
+           +LIS+L WW TDDDIRGWI  AGCE+ELKD+TFSEHKVNGKSKGQ ++E T+ QAATA K
+Sbjct: 114 LLISDLYWWTTDDDIRGWINAAGCEDELKDVTFSEHKVNGKSKGQAFVEFTTLQAATAAK 173
+
+Query: 159 HRLESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYN 213
+           H++E+   + +SQ GRK  V Y++P  NPFRTLPKD P   KD Q R  SG G+N
+Sbjct: 174 HQIENL--NVSSQGGRKYMVHYTNPHTNPFRTLPKDAPMR-KDNQARSLSG-GFN 224
+
+
+>CADNFIAP00009259 pep:known contig:CADRE:9374:2385195:2386757:1 gene:CADNFIAG00009499
+           transcript:CADNFIAT00009499 description:"Ribosomal
+           biogenesis protein Gar2"
+          Length = 477
+
+ Score = 29.3 bits (64), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 14/70 (20%), Positives = 30/70 (42%), Gaps = 3/70 (4%)
+
+Query: 92  DPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQ 151
+           +P A   + I  +     +  +R +  + G   E+  +  S +++ G+SK   ++E  S 
+Sbjct: 225 EPEAPGTVYIGRIPHGFYEHQMRAYFSQFG---EITRLRLSRNRITGRSKHYAFVEFASN 281
+
+Query: 152 QAATAVKHRL 161
+             A  V   +
+Sbjct: 282 TVAKIVAETM 291
+
+
+>CADNFIAP00004572 pep:known contig:CADRE:9201:2843238:2845670:1 gene:CADNFIAG00004700
+           transcript:CADNFIAT00004700 description:"ATP-dependent
+           RNA helicase dbp4"
+          Length = 810
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 50/119 (42%), Gaps = 21/119 (17%)
+
+Query: 72  ATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITF 131
+           A P +S  LKRK G D+            +S L   + D D++   +         D+  
+Sbjct: 13  AKPPRSKTLKRKRGQDE------------LSSLIQRVEDLDLKETFK------SFSDLPL 54
+
+Query: 132 SEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTM-NPFR 189
+           SE   +G +    Y  LT  Q + A+ H L+     GA++ G  + + +  P + N +R
+Sbjct: 55  SEPTASGLASSH-YKTLTDIQ-SRAISHALKGRDVLGAAKTGSGKTLAFLVPVLENLYR 111
+
+
+>CADNFIAP00006191 pep:known contig:CADRE:9288:1968792:1969469:-1
+           gene:CADNFIAG00006348 transcript:CADNFIAT00006348
+           description:"Glycine-rich RNA-binding protein, putative"
+          Length = 118
+
+ Score = 27.7 bits (60), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 20/73 (27%), Positives = 30/73 (41%), Gaps = 3/73 (4%)
+
+Query: 96  TSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAAT 155
+            S + I  L W  TDD +R      G  EE   I   +   N +S+G  ++  +S   A 
+Sbjct: 1   MSKLFIGGLAWHTTDDALRQGFEPYGVVEEA--IVVKDRDTN-RSRGFGFVRFSSDTEAD 57
+
+Query: 156 AVKHRLESSGEDG 168
+           A    + +   DG
+Sbjct: 58  AAMDAMNNQEFDG 70
+
+
+>CADNFIAP00010072 pep:known contig:CADRE:9374:877721:879840:-1 gene:CADNFIAG00010312
+           transcript:CADNFIAT00010312 description:"Putative
+           uncharacterized protein"
+          Length = 649
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 30/55 (54%), Gaps = 4/55 (7%)
+
+Query: 128 DITFSEHKVNGKSKGQVYIELTSQQAAT----AVKHRLESSGEDGASQAGRKQQV 178
+           D  F + + +G  KGQV    +   AAT    AV H  ++SG  GAS A ++++V
+Sbjct: 264 DSDFDDARASGSRKGQVSKPRSGAGAATGDLSAVGHGAQTSGASGASGATKRRKV 318
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,685,166
+Number of extensions: 105995
+Number of successful extensions: 300
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 292
+Number of HSP's successfully gapped: 15
+Length of query: 424
+Length of database: 5,073,492
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 4,074,900
+Effective search space: 1336567200
+Effective search space used: 1336567200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,219 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01804:Endoribonuclease YSH1
+         (829 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX99464 pep:novel supercontig:ASM23037v1:FP929136:523334:526399...   965   0.0  
+CBY02251 pep:novel supercontig:ASM23037v1:FP929139:3542358:35453...    66   3e-11
+CBX97607 pep:novel supercontig:ASM23037v1:FP929132:245654:247948...    38   0.010
+CBX95667 pep:novel supercontig:ASM23037v1:FP929127:1469896:14711...    32   0.58 
+CBX92486 pep:novel supercontig:ASM23037v1:FP929094:649682:652007...    32   0.80 
+CBX90325 pep:novel supercontig:ASM23037v1:FP929064:816619:817662...    31   1.3  
+CBY02363 pep:novel supercontig:ASM23037v1:FP929139:3853485:38541...    30   2.3  
+CBY00955 pep:novel supercontig:ASM23037v1:FP929138:2418348:24192...    29   4.7  
+
+>CBX99464 pep:novel supercontig:ASM23037v1:FP929136:523334:526399:-1
+           gene:LEMA_P087030.1 transcript:CBX99464
+           description:"Similar to cleavage and polyadenylation
+           specifity factor "
+          Length = 861
+
+ Score =  965 bits (2495), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 482/699 (68%), Positives = 548/699 (78%), Gaps = 40/699 (5%)
+
+Query: 1   MASKRKASAMNVAAPD--EPVDPADELVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHP 58
+           M SKRKA+AM   AP+  EP+DP+DEL+F CLGGGNEVGRSCHIIQYKGKTVMLDAG HP
+Sbjct: 1   MTSKRKAAAM---APEDEEPIDPSDELLFLCLGGGNEVGRSCHIIQYKGKTVMLDAGMHP 57
+
+Query: 59  AYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKW 118
+           AY+GL+A+PF+D+FDLSTVDVLLISHFHVDHAASLPYVL+KTNFKGRVFMTHPTKAIYKW
+Sbjct: 58  AYEGLSAMPFYDEFDLSTVDVLLISHFHVDHAASLPYVLAKTNFKGRVFMTHPTKAIYKW 117
+
+Query: 119 LIQDSVRVGNTSSNPTSQ-PVYTEQDHLNTFPQIEAIDYYTTHTISSIRITPYPAGHVLG 177
+           LIQDSVRVGN SSN  ++  +YTEQDHLNT+P IE+ID+YTTHT+S +RITPYPAGHVLG
+Sbjct: 118 LIQDSVRVGNMSSNSETKIQMYTEQDHLNTYPMIESIDFYTTHTVSGVRITPYPAGHVLG 177
+
+Query: 178 AAMFLIEIAGMNIFFTGDYSREQDRHLVSAEVPRGVKIDVLITESTYGIASHVPRVEREQ 237
+           AAMFL+EIAG+ I FTGDYSRE DRHLVSA VP GVK+DVLITEST+GI+ H PRVERE 
+Sbjct: 178 AAMFLMEIAGLKILFTGDYSREDDRHLVSASVPAGVKVDVLITESTFGISMHTPRVEREA 237
+
+Query: 238 ALMKSITGILNRGGRVLMPVFALGRAQELLLILDEYWGKHQEYQKVPIYYASNLARKCMV 297
+            LMK+IT ILNRGGR L+PVFALGRAQELLLILDEYW KH E QK+PIYY S+LARKCM 
+Sbjct: 238 QLMKAITDILNRGGRALLPVFALGRAQELLLILDEYWSKHPEVQKIPIYYNSSLARKCMQ 297
+
+Query: 298 VYQTYVGAMNDNIKRLFRERLXXXXXXXXXXXXXXXPWDFKYIRSLKNLDRFDDLGPCVM 357
+           VYQTYV AMNDNIKRLF ER+                WDFK++RSLK+L+RFDDLG CVM
+Sbjct: 298 VYQTYVSAMNDNIKRLFAERMAEAEAAGDTGRRGA--WDFKFVRSLKSLERFDDLGGCVM 355
+
+Query: 358 LASPGMLQNGVSRELLERWAPSDKNGVVITGYSVEGTMAKQIMQEPEQIPAIMTRNAAAA 417
+           LASPGM+Q+G SRELLERWAP  +NGV+ITGYSVEGTMAKQI+ EP+QIPAIMTR    +
+Sbjct: 356 LASPGMMQSGTSRELLERWAPDPRNGVIITGYSVEGTMAKQIVHEPDQIPAIMTRTNNNS 415
+
+Query: 418 SR--RADGEKPMIPRRCSVAEFSFAAHVDGTENREFIEEVAAPVVILVHGEQNNMMRLKS 475
+            R  + +GE+ MIPRRC+V E+SFAAHVDG EN EF++EVAAPVVILVHGE+ NM RL+S
+Sbjct: 416 RRPGQREGEQTMIPRRCTVQEYSFAAHVDGKENMEFVQEVAAPVVILVHGEKGNMTRLRS 475
+
+Query: 476 KLLSLNATKTEKVKIYSPRNCEELRIPFKTDKTAKVVGKLASITPPT--RLPTDDDYHLH 533
+           KLLS NA K+   KIYSP NCEELRIPFKTDK AKVVGKLASI PP    L  D D  L+
+Sbjct: 476 KLLSFNAQKSVPTKIYSPANCEELRIPFKTDKIAKVVGKLASIAPPIPRSLDADGDERLN 535
+
+Query: 534 PQ--------LVTGVLVQNDFKLSLMAPEDLREYAGLTTTTIVCRQKIMLAAAGVDLIRW 585
+            Q        ++ GVL+QNDFKLSLMAPEDL+EYAGLTTTTI+CRQ I L+AAG+DLIRW
+Sbjct: 536 DQDSEGEKLDMIAGVLIQNDFKLSLMAPEDLKEYAGLTTTTIMCRQHITLSAAGIDLIRW 595
+
+Query: 586 ALESTFGAVDELPEMRQLHKEVPNGDDMILDAKXXXX---------XXXXXXRPVAGYIV 636
+           ALE TFGA+ E            N  D  +D K                   R    + +
+Sbjct: 596 ALEGTFGAITE-----------SNVTDGAVDGKEAHTNGNGVSKEHADEEISRTQTKFTI 644
+
+Query: 637 MGSINVRCFGSGEVELEWEGNTMNDGFADAVMAVLLTVE 675
+           M  +NV     G VE+EWEGN +NDG ADAV+AVL TVE
+Sbjct: 645 MDCVNVHVKNGGRVEVEWEGNVINDGIADAVLAVLFTVE 683
+
+
+
+ Score = 51.2 bits (121), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 23/37 (62%), Positives = 28/37 (75%), Gaps = 1/37 (2%)
+
+Query: 773 LHKIGIPVPGVAIKIDDKLNAKVWLEDLEVECANKAF 809
+           LH +GIPVPG+ I  D K  A+VWLE+LEVECA+ A 
+Sbjct: 806 LHNLGIPVPGLEISFD-KFVARVWLENLEVECAHTAL 841
+
+
+>CBY02251 pep:novel supercontig:ASM23037v1:FP929139:3542358:3545368:1
+           gene:LEMA_P010380.1 transcript:CBY02251
+           description:"Similar to cleavage and polyadenylation
+           specificity factor subunit 2 "
+          Length = 954
+
+ Score = 65.9 bits (159), Expect = 3e-11,   Method: Compositional matrix adjust.
+ Identities = 61/263 (23%), Positives = 116/263 (44%), Gaps = 26/263 (9%)
+
+Query: 163 SSIRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYSREQDRHLVSA-----------EVPR 211
+           + + IT Y AGH LG +++ I+    ++ +  D+++  +  L  A           EV +
+Sbjct: 175 NGLTITAYSAGHTLGGSIWHIQHGMESVVYAVDWNQATEHVLSGAAWLGGPGAGGSEVLK 234
+
+Query: 212 GVKIDVLITESTYG---IASHVPRVEREQALMKSITGILNRGGRVLMPVFALGRAQELLL 268
+            ++    +  S+ G   +    P  +R++AL+  +   +  GG VL+P  +  R  EL  
+Sbjct: 235 QLRRPTALICSSKGTELVKVARPPSKRDEALLALVRETVANGGSVLIPSDSSARILELAY 294
+
+Query: 269 ILDEYWGK-------HQEYQKVPIYYASNLARKCMVVYQTYVGAMNDNIKRLFRERLXXX 321
+           +L+E W +           +   +Y AS      M   ++ +  M + I + F E     
+Sbjct: 295 LLEETWQRDSINSDGDSPLKSAKVYLASRTGGATMRYARSMLEWMEEGIVKEF-EVASGA 353
+
+Query: 322 XXXXXXXXXXXXPWDFKYIRSLKNLDRFDDL----GPCVMLASPGMLQNGVSRELLERWA 377
+                       P+DFK+I  L+   R   +    GP V+LAS   L+ G S++ ++  A
+Sbjct: 354 NNGKDDSKAARVPFDFKHITLLERKTRVARMLATSGPRVILASDTTLEWGFSKDAIKSLA 413
+
+Query: 378 PSDKNGVVITGYSVEGTMAKQIM 400
+             +KN +++T  + E +  K+ +
+Sbjct: 414 SDEKNLILLTERAGEPSSQKKSL 436
+
+
+>CBX97607 pep:novel supercontig:ASM23037v1:FP929132:245654:247948:1
+           gene:LEMA_P090160.1 transcript:CBX97607
+           description:"Putative uncharacterized protein "
+          Length = 694
+
+ Score = 38.1 bits (87), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 36/122 (29%), Positives = 53/122 (43%), Gaps = 9/122 (7%)
+
+Query: 81  LISHFHVDHAASLPYVLSKTNFKGRVFMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYT 140
+            +SH H DH   L  +  +  F   V+ +  T+ I   L +   R+        S+ V T
+Sbjct: 32  FLSHVHSDHLTGLESL--RAPF---VYCSAATREILLRLEKYHYRINFAKGVLESRNV-T 85
+
+Query: 141 EQDHLNTFPQIEAIDYYTTHTISS---IRITPYPAGHVLGAAMFLIEIAGMNIFFTGDYS 197
+               +    +   +D  TT  ++    IR+T   A H +GA MFLIE  G  I +TGD  
+Sbjct: 86  YDRCMRRLAKPLPLDTPTTIELAPGNIIRVTCIDANHCVGAVMFLIEGDGKAILYTGDIR 145
+
+Query: 198 RE 199
+            E
+Sbjct: 146 AE 147
+
+
+>CBX95667 pep:novel supercontig:ASM23037v1:FP929127:1469896:1471119:1
+           gene:LEMA_P028190.1 transcript:CBX95667
+           description:"Putative uncharacterized protein "
+          Length = 407
+
+ Score = 32.3 bits (72), Expect = 0.58,   Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 26/45 (57%), Gaps = 2/45 (4%)
+
+Query: 73  DLSTVDVLLISHFHVDH--AASLPYVLSKTNFKGRVFMTHPTKAI 115
+           DL  +D +LISH H DH  +A+L  +++K N   R F     KA+
+Sbjct: 146 DLPEIDAVLISHDHYDHLDSATLKQLMAKQNGDLRFFCGLGVKAV 190
+
+
+>CBX92486 pep:novel supercontig:ASM23037v1:FP929094:649682:652007:-1
+           gene:LEMA_P051920.1 transcript:CBX92486
+           description:"Putative uncharacterized protein "
+          Length = 741
+
+ Score = 32.0 bits (71), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 30/105 (28%), Positives = 45/105 (42%), Gaps = 9/105 (8%)
+
+Query: 25  LVFTCLGGGNEVGRSCHIIQYKGKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDV---LL 81
+           L+  C   G    R   +  YK    M+   QH  +  LAA+   DD  L++  +   LL
+Sbjct: 420 LMSLCFAYGTAKDRKLFLRPYKDTIEMMAFDQHAHHVLLAAMAVTDDTKLTSKSIFGELL 479
+
+Query: 82  ISHFHVDHAASLPYVLSKTN-FKGRVFMTHPTKAIYKWLIQDSVR 125
+            S+   D  A    VL+  N  + R  + +P  A  KW + D+ R
+Sbjct: 480 PSN---DTLAE--KVLNLCNDARARTVLLYPFAADAKWFLDDNAR 519
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.319    0.136    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 8,002,153
+Number of extensions: 327399
+Number of successful extensions: 669
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 661
+Number of HSP's successfully gapped: 9
+Length of query: 829
+Length of database: 5,217,443
+Length adjustment: 102
+Effective length of query: 727
+Effective length of database: 3,945,605
+Effective search space: 2868454835
+Effective search space used: 2868454835
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

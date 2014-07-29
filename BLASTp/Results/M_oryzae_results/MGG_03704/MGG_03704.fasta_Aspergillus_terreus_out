@@ -1,0 +1,99 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00005648 pep:known supercontig:CADRE:1.15:82113:82803:1 ...   268   6e-90
+CADATEAP00007907 pep:known supercontig:CADRE:1.13:1020995:102337...    28   1.9  
+
+>CADATEAP00005648 pep:known supercontig:CADRE:1.15:82113:82803:1
+           gene:CADATEAG00005648 transcript:CADATEAT00005648
+           description:"Protein SSU72"
+          Length = 219
+
+ Score =  268 bits (685), Expect = 6e-90,   Method: Compositional matrix adjust.
+ Identities = 127/173 (73%), Positives = 145/173 (83%), Gaps = 4/173 (2%)
+
+Query: 25  DGFKLKFCTVCASNQNRSMEAHLQLSKAN--YPVISFGTGSLVRLPGPTITQPNVYKFNS 82
+           D +KL+FCTVCASNQNRSMEAHL+LS A   +PVISFGTGSLVRLPGP+ITQPNVY FN+
+Sbjct: 46  DSYKLRFCTVCASNQNRSMEAHLRLSSAPSPFPVISFGTGSLVRLPGPSITQPNVYNFNT 105
+
+Query: 83  TSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHAS--DRGS 140
+           TSY  MY EL  KD RLY  NG+LNMLERNRN+K GPER+QDW  G+PR++H S  D+G+
+Sbjct: 106 TSYAQMYDELLAKDERLYRHNGLLNMLERNRNLKWGPERFQDWVPGMPRVDHVSKGDKGA 165
+
+Query: 141 EGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAV 193
+            GTE GVVD++ TCEERCWDAVV+DL  +GS LNRPVHV NVDIKDNHEEA V
+Sbjct: 166 LGTEGGVVDVIITCEERCWDAVVDDLMNKGSALNRPVHVFNVDIKDNHEEALV 218
+
+
+>CADATEAP00007907 pep:known supercontig:CADRE:1.13:1020995:1023374:1
+           gene:CADATEAG00007907 transcript:CADATEAT00007907
+           description:"Putative uncharacterized protein"
+          Length = 741
+
+ Score = 28.5 bits (62), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 16/27 (59%)
+
+Query: 124 DWQIGIPRLEHASDRGSEGTEAGVVDI 150
+           D Q G P   HASDR ++    GVVD+
+Sbjct: 211 DIQAGTPERHHASDRVTDFISRGVVDL 237
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,785,491
+Number of extensions: 112900
+Number of successful extensions: 201
+Number of sequences better than 10.0: 2
+Number of HSP's gapped: 199
+Number of HSP's successfully gapped: 2
+Length of query: 259
+Length of database: 5,192,116
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,235,132
+Effective search space: 707267044
+Effective search space used: 707267044
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

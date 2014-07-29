@@ -1,0 +1,321 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: FASTA_genomes.fasta
+           386,090 sequences; 174,977,242 total letters
+
+
+
+Query= YDR195W
+
+Length=533
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|YDR195W  pep:known chromosome:SacCer_Apr2011:IV:848599:850200...  1074    0.0  
+lcl|AAS54380  pep:known chromosome:ASM9102v1:VII:811845:813260:1 ...   273    3e-83
+lcl|MGG_17779T0  pep:known chromosome:MG8:6:3289141:3294060:-1 ge...  39.3    0.10 
+lcl|CADANIAP00000085  pep:known chromosome:ASM1142v1:IV:221150:23...  38.5    0.16 
+lcl|CADANIAP00006886  pep:known chromosome:ASM1142v1:I:1173473:11...  34.3    3.3  
+lcl|FGSG_01144P0  pep:known chromosome:ASM24013v2:1:3736548:37418...  33.9    4.2  
+lcl|CADAFLAP00009777  pep:known supercontig:JCVI-afl1-v2.0:EQ9634...  33.9    4.3  
+lcl|EGG00271  pep:novel supercontig:GCA_000204055.1:GL883149:4425...  33.5    4.7  
+lcl|EGG09511  pep:novel supercontig:GCA_000204055.1:GL883097:1995...  33.5    5.2  
+lcl|EGY21396  pep:novel supercontig:GCA_000150675.1:supercont1.4:...  33.1    6.6  
+lcl|FVEG_05309T0  pep:known chromosome:ASM14955v1:3:3206334:32097...  32.7    9.4  
+
+
+>lcl|YDR195W pep:known chromosome:SacCer_Apr2011:IV:848599:850200:1 gene:YDR195W 
+transcript:YDR195W description:"RNA-binding protein involved 
+in the cleavage step of mRNA 3'-end formation prior 
+to polyadenylation, and in snoRNA maturation\x3b part of holo-CPF 
+subcomplex APT, which associates with 3'-ends of snoRNA- 
+and mRNA-encoding genes"-species:Saccharomyces_cerevisiae
+Length=533
+
+ Score = 1074 bits (2778),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 533/533 (100%), Positives = 533/533 (100%), Gaps = 0/533 (0%)
+
+Query  1    MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK  60
+            MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK
+Sbjct  1    MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK  60
+
+Query  61   DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN  120
+            DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN
+Sbjct  61   DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN  120
+
+Query  121  QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT  180
+            QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT
+Sbjct  121  QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT  180
+
+Query  181  LGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNNDDK  240
+            LGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNNDDK
+Sbjct  181  LGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNNDDK  240
+
+Query  241  NSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDADMTKLGTKR  300
+            NSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDADMTKLGTKR
+Sbjct  241  NSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDADMTKLGTKR  300
+
+Query  301  SIDVDFKVNPEASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDSNVQSILR  360
+            SIDVDFKVNPEASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDSNVQSILR
+Sbjct  301  SIDVDFKVNPEASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDSNVQSILR  360
+
+Query  361  NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED  420
+            NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED
+Sbjct  361  NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED  420
+
+Query  421  MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE  480
+            MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE
+Sbjct  421  MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE  480
+
+Query  481  PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH  533
+            PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH
+Sbjct  481  PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH  533
+
+
+>lcl|AAS54380 pep:known chromosome:ASM9102v1:VII:811845:813260:1 gene:AGOS_AGL111W 
+transcript:AAS54380 description:"AGL111Wp"-species:Ashbya_gossypii
+Length=471
+
+ Score =  273 bits (697),  Expect = 3e-83, Method: Compositional matrix adjust.
+ Identities = 186/548 (34%), Positives = 287/548 (52%), Gaps = 105/548 (19%)
+
+Query  5    VPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTKDNLH  64
+            VP+ +NI+HA+ +S I  +R D+    +  +L   Q+ ++D YID L +   QF KDN H
+Sbjct  4    VPEKINIAHAMPSSMINVMRDDIKQLQQAKELDQQQMDKVDHYIDQLDSIFTQFCKDNEH  63
+
+Query  65   IERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLK-----HEKQHHSTPPIANDVSLDFFV  119
+            +E++ K VTEAD+QL+ GLK MY DY+NQL ++K      E++ H   P      L++ +
+Sbjct  64   VEKRAKGVTEADVQLFQGLKKMYADYMNQLSEIKKRKVEEEQEFHGDKP------LEYIL  117
+
+Query  120  NQLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLD  179
+            ++LP   P ER  Y+  L+ +K      SK   L + + NLC+LD SV + +++Y  LL 
+Sbjct  118  DELPYLQPSERNRYVSALLKDKVP---FSKDRKLFEGIANLCLLDGSVRDYLQTYKCLLQ  174
+
+Query  180  TLGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNND-  238
+            ++GF             ++++ S    + D                K +  P P L++D 
+Sbjct  175  SVGF------------TQEEILSRIPFLADD--------------YKREGTPEPPLSSDA  208
+
+Query  239  ---DKNSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDADMTK  295
+               D +S  S T  T+S     S L N +  +  E      KKK+SFSKYL KD ++   
+Sbjct  209  ISQDTSSDSSNTTKTASTA--VSSLLNSSGVEPNERPEEDKKKKISFSKYLKKDVSE---  263
+
+Query  296  LGTKRSIDVDFKVNPEASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDSNV  355
+               KRS+                               +P  + +P+ KK K+ +     
+Sbjct  264  -PVKRSL-------------------------------SPDDAAQPIVKKQKVDLP----  287
+
+Query  356  QSILRNGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEI  415
+             SILR+    K R + I+F+DDS+L+ V+GDDLP  G+  SP +LKKIL P+ EGEP+E 
+Sbjct  288  VSILRDESKAKKR-AVIRFVDDSKLVTVFGDDLPESGVVTSPDRLKKILNPYVEGEPREF  346
+
+Query  416  IL--FEDMSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDL  473
+            +L  +++  +    +D+  ++++      DI+E+K GP+   T+ PL +R NF+ F+ +L
+Sbjct  347  LLAAWKNQKVHKLIIDMGVIEDS------DITESKNGPVSMSTKVPLAFRINFSKFSDEL  400
+
+Query  474  NKRPPREPIEFDLNGNT----------NSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVK  523
+               P +EP + + +                P IA+AFGKN+LLL+KDRGGLPYK VP V+
+Sbjct  401  AG-PHKEPADNEDDEQEIKNHKGKRRGGKGPIIARAFGKNALLLKKDRGGLPYKKVPEVR  459
+
+Query  524  RNKYPPRP  531
+            RN+YP RP
+Sbjct  460  RNEYPVRP  467
+
+
+>lcl|MGG_17779T0 pep:known chromosome:MG8:6:3289141:3294060:-1 gene:MGG_17779 
+transcript:MGG_17779T0 description:"Putative uncharacterized 
+protein"-species:Magnaporthe_oryzae
+Length=1413
+
+ Score = 39.3 bits (90),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 41/198 (21%), Positives = 84/198 (42%), Gaps = 24/198 (12%)
+
+Query  35   KLSSIQLARIDKYIDSL--QAALNQFTKDNLHIERKEKNVTEADIQ-LYSGLKSMYLDYL  91
+            +L ++    I +YID +  Q AL + T+ N ++E       +A I+    GL+    ++L
+Sbjct  727  QLRTMGFDTISQYIDEVCRQYALPKITRRNWYLESHRWTFDKARIKDCLDGLRMAGNNFL  786
+
+Query  92   NQLIKLKHE---------------KQHHSTPPIANDVSLDFFVNQLPKFSPEERKNYIDN  136
+                KL                  +Q  + P  + +  L+ ++ QL + + +    ++  
+Sbjct  787  LAFAKLTQSEEQRLQAVNDFFSTIQQPETGPAGSFEAYLELYIGQLTRTTDKAFSVFLAW  846
+
+Query  137  LI-LNKNSHNRLSKMDGLVDAVINL-----CVLDTSVAENVRSYMKLLDTLGFQKGSNST  190
+            L  L +   NRL +   LV + + L     C++     +++R++M+L+ T  + K     
+Sbjct  847  LTALERVMANRLQQSQFLVRSYLQLDVSDRCIISEGRGKHLRAHMRLMITRPYNKVKLCL  906
+
+Query  191  GTKANLKKKLASSKAKIK  208
+                N  +   +S+A  K
+Sbjct  907  AALVNFIQSRMTSEAATK  924
+
+
+>lcl|CADANIAP00000085 pep:known chromosome:ASM1142v1:IV:221150:231126:-1 gene:CADANIAG00000085 
+transcript:CADANIAT00000085 description:"conserved 
+hypothetical protein"-species:Aspergillus_nidulans
+Length=3043
+
+ Score = 38.5 bits (88),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 46/106 (43%), Gaps = 15/106 (14%)
+
+Query  232   SPLLNNDDKNSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDA  291
+             S LLNN D  +SP    ++ SM    S     +E++S  S P +    L  S Y  KD +
+Sbjct  2743  SQLLNNQDTGTSPPENGTSPSMASADSSSGYLSESQSHRSSPLARSNSLGSSMYSGKDQS  2802
+
+Query  292   DMTKLGTKRSIDVDFK-------VNPEASTVASNIISSSTSGSSTT  330
+              +    +   +DVD +       VNP A  V        TSGS+ T
+Sbjct  2803  GLFDSRSASEVDVDARWEQSRRIVNPPARPV--------TSGSAIT  2840
+
+
+>lcl|CADANIAP00006886 pep:known chromosome:ASM1142v1:I:1173473:1180748:-1 gene:CADANIAG00006886 
+transcript:CADANIAT00006886 description:"hypothetical 
+protein similar to acetyl-CoA carboxylase (Eurofung)"-species:Aspergillus_nidulans
+Length=2288
+
+ Score = 34.3 bits (77),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 34/58 (59%), Gaps = 1/58 (2%)
+
+Query  322   SSTSGSSTTTVATPASSEEPLKKKTKISVQDSNVQSILRNGKPKKARISSIKFLDDSQ  379
+             S T+ +  +T +TP +   P K+ + IS   SN+ +   NG P+K  I  +++L+D++
+Sbjct  1138  SMTAVTHPSTPSTPTTESNPFKRVSSIS-DMSNLLNDSPNGTPRKGVILPVQYLEDAE  1194
+
+
+>lcl|FGSG_01144P0 pep:known chromosome:ASM24013v2:1:3736548:3741879:1 gene:FGSG_01144 
+transcript:FGSG_01144T0 description:"conserved hypothetical 
+protein"-species:Gibberella_zeae
+Length=1230
+
+ Score = 33.9 bits (76),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 91/211 (43%), Gaps = 46/211 (22%)
+
+Query  177  LLDTLGFQKGSNSTG-------------TKANLKKKLASSKAKIKDSEKEKEKEK---DK  220
+            L+DT G+  GS ST              T A  KK    S   +K  EK   K +   + 
+Sbjct  127  LIDTRGWLPGSKSTSDLHNLGEEPPRPTTSAGDKKFGDGSIGNLKPVEKPLTKSESFVNF  186
+
+Query  221  SKVKMKTKLKPSPLLNND-----DKNSSPSPTASTSSMKKLKS----GL----FNKNEAK  267
+            +K   +    PSP+ + D     D+ S  + + ST+SMK  K+    GL     +KN  K
+Sbjct  187  AKRSWRPSRSPSPMKSADTAKENDELSGRNRSESTTSMKLTKTRKRPGLTVDQVDKN--K  244
+
+Query  268  STESLPTSSKKKLS-----FSKYLNKDDADMTKLGTKRSIDVDFKVNPEASTVASNIISS  322
+            S+ESL +S+ K  S     FSK L    A ++KL T    D         ++ AS+  S 
+Sbjct  245  SSESLKSSAPKAFSRASSYFSK-LKSKQAGLSKLNTNTDSD---------TSCASSATSL  294
+
+Query  323  STSGSSTTTVATPASSEEPLKKKTKISVQDS  353
+            +   S+TT   TP SS       T ++ + S
+Sbjct  295  APPASTTTEDPTPQSSAYDTTSATTVTDESS  325
+
+
+>lcl|CADAFLAP00009777 pep:known supercontig:JCVI-afl1-v2.0:EQ963481:1059316:1063157:-1 
+gene:CADAFLAG00009777 transcript:CADAFLAT00009777 description:"Putative 
+uncharacterized protein "-species:Aspergillus_flavus
+Length=794
+
+ Score = 33.9 bits (76),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 18/65 (28%), Positives = 34/65 (52%), Gaps = 3/65 (5%)
+
+Query  161  CVLDTSVA--ENVRSYMKLLDTLGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEK  218
+            C L + +A  E  R YM L+D  G  +G +    +AN+ +KL S+   + +    + KE 
+Sbjct  352  CTLQSRIAMVELAREYMSLVDD-GVSRGMSEEAVRANISRKLMSNLGMLNEGTAMRIKEG  410
+
+Query  219  DKSKV  223
+            ++ ++
+Sbjct  411  ERDEL  415
+
+
+>lcl|EGG00271 pep:novel supercontig:GCA_000204055.1:GL883149:442546:446148:-1 
+gene:MELLADRAFT_79292 transcript:EGG00271 description:"hypothetical 
+protein"-species:Melampsora_laricipopulina
+Length=804
+
+ Score = 33.5 bits (75),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 32/136 (24%), Positives = 64/136 (47%), Gaps = 15/136 (11%)
+
+Query  203  SKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNNDDKNSSPSPTASTSSMKKLKSGLFN  262
+            S   +K S +  +K    SK+K+ TKL  S + +N   +  PS   +    K++K G   
+Sbjct  53   SNPPLKQSNELHQKHHKSSKLKLNTKLNHSSIKSNPHHHKVPSNQLN----KRVKVG---  105
+
+Query  263  KNEAKSTESLPTSSKKKLSFSKYLNKDDADMTKLGTKRSIDVDFKVNPEASTVASNIISS  322
+               A+++ +  T  ++K+  S         +      RS+  D+  +P+      N  S+
+Sbjct  106  ---ARASIACETCRRRKVRCS-----GQYPICSFCASRSLKCDYDGHPDLIKPTPNSPSN  157
+
+Query  323  STSGSSTTTVATPASS  338
+            S + +++T ++TP++S
+Sbjct  158  SFTPTNSTCLSTPSTS  173
+
+
+>lcl|EGG09511 pep:novel supercontig:GCA_000204055.1:GL883097:1995075:1996506:-1 
+gene:MELLADRAFT_96006 transcript:EGG09511 description:"hypothetical 
+protein"-species:Melampsora_laricipopulina
+Length=440
+
+ Score = 33.5 bits (75),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 28/85 (33%), Positives = 43/85 (51%), Gaps = 4/85 (5%)
+
+Query  133  YIDNLILNKNSHNRLSKMDG---LVDAV-INLCVLDTSVAENVRSYMKLLDTLGFQKGSN  188
+            Y  ++++NKN H  +S  D    L DA+ +      TS + NV SY+ L     ++  SN
+Sbjct  102  YFHDIMINKNIHMSVSIFDPTWILQDALFMKTRSTKTSCSTNVISYVGLPYVNEYRLTSN  161
+
+Query  189  STGTKANLKKKLASSKAKIKDSEKE  213
+               T+ NL  K  + K  I DS+K+
+Sbjct  162  EWSTRFNLMVKYQAEKYDILDSQKD  186
+
+
+>lcl|EGY21396 pep:novel supercontig:GCA_000150675.1:supercont1.4:1793537:1798690:1 
+gene:VDAG_02920 transcript:EGY21396 description:"hypothetical 
+protein"-species:Verticillium_dahliae
+Length=1684
+
+ Score = 33.1 bits (74),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 20/42 (48%), Positives = 24/42 (57%), Gaps = 4/42 (10%)
+
+Query  312   ASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDS  353
+             ASTV SN+ISS    SS    A P SSE P+  +  IS + S
+Sbjct  1367  ASTVTSNVISSEAPVSS----AEPTSSELPVSSEEPISAEPS  1404
+
+
+>lcl|FVEG_05309T0 pep:known chromosome:ASM14955v1:3:3206334:3209730:1 gene:FVEG_05309 
+transcript:FVEG_05309T0 description:"conserved hypothetical 
+protein"-species:Gibberella_moniliformis
+Length=1115
+
+ Score = 32.7 bits (73),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 31/57 (54%), Gaps = 11/57 (19%)
+
+Query  240   KNSSPSPTASTSSMKKLKSG-----------LFNKNEAKSTESLPTSSKKKLSFSKY  285
+             + SS SP+AST S+K+L  G           L N ++ K   +LPTS+ ++ + + +
+Sbjct  959   RQSSLSPSASTPSLKRLSGGSNSNGFNSSEALLNTHQPKRVSTLPTSAAREAALATF  1015
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.128    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 52556321682
+
+
+  Database: FASTA_genomes.fasta
+    Posted date:  Jul 10, 2014 11:50 AM
+  Number of letters in database: 174,977,242
+  Number of sequences in database:  386,090
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

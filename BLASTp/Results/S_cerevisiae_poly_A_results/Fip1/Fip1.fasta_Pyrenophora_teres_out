@@ -1,0 +1,115 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ95954 pep:novel supercontig:GCA_000166005.1:GL532382:11049:12...    57   1e-09
+EFQ91337 pep:novel supercontig:GCA_000166005.1:GL534812:6896:109...    28   5.9  
+EFQ92186 pep:novel supercontig:GCA_000166005.1:GL534414:26877:29...    27   7.8  
+
+>EFQ95954 pep:novel supercontig:GCA_000166005.1:GL532382:11049:12118:1
+           gene:PTT_03997 transcript:EFQ95954
+           description:"hypothetical protein"
+          Length = 317
+
+ Score = 57.4 bits (137), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 37/120 (30%), Positives = 60/120 (50%), Gaps = 6/120 (5%)
+
+Query: 104 TAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNV-PKAMTG 162
+           TA+  + ++  ++  +     T  S +++ T        T   + A+   G   P   T 
+Sbjct: 63  TASQHTQQESKAIKIEAPPPSTTPSQQQVPTRTVPTSSGTVPQLSASALSGTAFPAQRTS 122
+
+Query: 163 SIDLDKEGIFDSVG--ITTIDPEV---LKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQ 217
+           +ID++   I+   G  I +ID +     ++K WR+PG + SDYFNYGF+EFTW  Y  RQ
+Sbjct: 123 TIDVNGNPIYPPQGKEILSIDIDANLAEEQKIWRRPGEDQSDYFNYGFDEFTWELYRQRQ 182
+
+
+>EFQ91337 pep:novel supercontig:GCA_000166005.1:GL534812:6896:10918:-1
+            gene:PTT_11833 transcript:EFQ91337
+            description:"hypothetical protein"
+          Length = 1272
+
+ Score = 27.7 bits (60), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 24/87 (27%), Positives = 41/87 (47%), Gaps = 4/87 (4%)
+
+Query: 101  SYSTAATSSSKDVISV-ATDVSNTITK--TSDERLITEGEANQGVTATTVKATESDGNVP 157
+            ++   A S   +V+ +  TD S  +    +SD++ I  G  + G  +T V  ++  G +P
+Sbjct: 1155 AFLLGAKSKGYEVVGIEQTDRSGILGNEDSSDQKEIVAGNESTGEQSTHVVRSQDIGTLP 1214
+
+Query: 158  KAMTGSIDLDKEGIFDSVGITTIDPEV 184
+            K     +  +KEGI   V +  ID  V
+Sbjct: 1215 KKCCLVLGSEKEGISAEV-LAVIDRNV 1240
+
+
+>EFQ92186 pep:novel supercontig:GCA_000166005.1:GL534414:26877:29174:1
+           gene:PTT_10768 transcript:EFQ92186
+           description:"hypothetical protein"
+          Length = 602
+
+ Score = 26.9 bits (58), Expect = 7.8,   Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 30/56 (53%), Gaps = 2/56 (3%)
+
+Query: 98  LLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESD 153
+           LL  Y T   SS+  +IS+ TD+S+ +  T D+ LIT   +   + A+ +    +D
+Sbjct: 59  LLFGYDTGVISST--LISINTDLSSRLLTTLDKSLITSCTSFFALLASPLTGILAD 112
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 2,626,000
+Number of extensions: 108754
+Number of successful extensions: 369
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 368
+Number of HSP's successfully gapped: 12
+Length of query: 327
+Length of database: 5,457,232
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,348,126
+Effective search space: 1013113358
+Effective search space used: 1013113358
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

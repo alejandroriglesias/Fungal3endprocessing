@@ -1,0 +1,159 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YDR195W pep:known chromosome:SacCer_Apr2011:IV:848599:850200:1 g...   847   0.0  
+YNL011C pep:known chromosome:SacCer_Apr2011:XIV:611836:613170:-1...    28   3.1  
+YFL008W pep:known chromosome:SacCer_Apr2011:VI:119429:123106:1 g...    27   8.9  
+
+>YDR195W pep:known chromosome:SacCer_Apr2011:IV:848599:850200:1 gene:YDR195W
+           transcript:YDR195W description:"RNA-binding protein
+           involved in the cleavage step of mRNA 3'-end formation
+           prior to polyadenylation, and in snoRNA maturation\x3b
+           part of holo-CPF subcomplex APT, which associates with
+           3'-ends of snoRNA- and mRNA-encoding genes"
+          Length = 533
+
+ Score =  847 bits (2187), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 435/533 (81%), Positives = 435/533 (81%)
+
+Query: 1   MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK 60
+           MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK
+Sbjct: 1   MSAPVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTK 60
+
+Query: 61  DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN 120
+           DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN
+Sbjct: 61  DNLHIERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVN 120
+
+Query: 121 QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT 180
+           QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT
+Sbjct: 121 QLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDT 180
+
+Query: 181 LGFQKGSNSTGTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPSPLLNNDDK 240
+           LGFQKGSNSTGT                                      PSPLLNNDDK
+Sbjct: 181 LGFQKGSNSTGTKANLKKKLASSKAKIKDSEKEKEKEKDKSKVKMKTKLKPSPLLNNDDK 240
+
+Query: 241 NXXXXXXXXXXXMKKLKSGLFNKNEAXXXXXXXXXXXXXXXXXXXXXXDDADMTKLGTKR 300
+           N           MKKLKSGLFNKNEA                      DDADMTKLGTKR
+Sbjct: 241 NSSPSPTASTSSMKKLKSGLFNKNEAKSTESLPTSSKKKLSFSKYLNKDDADMTKLGTKR 300
+
+Query: 301 SIDVDFKVNPEXXXXXXXXXXXXXXXXXXXXXXXXXXXEEPLKKKTKISVQDSNVQSILR 360
+           SIDVDFKVNPE                           EEPLKKKTKISVQDSNVQSILR
+Sbjct: 301 SIDVDFKVNPEASTVASNIISSSTSGSSTTTVATPASSEEPLKKKTKISVQDSNVQSILR 360
+
+Query: 361 NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED 420
+           NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED
+Sbjct: 361 NGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKILKPFKEGEPKEIILFED 420
+
+Query: 421 MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE 480
+           MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE
+Sbjct: 421 MSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRKNFNHFNPDLNKRPPRE 480
+
+Query: 481 PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH 533
+           PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH
+Sbjct: 481 PIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPYKHVPIVKRNKYPPRPVH 533
+
+
+>YNL011C pep:known chromosome:SacCer_Apr2011:XIV:611836:613170:-1
+           gene:YNL011C transcript:YNL011C description:"Putative
+           protein of unknown function\x3b YNL011C is not an
+           essential gene"
+          Length = 444
+
+ Score = 28.5 bits (62), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 45/95 (47%), Gaps = 11/95 (11%)
+
+Query: 348 ISVQDSNVQSILR-NGKPKKARISS--IKFLDDSQLIKVYGDDLPNQGLQVSPTQLKKIL 404
+           IS    +   ILR  G P    I S  ++ L D QL++++G  LPN  L       KK  
+Sbjct: 36  ISDNGGSTSEILRIVGGPAIGDIRSRIVRLLQDEQLVELFGHRLPNDKLLA-----KKEW 90
+
+Query: 405 KPFKEGEPKEIILFEDMSIKLKPLDLMFLKNTNSD 439
+               EG      +++++SI++K +   F+ +  ++
+Sbjct: 91  NEIVEGSHP---IWKNISIEVKEMCRSFIIHMQAE 122
+
+
+>YFL008W pep:known chromosome:SacCer_Apr2011:VI:119429:123106:1 gene:YFL008W
+           transcript:YFL008W description:"Subunit of the
+           multiprotein cohesin complex, essential protein involved
+           in chromosome segregation and in double-strand DNA break
+           repair\x3b SMC chromosomal ATPase family member, binds
+           DNA with a preference for DNA with secondary structure"
+          Length = 1225
+
+ Score = 26.9 bits (58), Expect = 8.9,   Method: Compositional matrix adjust.
+ Identities = 40/157 (25%), Positives = 62/157 (39%), Gaps = 28/157 (17%)
+
+Query: 346 TKISVQDSNVQSILR-NGKPKKARISSIKFLDD-------SQLIK--VY--------GDD 387
+           TK+   +SN  SI+  NG  K   + +I F+         S ++K  +Y         DD
+Sbjct: 19  TKVGFGESNFTSIIGPNGSGKSNMMDAISFVLGVRSNHLRSNILKDLIYRGVLNDENSDD 78
+
+Query: 388 LPNQGLQVSPTQLKKILKPFKEGEPKEIILFEDMSIKLKPLDLMFLKNTNSDDYMDISET 447
+             N+G   S  Q   +   +++G      L E M I  +  D  +  +  +  Y D S  
+Sbjct: 79  YDNEGAASSNPQSAYVKAFYQKGNK----LVELMRIISRNGDTSYKIDGKTVSYKDYS-- 132
+
+Query: 448 KGGPIHCETRTPLIYRKNFNHFNPDLNKRPPREPIEF 484
+               I  E    LI  KNF  F  D+ +   + P+E 
+Sbjct: 133 ----IFLENENILIKAKNFLVFQGDVEQIAAQSPVEL 165
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,951,391
+Number of extensions: 133855
+Number of successful extensions: 335
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 331
+Number of HSP's successfully gapped: 17
+Length of query: 533
+Length of database: 3,010,216
+Length adjustment: 95
+Effective length of query: 438
+Effective length of database: 2,374,476
+Effective search space: 1040020488
+Effective search space used: 1040020488
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 53 (25.0 bits)

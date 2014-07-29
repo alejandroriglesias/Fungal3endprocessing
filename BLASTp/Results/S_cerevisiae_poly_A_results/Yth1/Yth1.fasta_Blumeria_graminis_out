@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU82770 pep:novel supercontig:EF1:HF943538:327591:328493:1 gene...   171   7e-53
+CCU81340 pep:novel supercontig:EF1:HF943526:1217553:1219499:-1 g...    57   3e-10
+CCU75826 pep:novel supercontig:EF1:HF943548:1545372:1545891:1 ge...    33   0.010
+CCU75704 pep:novel supercontig:EF1:HF943548:165674:167559:-1 gen...    30   0.27 
+CCU75824 pep:novel supercontig:EF1:HF943548:1515208:1515739:1 ge...    28   0.89 
+CCU77327 pep:novel supercontig:EF1:HF943544:359897:361124:1 gene...    28   1.5  
+CCU75061 pep:novel supercontig:EF1:HF943549:7803387:7804536:-1 g...    26   3.9  
+CCU78775 pep:novel supercontig:EF1:HF943531:693843:694600:1 gene...    25   6.9  
+
+>CCU82770 pep:novel supercontig:EF1:HF943538:327591:328493:1
+           gene:BGHDH14_bgh01661 transcript:CCU82770
+           description:"putative mRNA 3prime-end-processing protein
+           YTH1"
+          Length = 248
+
+ Score =  171 bits (434), Expect = 7e-53,   Method: Compositional matrix adjust.
+ Identities = 87/203 (42%), Positives = 122/203 (60%), Gaps = 16/203 (7%)
+
+Query: 3   LIHPDTAKYPFKFEPFLRQEYSFSLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQ 62
+           ++     +Y F F P+L + + F L P+RP+C+ Y        CP G  CP+KH      
+Sbjct: 18  ILQHSAPQYNFAFSPYLNEVFGFGLSPNRPVCKAYLQ----GHCPSGSSCPEKHNNNSNF 73
+
+Query: 63  NKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIP 122
+           N +VC+HWLRGLCKK D CE+LHEYNLRKMPEC FF+++GYC+          DP+SK+P
+Sbjct: 74  NNLVCKHWLRGLCKKGDSCEFLHEYNLRKMPECNFFTRHGYCSNG--------DPSSKLP 125
+
+Query: 123 KCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIPDEGSKLRIK 182
+            C +YE GFC LG +C +RH++KV C+ Y+ GFCP GK  C   HP++      + +R++
+Sbjct: 126 PCPHYEKGFCALGPACSQRHLRKVLCEFYLAGFCPDGK-ACKNSHPRWPENLPKATVRVE 184
+
+Query: 183 RDD---EINTRKMDEEKERRLNA 202
+           +     E   R + E  ER L +
+Sbjct: 185 KSAEELEDEQRLLIENAERELAS 207
+
+
+>CCU81340 pep:novel supercontig:EF1:HF943526:1217553:1219499:-1
+           gene:BGHDH14_bgh05444 transcript:CCU81340
+           description:"CCCH zinc finger protein"
+          Length = 462
+
+ Score = 57.0 bits (136), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 34/101 (33%), Positives = 53/101 (52%), Gaps = 7/101 (6%)
+
+Query: 45  SCPRGPLCPKKHVLPIFQNKIVCRHWL-RGLCKKNDQCEYLHEYNLRKMPECVFFSKNGY 103
+           SCP+GP C   H         VC+ +L +G C   + C+  HE    + P C+ F++ G 
+Sbjct: 278 SCPKGPRCRYIHDPSKV---AVCKEFLLKGSCASGESCDLSHELTPERTPSCLHFTR-GN 333
+
+Query: 104 CTQSPDCQYLHIDPASKIPKCENYEM-GFCPLGSSCPRRHI 143
+           C  +P+C+Y+H+  +     C  + M G+C  GS+C  RHI
+Sbjct: 334 CA-NPNCRYIHVRVSPLALVCRPFGMNGYCEKGSTCTERHI 373
+
+
+
+ Score = 37.7 bits (86), Expect = 7e-04,   Method: Compositional matrix adjust.
+ Identities = 25/84 (29%), Positives = 40/84 (47%), Gaps = 16/84 (19%)
+
+Query: 60  IFQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPAS 119
+           ++++ I+  H   G+ KK D+              C  F+  G C + P C+Y+H DP S
+Sbjct: 248 MYRSGIIKAHRATGIVKKIDE-------------PCKIFTTTGSCPKGPRCRYIH-DP-S 292
+
+Query: 120 KIPKCENYEM-GFCPLGSSCPRRH 142
+           K+  C+ + + G C  G SC   H
+Sbjct: 293 KVAVCKEFLLKGSCASGESCDLSH 316
+
+
+>CCU75826 pep:novel supercontig:EF1:HF943548:1545372:1545891:1
+           gene:BGHDH14_bgh03995 transcript:CCU75826
+           description:"putative candidate secreted effector
+           protein"
+          Length = 156
+
+ Score = 33.5 bits (75), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 20/81 (24%), Positives = 32/81 (39%), Gaps = 1/81 (1%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYL-HIDPASKIPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMT 153
+            + F    +CT S   +Y  HI+   K+ KC+ Y++       + P R +          
+Sbjct: 7   AIIFQSASFCTTSLAARYSSHINEVDKVFKCDGYDITQAEYSQAEPERFLDDNIILNLYE 66
+
+Query: 154 GFCPLGKDECDMEHPQFIIPD 174
+             C L +D  D    QF+  D
+Sbjct: 67  KHCELIRDLRDTRVIQFLDGD 87
+
+
+>CCU75704 pep:novel supercontig:EF1:HF943548:165674:167559:-1
+           gene:BGHDH14_bgh03491 transcript:CCU75704
+           description:"spindle poison sensitivity protein Scp3"
+          Length = 587
+
+ Score = 30.0 bits (66), Expect = 0.27,   Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 25/53 (47%), Gaps = 1/53 (1%)
+
+Query: 65  IVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDP 117
+           + C+ +  G C+  + C + H+        C +F+K G C   P C  +H+ P
+Sbjct: 54  VPCKFFRAGACQAGNSCPFSHDPASTTDNICKYFAK-GNCKFGPKCANIHVLP 105
+
+
+
+ Score = 26.6 bits (57), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 22/50 (44%), Gaps = 3/50 (6%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYLHIDPASKIPK-CENYEMGFCPLGSSCPRRHI 143
+           C FF + G C     C + H DPAS     C+ +  G C  G  C   H+
+Sbjct: 56  CKFF-RAGACQAGNSCPFSH-DPASTTDNICKYFAKGNCKFGPKCANIHV 103
+
+
+
+ Score = 26.6 bits (57), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 16/52 (30%), Positives = 26/52 (50%), Gaps = 5/52 (9%)
+
+Query: 34  CEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLH 85
+           C+F+  R G  +C  G  CP  H  P      +C+++ +G CK   +C  +H
+Sbjct: 56  CKFF--RAG--ACQAGNSCPFSHD-PASTTDNICKYFAKGNCKFGPKCANIH 102
+
+
+>CCU75824 pep:novel supercontig:EF1:HF943548:1515208:1515739:1
+           gene:BGHDH14_bgh03922 transcript:CCU75824
+           description:"putative candidate secreted effector
+           protein"
+          Length = 160
+
+ Score = 27.7 bits (60), Expect = 0.89,   Method: Compositional matrix adjust.
+ Identities = 11/37 (29%), Positives = 19/37 (51%), Gaps = 1/37 (2%)
+
+Query: 95  CVFFSKNGYCTQSPDCQYL-HIDPASKIPKCENYEMG 130
+            + F    +CT S   +Y  HI+  +K+ KC+ Y + 
+Sbjct: 7   AIIFQSASFCTTSLAARYSSHINEVNKVFKCDGYNIA 43
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,483,875
+Number of extensions: 67669
+Number of successful extensions: 172
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 154
+Number of HSP's successfully gapped: 18
+Length of query: 208
+Length of database: 3,131,961
+Length adjustment: 86
+Effective length of query: 122
+Effective length of database: 2,575,541
+Effective search space: 314216002
+Effective search space used: 314216002
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 49 (23.5 bits)

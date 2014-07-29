@@ -1,0 +1,125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_11760P0 pep:known chromosome:ASM24013v2:1:1275230:1277366:1...    49   3e-06
+FGSG_00401P0 pep:known chromosome:ASM24013v2:1:1277401:1277851:1...    34   0.022
+FGSG_04350P0 pep:known chromosome:ASM24013v2:2:4310470:4312298:-...    32   0.75 
+
+>FGSG_11760P0 pep:known chromosome:ASM24013v2:1:1275230:1277366:1 gene:FGSG_11760
+           transcript:FGSG_11760T0 description:"conserved
+           hypothetical protein"
+          Length = 584
+
+ Score = 49.3 bits (116), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 43/74 (58%), Gaps = 2/74 (2%)
+
+Query: 188 EINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRP 247
+           +++   +P NH  L+   LE+EA  LLD +L  L+E    +  +    +N +S +I+ RP
+Sbjct: 148 DVSLDKVPSNHQSLDPRNLEAEASGLLDRMLGALLESSDAL--IVDATLNCMSIIIRARP 205
+
+Query: 248 QTTIRILSGLLRFN 261
+            T+ RI++ LL FN
+Sbjct: 206 ATSNRIINALLGFN 219
+
+
+
+ Score = 44.3 bits (103), Expect = 1e-04,   Method: Compositional matrix adjust.
+ Identities = 23/91 (25%), Positives = 41/91 (45%), Gaps = 19/91 (20%)
+
+Query: 626 WLHVLIRLVTRGIEAQEASDL---------------IREELLGFFIQDFEQRVSLIIEWL 670
+           W+ +L RL TR +   E + +               IR+ L  + ++DF + + + + WL
+Sbjct: 490 WMTILARLATRSVAGLEETTIKDEDGSLTHQSLSSNIRDVLYSYVMEDFRKHIDVAVSWL 549
+
+Query: 671 NEEWFF----QTSLHQDPSNYKKWSLRVLES 697
+            EEW+     Q      P  Y+K  LR+++ 
+Sbjct: 550 CEEWYNDKLQQKKGGDRPLYYEKCCLRLIDG 580
+
+
+>FGSG_00401P0 pep:known chromosome:ASM24013v2:1:1277401:1277851:1 gene:FGSG_00401
+           transcript:FGSG_00401T0 description:"conserved
+           hypothetical protein"
+          Length = 80
+
+ Score = 34.3 bits (77), Expect = 0.022,   Method: Compositional matrix adjust.
+ Identities = 15/42 (35%), Positives = 25/42 (59%), Gaps = 4/42 (9%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQ----DTVRDLLHQLKQ 768
+           +C DP+   L   +L +LIM RPP +    DTV+D+  + ++
+Sbjct: 1   MCRDPSVVQLALTSLLYLIMMRPPAKEIALDTVQDIWTEFEE 42
+
+
+>FGSG_04350P0 pep:known chromosome:ASM24013v2:2:4310470:4312298:-1
+           gene:FGSG_04350 transcript:FGSG_04350T0
+           description:"ATP-dependent RNA helicase HAS1"
+          Length = 591
+
+ Score = 32.0 bits (71), Expect = 0.75,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 27/51 (52%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L   ++ ++I F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 416 ICTDVAARGLDIPSVDWIIQFDPP--DDPRDYIHRVGRTARGSNNKGRSLM 464
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 7,213,662
+Number of extensions: 266024
+Number of successful extensions: 764
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 763
+Number of HSP's successfully gapped: 5
+Length of query: 785
+Length of database: 5,933,672
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,575,236
+Effective search space: 3124886188
+Effective search space used: 3124886188
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

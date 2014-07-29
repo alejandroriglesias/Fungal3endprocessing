@@ -1,0 +1,128 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS51124 pep:known chromosome:ASM9102v1:III:157350:160193:-1 gen...    29   0.60 
+ADJ41780 pep:known chromosome:ASM9102v1:V:1132015:1133691:-1 gen...    27   2.0  
+AAS54304 pep:known chromosome:ASM9102v1:VII:346809:351827:1 gene...    25   9.3  
+AAS54737 pep:known chromosome:ASM9102v1:VII:1525940:1527496:-1 g...    25   9.8  
+
+>AAS51124 pep:known chromosome:ASM9102v1:III:157350:160193:-1
+           gene:AGOS_ACL104C transcript:AAS51124
+           description:"ACL104Cp"
+          Length = 947
+
+ Score = 29.3 bits (64), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 38/81 (46%), Gaps = 5/81 (6%)
+
+Query: 178 NSKVLSVPKNMKL---LAVPLFELYDNSARYGPQL-SAIPHLLSKYNFEFVDEQGNVVAQ 233
+           N    ++ ++MK     +  L +L+++S     +  S +PHL S  +   + E  +  A 
+Sbjct: 426 NKSTFTISQSMKTESKASKQLLQLFEDSEMINEEKESGLPHLASSLSSMHLSES-DTAAS 484
+
+Query: 234 TPGSGPGEGDHVPKTKVLAGG 254
+           TP   P  G  +P+  +LA G
+Sbjct: 485 TPLGAPPMGAAIPRHDILANG 505
+
+
+>ADJ41780 pep:known chromosome:ASM9102v1:V:1132015:1133691:-1
+           gene:AGOS_AER270CA transcript:ADJ41780
+           description:"AER270C-Ap"
+          Length = 558
+
+ Score = 27.3 bits (59), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 14/29 (48%)
+
+Query: 79  HEHNHPHILMLQIANAFFKLPGDYLRPED 107
+           H H HP +L+   AN    L   YL P D
+Sbjct: 30  HRHTHPFVLVTLFANMTLLLSITYLLPLD 58
+
+
+>AAS54304 pep:known chromosome:ASM9102v1:VII:346809:351827:1
+           gene:AGOS_AGL187W transcript:AAS54304
+           description:"AGL187Wp"
+          Length = 1672
+
+ Score = 25.4 bits (54), Expect = 9.3,   Method: Compositional matrix adjust.
+ Identities = 10/24 (41%), Positives = 17/24 (70%)
+
+Query: 207 PQLSAIPHLLSKYNFEFVDEQGNV 230
+           P L+A+PHL+S+Y  +  +  G+V
+Sbjct: 223 PSLNAVPHLVSQYQQQAAEGNGDV 246
+
+
+>AAS54737 pep:known chromosome:ASM9102v1:VII:1525940:1527496:-1
+           gene:AGOS_AGR247C transcript:AAS54737
+           description:"AGR247Cp"
+          Length = 518
+
+ Score = 25.4 bits (54), Expect = 9.8,   Method: Compositional matrix adjust.
+ Identities = 15/62 (24%), Positives = 30/62 (48%)
+
+Query: 169 KKLYFIQLPNSKVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHLLSKYNFEFVDEQG 228
+           +K   + +PN K +   +N+K+L   + EL D  +++  +L    H  +    E V +  
+Sbjct: 371 RKRKAMLIPNEKNIQNMENIKVLEEKIAELRDEISQWSVELDKEEHQTAATVLETVPQSR 430
+
+Query: 229 NV 230
+           +V
+Sbjct: 431 DV 432
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,395,787
+Number of extensions: 63476
+Number of successful extensions: 146
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 146
+Number of HSP's successfully gapped: 6
+Length of query: 266
+Length of database: 2,335,236
+Length adjustment: 87
+Effective length of query: 179
+Effective length of database: 1,919,724
+Effective search space: 343630596
+Effective search space used: 343630596
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 49 (23.5 bits)

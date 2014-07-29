@@ -1,0 +1,181 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_02540T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...  1030   0.0  
+MAPG_09490T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   4.0  
+MAPG_05967T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   4.4  
+MAPG_08849T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   6.4  
+MAPG_04036T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   7.6  
+
+>MAPG_02540T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:2139342:2
+           142873:-1 gene:MAPG_02540 transcript:MAPG_02540T0
+           description:"hypothetical protein"
+          Length = 729
+
+ Score = 1030 bits (2663), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 521/731 (71%), Positives = 612/731 (83%), Gaps = 6/731 (0%)
+
+Query: 3   SATQSPIAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFA 62
+           +A +S +AEQIRQLNDARKHVLLD KVYSSIVQG+LPIIG  S  ELRRWG+DFLAE+FA
+Sbjct: 2   AAVKSSVAEQIRQLNDARKHVLLDPKVYSSIVQGVLPIIGPSSVLELRRWGSDFLAEAFA 61
+
+Query: 63  TPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTT 122
+           TPSL  RDKET+SL+VLETLRA +ENP ED YV++SA+QTAASIYPLV+RWI+NNSYDT 
+Sbjct: 62  TPSLPLRDKETLSLLVLETLRAMIENPKEDLYVLKSALQTAASIYPLVIRWIVNNSYDTP 121
+
+Query: 123 TWERITAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFK-RDGLDISLSNIP 181
+           TWER+TAIK+++ QLW+ E   ++I CIKFAQRV L QT+ +NGE K RDGL+ISL+ +P
+Sbjct: 122 TWERLTAIKAKVLQLWNSESSVIRIACIKFAQRVALVQTLPLNGELKQRDGLEISLALVP 181
+
+Query: 182 QGHPVLDPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNA 241
+             HPVLD RNLEAEA GLLDRMLGVLQDNSSDALVVDATLNC++ILIRTRP+TSNRI+N 
+Sbjct: 182 PNHPVLDARNLEAEASGLLDRMLGVLQDNSSDALVVDATLNCLSILIRTRPSTSNRIINT 241
+
+Query: 242 VLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARSR 301
+           VL+FNPLKLANSPMTPK+RVLVKSMEKTTRMLL+HL++RDP NP N RI QHIERL R+R
+Sbjct: 242 VLSFNPLKLANSPMTPKSRVLVKSMEKTTRMLLVHLVKRDPLNPANQRIHQHIERLVRTR 301
+
+Query: 302 ADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTN 361
+            +IFD+ A RKRALAEQ AAALGD+KRQRL SG   +PL +              FTLT+
+Sbjct: 302 NEIFDE-ATRKRALAEQNAAALGDSKRQRLVSGPAPLPLPQITPLPSGPTTLAAIFTLTS 360
+
+Query: 362 TPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAA-QPVLINP 420
+             GLQ+FDVS V A+L A+ICVSTLAR+D  +LDR + GVRDRL TLEAAA+ QP  +NP
+Sbjct: 361 NSGLQAFDVSAVSADLVARICVSTLARVDPSILDRAVGGVRDRLATLEAAASLQPAALNP 420
+
+Query: 421 ATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLPPPP 480
+            TAPLGV                   QILNK DGPSR +E  K+EA SLALGAY+LPPPP
+Sbjct: 421 DTAPLGVEEDDDDYEPDFFAAEDTE-QILNKLDGPSRSDEKAKLEATSLALGAYRLPPPP 479
+
+Query: 481 VLRPEEASNAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATR 540
+           +LRPE+A+NAGRG V N+LG+T +LE++G+KR++AGINRLAAS YDRESWITV+TRLATR
+Sbjct: 480 ILRPEDAANAGRGTVANILGITSKLEDAGAKRTRAGINRLAASSYDRESWITVVTRLATR 539
+
+Query: 541 SSSALEKTTIKEEDGTPQI-LGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQKR 599
+           +S+AL+  +   ++G   + LG++ REALYNYVLEDFRKRIDVAISWLSEEWYND+LQ++
+Sbjct: 540 ASAALDGGSDGSKEGNSTLPLGERFREALYNYVLEDFRKRIDVAISWLSEEWYNDRLQQQ 599
+
+Query: 600 MASDAPLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCRDPSLAS 659
+           ++ + PLHYDKVA+RLVDGITPYLHAQDKVLTRFLGEIPEVNP+IL+RV+GMCRDPSLA+
+Sbjct: 600 ISRNTPLHYDKVAIRLVDGITPYLHAQDKVLTRFLGEIPEVNPSILERVKGMCRDPSLAN 659
+
+Query: 660 LALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFLEANSGAGQAG 719
+           LALTSLVYLVMMRPPA+EMALDAMQGIWTEYEEARPLAAK+L RWR+ FL ANSGA ++ 
+Sbjct: 660 LALTSLVYLVMMRPPAKEMALDAMQGIWTEYEEARPLAAKYLGRWRRDFLTANSGAVES- 718
+
+Query: 720 QSVAPTAVLAS 730
+           Q  AP+AVLAS
+Sbjct: 719 QGPAPSAVLAS 729
+
+
+>MAPG_09490T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.11:405637:4
+           10175:1 gene:MAPG_09490 transcript:MAPG_09490T0
+           description:"DNA ligase 1"
+          Length = 874
+
+ Score = 29.3 bits (64), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 21/39 (53%)
+
+Query: 196 AIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPAT 234
+           +  LL R   ++ + SS   +VD  +NC+ ILI   P +
+Sbjct: 175 SYALLTRCFVLVSETSSRIKIVDTLVNCIRILIEADPTS 213
+
+
+>MAPG_05967T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:288325:29
+           2166:1 gene:MAPG_05967 transcript:MAPG_05967T0
+           description:"hypothetical protein"
+          Length = 740
+
+ Score = 29.3 bits (64), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 28/51 (54%)
+
+Query: 491 GRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATRS 541
+           G+G+   +L + K+L ++    S     +LA +LY+R  ++   T L +RS
+Sbjct: 144 GKGLAAKMLELGKELADALDYPSYLDATKLAVTLYERAGYVVQDTGLPSRS 194
+
+
+>MAPG_08849T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.8:1504969:1
+           508065:-1 gene:MAPG_08849 transcript:MAPG_08849T0
+           description:"hypothetical protein"
+          Length = 944
+
+ Score = 28.9 bits (63), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 30/53 (56%), Gaps = 4/53 (7%)
+
+Query: 592 YNDQLQKRMAS----DAPLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEV 640
+           Y+D+L++ + S    +APL   KV LRL+ G+     +++K   R +  + E+
+Sbjct: 613 YSDELKRELGSASDFNAPLSLCKVMLRLLKGLPKGRFSEEKSFNRVIRLVDEL 665
+
+
+>MAPG_04036T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:1613729:1
+           617767:-1 gene:MAPG_04036 transcript:MAPG_04036T0
+           description:"ATP-dependent RNA helicase fal-1"
+          Length = 407
+
+ Score = 28.1 bits (61), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%)
+
+Query: 232 PATSNRILNAVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLI 278
+           PAT   +++A L ++ L +    MT   R+LVK  E T   L  + I
+Sbjct: 205 PATQVVVVSATLPYDVLDMTTKFMTDPVRILVKRDELTLEGLKQYFI 251
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 6,830,460
+Number of extensions: 278080
+Number of successful extensions: 822
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 816
+Number of HSP's successfully gapped: 8
+Length of query: 730
+Length of database: 4,928,244
+Length adjustment: 100
+Effective length of query: 630
+Effective length of database: 3,791,244
+Effective search space: 2388483720
+Effective search space used: 2388483720
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

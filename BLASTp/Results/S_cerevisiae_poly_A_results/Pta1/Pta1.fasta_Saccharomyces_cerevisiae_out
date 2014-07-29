@@ -1,0 +1,212 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YAL043C pep:known chromosome:SacCer_Apr2011:I:58695:61052:-1 gen...  1355   0.0  
+YMR218C pep:known chromosome:SacCer_Apr2011:XIII:703579:706887:-...    33   0.22 
+YMR290C pep:known chromosome:SacCer_Apr2011:XIII:850074:851591:-...    32   0.42 
+YMR252C pep:known chromosome:SacCer_Apr2011:XIII:775315:775719:-...    30   0.92 
+YAL024C pep:known chromosome:SacCer_Apr2011:I:101565:105872:-1 g...    28   5.0  
+YEL071W pep:known chromosome:SacCer_Apr2011:V:16355:17845:1 gene...    28   5.7  
+
+>YAL043C pep:known chromosome:SacCer_Apr2011:I:58695:61052:-1 gene:YAL043C
+           transcript:YAL043C description:"Subunit of holo-CPF, a
+           multiprotein complex and functional homolog of mammalian
+           CPSF, required for the cleavage and polyadenylation of
+           mRNA and snoRNA 3' ends\x3b involved in pre-tRNA
+           processing\x3b binds to the phosphorylated CTD of
+           RNAPII"
+          Length = 785
+
+ Score = 1355 bits (3508), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 680/785 (86%), Positives = 680/785 (86%)
+
+Query: 1   MSSAEMEQLLQAKTLAMHNNPTEMLPKVLETTASMYHNGNLSKLKLPLAKFFTQLVLDVV 60
+           MSSAEMEQLLQAKTLAMHNNPTEMLPKVLETTASMYHNGNLSKLKLPLAKFFTQLVLDVV
+Sbjct: 1   MSSAEMEQLLQAKTLAMHNNPTEMLPKVLETTASMYHNGNLSKLKLPLAKFFTQLVLDVV 60
+
+Query: 61  SMDSPIANTERPFIAAQYLPLLLAMAQSTADVLVYKNIVLIMCASYPLVLDLVAKTSNQE 120
+           SMDSPIANTERPFIAAQYLPLLLAMAQSTADVLVYKNIVLIMCASYPLVLDLVAKTSNQE
+Sbjct: 61  SMDSPIANTERPFIAAQYLPLLLAMAQSTADVLVYKNIVLIMCASYPLVLDLVAKTSNQE 120
+
+Query: 121 MFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQ 180
+           MFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQ
+Sbjct: 121 MFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQ 180
+
+Query: 181 TKSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLS 240
+           TKSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLS
+Sbjct: 181 TKSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLS 240
+
+Query: 241 FVIKRRPQTTIRILSGLLRFNVDAKFPLEGKSDLNYKLSKRFVERAYKNFVQFGLKNQIX 300
+           FVIKRRPQTTIRILSGLLRFNVDAKFPLEGKSDLNYKLSKRFVERAYKNFVQFGLKNQI 
+Sbjct: 241 FVIKRRPQTTIRILSGLLRFNVDAKFPLEGKSDLNYKLSKRFVERAYKNFVQFGLKNQII 300
+
+Query: 301 XXXXXXXXXXXXXXXXXKISQTLHVIGEETKSKGILNFDPSKGNSKKTLSRQDKLKYISL 360
+                            KISQTLHVIGEETKSKGILNFDPSKGNSKKTLSRQDKLKYISL
+Sbjct: 301 TKSLSSGSGSSIYSKLTKISQTLHVIGEETKSKGILNFDPSKGNSKKTLSRQDKLKYISL 360
+
+Query: 361 WKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKILQKYTLNKASHQGNTFFNNS 420
+           WKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKILQKYTLNKASHQGNTFFNNS
+Sbjct: 361 WKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKILQKYTLNKASHQGNTFFNNS 420
+
+Query: 421 PKPISNTYXXXXXXXXXXXXXQDVTQLPNDILIKLSTEAILQMDSTKLITGLSIVASRYT 480
+           PKPISNTY             QDVTQLPNDILIKLSTEAILQMDSTKLITGLSIVASRYT
+Sbjct: 421 PKPISNTYSSVYSLMNSSNSNQDVTQLPNDILIKLSTEAILQMDSTKLITGLSIVASRYT 480
+
+Query: 481 DLMNTYIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTANSKKIKMXXXXXXXXXXXXXX 540
+           DLMNTYI                              TANSKKIKM              
+Sbjct: 481 DLMNTYINSVPSSSSSKRKSDDDDDGNDNEEVGNDGPTANSKKIKMETEPLAEEPEEPED 540
+
+Query: 541 XXRMQKMLQEEESAQEISGDANKSTSAIKEIAPPFEPDSLTQDEXXXXXXXXXXXXFELS 600
+             RMQKMLQEEESAQEISGDANKSTSAIKEIAPPFEPDSLTQDE            FELS
+Sbjct: 541 DDRMQKMLQEEESAQEISGDANKSTSAIKEIAPPFEPDSLTQDEKLKYLSKLTKKLFELS 600
+
+Query: 601 GRQDTTRAKXXXXXXXXXXXXXXXXWLHVLIRLVTRGIEAQEASDLIREELLGFFIQDFE 660
+           GRQDTTRAK                WLHVLIRLVTRGIEAQEASDLIREELLGFFIQDFE
+Sbjct: 601 GRQDTTRAKSSSSSSILLDDDDSSSWLHVLIRLVTRGIEAQEASDLIREELLGFFIQDFE 660
+
+Query: 661 QRVSLIIEWLNEEWFFQTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSL 720
+           QRVSLIIEWLNEEWFFQTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSL
+Sbjct: 661 QRVSLIIEWLNEEWFFQTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSL 720
+
+Query: 721 QSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSL 780
+           QSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSL
+Sbjct: 721 QSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSL 780
+
+Query: 781 LDRLK 785
+           LDRLK
+Sbjct: 781 LDRLK 785
+
+
+>YMR218C pep:known chromosome:SacCer_Apr2011:XIII:703579:706887:-1
+           gene:YMR218C transcript:YMR218C description:"One of 10
+           subunits of the transport protein particle (TRAPP)
+           complex of the cis-Golgi which mediates vesicle docking
+           and fusion\x3b involved in ER to Golgi membrane
+           traffic\x3b mutation activates transcription of OCH1"
+          Length = 1102
+
+ Score = 33.1 bits (74), Expect = 0.22,   Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 42/78 (53%), Gaps = 5/78 (6%)
+
+Query: 47  PLAKFFTQLVLDVVSMDSPIANTERPFIAAQYLPLLLAMAQSTADVLVYKNIVLIMCASY 106
+           P  +F   L+++ +S+D   A   RP +  Q+LP L +++ ST + ++YK I+L+   S 
+Sbjct: 72  PFIRF---LIVNCISIDQYRAKV-RPLVR-QWLPNLESVSSSTGEKMIYKPIILLYANSE 126
+
+Query: 107 PLVLDLVAKTSNQEMFDQ 124
+            +  +L    S  E F +
+Sbjct: 127 VVDSNLFKSVSLMEKFGK 144
+
+
+>YMR290C pep:known chromosome:SacCer_Apr2011:XIII:850074:851591:-1
+           gene:YMR290C transcript:YMR290C
+           description:"ATP-dependent RNA helicase\x3b localizes to
+           both the nuclear periphery and nucleolus\x3b highly
+           enriched in nuclear pore complex fractions\x3b
+           constituent of 66S pre-ribosomal particles"
+          Length = 505
+
+ Score = 32.0 bits (71), Expect = 0.42,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 25/51 (49%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + ++I F PP  D  RD +H++ +   G   +  SL+
+Sbjct: 344 ICTDVAARGLDIPAVDWIIQFDPP--DDPRDYIHRVGRTARGTKGKGKSLM 392
+
+
+>YMR252C pep:known chromosome:SacCer_Apr2011:XIII:775315:775719:-1
+           gene:YMR252C transcript:YMR252C description:"Putative
+           protein of unknown function\x3b green fluorescent
+           protein (GFP)-fusion protein localizes to
+           mitochondria\x3b YMR252C is not an essential gene"
+          Length = 134
+
+ Score = 29.6 bits (65), Expect = 0.92,   Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 33/66 (50%), Gaps = 5/66 (7%)
+
+Query: 227 MVSSVFIGIINSLSFVIKRRPQTTIR--ILSGLLRFNVDAKFPLEGKSDLNYKLSKRFVE 284
+           M   VF+  I +    I  +P +TI   + S  L F+ +A FP +   +LN    + F++
+Sbjct: 1   MFGKVFVSYIRTR---IGFKPLSTIYTPVSSSSLSFDKEACFPFKKWHELNMSQKQEFIQ 57
+
+Query: 285 RAYKNF 290
+           R  KN+
+Sbjct: 58  RFVKNY 63
+
+
+>YAL024C pep:known chromosome:SacCer_Apr2011:I:101565:105872:-1 gene:YAL024C
+           transcript:YAL024C description:"Protein similar to
+           GDP/GTP exchange factors but without detectable GEF
+           activity\x3b required for asymmetric localization of
+           Bfa1p at daughter-directed spindle pole bodies and for
+           mitotic exit at low temperatures"
+          Length = 1435
+
+ Score = 28.5 bits (62), Expect = 5.0,   Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 23/35 (65%), Gaps = 3/35 (8%)
+
+Query: 646 LIREELLGFFIQDFEQRVSL---IIEWLNEEWFFQ 677
+           L+R  +L +F+QDF   ++L   +IE+LN++   Q
+Sbjct: 107 LLRHSILNYFVQDFLPNITLRLRLIEFLNDKHIEQ 141
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 3,853,413
+Number of extensions: 150498
+Number of successful extensions: 529
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 524
+Number of HSP's successfully gapped: 11
+Length of query: 785
+Length of database: 3,010,216
+Length adjustment: 98
+Effective length of query: 687
+Effective length of database: 2,354,400
+Effective search space: 1617472800
+Effective search space used: 1617472800
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,165 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ32056 pep:novel supercontig:GCA_000149035.1:GG697359:209348:2...   381   e-128
+EFQ27277 pep:novel supercontig:GCA_000149035.1:GG697337:369378:3...    30   1.4  
+EFQ33433 pep:novel supercontig:GCA_000149035.1:GG697370:269246:2...    29   3.1  
+EFQ31722 pep:novel supercontig:GCA_000149035.1:GG697357:227806:2...    29   3.9  
+EFQ25789 pep:novel supercontig:GCA_000149035.1:GG697333:91059:93...    28   4.6  
+EFQ33574 pep:novel supercontig:GCA_000149035.1:GG697371:408745:4...    28   6.9  
+
+>EFQ32056 pep:novel supercontig:GCA_000149035.1:GG697359:209348:211010:1
+           gene:GLRG_07200 transcript:EFQ32056
+           description:"pre-mRNA cleavage complex II protein Clp1"
+          Length = 455
+
+ Score =  381 bits (978), Expect = e-128,   Method: Compositional matrix adjust.
+ Identities = 216/462 (46%), Positives = 277/462 (59%), Gaps = 14/462 (3%)
+
+Query: 1   MSIPGLG--LIPEKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELALN 58
+           MSIPGLG  + P+  + + +RT  L+P  E+RF V+    I + L  GTAE+DGTELAL 
+Sbjct: 1   MSIPGLGHLVAPQPTSANQTRTIRLQPFWEWRFEVAFDTHIKLKLLSGTAEKDGTELALQ 60
+
+Query: 59  VAYTLSGVKSKILSWHGANLSIEGITDHESVAG---PDDAANTAHLNLHAFLQXXXXXXX 115
+            AYTL+GV+SKIL+  G  L +EG    ESVA    P D+   + LNLH  L        
+Sbjct: 61  HAYTLAGVRSKILTLQGCELEVEGGLAAESVAEYARPQDSPANSVLNLHFQLTAMRQRAA 120
+
+Query: 116 XXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXXX 175
+                      GPRV V G    G+TSL RTLA++A R GAQP+VV+AD           
+Sbjct: 121 AERR------EGPRVAVCGPPASGKTSLARTLASYAARVGAQPLVVNADPKEGMLSLPGT 174
+
+Query: 176 XSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXXX 235
+            +A+V  TV+DV                VPVKLPLV+YYG    +ED+  Y+ +V+    
+Sbjct: 175 LTASVVATVLDVEAVDGWGTTPTSGPSHVPVKLPLVYYYGHAAADEDQRKYQELVSKMAA 234
+
+Query: 236 XXXXXXXDDPAVRSAGMLIDTPPYVE--GKGADVLIHIAEELNVNIIVTIDTPSLHTELT 293
+                   +P ++S+G++IDTP   E    G D+L H+ +EL+VNII+ + +  LHTELT
+Sbjct: 235 AVTSRFGHEPEIKSSGIIIDTPAVSEKSSDGVDILAHVVDELSVNIIIVLGSSHLHTELT 294
+
+Query: 294 QRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQV 353
+           +RFS  +  LGE  S++ LDKS GV ERD GF Q   EASIKEYFFG    TLSP TQQV
+Sbjct: 295 KRFSTQRTSLGEQYSILLLDKSDGVAERDVGFTQQACEASIKEYFFGSIGQTLSPATQQV 354
+
+Query: 354 AFDELAIYTSPEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKIRYAPVSGF 413
+            FD LAI+   + S Y      L R+      MAHW LA++ A+  DPP  IR A V G+
+Sbjct: 355 DFDSLAIFRIGDYSMYGNGDDGLMRVDAG-QLMAHWTLAIVYASVKDPPETIRTANVMGY 413
+
+Query: 414 VYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+           VY+A VDKE+R+++ILAPVSGRLGD+PL+ GKWPEP INLLG
+Sbjct: 414 VYIADVDKEKRKLRILAPVSGRLGDRPLLMGKWPEPFINLLG 455
+
+
+>EFQ27277 pep:novel supercontig:GCA_000149035.1:GG697337:369378:371561:-1
+           gene:GLRG_01772 transcript:EFQ27277 description:"ABC
+           transporter"
+          Length = 706
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/40 (32%), Positives = 22/40 (55%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDAD 164
+           P G +V V G +GCG+++L+R L  +      +  + D D
+Sbjct: 467 PAGKKVAVVGPSGCGKSTLLRLLFRFYDAQTGRIFIDDQD 506
+
+
+>EFQ33433 pep:novel supercontig:GCA_000149035.1:GG697370:269246:271611:1
+           gene:GLRG_08712 transcript:EFQ33433 description:"ATPase"
+          Length = 769
+
+ Score = 29.3 bits (64), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 1/25 (4%)
+
+Query: 130 VLVAGKTGCGRTSLVRTLAAWATRT 154
+           +L++G  G G+ SLVR+L +W TRT
+Sbjct: 231 ILISGPPGTGKQSLVRSL-SWRTRT 254
+
+
+>EFQ31722 pep:novel supercontig:GCA_000149035.1:GG697357:227806:230281:-1
+           gene:GLRG_06697 transcript:EFQ31722
+           description:"hypothetical protein"
+          Length = 742
+
+ Score = 28.9 bits (63), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 25/87 (28%), Positives = 37/87 (42%), Gaps = 13/87 (14%)
+
+Query: 354 AFDELAIYTS--------PEASDYSAEPGALERIPQPLPEMAHWVLAMMDAAPNDPPHKI 405
+           AFD LA  +         P+A D       L+RI    PE   ++    DA   DP    
+Sbjct: 550 AFDRLAKESEGVMTRAPGPDAMDVDGSASNLDRIISKTPEGIPYI-PNSDAQTLDP---- 604
+
+Query: 406 RYAPVSGFVYVAAVDKERRRMKILAPV 432
+           RY+   G V +  +D +   ++IL P+
+Sbjct: 605 RYSQTLGMVLLRGIDTKNGVLQILTPI 631
+
+
+>EFQ25789 pep:novel supercontig:GCA_000149035.1:GG697333:91059:93423:-1
+           gene:GLRG_00933 transcript:EFQ25789 description:"ABC
+           transporter transmembrane region"
+          Length = 548
+
+ Score = 28.5 bits (62), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 23/38 (60%)
+
+Query: 127 GPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDAD 164
+           G +V + G+TG G+TSL+ +L   A  +  + ++ D D
+Sbjct: 501 GEKVAICGRTGSGKTSLLLSLLGMAEESTGKIVLDDID 538
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 4,872,877
+Number of extensions: 200318
+Number of successful extensions: 529
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 524
+Number of HSP's successfully gapped: 8
+Length of query: 455
+Length of database: 5,585,764
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,419,824
+Effective search space: 1582296992
+Effective search space used: 1582296992
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

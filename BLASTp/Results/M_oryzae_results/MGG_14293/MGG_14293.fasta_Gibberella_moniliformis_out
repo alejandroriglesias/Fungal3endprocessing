@@ -1,0 +1,103 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_10351T0 pep:known chromosome:ASM14955v1:9:2375831:2377318:-...   146   9e-41
+FVEG_10434T0 pep:known chromosome:ASM14955v1:9:2636483:2637522:1...    28   3.2  
+
+>FVEG_10351T0 pep:known chromosome:ASM14955v1:9:2375831:2377318:-1
+           gene:FVEG_10351 transcript:FVEG_10351T0
+           description:"conserved hypothetical protein"
+          Length = 330
+
+ Score =  146 bits (369), Expect = 9e-41,   Method: Compositional matrix adjust.
+ Identities = 77/144 (53%), Positives = 95/144 (65%), Gaps = 12/144 (8%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGS----------DL 128
+           RKDGT  APP QSKYS+IR+IPQR+ ++D   P + AP +K+   + S            
+Sbjct: 63  RKDGTKPAPPQQSKYSDIRNIPQRTASSD--VPTQPAPARKDSESRPSVNVAAPSADKTS 120
+
+Query: 129 PPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWA 188
+              +KS  D    P H  TGKP+TQVNIDEDL +   PWRKPGTDISDYFNYGFDEF+WA
+Sbjct: 121 AAASKSTIDVNVNPIHPGTGKPITQVNIDEDLPDSDKPWRKPGTDISDYFNYGFDEFTWA 180
+
+Query: 189 IYAQKQNQLRSEYSADAMSQNSKK 212
+           +YA KQ  +R E+ AD  +QN+KK
+Sbjct: 181 LYASKQETVRGEFGADVFAQNNKK 204
+
+
+>FVEG_10434T0 pep:known chromosome:ASM14955v1:9:2636483:2637522:1 gene:FVEG_10434
+           transcript:FVEG_10434T0 description:"conserved
+           hypothetical protein"
+          Length = 316
+
+ Score = 28.1 bits (61), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 30/66 (45%), Gaps = 14/66 (21%)
+
+Query: 162 EDAAPWRKPGTDISDYFNYGF-----------DEFSWAIYAQKQNQLRSEYSADAMSQNS 210
+           +D   W + G+DI+ Y+NYG+           D+F    +      + S+ S     QN 
+Sbjct: 36  QDDKIWVQNGSDITWYYNYGYKPSAVYKDVPQDQFE---FVPMMWGVGSDSSDTTFLQNV 92
+
+Query: 211 KKMMED 216
+           K +MED
+Sbjct: 93  KSLMED 98
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 2,444,467
+Number of extensions: 96937
+Number of successful extensions: 309
+Number of sequences better than 10.0: 25
+Number of HSP's gapped: 305
+Number of HSP's successfully gapped: 27
+Length of query: 332
+Length of database: 5,950,719
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,603,144
+Effective search space: 1090945128
+Effective search space used: 1090945128
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

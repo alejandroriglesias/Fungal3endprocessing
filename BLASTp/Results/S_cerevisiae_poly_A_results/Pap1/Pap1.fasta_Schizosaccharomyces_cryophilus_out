@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.fa
+
+           5180 sequences; 2,338,516 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPY54292 pep:novel supercontig:GCA_000004155.2:supercont4.1:2797...   593   0.0  
+EPY51687 pep:novel supercontig:GCA_000004155.2:supercont4.3:2477...    46   1e-05
+EPY50511 pep:novel supercontig:GCA_000004155.2:supercont4.6:8982...    32   0.21 
+EPY52646 pep:novel supercontig:GCA_000004155.2:supercont4.2:9362...    32   0.23 
+EPY53698 pep:novel supercontig:GCA_000004155.2:supercont4.1:1435...    30   1.1  
+EPY53053 pep:novel supercontig:GCA_000004155.2:supercont4.1:4931...    29   1.3  
+EPY52470 pep:novel supercontig:GCA_000004155.2:supercont4.2:5785...    27   5.9  
+EPY50086 pep:novel supercontig:GCA_000004155.2:supercont4.7:8212...    27   8.8  
+EPY49745 pep:novel supercontig:GCA_000004155.2:supercont4.7:5973...    27   9.8  
+
+>EPY54292 pep:novel supercontig:GCA_000004155.2:supercont4.1:2797858:2799910:
+           1 gene:SPOG_04184 transcript:EPY54292
+           description:"poly(A) polymerase Pla1"
+          Length = 558
+
+ Score =  593 bits (1528), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 297/563 (52%), Positives = 402/563 (71%), Gaps = 18/563 (3%)
+
+Query: 3   SQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQRF 62
+           S K +GIT P+ST  AT  EN LN +LI ELK++  FE+  E+  R++VL  LQ +A  F
+Sbjct: 2   SVKQWGITPPISTAPATEQENALNTALIDELKRQNLFESSAESERRIKVLDDLQRIATEF 61
+
+Query: 63  VYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDS 122
+           V +VS  K+M++ MA +AGGKIFTYGSYRLGV+GPGSDIDTL+VVPKHV+RE+FF   + 
+Sbjct: 62  VKKVSLAKHMNEKMANEAGGKIFTYGSYRLGVYGPGSDIDTLLVVPKHVSRENFFQDLEP 121
+
+Query: 123 LLRERKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDE 182
+           +LRER+E+ E+A VPDA+VPIIK K+  ISIDLI +RL  P+VP SL LSD NLL+ ++E
+Sbjct: 122 MLREREEVTELASVPDAYVPIIKFKYLDISIDLIFSRLSVPKVPRSLELSDNNLLKGVEE 181
+
+Query: 183 KDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVAR 242
+           + + +LNGTRVTD+IL+LVP  +VF+ ALRAIK WAQRRA+YAN+ GFPGGVAWAM+VAR
+Sbjct: 182 RCILSLNGTRVTDQILQLVPNRSVFKHALRAIKFWAQRRAIYANVIGFPGGVAWAMMVAR 241
+
+Query: 243 ICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRMPV 302
+           ICQLYPNA S+VI+ +FF IL +WNWPQP++LK IEDGPLQVR+WNPK+Y  D++HRMP+
+Sbjct: 242 ICQLYPNAVSSVIVAKFFRILHQWNWPQPILLKQIEDGPLQVRIWNPKLYPSDKAHRMPI 301
+
+Query: 303 ITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFRYKFYL 362
+           ITPAYPSMCATHNIT ST+ +IL E VR  +I + I      W+ LF+K+DFF RYK YL
+Sbjct: 302 ITPAYPSMCATHNITPSTQAIILSEMVRAGEIADQIMVGSLGWSALFQKHDFFHRYKHYL 361
+
+Query: 363 EITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPTEDDYE 422
+            ITA ++ ++ Q LKWSGLVESK+R LV +LE++  I +AHPF K F+  + C +E++  
+Sbjct: 362 MITAVSKTAEGQ-LKWSGLVESKLRHLVTRLELVEAIALAHPFNKGFDKIHNCKSEEEAN 420
+
+Query: 423 MIQDKYGSHKTETALNALKLVTDENKEEESIKDAPK-----AYLSTMYIGLDFNIENKK- 476
+            +        T  + +  ++  D +++ E   +         Y +T YIGL+  +E KK 
+Sbjct: 421 QLASGISLDVTSHSADLERIAADASEQNEKEDEKEDKKLYPVYTTTFYIGLE--LEKKKG 478
+
+Query: 477 ---EKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKS 533
+              +K+DI  P  EF  LC+ +  D  D  + N+ ++  +  +LPDEVF+  E+RP K S
+Sbjct: 479 QPLKKLDISWPAQEFYELCKKW--DKYDETLMNVFIKNTRNVNLPDEVFEPGEERP-KVS 535
+
+Query: 534 KRKNLD---ARHETVKRSKSDAA 553
+           K+++++   + +ET+KR K   A
+Sbjct: 536 KKRSINGAASNNETMKRQKVSTA 558
+
+
+>EPY51687 pep:novel supercontig:GCA_000004155.2:supercont4.3:247744:251656:1
+           gene:SPOG_00112 transcript:EPY51687 description:"poly(A)
+           polymerase Cid16"
+          Length = 1139
+
+ Score = 46.2 bits (108), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 49/195 (25%), Positives = 84/195 (43%), Gaps = 38/195 (19%)
+
+Query: 56  QELAQRFVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTRED 115
+           +EL  +F+ ++  +K +S+G+  +   +++T GSYR G+    SDID LV   K    + 
+Sbjct: 836 EELVLKFIKKI--RKLLSEGL--NMPVQVYTLGSYRTGLMTNHSDID-LVATSKSPLLKK 890
+
+Query: 116 FFTVFDSLLRERKELDEIAPVPDAFVPIIKIKF-SGISIDLICARLDQPQVPLSLTLSDK 174
+           F T+   + +  +E   + P+  A  P+IK+    G   DL     D      +  L +K
+Sbjct: 891 FNTITKLIFKRYRE---VIPIRHAKAPVIKLSTPEGFRCDL---SFDSMFAAQNSCLIEK 944
+
+Query: 175 NLLRNLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGV 234
+            L  ++DE+                        ++ +  IK WA  R +  + F  P G 
+Sbjct: 945 YL--SIDER-----------------------VKVFVSTIKSWASLRMIDKSYFSVPSGY 979
+
+Query: 235 AWA-MLVARICQLYP 248
+            W  M +  + QL P
+Sbjct: 980 TWCIMALFYLQQLSP 994
+
+
+>EPY50511 pep:novel supercontig:GCA_000004155.2:supercont4.6:898212:899712:-1
+           gene:SPOG_01267 transcript:EPY50511 description:"poly(A)
+           polymerase Cid11"
+          Length = 483
+
+ Score = 32.0 bits (71), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 54/198 (27%), Positives = 81/198 (40%), Gaps = 38/198 (19%)
+
+Query: 34  KKEGSFETEQETANRVQVLKILQELAQRFVYEVSKKKNMSDGMARDAGGKIFTYGSY--R 91
+           K  GS E  +E     + LK   E   R    + K K +     +D    +F +GS   R
+Sbjct: 40  KIRGSEELTKECWKLFKDLKPSPEENFRREQFIIKLKTILKNSIQDKNLDLFVFGSTESR 99
+
+Query: 92  LGVHGPGSDIDTLVVV---PKHVTREDFFTVFDSLLRE-RKELDEIAPVPDAFVPIIKIK 147
+           L +H   SDID  +V     K  +      +  S ++E R  +  I  VP A VPI+K+ 
+Sbjct: 100 LAIH--QSDIDVCIVTRGNGKLRSTCQLAYILHSCMQELRNGMKRITCVPRARVPIVKMW 157
+
+Query: 148 FSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILELVPK--PN 205
+                          PQ+ +S  ++  N        D+  LN      E+L L  K  P 
+Sbjct: 158 --------------DPQLNISGDININN--------DVAKLNT-----EMLHLFVKIDPR 190
+
+Query: 206 VFRIALRAIKLWAQRRAV 223
+           V  + L  IK WA++R++
+Sbjct: 191 VRALGL-IIKYWAKQRSL 207
+
+
+>EPY52646 pep:novel supercontig:GCA_000004155.2:supercont4.2:936278:938646:-1
+           gene:SPOG_01967 transcript:EPY52646 description:"poly(A)
+           polymerase Cid14"
+          Length = 685
+
+ Score = 32.0 bits (71), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 41/175 (23%), Positives = 72/175 (41%), Gaps = 30/175 (17%)
+
+Query: 84  IFTYGSYRLGVHGPGSDIDTLVVVPKH---VTREDFFTVFDSLLRERKELDEIAPVPDAF 140
+           ++ +GS+   ++ P SD+D +++   +    T++D + +    LR+ K   EI  +  A 
+Sbjct: 276 VYVFGSFETRLYLPTSDLDMVIMSSDYHYRGTKKDMY-ILAHHLRKCKVATEIQVITTAN 334
+
+Query: 141 VPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILEL 200
+           VPIIK       +D I       ++ + ++ +    L     K    +NG       L+ 
+Sbjct: 335 VPIIKF------VDPIT------RIHVDVSFNQAGGL-----KTCLVVNG------FLKK 371
+
+Query: 201 VPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQLYPNACSAVI 255
+            P     R  +  IK +   RA+     G     A   LVA   QL+P   +  I
+Sbjct: 372 FP---ALRPLVIIIKHYLNMRALNEVFLGGLSSYAIVCLVASFLQLHPRLSTGSI 423
+
+
+>EPY53698 pep:novel supercontig:GCA_000004155.2:supercont4.1:1435778:1438281:
+           -1 gene:SPOG_03069 transcript:EPY53698
+           description:"inositol polyphosphate phosphatase"
+          Length = 601
+
+ Score = 29.6 bits (65), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 25/116 (21%), Positives = 47/116 (40%), Gaps = 5/116 (4%)
+
+Query: 357 RYKFYLEITAYTRGSDEQHLKWSGLVESKV--RLLVMKLEVLAGIKIAHPFTK--PFESS 412
+           +Y+     T+  R +    L  + +V+S +   +L  +L     +   HP     P E S
+Sbjct: 364 KYRVLSRQTSVVRSNCMDCLDRTNVVQSCIGRHVLTNQLRKCGLLGATHPLRSILPLEKS 423
+
+Query: 413 YCCPTEDDYEMIQDKY-GSHKTETALNALKLVTDENKEEESIKDAPKAYLSTMYIG 467
+           +CC   D+ + I   Y G+   +T      + T     ++ +  A +  L+  Y G
+Sbjct: 424 FCCIWADNADHISTAYSGTGALKTDFTRTGVRTRRGAFDDFVNSAKRYILNNFYDG 479
+
+
+  Database: Schizosaccharomyces_cryophilus.GCA_000004155.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:58 PM
+  Number of letters in database: 2,338,516
+  Number of sequences in database:  5180
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5180
+Number of Hits to DB: 2,698,996
+Number of extensions: 123438
+Number of successful extensions: 403
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 397
+Number of HSP's successfully gapped: 16
+Length of query: 568
+Length of database: 2,338,516
+Length adjustment: 93
+Effective length of query: 475
+Effective length of database: 1,856,776
+Effective search space: 881968600
+Effective search space used: 881968600
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 52 (24.6 bits)

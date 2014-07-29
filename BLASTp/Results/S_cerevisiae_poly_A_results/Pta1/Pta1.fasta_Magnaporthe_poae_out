@@ -1,0 +1,147 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_02540T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    89   1e-18
+MAPG_10951T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    33   0.36 
+MAPG_02716T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.63 
+MAPG_02152T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   2.7  
+
+>MAPG_02540T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:2139342:2
+           142873:-1 gene:MAPG_02540 transcript:MAPG_02540T0
+           description:"hypothetical protein"
+          Length = 729
+
+ Score = 89.0 bits (219), Expect = 1e-18,   Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 85/164 (51%), Gaps = 19/164 (11%)
+
+Query: 626 WLHVLIRLVTRGIEAQEAS--------------DLIREELLGFFIQDFEQRVSLIIEWLN 671
+           W+ V+ RL TR   A +                +  RE L  + ++DF +R+ + I WL+
+Sbjct: 529 WITVVTRLATRASAALDGGSDGSKEGNSTLPLGERFREALYNYVLEDFRKRIDVAISWLS 588
+
+Query: 672 EEWF---FQTSLHQD-PSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLEA 727
+           EEW+    Q  + ++ P +Y K ++R+++ + P+L  + +    R + E+P +    LE 
+Sbjct: 589 EEWYNDRLQQQISRNTPLHYDKVAIRLVDGITPYLHAQDK-VLTRFLGEIPEVNPSILER 647
+
+Query: 728 LKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDE 771
+           +K +C DP+ ++L   +L +L+M RPP ++   D +  +  E E
+Sbjct: 648 VKGMCRDPSLANLALTSLVYLVMMRPPAKEMALDAMQGIWTEYE 691
+
+
+
+ Score = 70.9 bits (172), Expect = 7e-13,   Method: Compositional matrix adjust.
+ Identities = 55/179 (30%), Positives = 87/179 (48%), Gaps = 31/179 (17%)
+
+Query: 91  DVLVYKNIVLIMCASYPLVLDLVAKTS-NQEMFDQLCMLKKFVLSHWRTAYPLRATVDDE 149
+           D+ V K+ +    + YPLV+  +   S +   +++L  +K  VL  W          + E
+Sbjct: 91  DLYVLKSALQTAASIYPLVIRWIVNNSYDTPTWERLTAIKAKVLQLW----------NSE 140
+
+Query: 150 TDVEQWLAQIDQNIGVKLATIKFISEVVLSQT-------KSPSGNEINSSTIPDNHPVLN 202
+           + V            +++A IKF   V L QT       K   G EI+ + +P NHPVL+
+Sbjct: 141 SSV------------IRIACIKFAQRVALVQTLPLNGELKQRDGLEISLALVPPNHPVLD 188
+
+Query: 203 KPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRFN 261
+              LE+EA  LLD +L  L ++    + V    +N LS +I+ RP T+ RI++ +L FN
+Sbjct: 189 ARNLEAEASGLLDRMLGVL-QDNSSDALVVDATLNCLSILIRTRPSTSNRIINTVLSFN 246
+
+
+>MAPG_10951T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.13:815585:8
+           17960:-1 gene:MAPG_10951 transcript:MAPG_10951T0
+           description:"ATP-dependent RNA helicase HAS1"
+          Length = 611
+
+ Score = 32.7 bits (73), Expect = 0.36,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + +++ F PP  D  RD +H++ +   G  K+  SL+
+Sbjct: 429 ICTDVAARGLDIPAVDWIVQFDPP--DDPRDYIHRVGRTARGSSKKGSSLM 477
+
+
+>MAPG_02716T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:2708698:2
+           710287:-1 gene:MAPG_02716 transcript:MAPG_02716T0
+           description:"hypothetical protein"
+          Length = 392
+
+ Score = 32.0 bits (71), Expect = 0.63,   Method: Compositional matrix adjust.
+ Identities = 21/55 (38%), Positives = 31/55 (56%), Gaps = 8/55 (14%)
+
+Query: 366 SALLSTLGVSTKTPTPVSAP--ATGSSTENMLD-QLKILQKYTLNKASHQGNTFF 417
+           SALL+ +G +  TP+PV A   A G S+   LD    + +KYTL+      N+F+
+Sbjct: 6   SALLALVGTAIATPSPVRAKPRAAGCSSAVTLDASTNVFKKYTLHP-----NSFY 55
+
+
+>MAPG_02152T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:807895:80
+           8808:1 gene:MAPG_02152 transcript:MAPG_02152T0
+           description:"hypothetical protein"
+          Length = 275
+
+ Score = 29.6 bits (65), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 28/57 (49%), Gaps = 3/57 (5%)
+
+Query: 362 KRQLSALLSTLGVSTKTPTPVSAPATGSST---ENMLDQLKILQKYTLNKASHQGNT 415
+           K+ +  LL  L    +TP+P  +PA   ST   E  L +L +LQ     +A  QG T
+Sbjct: 55  KQVVVGLLEELESCIQTPSPSPSPAQAGSTQHGEEPLPKLNMLQTRIAQQADEQGVT 111
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 5,809,773
+Number of extensions: 207819
+Number of successful extensions: 575
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 573
+Number of HSP's successfully gapped: 11
+Length of query: 785
+Length of database: 4,928,244
+Length adjustment: 101
+Effective length of query: 684
+Effective length of database: 3,779,874
+Effective search space: 2585433816
+Effective search space used: 2585433816
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

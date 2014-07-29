@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_11760P0 pep:known chromosome:ASM24013v2:1:1275230:1277366:1...   596   0.0  
+FGSG_00401P0 pep:known chromosome:ASM24013v2:1:1277401:1277851:1...   106   4e-27
+FGSG_05908P0 pep:known chromosome:ASM24013v2:3:3744205:3747094:-...    30   2.8  
+FGSG_05769P0 pep:known chromosome:ASM24013v2:3:3325860:3329132:-...    28   8.6  
+
+>FGSG_11760P0 pep:known chromosome:ASM24013v2:1:1275230:1277366:1 gene:FGSG_11760
+           transcript:FGSG_11760T0 description:"conserved
+           hypothetical protein"
+          Length = 584
+
+ Score =  596 bits (1536), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 325/612 (53%), Positives = 414/612 (67%), Gaps = 40/612 (6%)
+
+Query: 9   IAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQS 68
+           +++QIRQL+DARK VL DVK Y S+V+GILPIIG  +  ELRRWGA+FLAE+FATP+L +
+Sbjct: 7   VSDQIRQLDDARKLVLGDVKYYPSVVKGILPIIGPSAPLELRRWGAEFLAEAFATPALPN 66
+
+Query: 69  RDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERIT 128
+            +KETM   VL TL + +EN  ED  V+RS IQ  ASIYPL +RWIINN YDT TWER+ 
+Sbjct: 67  GEKETMQPYVLPTLESLLENEREDPQVLRSVIQCVASIYPLAMRWIINNGYDTITWERMV 126
+
+Query: 129 AIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLD 188
+           A+K ++ ++W    P                   +  G      LD+SL  +P  H  LD
+Sbjct: 127 AVKQKVLRIWDNAGP-------------------TYGGT-----LDVSLDKVPSNHQSLD 162
+
+Query: 189 PRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFNPL 248
+           PRNLEAEA GLLDRMLG L + SSDAL+VDATLNC++I+IR RPATSNRI+NA+L FNPL
+Sbjct: 163 PRNLEAEASGLLDRMLGALLE-SSDALIVDATLNCMSIIIRARPATSNRIINALLGFNPL 221
+
+Query: 249 KLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDDN 308
+           KLANSP+TPK+RV+++SMEKTTRMLL+HL++RDP NPM PRIQQH+ER+ R+ ADIF DN
+Sbjct: 222 KLANSPLTPKSRVMIRSMEKTTRMLLIHLVKRDPHNPMVPRIQQHVERMMRTMADIF-DN 280
+
+Query: 309 AGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTNTPGLQSF 368
+           +G KR L E       +AKR RL+   + +P                 FTL +   L++F
+Sbjct: 281 SGHKRPL-EPPPQDEYEAKRPRLSPAQIQIP-----PLGPSPHSLADIFTLIDNSALKNF 334
+
+Query: 369 DVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPVLINPATAPLGVX 428
+           D+S VPA L A+I V+TLAR+D Q+L + ++G+R RL TL A+A  P L NP TAPLGV 
+Sbjct: 335 DISQVPAPLVARIAVTTLARLDPQVLSKAVDGIRGRLDTL-ASAPVPEL-NPNTAPLGV- 391
+
+Query: 429 XXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLPPPPVLRPEEAS 488
+                             QILNK D  S   EA  ++   LAL ++ L  P  L PE A 
+Sbjct: 392 EEDDDDYEPDFYQAEDTEQILNKLDS-SPTHEAPLLDDG-LALKSFHLHQPSALTPEAAL 449
+
+Query: 489 NAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATRSSSALEKT 548
+            AG G VT V+ M K +EE  +K+SKAG +RLAAS  +R+SW+T++ RLATRS + LE+T
+Sbjct: 450 TAGNGTVTRVIEMMKSMEEP-AKKSKAGFSRLAASSGNRDSWMTILARLATRSVAGLEET 508
+
+Query: 549 TIKEEDG--TPQILGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQKRMASDAPL 606
+           TIK+EDG  T Q L   +R+ LY+YV+EDFRK IDVA+SWL EEWYND+LQ++   D PL
+Sbjct: 509 TIKDEDGSLTHQSLSSNIRDVLYSYVMEDFRKHIDVAVSWLCEEWYNDKLQQKKGGDRPL 568
+
+Query: 607 HYDKVALRLVDG 618
+           +Y+K  LRL+DG
+Sbjct: 569 YYEKCCLRLIDG 580
+
+
+>FGSG_00401P0 pep:known chromosome:ASM24013v2:1:1277401:1277851:1 gene:FGSG_00401
+           transcript:FGSG_00401T0 description:"conserved
+           hypothetical protein"
+          Length = 80
+
+ Score =  106 bits (264), Expect = 4e-27,   Method: Compositional matrix adjust.
+ Identities = 48/80 (60%), Positives = 65/80 (81%), Gaps = 1/80 (1%)
+
+Query: 651 MCRDPSLASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFLE 710
+           MCRDPS+  LALTSL+YL+MMRPPA+E+ALD +Q IWTE+EEARP+A K+L+++R +F+E
+Sbjct: 1   MCRDPSVVQLALTSLLYLIMMRPPAKEIALDTVQDIWTEFEEARPVAGKYLSKYRPSFME 60
+
+Query: 711 -ANSGAGQAGQSVAPTAVLA 729
+            A +GAG +    A TA+ A
+Sbjct: 61  AAQNGAGNSSGQSASTAITA 80
+
+
+>FGSG_05908P0 pep:known chromosome:ASM24013v2:3:3744205:3747094:-1
+           gene:FGSG_05908 transcript:FGSG_05908T0
+           description:"hypothetical protein"
+          Length = 807
+
+ Score = 30.0 bits (66), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 30/123 (24%), Positives = 56/123 (45%), Gaps = 8/123 (6%)
+
+Query: 131 KSRIFQLWSG-EIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLDP 189
+           KS + Q  +G   P    CC +F  R+V  +T   + ++ R  +D +  N+P   P  D 
+Sbjct: 125 KSSLLQSLTGIPFPVDSGCCTRFPTRIVSRRTEPDSDDYFRITIDPAEVNVPGLDPAFDN 184
+
+Query: 190 -RNLEAEA-IGLLDRMLGVLQDNSSDAL-----VVDATLNCVAILIRTRPATSNRILNAV 242
+            RN E    I   +R   V+++ S++ +     + D   N VA +++   +   R   ++
+Sbjct: 185 IRNYEYSGKILTKERFAKVIEEISTEFMGLRTGLGDDRKNFVAEVLKVELSGPQRSYFSI 244
+
+Query: 243 LNF 245
+           L+ 
+Sbjct: 245 LDL 247
+
+
+>FGSG_05769P0 pep:known chromosome:ASM24013v2:3:3325860:3329132:-1
+           gene:FGSG_05769 transcript:FGSG_05769T0
+           description:"conserved hypothetical protein"
+          Length = 979
+
+ Score = 28.5 bits (62), Expect = 8.6,   Method: Compositional matrix adjust.
+ Identities = 22/58 (37%), Positives = 29/58 (50%), Gaps = 9/58 (15%)
+
+Query: 272 MLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDDNAGRKRALAEQQAAALGDAKRQ 329
+           +++ HL+   PQ P  P  ++    LA  +A        R   LAEQ AAA GDAK Q
+Sbjct: 161 IVITHLLATSPQAP--PEKKKLYGMLALKQAQ-------RAAQLAEQDAAAEGDAKPQ 209
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 7,951,823
+Number of extensions: 319597
+Number of successful extensions: 889
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 882
+Number of HSP's successfully gapped: 6
+Length of query: 730
+Length of database: 5,933,672
+Length adjustment: 102
+Effective length of query: 628
+Effective length of database: 4,575,236
+Effective search space: 2873248208
+Effective search space used: 2873248208
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

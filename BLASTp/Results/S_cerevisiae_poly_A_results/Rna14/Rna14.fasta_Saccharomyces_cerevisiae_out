@@ -1,0 +1,203 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YMR061W pep:known chromosome:SacCer_Apr2011:XIII:392755:394788:1...  1365   0.0  
+YDR322W pep:known chromosome:SacCer_Apr2011:IV:1110589:1111692:1...    32   0.43 
+YOR074C pep:known chromosome:SacCer_Apr2011:XV:466675:467589:-1 ...    29   2.6  
+YAR019C pep:known chromosome:SacCer_Apr2011:I:172211:175135:-1 g...    29   2.7  
+YMR213W pep:known chromosome:SacCer_Apr2011:XIII:693381:695153:1...    29   3.0  
+YIL068C pep:known chromosome:SacCer_Apr2011:IX:233057:235474:-1 ...    28   7.5  
+YJL071W pep:known chromosome:SacCer_Apr2011:X:306132:307856:1 ge...    28   7.6  
+YAL001C pep:known chromosome:SacCer_Apr2011:I:147594:151166:-1 g...    28   8.1  
+
+>YMR061W pep:known chromosome:SacCer_Apr2011:XIII:392755:394788:1
+           gene:YMR061W transcript:YMR061W description:"Component
+           of the cleavage and polyadenylation factor I (CF I)\x3b
+           CF 1, composed of the CF 1A complex (Rna14p, Rna15p,
+           Clp1p, Pcf11p) and Hrp1, is involved in cleavage and
+           polyadenylation of mRNA 3' ends\x3b bridges interaction
+           between Rna15p and Hrp1p in /.../F I complex\x3b mutant
+           displays reduced transcription elongation in the
+           G-less-based run-on (GLRO) assay\x3b required for gene
+           looping"
+          Length = 677
+
+ Score = 1365 bits (3533), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 665/677 (98%), Positives = 665/677 (98%)
+
+Query: 1   MSSSTTPDLLYPSADKVAEPSDNIHGDELRLRERIKDNPTNILSYFQLIQYLETQESYAK 60
+           MSSSTTPDLLYPSADKVAEPSDNIHGDELRLRERIKDNPTNILSYFQLIQYLETQESYAK
+Sbjct: 1   MSSSTTPDLLYPSADKVAEPSDNIHGDELRLRERIKDNPTNILSYFQLIQYLETQESYAK 60
+
+Query: 61  VREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLD 120
+           VREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLD
+Sbjct: 61  VREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLD 120
+
+Query: 121 YIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQ 180
+           YIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQ
+Sbjct: 121 YIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQ 180
+
+Query: 181 QRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQE 240
+           QRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQE
+Sbjct: 181 QRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQE 240
+
+Query: 241 WLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKWERENKLMLSEDMLS 300
+           WLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKWERENKLMLSEDMLS
+Sbjct: 241 WLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKWERENKLMLSEDMLS 300
+
+Query: 301 QRISYVYKQGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYE 360
+           QRISYVYKQGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYE
+Sbjct: 301 QRISYVYKQGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYE 360
+
+Query: 361 LDNDSESVSNCFDKCTQTLLSQYKKIASDVNSGEDNNTEYEQELLYKQREKLTFVFCVYM 420
+           LDNDSESVSNCFDKCTQTLLSQYKKIASDVNSGEDNNTEYEQELLYKQREKLTFVFCVYM
+Sbjct: 361 LDNDSESVSNCFDKCTQTLLSQYKKIASDVNSGEDNNTEYEQELLYKQREKLTFVFCVYM 420
+
+Query: 421 NTMKRISGLSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQ 480
+           NTMKRISGLSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQ
+Sbjct: 421 NTMKRISGLSAARTVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQ 480
+
+Query: 481 NDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVY 540
+           NDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVY
+Sbjct: 481 NDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVY 540
+
+Query: 541 SLEKRFFERFPQENLIEVFTSRYQIQNSNLIKKLELTYMYNEEEDSYFSSGNGDGHHGSY 600
+           SLEKRFFERFPQENLIEVFTSRYQIQNSNLIKKLELTYMYNEEEDSYFSSGNGDGHHGSY
+Sbjct: 541 SLEKRFFERFPQENLIEVFTSRYQIQNSNLIKKLELTYMYNEEEDSYFSSGNGDGHHGSY 600
+
+Query: 601 NMSSSDRKRLMEETXXXXXXXXXXXXRDSELPTEVLDLLSVIPKRQYFNTNLLDAQKLVN 660
+           NMSSSDRKRLMEET            RDSELPTEVLDLLSVIPKRQYFNTNLLDAQKLVN
+Sbjct: 601 NMSSSDRKRLMEETGNNGNFSNKKFKRDSELPTEVLDLLSVIPKRQYFNTNLLDAQKLVN 660
+
+Query: 661 FLNDQVEIPTVESTKSG 677
+           FLNDQVEIPTVESTKSG
+Sbjct: 661 FLNDQVEIPTVESTKSG 677
+
+
+>YDR322W pep:known chromosome:SacCer_Apr2011:IV:1110589:1111692:1
+           gene:YDR322W transcript:YDR322W
+           description:"Mitochondrial ribosomal protein of the
+           large subunit"
+          Length = 367
+
+ Score = 31.6 bits (70), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 15/29 (51%), Positives = 18/29 (62%), Gaps = 3/29 (10%)
+
+Query: 338 LYTALLANPDSPSL---TFKLSECYELDN 363
+           LYT L+ NPD P L   +FK + CY L N
+Sbjct: 223 LYTVLIVNPDVPDLSNDSFKTALCYGLVN 251
+
+
+>YOR074C pep:known chromosome:SacCer_Apr2011:XV:466675:467589:-1
+           gene:YOR074C transcript:YOR074C description:"Thymidylate
+           synthase, required for de novo biosynthesis of
+           pyrimidine deoxyribonucleotides\x3b expression is
+           induced at G1/S"
+          Length = 304
+
+ Score = 28.9 bits (63), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 27/58 (46%), Gaps = 1/58 (1%)
+
+Query: 490 LDFLIFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFF 547
+           L+ L FL  D+    L E  V K+ D    +E   KM   + K G+L  VY  + R F
+Sbjct: 68  LELLWFLAGDTDANLLSEQGV-KIWDGNGSREYLDKMGFKDRKVGDLGPVYGFQWRHF 124
+
+
+>YAR019C pep:known chromosome:SacCer_Apr2011:I:172211:175135:-1 gene:YAR019C
+           transcript:YAR019C description:"Protein kinase of the
+           Mitotic Exit Network that is localized to the spindle
+           pole bodies at late anaphase\x3b promotes mitotic exit
+           by directly switching on the kinase activity of
+           Dbf2p\x3b required for spindle disassembly after meiosis
+           II"
+          Length = 974
+
+ Score = 29.3 bits (64), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 15/41 (36%), Positives = 26/41 (63%), Gaps = 2/41 (4%)
+
+Query: 96  EKILAQCLSGKLENNDLS--LWSTYLDYIRRKNNLITGGQE 134
+           ++I A C+   L+ + +S  L+ST +++IR+KNN    G E
+Sbjct: 691 KQITAICVEMSLDMDQMSASLFSTAMNFIRKKNNTSISGLE 731
+
+
+>YMR213W pep:known chromosome:SacCer_Apr2011:XIII:693381:695153:1
+           gene:YMR213W transcript:YMR213W description:"Essential
+           splicing factor\x3b associated with Prp19p and the
+           spliceosome, contains an N-terminal c-Myb DNA binding
+           motif necessary for cell viability but not for Prp19p
+           association, evolutionarily conserved and homologous to
+           S. pombe Cdc5p"
+          Length = 590
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 28/58 (48%), Gaps = 6/58 (10%)
+
+Query: 161 WNEYLNFLEQWKPFNKWEEQQRIDMLREFYKK------MLCVPFDNLEKMWNRYTQWE 212
+           WNEYLN    +  F+K E+ Q +D+ RE   +      M+  P     + +NR  + E
+Sbjct: 52  WNEYLNPKLNFTEFSKEEDAQLLDLARELPNQWRTIADMMARPAQVCVERYNRLLESE 109
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 4,405,041
+Number of extensions: 206627
+Number of successful extensions: 914
+Number of sequences better than 10.0: 41
+Number of HSP's gapped: 912
+Number of HSP's successfully gapped: 41
+Length of query: 677
+Length of database: 3,010,216
+Length adjustment: 96
+Effective length of query: 581
+Effective length of database: 2,367,784
+Effective search space: 1375682504
+Effective search space used: 1375682504
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

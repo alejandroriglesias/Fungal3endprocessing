@@ -1,0 +1,139 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX93746 pep:novel supercontig:ASM23037v1:FP929116:800414:801587...    51   1e-07
+CBY01573 pep:novel supercontig:ASM23037v1:FP929139:1227580:12319...    33   0.16 
+CBX90870 pep:novel supercontig:ASM23037v1:FP929065:885043:886360...    29   1.6  
+CBY02123 pep:novel supercontig:ASM23037v1:FP929139:3172386:31804...    29   2.7  
+
+>CBX93746 pep:novel supercontig:ASM23037v1:FP929116:800414:801587:-1
+           gene:LEMA_P034200.1 transcript:CBX93746
+           description:"Putative uncharacterized protein "
+          Length = 346
+
+ Score = 51.2 bits (121), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 25/66 (37%), Positives = 38/66 (57%), Gaps = 5/66 (7%)
+
+Query: 157 PKAMTGSIDLDKEGIFDSVG--ITTIDPEV---LKEKPWRQPGANLSDYFNYGFNEFTWM 211
+           P   T ++D++   I+  V   + +ID +      +K WR PG + +D+FNYGF+EFTW 
+Sbjct: 135 PAIRTSTLDINANPIYPPVNKPLLSIDMDADLAESQKIWRIPGTDQTDFFNYGFDEFTWE 194
+
+Query: 212 EYLHRQ 217
+            Y  RQ
+Sbjct: 195 LYRQRQ 200
+
+
+>CBY01573 pep:novel supercontig:ASM23037v1:FP929139:1227580:1231902:1
+           gene:LEMA_P003600.1 transcript:CBY01573
+           description:"Similar to 5'-3' exoribonuclease "
+          Length = 1425
+
+ Score = 32.7 bits (73), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 41/166 (24%), Positives = 65/166 (39%), Gaps = 35/166 (21%)
+
+Query: 104 TAATSSSKDVISVATDVSNTITKTSDERLI--------TEGEANQGVTATTVKATESDGN 155
+           T   S  K  IS+   + +   K   ++LI           + NQ        A +++  
+Sbjct: 52  TTRKSEDKMFISIFNYIEHLFGKIKPKQLIFMAIDGVAPRAKMNQQRARRFRTALDAEKA 111
+
+Query: 156 VPKAMTGSIDLDKEGIFDSVGITT---------------IDPEVLKEKPWRQPGANLSDY 200
+             KA+   +++  E  FDS  IT                I+ ++ ++  W+     LS +
+Sbjct: 112 REKAIREGVEMPTEEAFDSNCITPGTAFMAKLTQQLKYFINKKISEDLDWQGVEVVLSGH 171
+
+Query: 201 FNYGFNEFTWMEYLHRQEKLQQDYNPRR-----------ILMGLLS 235
+              G  E   MEY+ RQ K Q DY+P R           I++GLLS
+Sbjct: 172 EVPGEGEHKIMEYI-RQAKAQPDYDPNRRHCLYGLDADLIMLGLLS 216
+
+
+>CBX90870 pep:novel supercontig:ASM23037v1:FP929065:885043:886360:-1
+           gene:LEMA_P059040.1 transcript:CBX90870
+           description:"Similar to serine/threonine-protein kinase
+           "
+          Length = 401
+
+ Score = 29.3 bits (64), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 16/23 (69%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           ++YLH++  + +D  P  ILMG+
+Sbjct: 230 LKYLHKKHVMHRDIKPENILMGI 252
+
+
+>CBY02123 pep:novel supercontig:ASM23037v1:FP929139:3172386:3180418:1
+            gene:LEMA_P009100.1 transcript:CBY02123
+            description:"Similar to beige/BEACH domain-containing
+            protein "
+          Length = 2568
+
+ Score = 28.9 bits (63), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 19/71 (26%), Positives = 31/71 (43%), Gaps = 3/71 (4%)
+
+Query: 160  MTGSIDLDKEGIFDSV-GITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQE 218
+            +  +I  DK  +++    +  +D E   +  W        D F YG    TW  + H Q 
+Sbjct: 1504 LADAIHSDKNNVYEGFQKLVELDNETFLQ--WLDKNKTDLDGFFYGSMSRTWENFTHHQN 1561
+
+Query: 219  KLQQDYNPRRI 229
+            KL ++ + RRI
+Sbjct: 1562 KLTEETSQRRI 1572
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 2,466,394
+Number of extensions: 100102
+Number of successful extensions: 301
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 299
+Number of HSP's successfully gapped: 11
+Length of query: 327
+Length of database: 5,217,443
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,045,357
+Effective search space: 942568181
+Effective search space used: 942568181
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

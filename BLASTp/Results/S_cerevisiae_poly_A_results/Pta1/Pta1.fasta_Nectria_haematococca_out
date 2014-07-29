@@ -1,0 +1,126 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP31391 pep:known chromosome:v2.0:1:3570999:3573370:-1 gene:...    88   5e-18
+NechaP63046 pep:known chromosome:v2.0:8:2423158:2425078:1 gene:N...    31   2.2  
+
+>NechaP31391 pep:known chromosome:v2.0:1:3570999:3573370:-1 gene:NechaG31391
+           transcript:NechaT31391 description:"Putative
+           uncharacterized protein"
+          Length = 677
+
+ Score = 87.8 bits (216), Expect = 5e-18,   Method: Compositional matrix adjust.
+ Identities = 49/166 (29%), Positives = 85/166 (51%), Gaps = 24/166 (14%)
+
+Query: 626 WLHVLIRLVTR------GIEAQEASDL---------IREELLGFFIQDFEQRVSLIIEWL 670
+           W+ +L RL TR      G+  +E  D          IR+ L  + ++DF + + + + WL
+Sbjct: 475 WMTILARLATRSVAGLEGVSVKEEGDPSAPQSLSSNIRDVLYAYVMEDFRKHIDVAVSWL 534
+
+Query: 671 NEEWFF----QTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHLE 726
+            EEW+     Q S      +Y+K  LR+++   P+L N   +   R +SE+P L  + L 
+Sbjct: 535 CEEWYNDKLQQKSGGDRALHYEKCCLRLIDGFLPYL-NAQDKVLTRFLSEIPELNRNILS 593
+
+Query: 727 ALKPICLDPARSSLGFQTLKFLIMFRPPVQ----DTVRDLLHQLKQ 768
+            +K +C DP+   L   +L +L+M RPP++    DTV+D+  + ++
+Sbjct: 594 RVKHMCRDPSIVQLALTSLLYLVMMRPPIKEVALDTVQDIWTEFEE 639
+
+
+
+ Score = 39.7 bits (91), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 53/243 (21%), Positives = 89/243 (36%), Gaps = 82/243 (33%)
+
+Query: 43  KLKLPLAKFFTQLVLDVVSMDSPIANTERPFIAAQYL------------------PLLLA 84
+           KL L   K++  +V  ++ +  P A  E     A++L                  P +LA
+Sbjct: 19  KLVLGDVKYYPSIVRGILPIIGPNAAIELRRWGAEFLAEAFATPALPNGEKETMQPYVLA 78
+
+Query: 85  -----MAQSTADVLVYKNIVLIMCASYPLVLDLVAKTSNQEM-FDQLCMLKKFVLSHWRT 138
+                M     D  V ++++    + YPL L  +   S   + + ++  +K+ VL  W  
+Sbjct: 79  TLESMMENDREDPQVIRSVIQCAASIYPLALRWIINNSYDTITWQRMVSIKQKVLRIWDN 138
+
+Query: 139 AYPLRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGNEINSSTIPDNH 198
+           A P                       V++  IKF   VVL+Q+ + SG E+         
+Sbjct: 139 AAP----------------------SVRICCIKFAQRVVLAQSVA-SGAEL--------- 166
+
+Query: 199 PVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLL 258
+                        R+ D L             V    +N LS +++ RP T+ R+++ LL
+Sbjct: 167 -------------RVCDAL-------------VVDATLNCLSILVRTRPATSNRVVNALL 200
+
+Query: 259 RFN 261
+            FN
+Sbjct: 201 NFN 203
+
+
+>NechaP63046 pep:known chromosome:v2.0:8:2423158:2425078:1 gene:NechaG63046
+           transcript:NechaT63046 description:"Predicted protein"
+          Length = 590
+
+ Score = 30.8 bits (68), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + +++ F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 415 ICTDVAARGLDIPAVDWIVQFDPP--DDPRDYIHRVGRTARGSNSKGRSLM 463
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 9,114,470
+Number of extensions: 336480
+Number of successful extensions: 959
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 957
+Number of HSP's successfully gapped: 7
+Length of query: 785
+Length of database: 7,529,425
+Length adjustment: 104
+Effective length of query: 681
+Effective length of database: 5,896,105
+Effective search space: 4015247505
+Effective search space used: 4015247505
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 58 (26.9 bits)

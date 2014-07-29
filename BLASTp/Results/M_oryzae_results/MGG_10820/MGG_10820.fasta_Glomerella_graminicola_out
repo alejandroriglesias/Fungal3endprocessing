@@ -1,0 +1,186 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ28912 pep:novel supercontig:GCA_000149035.1:GG697342:886710:8...   833   0.0  
+EFQ27255 pep:novel supercontig:GCA_000149035.1:GG697337:268448:2...    31   1.2  
+EFQ27026 pep:novel supercontig:GCA_000149035.1:GG697336:530030:5...    31   1.6  
+EFQ36407 pep:novel supercontig:GCA_000149035.1:GG697422:66215:74...    30   2.6  
+EFQ27329 pep:novel supercontig:GCA_000149035.1:GG697337:537693:5...    28   7.2  
+EFQ30803 pep:novel supercontig:GCA_000149035.1:GG697351:264074:2...    28   7.8  
+EFQ35580 pep:novel supercontig:GCA_000149035.1:GG697396:58260:59...    28   8.5  
+EFQ28447 pep:novel supercontig:GCA_000149035.1:GG697341:105528:1...    28   9.6  
+
+>EFQ28912 pep:novel supercontig:GCA_000149035.1:GG697342:886710:889234:-1
+           gene:GLRG_04056 transcript:EFQ28912 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 726
+
+ Score =  833 bits (2152), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 427/726 (58%), Positives = 533/726 (73%), Gaps = 15/726 (2%)
+
+Query: 2   ASATQSPIAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESF 61
+           A + Q+ +++QIRQLNDARK VL DVK Y ++V+ ILPI+G  +  ELRRWGADFLAE+F
+Sbjct: 3   APSPQASVSDQIRQLNDARKLVLGDVKYYPTVVKSILPIVGPTAGVELRRWGADFLAEAF 62
+
+Query: 62  ATPSLQSRDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDT 121
+           +TP+L   +KETM L VL+TL+  VE P+ED +V+RSAIQTAASIYP  VRWIINNSYDT
+Sbjct: 63  STPALPGSEKETMQLFVLDTLQTMVETPNEDPHVLRSAIQTAASIYPFAVRWIINNSYDT 122
+
+Query: 122 TTWERITAIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKR-DGLDISLSNI 180
+            TWER+ AIK+RI Q+W      V+ICCIKFAQRVVLAQ+V+   E +R D LDISL  I
+Sbjct: 123 LTWERMVAIKTRILQIWDEAESTVRICCIKFAQRVVLAQSVANPNEPRRGDSLDISLDKI 182
+
+Query: 181 PQGHPVLDPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILN 240
+           P  H  LD R L+AE  GLLDRML VLQ+NSSD L+VDATLNC++ILIR+RP T+NRILN
+Sbjct: 183 PPNHQTLDARTLDAEGAGLLDRMLSVLQENSSDVLLVDATLNCLSILIRSRPGTANRILN 242
+
+Query: 241 AVLNFNPLKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARS 300
+           AVLNFNP+KLANSPMTP+TRV+VKSMEKTTRMLL+HL +RDP NPM PRIQQH+ER+ R 
+Sbjct: 243 AVLNFNPMKLANSPMTPRTRVIVKSMEKTTRMLLIHLSKRDPHNPMGPRIQQHVERMMRM 302
+
+Query: 301 RADIFDDNAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLT 360
+           R +IFD+ +GRKRA   QQ A + DAKRQR+A     +P  +              FTLT
+Sbjct: 303 RHEIFDE-SGRKRAFEAQQHAGM-DAKRQRVAPQVATMPQIQVTPLPPGPHSLGDVFTLT 360
+
+Query: 361 NTPGLQSFDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPVLINP 420
+            + GL++FDV  +PA + A+I ++TL R D QLL + + G+R RL TL  AA  P  INP
+Sbjct: 361 GSEGLKAFDVGTLPAAMAARISINTLIRTDAQLLAKAVEGIRGRLNTL--AAQPPPQINP 418
+
+Query: 421 ATAPLGVXXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLPPPP 480
+            TAPLGV                   QILNK DG S      + +   L L  +KLPPPP
+Sbjct: 419 ETAPLGVDEDDDYEPDFAAAEDNE--QILNKLDGDS----LIRADDTDLGLRTFKLPPPP 472
+
+Query: 481 VLRPEEASNAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATR 540
+            L PE A +AG+G V ++    K LE+ G K+SK+G+NRLAAS  DRESWI +ITRLA+R
+Sbjct: 473 ALTPELALSAGQGSVMSLFQFVKTLEDPG-KKSKSGVNRLAASTNDRESWIAIITRLASR 531
+
+Query: 541 SSSALEKTTIKEE--DGTPQ-ILGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQ 597
+           SS+ LE+ + K+E     P+  LG+ +R++LY YVLEDFR+RIDVAI+WL EEWYNDQLQ
+Sbjct: 532 SSAGLEEFSPKDEASSSVPRPSLGNSIRDSLYTYVLEDFRRRIDVAITWLHEEWYNDQLQ 591
+
+Query: 598 KRMASDAPLHYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCRDPSL 657
+           K+   + PLHY+K AL+L+DG + YL+AQDKVLTRFLGE+PE++PAIL RV+ MCRDP +
+Sbjct: 592 KKQEGNRPLHYEKWALKLIDGFSQYLNAQDKVLTRFLGEVPELSPAILSRVKLMCRDPLV 651
+
+Query: 658 ASLALTSLVYLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFLEANSGAGQ 717
+             LALTSL+YLVMMRPPA+E+ALD +Q IWTEYE+ARPLAAK+L ++R A+LE+   A +
+Sbjct: 652 VPLALTSLLYLVMMRPPAKELALDTVQDIWTEYEDARPLAAKYLVKFRPAWLESAKAAAE 711
+
+Query: 718 AGQSVA 723
+            G + A
+Sbjct: 712 GGGNPA 717
+
+
+>EFQ27255 pep:novel supercontig:GCA_000149035.1:GG697337:268448:269653:1
+           gene:GLRG_01750 transcript:EFQ27255
+           description:"hypothetical protein"
+          Length = 401
+
+ Score = 30.8 bits (68), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 26/54 (48%), Gaps = 4/54 (7%)
+
+Query: 604 APLHYDKVALRLVDGI----TPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCR 653
+           A L YDK  LRLVD I      +   Q  + ++ +G +P  N  +  RVE   R
+Sbjct: 332 AGLSYDKQTLRLVDTIEMALASFRRGQLGIFSKAIGAMPGYNLDVKSRVERYGR 385
+
+
+>EFQ27026 pep:novel supercontig:GCA_000149035.1:GG697336:530030:534827:-1
+           gene:GLRG_02197 transcript:EFQ27026
+           description:"hypothetical protein"
+          Length = 1540
+
+ Score = 30.8 bits (68), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 11/19 (57%), Positives = 17/19 (89%)
+
+Query: 283 QNPMNPRIQQHIERLARSR 301
+           QNP+ P++QQH+ER+ RS+
+Sbjct: 670 QNPVQPQLQQHLERIQRSQ 688
+
+
+>EFQ36407 pep:novel supercontig:GCA_000149035.1:GG697422:66215:74709:1
+            gene:GLRG_11575 transcript:EFQ36407
+            description:"beta-ketoacyl synthase domain-containing
+            protein"
+          Length = 2510
+
+ Score = 30.4 bits (67), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 23/48 (47%), Gaps = 3/48 (6%)
+
+Query: 668  LVMMRPPAREMALDAMQGI---WTEYEEARPLAAKFLTRWRKAFLEAN 712
+            L+ M P       D + G+   W  +E+ R  A   + RW +AF+EA 
+Sbjct: 2066 LIEMTPTRPLYVFDVIVGLLEGWWLFEDGRKHALASIERWEQAFMEAG 2113
+
+
+>EFQ27329 pep:novel supercontig:GCA_000149035.1:GG697337:537693:539339:1
+           gene:GLRG_01824 transcript:EFQ27329 description:"tannase
+           and feruloyl esterase"
+          Length = 548
+
+ Score = 28.5 bits (62), Expect = 7.2,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 23/50 (46%), Gaps = 10/50 (20%)
+
+Query: 107 YPLVVRWIINNSYDTTTWERIT---------AIKSRI-FQLWSGEIPGVK 146
+           +   V W +N  Y+TT W+  T         AI+     Q W G++ GVK
+Sbjct: 332 FQYTVDWFVNVIYNTTNWDPATLGPKDYAAAAIQDPAGIQTWKGDLSGVK 381
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 7,604,146
+Number of extensions: 308304
+Number of successful extensions: 888
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 880
+Number of HSP's successfully gapped: 11
+Length of query: 730
+Length of database: 5,585,764
+Length adjustment: 101
+Effective length of query: 629
+Effective length of database: 4,371,744
+Effective search space: 2749826976
+Effective search space used: 2749826976
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81313 pep:novel supercontig:EF1:HF943526:980227:982821:-1 gen...   627   0.0  
+CCU81275 pep:novel supercontig:EF1:HF943526:688938:689850:1 gene...    28   5.9  
+CCU77147 pep:novel supercontig:EF1:HF943525:458647:459994:-1 gen...    27   9.5  
+
+>CCU81313 pep:novel supercontig:EF1:HF943526:980227:982821:-1
+           gene:BGHDH14_bgh06620 transcript:CCU81313
+           description:"hypothetical protein/mRNA cleavage and
+           polyadenylation specificity factor complex subunit"
+          Length = 732
+
+ Score =  627 bits (1618), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 324/702 (46%), Positives = 455/702 (64%), Gaps = 9/702 (1%)
+
+Query: 9   IAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQS 68
+           + +QI+QL DARK VL D   Y  I+QGILPI+   +  ELRRW +DFLAE+FA+P++  
+Sbjct: 8   VEQQIKQLGDARKLVLSDSSYYPQIIQGILPIVAPAARVELRRWVSDFLAETFASPTIPP 67
+
+Query: 69  RDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERIT 128
+           + KET+SL+VLETL+  +EN  ED+ VV+S +QTA SIYP V RWIINN+YD  TWER+ 
+Sbjct: 68  QQKETLSLIVLETLKNLIENQQEDSTVVKSVVQTATSIYPHVFRWIINNAYDIPTWERML 127
+
+Query: 129 AIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKR-DGLDISLSNIPQGHPVL 187
+           AIKSRI ++W    PGV++CCIKFAQRVVL QT   +   K  D  ++SL+ I   + VL
+Sbjct: 128 AIKSRILRIWETSTPGVRVCCIKFAQRVVLVQTKGPDANAKHGDPEEVSLTVISPNNAVL 187
+
+Query: 188 DPRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFNP 247
+           DP+NLEAEA GLLDR+L V QDN+ DA+ V+ATLN ++ LIR RP  SN+ILN +LNFNP
+Sbjct: 188 DPKNLEAEASGLLDRVLSVFQDNTCDAVPVNATLNSLSTLIRARPQLSNKILNVILNFNP 247
+
+Query: 248 LKLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDD 307
+           LK A S MTP+TRV +KSMEKTTR LL+H+I+RD ++P+  RI Q+++R+ +++++IFDD
+Sbjct: 248 LKEATSNMTPRTRVAIKSMEKTTRQLLIHIIKRDQRHPLLGRIHQYLDRIIKAKSEIFDD 307
+
+Query: 308 NAGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTNTPGLQS 367
+            A RKR+      AA    + + +        +                +T+T    L+ 
+Sbjct: 308 -ATRKRSPPGPIDAAESTKRSKPVVPTKTPARVLHVPPLKPGAHSVADLYTITTDASLKV 366
+
+Query: 368 FDVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPVLINPATAPLGV 427
+           FDV+++P +L   I ++ L RID +LL++ + G+R RLK+L A +     +    +    
+Sbjct: 367 FDVAILPEDLVVNIGITILQRIDTELLNQAVEGIRQRLKSLCATSISKTEVPTVQSSTPY 426
+
+Query: 428 XXXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLPPPPVLRPEEA 487
+                              Q L   D  S   + +K E A +ALG + LP PP L  EEA
+Sbjct: 427 ADEDDDDYEPDLFSTEEPEQKLKSPDAES--PKFQKPEVAEVALGTFYLPTPPPLSHEEA 484
+
+Query: 488 SNAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATRSSSALEK 547
+           +  G    + V G+ + L+E G K+ K G+NRLAAS YDR++WIT+ITRLATR+S+ LE 
+Sbjct: 485 AQVGHSTFSRVFGVMQTLDERG-KKLKGGLNRLAASNYDRDAWITIITRLATRASANLED 543
+
+Query: 548 TT-IKEEDGTPQI-LGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQKRMASDAP 605
+            +  K E       L + +RE LY YVLEDFRKR+D+A++WL EEWYND++Q ++++DA 
+Sbjct: 544 NSGFKMELNLRTFSLSNTIRETLYIYVLEDFRKRMDIAVTWLCEEWYNDKIQMKVSADAV 603
+
+Query: 606 LHYDKVALRLVDGITPYLHAQDKVLT-RFLGEIPEVNPAILKRVEGMCRDPSLASLALTS 664
+            HY+K  +R++DG  PYL  QD+ L  +FLG+IP V+   L R++G+CRDP+  ++AL S
+Sbjct: 604 AHYEKWTIRILDGFLPYLDGQDRALVIKFLGDIPGVSKETLTRIKGLCRDPATINMALQS 663
+
+Query: 665 LVYLVMMRPPAREMALDAMQGIW-TEYEEARPLAAKFLTRWR 705
+           L++LV  +PP RE+ LD ++ IW T  E+ RP+  K   +WR
+Sbjct: 664 LLFLVAFKPPIRELVLDVIEDIWNTSDEDTRPIVVKLFAKWR 705
+
+
+>CCU81275 pep:novel supercontig:EF1:HF943526:688938:689850:1
+           gene:BGHDH14_bgh04747 transcript:CCU81275
+           description:"hypothetical protein"
+          Length = 287
+
+ Score = 27.7 bits (60), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 39/84 (46%), Gaps = 22/84 (26%)
+
+Query: 264 KSMEKTTRMLLMHLIRR----------DPQNPMNPRIQQHIERLARSRADIFDDNAG--- 310
+           KSM  +TR+L M  ++R          D   PM+ R ++   + +R  A++ DD      
+Sbjct: 12  KSM--STRLLTMKFMQRASASPLSSVSDQTEPMSKRQKREKRQPSRQEAEMLDDRKAFLE 69
+
+Query: 311 -------RKRALAEQQAAALGDAK 327
+                  +K+A  ++ AAA GD +
+Sbjct: 70  ATVQEEEKKQAALDKLAAAYGDTR 93
+
+
+>CCU77147 pep:novel supercontig:EF1:HF943525:458647:459994:-1
+           gene:BGHDH14_bgh02761 transcript:CCU77147
+           description:"cell division control protein"
+          Length = 289
+
+ Score = 27.3 bits (59), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query: 191 NLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPAT 234
+           N+    +  LDR+LG   D  +D L+V  TLN +   +   PA+
+Sbjct: 82  NVAIRLVNCLDRLLGKSHDGQNDLLIVQ-TLNLIQGSLMLHPAS 124
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 4,034,914
+Number of extensions: 158605
+Number of successful extensions: 461
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 454
+Number of HSP's successfully gapped: 6
+Length of query: 730
+Length of database: 3,131,961
+Length adjustment: 97
+Effective length of query: 633
+Effective length of database: 2,504,371
+Effective search space: 1585266843
+Effective search space used: 1585266843
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,224 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX74257 pep:novel supercontig:GCA_000150505.2:supercont6.1:2032...   142   2e-35
+EPX72632 pep:novel supercontig:GCA_000150505.2:supercont6.2:2143...    49   3e-06
+EPX74030 pep:novel supercontig:GCA_000150505.2:supercont6.1:1537...    32   0.36 
+EPX71743 pep:novel supercontig:GCA_000150505.2:supercont6.2:9050...    30   1.8  
+EPX70698 pep:novel supercontig:GCA_000150505.2:supercont6.3:6588...    29   3.0  
+EPX73322 pep:novel supercontig:GCA_000150505.2:supercont6.2:3689...    28   4.3  
+EPX73645 pep:novel supercontig:GCA_000150505.2:supercont6.1:5221...    28   4.9  
+EPX73048 pep:novel supercontig:GCA_000150505.2:supercont6.2:3056...    28   5.7  
+EPX71515 pep:novel supercontig:GCA_000150505.2:supercont6.3:2634...    28   7.1  
+
+>EPX74257 pep:novel supercontig:GCA_000150505.2:supercont6.1:2032454:2036470:
+           1 gene:SOCG_03468 transcript:EPX74257
+           description:"cleavage factor two Cft2/polyadenylation
+           factor CPSF-73"
+          Length = 791
+
+ Score =  142 bits (358), Expect = 2e-35,   Method: Compositional matrix adjust.
+ Identities = 117/385 (30%), Positives = 187/385 (48%), Gaps = 39/385 (10%)
+
+Query: 5   YNCCDDGS--GTTVGSVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEI-DVIILSQ 61
+           Y C +  S  GT   S +  D + + IDPG   S  S E         +PE  D+I+LS 
+Sbjct: 4   YQCLETKSFCGT---SHIELDGIHIYIDPG---SDDSLEH------PPVPEQPDLILLSH 51
+
+Query: 62  PTIECLGAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLDL 121
+             +  LG    L Y +  +      +YATLPVIN+GR++ +D+  S  V      + +  
+Sbjct: 52  SDLSHLGG---LVYAYHRYDWKNAHIYATLPVINMGRMTMLDAIKSNFV------DDITK 102
+
+Query: 122 EDIEISFDHIVPLKYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKRWN 181
+           E +   FD I+ L+YSQ   L     G+++ AYNAG   GG++W +   SE ++YA  WN
+Sbjct: 103 EQVNQVFDSIIALRYSQPTSLLGTCCGVSVTAYNAGHSLGGTLWSLIKESESILYAVDWN 162
+
+Query: 182 HTRDNILNAASILDATGKPLSTLMRPSAIITTLDRFGSSQPF-KKRSKIFKDTLKKGLSS 240
+           H++D  LN  ++    G  L  L RP+ +IT  +    S P  KKR + F +++   L  
+Sbjct: 163 HSKDKHLNGTALY-TNGHILEALNRPNTLITDANNALVSTPSRKKRDEAFIESVMSSLYK 221
+
+Query: 241 DGSVIIPVDMSGKFLDL--FTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSMLE 298
+            G+V++PVD S + L+L  F   H   + ST+       P+  LS    +T+ YA+SM+E
+Sbjct: 222 GGTVLLPVDSSSRVLELCCFLDSH---WSSTQ--PPLPFPIFFLSPTSTKTIDYARSMIE 276
+
+Query: 299 WLSPSLLKTWENRNNTSPFEIGSRIKIIAPNELSKY-PGSKICFVSEV---GALINEVII 354
+           W+  ++++ +    + S  E  +   I   ++LS   PG K+   + +        +V++
+Sbjct: 277 WMGDNIVRDF--GIDESLLEFRNIHTITDYSQLSSIGPGPKVILATSLTLDCGFSQQVLL 334
+
+Query: 355 KVGNSEKTTLILTKPSFECASSLDK 379
+              +     LIL      C SSL +
+Sbjct: 335 NFMSQNSNDLILFTQKSRCQSSLAR 359
+
+
+
+ Score = 81.3 bits (199), Expect = 2e-16,   Method: Compositional matrix adjust.
+ Identities = 87/344 (25%), Positives = 153/344 (44%), Gaps = 51/344 (14%)
+
+Query: 532 SKHKMFPFNPAKIKKDDYGTVVDFTMFLPDDSDNVNQNSRKRPLKDGAKTTSPVXXXXXX 591
+           +K+KMFP+   + + D++G VV      P+D   +N+     P+ +     S        
+Sbjct: 479 TKYKMFPYVEKRRRIDEFGEVVR-----PEDFATINE-----PMNNFEVEVS-------- 520
+
+Query: 592 XXXXXGYNMS-DPISKRSKHRASRYSGFSGTGEAENFDNLDYLKIDKTLSKRTISTVNVQ 650
+                  N+S DP  KR      ++S  +     +N D+      +   SK     + ++
+Sbjct: 521 ----SSDNISLDPTGKR------KWSEINDGIHGQNDDDFK----EDIPSKVVTEDLMIR 566
+
+Query: 651 LKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNEEI--TAKLIKKNIEVVNM 708
+           + C V  ++++ L D RS   I P +  RK+VL      + E++  T   +    + V +
+Sbjct: 567 ISCQVQFIDIEGLHDGRSLKTIIPQVNPRKLVLIHATDEEREDMKRTCSALSAFTKDVYL 626
+
+Query: 709 P-LNKIVEFSTTIKTLDISIDSNLDNLLKWQRISD---SYTVATVVGRL--------VKE 756
+           P   + V  S  +    + +  +L   L W ++ +   S+ +A +   L        V E
+Sbjct: 627 PKYEEAVNVSIDVNAFSLKLSDDLIRNLIWTKVGNCEVSHMLAKIEKPLDSETQDSEVNE 686
+
+Query: 757 SLPQVNNHQKTASRSKLVLKPLHGSS---RSHKTGALSIGDVRLAQLKKLLTEKNYIAEF 813
+              + N+  K A     VL P+   S   R+ +   L +G+ +LA+L+K L ++   AE 
+Sbjct: 687 EDAKRNDSDKEADHLP-VLNPVTLRSDLARAPRAAPLLVGNTKLAELRKALLDQRISAEL 745
+
+Query: 814 KGEGTLVINEKVAVRKINDAETIIDGTPSELFDTVKKLVTDMLA 857
+           KGEG L+    VAVRK++  +  I+G  S  F  V+K++  MLA
+Sbjct: 746 KGEGVLLCGGVVAVRKLSGGKITIEGGLSNQFFEVRKMIYKMLA 789
+
+
+>EPX72632 pep:novel supercontig:GCA_000150505.2:supercont6.2:2143477:2146669:
+           1 gene:SOCG_00395 transcript:EPX72632 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Ysh1"
+          Length = 731
+
+ Score = 48.5 bits (114), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 65/315 (20%), Positives = 134/315 (42%), Gaps = 37/315 (11%)
+
+Query: 11  GSGTTVG---SVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECL 67
+           G+G  VG    ++++   T+++D G +P+         Y E  +  +DV+++S   ++ +
+Sbjct: 25  GAGNEVGRSCHILQYKGKTVMLDAGVHPAYNGLAALPFYDEFDLSTVDVLLVSHFHLDHV 84
+
+Query: 68  GAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLDLEDIEIS 127
+              SL Y    ++F  R +V+ T P   + +   +  Y     +G  D    D +D+  +
+Sbjct: 85  A--SLPYVMTKTNF--RGRVFMTHPTKAVCKW-LLSDYVKVSNVGVED-QLYDEKDLTAA 138
+
+Query: 128 FDHIVPLKYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKRWNHTRDNI 187
+           F+ +  + Y   +++    +G+    Y+AG   G  ++ I     K++Y   ++   D  
+Sbjct: 139 FERMEAVDYHSTIEV----EGVKFTPYHAGHVLGACMFFIEMAGVKILYTGDYSREEDRH 194
+
+Query: 188 LNAASILDATGKPLSTLMRPSAIITTLDRFG--SSQPFKKRSKIFKDTLKKGLSSDGSVI 245
+           L+ A +     KP         I+ T   +G  S QP  ++     + +   + + G V+
+Sbjct: 195 LHIAEV--PPTKP--------DILITESTYGTASHQPRLEKEARLLNIVHSTIRNGGRVL 244
+
+Query: 246 IPVDMSGKFLDLFTQVHELLFESTKINAHTQ---VPVLILSYARGRTLTYAKSMLEWLSP 302
+           +PV   G+  +L      LL      N H     VP+   S    + +   ++ +  ++ 
+Sbjct: 245 MPVFALGRAQEL------LLILDEYWNNHYDLRPVPIYYASSLARKCMAVFQTYVNMMND 298
+
+Query: 303 SLLKTWENRNNTSPF 317
+           ++ K +  RN   PF
+Sbjct: 299 NIRKAFAERN---PF 310
+
+
+>EPX74030 pep:novel supercontig:GCA_000150505.2:supercont6.1:1537174:1540287:
+           -1 gene:SOCG_03245 transcript:EPX74030
+           description:"peptide-transporting ATPase"
+          Length = 758
+
+ Score = 32.0 bits (71), Expect = 0.36,   Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 39/79 (49%), Gaps = 9/79 (11%)
+
+Query: 158 VCPGGSI----WCISTYSEKLVYAKRWNHTRDNILNAASILDATGKPLSTLMRPSAIITT 213
+           V  GGSI     C +   + L  A R     D++     ++ +TG P+ + +R S  + T
+Sbjct: 457 VYAGGSIIGLSGCFTDIMKGLGAAGRLFDLLDSV---PKVVPSTGLPVPSTIRKS--VLT 511
+
+Query: 214 LDRFGSSQPFKKRSKIFKD 232
+            D+ G + P + +S IFKD
+Sbjct: 512 FDKVGFAYPTRPKSAIFKD 530
+
+
+>EPX71743 pep:novel supercontig:GCA_000150505.2:supercont6.2:90506:92705:1
+           gene:SOCG_03679 transcript:EPX71743
+           description:"hypothetical protein"
+          Length = 610
+
+ Score = 29.6 bits (65), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 21/69 (30%), Positives = 33/69 (47%), Gaps = 5/69 (7%)
+
+Query: 253 KFLDLFTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSMLEWLSPSLLKTWENRN 312
+           K+L+L        F    ++ HT  P L  + A+G +   A+ + E   P    T +N N
+Sbjct: 421 KYLELNALSINFRFHPLNVHNHTSSP-LHYAVAQGNSKLVARLLREGADP----TVQNGN 475
+
+Query: 313 NTSPFEIGS 321
+           N +P+EI S
+Sbjct: 476 NKTPYEISS 484
+
+
+>EPX70698 pep:novel supercontig:GCA_000150505.2:supercont6.3:658899:660788:1
+           gene:SOCG_04258 transcript:EPX70698 description:"DUF2009
+           protein"
+          Length = 490
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 12/28 (42%), Positives = 16/28 (57%)
+
+Query: 317 FEIGSRIKIIAPNELSKYPGSKICFVSE 344
+           FEIG R K++ PN L    G  + FV +
+Sbjct: 123 FEIGRRYKVLNPNRLGSTYGKLMYFVQD 150
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 3,744,922
+Number of extensions: 160673
+Number of successful extensions: 507
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 500
+Number of HSP's successfully gapped: 17
+Length of query: 859
+Length of database: 2,302,372
+Length adjustment: 97
+Effective length of query: 762
+Effective length of database: 1,818,730
+Effective search space: 1385872260
+Effective search space used: 1385872260
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,180 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX70695 pep:novel supercontig:GCA_000150505.2:supercont6.3:6528...   177   2e-50
+EPX73324 pep:novel supercontig:GCA_000150505.2:supercont6.2:3694...    29   1.2  
+EPX73534 pep:novel supercontig:GCA_000150505.2:supercont6.1:2886...    27   4.1  
+EPX71030 pep:novel supercontig:GCA_000150505.2:supercont6.3:1572...    27   5.9  
+EPX72567 pep:novel supercontig:GCA_000150505.2:supercont6.2:1985...    27   7.4  
+
+>EPX70695 pep:novel supercontig:GCA_000150505.2:supercont6.3:652846:654628:-1
+           gene:SOCG_04261 transcript:EPX70695 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 457
+
+ Score =  177 bits (450), Expect = 2e-50,   Method: Compositional matrix adjust.
+ Identities = 140/479 (29%), Positives = 230/479 (48%), Gaps = 83/479 (17%)
+
+Query: 25  KLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELL 84
+           K+ +PKG +W+ +++  G + +++ +G  E FGTELA+   Y F+  K  I+        
+Sbjct: 4   KIDVPKGCEWRFEVEEPG-IQIRLATGNAEYFGTELALGPPYNFEQVKGAIFT------- 55
+
+Query: 85  WKCPDLTTNTITVKPNHTMKYI---------YNLHFMLEKIRMSNFE---------GPRV 126
+           W+       T+ V+   +++Y+          NLHF LE +R    E         GPRV
+Sbjct: 56  WQ-----GCTLEVEGEPSVEYVAEETPMCTYLNLHFALENLRKKAEENASMDPSISGPRV 110
+
+Query: 127 VIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCISATPISDILDAQL 186
+            ++G   +GKTS+ + L SYALK  +  P+ ++LDP QP+  +PG ISA   + ILD Q 
+Sbjct: 111 CLIGPKSSGKTSVLKILESYALK-QSRHPICVDLDPSQPMVALPGSISAFHNATILDIQE 169
+
+Query: 187 PT-WGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVVGQRLHLDPQVRR 245
+            T +G S+++G T +  K P+V N+GL+   +N  LY  C S+L   V  R+        
+Sbjct: 170 ATGFGTSMSTGPTHILAKSPLVYNYGLDSPLDNPKLYKSCCSRLALAVNSRMTQSVDASV 229
+
+Query: 246 SGCIVDTPSISQLDENLAE-LHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPELGNN-- 302
+           SGC+VDT S+ + +E   + LH II    +NI+LVL SE   L+  +K+ +     NN  
+Sbjct: 230 SGCLVDTCSLQENNERYQDTLHSIITDFRINIVLVLGSER--LYSTMKRNY-----NNAS 282
+
+Query: 303 --NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWK--- 357
+             ++  +P   G    +  +    Q   +++YFYG     LSP +I VD   L +++   
+Sbjct: 283 WLSVVKLPSSGGCIEREPEWITRWQSRCLKQYFYGDERMPLSPLSIIVDSTQLVVYRVLE 342
+
+Query: 358 ------PSNV----FDNEVG---------------------RVELFPVTITPSNLQHAII 386
+                  S+V    F+ E G                     R+    +TI    LQ++I+
+Sbjct: 343 ASESGPKSSVLPIGFEEESGQSDDKGNYMSLALSGKGQYLERITTEAMTI----LQNSIL 398
+
+Query: 387 AITFAERRADQATVIKSPILGFALITEVNEXXXXXXXXXXXXXXXXSKAMILTSYRYLE 445
+           AI+      ++  +I S ILG+  +T+V++                S A+I+ + ++ E
+Sbjct: 399 AISSVSEDENETAIIDSCILGYVFVTDVDDVKNRMTLLSPVPDRLPSNALIMGTCKWQE 457
+
+
+>EPX73324 pep:novel supercontig:GCA_000150505.2:supercont6.2:3694258:3696765:
+           1 gene:SOCG_01075 transcript:EPX73324
+           description:"F1-ATPase alpha subunit"
+          Length = 536
+
+ Score = 28.9 bits (63), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 32/72 (44%), Gaps = 9/72 (12%)
+
+Query: 70  NWKFPIYAVEETELLWKCPDLTTNTITVKPNHT-MKYIYNLHFMLEKIRMSNFEGPRVVI 128
+           + K PI   E      K P +   T   +P  T MK I ++        +    G R +I
+Sbjct: 144 DGKGPIKTTERRRAQLKAPGILPRTSVCEPMQTGMKAIDSM--------VPIGRGQRELI 195
+
+Query: 129 VGGSQTGKTSLS 140
+           +G  QTGKT+++
+Sbjct: 196 IGDRQTGKTAIA 207
+
+
+>EPX73534 pep:novel supercontig:GCA_000150505.2:supercont6.1:288663:289250:1
+           gene:SOCG_02756 transcript:EPX73534
+           description:"nucleoside-triphosphatase"
+          Length = 177
+
+ Score = 26.9 bits (58), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 29/55 (52%), Gaps = 11/55 (20%)
+
+Query: 238 HLDPQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVK 292
+           +L+P++ + GCIVD  +     E L           +++ +VL ++   LWE+++
+Sbjct: 69  YLEPRLLKGGCIVDWHTCGIFPEEL-----------IDLAIVLRTDHSKLWERLE 112
+
+
+>EPX71030 pep:novel supercontig:GCA_000150505.2:supercont6.3:1572260:1573633:
+           1 gene:SOCG_01251 transcript:EPX71030
+           description:"hypothetical protein"
+          Length = 457
+
+ Score = 26.9 bits (58), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 19/88 (21%), Positives = 33/88 (37%), Gaps = 1/88 (1%)
+
+Query: 53  VEIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFM 112
+           +  + TE   D   T     +P      + L W      TNT +      +  +    F 
+Sbjct: 129 ISAYWTEAGSDSNATISGSFYPTNVTTNSSLAWNTTSNQTNTSSTSLPTEVNSLILTSFG 188
+
+Query: 113 LEKIRMSNFEGPRVVIVGGSQTGKTSLS 140
+           L +    N    R+V+VG ++   T++S
+Sbjct: 189 LSE-SFVNHSASRLVVVGAAKPASTNVS 215
+
+
+>EPX72567 pep:novel supercontig:GCA_000150505.2:supercont6.2:1985497:1990613:
+           1 gene:SOCG_00330 transcript:EPX72567
+           description:"PEK/GCN2 protein kinase Gcn2"
+          Length = 1573
+
+ Score = 26.6 bits (57), Expect = 7.4,   Method: Compositional matrix adjust.
+ Identities = 22/82 (26%), Positives = 35/82 (42%), Gaps = 3/82 (3%)
+
+Query: 315 AVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNVFDNEVGRVELFPV 374
+           ++ D+ +  LQ   I   F   L+     ++ G+ + DL   KP NVF +E   V+L   
+Sbjct: 731 SLQDIIREKLQVDEIWRLFRQILEALAYIHSRGMMHRDL---KPGNVFLDENRNVKLGDF 787
+
+Query: 375 TITPSNLQHAIIAITFAERRAD 396
+            +   N    +I      R AD
+Sbjct: 788 GLATDNEPSQVINDKSKNRNAD 809
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 1,991,512
+Number of extensions: 86406
+Number of successful extensions: 214
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 208
+Number of HSP's successfully gapped: 9
+Length of query: 445
+Length of database: 2,302,372
+Length adjustment: 91
+Effective length of query: 354
+Effective length of database: 1,848,646
+Effective search space: 654420684
+Effective search space used: 654420684
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 51 (24.3 bits)

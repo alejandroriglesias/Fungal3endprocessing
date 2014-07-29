@@ -1,0 +1,353 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_00804T0 pep:known chromosome:ASM14955v1:1:3977838:3980965:-...   917   0.0  
+FVEG_01373T0 pep:known chromosome:ASM14955v1:1:5735341:5736451:1...    45   1e-05
+FVEG_01430T0 pep:known chromosome:ASM14955v1:1:5940019:5942187:1...    41   0.002
+FVEG_02975T0 pep:known chromosome:ASM14955v1:5:1343296:1346253:1...    39   0.008
+FVEG_04962T0 pep:known chromosome:ASM14955v1:4:1895787:1899366:-...    39   0.012
+FVEG_02697T0 pep:known chromosome:ASM14955v1:5:396251:398274:-1 ...    37   0.026
+FVEG_10208T0 pep:known chromosome:ASM14955v1:9:1925545:1929392:-...    33   0.81 
+FVEG_02644T0 pep:known chromosome:ASM14955v1:5:224348:226902:1 g...    32   1.1  
+FVEG_10476T0 pep:known chromosome:ASM14955v1:9:2746087:2748931:-...    31   1.9  
+FVEG_00005T0 pep:known chromosome:ASM14955v1:1:1604542:1606455:-...    31   1.9  
+FVEG_00168T0 pep:known chromosome:ASM14955v1:1:2036963:2040271:-...    30   4.9  
+FVEG_05031T0 pep:known chromosome:ASM14955v1:4:2103966:2106182:-...    29   8.5  
+FVEG_05076T0 pep:known chromosome:ASM14955v1:4:2264766:2265407:1...    28   8.6  
+
+>FVEG_00804T0 pep:known chromosome:ASM14955v1:1:3977838:3980965:-1
+           gene:FVEG_00804 transcript:FVEG_00804T0
+           description:"conserved hypothetical protein"
+          Length = 992
+
+ Score =  917 bits (2371), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 482/959 (50%), Positives = 639/959 (66%), Gaps = 52/959 (5%)
+
+Query: 30  AQHSDSNVQN------QQLQATSVAHGDSEDAAEYDPDSVPVAITSPKAKPLKPSPQPAA 83
+            QHS+  V N          A +  +G  +D  EYDP+SV +   +P  +      Q   
+Sbjct: 20  VQHSEEQVDNYAQDSPASGDADTADNGTEDDGGEYDPESVTIGTPAPVTEQSATFAQRQP 79
+
+Query: 84  AKKRKTAGGFLVGDSDDSEDENPTVASVQMPDLKPKPESSPVPQNLNXXXXXXXXXXXXX 143
+           +K  K +GGF+V  SDD ++      + Q  +  P+ E  P   +               
+Sbjct: 80  SKP-KMSGGFIVEASDDEDEG--EDEADQPSNTAPRSEEVPSLPHPGRSTTSHEPAQPAL 136
+
+Query: 144 XXXXXXXXXXXXXXXXXXXXDPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDV 203
+                               DP+ALLE RVKEDPRG MD+WL+LIA +R+ + ++  R  
+Sbjct: 137 TYTPVPPAVPSNVTPALAGLDPVALLEARVKEDPRGDMDAWLNLIADHRRLSRLDLARST 196
+
+Query: 204 FERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRND 263
+           + RFL +FP AA+VWV++ +MEL   NFV+AE +FG+ LM+VPNV+LWTVYL+YIRRRND
+Sbjct: 197 YNRFLEIFPQAADVWVEWIEMELGLDNFVDAEQLFGRCLMTVPNVKLWTVYLNYIRRRND 256
+
+Query: 264 LN-DSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMD 322
+           LN D SG+AR+ +TQ+Y+FVIDN+G+D+D+  IW DY+QF++  PG +GG+ WQDQQKMD
+Sbjct: 257 LNNDPSGQARRTITQSYEFVIDNIGVDRDSGNIWQDYVQFVKNGPGQIGGTGWQDQQKMD 316
+
+Query: 323 QLRKAYQRAVCIPLSNVNTLWREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENI 382
+           QLRK YQRA+ +P+  VN LW+EYDQFE GLN  TGRK++ ERSP YM+AKSAN AL+NI
+Sbjct: 317 QLRKVYQRAISVPMLTVNNLWKEYDQFEMGLNKMTGRKFIQERSPGYMSAKSANIALDNI 376
+
+Query: 383 MRNLVRTTLPRLPPAPGFEGDVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYA 442
+            R+L RT LPRLPPAPGF+GD EF +QV+LWK+W+ WEKEDPL L TD+P+ + +R+LY 
+Sbjct: 377 TRHLRRTNLPRLPPAPGFDGDQEFRDQVELWKKWIAWEKEDPLVLKTDEPKTYNQRVLYV 436
+
+Query: 443 YKQAIMALRFCPEIWVDAAEWCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRI 502
+           YKQA+MALRF PEIWVDAAEWCF+N I  N K+ G E L EGI AN ESVLLALKHAD I
+Sbjct: 437 YKQALMALRFWPEIWVDAAEWCFQNDIRENDKELGTELLLEGIRANRESVLLALKHADHI 496
+
+Query: 503 ETTFPVGEGDDAKIERGNAVKAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESA------P 556
+           E  +P  E D  K E   AV+ PY+ +L+TLY     +KE+EK E+  LR++A       
+Sbjct: 497 EVNYPGKEVD--KAEFAQAVRKPYDDVLETLYEMGDKVKEREKLEVSTLRQAAAQDLVQA 554
+
+Query: 557 SVPEHEIEEGEDCANPMPSELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGK 616
+           S+  ++ ++ E+ + P  S +EE+I A+++G+ A+T LL+RT+S+VWIALARAMRRIQGK
+Sbjct: 555 SIEHNDDDDDEEDSKPKRSPMEERILAIQRGYAAETQLLSRTISYVWIALARAMRRIQGK 614
+
+Query: 617 GQPGSPMGGMRQVFSEARKRGRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEI 676
+           G      GG+R+VF++AR++GRLTSDVYVA+A LE  VYKDP G KIF+RG++LFP DE+
+Sbjct: 615 GNQSE--GGLRKVFTDARQKGRLTSDVYVAVALLESVVYKDPVGAKIFERGARLFPNDEM 672
+
+Query: 677 FMLEYLKYLHSREDTTNARVVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTA 736
+           FM+EYLKYLHS++DTTNAR VFETCV +L   P T+ KAKPLY+YFHKYES++GELSQ +
+Sbjct: 673 FMIEYLKYLHSKDDTTNARAVFETCVTRLVSKPETLAKAKPLYAYFHKYESQYGELSQIS 732
+
+Query: 737 KLEKRMAELFPEDPSLAHFSARFMSDRFDPIAARIIVSPAAQLRPKMVMPSI--EANARA 794
+           KLE RMAELFPEDP L  F ARF SD+FDP+AA II+S A Q+RPK  +P+   +  +  
+Sbjct: 733 KLEDRMAELFPEDPKLKSFVARFSSDKFDPVAAPIIISKAVQMRPKQAIPTTVEQPISLR 792
+
+Query: 795 GSPM-IRPLNSPKVGFLQAVNSPKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAA 853
+            SPM  R   SP+  +++A  SPKRPL  DD ++LNPPK++         R  SPLKGAA
+Sbjct: 793 NSPMPARQEQSPRPQYVRATASPKRPLAGDD-DELNPPKRL--------ARGVSPLKGAA 843
+
+Query: 854 GRRLENQRRIHGQGPASYNTAPAPAIPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDT 913
+           GRRL+ QRR             A A+ R+I FLL+ LP ++ +++ R++ + +V  LRD 
+Sbjct: 844 GRRLDQQRRNQ-----------ASALHRDITFLLNILPPSQSFDAQRVNPTAMVSILRDV 892
+
+Query: 914 HVPDYQSWKSRQDKGLRQSGAQMPSDFSNPGYGRDSPGLRTGSPFGGERRIASASSTYQ 972
+            +PD  + K+         G Q  + F N  + R   G     P     R+ASA+  Y+
+Sbjct: 893 QLPDAATLKA-------TGGGQ--TRFGNSSHARQPSGEFGSRPLSPYGRVASATGGYR 942
+
+
+>FVEG_01373T0 pep:known chromosome:ASM14955v1:1:5735341:5736451:1 gene:FVEG_01373
+           transcript:FVEG_01373T0 description:"conserved
+           hypothetical protein"
+          Length = 130
+
+ Score = 45.4 bits (106), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 32/96 (33%), Positives = 45/96 (46%), Gaps = 12/96 (12%)
+
+Query: 173 VKEDPRGAMDSWLSLIAAYR------QRNNIEQC----RDVFERFLAVFPHAAEVWVQYA 222
+           V+ DP    + W +LI A         RN+  Q     RD ++RFL  FP     W +YA
+Sbjct: 23  VESDPDN-FEHWENLIKACETLEGGLNRNSSPQALATFRDAYDRFLIKFPLLFGYWKKYA 81
+
+Query: 223 DMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDY 257
+           DME +      AE ++ +   S+ N V LWT Y  +
+Sbjct: 82  DMEFNIAGPESAEMVYERGCASITNSVDLWTDYCSF 117
+
+
+>FVEG_01430T0 pep:known chromosome:ASM14955v1:1:5940019:5942187:1 gene:FVEG_01430
+           transcript:FVEG_01430T0 description:"pre-mRNA-splicing
+           factor clf-1"
+          Length = 674
+
+ Score = 41.2 bits (95), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  +++WL       ++    + R VFER L   P+  ++W++Y + E+   N   A  +
+Sbjct: 69  RLNLNNWLRYAQWELEQKEFARARSVFERALDAHPNNVQLWIRYIESEMKARNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTRLPRVDKLWYKYV 147
+
+
+
+ Score = 40.4 bits (93), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 20/61 (32%), Positives = 35/61 (57%), Gaps = 1/61 (1%)
+
+Query: 218 WVQYADMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDYIRRRNDLNDSSGRARQVVT 276
+           W++YA  EL Q  F  A ++F ++L + PN VQLW  Y++   +  ++N +     + VT
+Sbjct: 75  WLRYAQWELEQKEFARARSVFERALDAHPNNVQLWIRYIESEMKARNINHARNLLDRAVT 134
+
+Query: 277 Q 277
+           +
+Sbjct: 135 R 135
+
+
+
+ Score = 39.3 bits (90), Expect = 0.006,   Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 41/91 (45%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I +  +  NI   R++ +R +   P   ++W +Y  ME   GN      +F + + 
+Sbjct: 109 WIRYIESEMKARNINHARNLLDRAVTRLPRVDKLWYKYVYMEEMLGNIPGTRQVFDRWMQ 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R  +      RAR++
+Sbjct: 169 WQPDEAAWSSYIKLEKRYGEFE----RAREI 195
+
+
+
+ Score = 38.9 bits (89), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 17/69 (24%), Positives = 36/69 (52%), Gaps = 4/69 (5%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           ++E+ R ++   L + PH     A++W+  A  E+ QG    A  + G+++   P  +++
+Sbjct: 380 DVERTRQIYNTCLGLIPHKRFTFAKIWLMAAHFEIRQGELTAARKLLGRAIGMCPKDKIF 439
+
+Query: 252 TVYLDYIRR 260
+             Y+D  R+
+Sbjct: 440 NGYVDLERK 448
+
+
+
+ Score = 35.0 bits (79), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 15/63 (23%), Positives = 34/63 (53%), Gaps = 5/63 (7%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL----MSVPNVQLWTVY 254
+           +CR ++E+ +   P   + W+++A++E    +     AIF  ++    + +P + LW  Y
+Sbjct: 454 RCRTLYEKHIEYNPANCQTWIKFAELERGLDDLDRTRAIFELAVQQQQLDMPEL-LWKAY 512
+
+Query: 255 LDY 257
+           +D+
+Sbjct: 513 IDF 515
+
+
+
+ Score = 32.7 bits (73), Expect = 0.61,   Method: Compositional matrix adjust.
+ Identities = 45/198 (22%), Positives = 85/198 (42%), Gaps = 43/198 (21%)
+
+Query: 173 VKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQYAD 223
+           +KE+P+   D+W           + ++ RD++ER +A  P   E         +W+ YA 
+Sbjct: 314 IKENPKN-YDAWFDYAKLEETSQDSDRIRDIYERAVAQVPPTMEKRHWRRYIYLWIFYAI 372
+
+Query: 224 MELSQGNFVE-AEAIFGKSLMSVPN-----VQLWTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+            E  +G  VE    I+   L  +P+      ++W +   +  R+ +L      AR+++ +
+Sbjct: 373 WEEMEGQDVERTRQIYNTCLGLIPHKRFTFAKIWLMAAHFEIRQGELTA----ARKLLGR 428
+
+Query: 278 AYDFVIDNVGLD-KDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPL 336
+           A       +G+  KD  KI+N Y+   R     V            + R  Y++ +    
+Sbjct: 429 A-------IGMCPKD--KIFNGYVDLERKLFEFV------------RCRTLYEKHIEYNP 467
+
+Query: 337 SNVNTLWREYDQFEKGLN 354
+           +N  T W ++ + E+GL+
+Sbjct: 468 ANCQT-WIKFAELERGLD 484
+
+
+
+ Score = 31.6 bits (70), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 47/193 (24%), Positives = 80/193 (41%), Gaps = 33/193 (17%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W S I   ++    E+ R++F  F  + P     W+++A  E   G   +   +FG+++
+Sbjct: 175 AWSSYIKLEKRYGEFERAREIFRTFTMIHPEPRN-WIKWAKFEEEFGTSDQVREVFGEAV 233
+
+Query: 243 MSV----PNVQLWTVYL-------DYIRRRNDLN---DSSGRAR-QVVTQAYDFVIDNVG 287
+            ++     + +L+  Y        +Y R R       D   R+R  ++ +AY       G
+Sbjct: 234 EALGDDFVDEKLFIAYARFEAKLKEYERARAIYKYALDRLPRSRSMILHKAYTTFEKQFG 293
+
+Query: 288 LDKDA------SKIWNDYIQFIRLAPGVVGGSAWQDQQKM-------DQLRKAYQRAVC- 333
+            DKD       SK    Y + I+  P      AW D  K+       D++R  Y+RAV  
+Sbjct: 294 -DKDGVEDVVLSKRRVYYEELIKENPK--NYDAWFDYAKLEETSQDSDRIRDIYERAVAQ 350
+
+Query: 334 IPLSNVNTLWREY 346
+           +P +     WR Y
+Sbjct: 351 VPPTMEKRHWRRY 363
+
+
+>FVEG_02975T0 pep:known chromosome:ASM14955v1:5:1343296:1346253:1 gene:FVEG_02975
+           transcript:FVEG_02975T0 description:"hypothetical
+           protein similar to mRNA splicing factor Prp1/Zer1"
+          Length = 930
+
+ Score = 38.9 bits (89), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 31/118 (26%), Positives = 55/118 (46%), Gaps = 12/118 (10%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  +   R   NIE   D+  + L +FP AA++W+    +    G   +A   +G  + 
+Sbjct: 668 WMKSVVFERVLGNIEAALDLVLQALQLFPAAAKLWMLKGQIYEDLGKTGQAREAYGTGVK 727
+
+Query: 244 SVP-NVQLWTVYLDY-------IRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDAS 293
+           +VP +V LW +Y          ++ R+ L+    RAR  V +      ++V L++ AS
+Sbjct: 728 AVPKSVPLWLLYARLEEQAGLTVKARSVLD----RARLAVPKNAQLWCESVRLERRAS 781
+
+
+
+ Score = 38.1 bits (87), Expect = 0.018,   Method: Compositional matrix adjust.
+ Identities = 43/200 (21%), Positives = 81/200 (40%), Gaps = 27/200 (13%)
+
+Query: 168 LLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELS 227
+           +LE  V+  P+ + D W+ L     Q   ++  R V +R     P+  ++W+    +E  
+Sbjct: 586 VLEKAVEACPK-SEDLWMMLAKEKWQAGEVDNARLVLKRAFNQNPNNEDIWLSAVKLESE 644
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVG 287
+            GN  +A  +   +    P  ++W   + + R   +           +  A D V+  + 
+Sbjct: 645 NGNGQQARKLLEIAREKAPTDRVWMKSVVFERVLGN-----------IEAALDLVLQALQ 693
+
+Query: 288 LDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREY 346
+           L   A+K+W            ++ G  ++D  K  Q R+AY   V  +P S    LW  Y
+Sbjct: 694 LFPAAAKLW------------MLKGQIYEDLGKTGQAREAYGTGVKAVPKS--VPLWLLY 739
+
+Query: 347 DQFEKGLNPTTGRKYLNERS 366
+            + E+    T   + + +R+
+Sbjct: 740 ARLEEQAGLTVKARSVLDRA 759
+
+
+
+ Score = 32.3 bits (72), Expect = 0.88,   Method: Compositional matrix adjust.
+ Identities = 17/73 (23%), Positives = 34/73 (46%), Gaps = 1/73 (1%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D+W+    A   R   E  R ++   L +F ++  +W+  AD+E + G       +  K+
+Sbjct: 531 DTWMEDARASINRGKYETARAIYAYALRIFVNSRTMWMAAADLERNHGTRESLWQVLEKA 590
+
+Query: 242 LMSVPNVQ-LWTV 253
+           + + P  + LW +
+Sbjct: 591 VEACPKSEDLWMM 603
+
+
+>FVEG_04962T0 pep:known chromosome:ASM14955v1:4:1895787:1899366:-1
+           gene:FVEG_04962 transcript:FVEG_04962T0
+           description:"hypothetical protein similar to RCM-1"
+          Length = 864
+
+ Score = 38.5 bits (88), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 40/194 (20%), Positives = 80/194 (41%), Gaps = 29/194 (14%)
+
+Query: 171 LRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFP---HAAEVWVQYADMELS 227
+           + ++ D   A + +  L   Y+Q+N   Q  + F+  +   P      ++W Q   +   
+Sbjct: 172 MNIQPDFEKANEIYFRLGIIYKQQNKWVQSLECFKYIVNSPPGPLTQEDIWFQIGHVHEQ 231
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIR-RRNDLNDSSGRARQVVTQAYDFVIDNV 286
+           Q +F  A+A + + L   PN       L ++  ++++  +S  RA Q       ++  +V
+Sbjct: 232 QKDFDSAKAAYQRVLDHSPNHAKVLQQLGWLHHQQSNTYESQDRAIQ-------YLEKSV 284
+
+Query: 287 GLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSN------VN 340
+           G D   ++ W             + G  +  QQK  +  +AYQ+AV     N      + 
+Sbjct: 285 GADNQDAQSW------------YLLGRCYMSQQKYPKAYEAYQQAVYRDGKNPTFWCSIG 332
+
+Query: 341 TLWREYDQFEKGLN 354
+            L+ + +Q+   L+
+Sbjct: 333 VLYYQINQYRDALD 346
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 13,217,725
+Number of extensions: 609253
+Number of successful extensions: 2346
+Number of sequences better than 10.0: 72
+Number of HSP's gapped: 2304
+Number of HSP's successfully gapped: 92
+Length of query: 1057
+Length of database: 5,950,719
+Length adjustment: 105
+Effective length of query: 952
+Effective length of database: 4,461,294
+Effective search space: 4247151888
+Effective search space used: 4247151888
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)

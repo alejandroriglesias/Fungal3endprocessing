@@ -1,0 +1,357 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00006345 pep:known contig:CADRE:9288:1326127:1329564:1 g...   773   0.0  
+CADNFIAP00009714 pep:known contig:CADRE:9374:1671148:1673531:-1 ...    58   1e-08
+CADNFIAP00002122 pep:known contig:CADRE:8741:2348902:2350980:-1 ...    44   2e-04
+CADNFIAP00008067 pep:known contig:CADRE:9292:847606:850434:1 gen...    43   4e-04
+CADNFIAP00007716 pep:known contig:CADRE:9292:3038141:3041132:-1 ...    35   0.13 
+CADNFIAP00005374 pep:known contig:CADRE:9201:3956209:3957143:-1 ...    33   0.22 
+CADNFIAP00008364 pep:known contig:CADRE:9292:5636783:5642371:1 g...    34   0.23 
+CADNFIAP00000095 pep:known contig:CADRE:8673:1727290:1733622:1 g...    33   0.67 
+CADNFIAP00006745 pep:known contig:CADRE:9292:5516609:5517775:1 g...    32   1.1  
+CADNFIAP00003027 pep:known contig:CADRE:8927:135487:137781:1 gen...    30   3.1  
+CADNFIAP00002381 pep:known contig:CADRE:8817:455835:456299:-1 ge...    28   5.5  
+
+>CADNFIAP00006345 pep:known contig:CADRE:9288:1326127:1329564:1 gene:CADNFIAG00006502
+           transcript:CADNFIAT00006502 description:"CFIA complex
+           component Rna14, putative"
+          Length = 1069
+
+ Score =  773 bits (1996), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 388/766 (50%), Positives = 518/766 (67%), Gaps = 38/766 (4%)
+
+Query: 164 DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+           D + +LE R++EDPRG + +WL LI  +R RN I+  RDVFERFL VFP AAE WV YA 
+Sbjct: 250 DRVGILEDRIQEDPRGDIPAWLELINEHRSRNRIDSARDVFERFLKVFPFAAEQWVAYAK 309
+
+Query: 224 MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLN-DSSGRARQVVTQAYDFV 282
+           ME    +    E IF ++L+++P+VQLW+VYLDY+RRRN L+ D++G+AR++++ AY+  
+Sbjct: 310 MESELNDLYRLEQIFNRTLLTIPDVQLWSVYLDYVRRRNPLSTDTTGQARRIISSAYELA 369
+
+Query: 283 IDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTL 342
+             +VG+DKD+  IW+DY+QFI+  PG VGGS WQDQQKMD LRKAYQ+A+C+P   VNTL
+Sbjct: 370 FQHVGVDKDSGSIWSDYVQFIKSGPGNVGGSGWQDQQKMDLLRKAYQKAICVPTQAVNTL 429
+
+Query: 343 WREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEG 402
+           W+EYDQFE GLN  TGRK+L E+SPAYMTA+S+ T L+NI R+L+RTTLPRLPP PG +G
+Sbjct: 430 WKEYDQFEMGLNKLTGRKFLQEQSPAYMTARSSYTELQNITRDLIRTTLPRLPPVPGSDG 489
+
+Query: 403 DVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAE 462
+           D+EF +QVD+WKRW+KWEK DPL L  +DP  FK R++Y YKQA+MALRF PE+W DAAE
+Sbjct: 490 DIEFTQQVDIWKRWIKWEKGDPLVLKEEDPTAFKGRVVYVYKQALMALRFLPEMWFDAAE 549
+
+Query: 463 WCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAV 522
+           +CF N +    +  G EFL +G+EANPES LLA K ADR+E T    E +   I+RG  V
+Sbjct: 550 FCFLNDL----ESEGNEFLKQGMEANPESCLLAFKRADRLEIT---SESEQDPIKRGAKV 602
+
+Query: 523 KAPYNKLLDTLYGQIKTLKEKEKAEIVKLRES-------APSVPEHEIEEGEDCANPMPS 575
+           + PY+KLLD LY  I   + +E  ++ +L E+        P     + ++ +  +    S
+Sbjct: 603 REPYDKLLDALYDLIAKARTREAQDVARLEETFAKMNADNPPAKTDDDDDDQSESKARES 662
+
+Query: 576 ELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARK 635
+               +I A+ K    Q  +L++T+SF WIAL RAMRRIQGKG+PG    G RQVF++ARK
+Sbjct: 663 VKNAQIDAVRKAHAIQIGILSKTISFAWIALMRAMRRIQGKGKPGE-TPGSRQVFADARK 721
+
+Query: 636 RGRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNAR 695
+           RGR+TSDVY+A A +E+  YKDP+  KIF+RG+KLFP+DE F LEYLK+L    D  NAR
+Sbjct: 722 RGRITSDVYIASALIEYHCYKDPAATKIFERGAKLFPDDENFALEYLKHLIDINDVINAR 781
+
+Query: 696 VVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHF 755
+            VFE  V KL  NP  VHK KP++++ H+YES++G+L Q   LE RM ELFPEDP+L  F
+Sbjct: 782 AVFEMTVRKLASNPENVHKTKPIFAFLHEYESRYGDLVQVINLENRMRELFPEDPTLEQF 841
+
+Query: 756 SARFMSDRFDPIAARIIVSPAAQLRPKMVMPSIEA-NARAGSPMIRPLNSPKVGFLQAVN 814
+           + R+ +  FDP A R I+SP +Q+RPK   P+ E   +R G+P  R   S         +
+Sbjct: 842 AHRYSAPTFDPTAVRPIISP-SQMRPKAAFPTTEQPMSRHGTPTPRYPGS-------VTD 893
+
+Query: 815 SPKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAAGRRLENQRR---IHGQGPASY 871
+           SPKRPL  +DF+D         N  R+F RAESPLK    R+L+ Q+R    + Q  + +
+Sbjct: 894 SPKRPL--EDFDD-------DYNRPRKFVRAESPLKTTQRRQLDQQKRSQLSNVQAGSQF 944
+
+Query: 872 NTAPAPA-IPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVP 916
+            +  +PA +PR+I  LLS +P A  Y + R S  ++VD +R   +P
+Sbjct: 945 RSQGSPAPLPRDIVHLLSIIPPASAYTAGRFSPEKLVDLIRRIEMP 990
+
+
+>CADNFIAP00009714 pep:known contig:CADRE:9374:1671148:1673531:-1
+           gene:CADNFIAG00009954 transcript:CADNFIAT00009954
+           description:"Putative uncharacterized protein"
+          Length = 591
+
+ Score = 57.8 bits (138), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 74/328 (22%), Positives = 125/328 (38%), Gaps = 59/328 (17%)
+
+Query: 169 LELRVKEDPRGAMDSWLSLIAAYR------QRNN----IEQCRDVFERFLAVFPHAAEVW 218
+           LE  + +DP    ++W  L+ A         RN+    I   R+V++RFLA FP     W
+Sbjct: 19  LETELADDPDN-FETWEKLVRAAEALEGGINRNSNPQAITTVRNVYDRFLAKFPLLFGYW 77
+
+Query: 219 VQYADMELSQGNFVEAEAIFGKSLMSV-PNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+            +YAD+E S      A+ ++ + + S+  +V LWT Y  +          +     ++ +
+Sbjct: 78  KKYADLEFSITGTEAADMVYERGVASISSSVDLWTNYCSF-------KGETSHDPDIIRE 130
+
+Query: 278 AYDFVIDNVGLDKDASKIWNDYIQF----------IRLAPGVVGGSAWQDQQKMDQLRKA 327
+            ++    +VGLD  A   W+ YI+F            +   V+     Q  +  ++ R+ 
+Sbjct: 131 LFERGASSVGLDFLAHPFWDKYIEFEERVEAPEKIFAILGRVIHIPMHQYARYFERYRQL 190
+
+Query: 328 YQRAVCIPLSNVNTLWREYDQFEKGLNPTTGR------------KYLNERSPAYMTAKSA 375
+            Q      L+ V TL     QF   L    G+            + L  R  AY     +
+Sbjct: 191 AQTRPLSELAPVETL----SQFRAELEAAAGQIPPGAKAEAEIERDLRLRVDAYHLEIFS 246
+
+Query: 376 NTALENIMRNLVRTTLPRLPPAPGFEGDVEFAEQVDLWKRWVKWEKEDPLDLATDDPELF 435
+            T  E   R    + + R    P F        Q+  WK+++ +E          + E  
+Sbjct: 247 KTQTETTKRWTYESEIKR----PYFHVTELDEGQLTNWKKYLDFE----------EAEGS 292
+
+Query: 436 KKRILYAYKQAIMALRFCPEIWVDAAEW 463
+             RI + Y++ ++      E W   A W
+Sbjct: 293 YPRIQFLYERCLVTCAHYDEFWQRYARW 320
+
+
+>CADNFIAP00002122 pep:known contig:CADRE:8741:2348902:2350980:-1
+           gene:CADNFIAG00002161 transcript:CADNFIAT00002161
+           description:"Cell cycle control protein (Cwf4),
+           putative"
+          Length = 675
+
+ Score = 44.3 bits (103), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 42/91 (46%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I +  +  NI   R++ +R + + P   + W +Y  ME + GN      +F + + 
+Sbjct: 109 WIRYIESEMRNRNINHARNLLDRAVTILPRVDKFWYKYVYMEETLGNIQGTRQVFERWMS 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R N+      RAR +
+Sbjct: 169 WEPDEGAWSAYIKLEKRYNEFE----RARAI 195
+
+
+
+ Score = 40.8 bits (94), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  M++W+   +   ++    + R +FER L V P +  +W++Y + E+   N   A  +
+Sbjct: 69  RLNMNNWMRYASWELEQKEFRRARSIFERALDVNPTSVVLWIRYIESEMRNRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V + W  Y+
+Sbjct: 129 LDRAVTILPRVDKFWYKYV 147
+
+
+
+ Score = 38.1 bits (87), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 27/115 (23%), Positives = 54/115 (46%), Gaps = 17/115 (14%)
+
+Query: 192 RQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL----MSVPN 247
+           RQ     +CR ++E+ +   P  ++ W++YA++E    +   A AIF   +    + +P 
+Sbjct: 447 RQLFEFVRCRTLYEKQIEWNPSNSQSWIKYAELERGLDDSERARAIFELGIDQPTLDMPE 506
+
+Query: 248 VQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+           + +W  Y+D+     +      R RQ+    Y+ ++       D  K+W +Y +F
+Sbjct: 507 L-VWKAYIDF----EEYEGEYDRVRQL----YERLLQKT----DHVKVWINYARF 548
+
+
+
+ Score = 32.3 bits (72), Expect = 0.66,   Method: Compositional matrix adjust.
+ Identities = 49/203 (24%), Positives = 87/203 (42%), Gaps = 43/203 (21%)
+
+Query: 170 ELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQ 220
+           E ++KE+PR   D W           + ++ RDV+ER +A  P + E         +W+ 
+Sbjct: 311 EEQLKENPRN-YDVWFDFARLEETSGDPDRVRDVYERAIAQIPPSQEKRHWRRYIYLWIF 369
+
+Query: 221 YADMELSQGNFVE-AEAIFGKSLMSVPN-----VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+           YA  E  +   V+ A  I+ + L  +P+      ++W +   +  R+ DL  S    R+ 
+Sbjct: 370 YAIWEEMEAKDVDRARQIYTECLKLIPHKKFTFAKIWLLKAQFDIRQMDLQAS----RKT 425
+
+Query: 275 VTQAYDFVIDNVGLD-KDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVC 333
+           + QA       +G+  KD  K++  YI   R     V            + R  Y++ + 
+Sbjct: 426 LGQA-------IGMCPKD--KLFRGYIDLERQLFEFV------------RCRTLYEKQIE 464
+
+Query: 334 IPLSNVNTLWREYDQFEKGLNPT 356
+              SN  + W +Y + E+GL+ +
+Sbjct: 465 WNPSNSQS-WIKYAELERGLDDS 486
+
+
+
+ Score = 31.2 bits (69), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 15/63 (23%), Positives = 31/63 (49%), Gaps = 1/63 (1%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W + I   ++ N  E+ R +F+RF  V P     W+++A  E   G       ++G ++
+Sbjct: 175 AWSAYIKLEKRYNEFERARAIFQRFTIVHPEPRN-WIKWARFEEEYGTSELVREVYGMAI 233
+
+Query: 243 MSV 245
+            ++
+Sbjct: 234 EAL 236
+
+
+>CADNFIAP00008067 pep:known contig:CADRE:9292:847606:850434:1 gene:CADNFIAG00008234
+           transcript:CADNFIAT00008234 description:"DNA repair and
+           transcription protein (Xab2), putative"
+          Length = 854
+
+ Score = 43.1 bits (100), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 36/161 (22%), Positives = 70/161 (43%), Gaps = 17/161 (10%)
+
+Query: 203 VFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVP-NVQLWTVYLDYIRRR 261
+           V+E+ L   P + + W+ Y + +   G   E   +  ++   +P + +LW +YL++  R 
+Sbjct: 36  VYEQDLLRAPGSIKPWLAYIEYKQQNGTLYEQAFVMERACKQLPRSYKLWKMYLEF--RI 93
+
+Query: 262 NDLNDSSGRARQVVTQAYDFVIDN-VGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQK 320
+           N L   +    +   Q  + + +  + L     KIW  Y+ F+   P V           
+Sbjct: 94  NHLRGRNATKYRGEYQKVNALFERALILLNKMPKIWEMYLSFLLQQPFVT---------- 143
+
+Query: 321 MDQLRKAYQRAV-CIPLSNVNTLWREYDQFEKGLNPTTGRK 360
+             Q R+ + RA+  +P++  N +W+ Y  F +  +  T  K
+Sbjct: 144 --QTRRTFDRALRALPITQHNRIWKLYKAFARSASGQTAVK 182
+
+
+
+ Score = 35.8 bits (81), Expect = 0.061,   Method: Compositional matrix adjust.
+ Identities = 27/148 (18%), Positives = 65/148 (43%), Gaps = 20/148 (13%)
+
+Query: 179 GAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELS----------Q 228
+           G++  WL+ I   +Q   + +   V ER     P + ++W  Y +  ++          +
+Sbjct: 46  GSIKPWLAYIEYKQQNGTLYEQAFVMERACKQLPRSYKLWKMYLEFRINHLRGRNATKYR 105
+
+Query: 229 GNFVEAEAIFGKSLMSVPNV-QLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVG 287
+           G + +  A+F ++L+ +  + ++W +YL ++ ++  +  +         + +D  +  + 
+Sbjct: 106 GEYQKVNALFERALILLNKMPKIWEMYLSFLLQQPFVTQTR--------RTFDRALRALP 157
+
+Query: 288 LDKDASKIWNDYIQFIRLAPGVVGGSAW 315
+           + +  ++IW  Y  F R A G      W
+Sbjct: 158 ITQH-NRIWKLYKAFARSASGQTAVKIW 184
+
+
+
+ Score = 32.3 bits (72), Expect = 0.70,   Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 31/62 (50%), Gaps = 4/62 (6%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAV----FPHAAEVWVQYADMELSQGNFVEAEAIFG 239
+           W++    Y    +++  R +F++ + V        AE W ++A+MEL   NF +A  I  
+Sbjct: 422 WVNYAKFYESGGDLDTARVIFDKAVKVPFKSVAELAETWCEWAEMELRSENFDKAVDIMA 481
+
+Query: 240 KS 241
+           K+
+Sbjct: 482 KA 483
+
+
+>CADNFIAP00007716 pep:known contig:CADRE:9292:3038141:3041132:-1
+           gene:CADNFIAG00007883 transcript:CADNFIAT00007883
+           description:"MRNA splicing factor (Prp1/Zer1), putative"
+          Length = 938
+
+ Score = 35.0 bits (79), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 22/95 (23%), Positives = 44/95 (46%), Gaps = 3/95 (3%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL+     R   + E    V E+ +   P + E+W+Q A  +   G   +A  + G++  
+Sbjct: 575 WLAAADLERNHGSKEALWQVLEKAVEACPQSEELWLQLAKEKWQAGEIDDARRVLGRAFN 634
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQA 278
+             PN +   ++L  ++   D  D + +AR+++  A
+Sbjct: 635 QNPNNE--DIWLAAVKLEADA-DQTDQARELLATA 666
+
+
+
+ Score = 34.7 bits (78), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 27/123 (21%), Positives = 56/123 (45%), Gaps = 18/123 (14%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  +A  RQ  NI++  D+  + L ++P A ++W+    +   Q  + +A   +     
+Sbjct: 676 WIKSVAFERQLGNIDEALDLVNQGLQLYPKADKLWMMKGQIYEYQNKYPQAREAYSTGTR 735
+
+Query: 244 SVP-NVQLWTVYLDYIRRRNDLNDSSG----------RARQVVTQAYDFVIDNVGLDKDA 292
+           + P +V LW +        + L + SG          RAR  V ++ +   ++V +++ A
+Sbjct: 736 ACPKSVPLWLLA-------SRLEEKSGAVVKARSVLDRARLAVPKSAELWTESVRVERRA 788
+
+Query: 293 SKI 295
+           + I
+Sbjct: 789 NNI 791
+
+
+
+ Score = 33.1 bits (74), Expect = 0.50,   Method: Compositional matrix adjust.
+ Identities = 15/54 (27%), Positives = 26/54 (48%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQL 250
+           + + R V +R     P +AE+W +   +E    N  +A+ +  K+L  VP   L
+Sbjct: 757 VVKARSVLDRARLAVPKSAELWTESVRVERRANNIGQAKVLMAKALQEVPTSGL 810
+
+
+
+ Score = 31.2 bits (69), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 27/121 (22%), Positives = 52/121 (42%), Gaps = 12/121 (9%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D W+        R   E  R ++   L VF +   +W+  AD+E + G+      +  K+
+Sbjct: 539 DIWMDDAKGSIARGKYETARAIYAYALRVFVNRRSIWLAAADLERNHGSKEALWQVLEKA 598
+
+Query: 242 LMSVPNV-QLWTVYLDYIRRRNDLNDSSGRARQVVTQAY-------DFVIDNVGLDKDAS 293
+           + + P   +LW        +  +++D    AR+V+ +A+       D  +  V L+ DA 
+Sbjct: 599 VEACPQSEELWLQLAKEKWQAGEIDD----ARRVLGRAFNQNPNNEDIWLAAVKLEADAD 654
+
+Query: 294 K 294
+           +
+Sbjct: 655 Q 655
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 11,238,955
+Number of extensions: 517482
+Number of successful extensions: 2046
+Number of sequences better than 10.0: 53
+Number of HSP's gapped: 2014
+Number of HSP's successfully gapped: 70
+Length of query: 1057
+Length of database: 5,073,492
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 3,991,684
+Effective search space: 3804074852
+Effective search space used: 3804074852
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

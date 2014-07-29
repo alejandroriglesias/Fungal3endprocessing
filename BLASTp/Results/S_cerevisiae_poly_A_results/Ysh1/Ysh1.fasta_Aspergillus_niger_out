@@ -1,0 +1,221 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Putative endoribonuclease, subunit of the mRNA cleavage and
+polyadenylation specificity complex; required for 3' processing,
+splicing, and transcriptional termination of mRNAs and snoRNAs
+         (779 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00000984 pep:known chromosome:CADRE:II:3365241:3368387:-...   583   0.0  
+CADANGAP00012565 pep:known chromosome:CADRE:V:2309049:2312162:1 ...    76   2e-14
+CADANGAP00000335 pep:known chromosome:CADRE:II:1809166:1812616:1...    36   0.057
+CADANGAP00000863 pep:known chromosome:CADRE:II:3081308:3082999:1...    33   0.29 
+CADANGAP00003128 pep:known chromosome:CADRE:VI:3822983:3829447:-...    31   1.9  
+CADANGAP00010868 pep:known chromosome:CADRE:I:1339698:1341383:1 ...    31   2.1  
+
+>CADANGAP00000984 pep:known chromosome:CADRE:II:3365241:3368387:-1
+           gene:CADANGAG00001013 transcript:CADANGAT00001013
+           description:"Function\x3a YSH1 is involved in cleavage
+           of pre-mRNA during 3'-end formation in yeast"
+          Length = 874
+
+ Score =  583 bits (1504), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 332/764 (43%), Positives = 452/764 (59%), Gaps = 101/764 (13%)
+
+Query: 6   TTTFKFFSLGGSNEVGRSCHILQYKGKTVMLDAGIHPAYQGLASLPFYDEFDLSKVDILL 65
+           T    F+ LGG NEVGRSCHI+QYKGKTVMLDAG+HPA +G ++LPF+DEFDLS VDILL
+Sbjct: 22  TDELAFYCLGGGNEVGRSCHIIQYKGKTVMLDAGMHPAKEGFSALPFFDEFDLSTVDILL 81
+
+Query: 66  ISHFHLDHAASLPYVMQRTNFQGRVFMTHPTKAIYRWLLRDFVRVTSIGXXXXXMGTKDE 125
+           ISHFH+DH+++LPYV+ +TNF+GRVFMTH TKAIY+WL++D VRV+S         T   
+Sbjct: 82  ISHFHVDHSSALPYVLSKTNFKGRVFMTHATKAIYKWLIQDNVRVSSTASSSDQRTT--- 138
+
+Query: 126 GLFSDEDLVDSFDKIETVDYHSTVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDY 185
+            L++++D + +   IET+D+++T  +N I+ T F AGHVLGAAMF I IAGL +LFTGDY
+Sbjct: 139 -LYTEQDHLSTLPLIETIDFNTTHTINSIRITPFPAGHVLGAAMFLISIAGLNILFTGDY 197
+
+Query: 186 SREVDRHLNSAEVPP-LSSNVLIVESTFGTATHEPRLNRERKLTQLIHSTVMRGGRVLLP 244
+           SRE DRHL  AEVP  +  +VLI ESTFG +++ PRL RE  L + I   + RGGRVL+P
+Sbjct: 198 SREEDRHLIPAEVPKGVKIDVLITESTFGISSNPPRLEREAALMKAITGVLNRGGRVLMP 257
+
+Query: 245 VFALGRAQEIMLILDEYWSQHADELGGGQVPIFYASNLAKKCMSVFQTYVNMMNDDIRKK 304
+           VFALGRAQE++LILDEYW  H  EL   ++PI+Y  N A++CM V+QTY+  MND+I++ 
+Sbjct: 258 VFALGRAQELLLILDEYWETHP-EL--QKIPIYYIGNTARRCMVVYQTYIGAMNDNIKRL 314
+
+Query: 305 FRDS------------QTNPFIFKNISYLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLE 352
+           FR                 P+ F+ +  LR+LE F D G  VMLASPGMLQ+G SR+LLE
+Sbjct: 315 FRQRMAEAEASGDKSVSAGPWDFRFVRSLRSLERFDDVGGCVMLASPGMLQTGTSRELLE 374
+
+Query: 353 RWCPEDKNLVLITGYSIEGTMAKFIMLEPDTIPSI------------------NNPEITI 394
+           RW P ++N V++TGYS+EGTMAK I+ EP+ IP++                     ++ I
+Sbjct: 375 RWAPNERNGVVMTGYSVEGTMAKQILNEPEQIPAVMSRATTGLVRRGMAAGNEEEQKVMI 434
+
+Query: 395 PRRCQVEEISFAAHVDFQENLEFIEKISAPNIILVHGEANPMGRLKSALLSNFASLKGTD 454
+           PRRC V+E+SFAAHVD  EN  FIE++SAP +ILVHGE + M RLKS LLS  A      
+Sbjct: 435 PRRCTVDEVSFAAHVDGVENRNFIEEVSAPVVILVHGEKHQMMRLKSKLLSLNAE---KT 491
+
+Query: 455 NEVHVFNPRNCVEVDLEFQGVKVAKAVGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDN 514
+            +V V+ P NC EV + F+  K+AK VG                                
+Sbjct: 492 VKVKVYTPGNCEEVRIPFKKDKIAKVVGKLAQIAP------------------------- 526
+
+Query: 515 LDSQAEKGLVDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSVR 574
+                       E+    ++SG+LV +   F L  ++  DLRE+   L+TT +  +Q + 
+Sbjct: 527 ----------PSEQDDGQLMSGVLVQN--GFNLSLMAPDDLREYA-GLTTTAITCKQHIT 573
+
+Query: 575 VNCKK-ELIYWHILQMFGEAEVL-----------QDDDRVTNQEPKVKEESKDNLTNTGK 622
+           ++    +LI W +   FG  E +           Q+D+         KEE+ D     G 
+Sbjct: 574 LSSASMDLIKWALEGTFGAIEEVGKSQQEVVKKGQEDEMDKANGETFKEEAADEEIPMGD 633
+
+Query: 623 L-ILQIMGDIKLTIVNTLAVV--EWTQDLMNDTVADSIIAILMNVDSAPASVKLSSHSCD 679
+                +MG + +        V  EW  ++MND VAD+++A+L+ V+S+PASVK S+    
+Sbjct: 634 TQTYLVMGCVLIRYYPRTREVELEWEGNMMNDGVADAVMAVLLTVESSPASVKQSAKHKH 693
+
+Query: 680 DHDHNNVQ-------SNAQGKIDEVERVKQISRLFKEQFGDCFT 716
+            H H++          N    +   ER +++  + + QFG   T
+Sbjct: 694 HHHHHHHDDDHAHQIPNPHSNVGPEERFRRLLMMLQAQFGSEIT 737
+
+
+>CADANGAP00012565 pep:known chromosome:CADRE:V:2309049:2312162:1
+           gene:CADANGAG00012806 transcript:CADANGAT00012806
+           description:"Putative uncharacterized protein
+           An16g03340"
+          Length = 865
+
+ Score = 75.9 bits (185), Expect = 2e-14,   Method: Compositional matrix adjust.
+ Identities = 84/368 (22%), Positives = 152/368 (41%), Gaps = 58/368 (15%)
+
+Query: 53  YDEFDLSKVD-------ILLISHFHLDHAASLPYVMQRTNF--QGRVFMTHPTKAIYRWL 103
+           +D  DL +++       ++L++H    H  +  +  +      Q  V+ T P  A+ R L
+Sbjct: 40  FDPLDLQELEKHVPTLSLILLTHATPAHIGAFAHCCKTFPLFTQIPVYATSPVIALGRTL 99
+
+Query: 104 LRDFVRVTSIGXXXXXMGTK--DEGLF-----SDEDLVDSFDKIETVDYHS--------- 147
+           L+D    + +        T+    G       + E++   F  I  + Y           
+Sbjct: 100 LQDLYASSPLAATFLPKATEATHAGRILLQPPTAEEIARYFSLIHPLKYSQPHQPLPSPF 159
+
+Query: 148 TVDVNGIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSREVDRHLNSAE---------- 197
+           +  +NG+  TA++AGH +G  ++ I+     +++  D+++  +  +  A           
+Sbjct: 160 SPPLNGLTLTAYNAGHTVGGTIWHIQHGMESIVYAVDWNQARESVVAGAAWFGGSGASGT 219
+
+Query: 198 --VPPLSSNVLIVESTFGT---ATHEPRLNRERKLTQLIHSTVMRGGRVLLPVFALGRAQ 252
+             +  L     +V ST G    A    R  R+  L  +I ST+ +GG VL+P     R  
+Sbjct: 220 EVIEQLRKPTALVCSTRGGERFALPGGRKKRDDLLLDMIRSTIAKGGTVLIPTDTSARVL 279
+
+Query: 253 EIMLILDEYWSQHADELGGGQ-------VPIFYASNLAKKCMSVFQTYVNMMNDDIRKKF 305
+           E+   L+  W    D  G GQ         ++ A   A   M + ++ +  M+++I ++F
+Sbjct: 280 ELAYALEHAWR---DAAGSGQGDDVLKGAGLYLAGRKANTTMRLARSMLEWMDENIVREF 336
+
+Query: 306 RDSQ----TNPFIFKNISYL---RNLED-FQDFGPSVMLASPGMLQSGLSRDLLERWCPE 357
+             ++      PF FK++  L   + LE    D  P V+LAS   L  G ++D L      
+Sbjct: 337 EAAEEGKGVGPFTFKHLRILERKKRLEKILSDQKPKVILASDTSLDWGFAKDSLRLVAEG 396
+
+Query: 358 DKNLVLIT 365
+             NL+L+T
+Sbjct: 397 ANNLLLLT 404
+
+
+>CADANGAP00000335 pep:known chromosome:CADRE:II:1809166:1812616:1
+           gene:CADANGAG00000347 transcript:CADANGAT00000347
+           description:"Putative uncharacterized protein
+           An01g03540"
+          Length = 871
+
+ Score = 35.8 bits (81), Expect = 0.057,   Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 20/36 (55%)
+
+Query: 153 GIKFTAFHAGHVLGAAMFQIEIAGLRVLFTGDYSRE 188
+            I+ T F A H  GA MF IE  G  +L+TGD   E
+Sbjct: 184 SIRATLFDANHCTGAVMFLIEGNGKAILYTGDIRAE 219
+
+
+>CADANGAP00000863 pep:known chromosome:CADRE:II:3081308:3082999:1
+           gene:CADANGAG00000890 transcript:CADANGAT00000890
+           description:"Putative uncharacterized protein
+           An01g08900"
+          Length = 563
+
+ Score = 33.5 bits (75), Expect = 0.29,   Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 38/75 (50%), Gaps = 12/75 (16%)
+
+Query: 514 NLDSQAEKGLVDEEEHKDIVVSGILVSDDKNFELDFLSLSDLREHHPDLSTTILRERQSV 573
+           N+DS +  G      +KD+   G L   D+ F+L+ LS SD  EH P +ST+  +  Q  
+Sbjct: 21  NMDSSSVDG------NKDVSFPGDL---DQIFQLESLS-SDFGEHSPAISTSTAQPHQQP 70
+
+Query: 574 RVNCKKELIYWHILQ 588
+             N  K+  +W + Q
+Sbjct: 71  AQNWSKD--FWCLPQ 83
+
+
+>CADANGAP00003128 pep:known chromosome:CADRE:VI:3822983:3829447:-1
+           gene:CADANGAG00003207 transcript:CADANGAT00003207
+           description:"Putative uncharacterized protein
+           An03g01820"
+          Length = 2134
+
+ Score = 31.2 bits (69), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 18/76 (23%), Positives = 30/76 (39%), Gaps = 4/76 (5%)
+
+Query: 320 YLRNLEDFQDFGPSVMLASPGMLQSGLSRDLLERWCPEDKNLVLITGYSIEGTMAKFIML 379
+           Y+     F    P +      M++   S   + +W P+     LI+ Y   G+ A  I+ 
+Sbjct: 727 YIPQQASFTKMSPHLKSTGADMIEVSTS---IRKW-PDGPRTALISNYGATGSNAAMILT 782
+
+Query: 380 EPDTIPSINNPEITIP 395
+            P       +PE T+P
+Sbjct: 783 APQRKEPTLHPEFTVP 798
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.319    0.136    0.394 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 8,635,539
+Number of extensions: 347278
+Number of successful extensions: 741
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 731
+Number of HSP's successfully gapped: 11
+Length of query: 779
+Length of database: 6,195,193
+Length adjustment: 103
+Effective length of query: 676
+Effective length of database: 4,746,189
+Effective search space: 3208423764
+Effective search space used: 3208423764
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 57 (26.6 bits)

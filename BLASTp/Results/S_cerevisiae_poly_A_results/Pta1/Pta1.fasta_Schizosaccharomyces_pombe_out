@@ -1,0 +1,124 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC1071.01c.1:pep pep:known chromosome:ASM294v2:I:3855385:38579...    95   9e-21
+SPBP4H10.07.1:pep pep:known chromosome:ASM294v2:II:2881775:28837...    29   2.0  
+
+>SPAC1071.01c.1:pep pep:known chromosome:ASM294v2:I:3855385:3857994:-1
+           gene:SPAC1071.01c transcript:SPAC1071.01c.1
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit Pta1"
+          Length = 670
+
+ Score = 95.1 bits (235), Expect = 9e-21,   Method: Compositional matrix adjust.
+ Identities = 51/153 (33%), Positives = 83/153 (54%), Gaps = 27/153 (17%)
+
+Query: 626 WLHVLIRLVTRGI-------EAQEASD-------LIREELLGFFIQDFEQRVSLIIEWLN 671
+           W  +L RL TRG+         +E+ D        +R +L  +   ++    +LI+ WL+
+Sbjct: 515 WAILLPRLCTRGLLNYQPVTSGEESGDASFTLSSFVRGQLFTYVASNWRSSTNLILNWLS 574
+
+Query: 672 EEWFFQTSLHQDPS------------NYKKWSLRVLESLGPFLENKHRRFFIRLMSELPS 719
+           EEW+    + ++P              Y+KW+L+V++S+ P+LE K + F I  MSELP 
+Sbjct: 575 EEWYNDRLMLENPDCHEYEDVKWEGPQYEKWALKVIDSILPYLEAKDKVFMI-FMSELPE 633
+
+Query: 720 LQSDHLEALKPICLDPARSSLGFQTLKFLIMFR 752
+           L    ++ +K +CLDP ++ LGF T ++LIMFR
+Sbjct: 634 LTDAIVDKIKFVCLDPDKTKLGFMTFQYLIMFR 666
+
+
+
+ Score = 52.4 bits (124), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 50/202 (24%), Positives = 94/202 (46%), Gaps = 31/202 (15%)
+
+Query: 94  VYKNIVLIMCASYPLVLDLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVE 153
+           V K+++   C  YPLV      + N               S W T   L+  + ++ D  
+Sbjct: 89  VKKDVISCSCTIYPLVFLHCCTSPNDS-------------STWDTLTKLKNEIINDFD-- 133
+
+Query: 154 QWLAQIDQNIGVKLATIKFISEVVLSQT---KSP---SGNEINSSTIPDNHPVLNKPALE 207
+                   N  + ++ IKFIS V+L+Q    + P   + ++++ S +P +HP +N   L 
+Sbjct: 134 ------KGNKPLLISCIKFISCVILTQVPGIRDPRLVTKSDVSLSKVPTHHPFINSNILR 187
+
+Query: 208 SEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRFNV-DAKF 266
+            EA  L++ + + L  +   V  +   ++N L  ++KRR +   +I+  LL F++ + K 
+Sbjct: 188 IEANDLIEKIFSILFSDSLNVLYI-TSVLNILPVLVKRRKELAPKIIGSLLEFHLPNPKD 246
+
+Query: 267 PLEGKSDLNYKLSKRFVERAYK 288
+            +E  ++   KL+ R +E+  K
+Sbjct: 247 EIELSNE--SKLAIRCIEKNLK 266
+
+
+>SPBP4H10.07.1:pep pep:known chromosome:ASM294v2:II:2881775:2883758:1 gene:SPBP4H10.07
+           transcript:SPBP4H10.07.1 description:"ubiquitin-protein
+           ligase E3 (predicted)"
+          Length = 583
+
+ Score = 29.3 bits (64), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 17/25 (68%)
+
+Query: 194 IPDNHPVLNKPALESEAKRLLDMLL 218
+           +P NHPVL  P+L +++    DMLL
+Sbjct: 467 VPQNHPVLRAPSLFTDSPTYEDMLL 491
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 2,983,169
+Number of extensions: 114652
+Number of successful extensions: 437
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 435
+Number of HSP's successfully gapped: 10
+Length of query: 785
+Length of database: 2,387,769
+Length adjustment: 96
+Effective length of query: 689
+Effective length of database: 1,893,945
+Effective search space: 1304928105
+Effective search space used: 1304928105
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

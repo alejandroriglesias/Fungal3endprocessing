@@ -1,0 +1,124 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa 
+           12,020 sequences; 5,034,962 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+3826_Cercospora_zeae_zm1_GeneCatalog_                                 172   4e-45
+
+>3826_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 1029
+
+ Score =  172 bits (436), Expect = 4e-45,   Method: Compositional matrix adjust.
+ Identities = 157/664 (23%), Positives = 289/664 (43%), Gaps = 101/664 (15%)
+
+Query: 1   MSSSTTPDLLYPSADKVAEPSDNIHGDEL-RLRERIKDNP-TNILSYFQLIQYLETQESY 58
+           ++ +  P     S   V  P   +  D++ +L +RIKD+P  +I ++++LI +   +E Y
+Sbjct: 197 IAPTPQPPTQQSSLPAVQTPPTRLPHDKVGQLEDRIKDDPKGDIDAWYELINHYTAKEQY 256
+
+Query: 59  AKVREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTY 118
+             VR +Y +F   F      +   +K E   D+ + V  ++   L+ + +   ++LW  Y
+Sbjct: 257 DNVRSIYRRFSEVFRTAVKLYQDWIKFESNLDQRDGVNAVVNTALA-REKIYHVALWKVY 315
+
+Query: 119 LDYIRRKNNLITGGQEA-RAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKP---F 174
+           LD +RR + L+     A R + + AF+  +    I +P +   W EY++F++        
+Sbjct: 316 LDAVRRDHPLVGDSTGANRNMHLAAFEATLGAIGI-DPDAGEIWREYVDFVKDGPGTLGG 374
+
+Query: 175 NKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKA 234
+             W++ Q++D++R+ Y++   +P   L KMW  Y  +E  I+  T RK + E S  YM+A
+Sbjct: 375 QGWQDLQKVDLVRKAYQRATKIPHSELVKMWKEYEAFEMSIHKQTGRKHVQEQSPHYMQA 434
+
+Query: 235 RSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIWLNWIKWERENKLML 294
+           R+   +      GL R S   L       I      D   +Q++ W +WI WER+   ++
+Sbjct: 435 RTARMQLEQKIQGLDRTSLPRL-----PPIYGCAGEDEFGEQVEKWRSWIAWERDEDPLV 489
+
+Query: 295 ---SED-MLSQRISYVYKQGIQYMIFSAEMWYD-----YSMYISENSDRQNI-LYTALLA 344
+              SED    +R+ Y Y Q   ++ F  ++W++     +S  I +   R +  L   +  
+Sbjct: 490 YKGSEDEEWRKRVIYAYDQATIFLCFYPQIWFEAASWCFSTGIVDMIARGDAFLERGMQM 549
+
+Query: 345 NPDSPSLTFKLSECYELD-----------NDSESVSNCFDKCTQTL-------LSQYKKI 386
+           NP+S  L    ++  E D            + E ++  F +    L       + + K  
+Sbjct: 550 NPESVLLAMMKADRIESDLEPGNTEEVLIRNGEKLNKPFAEVHAALYDLRNKAMDKDKVA 609
+
+Query: 387 ASDVNS------------------GEDNNTEYEQELLYKQREKLTFV---FCVYMNTMKR 425
+            S + +                   ED  TE  Q    +++ ++  V      +++  KR
+Sbjct: 610 ISQIEAHFDSLPPEDETPNVQEENDEDEPTEKPQTRKEQKKAQVDAVKQASAAHLDMFKR 669
+
+Query: 426 ------ISGLSAARTVFGKCRKLKR-----------------------ILTHDVYVENAY 456
+                 ++ + A R V G+ R  K+                        L+ +VY+  A 
+Sbjct: 670 TISYVWVAKMRAFRRVQGQGRAPKKNDENPKPYVKGSRAIFSEARPGGPLSSEVYIAAAL 729
+
+Query: 457 LEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKDSQIKTLFETSVEKVQDL 516
+           +E+Q   D  +A K+ E G++ F  D  +I +Y+  LI     +  + +FE+++ K+   
+Sbjct: 730 MEWQCYRD-PSAIKIFERGMRLFPTDTAFILEYIKHLISTQDVTNARVVFESTIPKIMGS 788
+
+Query: 517 TQLKEIYKK---------MISYESKFGNLNNVYSLEKRFFERFPQENLIEVFTSRYQIQN 567
+           T+L    K+         M  +ESK+G+L  ++ +EKR  E +P E  I  F  R ++  
+Sbjct: 789 TELTHEQKQDSCRPLIGYMHDFESKYGDLAQIHKIEKRMAEIYPDEPEIARFAHRLELPT 848
+
+Query: 568 SNLI 571
+            + I
+Sbjct: 849 FDAI 852
+
+
+  Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa
+    Posted date:  Feb 26, 2014  1:02 PM
+  Number of letters in database: 5,034,962
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 6,358,508
+Number of extensions: 254858
+Number of successful extensions: 615
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 608
+Number of HSP's successfully gapped: 6
+Length of query: 677
+Length of database: 5,034,962
+Length adjustment: 100
+Effective length of query: 577
+Effective length of database: 3,832,962
+Effective search space: 2211619074
+Effective search space used: 2211619074
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

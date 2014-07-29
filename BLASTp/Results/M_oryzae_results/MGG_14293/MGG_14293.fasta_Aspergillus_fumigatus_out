@@ -1,0 +1,86 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00007477 pep:known scaffold:CADRE:DS499599:1329286:13304...    98   1e-23
+
+>CADAFUBP00007477 pep:known scaffold:CADRE:DS499599:1329286:1330414:1
+           gene:CADAFUBG00007613 transcript:CADAFUBT00007613
+           description:"Cleavage and polyadenylylation specificity
+           factor subunit Fip1, putative"
+          Length = 338
+
+ Score = 97.8 bits (242), Expect = 1e-23,   Method: Compositional matrix adjust.
+ Identities = 58/144 (40%), Positives = 77/144 (53%), Gaps = 26/144 (18%)
+
+Query: 92  KYSEIRSIPQRSVATDGT-----------------APAKAAPNKKEDTVKGSDLPPVTKS 134
+           +++ +R+ PQR  + D +                 APA A P   +    GS  PPV  S
+Sbjct: 75  RHANLRAEPQRPSSADISTKSVTPTVTPKLEAATPAPASARPTAPQK--PGSAYPPVQAS 132
+
+Query: 135 NFDPYAIPEHKPTGKPLTQVNIDEDL-GEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQK 193
+             D  A P H  TGKP+   ++D D   ED  PWR+PG+DISDYFNYGFDEF+WA Y  K
+Sbjct: 133 TIDVNANPVHPSTGKPILSTDMDSDFPTEDDKPWRRPGSDISDYFNYGFDEFTWASYVLK 192
+
+Query: 194 QNQLRSEYSADAMSQNSKKMMEDL 217
+           Q +LR E       Q+ KK ++D+
+Sbjct: 193 QQELRKEV------QDQKKQLDDM 210
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 1,931,524
+Number of extensions: 75920
+Number of successful extensions: 235
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 231
+Number of HSP's successfully gapped: 12
+Length of query: 332
+Length of database: 4,796,137
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 3,864,033
+Effective search space: 919639854
+Effective search space used: 919639854
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

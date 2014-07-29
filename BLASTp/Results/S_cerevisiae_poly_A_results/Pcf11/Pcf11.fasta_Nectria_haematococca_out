@@ -1,0 +1,143 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP84055 pep:known chromosome:v2.0:8:2583511:2585745:-1 gene:...   106   4e-24
+NechaP75806 pep:known chromosome:v2.0:1:6357363:6359849:1 gene:N...    33   0.39 
+NechaP103057 pep:known chromosome:v2.0:1:1731552:1732474:1 gene:...    30   2.6  
+
+>NechaP84055 pep:known chromosome:v2.0:8:2583511:2585745:-1 gene:NechaG84055
+           transcript:NechaT84055 description:"Putative
+           uncharacterized protein"
+          Length = 663
+
+ Score =  106 bits (264), Expect = 4e-24,   Method: Compositional matrix adjust.
+ Identities = 64/183 (34%), Positives = 91/183 (49%), Gaps = 12/183 (6%)
+
+Query: 1   MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK 60
+           M  D+  + +D+   LE+L+ N R  I+ LT +A EN   A    + ++  I K  P +K
+Sbjct: 1   MTSDSAEVAEDYRLALEDLSSNMRFEISNLTTIARENTEHALAIAEVLQQHILKAPPNKK 60
+
+Query: 61  LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL 120
+           L A Y LDSI KNVG+PYT+YF RNLF  +  +Y +VD   R K+  M + W  P    +
+Sbjct: 61  LPALYVLDSIVKNVGTPYTLYFGRNLFKTFMESYAVVDQPVRRKMEEMLRTWKEPVRGSM 120
+
+Query: 121 ---PLFEGSALEKIEQFLIKASALHQKNLQAMLPTP-TVPLLLRD-IDKLTCLTSERLKN 175
+              P+F    +  IE  L+KA A       A +P P  +P   R  I      T   ++ 
+Sbjct: 121 DSRPVFTHELVRPIENALMKARA-------ASMPQPGMIPGRPRSAIPHRDTPTPPGMRG 173
+
+Query: 176 QPN 178
+           QP 
+Sbjct: 174 QPG 176
+
+
+
+ Score = 80.5 bits (197), Expect = 6e-16,   Method: Compositional matrix adjust.
+ Identities = 45/186 (24%), Positives = 80/186 (43%), Gaps = 46/186 (24%)
+
+Query: 421 CSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQSR 480
+           C+ CG+RF   E  K  +  H+DWHFR++ R   ++                  K    R
+Sbjct: 488 CTQCGRRFRTDEEGKKKKTAHMDWHFRVHQRANEAE------------------KRGMHR 529
+
+Query: 481 NWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLGSDR 540
+           +WY+    W   K  E                 ++D      H    DE +   +  S+ 
+Sbjct: 530 SWYVDQRDW--LKSREAV---------------DVD------HIPGPDEVAAQASKASEA 566
+
+Query: 541 SNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNGKYFHSTCY 600
+           +     + KY+ VPE S+ +   CPIC++     + + + EWVW +T+ V  + +H++C+
+Sbjct: 567 A-----KPKYIPVPEPSRGINTVCPICQDRFENKWLDTAQEWVWLDTVLVGNRAYHASCH 621
+
+Query: 601 HETSQN 606
+            E +++
+Sbjct: 622 AEATRD 627
+
+
+>NechaP75806 pep:known chromosome:v2.0:1:6357363:6359849:1 gene:NechaG75806
+           transcript:NechaT75806 description:"Predicted protein"
+          Length = 797
+
+ Score = 33.1 bits (74), Expect = 0.39,   Method: Compositional matrix adjust.
+ Identities = 29/104 (27%), Positives = 42/104 (40%), Gaps = 20/104 (19%)
+
+Query: 295 NISGVESFQEIEKKKSLNKI--------------NNLYASLKAEGLIYTPPKESIVTLYK 340
+           ++SG   F E+   K L  I              + LYA L   G +   P+  + TL  
+Sbjct: 400 SLSGGPRFHELPFPKRLQSILLGTAGQFKCRDDRDRLYAVLGIAGGVTVGPRTKMATLMD 459
+
+Query: 341 KLNGHSNYS-LDSHEKQLMKNLPKIPLLNDI-----LSDCKAYF 378
+           KL  HS +  L  H  +L+K   +I  +  I     LS   AY+
+Sbjct: 460 KLGSHSTHVILCQHLDELVKGSSQIVTVAGIIFSLALSTWGAYY 503
+
+
+>NechaP103057 pep:known chromosome:v2.0:1:1731552:1732474:1 gene:NechaG103057
+           transcript:NechaT103057 description:"Predicted protein"
+          Length = 294
+
+ Score = 30.0 bits (66), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 14/51 (27%), Positives = 28/51 (54%), Gaps = 4/51 (7%)
+
+Query: 424 CGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTR 474
+           C K+F  +++ K    +HL+ H++  +R  GSQ      +++   N+T+ R
+Sbjct: 173 CQKKFTRADNMK----QHLETHYKDKSRSSGSQRGHRASLADGRRNSTSGR 219
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 8,410,580
+Number of extensions: 338526
+Number of successful extensions: 689
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 689
+Number of HSP's successfully gapped: 10
+Length of query: 626
+Length of database: 7,529,425
+Length adjustment: 102
+Effective length of query: 524
+Effective length of database: 5,927,515
+Effective search space: 3106017860
+Effective search space used: 3106017860
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 57 (26.6 bits)

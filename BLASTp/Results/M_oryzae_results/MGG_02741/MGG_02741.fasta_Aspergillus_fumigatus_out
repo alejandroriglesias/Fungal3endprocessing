@@ -1,0 +1,125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00004133 pep:known scaffold:CADRE:DS499596:2329771:23311...   172   5e-49
+CADAFUBP00007513 pep:known scaffold:CADRE:DS499599:1413303:14157...    33   0.11 
+CADAFUBP00003968 pep:known scaffold:CADRE:DS499596:1849800:18504...    28   1.7  
+
+>CADAFUBP00004133 pep:known scaffold:CADRE:DS499596:2329771:2331115:1
+           gene:CADAFUBG00004205 transcript:CADAFUBT00004205
+           description:"RRM domain protein"
+          Length = 396
+
+ Score =  172 bits (437), Expect = 5e-49,   Method: Compositional matrix adjust.
+ Identities = 112/233 (48%), Positives = 135/233 (57%), Gaps = 29/233 (12%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGGDDNKHD----------QSYEGGDHQDGHGANDNE 45
+           MA ED  F+IDIYGD    N   QG D  KH+          Q+  G   QD    N  E
+Sbjct: 1   MATEDDNFDIDIYGDGGGYNTNDQG-DYIKHEDTELILDAPEQTQNGAASQD---QNSTE 56
+
+Query: 46  QYRDDQQXXXXXXXXXXXXXXXXTESATPQQSNP-----LKRKEGSDDRAIDPGATSAIL 100
+           Q    +Q                 +     Q+ P     +KRKE  DDR  DP AT+A+L
+Sbjct: 57  QKAQQEQGDSTGTNGEHVTQAHAVQQQEASQAAPAPQQGVKRKE-HDDRPSDPDATTALL 115
+
+Query: 101 ISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHR 160
+           IS+L WW TDDDIRGWI  AGCE+ELKD+TFSEHKVNGKSKGQ ++E T+ QAATA KH+
+Sbjct: 116 ISDLYWWTTDDDIRGWINAAGCEDELKDVTFSEHKVNGKSKGQAFVEFTTLQAATAAKHQ 175
+
+Query: 161 LESSGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYN 213
+           +E+   + +SQ GRK  V Y++P  NPFRTLPKD P   KD Q R  SG G+N
+Sbjct: 176 IENL--NVSSQGGRKYMVHYTNPHTNPFRTLPKDAPMR-KDNQARSLSG-GFN 224
+
+
+>CADAFUBP00007513 pep:known scaffold:CADRE:DS499599:1413303:1415735:1
+           gene:CADAFUBG00007649 transcript:CADAFUBT00007649
+           description:"DEAD box RNA helicase (Hca4), putative"
+          Length = 787
+
+ Score = 33.5 bits (75), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 31/119 (26%), Positives = 52/119 (43%), Gaps = 21/119 (17%)
+
+Query: 72  ATPQQSNPLKRKEGSDDRAIDPGATSAILISELQWWITDDDIRGWIREAGCEEELKDITF 131
+           A PQ+S  LKRK G ++            +S L   + D D++G  +         D+  
+Sbjct: 13  AKPQRSKTLKRKRGQEE------------LSSLIQRVEDLDLKGIFK------SFSDLPL 54
+
+Query: 132 SEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGASQAGRKQQVIYSSPTM-NPFR 189
+           SE   +G +    Y  LT  Q + A+ H L+     GA++ G  + + +  P + N +R
+Sbjct: 55  SEPTASGLASSH-YKTLTDIQ-SRAISHALKGRDILGAAKTGSGKTLAFLVPVLENLYR 111
+
+
+>CADAFUBP00003968 pep:known scaffold:CADRE:DS499596:1849800:1850475:-1
+           gene:CADAFUBG00004039 transcript:CADAFUBT00004039
+           description:"Glycine-rich RNA-binding protein, putative"
+          Length = 118
+
+ Score = 28.1 bits (61), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 20/73 (27%), Positives = 30/73 (41%), Gaps = 3/73 (4%)
+
+Query: 96  TSAILISELQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAAT 155
+            S + I  L W  TDD +R      G  EE   I   +   N +S+G  ++  +S   A 
+Sbjct: 1   MSKLFIGGLAWHTTDDALRQGFEPYGVVEEA--IVVKDRDTN-RSRGFGFVRFSSDTEAD 57
+
+Query: 156 AVKHRLESSGEDG 168
+           A    + +   DG
+Sbjct: 58  AAMDAMNNQEFDG 70
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 2,526,203
+Number of extensions: 98983
+Number of successful extensions: 256
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 253
+Number of HSP's successfully gapped: 8
+Length of query: 424
+Length of database: 4,796,137
+Length adjustment: 96
+Effective length of query: 328
+Effective length of database: 3,844,201
+Effective search space: 1260897928
+Effective search space used: 1260897928
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,237 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding subunit of the mRNA cleavage and polyadenylation
+factor; involved in poly(A) site recognition and required for both
+pre-mRNA cleavage and polyadenylation, 51% sequence similarity with
+mammalian AAUAA-binding subunit of CPSF
+         (1357 letters)
+
+Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa 
+           9115 sequences; 4,489,794 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGR45642 pep:novel supercontig:GCA_000167675.2:GL985078:461168:4...   272   1e-74
+EGR51427 pep:novel supercontig:GCA_000167675.2:GL985058:817882:8...    40   0.004
+EGR48544 pep:novel supercontig:GCA_000167675.2:GL985064:216836:2...    30   4.6  
+
+>EGR45642 pep:novel supercontig:GCA_000167675.2:GL985078:461168:465772:-1
+            gene:TRIREDRAFT_81291 transcript:EGR45642
+            description:"predicted protein"
+          Length = 1441
+
+ Score =  272 bits (695), Expect = 1e-74,   Method: Compositional matrix adjust.
+ Identities = 322/1430 (22%), Positives = 576/1430 (40%), Gaps = 197/1430 (13%)
+
+Query: 28   ELLVVRTNILSVYRPTRDGKLYLTDEFKFHGLITDIGLIPQKDSPLS----CLLLCTGVA 83
+            E ++VRT        T + KL L  E    G +  IGL   + S  +     LL+    A
+Sbjct: 83   ETMLVRTER------TNNTKLVLITEIPLAGTV--IGLARLRTSRTASGGEVLLIAYKAA 134
+
+Query: 84   KISILKFNTLTNSIDTLSLHYYEGK-FKGKSLVEL--AKISTLRMDPGSSCALL-FNNDI 139
+            K+ + +++   N ++T+S+HYYE +  +G    E+    ++ L  DPGS CA L F    
+Sbjct: 135  KLCMAEWDPRKNELETISIHYYEKEELQGAPWEEVFGEYVNHLEADPGSRCAALKFGTRN 194
+
+Query: 140  IAFLPFHVNKNXXXXXXXXXXXXXXXXXLIHSMNQKSQGTNTFNKRKRTKLGDK-----F 194
+            +A LPF  ++                   +   ++   G     ++     GD       
+Sbjct: 195  LAILPFRRSEEDLE---------------MEDWDEDLDGPRPVKEQAAAVNGDSDNVEAA 239
+
+Query: 195  TAPSVVLVASELYEGAKNIIDIQFLKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILT 254
+              PS VL    L     + + + FL  + +PT  +L   +   A       L   Y + T
+Sbjct: 240  YTPSFVLRLPLLDPSLLHPVHLTFLHEYREPTFGVLSSSQAPAASLGARDHL--SYKVFT 297
+
+Query: 255  LNIQPAESATKIESTTIAFVKELPWDLHTIVPVS---NGAIIVGTNELAFLDNTG----- 306
+            L++Q      +  STTI  V  LP DL+ ++ +     GA++VG NEL  +D +G     
+Sbjct: 298  LDLQ------QRASTTILSVTGLPHDLYRVIALPAPVGGALLVGQNELIHVDQSGKSNGV 351
+
+Query: 307  -VLQSTVLLNSFADKELQKTKI-INNSSLEIMFREKNTTSIWIPXXXXXXXXXXXDETLL 364
+             V     L  SF+  +    K+ + N ++E++  E                     E LL
+Sbjct: 352  AVNPMAKLATSFSLTDQSDLKLRLENCAIEVLAIENG-------------------ELLL 392
+
+Query: 365  LMDLKSNIYYIQMEAEGRLL--IKFDIFKLPIVNDLLKENSNPKCITRLNATNSNKNMDL 422
+            +++    +  I  + +GR +  +   +       ++LK  S   C++RL      KN  L
+Sbjct: 393  ILN-DGRLGIISFKIDGRTVSGLSVRLVGADCGGNVLK--SRATCVSRLG-----KNT-L 443
+
+Query: 423  FIGFGSGNALVLRLNNLKSTIETREAHN------PSSGTNSLMXXXXXXXXXXXXXXXXX 476
+            F+G  + +++VL  +  + T E R+                 +                 
+Sbjct: 444  FVGSETSDSVVLGWSR-RQTQEKRKKSRLIDPDLALEVDELDLEDDEEDDDLYGDDSVAT 502
+
+Query: 477  APENGLTTNDSKGTVETVQPFDIELLSSLRNVGPITSLTVGKVSSIDDVVKGLPNPN-KN 535
+             P+       +K    T +  D+     L ++ PI  +T G+ +   D  +   N   + 
+Sbjct: 503  KPQQLPNGGPAKSGDLTFRIHDV-----LLSIAPIQDVTCGQAAFPPDSEEATLNRGVRA 557
+
+Query: 536  EYSLVATSGNGSGSHLTVIQTSVQPEIELALKFISITQIWNLKIKG-------------- 581
+            +  L    G G    L +I   +QP +    +F      W + +K               
+Sbjct: 558  DLQLACAVGRGEAGSLAIINREIQPRVIGRFEFPEARGFWTMCVKKPVPKSLGANAGVAG 617
+
+Query: 582  -------RDRYLITTDSTKSRSDIYESDNNFKLHKGGRLRRDAT--------TVYISMFG 626
+                    D+++I     K   D YE+ + + L   G      T        TV     G
+Sbjct: 618  DYDTPIQHDKFMIVA---KVDLDGYETSDVYALTAAGFETLKETEFEPAAGFTVEAGTMG 674
+
+Query: 627  EEKRIIQVTTNHLYLYDTHFRRLTTIKF-------DYEVIHVSVMDPYILVTVSRGDIKI 679
+            ++  +IQV  + +  Y+     +  +         +   +  S++DPY+ +   R D  +
+Sbjct: 675  KQMVVIQVLKSEVRCYNGDLNLIQILPMLDEETGAEPRAVSASIVDPYLFIV--RDDGSV 732
+
+Query: 680  FXXXXXXXXXXXXVDLPEI-LNEMVITSGLILKSN---MCNEFLIGLSKSQEEQLLFTFV 735
+            F            ++  +  L      +G + K       + +     ++ E  ++F   
+Sbjct: 733  FLAQIDSNNEIEEMEKTDSSLTSTKWVAGCLYKDTKGIFQSSYSDSTKQTSEAVMMFLLN 792
+
+Query: 736  TADNQIIFFTKDHNDRIFQLNGVDQLNESLYISTYQLGDEIVPDPSIKQVMINKLG---H 792
+            +     IF   D +  ++   G+  +    ++S            ++ ++++  LG   H
+Sbjct: 793  STGALHIFALPDLSKAVYVAEGLSSIPP--HLSAGYAARRGATRETLTEIVVADLGDAVH 850
+
+Query: 793  DNKEEYLTILTFGGEIYQYRKLPQRRSRFYRNVTRNDLAITGAPDNAYAKGVSSIE---- 848
+             +    L   T    IY+  +LP   +    +   + L    +P+   AK  S++E    
+Sbjct: 851  ASPYLILRHSTNDLTIYEPIRLPANETA---HTLSDTLFFKKSPNAVLAK--SAVEDPSD 905
+
+Query: 849  ---RIMHYFP-----DYNGYSVIFVTGSVPYILIKEDDSTPKIFKFGNIPLVSV----TP 896
+               +   Y P     +  GYS +F+ G  P  +IK   S P++       +  +    T 
+Sbjct: 906  DTAQPPRYVPLRICANVGGYSSVFLPGPSPAFVIKSSRSVPRVVGLQGHGVRGMSTFHTE 965
+
+Query: 897  WSERSVMCVDDIKNARVYTLTTDNMYYGNKLPLKQIKISNVLDDYKTLQKLVYHERAQLF 956
+              +R  +  D    ARV  L +   +    + +K++ +    D    ++ + YH   + +
+Sbjct: 966  GCDRGFIYADSEGIARVTQLPSKTNFTELGISVKKVPLG--FD----VRHVAYHHPTETY 1019
+
+Query: 957  LVSYCKRVPYEALGEDGEKVIGYDENVPHAEGFQSGIL-LINPKSWKVIDKIDFPKNSVV 1015
+            +        +E   +D        E+VP       G L LINP +W VI  ID      +
+Sbjct: 1020 IAGCAVTENFELPKDDDYHKEWARESVPLPPTAVRGALKLINPITWTVIHSIDMEAGESI 1079
+
+Query: 1016 NEMRSSMIQINSKTKRKREYIIAGVANATTEDTPPTGAFHIYDVIEVVPEPGKPDTNYKL 1075
+              M++  ++++ +TK +R  +  G A +  ED P  G   +YD++ V+PEPGKP+TN +L
+Sbjct: 1080 ECMKTLHLEVSEETKERRMLLAVGTALSRGEDLPTRGRVQVYDIVTVIPEPGKPETNKRL 1139
+
+Query: 1076 KEIFQEEVS-GTVSTVCEVS--GRFMISQSQKVLVRDIQEDNSVIPVAFLDIPVFVTDSK 1132
+            K + +E++  G V+ + E+   G  +++Q QK +VR ++ED S++PVAFLD+   V+  +
+Sbjct: 1140 KLLAKEDIPRGGVTALSEIGTQGLMLVAQGQKCMVRGLKEDGSLLPVAFLDMSCHVSSVR 1199
+
+Query: 1133 SF--GNLLIIGDAMQGFQFIGFDAEPYRMISLGRSMSKFQTMSLEFLVNGGDMYFAATDA 1190
+                  L +I DA +G  F G+  EPY    LG+S      +  +FL +G D+   A DA
+Sbjct: 1200 ELPGTGLCLIADAFKGLWFAGYTEEPYTFKVLGKSSGSLPLLVADFLPDGEDLSMVAVDA 1259
+
+Query: 1191 DRNVHVLKYAPDEPNSLSGQRLVHCSSFTL-HSTNSCMMLLPRNEEFGSPQVPSFQNVGG 1249
+            D ++HVL++ P+ P SL G  L+H ++F++  +  +  +LLPR          S  +   
+Sbjct: 1260 DGDMHVLEFNPEHPKSLQGHLLLHRTTFSVTPNPPTSTLLLPRTLPASQSSQDSSSSSST 1319
+
+Query: 1250 Q--------VDGSVFKIVPLSEEKYRRLYVIQQQIIDRELQLGGLNPRMERLANDFYQMG 1301
+            Q          GS+  + PL E  YRRL  +  Q++   +  GGL+ R  R       M 
+Sbjct: 1320 QPHILLLASPSGSIAALTPLPESAYRRLLSVTNQLLPALVPHGGLHARAHRTPEGGGGMS 1379
+
+Query: 1302 HSM--------RPMLDFNVIRRFCGLAIDRRKSIAQKAGRHAHFEAWRDI 1343
+             ++        R ++D  V+ R+  L   +R  +A + G     E   D+
+Sbjct: 1380 RTVGVETAATGRAIVDGTVLTRWNELGAAKRAEVATRGGYDGVTEMREDL 1429
+
+
+>EGR51427 pep:novel supercontig:GCA_000167675.2:GL985058:817882:821490:-1
+           gene:TRIREDRAFT_56582 transcript:EGR51427
+           description:"predicted protein"
+          Length = 1161
+
+ Score = 40.0 bits (92), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 26/90 (28%), Positives = 43/90 (47%), Gaps = 1/90 (1%)
+
+Query: 11  TVVSHSLATHFTTSDYEELLVVRTNILSVYRPTRDGKLYLTDEFKFHGLITDIGLIPQKD 70
+           T + H+L   F + D E+L+V + N L ++R   +G   L  +   HG I  +  +  KD
+Sbjct: 11  TSIRHALRIRFLSPDIEDLVVAKANRLEIWRVHEEGMTCLHTKV-IHGTIDMLQRLQPKD 69
+
+Query: 71  SPLSCLLLCTGVAKISILKFNTLTNSIDTL 100
+           S    L + T   +   L +N  TN +D +
+Sbjct: 70  SATDLLFIGTDRLQYFNLAWNPETNQLDAV 99
+
+
+
+ Score = 29.6 bits (65), Expect = 6.8,   Method: Compositional matrix adjust.
+ Identities = 55/272 (20%), Positives = 104/272 (38%), Gaps = 15/272 (5%)
+
+Query: 1070 DTNYKLKEIFQEEVSGTVSTVCEVSGRFMISQSQKVLVRDIQEDNS----VIPVAFLDIP 1125
+            D + +L +I    + G    +  +    +   S+ V+V    ++ S    +  VA     
+Sbjct: 879  DESRQLYQIASHNLKGVCRCLAMLDDYIVAGLSKTVVVYSYAQETSTAASLTKVASYRPA 938
+
+Query: 1126 VFVTDSKSFGNLLIIGDAMQGFQFIGFD-AEPYRMISLGRSMSKFQTMSLEFLVNGGDMY 1184
+             F  D    GN++ +GD MQ    I F   +  +M  L      +Q      +    +  
+Sbjct: 939  SFPVDLDVSGNMIGVGDLMQSLTLIEFTPPQDGKMAKLEEKARHYQQAWTTSVCALDETR 998
+
+Query: 1185 FAATDADRNVHVLKYAPDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPRNEEFGSPQVPSF 1244
+            +   DA  NV VL+   + P      +L   S   +    + +  L       +  VP  
+Sbjct: 999  WLEADAQGNVIVLRQRQEAPTEQDRSQLEITSELNIGEQINRIRKLQVAPGENAVVVP-- 1056
+
+Query: 1245 QNVGGQVDGSVF---KIVPLSEEKYRRLYVIQQQIIDRELQL-GGLNPRMERLANDFYQM 1300
+            +   G ++G+++    I P    KY+ L +  Q  +   +Q  G L+  + R   +  + 
+Sbjct: 1057 KAFLGSIEGTLYLYGDIAP----KYQDLLMTFQSRLQGYIQTPGNLSFDLWRAFRNQARE 1112
+
+Query: 1301 GHSMRPMLDFNVIRRFCGLAIDRRKSIAQKAG 1332
+            G S    +D  +I RF  L   +++ + +  G
+Sbjct: 1113 GESPYRFVDGEMIERFLDLDESQQELVCEGLG 1144
+
+
+>EGR48544 pep:novel supercontig:GCA_000167675.2:GL985064:216836:219085:1
+            gene:TRIREDRAFT_48001 transcript:EGR48544
+            description:"predicted protein"
+          Length = 558
+
+ Score = 30.0 bits (66), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 34/125 (27%), Positives = 54/125 (43%), Gaps = 15/125 (12%)
+
+Query: 933  KISNVLD---DYKTLQKLVYHERAQLFLVSYCKRVPYEALGEDGEKVIGYDENVPHAEGF 989
+            K S+ LD     K++   +   RAQ  +    K   YE    D ++ +  D +   A   
+Sbjct: 324  KYSDALDIDPSNKSMNAKLLQNRAQCKI----KLHQYEEAIADSDRAVSLDPSYTKARKT 379
+
+Query: 990  QSGILLINPK------SWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGV-AN 1042
+            ++  L    K       WK I ++D   NSV  E+R + +++  K+ RK  Y I G+  N
+Sbjct: 380  KANALGKTGKWEECVREWKAIQELDPTDNSVRQEIRRAELEM-KKSLRKDYYKIMGLDKN 438
+
+Query: 1043 ATTED 1047
+            A   D
+Sbjct: 439  ADAND 443
+
+
+  Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 4,489,794
+  Number of sequences in database:  9115
+  
+Lambda     K      H
+   0.319    0.136    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9115
+Number of Hits to DB: 11,051,045
+Number of extensions: 457804
+Number of successful extensions: 890
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 883
+Number of HSP's successfully gapped: 9
+Length of query: 1357
+Length of database: 4,489,794
+Length adjustment: 105
+Effective length of query: 1252
+Effective length of database: 3,532,719
+Effective search space: 4422964188
+Effective search space used: 4422964188
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 58 (26.9 bits)

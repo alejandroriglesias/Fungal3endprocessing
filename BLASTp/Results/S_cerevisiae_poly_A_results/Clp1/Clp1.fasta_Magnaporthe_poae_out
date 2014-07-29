@@ -1,0 +1,99 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_12038T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    43   6e-05
+MAPG_00565T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   0.93 
+
+>MAPG_12038T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.131:15:784:
+           1 gene:MAPG_12038 transcript:MAPG_12038T0
+           description:"Clp1"
+          Length = 197
+
+ Score = 42.7 bits (99), Expect = 6e-05,   Method: Compositional matrix adjust.
+ Identities = 28/91 (30%), Positives = 48/91 (52%), Gaps = 6/91 (6%)
+
+Query: 274 VNIMLVLCSETDPLWEKVKKTFGPE---LGNN-NIFFIPKLDGVSAVDDVYKRSLQRTSI 329
+           VNI++VL S    L +++ + F  E   LG    +  + K DGV   D+ + +  +  +I
+Sbjct: 9   VNIVVVLGSAR--LTQELTRRFATEKTSLGETVGVVSLDKSDGVVERDEGFLQQCREAAI 66
+
+Query: 330 REYFYGSLDTALSPYAIGVDYEDLTIWKPSN 360
+           +EYF+G     LSP    V ++D+ I+ P+ 
+Sbjct: 67  KEYFFGDASLTLSPSTQQVAFDDVHIYMPAG 97
+
+
+>MAPG_00565T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:1762789:1
+           765472:1 gene:MAPG_00565 transcript:MAPG_00565T0
+           description:"GPN-loop GTPase 3 like"
+          Length = 297
+
+ Score = 30.4 bits (67), Expect = 0.93,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 27/50 (54%), Gaps = 4/50 (8%)
+
+Query: 118 MSNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIF 167
+           MS F    V+++G +  GK++   +L ++ L+ N     Y+NLDP    F
+Sbjct: 1   MSKF---GVMVMGPAGAGKSTFCASLITH-LRMNRRSSFYVNLDPAAESF 46
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 4,114,084
+Number of extensions: 170763
+Number of successful extensions: 348
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 348
+Number of HSP's successfully gapped: 4
+Length of query: 445
+Length of database: 4,928,244
+Length adjustment: 96
+Effective length of query: 349
+Effective length of database: 3,836,724
+Effective search space: 1339016676
+Effective search space used: 1339016676
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

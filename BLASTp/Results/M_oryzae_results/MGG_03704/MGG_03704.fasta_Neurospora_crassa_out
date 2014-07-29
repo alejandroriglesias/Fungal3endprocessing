@@ -1,0 +1,90 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000002984 pep:known supercontig:ASM18292v1:7.9:714648:71...   375   e-131
+
+>EFNCRP00000002984 pep:known supercontig:ASM18292v1:7.9:714648:715509:-1
+           gene:EFNCRG00000002981 transcript:EFNCRT00000002984
+           description:"RNA polymerase II subunit A C-terminal
+           domain phosphatase ssu-72"
+          Length = 266
+
+ Score =  375 bits (963), Expect = e-131,   Method: Compositional matrix adjust.
+ Identities = 174/234 (74%), Positives = 195/234 (83%)
+
+Query: 26  GFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSY 85
+           GFKLKFCTVCASNQNRSME HL+LS ANYPVISFGTGSLVRLPGP+ITQPNVYKFN TSY
+Sbjct: 33  GFKLKFCTVCASNQNRSMEGHLRLSLANYPVISFGTGSLVRLPGPSITQPNVYKFNETSY 92
+
+Query: 86  DAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEA 145
+           D++Y+ELE KD RLY ANG+LNML RNR VK GPERWQDWQIG+PR +H  D+G++G E 
+Sbjct: 93  DSIYRELEAKDPRLYRANGLLNMLGRNRQVKWGPERWQDWQIGMPRTKHKDDKGADGMEG 152
+
+Query: 146 GVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSL 205
+           GV D+V TCEERCWDAV+EDL  RGSPLNRPVHVIN+DIKDNHEEA+VGG+ I+DLA+SL
+Sbjct: 153 GVADVVITCEERCWDAVIEDLLNRGSPLNRPVHVINIDIKDNHEEASVGGRAIVDLADSL 212
+
+Query: 206 NRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPATWTLAWF 259
+           N+ AAEER+K+                  RV DVLAEWQERWPNLPATWTLAWF
+Sbjct: 213 NKIAAEEREKVGASAFDSGSVGARSGFDERVPDVLAEWQERWPNLPATWTLAWF 266
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 2,600,963
+Number of extensions: 106771
+Number of successful extensions: 232
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 231
+Number of HSP's successfully gapped: 3
+Length of query: 259
+Length of database: 4,779,891
+Length adjustment: 91
+Effective length of query: 168
+Effective length of database: 3,884,542
+Effective search space: 652603056
+Effective search space used: 652603056
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

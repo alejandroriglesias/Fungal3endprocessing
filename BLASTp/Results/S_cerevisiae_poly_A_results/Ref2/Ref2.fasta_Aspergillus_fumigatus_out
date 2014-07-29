@@ -1,0 +1,84 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00007868 pep:known scaffold:CADRE:DS499600:302760:305085...    28   4.4  
+
+>CADAFUBP00007868 pep:known scaffold:CADRE:DS499600:302760:305085:1
+           gene:CADAFUBG00008006 transcript:CADAFUBT00008006
+           description:"C6 transcription factor, putative"
+          Length = 755
+
+ Score = 28.5 bits (62), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 35/65 (53%), Gaps = 10/65 (15%)
+
+Query: 342 LKKKTKISVQDSNVQSILRNGKPKKARISSIKF-------LDDSQLIKVYGDDLPNQGLQ 394
+           L+++   ++ + NVQ+ L +G      I++ ++       LDD  L++ YG+ LP +   
+Sbjct: 363 LRRRLWYTILELNVQAALDSGM--APMITAAEYNTQPPSNLDDDDLLEAYGETLPAKASS 420
+
+Query: 395 VSPTQ 399
+           + PTQ
+Sbjct: 421 I-PTQ 424
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 4,127,155
+Number of extensions: 163735
+Number of successful extensions: 261
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 261
+Number of HSP's successfully gapped: 3
+Length of query: 533
+Length of database: 4,796,137
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 3,824,369
+Effective search space: 1663600515
+Effective search space used: 1663600515
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

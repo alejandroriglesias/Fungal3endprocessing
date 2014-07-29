@@ -1,0 +1,177 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa 
+           12,406 sequences; 5,836,678 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EHK16839 pep:novel supercontig:ASM17099v1:90:1576059:1578514:-1 ...    85   3e-17
+EHK20071 pep:novel supercontig:ASM17099v1:81:328166:330300:1 gen...    35   0.066
+EHK17613 pep:novel supercontig:ASM17099v1:88:698858:707875:-1 ge...    30   3.5  
+EHK23225 pep:novel supercontig:ASM17099v1:5:39659:40194:1 gene:T...    28   4.2  
+EHK22662 pep:novel supercontig:ASM17099v1:6:1873669:1876656:-1 g...    28   9.1  
+
+>EHK16839 pep:novel supercontig:ASM17099v1:90:1576059:1578514:-1
+           gene:TRIVIDRAFT_65418 transcript:EHK16839
+           description:"hypothetical protein"
+          Length = 733
+
+ Score = 85.1 bits (209), Expect = 3e-17,   Method: Compositional matrix adjust.
+ Identities = 49/161 (30%), Positives = 84/161 (52%), Gaps = 25/161 (15%)
+
+Query: 626 WLHVLIRLVTRG----------IEAQEAS------DLIREELLGFFIQDFEQRVSLIIEW 669
+           W+ +L RL TR            EA E+S      + IRE L  + ++DF + + + + W
+Sbjct: 528 WMTILTRLATRSSAGLEEISVKAEADESSRPPSLNNSIREILYNYIMEDFRKHIDVAVSW 587
+
+Query: 670 LNEEWFF----QTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSLQSDHL 725
+           L EEW+     Q +    P  Y+K +LR+++   P+L +   +   R +SE+P L    L
+Sbjct: 588 LCEEWYNDKVQQKAGGDHPLYYEKCTLRLIDGFLPYL-HPQDKVLTRFLSEIPELNRAIL 646
+
+Query: 726 EALKPICLDPARSSLGFQTLKFLIMFRPPVQ----DTVRDL 762
+             +K +C DP+ + L   +L +L++ RPP++    DTV+D+
+Sbjct: 647 SRVKHMCRDPSVTQLALTSLLYLVIMRPPIKEAALDTVQDI 687
+
+
+
+ Score = 60.5 bits (145), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 53/235 (22%), Positives = 104/235 (44%), Gaps = 42/235 (17%)
+
+Query: 43  KLKLPLAKFFTQLVLDVVSMDSPIANTERPFIAAQYLPLLLAMAQSTADVLVYKNIVLIM 102
+           K  + L ++ T  + +  +  + + N+E+  +    L  L ++ ++  D  V +N++   
+Sbjct: 44  KAPIELRRWVTDFLAEAFATPA-LPNSEKETMQPYVLTTLESLIENEVDAQVLRNVIQTA 102
+
+Query: 103 CASYPLV--------LDLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVEQ 154
+            + YPL         L ++  + +   ++++  +K+ +L  W    P             
+Sbjct: 103 ASIYPLAMRWMSVASLPIINNSYDTVTWERMVSIKQKILQLWDNVPPT------------ 150
+
+Query: 155 WLAQIDQNIGVKLATIKFISEVVLSQT-------KSPSGNEINSSTIPDNHPVLNKPALE 207
+                     V++  IKF   VVL+Q+       +   G +++   +P NH  L+   LE
+Sbjct: 151 ----------VRICCIKFAQRVVLAQSVASGAEHRYGGGLDVSLDKVPPNHQTLDPRTLE 200
+
+Query: 208 SEAKRLLDMLLNYLIEEQYMVSSVFI-GIINSLSFVIKRRPQTTIRILSGLLRFN 261
+           +EA  LLD +L+ L   Q     + +   +N LS +++ RP  + RIL+ LL FN
+Sbjct: 201 AEASGLLDRMLSIL---QGNNDGLLVDATLNCLSIMVRTRPAMSSRILNALLNFN 252
+
+
+>EHK20071 pep:novel supercontig:ASM17099v1:81:328166:330300:1
+           gene:TRIVIDRAFT_171594 transcript:EHK20071
+           description:"hypothetical protein"
+          Length = 584
+
+ Score = 35.4 bits (80), Expect = 0.066,   Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 25/51 (49%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + F++ F PP  D  RD +H++ +   G   +  SLL
+Sbjct: 408 ICTDVAARGLDIPAVDFIVQFDPP--DNTRDYIHRVGRTARGADAKGRSLL 456
+
+
+>EHK17613 pep:novel supercontig:ASM17099v1:88:698858:707875:-1
+            gene:TRIVIDRAFT_42640 transcript:EHK17613
+            description:"hypothetical protein"
+          Length = 3005
+
+ Score = 30.0 bits (66), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 20/73 (27%), Positives = 37/73 (50%), Gaps = 3/73 (4%)
+
+Query: 169  TIKFISEVVLSQTKSPSGNEINSSTIPDNHPVLNKPA---LESEAKRLLDMLLNYLIEEQ 225
+             +KFI ++V  QTK+  GN +NS  +   +     PA   +E +A R L+  +  ++E +
+Sbjct: 1994 AVKFILDMVDEQTKARMGNVVNSEPVSAANGTPTSPATPSVEKDAARDLEDRIKGILEGR 2053
+
+Query: 226  YMVSSVFIGIINS 238
+               +S    + N+
+Sbjct: 2054 KFSTSTGFALNNN 2066
+
+
+>EHK23225 pep:novel supercontig:ASM17099v1:5:39659:40194:1
+           gene:TRIVIDRAFT_37419 transcript:EHK23225
+           description:"hypothetical protein"
+          Length = 102
+
+ Score = 28.1 bits (61), Expect = 4.2,   Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 26/65 (40%)
+
+Query: 360 LWKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLKILQKYTLNKASHQGNTFFNN 419
+           LW+ Q   + S    + K   P    A  + TE +L+  K    Y    A   G+ F  N
+Sbjct: 27  LWRGQALYIRSLFEANRKVTDPRQQRALLAETEKLLESWKHPDPYVPPCAPGAGSKFERN 86
+
+Query: 420 SPKPI 424
+            P PI
+Sbjct: 87  LPSPI 91
+
+
+>EHK22662 pep:novel supercontig:ASM17099v1:6:1873669:1876656:-1
+           gene:TRIVIDRAFT_54018 transcript:EHK22662
+           description:"hypothetical protein"
+          Length = 995
+
+ Score = 28.5 bits (62), Expect = 9.1,   Method: Compositional matrix adjust.
+ Identities = 22/86 (25%), Positives = 33/86 (38%), Gaps = 11/86 (12%)
+
+Query: 340 PSKGNSKKTLSRQDKLKYISLWKRQLSALLSTLGVSTKTPTPVSAPATGSSTENMLDQLK 399
+           P  GN  +         Y + WKR ++ LL  L  +     P    ATG  ++ + + ++
+Sbjct: 741 PQYGNPGR--------GYEAFWKRLVTVLLGFLAATIVQLFPKPPSATGHVSKTLANTVR 792
+
+Query: 400 ILQKYTLNKASHQGNTFFNNSPKPIS 425
+            L  Y     SH   T   N   PI 
+Sbjct: 793 TLSDYYALLLSHWSRT---NPEGPIG 815
+
+
+  Database: Trichoderma_virens.ASM17099v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 5,836,678
+  Number of sequences in database:  12,406
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12406
+Number of Hits to DB: 7,028,141
+Number of extensions: 259173
+Number of successful extensions: 772
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 769
+Number of HSP's successfully gapped: 10
+Length of query: 785
+Length of database: 5,836,678
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,571,266
+Effective search space: 3122174678
+Effective search space used: 3122174678
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 57 (26.6 bits)

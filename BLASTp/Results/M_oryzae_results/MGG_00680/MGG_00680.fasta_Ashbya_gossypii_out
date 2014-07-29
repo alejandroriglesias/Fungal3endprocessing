@@ -1,0 +1,154 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS52353 pep:known chromosome:ASM9102v1:V:26839:27468:1 gene:AGO...   177   7e-55
+AAS51982 pep:known chromosome:ASM9102v1:IV:816301:817443:1 gene:...    40   2e-04
+AAS51564 pep:known chromosome:ASM9102v1:IV:84793:85441:1 gene:AG...    30   0.21 
+AAS51257 pep:known chromosome:ASM9102v1:III:413857:415656:1 gene...    29   0.51 
+AAS54533 pep:known chromosome:ASM9102v1:VII:1115568:1116470:-1 g...    28   0.91 
+AAS53870 pep:known chromosome:ASM9102v1:VI:1343508:1344260:-1 ge...    28   1.2  
+AAS53450 pep:known chromosome:ASM9102v1:VI:572660:574009:-1 gene...    28   1.7  
+AAS54375 pep:known chromosome:ASM9102v1:VII:801440:803008:-1 gen...    27   2.1  
+
+>AAS52353 pep:known chromosome:ASM9102v1:V:26839:27468:1 gene:AGOS_AEL331W
+           transcript:AAS52353 description:"mRNA 3'-end-processing
+           protein YTH1"
+          Length = 209
+
+ Score =  177 bits (449), Expect = 7e-55,   Method: Compositional matrix adjust.
+ Identities = 92/190 (48%), Positives = 111/190 (58%), Gaps = 23/190 (12%)
+
+Query: 12  AMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYAS---GGNCPNGTRCLERHVADPS 68
+           +++      Y F F PFL+Q Y  SL  DRP+C+ Y S     +CPNGT C  +HV    
+Sbjct: 2   SLVHPDTSNYPFRFAPFLRQEYSFSLDPDRPVCQYYNSKEGASSCPNGTLCPNKHVL--- 58
+
+Query: 69  QLSNAQSGYGSGKRDGPAF-NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNG 127
+                           P F N +VCKHWLRGLCKK D CE+LHEYNLR+MPEC F+ +NG
+Sbjct: 59  ----------------PIFQNKIVCKHWLRGLCKKNDQCEYLHEYNLRKMPECVFFTKNG 102
+
+Query: 128 YCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPDGRLC 187
+           YC    EC YLHIDP SK+  C  Y  GFCPLG  C  KHV++ +CP Y+ GFCP GR C
+Sbjct: 103 YCTQSPECQYLHIDPTSKVQQCEDYRMGFCPLGTACPCKHVKKIICPKYVTGFCPLGRDC 162
+
+Query: 188 KQGAHPGWNP 197
+                P + P
+Sbjct: 163 DWEHPPFYVP 172
+
+
+>AAS51982 pep:known chromosome:ASM9102v1:IV:816301:817443:1 gene:AGOS_ADR062W
+           transcript:AAS51982 description:"ADR062Wp"
+          Length = 380
+
+ Score = 40.0 bits (92), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 52/117 (44%), Gaps = 14/117 (11%)
+
+Query: 58  RCLERHVADPSQLSNAQSGY-GSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRR 116
+           RC  R  A  SQ S A++   G G+   P F +   K  +  L    +      + N   
+Sbjct: 16  RCRARTRAKSSQGSRARAASDGEGEGGRPGFTAQHQKAIIEHLLITKNSAP---QKNYSH 72
+
+Query: 117 MPECNFYIRNGYCQNGEECLYLH-----IDPQSKLPPCPHYDQGFCPLGPRCSKKHV 168
+           +P C F+ R G CQ G  C + H     +  Q+   PC ++++G C  G +C+  H+
+Sbjct: 73  VP-CKFF-RQGACQAGSSCPFSHSLNVLVADQT---PCKYFEKGTCKFGAKCANAHI 124
+
+
+>AAS51564 pep:known chromosome:ASM9102v1:IV:84793:85441:1 gene:AGOS_ADL355W
+           transcript:AAS51564 description:"ADL355Wp"
+          Length = 192
+
+ Score = 30.0 bits (66), Expect = 0.21,   Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 29/59 (49%), Gaps = 8/59 (13%)
+
+Query: 87  FNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSK 145
+           F   VCK +  G C +G+ C F+H    RR+    ++I NG   +  +    HI PQ +
+Sbjct: 117 FREAVCKSYEEGTCDRGEQCNFIH----RRI--IGYHIANGLMLSQWKS--RHIMPQHR 167
+
+
+>AAS51257 pep:known chromosome:ASM9102v1:III:413857:415656:1
+           gene:AGOS_ACR030W transcript:AAS51257
+           description:"ACR030Wp"
+          Length = 599
+
+ Score = 29.3 bits (64), Expect = 0.51,   Method: Compositional matrix adjust.
+ Identities = 24/90 (26%), Positives = 41/90 (45%), Gaps = 11/90 (12%)
+
+Query: 42  PICKVYASGGNCPNG--TRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRG- 98
+           P+  V+A+G  C     +RC++   ADPS +S    GY +    G A  S++    L G 
+Sbjct: 240 PMLLVFAAGTFCSAELLSRCID---ADPSMISYGDLGYAAFGSKGRALISVLFTLDLLGC 296
+
+Query: 99  ----LCKKGDGCEFLH-EYNLRRMPECNFY 123
+               +   GD    L  +Y++ +    +F+
+Sbjct: 297 GVSLIILFGDSLNALFPQYSVTQFKILSFF 326
+
+
+>AAS54533 pep:known chromosome:ASM9102v1:VII:1115568:1116470:-1
+           gene:AGOS_AGR044C transcript:AAS54533
+           description:"AGR044Cp"
+          Length = 300
+
+ Score = 28.5 bits (62), Expect = 0.91,   Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 25/53 (47%), Gaps = 9/53 (16%)
+
+Query: 98  GLCKKGDGCEF---LHEYNLR------RMPECNFYIRNGYCQNGEECLYLHID 141
+           G CK  + C+F   LHE   +      R   C  + + GYC+ G+ C + H D
+Sbjct: 198 GACKYDNKCQFAHGLHELKFKERSDKFRTKPCINWSKTGYCRYGKRCCFKHGD 250
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,291,003
+Number of extensions: 59426
+Number of successful extensions: 140
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 123
+Number of HSP's successfully gapped: 16
+Length of query: 276
+Length of database: 2,335,236
+Length adjustment: 87
+Effective length of query: 189
+Effective length of database: 1,919,724
+Effective search space: 362827836
+Effective search space used: 362827836
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 49 (23.5 bits)

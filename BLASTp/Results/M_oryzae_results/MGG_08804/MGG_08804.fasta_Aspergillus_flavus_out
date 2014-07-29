@@ -1,0 +1,171 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00007143 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:4...   182   3e-51
+CADAFLAP00007377 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    30   1.3  
+CADAFLAP00007655 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    30   1.4  
+CADAFLAP00005852 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:1...    30   1.5  
+CADAFLAP00006099 pep:known supercontig:JCVI-afl1-v2.0:EQ963477:7...    29   3.0  
+CADAFLAP00012277 pep:known supercontig:JCVI-afl1-v2.0:EQ963485:3...    28   6.2  
+
+>CADAFLAP00007143 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:421329:423157:1
+           gene:CADAFLAG00007143 transcript:CADAFLAT00007143
+           description:"mRNA cleavage factor complex II protein
+           Clp1, putative "
+          Length = 558
+
+ Score =  182 bits (463), Expect = 3e-51,   Method: Compositional matrix adjust.
+ Identities = 156/566 (27%), Positives = 242/566 (42%), Gaps = 119/566 (21%)
+
+Query: 1   MSIPGLGLIP----EKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTELA 56
+           MS+PGL L       + A +     +L    E+RF V+ G  I + L  GTAE  GTELA
+Sbjct: 1   MSLPGLDLTQPSADNQFAPAPPTQVSLSKGSEWRFEVAFGTVIRVKLLAGTAELFGTELA 60
+
+Query: 57  LNVAYTLSGVKSKILSWHGANLSI-----------------EGITDHESVAGPDDAANTA 99
+            +  YT SG K  I +WHG  L +                  G T     AG   +  TA
+Sbjct: 61  PSQTYTFSGTKGAIYTWHGCTLEVGAGDTGPSVDGLAPGGLSGATPRGLGAGGCQSEYTA 120
+
+Query: 100 -------HLNLHAFLQXXXXXXXXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWAT 152
+                  + N+H  L+                  GPRVL+ G    G+TS+ + L A+AT
+Sbjct: 121 EETPMVEYANVHFALETMRQEAKATGK------DGPRVLILGPENAGKTSVAKILTAYAT 174
+
+Query: 153 RTGAQPMVVDADXXXXXXXXXXXXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVF 212
+           +   QP+VV+ D            +A  F T+MDV                VPVKLPLV+
+Sbjct: 175 KVERQPIVVNLDPTEGMLSVPGTLTATAFRTMMDV--EEGWGSSPMSGPSAVPVKLPLVY 232
+
+Query: 213 YYGRRR-VEEDRDLYKGVVNXXXXXXXXXXXDDPAVRSAGMLIDTPPYV-EGK--GADVL 268
+           +Y  +  +E +  +Y+ +V+           +D   R  G+++DTP  + +GK    +++
+Sbjct: 233 FYPMQNPLEAEGSVYRPIVSRLALSVMGRMAEDEEARETGIIVDTPGALSQGKPGSLEMI 292
+
+Query: 269 IHIAEELNVNIIVTIDTPSLHTELTQRF------SGVKNVLGEHVSVVALDKSSGVMERD 322
+            HI  E ++  I+ I +  L++ + + +      S       E ++VV L KS G ++RD
+Sbjct: 293 NHIVTEFSITTILVIGSERLYSLMMKNYDNKPTSSASAVASDERITVVKLSKSGGCVDRD 352
+
+Query: 323 EGFLQHMGEASIKEYFFGD-----------------AKITLSPFTQQVAFDELAIYTSPE 365
+             F++ + E+ I+ YFFG+                   +TLSP  QQ+ F+ L+IY    
+Sbjct: 353 AAFMKGVRESQIRTYFFGNPIPSTASAALSLSASSTTNVTLSPHAQQLDFNTLSIYNYTI 412
+
+Query: 366 AS------DY-------------------------------------------SAEPGAL 376
+           AS      +Y                                           SA P   
+Sbjct: 413 ASLEEDEDEYDPSQLGAGDSFLPGGGNDAEASQAQQDEPARATPLPGIVSSIESATPPVA 472
+
+Query: 377 ERIP-----QPLPE-MAHWVLAMMDAAPNDPPHKIRYAPVSGFVYVAAVDKERRRMKILA 430
+             +P      P P  +A+ ++A+ +A       ++R A + GF+YVA VD E+ +++ LA
+Sbjct: 473 SNVPLKKVLPPAPSTLANSLIAITNAPTTASAAEVRDASIMGFLYVAEVDSEKGKIRALA 532
+
+Query: 431 PVSGRLGDKPLVWG-KWPEPHINLLG 455
+           PV GR+  + +VWG KWP   + L+G
+Sbjct: 533 PVGGRVPPRAIVWGKKWPGEVVGLVG 558
+
+
+>CADAFLAP00007377 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1067958:1082699:1
+            gene:CADAFLAG00007377 transcript:CADAFLAT00007377
+            description:"Midasin "
+          Length = 4913
+
+ Score = 30.4 bits (67), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (81%), Gaps = 1/22 (4%)
+
+Query: 128  PRVLVAGKTGCGRTSLVRTLAA 149
+            P +LV G +GCG+T+L+R LAA
+Sbjct: 2039 PSILV-GPSGCGKTTLIRKLAA 2059
+
+
+>CADAFLAP00007655 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1850177:1852591:1
+           gene:CADAFLAG00007655 transcript:CADAFLAT00007655
+           description:"ABC transporter, putative "
+          Length = 623
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 13/32 (40%), Positives = 19/32 (59%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQ 157
+           HG  V + G +GCG+T+L+  LA      GA+
+Sbjct: 60  HGQLVALMGPSGCGKTTLLNVLARRTASAGAK 91
+
+
+>CADAFLAP00005852 pep:known supercontig:JCVI-afl1-v2.0:EQ963476:1874874:1877119:1
+           gene:CADAFLAG00005852 transcript:CADAFLAT00005852
+           description:"Biotin apo-protein ligase, putative "
+          Length = 681
+
+ Score = 30.0 bits (66), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (65%), Gaps = 1/29 (3%)
+
+Query: 250 AGMLIDTPPYVEGKGADVLIHIAEELNVN 278
+            G+ +D P Y + KG +VL   AEELNV+
+Sbjct: 179 GGVFVDAPSYAD-KGVEVLASYAEELNVD 206
+
+
+>CADAFLAP00006099 pep:known supercontig:JCVI-afl1-v2.0:EQ963477:77300:78190:-1
+           gene:CADAFLAG00006099 transcript:CADAFLAT00006099
+           description:"ABC transporter, putative "
+          Length = 275
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 16/25 (64%)
+
+Query: 125 PHGPRVLVAGKTGCGRTSLVRTLAA 149
+           P G R L+ G  G G+T+L+R LA 
+Sbjct: 31  PAGSRTLLIGANGAGKTTLLRLLAG 55
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 4,840,251
+Number of extensions: 193665
+Number of successful extensions: 461
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 458
+Number of HSP's successfully gapped: 10
+Length of query: 455
+Length of database: 5,672,061
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,363,822
+Effective search space: 1562248276
+Effective search space used: 1562248276
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

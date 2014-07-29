@@ -1,0 +1,151 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_01676:Cleavage and polyadenylation specificity factor
+subunit 5(orthologue using human proteins)
+         (266 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU81273 pep:novel supercontig:EF1:HF943526:687253:687562:-1 gen...   192   3e-62
+CCU81344 pep:novel supercontig:EF1:HF943526:1239667:1240964:1 ge...    32   0.073
+CCU76203 pep:novel supercontig:EF1:HF943536:2528875:2530219:1 ge...    28   2.3  
+CCU83052 pep:novel supercontig:EF1:HF943511:99430:100782:-1 gene...    27   4.7  
+CCU83155 pep:novel supercontig:EF1:HF943561:171028:172771:-1 gen...    27   5.1  
+
+>CCU81273 pep:novel supercontig:EF1:HF943526:687253:687562:-1
+           gene:BGHDH14_bgh01502 transcript:CCU81273
+           description:"cleavage and polyadenylation specificity
+           factor subunit 5"
+          Length = 103
+
+ Score =  192 bits (489), Expect = 3e-62,   Method: Compositional matrix adjust.
+ Identities = 90/103 (87%), Positives = 95/103 (92%)
+
+Query: 1   MSTITTTALQSGQPPIIPLSFNANQPETIRLYPLSNYTFGVKETQPEEDPSVLARLKRLE 60
+           MSTIT TALQ+  PPI+P+ FN+ QP+TIRLYPLSNYTFG KETQPEEDPSVLARLKRLE
+Sbjct: 1   MSTITPTALQTSYPPILPVPFNSKQPKTIRLYPLSNYTFGTKETQPEEDPSVLARLKRLE 60
+
+Query: 61  EHYNAHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYL 103
+           EHY  HGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYL
+Sbjct: 61  EHYVEHGMRRTCEGILVCHEHNHPHILMLQIANAFFKLPGDYL 103
+
+
+>CCU81344 pep:novel supercontig:EF1:HF943526:1239667:1240964:1
+           gene:BGHDH14_bgh06223 transcript:CCU81344
+           description:"COP9 signalosome complex subunit 4"
+          Length = 415
+
+ Score = 32.3 bits (72), Expect = 0.073,   Method: Compositional matrix adjust.
+ Identities = 33/124 (26%), Positives = 49/124 (39%), Gaps = 27/124 (21%)
+
+Query: 66  HGMRRTCEGILVCH----EHNHPHILMLQIANAFFKLPGDYLRPEDDEVEGFKARLDERL 121
+           H + +T +G  V      EHN   +  L   N  F   G  L  +DD+ E   AR+ E+ 
+Sbjct: 292 HQLAKTADGSNVLARAVVEHNLRAVSYL-YQNISFGSLGKILGLDDDKAEETTARMIEQK 350
+
+Query: 122 APVGRLGEGEEAGDWQIGDCLAQ--------WWRPNFE-------------TFMYP-FVP 159
+             VGR+ + E    ++ GDC+ +         W  N                 +YP FV 
+Sbjct: 351 RLVGRIDQIERVIWFRCGDCIGETGNNQQIRQWDANIHDLAEEVEKVTSELQLLYPEFVA 410
+
+Query: 160 AHVT 163
+            H+T
+Sbjct: 411 RHMT 414
+
+
+>CCU76203 pep:novel supercontig:EF1:HF943536:2528875:2530219:1
+           gene:BGHDH14_bghG002256000002001 transcript:CCU76203
+           description:"putative Bgh-specific protein"
+          Length = 430
+
+ Score = 27.7 bits (60), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 19/85 (22%), Positives = 40/85 (47%), Gaps = 12/85 (14%)
+
+Query: 149 NFETFMYPFVPAHVTRPKECKKLYFIQLPNSKVLSVPKNMKLLAVPLFELYDNSARYGPQ 208
+           NF      ++ + V  P   +K   I LP S          L+++ L+  +DN++ +  +
+Sbjct: 267 NFNKLERLYLNSKVFSPSALRKSLHICLPPS----------LISIKLY--FDNTSIFDAE 314
+
+Query: 209 LSAIPHLLSKYNFEFVDEQGNVVAQ 233
+            S I H     ++++++E G  +A+
+Sbjct: 315 FSQISHFYVMEDYDWIEEFGKNLAE 339
+
+
+>CCU83052 pep:novel supercontig:EF1:HF943511:99430:100782:-1
+           gene:BGHDH14_bgh04895 transcript:CCU83052
+           description:"hypothetical protein"
+          Length = 450
+
+ Score = 26.6 bits (57), Expect = 4.7,   Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 23/42 (54%), Gaps = 1/42 (2%)
+
+Query: 180 KVLSVPKNMKLLAVPLFELYDNSARYGPQLSAIPHL-LSKYN 220
+           K+ S  +N+KL  + LF     S+ Y    S +P+L  S+Y+
+Sbjct: 174 KIFSRTENVKLNQIALFNELSKSSNYESDYSLLPYLAFSRYS 215
+
+
+>CCU83155 pep:novel supercontig:EF1:HF943561:171028:172771:-1
+           gene:BGHDH14_bgh02792 transcript:CCU83155
+           description:"diacylglycerol acyltransferase DGAT2"
+          Length = 527
+
+ Score = 26.6 bits (57), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 26/53 (49%), Gaps = 2/53 (3%)
+
+Query: 113 FKARLDERLAPVGRLGEGEEAGDWQIGDCLAQWWRPNFETFMYPFVPAHVTRP 165
+           F++ L+  LA V R G+ E   DW     L  +WR  +   +Y F+  H+  P
+Sbjct: 369 FQSFLNA-LAEVMRFGDREFYTDWWNSPSLGIYWR-TWNKPVYQFMKRHIFSP 419
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.318    0.137    0.425 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,887,257
+Number of extensions: 86731
+Number of successful extensions: 162
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 162
+Number of HSP's successfully gapped: 6
+Length of query: 266
+Length of database: 3,131,961
+Length adjustment: 89
+Effective length of query: 177
+Effective length of database: 2,556,131
+Effective search space: 452435187
+Effective search space used: 452435187
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 50 (23.9 bits)

@@ -1,0 +1,281 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06881:Putative uncharacterized protein
+         (568 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1 gene:...   217   2e-63
+AAS54612 pep:known chromosome:ASM9102v1:VII:1295768:1297525:-1 g...    82   4e-17
+AAS53478 pep:known chromosome:ASM9102v1:VI:630322:631512:1 gene:...    66   3e-12
+AAS50637 pep:known chromosome:ASM9102v1:II:140659:141786:-1 gene...    66   4e-12
+AAS54880 pep:known chromosome:ASM9102v1:VII:1764438:1765574:-1 g...    64   2e-11
+AAS50348 pep:known chromosome:ASM9102v1:I:309526:310539:1 gene:A...    57   2e-09
+AAS52669 pep:known chromosome:ASM9102v1:V:604193:606229:-1 gene:...    57   3e-09
+AAS51937 pep:known chromosome:ASM9102v1:IV:734917:735438:1 gene:...    52   2e-08
+AAS51857 pep:known chromosome:ASM9102v1:IV:570275:571294:1 gene:...    52   7e-08
+AAS51921 pep:known chromosome:ASM9102v1:IV:708895:709869:-1 gene...    52   9e-08
+AAS54241 pep:known chromosome:ASM9102v1:VII:234339:236528:1 gene...    52   9e-08
+AAS51955 pep:known chromosome:ASM9102v1:IV:768814:771330:-1 gene...    51   3e-07
+AAS52227 pep:known chromosome:ASM9102v1:IV:1238609:1240309:1 gen...    50   7e-07
+AAS54021 pep:known chromosome:ASM9102v1:VI:1623099:1624031:1 gen...    47   2e-06
+AAS52468 pep:known chromosome:ASM9102v1:V:224445:226949:1 gene:A...    44   3e-05
+AAS51500 pep:known chromosome:ASM9102v1:III:854580:855860:1 gene...    43   7e-05
+AAS53150 pep:known chromosome:ASM9102v1:VI:20331:20951:1 gene:AG...    42   1e-04
+AAS54499 pep:known chromosome:ASM9102v1:VII:1053756:1054556:-1 g...    40   3e-04
+AAS50518 pep:known chromosome:ASM9102v1:I:617408:618853:1 gene:A...    39   0.002
+AAS52109 pep:known chromosome:ASM9102v1:IV:1034498:1035307:1 gen...    35   0.019
+AAS54452 pep:known chromosome:ASM9102v1:VII:956464:958602:-1 gen...    33   0.10 
+AAS53322 pep:known chromosome:ASM9102v1:VI:347055:347711:1 gene:...    31   0.30 
+AAS50951 pep:known chromosome:ASM9102v1:II:740584:741789:-1 gene...    30   1.1  
+AAS50712 pep:known chromosome:ASM9102v1:II:287637:288251:1 gene:...    29   1.4  
+AAS51157 pep:known chromosome:ASM9102v1:III:229767:230663:-1 gen...    28   2.9  
+AAS50613 pep:known chromosome:ASM9102v1:II:102437:104626:-1 gene...    28   3.4  
+AAS51079 pep:known chromosome:ASM9102v1:III:88711:90597:1 gene:A...    27   6.4  
+AAS54887 pep:known chromosome:ASM9102v1:VII:1775065:1776462:-1 g...    27   8.7  
+
+>AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1 gene:AGOS_ADL160W
+           transcript:AAS51760 description:"ADL160Wp"
+          Length = 526
+
+ Score =  217 bits (553), Expect = 2e-63,   Method: Compositional matrix adjust.
+ Identities = 97/166 (58%), Positives = 133/166 (80%), Gaps = 1/166 (0%)
+
+Query: 115 SKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVN 174
+           S++  KMFIGGLNWETT+++LR+YFS++G V E  +MRDGTTGRSRGFGFL+F D  +V+
+Sbjct: 159 SRDINKMFIGGLNWETTEDNLREYFSKYGNVTEVKIMRDGTTGRSRGFGFLSFADASSVD 218
+
+Query: 175 IVMVKEHYLDGKIIDPKRAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATL 234
+            V+  +H LDGK+IDPKRAIPR+EQ+KT KIFVGG+  +   +EF++FF+Q+G ++DA L
+Sbjct: 219 EVVKTQHILDGKVIDPKRAIPREEQDKTGKIFVGGIGPDVRPKEFEEFFSQWGSIIDAQL 278
+
+Query: 235 MMDKDTGRPRGFGFVTFESEAGVE-ACLARDLEIHGKLIEVKKAQP 279
+           M+DKDTGR RGFGF+T++S   V+  C  + +E  GK IE+K+A+P
+Sbjct: 279 MLDKDTGRSRGFGFITYDSPDAVDRVCQNKFIEFKGKRIEIKRAEP 324
+
+
+
+ Score = 68.9 bits (167), Expect = 6e-13,   Method: Compositional matrix adjust.
+ Identities = 29/88 (32%), Positives = 54/88 (61%)
+
+Query: 192 RAIPRDEQEKTSKIFVGGVSQETTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTF 251
+           + +  D     +K+F+GG++ ETT+   +++F+++G V +  +M D  TGR RGFGF++F
+Sbjct: 152 KQVKADLSRDINKMFIGGLNWETTEDNLREYFSKYGNVTEVKIMRDGTTGRSRGFGFLSF 211
+
+Query: 252 ESEAGVEACLARDLEIHGKLIEVKKAQP 279
+              + V+  +     + GK+I+ K+A P
+Sbjct: 212 ADASSVDEVVKTQHILDGKVIDPKRAIP 239
+
+
+>AAS54612 pep:known chromosome:ASM9102v1:VII:1295768:1297525:-1
+           gene:AGOS_AGR122C transcript:AAS54612
+           description:"Polyadenylate-binding protein, cytoplasmic
+           and nuclear"
+          Length = 585
+
+ Score = 82.4 bits (202), Expect = 4e-17,   Method: Compositional matrix adjust.
+ Identities = 54/175 (30%), Positives = 94/175 (53%), Gaps = 14/175 (8%)
+
+Query: 116 KEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP----- 170
+           K  G ++I  L+    ++SL + FS FG ++ C V  D   G SRGFGF+ F++      
+Sbjct: 123 KGSGNIYIKNLHPAIDNKSLHETFSTFGNILSCKVATD-ENGVSRGFGFVHFENESDARD 181
+
+Query: 171 --KTVNIVMV--KEHYLDGKIIDPKRAIPRDE-QEKTSKIFVGGVSQETTDQEFKDFFAQ 225
+             + V+ +++  +E Y+   +    R    +E + K + ++V  + QET+ +EF++ F +
+Sbjct: 182 AIEAVDGMLMNDQEVYVALHVSKKDRQSKLEEVKAKFTNVYVKNIDQETSQEEFEELFGK 241
+
+Query: 226 FGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL--ARDLEIHGKLIEVKKAQ 278
+           +G++  A L  D + G+ RGFGFV FE  A     +    +LE  G+ + V +AQ
+Sbjct: 242 YGKITSAVLEKDSE-GKLRGFGFVNFEDHAAAAKAVDELNELEFKGQKLYVGRAQ 295
+
+
+
+ Score = 63.5 bits (153), Expect = 4e-11,   Method: Compositional matrix adjust.
+ Identities = 50/180 (27%), Positives = 88/180 (48%), Gaps = 24/180 (13%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM--V 178
+           +++  ++ ET+ E   + F ++G++    + +D + G+ RGFGF+ F+D       +  +
+Sbjct: 221 VYVKNIDQETSQEEFEELFGKYGKITSAVLEKD-SEGKLRGFGFVNFEDHAAAAKAVDEL 279
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQ-------------EKTSK-----IFVGGVSQETTDQEFK 220
+            E    G+ +   RA  + E+             EK +K     +FV  +     D++ K
+Sbjct: 280 NELEFKGQKLYVGRAQKKYERLQELKKQYEAARLEKLAKYQGVNLFVKNLDDSIDDEKLK 339
+
+Query: 221 DFFAQFGRVVDATLMMDKDTGRPRGFGFVTFES-EAGVEACLARDLEI-HGKLIEVKKAQ 278
+           + FA FG +  A +M D +TG  RGFGFV F + E   +A   ++ +I  GK + V  AQ
+Sbjct: 340 EEFAPFGTITSAKVMRD-ETGNSRGFGFVCFSTPEEATKAITEKNQQIVAGKPLYVAIAQ 398
+
+
+
+ Score = 60.1 bits (144), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 47/177 (26%), Positives = 79/177 (44%), Gaps = 28/177 (15%)
+
+Query: 119 GKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKD----PKTV- 173
+             +++G L    ++  L D FS  G V    V RD  T  S G+ ++ F D    PK + 
+Sbjct: 38  ASLYVGELEPTVSEALLYDIFSPIGSVSSIRVCRDAITNTSLGYAYVNFHDHEAGPKAIE 97
+
+Query: 174 --NIVMVKEHYLDGKIIDPKRAI-----PRDEQEKTSKIFVGGVSQETTDQEFKDFFAQF 226
+             N  ++K     GK   P R +     P   ++ +  I++  +     ++   + F+ F
+Sbjct: 98  QLNYTLIK-----GK---PCRIMWSQRDPSLRKKGSGNIYIKNLHPAIDNKSLHETFSTF 149
+
+Query: 227 GRVVDATLMMDKDTGRPRGFGFVTFESEA-------GVEACLARDLEIHGKLIEVKK 276
+           G ++   +  D++ G  RGFGFV FE+E+        V+  L  D E++  L   KK
+Sbjct: 150 GNILSCKVATDEN-GVSRGFGFVHFENESDARDAIEAVDGMLMNDQEVYVALHVSKK 205
+
+
+>AAS53478 pep:known chromosome:ASM9102v1:VI:630322:631512:1 gene:AGOS_AFR107W
+           transcript:AAS53478 description:"AFR107Wp"
+          Length = 396
+
+ Score = 66.2 bits (160), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 81/167 (48%), Gaps = 22/167 (13%)
+
+Query: 116 KEDGK---MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKT 172
+           K DG+   +F+G L+W   DE L+  F   G V+   V+ +  T +SRG+G++ F+D   
+Sbjct: 161 KTDGQPATIFVGRLSWSVDDEWLKTEFDHIGGVVGARVIYERGTDKSRGYGYVDFEDVSY 220
+
+Query: 173 VNIVMVKEH--YLDGKIID-------PKRAIPRDEQEK---------TSKIFVGGVSQET 214
+               + + H   +DG+ I+       P  A PR+++ K         +  +F+G +S   
+Sbjct: 221 AEKAVKEMHGKEIDGRAINCDMSTSKPASA-PREDRAKKYGDTPSQPSDTLFLGNLSFNA 279
+
+Query: 215 TDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL 261
+                 + F++ G V+   +    ++ +P+GFG+V + S    +A L
+Sbjct: 280 DRDALFELFSKHGNVISVRIPTHPESNQPKGFGYVQYGSVEEAQAAL 326
+
+
+
+ Score = 33.5 bits (75), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 17/82 (20%), Positives = 41/82 (50%), Gaps = 2/82 (2%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM--V 178
+           +F+G L++    ++L + FS+ G VI   +     + + +GFG++ +   +     +  +
+Sbjct: 270 LFLGNLSFNADRDALFELFSKHGNVISVRIPTHPESNQPKGFGYVQYGSVEEAQAALDAL 329
+
+Query: 179 KEHYLDGKIIDPKRAIPRDEQE 200
+           +  Y+D + +    + PR  Q+
+Sbjct: 330 QGEYIDNRPVRIDFSSPRPPQQ 351
+
+
+>AAS50637 pep:known chromosome:ASM9102v1:II:140659:141786:-1
+           gene:AGOS_ABL134C transcript:AAS50637
+           description:"ABL134Cp"
+          Length = 375
+
+ Score = 65.9 bits (159), Expect = 4e-12,   Method: Compositional matrix adjust.
+ Identities = 46/168 (27%), Positives = 80/168 (47%), Gaps = 27/168 (16%)
+
+Query: 121 MFIGGLNWETTDESLRDYFS------QFGEVIECTVMR--------DGTTGRSRGFGFLT 166
+           ++IG + ++TT E LR +        + GEV +  ++R        DG   +++GF ++ 
+Sbjct: 107 VWIGNMAFDTTQEELRRFVVSKTAGMEAGEVTDADIVRVNMPLAKNDGKQIKNKGFAYVD 166
+
+Query: 167 FKDPKTVNIVM-VKEHYLDGKIIDPKRA------------IPRDEQEKTSKIFVGGVSQE 213
+           F     ++ V+ + E  L+G+ +  K A            I   +   +  +FVG +S +
+Sbjct: 167 FATSAQMDAVIGLSEAQLNGRNLLIKNAKSYDGRPAKNDLISMSKNPPSRILFVGNLSFD 226
+
+Query: 214 TTDQEFKDFFAQFGRVVDATLMMDKDTGRPRGFGFVTFESEAGVEACL 261
+           TTD+  K  F   G +V   +   +D+G+ +GF FV F  EAG  A L
+Sbjct: 227 TTDELLKKHFQHCGEIVKIRMATFQDSGKCKGFAFVDFRDEAGATAAL 274
+
+
+
+ Score = 31.6 bits (70), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 23/99 (23%), Positives = 52/99 (52%), Gaps = 15/99 (15%)
+
+Query: 195 PRDEQEKTSKIFVGGVSQETTDQEFKDFFA------QFGRVVDATLM-----MDKDTGRP 243
+           P   +EK   +++G ++ +TT +E + F        + G V DA ++     + K+ G+ 
+Sbjct: 97  PAPRKEKKFGVWIGNMAFDTTQEELRRFVVSKTAGMEAGEVTDADIVRVNMPLAKNDGKQ 156
+
+Query: 244 ---RGFGFVTFESEAGVEACL-ARDLEIHGKLIEVKKAQ 278
+              +GF +V F + A ++A +   + +++G+ + +K A+
+Sbjct: 157 IKNKGFAYVDFATSAQMDAVIGLSEAQLNGRNLLIKNAK 195
+
+
+>AAS54880 pep:known chromosome:ASM9102v1:VII:1764438:1765574:-1
+           gene:AGOS_AGR390C transcript:AAS54880
+           description:"AGR390Cp"
+          Length = 378
+
+ Score = 63.5 bits (153), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 45/176 (25%), Positives = 81/176 (46%), Gaps = 13/176 (7%)
+
+Query: 111 RGPNSKEDGKMFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDP 170
+           +G     D  +++G L+    + +L+ YF   G +    V+ D     +  + F+ ++ P
+Sbjct: 27  KGGRETSDRILYVGNLDKTINEATLKQYFQVGGPIANVKVLVDKNNEEA-NYAFVEYRQP 85
+
+Query: 171 KTVNIVMVKEHYLDGK-----IIDPKRAIPRDE--QEKTSKIFVGGVSQETTDQEFKDFF 223
+           +  N+       LDGK     +I    A    +   + T  +FVG ++ +  D+     F
+Sbjct: 86  RDANVAF---QTLDGKQIENNVIKINWAFQSQQVSSDDTFNLFVGDLNVDVDDETLSSTF 142
+
+Query: 224 AQFGRVVDATLMMDKDTGRPRGFGFVTF-ESEAGVEACLARD-LEIHGKLIEVKKA 277
+            +F   + A +M D  +GR RG+GFV+F E E   +A  A+    ++G+ I V  A
+Sbjct: 143 KEFPTFIQAHVMWDMQSGRSRGYGFVSFGEQEEAQKAMDAKQGFNLNGRAIRVNWA 198
+
+
+
+ Score = 52.0 bits (123), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 46/82 (56%), Gaps = 2/82 (2%)
+
+Query: 121 MFIGGLNWETTDESLRDYFSQFGEVIECTVMRDGTTGRSRGFGFLTFKDPKTVNIVM-VK 179
+           +F+G LN +  DE+L   F +F   I+  VM D  +GRSRG+GF++F + +     M  K
+Sbjct: 124 LFVGDLNVDVDDETLSSTFKEFPTFIQAHVMWDMQSGRSRGYGFVSFGEQEEAQKAMDAK 183
+
+Query: 180 EHY-LDGKIIDPKRAIPRDEQE 200
+           + + L+G+ I    A  R+ Q 
+Sbjct: 184 QGFNLNGRAIRVNWAAKRESQH 205
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.313    0.134    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,591,401
+Number of extensions: 51427
+Number of successful extensions: 170
+Number of sequences better than 10.0: 30
+Number of HSP's gapped: 145
+Number of HSP's successfully gapped: 63
+Length of query: 568
+Length of database: 2,335,236
+Length adjustment: 93
+Effective length of query: 475
+Effective length of database: 1,891,068
+Effective search space: 898257300
+Effective search space used: 898257300
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 52 (24.6 bits)

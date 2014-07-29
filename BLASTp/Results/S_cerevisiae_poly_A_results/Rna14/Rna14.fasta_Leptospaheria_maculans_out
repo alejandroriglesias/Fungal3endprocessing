@@ -1,0 +1,122 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX98306 pep:novel supercontig:ASM23037v1:FP929133:1041843:10451...   169   4e-44
+
+>CBX98306 pep:novel supercontig:ASM23037v1:FP929133:1041843:1045130:-1
+           gene:LEMA_P097150.1 transcript:CBX98306
+           description:"Putative uncharacterized protein "
+          Length = 1060
+
+ Score =  169 bits (429), Expect = 4e-44,   Method: Compositional matrix adjust.
+ Identities = 157/621 (25%), Positives = 285/621 (45%), Gaps = 102/621 (16%)
+
+Query: 31  LRERIKDNP-TNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR 89
+           L +RI ++P  ++ ++  LI+    +  Y   R V+E+F    P     W   +  E   
+Sbjct: 232 LEDRIAEDPRGDMEAWLSLIEEHRRRHKYDDARAVFERFLKLIPTAGEQWVEYIAFETEL 291
+
+Query: 90  DEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLIT--GGQEARAVIVKAFQLVM 147
+           DE   VE I  + +        + L+S+Y+D+IRR+ NL T   GQ  R +I +A++ V+
+Sbjct: 292 DELSKVEVIFGRSVPLAPY---VPLYSSYIDFIRRRYNLTTDQNGQN-RQIITQAYEFVL 347
+
+Query: 148 QKCAIFEPKSSSFWNEYLNFLEQWKPF---NKWEEQQRIDMLREFYKKMLCVPFDNLEKM 204
+            +  I +  +   W +Y+  L+        + W++ Q++D LR+ Y++ + +P +   ++
+Sbjct: 348 GQVGI-DVSAGRLWLDYIEMLKTGPGVLGGSNWQDMQKMDTLRKVYQRAVSIPHNATLEI 406
+
+Query: 205 WNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNV-TNGLKRASPINLRTANKKN 263
+           W  Y ++E  +N  T RK + E S  YM ARS     +NV  N + +   IN RT   K 
+Sbjct: 407 WRDYDKFEMGLNKATGRKHLQEKSPSYMTARSA----INVLDNNIMKG--IN-RTTLPKL 459
+
+Query: 264 IPQPGTS--DSNIQQLQIWLNWIKWERENKL-MLSED--MLSQRISYVYKQGIQYMIFSA 318
+            P PG    D  + Q+++W NWI++E+ + +  +S+D  + ++R+ ++YK  +  + F  
+Sbjct: 460 PPAPGFDGYDEYMNQVKLWKNWIQFEKSDPVECISDDRELYNKRVIHIYKNALMALRFWP 519
+
+Query: 319 EMWYDYSMYISEN---SDRQNILYTALLANPDSPSLTFKLSECYELDNDSES-------- 367
+           E+WY+ + +  EN   ++    L   + ANP+S  L FK +   E   D E         
+Sbjct: 520 ELWYEAAEWCYENGLSTEGDKFLNDGIEANPESCLLAFKKANQVEQRTDFEDGLAGVSAK 579
+
+Query: 368 -----------VSNCFDKCTQTLLSQYKKIA-------------SDVNSGEDNNTEY--- 400
+                      +   +D  TQT   +   IA                 +   NN++    
+Sbjct: 580 GKAVREPYMKLLDTLYDLTTQTKKREEHSIARAKEQFEAQKKADEAARAIAQNNSDDADD 639
+
+Query: 401 -----------EQELLY-KQREKLTFVFCVYMNTMKR------ISGLSAARTVFGK---- 438
+                      E+E  +  Q++ ++  +   M  +K+      I+ + A R V GK    
+Sbjct: 640 EDEDAAAKRLKEKENAFNAQQQAISAGYNAQMLMLKKTLTYAWIALMRAMRRVQGKGAPK 699
+
+Query: 439 ------------CRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYI 486
+                        RK  ++L+ + YV +A +E     D   A K+ E G+K F  D  + 
+Sbjct: 700 EDIGGFRGVFTEARKRGKLLS-EAYVASALIEHHCYQD-PAAQKIFERGMKLFPEDEHFA 757
+
+Query: 487 NKYLDFLIFLNKDSQIKTLFETSVEKV----QDLTQLKEIYKKMISYESKFGNLNNVYSL 542
+            +Y+  LI LN  +  + +FET V K+    +++ + K ++    +YES+FG L+ +  +
+Sbjct: 758 LEYIQHLIKLNDSTNARAVFETVVGKLTAKPENVHRAKPLFVFFHNYESQFGELSQIIKI 817
+
+Query: 543 EKRFFERFPQENLIEVFTSRY 563
+           E+R    FP++  +  F+ R+
+Sbjct: 818 EQRMATLFPEDPQLHRFSQRF 838
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 6,574,556
+Number of extensions: 262592
+Number of successful extensions: 662
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 654
+Number of HSP's successfully gapped: 11
+Length of query: 677
+Length of database: 5,217,443
+Length adjustment: 100
+Effective length of query: 577
+Effective length of database: 3,970,543
+Effective search space: 2291003311
+Effective search space used: 2291003311
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

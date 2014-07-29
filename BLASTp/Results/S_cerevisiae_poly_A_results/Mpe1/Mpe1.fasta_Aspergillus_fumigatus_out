@@ -1,0 +1,214 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00002273 pep:known scaffold:CADRE:DS499595:1777213:17793...   253   7e-77
+CADAFUBP00007173 pep:known scaffold:CADRE:DS499599:405383:406940...    33   0.11 
+CADAFUBP00005880 pep:known scaffold:CADRE:DS499597:3140124:31411...    33   0.17 
+CADAFUBP00002848 pep:known scaffold:CADRE:DS499595:3447422:34531...    32   0.47 
+CADAFUBP00007549 pep:known scaffold:CADRE:DS499599:1526867:15276...    29   1.8  
+CADAFUBP00003086 pep:known scaffold:CADRE:DS499595:4155349:41567...    29   2.4  
+CADAFUBP00002663 pep:known scaffold:CADRE:DS499595:2939736:29420...    29   2.6  
+CADAFUBP00009211 pep:known scaffold:CADRE:DS499602:537935:538921...    28   4.8  
+
+>CADAFUBP00002273 pep:known scaffold:CADRE:DS499595:1777213:1779343:-1
+           gene:CADAFUBG00002324 transcript:CADAFUBT00002324
+           description:"Zinc knuckle domain protein"
+          Length = 632
+
+ Score =  253 bits (646), Expect = 7e-77,   Method: Compositional matrix adjust.
+ Identities = 142/376 (37%), Positives = 208/376 (55%), Gaps = 40/376 (10%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDG+DF+L IYN DT EEYD
+Sbjct: 1   MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIINQSRLGDGSDFELSIYNEDTGEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQK---RQH 117
+           DD  +IPRSTSVI +R PA +                 G A RYV+G+  V  +   R  
+Sbjct: 61  DDTTIIPRSTSVIARRLPASR--------------PGKGGAARYVSGKMPVSARGAPRND 106
+
+Query: 118 XXXXXXNV---------------SGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKS 162
+                  +               +  TEEE+I ++F             M+ ATPV F  
+Sbjct: 107 ATMSTRAISNTSSTVSNSVLELNNAQTEEEKINALFNLQASQWKEQQQEMANATPVPFGR 166
+
+Query: 163 QTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKS 221
+              K +    + PPPPGY+CYRC  + HWI+ CPTN+DP F+GK R++R+TGIP+     
+Sbjct: 167 GRGK-AVNVPDHPPPPGYLCYRCREKGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTK 225
+
+Query: 222 IEIDPETM----TPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWR 277
+           +E  PE++    + E++    +M+  +G FV+   DK +WE YQ K +       E    
+Sbjct: 226 VE-KPESLALDGSNEDLRNTGVMVNADGDFVIAKPDKAAWELYQEKAKASSAAAAEAAAA 284
+
+Query: 278 KGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILL 337
+           +   +     L+CP+   +  +P KT  CC+  +  + + NAL+ESDFVCP C T  +LL
+Sbjct: 285 EYSKELQSWGLECPIDKRMFLEPTKT-PCCHRTYCNDCITNALIESDFVCPGCATEGVLL 343
+
+Query: 338 DSLVPDQDKEKEVETF 353
+           D+L  D +   +++ F
+Sbjct: 344 DNLSVDDEAVSKIKAF 359
+
+
+>CADAFUBP00007173 pep:known scaffold:CADRE:DS499599:405383:406940:1
+           gene:CADAFUBG00007306 transcript:CADAFUBT00007306
+           description:"Chromosomal organization and DNA repair
+           protein Mms21, putative"
+          Length = 497
+
+ Score = 33.5 bits (75), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 16/46 (34%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETR 333
+           L+CPLT    R PV ++KC +  F +EA+ + +  S    P   +R
+Sbjct: 340 LRCPLTLLPFRDPVTSTKCPH-SFEREAITDMIAHSPTTVPGPSSR 384
+
+
+>CADAFUBP00005880 pep:known scaffold:CADRE:DS499597:3140124:3141110:1
+           gene:CADAFUBG00005997 transcript:CADAFUBT00005997
+           description:"Putative uncharacterized protein"
+          Length = 328
+
+ Score = 32.7 bits (73), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 16/35 (45%), Positives = 22/35 (62%)
+
+Query: 73  IVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTG 107
+           ++KR+PAI +  V S L+  VGAAALG     + G
+Sbjct: 285 VMKRAPAIGTLWVWSILEIPVGAAALGALGPLIWG 319
+
+
+>CADAFUBP00002848 pep:known scaffold:CADRE:DS499595:3447422:3453164:1
+            gene:CADAFUBG00002903 transcript:CADAFUBT00002903
+            description:"Chitin synthase ChsE"
+          Length = 1848
+
+ Score = 31.6 bits (70), Expect = 0.47,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 22/37 (59%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            RK++I+DEGKF      K+ WE+YQ +    Q   D+
+Sbjct: 1691 RKVVISDEGKFDPASIPKKKWEEYQTELWEAQTSRDD 1727
+
+
+>CADAFUBP00007549 pep:known scaffold:CADRE:DS499599:1526867:1527654:-1
+           gene:CADAFUBG00007685 transcript:CADAFUBT00007685
+           description:"Pyridoxamine phosphate oxidase family
+           protein"
+          Length = 246
+
+ Score = 29.3 bits (64), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 19/64 (29%), Positives = 31/64 (48%), Gaps = 6/64 (9%)
+
+Query: 213 GIPKKFLKSIEIDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGD 272
+           G+P+  LK   +DPET  P+   + +  +   G FV +  +K     YQR+     +DG 
+Sbjct: 139 GVPQLALK---LDPETHEPKPYLKDRETL---GHFVRKSVEKGQLRSYQREWNASSLDGL 192
+
+Query: 273 ETIW 276
+             +W
+Sbjct: 193 PGLW 196
+
+
+>CADAFUBP00003086 pep:known scaffold:CADRE:DS499595:4155349:4156772:1
+           gene:CADAFUBG00003143 transcript:CADAFUBT00003143
+           description:"TRAF-like signal transducer, putative"
+          Length = 467
+
+ Score = 29.3 bits (64), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 29/60 (48%), Gaps = 9/60 (15%)
+
+Query: 286 DDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALV-----ESDFVCPNCE--TRDILLD 338
+           D L C +      +PV+    C+  F ++ L +A+        DF CP+C   TRD+ L+
+Sbjct: 32  DHLMCAICHCPFIRPVRLQ--CDHVFCQKCLNSAITTFAAGRDDFTCPSCRTPTRDVYLN 89
+
+
+>CADAFUBP00002663 pep:known scaffold:CADRE:DS499595:2939736:2942017:-1
+           gene:CADAFUBG00002717 transcript:CADAFUBT00002717
+           description:"Amino-acid acetyltransferase,
+           mitochondrial"
+          Length = 716
+
+ Score = 29.3 bits (64), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 32/61 (52%), Gaps = 6/61 (9%)
+
+Query: 332 TRDILLD-----SLVPDQDKEKEVETFLKKQEELHGSSKDGNQPETKKMKLMDPTGTAGL 386
+            R+ LLD     SL+     ++E +++L + +  H  S D N+PE +K     PT  +G+
+Sbjct: 65  AREKLLDREFFLSLLSSATTKREAKSYLARLKAQHPKSPDANKPEPEK-SATAPTLPSGV 123
+
+Query: 387 N 387
+           N
+Sbjct: 124 N 124
+
+
+>CADAFUBP00009211 pep:known scaffold:CADRE:DS499602:537935:538921:1
+           gene:CADAFUBG00009380 transcript:CADAFUBT00009380
+           description:"Short-chain dehydrogenase/reductase family
+           protein, putative"
+          Length = 278
+
+ Score = 27.7 bits (60), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 27/54 (50%), Gaps = 4/54 (7%)
+
+Query: 310 DFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEELHGS 363
+           D S  ALE AL +   V PN       ++++  D  KE EV+  ++ Q+   G+
+Sbjct: 40  DISAPALEKALAKVKEVVPNAPR----VETIKCDVSKESEVQAMVESQDSWGGT 89
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 4,184,815
+Number of extensions: 181859
+Number of successful extensions: 414
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 407
+Number of HSP's successfully gapped: 14
+Length of query: 441
+Length of database: 4,796,137
+Length adjustment: 96
+Effective length of query: 345
+Effective length of database: 3,844,201
+Effective search space: 1326249345
+Effective search space used: 1326249345
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00005150 pep:known supercontig:CADRE:1.15:817904:820596:...    30   2.0  
+CADATEAP00008368 pep:known supercontig:CADRE:1.1:195396:202033:-...    30   2.4  
+
+>CADATEAP00005150 pep:known supercontig:CADRE:1.15:817904:820596:-1
+           gene:CADATEAG00005150 transcript:CADATEAT00005150
+           description:"Putative uncharacterized protein"
+          Length = 765
+
+ Score = 30.0 bits (66), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 2/35 (5%)
+
+Query: 465 NFNHFNPDLNKRPPREPIEFDLNGNTNSTPTIAKA 499
+           N  H +PD + R P  PI F +   T S+P++A+A
+Sbjct: 301 NRQHVSPDTSPRTPLSPIAFSI--MTFSSPSVARA 333
+
+
+>CADATEAP00008368 pep:known supercontig:CADRE:1.1:195396:202033:-1
+           gene:CADATEAG00008368 transcript:CADATEAT00008368
+           description:"Putative uncharacterized protein"
+          Length = 1900
+
+ Score = 29.6 bits (65), Expect = 2.4,   Method: Composition-based stats.
+ Identities = 15/64 (23%), Positives = 30/64 (46%), Gaps = 7/64 (10%)
+
+Query: 97  LKHEKQHHSTPPIANDVSLDFFVNQLPKFSPEERKNYIDNLILNKNSHNRLSKMDGLVDA 156
+           ++ +  H ST  +   +     + Q     PEE++ Y+D +I       RL +M+   DA
+Sbjct: 938 VQQQDVHLSTCTVRESLEFSALLRQPANVPPEEKRAYVDEVI-------RLLEMEEYADA 990
+
+Query: 157 VINL 160
+           ++ +
+Sbjct: 991 IVGV 994
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,477,913
+Number of extensions: 177739
+Number of successful extensions: 270
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 270
+Number of HSP's successfully gapped: 4
+Length of query: 533
+Length of database: 5,192,116
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 4,172,720
+Effective search space: 1815133200
+Effective search space used: 1815133200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

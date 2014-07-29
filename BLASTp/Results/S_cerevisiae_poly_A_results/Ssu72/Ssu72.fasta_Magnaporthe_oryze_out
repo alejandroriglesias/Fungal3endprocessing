@@ -1,0 +1,152 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_03704T0 pep:known chromosome:MG8:4:963329:964748:1 gene:MGG_...   199   2e-63
+MGG_15560T0 pep:known chromosome:MG8:2:1272272:1272863:-1 gene:M...    27   1.4  
+MGG_06138T0 pep:known chromosome:MG8:3:2698233:2702686:1 gene:MG...    28   2.0  
+MGG_03388T0 pep:known chromosome:MG8:4:2056518:2058245:1 gene:MG...    27   4.3  
+MGG_01350T0 pep:known chromosome:MG8:2:3209195:3212609:1 gene:MG...    27   5.7  
+
+>MGG_03704T0 pep:known chromosome:MG8:4:963329:964748:1 gene:MGG_03704
+           transcript:MGG_03704T0 description:"RNA polymerase II
+           subunit A domain phosphatase SSU72"
+          Length = 259
+
+ Score =  199 bits (507), Expect = 2e-63,   Method: Compositional matrix adjust.
+ Identities = 107/232 (46%), Positives = 140/232 (60%), Gaps = 35/232 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF-GTPYNDI 67
+           LKFCTVCASN NRSME+H  L +A Y V S+GTGS VRLPG +I +PNVY F  T Y+ +
+Sbjct: 29  LKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAM 88
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ-----------------ESTK--VF 108
+           Y +L  +    Y +NG+L ML+RNR +K+ PE+WQ                 E T+  V 
+Sbjct: 89  YKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLEHASDRGSEGTEAGVV 148
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D VFTCEERC+DAV EDL  RG  LN+ VHVINVDIKD+ E A +G + IL+LA+ LN  
+Sbjct: 149 DIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAVGGQGILDLANSLNRA 208
+
+Query: 169 IEQCEKDDI--------------PFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             + E+D I               F+D + D+L EWQ     LP+ +  +++
+Sbjct: 209 AAE-ERDKIGAAGFDSGSAAARSGFDDRVADVLAEWQERWPNLPATWTLAWF 259
+
+
+>MGG_15560T0 pep:known chromosome:MG8:2:1272272:1272863:-1 gene:MGG_15560
+          transcript:MGG_15560T0 description:"Putative
+          uncharacterized protein"
+          Length = 102
+
+ Score = 27.3 bits (59), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 17/68 (25%), Positives = 28/68 (41%), Gaps = 3/68 (4%)
+
+Query: 33 GYNVSSYG---TGSAVRLPGLSIDKPNVYSFGTPYNDIYNDLLSQSADRYKSNGLLQMLD 89
+          GY  SS+G    G+ V+ PG     P  Y  G P + +    L     R     +  + D
+Sbjct: 14 GYFASSHGEANQGTIVQCPGAVPRSPRYYCTGLPTSYLRVVFLVMGNGRTNKGCVYVVFD 73
+
+Query: 90 RNRRLKKA 97
+           + R+++ 
+Sbjct: 74 EHNRMEQG 81
+
+
+>MGG_06138T0 pep:known chromosome:MG8:3:2698233:2702686:1 gene:MGG_06138
+           transcript:MGG_06138T0 description:"Putative
+           uncharacterized protein"
+          Length = 869
+
+ Score = 28.1 bits (61), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 31/58 (53%), Gaps = 6/58 (10%)
+
+Query: 136 IVHVINVDIKDDDENAKIGSKAIL-ELAD----MLNDKI-EQCEKDDIPFEDCIMDIL 187
+           ++HVIN  ++  D  A++G+  IL  + D    M+   I  Q  ++  P  D ++D+L
+Sbjct: 371 LLHVINFGLRQPDVTARVGATDILVSMIDHDPQMVRQTIYRQIHENQPPLTDALIDLL 428
+
+
+>MGG_03388T0 pep:known chromosome:MG8:4:2056518:2058245:1 gene:MGG_03388
+           transcript:MGG_03388T0 description:"ATP-dependent RNA
+           helicase DHH1"
+          Length = 535
+
+ Score = 26.9 bits (58), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+>MGG_01350T0 pep:known chromosome:MG8:2:3209195:3212609:1 gene:MGG_01350
+           transcript:MGG_01350T0 description:"Putative
+           uncharacterized protein"
+          Length = 1070
+
+ Score = 26.9 bits (58), Expect = 5.7,   Method: Composition-based stats.
+ Identities = 10/24 (41%), Positives = 15/24 (62%)
+
+Query: 60  FGTPYNDIYNDLLSQSADRYKSNG 83
+           FG P    YND + Q+ +R++ NG
+Sbjct: 666 FGIPTLHDYNDSIQQTPERFEDNG 689
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 2,415,227
+Number of extensions: 98339
+Number of successful extensions: 201
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 198
+Number of HSP's successfully gapped: 9
+Length of query: 206
+Length of database: 5,666,059
+Length adjustment: 90
+Effective length of query: 116
+Effective length of database: 4,518,109
+Effective search space: 524100644
+Effective search space used: 524100644
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

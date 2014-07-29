@@ -1,0 +1,328 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00005510 pep:known chromosome:ASM1142v1:III:642939:64665...   753   0.0  
+CADANIAP00008273 pep:known chromosome:ASM1142v1:VII:1381477:1383...    54   1e-07
+CADANIAP00001364 pep:known chromosome:ASM1142v1:VIII:968597:9706...    44   2e-04
+CADANIAP00000537 pep:known chromosome:ASM1142v1:IV:1511245:15142...    37   0.027
+CADANIAP00008825 pep:known chromosome:ASM1142v1:VII:2969707:2975...    36   0.059
+CADANIAP00002638 pep:known chromosome:ASM1142v1:VIII:4524967:452...    35   0.17 
+CADANIAP00009773 pep:known chromosome:ASM1142v1:VI:1180400:11821...    33   0.55 
+CADANIAP00000726 pep:known chromosome:ASM1142v1:IV:2084437:20855...    30   3.2  
+CADANIAP00006111 pep:known chromosome:ASM1142v1:III:2314476:2318...    29   7.8  
+CADANIAP00006518 pep:known chromosome:ASM1142v1:I:116346:117392:...    29   7.8  
+CADANIAP00006836 pep:known chromosome:ASM1142v1:I:1015920:101768...    28   9.9  
+
+>CADANIAP00005510 pep:known chromosome:ASM1142v1:III:642939:646655:-1
+           gene:CADANIAG00005510 transcript:CADANIAT00005510
+           description:"CFIA complex component Rna14, putative
+           (AFU_orthologue\x3b AFUA_3G11020)"
+          Length = 1075
+
+ Score =  753 bits (1943), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 383/768 (49%), Positives = 513/768 (66%), Gaps = 40/768 (5%)
+
+Query: 164 DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+           D + +LE R++EDPRG + +WL LI  +R RN I+  RDV+ERFL VFP +AE+WV YA 
+Sbjct: 239 DRVGILEDRIREDPRGDIPAWLELINEHRSRNRIDSARDVYERFLKVFPLSAEMWVAYAT 298
+
+Query: 224 MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLN-DSSGRARQVVTQAYDFV 282
+           ME         E IF ++L+++P VQLWTVYLDY+RRRN L+ D++G+AR+V++ AY+  
+Sbjct: 299 MESELNELFRLEQIFNRTLLTIPAVQLWTVYLDYVRRRNPLSTDTTGQARKVISSAYELA 358
+
+Query: 283 IDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTL 342
+           + ++G+DK++  IW DYIQFIR  PG VGGS WQDQQKMD LRKAYQRA+C+P+  VNTL
+Sbjct: 359 LQHIGMDKESGSIWADYIQFIRSGPGNVGGSGWQDQQKMDLLRKAYQRAICVPMQAVNTL 418
+
+Query: 343 WREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEG 402
+           W+EYDQFE GLN  TGRK+L E+SP+YMTA+S+ T L+N  R+L RTTLPRLPP PG EG
+Sbjct: 419 WKEYDQFEMGLNKLTGRKFLQEQSPSYMTARSSYTELQNFTRDLNRTTLPRLPPVPGSEG 478
+
+Query: 403 DVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAE 462
+           D E+ +Q+++WKRW+ WEK DPL L  DD   +K R++Y YKQA+MALRF PEIW +AA+
+Sbjct: 479 DFEYLQQIEIWKRWINWEKGDPLVLKEDDLTAYKGRVVYVYKQALMALRFLPEIWFEAAD 538
+
+Query: 463 WCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAV 522
+           +CF N +   G     EFL  GI+ANPES LLA K ADR+E T    E +   I+RG  V
+Sbjct: 539 FCFLNDMETEGN----EFLKNGIDANPESCLLAFKRADRLEIT---SESEQDPIKRGAKV 591
+
+Query: 523 KAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEHE------IEEGEDCANPMPSE 576
+           + PY++LLD LY  I   + +E  ++ +L E+    P+ +       ++ +       S 
+Sbjct: 592 REPYDRLLDALYDLIAKARTREAQDVARLEETFKLRPDTQPAANDDDDDDQSETKAKESV 651
+
+Query: 577 LEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARKR 636
+              +I A+      Q  +L++TVSF WIAL RAMRRIQGKG+PG  + G RQVF++ARKR
+Sbjct: 652 KNAQIEAVRHAHSIQIGILSKTVSFAWIALMRAMRRIQGKGKPGE-VPGSRQVFADARKR 710
+
+Query: 637 GRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARV 696
+           GR+TSDVY+A A +E+  YKDP+  KIF+RG+KLFPEDE F LEYLK+L    D  NAR 
+Sbjct: 711 GRITSDVYIASALIEYHCYKDPAATKIFERGAKLFPEDENFALEYLKHLIDINDIINARA 770
+
+Query: 697 VFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHFS 756
+           VFE  V KL  NP  VHK KP++++ H+YES++G+L Q   LE RM ELFP+DP+L  F+
+Sbjct: 771 VFEMTVRKLAANPENVHKTKPIFAFLHEYESRYGDLVQVINLETRMRELFPDDPTLEQFA 830
+
+Query: 757 ARFMSDRFDPIAARIIVSPAAQLRPKMVMPSIEANARAGSPMIRPLNSPKVGFLQAVNSP 816
+            RF +  FDP   R I+SP +Q RPK V P  +  +R G+P      S +       NSP
+Sbjct: 831 HRFSAPNFDPTTFRPIISP-SQTRPKTVYPGGQVPSRHGTP------SSRFPEASVTNSP 883
+
+Query: 817 KRPLPADDF-EDLNPPKKIQRNDQREFQRAESPLKGAAGRR-LENQRRIHG--QGPAS-- 870
+           KRPL  +DF +D++ P+K        F R ESPL+    RR L+ Q+R     Q P+S  
+Sbjct: 884 KRPL--EDFDDDMSRPRK--------FVRGESPLRTTTQRRQLDQQKRTQTALQVPSSGS 933
+
+Query: 871 -YNTAPAPA-IPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVP 916
+            Y +  +PA +PR+I +LLS +P A  Y + R SA +++D +R   +P
+Sbjct: 934 QYRSQGSPAPLPRDIVYLLSVIPPASTYTAGRFSAEKMIDLVRRLDLP 981
+
+
+>CADANIAP00008273 pep:known chromosome:ASM1142v1:VII:1381477:1383929:-1
+           gene:CADANIAG00008273 transcript:CADANIAT00008273
+           description:"mRNA splicing protein (Prp39), putative
+           (AFU_orthologue\x3b AFUA_4G09010)"
+          Length = 588
+
+ Score = 54.3 bits (129), Expect = 1e-07,   Method: Compositional matrix adjust.
+ Identities = 47/195 (24%), Positives = 82/195 (42%), Gaps = 31/195 (15%)
+
+Query: 166 IALLELRVKEDPRGAMDSWLSLIAAYR------QRNN----IEQCRDVFERFLAVFPHAA 215
+           I  LE  + +DP    ++W  L+ A         RN+    I   R+V++RFLA FP   
+Sbjct: 16  IKKLEAELLDDPDN-FETWERLVRAAEALEGGVNRNSNPQAITTVRNVYDRFLAKFPLLF 74
+
+Query: 216 EVWVQYADMELSQGNFVEAEAIFGKSLMSV-PNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             W +YAD+E S      A+ ++ + + S+  +V LWT Y  +    +   D       +
+Sbjct: 75  GYWKKYADLEFSITGTEAADMVYERGVASISSSVDLWTNYCTFKAETSHDTD-------I 127
+
+Query: 275 VTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCI 334
+           + + ++   + VGLD  +   W+ YI++     G             D++     R + I
+Sbjct: 128 IRELFERGANCVGLDFLSHPFWDKYIEYEERVEG------------YDKIFAILARVIEI 175
+
+Query: 335 PLSNVNTLWREYDQF 349
+           P+      +  Y Q 
+Sbjct: 176 PMHQYARYFERYRQL 190
+
+
+>CADANIAP00001364 pep:known chromosome:ASM1142v1:VIII:968597:970687:1
+           gene:CADANIAG00001364 transcript:CADANIAT00001364
+           description:"cell cycle control protein (Cwf4), putative
+           (AFU_orthologue\x3b AFUA_1G10200)"
+          Length = 673
+
+ Score = 43.9 bits (102), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 43/91 (47%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I +  +  NI   R++ +R + + P   ++W +Y  ME + GN      +F + + 
+Sbjct: 109 WIRYIESEMRNRNINHARNLLDRAVTILPRVDKLWYKYVYMEETLGNIPGTRQVFERWMS 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R N+      RAR +
+Sbjct: 169 WEPDEGAWSAYIKLEKRYNEFE----RARAI 195
+
+
+
+ Score = 40.0 bits (92), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  M++W+   A   ++    + R +FER L V   +  +W++Y + E+   N   A  +
+Sbjct: 69  RINMNNWMRYAAWELEQKEFRRARSIFERALDVDSTSVPLWIRYIESEMRNRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTILPRVDKLWYKYV 147
+
+
+
+ Score = 38.1 bits (87), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 54/115 (46%), Gaps = 17/115 (14%)
+
+Query: 192 RQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL----MSVPN 247
+           RQ     +CR ++E+ +   P  ++ W+QYA++E    +   A AI+   +    + +P 
+Sbjct: 447 RQLFEFVRCRTLYEKQIEWNPSNSQSWIQYAELERGLDDTERARAIYELGIDQPTLDMPE 506
+
+Query: 248 VQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+           + +W  Y+D+     D      R RQ+    Y+ ++       D  K+W +Y +F
+Sbjct: 507 L-VWKAYIDF----EDDEGEYERERQL----YERLLQKT----DHVKVWINYARF 548
+
+
+
+ Score = 35.8 bits (81), Expect = 0.070,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 33/66 (50%), Gaps = 4/66 (6%)
+
+Query: 195 NNIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQL 250
+            +I++ R V+   L + PH     A+VW+  A  E+ Q N   A    G+++   P  +L
+Sbjct: 379 KDIDRARQVYTECLKLIPHKKFTFAKVWLMKAQFEVRQLNLQAARKTLGQAIGMCPKDKL 438
+
+Query: 251 WTVYLD 256
+           +  Y+D
+Sbjct: 439 FRGYID 444
+
+
+
+ Score = 31.2 bits (69), Expect = 1.9,   Method: Compositional matrix adjust.
+ Identities = 23/99 (23%), Positives = 45/99 (45%), Gaps = 3/99 (3%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W + I   ++ N  E+ R +F+RF  V P     W+++A  E   G       ++G ++
+Sbjct: 175 AWSAYIKLEKRYNEFERARAIFQRFTIVHPEPRN-WIKWARFEEEYGTSDLVREVYGLAV 233
+
+Query: 243 MSV-PNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYD 280
+            ++  +     +++ Y R    L +   RAR +   A D
+Sbjct: 234 ETLGEDFMDEKLFIAYARFETKLKEYE-RARAIYKYALD 271
+
+
+
+ Score = 30.8 bits (68), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 48/203 (23%), Positives = 87/203 (42%), Gaps = 43/203 (21%)
+
+Query: 170 ELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAE---------VWVQ 220
+           E ++KE+ R   D W        Q  + E+ RDV+ER +A  P + E         +W+ 
+Sbjct: 311 EEQLKENLRN-YDVWFDFARLEEQSGDPERVRDVYERAIAQIPPSQEKRHWRRYIYLWIF 369
+
+Query: 221 YADMELSQGNFVE-AEAIFGKSLMSVPN-----VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+           YA  E  +   ++ A  ++ + L  +P+      ++W +   +  R+ +L      AR+ 
+Sbjct: 370 YALWEEMEAKDIDRARQVYTECLKLIPHKKFTFAKVWLMKAQFEVRQLNLQA----ARKT 425
+
+Query: 275 VTQAYDFVIDNVGLD-KDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVC 333
+           + QA       +G+  KD  K++  YI   R     V            + R  Y++ + 
+Sbjct: 426 LGQA-------IGMCPKD--KLFRGYIDLERQLFEFV------------RCRTLYEKQIE 464
+
+Query: 334 IPLSNVNTLWREYDQFEKGLNPT 356
+              SN  + W +Y + E+GL+ T
+Sbjct: 465 WNPSNSQS-WIQYAELERGLDDT 486
+
+
+>CADANIAP00000537 pep:known chromosome:ASM1142v1:IV:1511245:1514271:1
+           gene:CADANIAG00000537 transcript:CADANIAT00000537
+           description:"mRNA splicing factor (Prp1/Zer1), putative
+           (AFU_orthologue\x3b AFUA_2G06070)"
+          Length = 941
+
+ Score = 37.0 bits (84), Expect = 0.027,   Method: Compositional matrix adjust.
+ Identities = 28/120 (23%), Positives = 56/120 (46%), Gaps = 12/120 (10%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  +A  RQ  N++   D+  + L ++P A ++W+    +  SQ    +A   +G    
+Sbjct: 679 WIKSVAFERQLGNVDDALDLVNQGLQLYPKADKLWMMKGQIYESQNKLPQAREAYGTGTR 738
+
+Query: 244 SVP-NVQLWTVYLDY-------IRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKI 295
+           + P +V LW +           +R R+ L+    RAR  V  + +   ++V +++ A+ I
+Sbjct: 739 ACPKSVALWLLASRLEEKAGAVVRARSVLD----RARLAVPNSPELWTESVRVERRANNI 794
+
+
+
+ Score = 34.7 bits (78), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 36/159 (22%), Positives = 69/159 (43%), Gaps = 17/159 (10%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W++     R     E    V E+ +   P + E+W+Q A  +   G   +A  + G++  
+Sbjct: 578 WVAAADLERNHGTKEALWQVLEKAVEACPQSEELWLQLAKEKWQSGEIDDARRVLGRAFN 637
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQA-----YDFV-IDNVGLDK------D 291
+             PN +   ++L  ++   D   +  +AR+++  A      D V I +V  ++      D
+Sbjct: 638 QNPNNE--DIWLAAVKLEADAQQTD-QARELLATARREAGTDRVWIKSVAFERQLGNVDD 694
+
+Query: 292 ASKIWNDYIQFIRLAPGV--VGGSAWQDQQKMDQLRKAY 328
+           A  + N  +Q    A  +  + G  ++ Q K+ Q R+AY
+Sbjct: 695 ALDLVNQGLQLYPKADKLWMMKGQIYESQNKLPQAREAY 733
+
+
+
+ Score = 34.3 bits (77), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 29/121 (23%), Positives = 52/121 (42%), Gaps = 12/121 (9%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D W+    A   R   E  R ++   L VF +   +WV  AD+E + G       +  K+
+Sbjct: 542 DIWMDDAKASISRGKYETARAIYAYALRVFVNRRSIWVAAADLERNHGTKEALWQVLEKA 601
+
+Query: 242 LMSVPNV-QLWTVYLDYIRRRNDLNDSSGRARQVVTQAY-------DFVIDNVGLDKDAS 293
+           + + P   +LW        +  +++D    AR+V+ +A+       D  +  V L+ DA 
+Sbjct: 602 VEACPQSEELWLQLAKEKWQSGEIDD----ARRVLGRAFNQNPNNEDIWLAAVKLEADAQ 657
+
+Query: 294 K 294
+           +
+Sbjct: 658 Q 658
+
+
+
+ Score = 29.6 bits (65), Expect = 5.3,   Method: Compositional matrix adjust.
+ Identities = 13/54 (24%), Positives = 27/54 (50%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQL 250
+           + + R V +R     P++ E+W +   +E    N  +A+ +  ++L  VP+  L
+Sbjct: 760 VVRARSVLDRARLAVPNSPELWTESVRVERRANNIPQAKVLMARALQEVPSSGL 813
+
+
+>CADANIAP00008825 pep:known chromosome:ASM1142v1:VII:2969707:2975258:-1
+            gene:CADANIAG00008825 transcript:CADANIAT00008825
+            description:"rRNA biogenesis protein RRP5, putative
+            (AFU_orthologue\x3b AFUA_2G16040)"
+          Length = 1780
+
+ Score = 36.2 bits (82), Expect = 0.059,   Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 26/47 (55%)
+
+Query: 196  NIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+            ++E+ R VFE  L+ FP   ++W    D+E+  G+  +A   F K L
+Sbjct: 1705 DVERGRTVFEGLLSSFPKRVDLWNVLLDLEIKNGDVEQARFFFKKWL 1751
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 11,240,494
+Number of extensions: 518795
+Number of successful extensions: 1886
+Number of sequences better than 10.0: 48
+Number of HSP's gapped: 1856
+Number of HSP's successfully gapped: 63
+Length of query: 1057
+Length of database: 5,078,913
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 3,983,377
+Effective search space: 3796158281
+Effective search space used: 3796158281
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

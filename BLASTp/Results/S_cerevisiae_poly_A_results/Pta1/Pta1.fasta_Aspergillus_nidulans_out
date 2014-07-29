@@ -1,0 +1,158 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00008072 pep:known chromosome:ASM1142v1:VII:784455:78718...   100   5e-22
+CADANIAP00008609 pep:known chromosome:ASM1142v1:VII:2298361:2300...    33   0.33 
+CADANIAP00004670 pep:known chromosome:ASM1142v1:II:2278692:22811...    30   2.0  
+
+>CADANIAP00008072 pep:known chromosome:ASM1142v1:VII:784455:787186:1
+           gene:CADANIAG00008072 transcript:CADANIAT00008072
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit  (Pta1), putative
+           (AFU_orthologue\x3b AFUA_8G04420)"
+          Length = 748
+
+ Score =  100 bits (248), Expect = 5e-22,   Method: Compositional matrix adjust.
+ Identities = 61/189 (32%), Positives = 94/189 (49%), Gaps = 29/189 (15%)
+
+Query: 626 WLHVLIRLVTR---GIEA--QEA----------SDLIREELLGFFIQDFEQRVSLIIEWL 670
+           W+ +L RL TR   G+E   QE           SD IRE L  + ++DF  RV++ I WL
+Sbjct: 521 WVTLLTRLATRAPAGLEGPKQETDSLGRKKPTISDTIRESLYRYILEDFRGRVNIGIMWL 580
+
+Query: 671 NEEWF-------FQTSLHQD-------PSNYKKWSLRVLESLGPFLENKHRRFFIRLMSE 716
+           NEEW+         +S   D       P +Y  W LR+L+   P+L+++  + FIR +SE
+Sbjct: 581 NEEWYNDRLQMKVASSNRTDEDEEISVPLHYDHWVLRLLDGFLPYLDSRDNKVFIRFLSE 640
+
+Query: 717 LPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQ 776
+           +P +     + +  +  DP R +L  Q+  +LIMFRPP ++   D L ++ Q  E     
+Sbjct: 641 IPEVTIHIAKRIASLAKDPERVNLCVQSFMYLIMFRPPAREICLDALEEVYQNYEESRPS 700
+
+Query: 777 CDSLLDRLK 785
+              +L R +
+Sbjct: 701 AGKVLSRWR 709
+
+
+
+ Score = 62.0 bits (149), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 47/179 (26%), Positives = 84/179 (46%), Gaps = 31/179 (17%)
+
+Query: 90  ADVLVYKNIVLIMCASYPLVL-DLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDD 148
+            D LV +NI     + YPLV   ++    +++ ++ +  +K+ +L  W  ++P       
+Sbjct: 90  GDQLVLQNITQTAASLYPLVFRHIINHPEDKQSWEHIEAIKQDLLRRW-DSFPC------ 142
+
+Query: 149 ETDVEQWLAQIDQNIGVKLATIKFISEVVLSQT-------KSPSGNEINSSTIPDNHPVL 201
+                           VK+  IKF   VVL+QT       + P  NE + + +P NH +L
+Sbjct: 143 ---------------PVKVCCIKFAQRVVLTQTHGPIADPRRPDKNETSLAIVPRNHAIL 187
+
+Query: 202 NKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINSLSFVIKRRPQTTIRILSGLLRF 260
+           + P LE+E+  LLD +L+ + +E      +    +N L+ VI+ R     +I++ +L F
+Sbjct: 188 SLPNLEAESSGLLDRILS-IFQEDASDPVLVNATLNCLAVVIRTRQSIGNKIINAILNF 245
+
+
+>CADANIAP00008609 pep:known chromosome:ASM1142v1:VII:2298361:2300524:-1
+           gene:CADANIAG00008609 transcript:CADANIAT00008609
+           description:"ATP-dependent RNA helicase, putative
+           (AFU_orthologue\x3b AFUA_4G13330)"
+          Length = 609
+
+ Score = 33.1 bits (74), Expect = 0.33,   Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + ++I F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 430 ICTDVAARGLDIPAVDWIIQFDPP--DDTRDYIHRVGRTARGANGRGRSLM 478
+
+
+>CADANIAP00004670 pep:known chromosome:ASM1142v1:II:2278692:2281177:1
+           gene:CADANIAG00004670 transcript:CADANIAT00004670
+           description:"GARP complex subunit (Sac2), putative
+           (AFU_orthologue\x3b AFUA_1G04080)"
+          Length = 670
+
+ Score = 30.4 bits (67), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 25/85 (29%), Positives = 40/85 (47%), Gaps = 9/85 (10%)
+
+Query: 325 VIGEETKSKGILNFDPSKGNSKKTLSRQDKLKYISLWKRQLSALLSTLGVSTKTPTPVSA 384
+           + G  T  +G L+  P + +S  + +RQ+    +S     LSAL+S    +T  PT    
+Sbjct: 6   IAGHSTPDRG-LSPIPQRSSSHLSPNRQNSRPGLSRPGSSLSALVSPSASTTSLPTVARV 64
+
+Query: 385 P--------ATGSSTENMLDQLKIL 401
+           P        ATG+   N+ D L++L
+Sbjct: 65  PEETTLKQNATGTRPPNVADPLEVL 89
+
+
+
+ Score = 28.5 bits (62), Expect = 7.9,   Method: Compositional matrix adjust.
+ Identities = 21/93 (22%), Positives = 43/93 (46%), Gaps = 10/93 (10%)
+
+Query: 142 LRATVDDETDVEQWLAQIDQNIGVKLATIKFISEVVLSQTKSPSGNEINSSTIPDNHPVL 201
+           L A +++  +VEQ L    + I +  A ++ I+E  + +    S NEI + T      + 
+Sbjct: 205 LNAMLENRRNVEQLLGPAVEEISISPAAVRMIAEGPIDENWVKSLNEIETRTASIEAKIA 264
+
+Query: 202 N----------KPALESEAKRLLDMLLNYLIEE 224
+           +          +P LE   K+ ++ + +YL+ +
+Sbjct: 265 SSSSTKAIDDVRPLLEDVKKKAVERIRDYLVSQ 297
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 6,121,828
+Number of extensions: 225229
+Number of successful extensions: 669
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 666
+Number of HSP's successfully gapped: 7
+Length of query: 785
+Length of database: 5,078,913
+Length adjustment: 101
+Effective length of query: 684
+Effective length of database: 4,014,979
+Effective search space: 2746245636
+Effective search space used: 2746245636
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

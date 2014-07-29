@@ -1,0 +1,138 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ34177 pep:novel supercontig:GCA_000149035.1:GG697377:300914:3...   114   5e-26
+EFQ32159 pep:novel supercontig:GCA_000149035.1:GG697360:75408:77...    32   0.70 
+
+>EFQ34177 pep:novel supercontig:GCA_000149035.1:GG697377:300914:303924:1
+           gene:GLRG_09321 transcript:EFQ34177
+           description:"RNA-metabolising metallo-beta-lactamase"
+          Length = 984
+
+ Score =  114 bits (284), Expect = 5e-26,   Method: Compositional matrix adjust.
+ Identities = 102/338 (30%), Positives = 160/338 (47%), Gaps = 56/338 (16%)
+
+Query: 18  SVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYN 76
+           S++  D  V +LID GW+ S    E+ ++  EK +P + +I+L+  T   L A +    N
+Sbjct: 19  SILELDGGVKILIDLGWDES-FDVEK-LQELEKQVPTLSLILLTHATTSHLAAFAHCCKN 76
+
+Query: 77  FTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLDLEDI------------ 124
+           F     +RI VYAT PVI+LGR  T D YAS     P    K+ L  +            
+Sbjct: 77  FP--LFTRIPVYATRPVIDLGRTLTQDLYAST----PLAATKIPLGSLTEAAYSFSQQST 130
+
+Query: 125 -------------EIS--FDHIVPLKYSQ-----LVDLRSRYDGLTLLAYNAGVCPGGSI 164
+                        EI+  F  I PLKYSQ             +GL + AYNAG   GG+I
+Sbjct: 131 AGSEFLLQAPSPAEITRYFSLIQPLKYSQPHEPLPSPFSPPLNGLIITAYNAGHSLGGTI 190
+
+Query: 165 WCISTYSEKLVYAKRWNHTRDNILNAASILDATGKP----LSTLMRPSAIITT---LDRF 217
+           W I    E +VYA  WN  ++N+   A+ L   G      +  L +P+A++ +    ++ 
+Sbjct: 191 WHIQHGLESIVYAVDWNQAKENVFAGAAWLGGAGGGGADVIEQLRKPTALVCSSRGAEKV 250
+
+Query: 218 GSSQPFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDL-FTQVHELLFESTKINAHTQ 276
+             +    KR +   D +K  ++  G+ +IPVD S + L++ +   H    +S   ++  +
+Sbjct: 251 AQAGGRAKRDEQLIDMIKTCVARGGTALIPVDSSARVLEIAYLLEHAWRADSESDSSSLK 310
+
+Query: 277 VPVLILSYARGR----TLTYAKSMLEWLSPSLLKTWEN 310
+              L L+   GR    TL YA+SMLEW+  ++++ +E+
+Sbjct: 311 SAKLYLA---GRNMSSTLRYARSMLEWMDDNIVREFES 345
+
+
+
+ Score = 69.3 bits (168), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 72/289 (24%), Positives = 116/289 (40%), Gaps = 72/289 (24%)
+
+Query: 640 SKRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVL--SAPKQIQNEEITAK 697
+           SK  +S   V +   +  ++   L D+RS +++ P ++ RK++L    P + +      K
+Sbjct: 696 SKLVVSREKVMVNLRIAFVDFSGLHDKRSLNMLIPLIQPRKLILVGGTPDETRTLAADCK 755
+
+Query: 698 LI---------KKNIEVVNMPLNKIVEFSTTIKTLDISIDSNLDNLLKWQRISDSYTVAT 748
+           ++         +  I+V    +   V+ S       + +  +L   LKWQ +     V T
+Sbjct: 756 MLLAQQSGASEENGIDVYTPAMGTWVDASVDTNAWVVKLADSLVKKLKWQNVR-GLGVVT 814
+
+Query: 749 VVGRLVKESLPQ---------VNNHQKTASRSK--------------------------- 772
+           V G+LV E+L +          N  QKT +                              
+Sbjct: 815 VTGQLVAEALAKGKMAEKDDGANKRQKTEAEDAETNADAEEAVKDEEQDDDDEEKKEKEE 874
+
+Query: 773 ---------LVLKPLHGSSRSHKTGA-LSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVIN 822
+                    L L P + +S        L +GD+RL  L++ +    Y AEF+GEGTLVIN
+Sbjct: 875 EVEVEVVPTLDLLPSNMASAVRSVAQPLHVGDLRLTDLRRAMQSAGYTAEFRGEGTLVIN 934
+
+Query: 823 EKVAVRK------------INDAETIIDGTPSELFDTVKKLVTDMLAKI 859
+             VAVRK            I DA T++    +  F  VK+++ D LA +
+Sbjct: 935 GAVAVRKTSTGKVEVESVSIADAATMMQHRST--FYEVKRMIYDGLAVV 981
+
+
+>EFQ32159 pep:novel supercontig:GCA_000149035.1:GG697360:75408:77012:1
+           gene:GLRG_07303 transcript:EFQ32159
+           description:"hypothetical protein"
+          Length = 534
+
+ Score = 32.3 bits (72), Expect = 0.70,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 21/37 (56%)
+
+Query: 280 LILSYARGRTLTYAKSMLEWLSPSLLKTWENRNNTSP 316
+           L L  ARG  +T + S L+WL+ SL + W   N T P
+Sbjct: 372 LNLVTARGERVTPSTSYLDWLAVSLFRQWLADNTTPP 408
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 8,760,704
+Number of extensions: 356580
+Number of successful extensions: 943
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 940
+Number of HSP's successfully gapped: 10
+Length of query: 859
+Length of database: 5,585,764
+Length adjustment: 103
+Effective length of query: 756
+Effective length of database: 4,347,704
+Effective search space: 3286864224
+Effective search space used: 3286864224
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

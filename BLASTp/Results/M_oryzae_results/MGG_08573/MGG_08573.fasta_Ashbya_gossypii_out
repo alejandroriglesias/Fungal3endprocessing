@@ -1,0 +1,142 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS54680 pep:known chromosome:ASM9102v1:VII:1429786:1431549:-1 g...   105   4e-24
+AAS54007 pep:known chromosome:ASM9102v1:VI:1600335:1602128:-1 ge...    30   1.5  
+AAS52433 pep:known chromosome:ASM9102v1:V:165107:165778:-1 gene:...    27   6.0  
+
+>AAS54680 pep:known chromosome:ASM9102v1:VII:1429786:1431549:-1
+           gene:AGOS_AGR190C transcript:AAS54680
+           description:"AGR190Cp"
+          Length = 587
+
+ Score =  105 bits (261), Expect = 4e-24,   Method: Compositional matrix adjust.
+ Identities = 61/146 (41%), Positives = 84/146 (57%), Gaps = 7/146 (4%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           V +D+   LE LT N+R  I++LT +A EN   A    + +   I +  P +KL A Y L
+Sbjct: 7   VLKDFVSILEDLTFNSRPIITSLTKMAEENISYAQQFVDAVESRIAKCVPNQKLYAFYAL 66
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVP-GSLDTRPVF 128
+           DSI KN G+PYT++F R L + + + Y  VDNATR K+  M KTW  P+P G L    +F
+Sbjct: 67  DSICKNAGSPYTIYFSRNLAKIYRQTYLIVDNATRTKLILMFKTWMTPLPTGEL----LF 122
+
+Query: 129 PPEVVRPIENALIKARTSALQAQQEQ 154
+             + +  IE  LIKA  S+L  +Q Q
+Sbjct: 123 DKDTLDRIEQFLIKA--SSLHQRQAQ 146
+
+
+
+ Score = 75.5 bits (184), Expect = 8e-15,   Method: Compositional matrix adjust.
+ Identities = 60/254 (23%), Positives = 100/254 (39%), Gaps = 27/254 (10%)
+
+Query: 423 LAALRSKGILSAGPLPPVVAPTPVSHAPGLPSVIAPPVAPAHVEIMG--DIQLTTSSLKQ 480
+           LA+L  K   S GP   +  P P S    +   +    A  +++I+   ++QL+   + Q
+Sbjct: 320 LASLLEK---SMGPADNMQLP-PFSLLQDILGNVRAHYAVRNIDILNTPNLQLSQQFVMQ 375
+
+Query: 481 PR----LYLVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAE---- 532
+                   L++ LY      CT CG RF   +     +  H DWHFR+  RI   +    
+Sbjct: 376 KNNPLTEQLMHLLYRSKPNKCTSCGVRFGTSQTEHQMEIDHFDWHFRINKRIKGTQSNSQ 435
+
+Query: 533 ---KKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXXXXXXXXXXXGPEAXXX 589
+              K  Q R++Y++   W+  ++  D+                            +A   
+Sbjct: 436 VIAKNIQSRTWYLNDEQWILFKDE-DIVSTNTNNPAINTVALAMSQTTTASESENKA--- 491
+
+Query: 590 XXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMDAVRPGGGNRV 649
+                      K+++ VPD  S+++  C IC E     + ++  EWVW + V  G   + 
+Sbjct: 492 ----KNELQIRKKYVVVPDGVSDMSFQCSICTEVTSAVYDEDLSEWVWRNCV--GSNGKY 545
+
+Query: 650 FHASCHSEVTGRGA 663
+           FHA+C  E +   A
+Sbjct: 546 FHATCFEEASKSTA 559
+
+
+>AAS54007 pep:known chromosome:ASM9102v1:VI:1600335:1602128:-1
+          gene:AGOS_AFR636C transcript:AAS54007
+          description:"AFR636Cp"
+          Length = 597
+
+ Score = 29.6 bits (65), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 32/65 (49%), Gaps = 4/65 (6%)
+
+Query: 12 EDYKDALEGL----TSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALY 67
+          ED+   LE L    +  +   I  LT  A EN  +   + + ++++ +      KL +LY
+Sbjct: 5  EDFVATLESLKELKSGISGSRIKKLTTYALENVNAEEYLIDKIINYSRTCPATHKLGSLY 64
+
+Query: 68 LLDSI 72
+          ++DSI
+Sbjct: 65 VIDSI 69
+
+
+>AAS52433 pep:known chromosome:ASM9102v1:V:165107:165778:-1 gene:AGOS_AEL252C
+           transcript:AAS52433 description:"Mediator of RNA
+           polymerase II transcription subunit 8"
+          Length = 223
+
+ Score = 27.3 bits (59), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 24/50 (48%), Gaps = 5/50 (10%)
+
+Query: 35  IARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVKNVGTPYTLFF 84
+           I R+ + +A A+     D I Q +       LY  + + KNVG P ++ +
+Sbjct: 143 IQRDKSTTARAL-----DFINQEYSNYSFQGLYTAEELSKNVGDPQSMIY 187
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 2,448,677
+Number of extensions: 94699
+Number of successful extensions: 347
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 345
+Number of HSP's successfully gapped: 17
+Length of query: 695
+Length of database: 2,335,236
+Length adjustment: 95
+Effective length of query: 600
+Effective length of database: 1,881,516
+Effective search space: 1128909600
+Effective search space used: 1128909600
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

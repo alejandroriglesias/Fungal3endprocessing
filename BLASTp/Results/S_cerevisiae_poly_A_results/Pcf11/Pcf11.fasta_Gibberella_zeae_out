@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_12263P0 pep:known chromosome:ASM24013v2:2:4194265:4196181:1...   108   7e-25
+FGSG_01298P0 pep:known chromosome:ASM24013v2:1:4276722:4277612:-...    33   0.29 
+
+>FGSG_12263P0 pep:known chromosome:ASM24013v2:2:4194265:4196181:1 gene:FGSG_12263
+           transcript:FGSG_12263T0 description:"conserved
+           hypothetical protein"
+          Length = 596
+
+ Score =  108 bits (269), Expect = 7e-25,   Method: Compositional matrix adjust.
+ Identities = 59/161 (36%), Positives = 84/161 (52%), Gaps = 5/161 (3%)
+
+Query: 1   MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK 60
+           M  D+  + +D+   LE+L+ N R  I+ LT +A EN   A    + ++  I K  P +K
+Sbjct: 1   MSGDSAEVAEDYRLALEDLSSNLRFEISNLTVIARENTEHALAIAEVLQQHILKAAPSKK 60
+
+Query: 61  LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL 120
+           L A Y LDSI KNVG+PYT+YF RNLF  +  +Y +VD   R K+  M + W  P    +
+Sbjct: 61  LPALYVLDSIVKNVGTPYTLYFGRNLFKTFMESYAVVDQPVRRKMEEMLRTWKEPVPGSM 120
+
+Query: 121 ---PLFEGSALEKIEQFLIKASA--LHQKNLQAMLPTPTVP 156
+              P+F    +  IE  L+KA A  + Q  +    P   VP
+Sbjct: 121 DSRPVFSHELVRPIENALLKARAATMPQAGMMPGRPRSAVP 161
+
+
+
+ Score = 85.9 bits (211), Expect = 8e-18,   Method: Compositional matrix adjust.
+ Identities = 48/201 (23%), Positives = 85/201 (42%), Gaps = 46/201 (22%)
+
+Query: 406 QNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISN 465
+           Q +LI  L+      C+ CG+RF + E+ K  +  H+DWHFR++ R              
+Sbjct: 414 QPSLIRQLHNDLGQPCTQCGRRFRDDEAGKKKKIAHMDWHFRVHQR-------------- 459
+
+Query: 466 SNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHAD 525
+               T    K    R+WY+   +W   K  E+    H     D           +   A 
+Sbjct: 460 ----TNEAEKRGMHRSWYVDQGEW--LKSREVVDVDHVPTAED-----------VAAQAS 502
+
+Query: 526 ENDEGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWK 585
+           +  E +               + KY+ VP+ S+ +   CPIC++     + + + EWVW 
+Sbjct: 503 KASEAA---------------KPKYIPVPDPSRGINPVCPICQDRFENKWLDTAQEWVWL 547
+
+Query: 586 NTIEVNGKYFHSTCYHETSQN 606
+           +T+ V  + +H++C+ E +++
+Sbjct: 548 DTVLVGNRAYHASCHAEATRD 568
+
+
+>FGSG_01298P0 pep:known chromosome:ASM24013v2:1:4276722:4277612:-1
+           gene:FGSG_01298 transcript:FGSG_01298T0
+           description:"conserved hypothetical protein"
+          Length = 296
+
+ Score = 32.7 bits (73), Expect = 0.29,   Method: Compositional matrix adjust.
+ Identities = 15/49 (30%), Positives = 30/49 (61%), Gaps = 4/49 (8%)
+
+Query: 424 CGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTT 472
+           C K+F  +++ K    +HL+ HF+  +R  GSQ +  T ++++  N+T+
+Sbjct: 178 CQKKFTRADNMK----QHLETHFKDKSRSSGSQRSHRTSLADARRNSTS 222
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 6,750,434
+Number of extensions: 276020
+Number of successful extensions: 614
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 611
+Number of HSP's successfully gapped: 11
+Length of query: 626
+Length of database: 5,933,672
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,601,872
+Effective search space: 2420584672
+Effective search space used: 2420584672
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

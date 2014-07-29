@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00000831 pep:known contig:CADRE:8741:2885661:2887994:-1 ...   107   2e-24
+CADNFIAP00004652 pep:known contig:CADRE:9201:2318361:2319390:1 g...    31   1.1  
+
+>CADNFIAP00000831 pep:known contig:CADRE:8741:2885661:2887994:-1
+           gene:CADNFIAG00000870 transcript:CADNFIAT00000870
+           description:"MRNA cleavage factor complex component
+           Pcf11, putative"
+          Length = 654
+
+ Score =  107 bits (267), Expect = 2e-24,   Method: Compositional matrix adjust.
+ Identities = 51/211 (24%), Positives = 93/211 (44%), Gaps = 41/211 (19%)
+
+Query: 404 IVQNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGI 463
+           I +  LI  LY ++ N+C  CG+RF  +E  K  +  HLDWHFR N R+  +        
+Sbjct: 449 IPREGLIASLYEARSNRCGTCGRRFFATEEGKEKKARHLDWHFRTNQRMADAA------- 501
+
+Query: 464 SNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIH 523
+                      K  Q+R+WY+ +  W          ++   D  DP   ++    A    
+Sbjct: 502 -----------KRAQNRSWYVDERDW--------IKSREAGDDEDPAEAESTSAGAAGAE 542
+
+Query: 524 ADENDEGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWV 583
+           +D   +G                  +++  P  +      CPIC+ET    + EE  +W+
+Sbjct: 543 SDSTKKGPPK---------------QWIRAPNDATLRNTPCPICQETFESTWSEEVQDWI 587
+
+Query: 584 WKNTIEVNGKYFHSTCYHETSQNSSKSNSGK 614
+           W++ ++V  + +H++CY E +++ + + +G+
+Sbjct: 588 WQDAVKVGNRIYHASCYAEVTKDGTTTAAGR 618
+
+
+
+ Score = 98.6 bits (244), Expect = 8e-22,   Method: Compositional matrix adjust.
+ Identities = 53/133 (39%), Positives = 72/133 (54%), Gaps = 3/133 (2%)
+
+Query: 8   IVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYAL 67
+           + +D+ + LE+LT N R  I+ LT +A+EN   A      +E+ I    P QKL A Y +
+Sbjct: 10  VAEDYKNSLEDLTTNDRFQISNLTVIAKENTEHAMAISRVLENHIRTTPPAQKLPALYVV 69
+
+Query: 68  DSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL---PLFE 124
+           DSI KNVG+PYT++  RN++  +   Y LVD+ TR KL  M K W       L   P+F 
+Sbjct: 70  DSIVKNVGTPYTLFLGRNMYQTFMNAYTLVDSQTRRKLDEMLKTWKESVPGSLDTRPVFP 129
+
+Query: 125 GSALEKIEQFLIK 137
+                 IE  LIK
+Sbjct: 130 PEITRSIESALIK 142
+
+
+
+ Score = 31.6 bits (70), Expect = 0.77,   Method: Compositional matrix adjust.
+ Identities = 19/56 (33%), Positives = 29/56 (51%)
+
+Query: 158 LLRDIDKLTCLTSERLKNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQL 213
+           L RDI+ L         N P D  ++ +L  L  L+  L+R++LT   LK V+ Q+
+Sbjct: 231 LNRDIEALIAAARSDFANNPLDPSVQQRLKALLDLQGILQRQELTQEQLKLVRDQV 286
+
+
+>CADNFIAP00004652 pep:known contig:CADRE:9201:2318361:2319390:1 gene:CADNFIAG00004780
+           transcript:CADNFIAT00004780 description:"SIR2 family
+           histone deacetylase, putative"
+          Length = 318
+
+ Score = 30.8 bits (68), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 37/76 (48%), Gaps = 8/76 (10%)
+
+Query: 503 KNDYTDPHANK-NIDKSALNIHADENDEG------SVDNTLGSDRSNELEIRGKYVVVPE 555
+           +ND+TDP      I K   ++     D+       ++ N L  + + EL+I  + V +P 
+Sbjct: 145 ENDFTDPIVPALAIPKGVPDLSPSAEDKTGEEAAKALSNALRMEET-ELDISDENVPLPA 203
+
+Query: 556 TSQDMAFKCPICKETV 571
+            SQD+   CP CKE +
+Sbjct: 204 LSQDVLPHCPECKEGL 219
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 5,610,275
+Number of extensions: 224934
+Number of successful extensions: 492
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 490
+Number of HSP's successfully gapped: 11
+Length of query: 626
+Length of database: 5,073,492
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,033,292
+Effective search space: 2121511592
+Effective search space used: 2121511592
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

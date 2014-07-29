@@ -1,0 +1,77 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa 
+           12,020 sequences; 5,034,962 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1221_Cercospora_zeae_zm1_GeneCatalog_                                  57   2e-09
+
+>1221_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 349
+
+ Score = 57.0 bits (136), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 25/60 (41%), Positives = 38/60 (63%), Gaps = 7/60 (11%)
+
+Query: 188 KPWRQPGANLSDYFNYGFNEFTWMEYLHRQE-------KLQQDYNPRRILMGLLSLQQQG 240
+           KPWR PG + +DYFNYGF+E+TW +Y  RQ+       +L+Q+    + ++G+   QQ G
+Sbjct: 162 KPWRLPGTDQTDYFNYGFDEYTWTQYSLRQQEMSGTIGQLKQEDAQLKAMLGVGGQQQSG 221
+
+
+  Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa
+    Posted date:  Feb 26, 2014  1:02 PM
+  Number of letters in database: 5,034,962
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 2,368,969
+Number of extensions: 95541
+Number of successful extensions: 302
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 300
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 5,034,962
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 3,905,082
+Effective search space: 909884106
+Effective search space used: 909884106
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

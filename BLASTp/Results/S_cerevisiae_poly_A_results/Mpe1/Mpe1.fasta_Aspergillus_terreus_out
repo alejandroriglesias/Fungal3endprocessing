@@ -1,0 +1,146 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00005263 pep:known supercontig:CADRE:1.7:1865892:1867949...   253   4e-77
+CADATEAP00002090 pep:known supercontig:CADRE:1.8:747001:750369:-...    35   0.054
+CADATEAP00002409 pep:known supercontig:CADRE:1.2:909834:915559:1...    32   0.32 
+CADATEAP00006266 pep:known supercontig:CADRE:1.14:896473:898355:...    28   6.0  
+
+>CADATEAP00005263 pep:known supercontig:CADRE:1.7:1865892:1867949:-1
+           gene:CADATEAG00005263 transcript:CADATEAT00005263
+           description:"Putative uncharacterized protein"
+          Length = 616
+
+ Score =  253 bits (647), Expect = 4e-77,   Method: Compositional matrix adjust.
+ Identities = 147/388 (37%), Positives = 216/388 (55%), Gaps = 17/388 (4%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDGTDF+L IYN DT EEYD
+Sbjct: 1   MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIITQSRLGDGTDFELSIYNEDTGEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIK----SFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQ 116
+           DD  +IPRSTSV+ +R PA +      + +   K  V A     +    +GRP       
+Sbjct: 61  DDTTIIPRSTSVVARRLPAARPGKGGAARYVSGKMPVNARNASRSEPAFSGRPTPNASSS 120
+
+Query: 117 HXXXXXXNVSGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQENEGPP 176
+                    +  TEEE+I ++F             M+ A PV F     K      + PP
+Sbjct: 121 VSNGVLELNNAQTEEEKINALFNLQANQWKEQQQEMANAMPVPFGRGRGK-PINVPDHPP 179
+
+Query: 177 PPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETM----TP 231
+           PPGY+CYRC  + HWI+ CPTN+DP F+GK R++R+TGIP+     +E  PE++    + 
+Sbjct: 180 PPGYLCYRCREKGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTKVE-KPESLVLDGST 238
+
+Query: 232 EEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCP 291
+           E++    +M+  +G FV+   DK +WE YQ K +       E    +   +     L+CP
+Sbjct: 239 EDLRNTGVMVNADGDFVIAKPDKAAWELYQEKAKASAAAAAEAAAAETSKELQARGLECP 298
+
+Query: 292 LTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQD-----K 346
+           +   +  +P KT  CC   +  + + NAL+ESDFVCP C T  +LLD+L  D+D     K
+Sbjct: 299 IDKRMFLEPTKT-PCCQRTYCNDCITNALIESDFVCPGCGTEGVLLDNLAVDEDAIAKIK 357
+
+Query: 347 EKEVETFLKKQEELHGSSKDGNQPETKK 374
+             E E   +K+E+   S+   +Q ++K+
+Sbjct: 358 SYEAEKADQKREKEKQSTAPEDQTDSKQ 385
+
+
+>CADATEAP00002090 pep:known supercontig:CADRE:1.8:747001:750369:-1
+           gene:CADATEAG00002090 transcript:CADATEAT00002090
+           description:"Putative uncharacterized protein"
+          Length = 1004
+
+ Score = 34.7 bits (78), Expect = 0.054,   Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCP 328
+           LKCPLT    R PV ++KC +  F +EA+E  +  S    P
+Sbjct: 857 LKCPLTLLPFRDPVTSTKCPH-SFEREAIEGMIASSATTAP 896
+
+
+>CADATEAP00002409 pep:known supercontig:CADRE:1.2:909834:915559:1 gene:CADATEAG00002409
+            transcript:CADATEAT00002409 description:"Chitin synthase
+            6"
+          Length = 1824
+
+ Score = 32.3 bits (72), Expect = 0.32,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 22/37 (59%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            RKI+I+DEGKF      K+ WE+YQ +    Q   D+
+Sbjct: 1667 RKIVISDEGKFDPASIPKKKWEEYQAELWEAQTSRDD 1703
+
+
+>CADATEAP00006266 pep:known supercontig:CADRE:1.14:896473:898355:1
+           gene:CADATEAG00006266 transcript:CADATEAT00006266
+           description:"Putative uncharacterized protein"
+          Length = 596
+
+ Score = 28.1 bits (61), Expect = 6.0,   Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 10/47 (21%)
+
+Query: 192 IKNCPTNSDPNF---EGKRIRRTTGIPKKFLKSIE----IDPETMTP 231
+           ++NCPT + P F   + + +RRT G   +F+K  E     +PE M P
+Sbjct: 153 MRNCPTTNIPKFRTTQYRDVRRTHG---EFIKLAEHLMSANPEAMVP 196
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 4,555,535
+Number of extensions: 198406
+Number of successful extensions: 435
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 428
+Number of HSP's successfully gapped: 15
+Length of query: 441
+Length of database: 5,192,116
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,183,122
+Effective search space: 1438993968
+Effective search space used: 1438993968
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

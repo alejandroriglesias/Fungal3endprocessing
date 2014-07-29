@@ -1,0 +1,127 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB05935 pep:novel supercontig:GCA_000149845.2:supercont5.1:2295...    94   1e-22
+EEB06783 pep:novel supercontig:GCA_000149845.2:supercont5.3:2458...    27   3.9  
+EEB07138 pep:novel supercontig:GCA_000149845.2:supercont5.1:2606...    27   4.5  
+EEB09261 pep:novel supercontig:GCA_000149845.2:supercont5.3:8361...    26   6.5  
+
+>EEB05935 pep:novel supercontig:GCA_000149845.2:supercont5.1:2295530:2297754:
+           1 gene:SJAG_00961 transcript:EEB05935 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit"
+          Length = 326
+
+ Score = 94.0 bits (232), Expect = 1e-22,   Method: Compositional matrix adjust.
+ Identities = 41/96 (42%), Positives = 61/96 (63%), Gaps = 5/96 (5%)
+
+Query: 141 GVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDY 200
+           GV   + +  ES  N PK     ID+DK  + D   I  +D E  ++KPWR+PGA+++DY
+Sbjct: 94  GVEMKSTEIKESSENAPK-----IDIDKVPMIDGKSIYDVDLESYEDKPWRKPGADITDY 148
+
+Query: 201 FNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSL 236
+           FNYGF+EFTW  Y  +Q K+++DY P+++L  +  L
+Sbjct: 149 FNYGFDEFTWAAYCTKQSKIREDYTPQKVLSSMTQL 184
+
+
+>EEB06783 pep:novel supercontig:GCA_000149845.2:supercont5.3:2458377:2460356:
+           1 gene:SJAG_01837 transcript:EEB06783 description:"AUR
+           protein kinase Ark1"
+          Length = 346
+
+ Score = 26.6 bits (57), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 17/31 (54%)
+
+Query: 203 YGFNEFTWMEYLHRQEKLQQDYNPRRILMGL 233
+           Y F     + YLH++  + +D  P  IL+G+
+Sbjct: 183 YIFQMAQALAYLHKKHVIHRDIKPENILLGI 213
+
+
+>EEB07138 pep:novel supercontig:GCA_000149845.2:supercont5.1:260690:263077:1
+           gene:SJAG_02217 transcript:EEB07138 description:"group I
+           intron splicing factor"
+          Length = 677
+
+ Score = 26.6 bits (57), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 22/36 (61%), Gaps = 2/36 (5%)
+
+Query: 194 GANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRI 229
+           GA++S+ F +G+    W+EYLH +  L +  N  +I
+Sbjct: 579 GASVSNDFAFGYA--VWLEYLHCKSYLPEVLNGDKI 612
+
+
+>EEB09261 pep:novel supercontig:GCA_000149845.2:supercont5.3:836101:838146:-1
+           gene:SJAG_04457 transcript:EEB09261
+           description:"CK1/CK1/CK1-D protein kinase Hhp1"
+          Length = 346
+
+ Score = 26.2 bits (56), Expect = 6.5,   Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 23/53 (43%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FN+    F+              +EY+H +  L +D  P   LMG+
+Sbjct: 88  GPSLEDLFNFCNRRFSLKTVLLLADQLISRIEYIHSKSFLHRDIKPDNFLMGI 140
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,028,220
+Number of extensions: 40890
+Number of successful extensions: 157
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 156
+Number of HSP's successfully gapped: 21
+Length of query: 327
+Length of database: 2,277,407
+Length adjustment: 88
+Effective length of query: 239
+Effective length of database: 1,848,143
+Effective search space: 441706177
+Effective search space used: 441706177
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

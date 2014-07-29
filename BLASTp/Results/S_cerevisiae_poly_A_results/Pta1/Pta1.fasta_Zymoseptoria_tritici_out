@@ -1,0 +1,119 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P10934 pep:known chromosome:MG2:1:5502518:5504704:1 gene:M...    97   5e-21
+Mycgr3P65342 pep:known chromosome:MG2:1:1421672:1423769:-1 gene:...    32   0.68 
+
+>Mycgr3P10934 pep:known chromosome:MG2:1:5502518:5504704:1 gene:Mycgr3G10934
+           transcript:Mycgr3T10934 description:"Putative
+           uncharacterized protein"
+          Length = 729
+
+ Score = 97.1 bits (240), Expect = 5e-21,   Method: Compositional matrix adjust.
+ Identities = 49/137 (35%), Positives = 78/137 (56%), Gaps = 14/137 (10%)
+
+Query: 647 IREELLGFFIQDFEQRVSLIIEWLNEEWFFQTSLHQ-------------DPSNYKKWSLR 693
+           IRE LL + ++ F  R+ + I WLNEEW+    L Q             D  NY  W+LR
+Sbjct: 573 IRESLLNYVMESFRSRMEVAIIWLNEEWY-SDRLQQKQNEAQGMDVDSDDLPNYWFWTLR 631
+
+Query: 694 VLESLGPFLENKHRRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRP 753
+           +L+ + P+ + K  R  IRL+SE+P++  D L+ ++ I  DP R ++    L +LIMF+P
+Sbjct: 632 LLDGMMPYFDVKDGRILIRLLSEVPAINRDVLDRVRKIAEDPERVAISTNALLYLIMFKP 691
+
+Query: 754 PVQDTVRDLLHQLKQED 770
+           PV++   D + Q+ +E+
+Sbjct: 692 PVRELAIDCVEQMWREN 708
+
+
+
+ Score = 59.7 bits (143), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 43/140 (30%), Positives = 74/140 (52%), Gaps = 24/140 (17%)
+
+Query: 142 LRATVDDETDVEQW--LAQIDQNI---------GVKLATIKFISEVVLSQTKSPSGN--- 187
+            R TV   TD E W  +A I  +I         GV++  IKF++ VV +QT     +   
+Sbjct: 106 FRHTVTAPTDTETWAKIASIKSSILRRMDTAAPGVRICCIKFVACVVQTQTPGLVADPRR 165
+
+Query: 188 ---EINSSTIPDNHPVLNKPALESEAKRLLDMLLNYL---IEEQYMVSSVFIGIINSLSF 241
+              EI+ + +P +HPV+    LE+EA  LLD LL+ L   +++  +V++     +N+L+ 
+Sbjct: 166 PEYEISLALVPRDHPVIPPANLEAEASGLLDRLLSVLQDNVDDPLLVTAT----LNALAN 221
+
+Query: 242 VIKRRPQTTIRILSGLLRFN 261
+           ++ +R     ++L+ +L FN
+Sbjct: 222 LVHKRASVASKVLTTVLNFN 241
+
+
+>Mycgr3P65342 pep:known chromosome:MG2:1:1421672:1423769:-1 gene:Mycgr3G65342
+           transcript:Mycgr3T65342 description:"Putative
+           uncharacterized protein"
+          Length = 638
+
+ Score = 32.0 bits (71), Expect = 0.68,   Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 26/51 (50%), Gaps = 2/51 (3%)
+
+Query: 731 ICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSLL 781
+           IC D A   L    + +++ F PP  D  RD +H++ +   G + +  SL+
+Sbjct: 464 ICTDVAARGLDIPAVDWIVQFDPP--DDPRDYIHRVGRTARGANAKGKSLM 512
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 5,656,660
+Number of extensions: 204392
+Number of successful extensions: 546
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 543
+Number of HSP's successfully gapped: 5
+Length of query: 785
+Length of database: 4,742,065
+Length adjustment: 101
+Effective length of query: 684
+Effective length of database: 3,638,034
+Effective search space: 2488415256
+Effective search space used: 2488415256
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

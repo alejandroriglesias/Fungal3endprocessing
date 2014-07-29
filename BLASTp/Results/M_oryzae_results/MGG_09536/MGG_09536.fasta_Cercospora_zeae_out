@@ -1,0 +1,155 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa 
+           12,020 sequences; 5,034,962 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+4624_Cercospora_zeae_zm1_GeneCatalog_                                 298   1e-91
+10519_Cercospora_zeae_zm1_GeneCatalog_                                 38   0.005
+10518_Cercospora_zeae_zm1_GeneCatalog_                                 38   0.008
+1180_Cercospora_zeae_zm1_GeneCatalog_                                  37   0.013
+10516_Cercospora_zeae_zm1_GeneCatalog_                                 32   0.15 
+7076_Cercospora_zeae_zm1_GeneCatalog_                                  32   0.42 
+8259_Cercospora_zeae_zm1_GeneCatalog_                                  30   0.80 
+9706_Cercospora_zeae_zm1_GeneCatalog_                                  30   2.4  
+
+>4624_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 578
+
+ Score =  298 bits (762), Expect = 1e-91,   Method: Compositional matrix adjust.
+ Identities = 157/343 (45%), Positives = 213/343 (62%), Gaps = 17/343 (4%)
+
+Query: 16  TRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVVAR 75
+           T + FDG+ +SVFE+KR+I+  + LGDG DFDL I T D  E YDDDTT IPRST VVAR
+Sbjct: 16  TPIAFDGSSLSVFEVKREIMKIARLGDGKDFDLDISTSDTGELYDDDTTQIPRSTTVVAR 75
+
+Query: 76  RLPSMKPGAGRAARYVSGKAPVNAKNSSRKE-QVXXXXXXXXXXXXXXQMSNAVTEEERL 134
+           R+P+ K GAGRAARYV+G  P++AKNS R E  +              +  +++TEEE+L
+Sbjct: 76  RMPAAKNGAGRAARYVTGSMPLHAKNSHRTESNLRGGVGKNASAANGVKDMSSMTEEEKL 135
+
+Query: 135 AAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEKGHWIQ 194
+           AA+  A + Q+   Q +L     I   +     +PA VPD   P GY+CYRC +KGHWIQ
+Sbjct: 136 AAVMNASNTQF---QADLQSSANIPTKRNAF--KPAAVPDKPLPPGYVCYRCRKKGHWIQ 190
+
+Query: 195 LCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGVDGEEGKVPSGVMVNADGDF 254
+            CPTN++P FD + + KRTTGIP+S L+ V++            + ++P GV +N DGD+
+Sbjct: 191 ACPTNNDPTFDGK-KPKRTTGIPRSMLEKVEEPDT---------DKELPQGVFMNQDGDY 240
+
+Query: 255 VIAQPDKAAWEKFQARTXXXXXXXXXXXXDEKELQDRGLECPMDKRLFNEPMKTPCCEKT 314
+           V  + D A W+K Q +              ++EL DRGL C +D R F  P+KTPCC  T
+Sbjct: 241 VRVKTDDATWQKIQEQQKAAAEKAKEAAAVDQELIDRGLVCALDNRPFTVPVKTPCCGTT 300
+
+Query: 315 YCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAKIKQY 357
+           YCNDCI NALI++D +CP C  E  L+D+LKP+++   K+ +Y
+Sbjct: 301 YCNDCIENALIDNDLICPNC-GEQALLDDLKPNEDALNKLTEY 342
+
+
+
+ Score = 48.9 bits (115), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 20/33 (60%), Positives = 25/33 (75%)
+
+Query: 627 AATEDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           AA    AYFR+PVNPHRHQ++ +R R  DYRE+
+Sbjct: 546 AADNGGAYFRQPVNPHRHQHKGRRQRSVDYREM 578
+
+
+>10519_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 250
+
+ Score = 38.1 bits (87), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 27/44 (61%), Gaps = 2/44 (4%)
+
+Query: 294 ECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAE 337
+           ECP+ +   +EP++ P C   YC+DC T+  ++ +  CP C+ E
+Sbjct: 20  ECPICREDMDEPIQLP-CRHVYCHDC-THTWLQRNNTCPTCRVE 61
+
+
+>10518_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 352
+
+ Score = 37.7 bits (86), Expect = 0.008,   Method: Compositional matrix adjust.
+ Identities = 17/44 (38%), Positives = 27/44 (61%), Gaps = 2/44 (4%)
+
+Query: 294 ECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAE 337
+           ECP+ + L  +P +TP C  T+C +C+   + E +  CP C+AE
+Sbjct: 20  ECPICRDLTIKPTQTP-CRHTFCYECLHTWVREHN-TCPSCRAE 61
+
+
+>1180_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 406
+
+ Score = 37.0 bits (84), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 17/45 (37%), Positives = 25/45 (55%), Gaps = 2/45 (4%)
+
+Query: 292 GLECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQA 336
+            L C + K  ++ PM T  C  T+C+ CI  +L  +D  CP C+A
+Sbjct: 27  ALHCQICKEFYDTPMITS-CNHTFCSRCIRTSL-SADGKCPACRA 69
+
+
+>10516_Cercospora_zeae_zm1_GeneCatalog_ 
+          Length = 116
+
+ Score = 32.0 bits (71), Expect = 0.15,   Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 25/44 (56%), Gaps = 2/44 (4%)
+
+Query: 294 ECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAE 337
+           ECP+ +RL  EP +TP C   +  DC+ +  ++    CP C+ E
+Sbjct: 20  ECPICRRLLPEPAQTP-CRHIFGFDCL-DTWVQDYHDCPSCRFE 61
+
+
+  Database: Cercospora_zeae_zm1_GeneCatalog_proteins_20111029.aa.fa
+    Posted date:  Feb 26, 2014  1:02 PM
+  Number of letters in database: 5,034,962
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 4,987,439
+Number of extensions: 207550
+Number of successful extensions: 608
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 601
+Number of HSP's successfully gapped: 26
+Length of query: 659
+Length of database: 5,034,962
+Length adjustment: 100
+Effective length of query: 559
+Effective length of database: 3,832,962
+Effective search space: 2142625758
+Effective search space used: 2142625758
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 56 (26.2 bits)

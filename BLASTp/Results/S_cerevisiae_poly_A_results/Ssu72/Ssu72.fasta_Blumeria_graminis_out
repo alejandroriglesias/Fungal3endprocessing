@@ -1,0 +1,157 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU78132 pep:novel supercontig:EF1:HF943535:653009:654480:1 gene...   184   2e-57
+CCU76940 pep:novel supercontig:EF1:HF943530:224069:225196:1 gene...    29   0.43 
+CCU81903 pep:novel supercontig:EF1:HF943509:239466:240972:-1 gen...    28   1.2  
+CCU76913 pep:novel supercontig:EF1:HF943534:2175867:2179266:1 ge...    27   2.1  
+CCU75715 pep:novel supercontig:EF1:HF943548:364679:366525:1 gene...    27   2.8  
+CCU77391 pep:novel supercontig:EF1:HF943544:1211039:1213798:-1 g...    27   3.5  
+CCU82010 pep:novel supercontig:EF1:HF943513:747237:748688:1 gene...    26   6.4  
+CCU75480 pep:novel supercontig:EF1:HF943546:3642477:3645468:1 ge...    26   7.3  
+
+>CCU78132 pep:novel supercontig:EF1:HF943535:653009:654480:1
+           gene:BGHDH14_bgh04197 transcript:CCU78132
+           description:"RNA polymerase II subunit A C-terminal
+           domain phosphatase SSU72"
+          Length = 274
+
+ Score =  184 bits (467), Expect = 2e-57,   Method: Compositional matrix adjust.
+ Identities = 107/249 (42%), Positives = 140/249 (56%), Gaps = 52/249 (20%)
+
+Query: 9   LKFCTVCASNNNR------------------SMESHKVLQEAGYNVSSYGTGSAVRLPGL 50
+           LKFCTVCASN NR                  SMESH  L  A Y V S+GTGS VRLPG 
+Sbjct: 27  LKFCTVCASNQNRCEYTSVTIIQKLTLLKNRSMESHLRLASANYPVISFGTGSLVRLPGP 86
+
+Query: 51  SIDKPNVYSFG-TPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQ------- 102
+           SI +PNVY F  T Y+ +Y +L ++    Y++NGLL MLDRNR +K  PE+WQ       
+Sbjct: 87  SITQPNVYQFNKTSYDSMYKELEAKDPRLYRANGLLNMLDRNRNVKWGPERWQDWQVGVP 146
+
+Query: 103 --ESTK----------VFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+             E +K          V D V TCEERC+DAV +DL+ RG  LN+ VHVINVDIKD+ E 
+Sbjct: 147 RLEHSKDRGSEGIEGGVVDIVITCEERCWDAVVDDLLARGSPLNRPVHVINVDIKDNHEE 206
+
+Query: 151 AKIGSKAILELADMLNDKIEQCEKDDIP-------------FEDCIMDILTEWQSSHSQL 197
+           A +G + IL+LAD LN+   + E+   P             F++ +  I+ EWQ     L
+Sbjct: 207 ALVGGRGILDLADSLNEAAIK-ERAINPTGFDSGNPSSRSGFDELVPTIIGEWQERWPNL 265
+
+Query: 198 PSLYAPSYY 206
+           P+++  +++
+Sbjct: 266 PAIWTLAWF 274
+
+
+>CCU76940 pep:novel supercontig:EF1:HF943530:224069:225196:1
+           gene:BGHDH14_bghG003198000001001 transcript:CCU76940
+           description:"hypothetical protein"
+          Length = 355
+
+ Score = 29.3 bits (64), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 32/60 (53%), Gaps = 12/60 (20%)
+
+Query: 154 GSKAIL-ELADMLNDKIEQCEKDDIPF--EDCIM-------DILTEWQSSHSQLPSLYAP 203
+           G +A++ E  D L+   E+ EK  +P+  ED  +       D+L +W + H + P++ AP
+Sbjct: 263 GQRALIQEQKDKLDQ--ERAEKKGVPYTREDLGILPQKTQDDVLKQWVAGHYEAPTVIAP 320
+
+
+>CCU81903 pep:novel supercontig:EF1:HF943509:239466:240972:-1
+           gene:BGHDH14_bgh04953 transcript:CCU81903
+           description:"NAD-dependent histone deacetylase SIR2"
+          Length = 483
+
+ Score = 28.1 bits (61), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%)
+
+Query: 33  GYNVSSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIYNDLLS 73
+           GY  +   +G    +P   + KP++  FG P  D ++D L+
+Sbjct: 343 GYGDNDTSSGEDYEIPEAGVMKPDITFFGEPLPDRFSDRLT 383
+
+
+>CCU76913 pep:novel supercontig:EF1:HF943534:2175867:2179266:1
+           gene:BGHDH14_bgh06073 transcript:CCU76913
+           description:"putative protein/DEAD box ATP-dependent RNA
+           helicase/ATP-dependent RNA helicase DBP6"
+          Length = 862
+
+ Score = 27.3 bits (59), Expect = 2.1,   Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 15/23 (65%)
+
+Query: 122 VCEDLMNRGGKLNKIVHVINVDI 144
+           V  DL++RG  L  + HVIN DI
+Sbjct: 750 VASDLVSRGLDLPDLAHVINYDI 772
+
+
+>CCU75715 pep:novel supercontig:EF1:HF943548:364679:366525:1
+           gene:BGHDH14_bgh01150 transcript:CCU75715
+           description:"putative ATP-dependent RNA helicase dhh1"
+          Length = 531
+
+ Score = 26.9 bits (58), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 336 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 367
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 1,378,231
+Number of extensions: 57933
+Number of successful extensions: 190
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 186
+Number of HSP's successfully gapped: 11
+Length of query: 206
+Length of database: 3,131,961
+Length adjustment: 86
+Effective length of query: 120
+Effective length of database: 2,575,541
+Effective search space: 309064920
+Effective search space used: 309064920
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

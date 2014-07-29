@@ -1,0 +1,216 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00000875 pep:known scaffold:CADRE:DS499594:2522704:25236...   224   9e-74
+CADAFUBP00003144 pep:known scaffold:CADRE:DS499595:4322834:43246...    58   2e-10
+CADAFUBP00002393 pep:known scaffold:CADRE:DS499595:2187138:21879...    50   3e-08
+CADAFUBP00004055 pep:known scaffold:CADRE:DS499596:2101758:21035...    51   4e-08
+CADAFUBP00008011 pep:known scaffold:CADRE:DS499600:709634:710768...    50   8e-08
+CADAFUBP00000512 pep:known scaffold:CADRE:DS499594:1450935:14538...    50   1e-07
+CADAFUBP00004237 pep:known scaffold:CADRE:DS499596:2618367:26194...    49   1e-07
+CADAFUBP00008886 pep:known scaffold:CADRE:DS499601:1427453:14284...    49   2e-07
+CADAFUBP00000326 pep:known scaffold:CADRE:DS499594:915838:917271...    47   9e-07
+CADAFUBP00002260 pep:known scaffold:CADRE:DS499595:1709416:17127...    46   2e-06
+CADAFUBP00001844 pep:known scaffold:CADRE:DS499595:444707:448777...    46   2e-06
+CADAFUBP00001504 pep:known scaffold:CADRE:DS499594:4341945:43438...    43   2e-05
+CADAFUBP00003968 pep:known scaffold:CADRE:DS499596:1849800:18504...    41   2e-05
+CADAFUBP00002441 pep:known scaffold:CADRE:DS499595:2314562:23155...    42   3e-05
+CADAFUBP00006162 pep:known scaffold:CADRE:DS499598:157197:159419...    41   1e-04
+CADAFUBP00006172 pep:known scaffold:CADRE:DS499598:176165:177820...    39   6e-04
+CADAFUBP00004192 pep:known scaffold:CADRE:DS499596:2482218:24833...    39   6e-04
+CADAFUBP00008092 pep:known scaffold:CADRE:DS499600:944320:945993...    37   0.002
+CADAFUBP00000447 pep:known scaffold:CADRE:DS499594:1275417:12778...    37   0.002
+CADAFUBP00008632 pep:known scaffold:CADRE:DS499601:597452:598893...    36   0.004
+CADAFUBP00001124 pep:known scaffold:CADRE:DS499594:3236869:32385...    35   0.006
+CADAFUBP00001986 pep:known scaffold:CADRE:DS499595:845983:846561...    34   0.009
+CADAFUBP00003874 pep:known scaffold:CADRE:DS499596:1621075:16243...    34   0.015
+CADAFUBP00002800 pep:known scaffold:CADRE:DS499595:3315330:33158...    33   0.024
+CADAFUBP00007632 pep:known scaffold:CADRE:DS499599:1780536:17826...    32   0.083
+CADAFUBP00002217 pep:known scaffold:CADRE:DS499595:1571151:15736...    32   0.10 
+CADAFUBP00001015 pep:known scaffold:CADRE:DS499594:2923796:29255...    31   0.20 
+CADAFUBP00007210 pep:known scaffold:CADRE:DS499599:522931:524043...    30   0.43 
+CADAFUBP00008832 pep:known scaffold:CADRE:DS499601:1250580:12517...    30   0.48 
+CADAFUBP00008626 pep:known scaffold:CADRE:DS499601:580308:581919...    29   0.54 
+CADAFUBP00002772 pep:known scaffold:CADRE:DS499595:3238893:32394...    28   0.78 
+CADAFUBP00002642 pep:known scaffold:CADRE:DS499595:2874056:28817...    29   0.97 
+CADAFUBP00007510 pep:known scaffold:CADRE:DS499599:1407769:14098...    28   1.8  
+CADAFUBP00009046 pep:known scaffold:CADRE:DS499602:60122:61329:-...    27   2.6  
+CADAFUBP00007551 pep:known scaffold:CADRE:DS499599:1535095:15368...    27   4.2  
+CADAFUBP00003536 pep:known scaffold:CADRE:DS499596:595908:599439...    27   5.2  
+CADAFUBP00008111 pep:known scaffold:CADRE:DS499600:1000145:10018...    27   5.3  
+CADAFUBP00008102 pep:known scaffold:CADRE:DS499600:972247:975810...    26   6.8  
+CADAFUBP00005177 pep:known scaffold:CADRE:DS499597:1098727:11013...    26   9.3  
+CADAFUBP00003868 pep:known scaffold:CADRE:DS499596:1593983:15980...    26   9.5  
+
+>CADAFUBP00000875 pep:known scaffold:CADRE:DS499594:2522704:2523630:1
+           gene:CADAFUBG00000898 transcript:CADAFUBT00000898
+           description:"RNP domain protein"
+          Length = 215
+
+ Score =  224 bits (570), Expect = 9e-74,   Method: Compositional matrix adjust.
+ Identities = 106/128 (82%), Positives = 118/128 (92%), Gaps = 1/128 (0%)
+
+Query: 29  EEISAMKKRVAEMEEEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEE 88
+           EEI+AMK+RVAEME EAAKLREMQA+LD QS+ L  E ++++D+RSIFVGNVDY ASPEE
+Sbjct: 49  EEIAAMKRRVAEMESEAAKLREMQATLDQQSESLR-EDKEEIDARSIFVGNVDYGASPEE 107
+
+Query: 89  IQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVFKGRNIKVSPK 148
+           IQAHFQSCGSINRVTILLDKFTGQPKG+AYVEF EPSLVAQALVLNESVF+GRN+KV PK
+Sbjct: 108 IQAHFQSCGSINRVTILLDKFTGQPKGYAYVEFAEPSLVAQALVLNESVFRGRNLKVVPK 167
+
+Query: 149 RTNYPGMS 156
+           RTN PGMS
+Sbjct: 168 RTNLPGMS 175
+
+
+>CADAFUBP00003144 pep:known scaffold:CADRE:DS499595:4322834:4324649:-1
+           gene:CADAFUBG00003202 transcript:CADAFUBT00003202
+           description:"Translation initiation factor 4B"
+          Length = 494
+
+ Score = 58.2 bits (139), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 42/73 (57%), Gaps = 1/73 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  VGN+ + A+  +I   F  CG  N V I+ DK T  PKGF YVEF     + +AL L
+Sbjct: 72  TAHVGNLSFEATSADINDLFAGCGVTN-VRIVEDKLTRSPKGFGYVEFETVDGLRRALDL 130
+
+Query: 134 NESVFKGRNIKVS 146
+           + +  +GR I+VS
+Sbjct: 131 SGTTLQGRAIRVS 143
+
+
+>CADAFUBP00002393 pep:known scaffold:CADRE:DS499595:2187138:2187922:1
+           gene:CADAFUBG00002444 transcript:CADAFUBT00002444
+           description:"Small subunit of nuclear cap-binding
+           protein complex"
+          Length = 184
+
+ Score = 49.7 bits (117), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 27/83 (32%), Positives = 47/83 (56%), Gaps = 7/83 (8%)
+
+Query: 46  AKLR-EMQASLDSQ--SQELSTESRDDVD----SRSIFVGNVDYSASPEEIQAHFQSCGS 98
+           AK+R E+    D +  SQ+ S  + D +D    + +++VGN+ +  + E+I   F  CG 
+Sbjct: 21  AKVRLEIAFGFDQRKYSQDDSERAEDPIDKLKNATTLYVGNLSFYTTEEQIHELFSKCGE 80
+
+Query: 99  INRVTILLDKFTGQPKGFAYVEF 121
+           I R+ + LD++   P GF +VE+
+Sbjct: 81  IKRLVMGLDRYNKTPCGFCFVEY 103
+
+
+>CADAFUBP00004055 pep:known scaffold:CADRE:DS499596:2101758:2103504:-1
+           gene:CADAFUBG00004127 transcript:CADAFUBT00004127
+           description:"Nucleolin protein Nsr1, putative"
+          Length = 546
+
+ Score = 51.2 bits (121), Expect = 4e-08,   Method: Compositional matrix adjust.
+ Identities = 27/85 (31%), Positives = 49/85 (57%), Gaps = 4/85 (4%)
+
+Query: 71  DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQA 130
+           +S ++FVGN+ +SA+ + +   F   G+I  + +  D  +G+PKGF YV+F+      QA
+Sbjct: 406 ESDTLFVGNIPFSANEDSVSELFGQSGTIVGIRLPTDPESGRPKGFGYVQFSSVDEARQA 465
+
+Query: 131 LV-LNESVFKGRNIKV---SPKRTN 151
+              LN +   GR +++   +P+ +N
+Sbjct: 466 FNDLNGAELNGRPVRLDFSTPRPSN 490
+
+
+
+ Score = 46.2 bits (108), Expect = 2e-06,   Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 34/50 (68%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           S ++FVGN+ ++   E ++  F+S G ++ V I+ D+ +G+ +GF YVE+
+Sbjct: 301 SANLFVGNLSWNVDEEWLRQEFESFGELSGVRIVTDRDSGRSRGFGYVEY 350
+
+
+>CADAFUBP00008011 pep:known scaffold:CADRE:DS499600:709634:710768:1
+           gene:CADAFUBG00008156 transcript:CADAFUBT00008156
+           description:"Nucleic acid-binding protein"
+          Length = 324
+
+ Score = 49.7 bits (117), Expect = 8e-08,   Method: Compositional matrix adjust.
+ Identities = 25/84 (29%), Positives = 47/84 (55%), Gaps = 1/84 (1%)
+
+Query: 72  SRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL 131
+           SR++++GN+ +  +  ++   F+   ++  V + +D+ TGQP+GFA+ EF +     +A 
+Sbjct: 231 SRTLYLGNLSFEMTDRDLNELFRDINNVIDVRVSVDRRTGQPRGFAHAEFLDVESAQKAF 290
+
+Query: 132 -VLNESVFKGRNIKVSPKRTNYPG 154
+            +L+     GR I+V    TN  G
+Sbjct: 291 EILSGKAPYGRRIRVDYSSTNRRG 314
+
+
+
+ Score = 46.2 bits (108), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 22/71 (30%), Positives = 39/71 (54%), Gaps = 2/71 (2%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQAL-V 132
+           +++VGN+ Y  + E+++ H Q  G + RV ++ D   G  +GFAYV F         +  
+Sbjct: 145 TVYVGNLFYDVTAEDLKNHMQQFGVVERVDLITDN-RGLSRGFAYVHFDSIEAAKSCVEA 203
+
+Query: 133 LNESVFKGRNI 143
+           ++  +F+GR I
+Sbjct: 204 MHLQIFEGRRI 214
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 1,262,563
+Number of extensions: 43882
+Number of successful extensions: 246
+Number of sequences better than 10.0: 53
+Number of HSP's gapped: 242
+Number of HSP's successfully gapped: 65
+Length of query: 193
+Length of database: 4,796,137
+Length adjustment: 88
+Effective length of query: 105
+Effective length of database: 3,923,529
+Effective search space: 411970545
+Effective search space used: 411970545
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 50 (23.9 bits)

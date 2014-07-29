@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY21047 pep:novel supercontig:GCA_000150675.1:supercont1.4:7244...    31   0.81 
+EGY15036 pep:novel supercontig:GCA_000150675.1:supercont1.12:799...    28   2.1  
+EGY17536 pep:novel supercontig:GCA_000150675.1:supercont1.2:1232...    29   3.3  
+
+>EGY21047 pep:novel supercontig:GCA_000150675.1:supercont1.4:724499:726719:-1
+           gene:VDAG_02571 transcript:EGY21047
+           description:"transcription factor MBP1"
+          Length = 706
+
+ Score = 31.2 bits (69), Expect = 0.81,   Method: Compositional matrix adjust.
+ Identities = 24/89 (26%), Positives = 41/89 (46%), Gaps = 9/89 (10%)
+
+Query: 101 KQHHSTPPIANDVSLDFFV---NQLPKFSPEERKNYIDNLILNKNSHNRLSKMDGL--VD 155
+           +Q HS   +  D  LD+F+   N+ P   PE   N++ N +++  SH  L     +  V+
+Sbjct: 245 QQQHS---VYGDELLDYFLLSRNEKPAHRPEPPPNFLPNWVIDTESHTALHWASAMGDVE 301
+
+Query: 156 AVINLCVLDTSVAE-NVRSYMKLLDTLGF 183
+            +  L   +  +A  NVR    L+  + F
+Sbjct: 302 VIKQLKRFNADLAVLNVRGETPLMRAVHF 330
+
+
+>EGY15036 pep:novel supercontig:GCA_000150675.1:supercont1.12:799836:800538:-
+           1 gene:VDAG_06526 transcript:EGY15036
+           description:"mitochondrial import inner membrane
+           translocase subunit TIM14"
+          Length = 106
+
+ Score = 28.1 bits (61), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 18/48 (37%), Positives = 21/48 (43%), Gaps = 2/48 (4%)
+
+Query: 469 FNPDLNKRPPREPIEFDLNGNTNSTPTIAKAFGKNSLLLRKDRGGLPY 516
+           F P +NKR     +   LN    +   I KA     LL   DRGG PY
+Sbjct: 44  FEPKMNKR--EASLILSLNERAITKDKIRKAHRTLMLLNHPDRGGSPY 89
+
+
+>EGY17536 pep:novel supercontig:GCA_000150675.1:supercont1.2:1232325:1234413:
+           1 gene:VDAG_01218 transcript:EGY17536
+           description:"6-phosphofructo-2-kinase"
+          Length = 678
+
+ Score = 29.3 bits (64), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 16/27 (59%)
+
+Query: 470 NPDLNKRPPREPIEFDLNGNTNSTPTI 496
+           NP  + +P  EP+EFDLNG     P +
+Sbjct: 233 NPAPSAQPSSEPVEFDLNGEDPHDPNV 259
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 4,324,420
+Number of extensions: 170920
+Number of successful extensions: 253
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 253
+Number of HSP's successfully gapped: 3
+Length of query: 533
+Length of database: 4,984,196
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 3,951,766
+Effective search space: 1719018210
+Effective search space used: 1719018210
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

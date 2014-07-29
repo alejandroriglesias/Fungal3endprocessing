@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ86933 pep:novel supercontig:GCA_000166005.1:GL537212:188956:1...   170   2e-47
+EFQ95361 pep:novel supercontig:GCA_000166005.1:GL532831:4398:574...    30   1.2  
+
+>EFQ86933 pep:novel supercontig:GCA_000166005.1:GL537212:188956:190486:1
+           gene:PTT_17730 transcript:EFQ86933
+           description:"hypothetical protein"
+          Length = 440
+
+ Score =  170 bits (431), Expect = 2e-47,   Method: Compositional matrix adjust.
+ Identities = 135/466 (28%), Positives = 219/466 (46%), Gaps = 60/466 (12%)
+
+Query: 1   MASLPG-------IDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIV 53
+           M SLPG       +D   T     T   E     +   ++++ ++     L +K+ SG  
+Sbjct: 1   MISLPGLNLSSQSVDPQNTPTSTATRTQE-----LAANTEYRFEVAFSHTLTIKLQSGTA 55
+
+Query: 54  EIFGTELAVDDEYTFQNWKFPIYAVEETELLWKCPDLTTNTIT----VKPNHTMKYIYNL 109
+           E FGTELA    YTFQ  K  I+        W    L          V     M    NL
+Sbjct: 56  EFFGTELAPSTTYTFQGTKGAIFT-------WHGCKLDIGGQAEGEYVAEETPMMSAANL 108
+
+Query: 110 HFMLEKIRMSNFE------GPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQ 163
+           HF LE +R  +        GPR+++VG   +GKTSL + L SYA+K +  QP+ +NLDP+
+Sbjct: 109 HFALENLRDKSVASGSIEMGPRILVVGPENSGKTSLVKILTSYAVKMD-RQPMVVNLDPR 167
+
+Query: 164 QPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYL 223
+           Q + +VPG  SA   S I+D +   WG S  SG + +  K P+V ++GL+   E + ++ 
+Sbjct: 168 QGMLSVPGSFSAAAFSSIVDIE-EGWGSSPISGPSPIPVKMPLVYHYGLKDPEEGR-VFK 225
+
+Query: 224 ECISQLGQVVGQRLHLDPQVRRSGCIVDTP-SISQLDENLAE-LHHIIEKLNVNIMLVLC 281
+             ++++   V  RL  D   +++G I+D+P +ISQ    + + + HI+ + +VN+++ + 
+Sbjct: 226 PLVTRMALAVTSRLEEDKLSKQAGFIIDSPGAISQGKNGVYDNIEHIVSEFSVNVLVTIG 285
+
+Query: 282 SETDPLWEKVKKTFGPELGNN-----NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGS 336
+           SE   L+  + + F P  G++     ++  I K  G     + Y ++L+   IREYF+G 
+Sbjct: 286 SER--LYSDLSRKFTPRPGSDPSETVSVIRIDKSGGCVDRSEEYMKTLRHAQIREYFFGK 343
+
+Query: 337 LDTALSPYAIGVDYEDLTIWKPSNVFDNEVGRVELFPVTITPSNLQHAIIAITFAERRAD 396
+            D  L+P +   D  DL I++   V + +   V+ + VT                ER+  
+Sbjct: 344 GDETLAPSSQTADTADLNIFR---VTEGDGTIVDDYGVT---------------HERQVF 385
+
+Query: 397 QATVIK-SPILGFALITEVNEXXXXXXXXXXXXXXXXSKAMILTSY 441
+              VI+ S I G+  +++V+E                  AMIL S+
+Sbjct: 386 NKAVIRDSSIRGYIYVSDVDEAKKKVKLLSPLPGQTPGNAMILGSW 431
+
+
+>EFQ95361 pep:novel supercontig:GCA_000166005.1:GL532831:4398:5747:-1
+           gene:PTT_06669 transcript:EFQ95361
+           description:"hypothetical protein"
+          Length = 449
+
+ Score = 30.4 bits (67), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 23/41 (56%)
+
+Query: 373 PVTITPSNLQHAIIAITFAERRADQATVIKSPILGFALITE 413
+           P++ +   LQ  I+ +TFA+ RA     IK+ I GFA   E
+Sbjct: 142 PISASDVQLQGNIMGMTFAKPRAATEQDIKNVIEGFAHAAE 182
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 4,669,374
+Number of extensions: 199230
+Number of successful extensions: 475
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 470
+Number of HSP's successfully gapped: 3
+Length of query: 445
+Length of database: 5,457,232
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 4,312,729
+Effective search space: 1500829692
+Effective search space used: 1500829692
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

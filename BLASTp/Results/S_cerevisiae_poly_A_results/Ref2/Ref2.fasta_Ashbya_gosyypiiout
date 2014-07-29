@@ -1,0 +1,172 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS54380 pep:known chromosome:ASM9102v1:VII:811845:813260:1 gene...   145   1e-38
+AAS52745 pep:known chromosome:ASM9102v1:V:748897:750174:-1 gene:...    32   0.12 
+AAS52105 pep:known chromosome:ASM9102v1:IV:1029611:1030240:1 gen...    27   5.1  
+AAS51323 pep:known chromosome:ASM9102v1:III:529783:531186:1 gene...    27   7.6  
+AAS52581 pep:known chromosome:ASM9102v1:V:430441:433698:1 gene:A...    27   8.7  
+
+>AAS54380 pep:known chromosome:ASM9102v1:VII:811845:813260:1
+           gene:AGOS_AGL111W transcript:AAS54380
+           description:"AGL111Wp"
+          Length = 471
+
+ Score =  145 bits (367), Expect = 1e-38,   Method: Compositional matrix adjust.
+ Identities = 84/204 (41%), Positives = 127/204 (62%), Gaps = 24/204 (11%)
+
+Query: 340 EPLKKKTKISVQDSNVQSILRNGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPTQ 399
+           +P+ KK K+ +      SILR+    K R + I+F+DDS+L+ V+GDDLP  G+  SP +
+Sbjct: 276 QPIVKKQKVDLP----VSILRDESKAKKR-AVIRFVDDSKLVTVFGDDLPESGVVTSPDR 330
+
+Query: 400 LKKILKPFKEGEPKEIIL--FEDMSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETR 457
+           LKKIL P+ EGEP+E +L  +++  +    +D+  ++++      DI+E+K GP+   T+
+Sbjct: 331 LKKILNPYVEGEPREFLLAAWKNQKVHKLIIDMGVIEDS------DITESKNGPVSMSTK 384
+
+Query: 458 TPLIYRKNFNHFNPDLNKRPPREPIEFDLNGNT----------NSTPTIAKAFGKNSLLL 507
+            PL +R NF+ F+ +L   P +EP + + +                P IA+AFGKN+LLL
+Sbjct: 385 VPLAFRINFSKFSDELAG-PHKEPADNEDDEQEIKNHKGKRRGGKGPIIARAFGKNALLL 443
+
+Query: 508 RKDRGGLPYKHVPIVKRNKYPPRP 531
+           +KDRGGLPYK VP V+RN+YP RP
+Sbjct: 444 KKDRGGLPYKKVPEVRRNEYPVRP 467
+
+
+
+ Score =  134 bits (338), Expect = 6e-35,   Method: Compositional matrix adjust.
+ Identities = 69/179 (38%), Positives = 107/179 (59%), Gaps = 4/179 (2%)
+
+Query: 5   VPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTKDNLH 64
+           VP+ +NI+HA+ +S I  +R D+    +  +L   Q+ ++D YID L +   QF KDN H
+Sbjct: 4   VPEKINIAHAMPSSMINVMRDDIKQLQQAKELDQQQMDKVDHYIDQLDSIFTQFCKDNEH 63
+
+Query: 65  IERKEKNVTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVNQLPK 124
+           +E++ K VTEAD+QL+ GLK MY DY+NQL ++K  K          D  L++ +++LP 
+Sbjct: 64  VEKRAKGVTEADVQLFQGLKKMYADYMNQLSEIKKRKVEEEQ-EFHGDKPLEYILDELPY 122
+
+Query: 125 FSPEERKNYIDNLILNKNSHNRLSKMDGLVDAVINLCVLDTSVAENVRSYMKLLDTLGF 183
+             P ER  Y+  L+ +K      SK   L + + NLC+LD SV + +++Y  LL ++GF
+Sbjct: 123 LQPSERNRYVSALLKDKVP---FSKDRKLFEGIANLCLLDGSVRDYLQTYKCLLQSVGF 178
+
+
+>AAS52745 pep:known chromosome:ASM9102v1:V:748897:750174:-1 gene:AGOS_AER061C
+           transcript:AAS52745 description:"Isocitrate
+           dehydrogenase"
+          Length = 425
+
+ Score = 32.3 bits (72), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 34/57 (59%), Gaps = 6/57 (10%)
+
+Query: 6   PQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLAR-----IDKYIDSLQAALNQ 57
+           P +VN +HAL+A+T   ++LD +   KD  L+  +  R      +++ID+++A L +
+Sbjct: 367 PDVVNFAHALEAATTNTVQLDGI-MTKDLALACGRSDRSAYVNTNEFIDAVEARLKK 422
+
+
+>AAS52105 pep:known chromosome:ASM9102v1:IV:1029611:1030240:1
+           gene:AGOS_ADR185W transcript:AAS52105
+           description:"Endoplasmic reticulum vesicle protein 25"
+          Length = 209
+
+ Score = 26.9 bits (58), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 16/70 (22%), Positives = 33/70 (47%), Gaps = 7/70 (10%)
+
+Query: 37  SSIQLARIDKYIDSLQAALN-------QFTKDNLHIERKEKNVTEADIQLYSGLKSMYLD 89
+           + +QL ++++  D +   LN       +    N    R+ +N + A I +++ L +  L+
+Sbjct: 138 AEVQLRQVEEMSDEIVERLNYLKLREERLRDTNESTNRRVRNFSMAVIVVFAALCAWQLN 197
+
+Query: 90  YLNQLIKLKH 99
+           YL    + KH
+Sbjct: 198 YLKNYFRAKH 207
+
+
+>AAS51323 pep:known chromosome:ASM9102v1:III:529783:531186:1
+           gene:AGOS_ACR097W transcript:AAS51323
+           description:"ACR097Wp"
+          Length = 467
+
+ Score = 26.9 bits (58), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 23/40 (57%)
+
+Query: 347 KISVQDSNVQSILRNGKPKKARISSIKFLDDSQLIKVYGD 386
+           ++S +D   Q+I+   K     IS I+FLDD+ ++   GD
+Sbjct: 197 RVSRKDRIQQNIVSIFKGHTCYISEIEFLDDNSILTASGD 236
+
+
+>AAS52581 pep:known chromosome:ASM9102v1:V:430441:433698:1 gene:AGOS_AEL104W
+           transcript:AAS52581 description:"AEL104Wp"
+          Length = 1085
+
+ Score = 26.6 bits (57), Expect = 8.7,   Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 39/78 (50%), Gaps = 5/78 (6%)
+
+Query: 72  VTEADIQLYSGLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFF--VNQLPKFSPEE 129
+           + EA  +L S ++    DY+ QL+ L ++ Q HS P   +D+    +  + Q    + EE
+Sbjct: 704 IMEASSRLLSMVEGSS-DYIRQLVILSNDYQAHS-PAEPSDIPPGIYQRLEQFTSRAIEE 761
+
+Query: 130 RKNYIDNLILNKNSHNRL 147
+            K  I  L+  KNSH  L
+Sbjct: 762 YKFSITQLV-TKNSHAIL 778
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 2,054,899
+Number of extensions: 84438
+Number of successful extensions: 199
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 195
+Number of HSP's successfully gapped: 10
+Length of query: 533
+Length of database: 2,335,236
+Length adjustment: 93
+Effective length of query: 440
+Effective length of database: 1,891,068
+Effective search space: 832069920
+Effective search space used: 832069920
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 52 (24.6 bits)

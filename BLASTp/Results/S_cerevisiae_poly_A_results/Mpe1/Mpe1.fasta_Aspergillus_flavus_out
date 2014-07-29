@@ -1,0 +1,227 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00010096 pep:known supercontig:JCVI-afl1-v2.0:EQ963481:1...   122   1e-30
+CADAFLAP00003010 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:3...    38   0.005
+CADAFLAP00012545 pep:known supercontig:JCVI-afl1-v2.0:EQ963485:1...    36   0.018
+CADAFLAP00007481 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    32   0.60 
+CADAFLAP00010226 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:2...    31   0.76 
+CADAFLAP00001589 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:4...    30   1.7  
+CADAFLAP00004081 pep:known supercontig:JCVI-afl1-v2.0:EQ963474:2...    29   3.0  
+CADAFLAP00003078 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:3...    27   7.3  
+CADAFLAP00002409 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2...    27   7.5  
+
+>CADAFLAP00010096 pep:known supercontig:JCVI-afl1-v2.0:EQ963481:1981312:1983976:-1
+           gene:CADAFLAG00010096 transcript:CADAFLAT00010096
+           description:"Zinc knuckle domain protein "
+          Length = 474
+
+ Score =  122 bits (305), Expect = 1e-30,   Method: Compositional matrix adjust.
+ Identities = 71/216 (32%), Positives = 114/216 (52%), Gaps = 13/216 (6%)
+
+Query: 187 GRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIEIDPETMT----PEEMAQRKIMI 241
+           G  HWI+ CPTN+DP F+GK R++R+TGIP+     +E  PE++T     E++    +M+
+Sbjct: 56  GEGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTKVE-KPESLTIDGSNEDLKNTGVMV 114
+
+Query: 242 TDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPV 301
+             +G FV+   DK +WE YQ K +       E    +   +     L+CP+   +  +P 
+Sbjct: 115 NADGDFVIAKPDKAAWELYQEKAKASAAAAAEAAAAEYSKELQARGLECPIDKRMFLEPA 174
+
+Query: 302 KTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETF------LK 355
+           KT  CC   +  + + NAL+ESDFVCP C T  +LLD+L  D D   +++ +      LK
+Sbjct: 175 KT-PCCQRTYCNDCITNALIESDFVCPGCGTEGVLLDNLSADDDAVTKIKAYEAEKMDLK 233
+
+Query: 356 KQEELHGSSKDGNQPETKKMKLMDPTGTAGLNNNTS 391
+           K++E   ++++            D +G A L++  S
+Sbjct: 234 KEKEKQSAAQENQSNNKPYASTDDSSGKAELSSPAS 269
+
+
+
+ Score = 84.7 bits (208), Expect = 6e-18,   Method: Compositional matrix adjust.
+ Identities = 36/59 (61%), Positives = 50/59 (84%)
+
+Query: 1  MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEY 59
+          MSS++ ++FKSQ+  SR+ FDGTG++VF+LKREII +++LGDGTDF+L IYN DT E +
+Sbjct: 1  MSSSVHFKFKSQKEPSRVTFDGTGISVFELKREIINQSRLGDGTDFELSIYNEDTGEGH 59
+
+
+>CADAFLAP00003010 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:3671828:3673380:1
+           gene:CADAFLAG00003010 transcript:CADAFLAT00003010
+           description:"Putative uncharacterized protein "
+          Length = 486
+
+ Score = 37.7 bits (86), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 18/41 (43%), Positives = 24/41 (58%), Gaps = 1/41 (2%)
+
+Query: 288 LKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCP 328
+           LKCPLT    R PV +SKC +  F +EA+E+ +  S    P
+Sbjct: 320 LKCPLTLLYFRDPVTSSKCPH-SFEREAIEDMIAHSSTTVP 359
+
+
+>CADAFLAP00012545 pep:known supercontig:JCVI-afl1-v2.0:EQ963485:1063088:1064262:1
+           gene:CADAFLAG00012545 transcript:CADAFLAT00012545
+           description:"Amidase, putative "
+          Length = 371
+
+ Score = 35.8 bits (81), Expect = 0.018,   Method: Compositional matrix adjust.
+ Identities = 23/93 (24%), Positives = 43/93 (46%), Gaps = 14/93 (15%)
+
+Query: 187 GRDHWIKNCPTNSDPNF---------EGKRIRRTTGIPKKFLKSIEIDPETMTPEEMAQR 237
+           GRD++    P  S P +         +GKRI    GIP+  L  + ++P  +      + 
+Sbjct: 88  GRDNYTLASPHPSVPFYVGACQLDRLQGKRI----GIPRNVLPFLAMEPHGLAVLSAFEA 143
+
+Query: 238 KI-MITDEGKFVVQVEDKQSWEDYQRKRENRQI 269
+            I ++T+ G  +VQ  +  +WE++   +   Q+
+Sbjct: 144 AISVLTEAGATIVQDANFTAWEEFPESKSVTQV 176
+
+
+>CADAFLAP00007481 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1368112:1373875:-1
+            gene:CADAFLAG00007481 transcript:CADAFLAT00007481
+            description:"Chitin synthase ChsE "
+          Length = 1880
+
+ Score = 31.6 bits (70), Expect = 0.60,   Method: Compositional matrix adjust.
+ Identities = 15/37 (40%), Positives = 22/37 (59%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDE 273
+            RK++I+DEGKF      K+ WE+YQ +    Q   D+
+Sbjct: 1700 RKVVISDEGKFDPASIPKKRWEEYQAELWEAQTSRDD 1736
+
+
+>CADAFLAP00010226 pep:known supercontig:JCVI-afl1-v2.0:EQ963482:296014:297270:-1
+           gene:CADAFLAG00010226 transcript:CADAFLAT00010226
+           description:"D-amino acid oxidase, putative "
+          Length = 418
+
+ Score = 30.8 bits (68), Expect = 0.76,   Method: Compositional matrix adjust.
+ Identities = 19/56 (33%), Positives = 31/56 (55%), Gaps = 8/56 (14%)
+
+Query: 25  LTVFDLKREIIQENKLGDGTDFQ------LKIYNPDTEEEYDDDAFVIPRSTSVIV 74
+           L V  L+  I++   + DG+DF       +   + D E +Y D AFV+PRS +++V
+Sbjct: 254 LGVHSLRGGILR--VINDGSDFPKIESSIIVAADEDAEGKYIDIAFVVPRSDNILV 307
+
+
+>CADAFLAP00001589 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:4275875:4277041:1
+           gene:CADAFLAG00001589 transcript:CADAFLAT00001589
+           description:"Putative uncharacterized protein "
+          Length = 366
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 25/108 (23%), Positives = 46/108 (42%), Gaps = 17/108 (15%)
+
+Query: 156 TPVFFKSQTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIP 215
+           TP F + +   +    +  P  P       GG  HW +    + +P   G+ ++ TT + 
+Sbjct: 111 TPAFLEDELGADGTDASYNPETPFTRRMWAGGEVHWPRAADGSPNPLLVGQEVQETTRV- 169
+
+Query: 216 KKFLKSIEIDPETM--TPEEMAQRKIMITDEGKFV----VQVEDKQSW 257
+                 +  +P+ +  T EEM    I++  E +F     V V D+++W
+Sbjct: 170 ------LSAEPKVVRKTGEEM----IVVGVEKEFRNEHGVAVIDRRNW 207
+
+
+>CADAFLAP00004081 pep:known supercontig:JCVI-afl1-v2.0:EQ963474:2511876:2513286:1
+           gene:CADAFLAG00004081 transcript:CADAFLAT00004081
+           description:"Pyruvate dehydrogenase E1 component alpha
+           subunit, putative "
+          Length = 405
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 34/72 (47%), Gaps = 3/72 (4%)
+
+Query: 163 QTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSI 222
+           Q  KN A    GP    Y+ YR GG  H + +  T      E +R+ R+T  P   LK  
+Sbjct: 281 QYAKNYAVSGNGPLVMEYVTYRYGG--HSMSDPGTTYRSREEIQRM-RSTHDPIAGLKQK 337
+
+Query: 223 EIDPETMTPEEM 234
+            +D + MT +E+
+Sbjct: 338 ILDWKVMTEDEL 349
+
+
+>CADAFLAP00003078 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:3879157:3879741:1
+           gene:CADAFLAG00003078 transcript:CADAFLAT00003078
+           description:"Mitochondrial import protein Zim17,
+           putative "
+          Length = 194
+
+ Score = 27.3 bits (59), Expect = 7.3,   Method: Compositional matrix adjust.
+ Identities = 12/31 (38%), Positives = 18/31 (58%)
+
+Query: 327 CPNCETRDILLDSLVPDQDKEKEVETFLKKQ 357
+           CP+C+ R I+ D L    DK+  +E  L +Q
+Sbjct: 127 CPSCKNRHIISDHLNIFYDKKTTLEDILAEQ 157
+
+
+>CADAFLAP00002409 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:2045666:2047342:-1
+           gene:CADAFLAG00002409 transcript:CADAFLAT00002409
+           description:"RING finger domain protein, putative "
+          Length = 155
+
+ Score = 26.9 bits (58), Expect = 7.5,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 18/33 (54%), Gaps = 1/33 (3%)
+
+Query: 299 QPVKTSKCCNIDFSKEALENALVESDFVCPNCE 331
+           Q ++  KC ++ F KE LE   ++  F CP C 
+Sbjct: 106 QEIRELKCLHV-FHKECLEKWYLQDHFNCPLCH 137
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 4,937,171
+Number of extensions: 213939
+Number of successful extensions: 459
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 454
+Number of HSP's successfully gapped: 15
+Length of query: 441
+Length of database: 5,672,061
+Length adjustment: 97
+Effective length of query: 344
+Effective length of database: 4,363,822
+Effective search space: 1501154768
+Effective search space used: 1501154768
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

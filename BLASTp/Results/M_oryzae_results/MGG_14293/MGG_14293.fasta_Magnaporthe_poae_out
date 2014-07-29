@@ -1,0 +1,94 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_01515T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   209   1e-64
+
+>MAPG_01515T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:4890673:4
+           892213:1 gene:MAPG_01515 transcript:MAPG_01515T0
+           description:"hypothetical protein"
+          Length = 347
+
+ Score =  209 bits (533), Expect = 1e-64,   Method: Compositional matrix adjust.
+ Identities = 106/134 (79%), Positives = 115/134 (85%), Gaps = 2/134 (1%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDP 138
+           RKDGT AAPPSQSKYSEIR+IPQR+ +TD TA A  AP KKE++ K  + P   KSNFD 
+Sbjct: 77  RKDGTKAAPPSQSKYSEIRNIPQRTASTDTTAKA-VAPVKKEESAKPVEQP-RPKSNFDA 134
+
+Query: 139 YAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQNQLR 198
+           YAIP HKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSW +YAQKQ QLR
+Sbjct: 135 YAIPTHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWTVYAQKQTQLR 194
+
+Query: 199 SEYSADAMSQNSKK 212
+           +EYS +AMSQNSKK
+Sbjct: 195 AEYSQEAMSQNSKK 208
+
+
+
+ Score = 29.3 bits (64), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%)
+
+Query: 1  MSVEMDEDDDFY 12
+          MSVEMDEDDDFY
+Sbjct: 1  MSVEMDEDDDFY 12
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 2,091,798
+Number of extensions: 84705
+Number of successful extensions: 302
+Number of sequences better than 10.0: 25
+Number of HSP's gapped: 298
+Number of HSP's successfully gapped: 26
+Length of query: 332
+Length of database: 4,928,244
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 3,859,464
+Effective search space: 918552432
+Effective search space used: 918552432
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

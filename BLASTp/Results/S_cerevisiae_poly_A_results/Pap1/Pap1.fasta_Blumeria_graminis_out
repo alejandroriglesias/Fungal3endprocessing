@@ -1,0 +1,184 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU80307 pep:novel supercontig:EF1:HF943505:485734:487754:1 gene...   481   e-163
+CCU83246 pep:novel supercontig:EF1:HF943396:14:2044:-1 gene:BGHD...    31   0.63 
+CCU83280 pep:novel supercontig:EF1:DH14:247:1015:1 gene:BGHDH14_...    30   0.66 
+CCU82919 pep:novel supercontig:EF1:HF943489:122036:127061:1 gene...    29   2.6  
+CCU83100 pep:novel supercontig:EF1:HF943502:190938:195522:-1 gen...    28   5.6  
+CCU74912 pep:novel supercontig:EF1:HF943549:4971013:4972455:1 ge...    27   7.1  
+CCU74260 pep:novel supercontig:EF1:HF943565:1492947:1494210:-1 g...    27   9.0  
+
+>CCU80307 pep:novel supercontig:EF1:HF943505:485734:487754:1
+           gene:BGHDH14_bgh05059 transcript:CCU80307
+           description:"hypothetical protein"
+          Length = 568
+
+ Score =  481 bits (1237), Expect = e-163,   Method: Compositional matrix adjust.
+ Identities = 245/550 (44%), Positives = 352/550 (64%), Gaps = 20/550 (3%)
+
+Query: 2   SSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQR 61
+           S+ K  G+TGP+S    T +EN+ ++SLI+ELK++ ++E   ET+ R +VL  LQ + + 
+Sbjct: 4   STSKPLGVTGPLSVTPPTDSENQASNSLIEELKRQNNYENAAETSKRQKVLNSLQLVTEE 63
+
+Query: 62  FVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD 121
+           FV +VS  + +++ + + AGG + T+GSY+LGV GPGSDID LVV P++VT+EDFF  F 
+Sbjct: 64  FVRQVSTAQGLAENLVKSAGGMVVTFGSYKLGVIGPGSDIDALVVAPQNVTKEDFFNKFP 123
+
+Query: 122 SLLRERKE---LDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLR 178
+            LLR       + E+   PDAF P I +K++GI IDL+  R+    VP +L+L ++N+LR
+Sbjct: 124 DLLRSMASEGPITELTAKPDAFAPCITLKYAGIDIDLLFGRVKLSHVPRNLSLLNQNMLR 183
+
+Query: 179 NLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAM 238
+            L+ +++R+LNG RV DEIL LVP+P +FR ALR IKLW  RRA+  NI+GFPGGVAWA+
+Sbjct: 184 GLNNEEVRSLNGVRVADEILNLVPEPAIFRTALRTIKLWGTRRAISGNIYGFPGGVAWAI 243
+
+Query: 239 LVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDG-PLQVRVWNPKIYAQDRS 297
+           LVARICQLYP A S+ I+ +FF I+ +W WP PV+LK I++   L ++VWNPKIY  D++
+Sbjct: 244 LVARICQLYPKATSSTIVFKFFRIMEKWRWPMPVLLKDIDNANTLGLKVWNPKIYGSDKN 303
+
+Query: 298 HRMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFR 357
+           H MP+ITPAYP MC THN + STK ++ +E  RG  I + + S K  W +LF K+ FF +
+Sbjct: 304 HIMPIITPAYPEMCTTHNFSLSTKAILEKELRRGGDIADQVMSGKAPWKDLFAKHTFFTK 363
+
+Query: 358 -YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCP 416
+            YK+YL + + +R + E  L WSG VESKVRLLV KLE    I +AHPF K F   + C 
+Sbjct: 364 GYKYYLSVVSASR-TKESQLLWSGFVESKVRLLVNKLEYHRSIALAHPFNKGFARVHRCN 422
+
+Query: 417 TEDDYEMIQD---KYGSHKTETALNALKLVTDENKEEESIKDAPK-------AYLSTMYI 466
+            E++ +++++   KY +    T      L T+  KE   I +  +        Y +T YI
+Sbjct: 423 NEEEVDLVKNGSLKYHATDIATLTTGHGLATEIPKEAGEISEKSEIDQRGIMVYTATHYI 482
+
+Query: 467 GLDFNIENKKEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENE 526
+           GL+  +    + +D+     EF  +C S +E Y + +  +L +   K  DLPD+VF E E
+Sbjct: 483 GLE--LAEGAKSLDLSYEVDEFKKICTS-SEAY-NQEENSLGVAHTKNCDLPDDVFTEGE 538
+
+Query: 527 KRPSKKSKRK 536
+            +P +  K+K
+Sbjct: 539 IKPIRPQKQK 548
+
+
+>CCU83246 pep:novel supercontig:EF1:HF943396:14:2044:-1
+           gene:BGHDH14_bghG009031000001001 transcript:CCU83246
+           description:"serine/threonine-protein kinase Sgk2"
+          Length = 643
+
+ Score = 30.8 bits (68), Expect = 0.63,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 35/75 (46%)
+
+Query: 401 IAHPFTKPFESSYCCPTEDDYEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAY 460
+           I  P T    ++ C  T+DD  M++  +GS    + ++ L+L          ++DA    
+Sbjct: 410 IYRPETIVSRANLCYRTKDDLHMVKFSWGSGAERSEIDYLRLAKPVKGVVTLVRDAILHE 469
+
+Query: 461 LSTMYIGLDFNIENK 475
+           + T   GLDF++  K
+Sbjct: 470 VETHRAGLDFSMACK 484
+
+
+>CCU83280 pep:novel supercontig:EF1:DH14:247:1015:1
+           gene:BGHDH14_bghG013305000001001 transcript:CCU83280
+           description:"serine/threonine-protein kinase Sgk2"
+          Length = 241
+
+ Score = 30.4 bits (67), Expect = 0.66,   Method: Compositional matrix adjust.
+ Identities = 20/75 (26%), Positives = 35/75 (46%)
+
+Query: 401 IAHPFTKPFESSYCCPTEDDYEMIQDKYGSHKTETALNALKLVTDENKEEESIKDAPKAY 460
+           I  P T    ++ C  T+DD  M++  +GS    + ++ L+L          ++DA    
+Sbjct: 43  IYRPETIVSRANLCYRTKDDEHMVKFSWGSGAERSEIDYLRLAKPVKGVVTLVRDAVLHE 102
+
+Query: 461 LSTMYIGLDFNIENK 475
+           + T   GLDF++  K
+Sbjct: 103 VETHRAGLDFSMACK 117
+
+
+>CCU82919 pep:novel supercontig:EF1:HF943489:122036:127061:1
+           gene:BGHDH14_bgh05559 transcript:CCU82919
+           description:"UDP-glucoseglycoprotein glucosyltransferase
+           precursor"
+          Length = 1458
+
+ Score = 28.9 bits (63), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query: 267 NWPQPVILKPIEDGPLQVRVWNPKIYAQDR-SHRMPVITPAYPS 309
+           +W Q  I   + +   + +VW P I+  +  SHR P+I P  PS
+Sbjct: 590 SWLQTAIFHGVFEEEEEDQVWLPSIFLDEALSHRNPLIIPESPS 633
+
+
+>CCU83100 pep:novel supercontig:EF1:HF943502:190938:195522:-1
+           gene:BGHDH14_bghG007527000001001 transcript:CCU83100
+           description:"phospholipid-translocating P-type ATPase
+           domain-containing protein"
+          Length = 1420
+
+ Score = 27.7 bits (60), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 15/36 (41%), Positives = 20/36 (55%), Gaps = 1/36 (2%)
+
+Query: 182 EKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLW 217
+           E+DL  L GT + D + E VP   +  +A   IKLW
+Sbjct: 860 ERDLTLLGGTAIEDRLQEGVPD-TIALLAEAGIKLW 894
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 3,551,090
+Number of extensions: 159219
+Number of successful extensions: 501
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 496
+Number of HSP's successfully gapped: 13
+Length of query: 568
+Length of database: 3,131,961
+Length adjustment: 95
+Effective length of query: 473
+Effective length of database: 2,517,311
+Effective search space: 1190688103
+Effective search space used: 1190688103
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 53 (25.0 bits)

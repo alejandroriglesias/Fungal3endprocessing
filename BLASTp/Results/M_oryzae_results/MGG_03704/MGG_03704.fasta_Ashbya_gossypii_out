@@ -1,0 +1,107 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS50581 pep:known chromosome:ASM9102v1:II:50695:51540:1 gene:AG...   191   2e-59
+AAS50565 pep:known chromosome:ASM9102v1:II:21006:22544:-1 gene:A...    26   5.6  
+
+>AAS50581 pep:known chromosome:ASM9102v1:II:50695:51540:1 gene:AGOS_ABL190W
+           transcript:AAS50581 description:"RNA polymerase II
+           subunit A C-terminal domain phosphatase SSU72"
+          Length = 281
+
+ Score =  191 bits (485), Expect = 2e-59,   Method: Compositional matrix adjust.
+ Identities = 101/246 (41%), Positives = 143/246 (58%), Gaps = 33/246 (13%)
+
+Query: 14  QTNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKANYPVISFGTGSLVRLPGPTIT 73
+           Q++  V     +   L+ CTVCASN NRSME+H  L +A Y V S+GTGS VRLPG +I 
+Sbjct: 69  QSSLMVSSEMPNTSTLRLCTVCASNNNRSMESHRVLKEAGYDVSSYGTGSAVRLPGLSID 128
+
+Query: 74  QPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRLE 133
+           +PNVY F  T Y+ +Y +L  +    Y +NG+L ML+RNR +K+ PE+W D Q       
+Sbjct: 129 KPNVYPF-GTPYNDIYNDLLAQSAERYKSNGLLEMLDRNRRIKKAPEKWHDSQ------- 180
+
+Query: 134 HASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAAV 193
+                        V D VFTCEERC+D+V EDL  RG  LN+ VHVIN+DI+D++E A +
+Sbjct: 181 ------------KVFDFVFTCEERCFDSVCEDLMNRGGQLNKIVHVINLDIRDDNENAKI 228
+
+Query: 194 GGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPAT 253
+           GG+ +L+L  +LN +  +E D+                    + DV+A+WQ+  P LP  
+Sbjct: 229 GGRAMLELVKALN-SKMQECDQ------------QGVPFEDTIMDVVADWQQAHPQLPLL 275
+
+Query: 254 WTLAWF 259
+           ++ A++
+Sbjct: 276 YSPAYY 281
+
+
+>AAS50565 pep:known chromosome:ASM9102v1:II:21006:22544:-1 gene:AGOS_ABL206C
+           transcript:AAS50565 description:"Glucose-6-phosphate
+           1-dehydrogenase"
+          Length = 512
+
+ Score = 25.8 bits (55), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query: 61  TGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANGI 105
+           T  L  L GP   +P +YK+ S   D + K LE K + ++  +G+
+Sbjct: 451 TPLLNYLEGPDSPRPEIYKYGSRGPDGLTKYLE-KHQYVFEKSGL 494
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,173,205
+Number of extensions: 46936
+Number of successful extensions: 120
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 117
+Number of HSP's successfully gapped: 3
+Length of query: 259
+Length of database: 2,335,236
+Length adjustment: 86
+Effective length of query: 173
+Effective length of database: 1,924,500
+Effective search space: 332938500
+Effective search space used: 332938500
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 49 (23.5 bits)

@@ -1,0 +1,187 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YKL059C pep:known chromosome:SacCer_Apr2011:XI:328118:329443:-1 ...   816   0.0  
+YKL117W pep:known chromosome:SacCer_Apr2011:XI:220324:220974:1 g...    30   0.41 
+YNL310C pep:known chromosome:SacCer_Apr2011:XIV:51907:52431:-1 g...    29   0.84 
+YBR294W pep:known chromosome:SacCer_Apr2011:II:789235:791814:1 g...    29   1.4  
+YGL195W pep:known chromosome:SacCer_Apr2011:VII:131525:139543:1 ...    28   5.3  
+YLR116W pep:known chromosome:SacCer_Apr2011:XII:380822:382252:1 ...    27   7.1  
+YER164W pep:known chromosome:SacCer_Apr2011:V:505392:509798:1 ge...    27   8.1  
+YPR094W pep:known chromosome:SacCer_Apr2011:XVI:720637:720960:1 ...    25   8.2  
+YLR138W pep:known chromosome:SacCer_Apr2011:XII:418437:421394:1 ...    27   9.8  
+
+>YKL059C pep:known chromosome:SacCer_Apr2011:XI:328118:329443:-1
+           gene:YKL059C transcript:YKL059C description:"Essential
+           conserved subunit of CPF (cleavage and polyadenylation
+           factor), plays a role in 3' end formation of mRNA via
+           the specific cleavage and polyadenylation of pre-mRNA,
+           contains a putative RNA-binding zinc knuckle motif"
+          Length = 441
+
+ Score =  816 bits (2107), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 399/441 (90%), Positives = 399/441 (90%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD
+Sbjct: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHXXX 120
+           DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQH   
+Sbjct: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQKRQHTAT 120
+
+Query: 121 XXXNVSGTTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQTNKNSAQENEGPPPPGY 180
+              NVSGTTEEERIASMFA            MSAATPVFFKSQTNKNSAQENEGPPPPGY
+Sbjct: 121 TTANVSGTTEEERIASMFATQENQWEQTQEEMSAATPVFFKSQTNKNSAQENEGPPPPGY 180
+
+Query: 181 MCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIEIDPETMTPEEMAQRKIM 240
+           MCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIEIDPETMTPEEMAQRKIM
+Sbjct: 181 MCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIEIDPETMTPEEMAQRKIM 240
+
+Query: 241 ITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQP 300
+           ITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQP
+Sbjct: 241 ITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQP 300
+
+Query: 301 VKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEEL 360
+           VKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEEL
+Sbjct: 301 VKTSKCCNIDFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQEEL 360
+
+Query: 361 HGSSKDGNQPETKKMKLMDPTGTAGLNNNTSLPTSVNNGGTXXXXXXXXXXXXXXXXXXX 420
+           HGSSKDGNQPETKKMKLMDPTGTAGLNNNTSLPTSVNNGGT                   
+Sbjct: 361 HGSSKDGNQPETKKMKLMDPTGTAGLNNNTSLPTSVNNGGTPVPPVPLPFGIPPFPMFPM 420
+
+Query: 421 XXXXXTATITNPHQADASPKK 441
+                TATITNPHQADASPKK
+Sbjct: 421 PFMPPTATITNPHQADASPKK 441
+
+
+>YKL117W pep:known chromosome:SacCer_Apr2011:XI:220324:220974:1 gene:YKL117W
+           transcript:YKL117W description:"Co-chaperone that binds
+           to and regulates Hsp90 family chaperones\x3b important
+           for pp60v-src activity in yeast\x3b homologous to the
+           mammalian p23 proteins and like p23 can regulate
+           telomerase activity"
+          Length = 216
+
+ Score = 30.4 bits (67), Expect = 0.41,   Method: Compositional matrix adjust.
+ Identities = 23/58 (39%), Positives = 30/58 (51%), Gaps = 10/58 (17%)
+
+Query: 28  FDLKREIIQE---NKLGDGTDFQLKIYNPDTEEEYDDDAFVIPRSTSVIVKRSPAIKS 82
+            DL +EII E   +K+ +G  + LK+Y  D E EY       PR T   VK  P IK+
+Sbjct: 69  IDLYKEIIPEKTMHKVANGQHYFLKLYKKDLESEY------WPRLTKEKVKY-PYIKT 119
+
+
+>YNL310C pep:known chromosome:SacCer_Apr2011:XIV:51907:52431:-1 gene:YNL310C
+           transcript:YNL310C description:"Heat shock protein with
+           a zinc finger motif\x3b essential for protein import
+           into mitochondria\x3b may act with Pam18p to facilitate
+           recognition and folding of imported proteins by Ssc1p
+           (mtHSP70) in the mitochondrial matrix"
+          Length = 174
+
+ Score = 29.3 bits (64), Expect = 0.84,   Method: Compositional matrix adjust.
+ Identities = 20/61 (32%), Positives = 26/61 (42%), Gaps = 6/61 (9%)
+
+Query: 303 TSKCCNI----DFSKEALENALVESDFVCPNCETRDILLDSLVPDQDKEKEVETFLKKQE 358
+           T K CN       SK+A E   V     CP+C+ R ++ D L    D    VE  +K   
+Sbjct: 74  TCKKCNTRSSHTMSKQAYEKGTVL--ISCPHCKVRHLIADHLKIFHDHHVTVEQLMKANG 131
+
+Query: 359 E 359
+           E
+Sbjct: 132 E 132
+
+
+>YBR294W pep:known chromosome:SacCer_Apr2011:II:789235:791814:1 gene:YBR294W
+           transcript:YBR294W description:"High affinity sulfate
+           permease of the SulP anion transporter family\x3b
+           sulfate uptake is mediated by specific sulfate
+           transporters Sul1p and Sul2p, which control the
+           concentration of endogenous activated sulfate
+           intermediates"
+          Length = 859
+
+ Score = 29.3 bits (64), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 21/38 (55%), Gaps = 3/38 (7%)
+
+Query: 175 PPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTT 212
+           PPPPG + YR G    ++ NC  + D  F+  RI+  T
+Sbjct: 635 PPPPGVIVYRLGDSFTYV-NCSRHYDIIFD--RIKEET 669
+
+
+>YGL195W pep:known chromosome:SacCer_Apr2011:VII:131525:139543:1 gene:YGL195W
+            transcript:YGL195W description:"Positive regulator of the
+            Gcn2p kinase activity, forms a complex with Gcn20p\x3b
+            proposed to stimulate Gcn2p activation by an uncharged
+            tRNA"
+          Length = 2672
+
+ Score = 27.7 bits (60), Expect = 5.3,   Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 29/54 (53%), Gaps = 11/54 (20%)
+
+Query: 318  NALVESDFVCPNCETRDILLDSLV-PDQ----------DKEKEVETFLKKQEEL 360
+            NAL +S  V PN E  D++L +L+ P+Q          D E E+E F+K   E+
+Sbjct: 1021 NALCQSISVAPNQEDLDMILSNLLSPNQFVRSTILETLDNEFELEPFMKYSPEV 1074
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 2,642,693
+Number of extensions: 120823
+Number of successful extensions: 324
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 323
+Number of HSP's successfully gapped: 23
+Length of query: 441
+Length of database: 3,010,216
+Length adjustment: 93
+Effective length of query: 348
+Effective length of database: 2,387,860
+Effective search space: 830975280
+Effective search space used: 830975280
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 52 (24.6 bits)

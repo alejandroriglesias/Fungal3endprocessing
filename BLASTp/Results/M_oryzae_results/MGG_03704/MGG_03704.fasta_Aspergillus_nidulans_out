@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03704:RNA polymerase II subunit A domain phosphatase SSU72
+         (259 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00004902 pep:known chromosome:ASM1142v1:II:2926210:29271...   295   e-100
+CADANIAP00010212 pep:known chromosome:ASM1142v1:VI:2469123:24705...    28   2.4  
+CADANIAP00006531 pep:known chromosome:ASM1142v1:I:155233:158463:...    28   4.2  
+CADANIAP00000711 pep:known chromosome:ASM1142v1:IV:2036726:20376...    27   6.3  
+
+>CADANIAP00004902 pep:known chromosome:ASM1142v1:II:2926210:2927144:-1
+           gene:CADANIAG00004902 transcript:CADANIAT00004902
+           description:"transcription/RNA-processing factor Ssu72
+           (AFU_orthologue\x3b AFUA_2G03760)"
+          Length = 263
+
+ Score =  295 bits (754), Expect = e-100,   Method: Compositional matrix adjust.
+ Identities = 149/247 (60%), Positives = 171/247 (69%), Gaps = 23/247 (9%)
+
+Query: 15  TNAAVEKPRDDGFKLKFCTVCASNQNRSMEAHLQLSKAN--YPVISFGTGSLVRLPGPTI 72
+           T+++ EK   D +KL+FCTVCASNQNRSMEAHL+LS A   +PVISFGTGSLVRLPGP+I
+Sbjct: 38  TSSSTEK--TDSYKLRFCTVCASNQNRSMEAHLRLSTAASPFPVISFGTGSLVRLPGPSI 95
+
+Query: 73  TQPNVYKFNSTSYDAMYKELEGKDRRLYTANGILNMLERNRNVKRGPERWQDWQIGIPRL 132
+           TQPNVY FNSTSY  MY EL  KD RLY  NGILNML+RNRNVK GPER+QDW       
+Sbjct: 96  TQPNVYNFNSTSYSQMYDELLSKDERLYRNNGILNMLDRNRNVKWGPERFQDW------- 148
+
+Query: 133 EHASDRGSEGTEAGVVDIVFTCEERCWDAVVEDLHARGSPLNRPVHVINVDIKDNHEEAA 192
+                        GVVD++ TCEERCWDAVV+DL  +GS LNRPVHV NVDIKDNHEEA 
+Sbjct: 149 ------------GGVVDVIITCEERCWDAVVDDLLNKGSTLNRPVHVFNVDIKDNHEEAL 196
+
+Query: 193 VGGQGILDLANSLNRAAAEERDKIXXXXXXXXXXXXXXXXXXRVADVLAEWQERWPNLPA 252
+           VGG+ IL+LA  LN  A +E+  +                  +V +VL  WQE+WPNLPA
+Sbjct: 197 VGGKAILELATRLNEVATQEQKALGSGGWENGTGEARRSFDEKVPEVLGAWQEKWPNLPA 256
+
+Query: 253 TWTLAWF 259
+            WTLAW 
+Sbjct: 257 LWTLAWL 263
+
+
+>CADANIAP00010212 pep:known chromosome:ASM1142v1:VI:2469123:2470543:-1
+           gene:CADANIAG00010212 transcript:CADANIAT00010212
+           description:"oxysterol binding protein (Osh5), putative
+           (AFU_orthologue\x3b AFUA_3G11750)"
+          Length = 415
+
+ Score = 28.1 bits (61), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 28/58 (48%), Gaps = 4/58 (6%)
+
+Query: 47  LQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRLYTANG 104
+           ++L K+ Y V S G  S +   G          F ++    +YKE EG+ + LYT +G
+Sbjct: 212 MELEKSTYIVSSTGYISKISYSGKGWVSGKKNTFTAS----LYKESEGEKKPLYTVDG 265
+
+
+>CADANIAP00006531 pep:known chromosome:ASM1142v1:I:155233:158463:1
+           gene:CADANIAG00006531 transcript:CADANIAT00006531
+           description:"NRPS-like enzyme, putative (JCVI)"
+          Length = 1039
+
+ Score = 27.7 bits (60), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 20/86 (23%), Positives = 37/86 (43%), Gaps = 5/86 (5%)
+
+Query: 40  NRSMEAHLQLSKANYPVISFGTGSLVRLPGPTITQPNVYKFNSTSYDAMYKELEGKDRRL 99
+           N SM+ H ++  +   ++   T ++ R    +I + +VYK        +Y++LE     L
+Sbjct: 503 NESMDGHARIQSSEAVLLLPSTVTIPRTDKGSIARKDVYKMFEADIAGVYRKLESAGPVL 562
+
+Query: 100 YTANGILNMLERNRNVKRGPERWQDW 125
+                 L+M     ++K    R  DW
+Sbjct: 563 -----CLDMETLEEDLKLLISRCTDW 583
+
+
+>CADANIAP00000711 pep:known chromosome:ASM1142v1:IV:2036726:2037619:1
+           gene:CADANIAG00000711 transcript:CADANIAT00000711
+           description:"conserved hypothetical protein"
+          Length = 256
+
+ Score = 26.6 bits (57), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 15/52 (28%), Positives = 24/52 (46%), Gaps = 1/52 (1%)
+
+Query: 91  ELEGKDRRLYTANGILNM-LERNRNVKRGPERWQDWQIGIPRLEHASDRGSE 141
+           + +G    LYT+ G  ++ L             QDW +G+ RL++  D G E
+Sbjct: 187 DFDGGSVELYTSTGADDLELAVQAVSASASSNSQDWHVGVLRLDNGVDGGEE 238
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.316    0.133    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 2,707,155
+Number of extensions: 109657
+Number of successful extensions: 240
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 237
+Number of HSP's successfully gapped: 8
+Length of query: 259
+Length of database: 5,078,913
+Length adjustment: 92
+Effective length of query: 167
+Effective length of database: 4,109,785
+Effective search space: 686334095
+Effective search space used: 686334095
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 52 (24.6 bits)

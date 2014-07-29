@@ -1,0 +1,220 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00001238 pep:known contig:CADRE:8741:4182295:4183059:-1 ...   204   3e-64
+CADNFIAP00008877 pep:known contig:CADRE:9299:1344559:1346211:-1 ...    53   3e-08
+CADNFIAP00006379 pep:known contig:CADRE:9288:2840475:2842417:1 g...    39   0.001
+CADNFIAP00005499 pep:known contig:CADRE:9288:385196:388600:1 gen...    35   0.022
+CADNFIAP00010002 pep:known contig:CADRE:9374:548804:551115:-1 ge...    33   0.072
+CADNFIAP00008922 pep:known contig:CADRE:9299:1033408:1035567:1 g...    30   1.1  
+CADNFIAP00002615 pep:known contig:CADRE:8881:97338:100726:-1 gen...    29   1.5  
+CADNFIAP00003187 pep:known contig:CADRE:8927:1111387:1112631:1 g...    28   2.3  
+CADNFIAP00007732 pep:known contig:CADRE:9292:252601:253851:-1 ge...    28   2.7  
+CADNFIAP00006427 pep:known contig:CADRE:9292:2476052:2479623:1 g...    27   8.7  
+CADNFIAP00007332 pep:known contig:CADRE:9292:1733685:1738076:-1 ...    27   9.1  
+
+>CADNFIAP00001238 pep:known contig:CADRE:8741:4182295:4183059:-1
+           gene:CADNFIAG00001277 transcript:CADNFIAT00001277
+           description:"MRNA cleavage and polyadenylation
+           specificity factor complex subunit, putative"
+          Length = 254
+
+ Score =  204 bits (518), Expect = 3e-64,   Method: Compositional matrix adjust.
+ Identities = 103/202 (50%), Positives = 137/202 (67%), Gaps = 4/202 (1%)
+
+Query: 5   SVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLERHV 64
+           + A+I     +      +FSFTPFL++++   L SD P+CK Y S G+CP G  C +RH 
+Sbjct: 8   AAARILSTDSSRDPSYNNFSFTPFLRKSFGFGLASDVPVCKAY-SEGHCPLGPACPDRH- 65
+
+Query: 65  ADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYI 124
+             PS+++ + +   SG        SLVCKH+L+GLCKKG  CE+LHEYNLRRMPEC  + 
+Sbjct: 66  PTPSRVTTSTTT-ASGLAPSTTHGSLVCKHFLKGLCKKGLKCEYLHEYNLRRMPECQSFS 124
+
+Query: 125 RNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFCPDG 184
+           R+GYC NG++CLY H+  Q++LPPC +YDQGFC LGP C+K+HVRR LC YYL GFCP+G
+Sbjct: 125 RSGYCPNGDDCLYQHVREQARLPPCENYDQGFCELGPLCAKRHVRRRLCKYYLAGFCPEG 184
+
+Query: 185 RLCKQGAHPGWNPKLDPPTVKV 206
+           + C   AHP W+  L  P ++V
+Sbjct: 185 KACPD-AHPHWSENLPKPMMRV 205
+
+
+>CADNFIAP00008877 pep:known contig:CADRE:9299:1344559:1346211:-1
+           gene:CADNFIAG00009091 transcript:CADNFIAT00009091
+           description:"CCCH zinc finger protein"
+          Length = 452
+
+ Score = 52.8 bits (125), Expect = 3e-08,   Method: Compositional matrix adjust.
+ Identities = 44/146 (30%), Positives = 64/146 (43%), Gaps = 28/146 (19%)
+
+Query: 43  ICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR-GLCK 101
+           +CK + S G C  G  CL  H  DP++++                   +CK +L+ G C 
+Sbjct: 256 LCKRFTSTGACYKGPSCLFIH--DPNKVA-------------------ICKEFLQTGNCS 294
+
+Query: 102 KGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHY-DQGFCPLG 160
+            G  C+  HE +  R P C  ++RN  C N  +C Y H+      P C  + + G+C  G
+Sbjct: 295 AGQNCDLSHEPSPHRSPVCVHFLRN-RCSN-PDCRYSHVRVTPGAPVCRDFANLGYCDKG 352
+
+Query: 161 PRCSKKHVRRNLCP-YYLCGFCPDGR 185
+             C ++HV    CP Y   G C   R
+Sbjct: 353 AECEERHVHE--CPDYAATGVCNKKR 376
+
+
+
+ Score = 42.4 bits (98), Expect = 7e-05,   Method: Compositional matrix adjust.
+ Identities = 38/133 (28%), Positives = 45/133 (33%), Gaps = 26/133 (19%)
+
+Query: 38  PSDRPICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLR 97
+           P+   ICK +   GNC  G  C   H   P +                   S VC H+LR
+Sbjct: 278 PNKVAICKEFLQTGNCSAGQNCDLSHEPSPHR-------------------SPVCVHFLR 318
+
+Query: 98  GLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFC 157
+             C   D C + H       P C  +   GYC  G EC   H+        CP Y     
+Sbjct: 319 NRCSNPD-CRYSHVRVTPGAPVCRDFANLGYCDKGAECEERHVH------ECPDYAATGV 371
+
+Query: 158 PLGPRCSKKHVRR 170
+               RC   HV R
+Sbjct: 372 CNKKRCRLPHVDR 384
+
+
+
+ Score = 41.2 bits (95), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 47/107 (43%), Gaps = 8/107 (7%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLP 147
+           N L  +    G C KG  C F+H+ N  ++  C  +++ G C  G+ C   H     + P
+Sbjct: 254 NELCKRFTSTGACYKGPSCLFIHDPN--KVAICKEFLQTGNCSAGQNCDLSHEPSPHRSP 311
+
+Query: 148 PCPHYDQGFCPLGPRCSKKHVRRN----LCPYYL-CGFCPDGRLCKQ 189
+            C H+ +  C   P C   HVR      +C  +   G+C  G  C++
+Sbjct: 312 VCVHFLRNRCS-NPDCRYSHVRVTPGAPVCRDFANLGYCDKGAECEE 357
+
+
+
+ Score = 31.2 bits (69), Expect = 0.25,   Method: Compositional matrix adjust.
+ Identities = 27/87 (31%), Positives = 37/87 (42%), Gaps = 9/87 (10%)
+
+Query: 115 RRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-GFCPLGPRCSKKHV----R 169
+           +R   C  +   G C  G  CL++H DP +K+  C  + Q G C  G  C   H     R
+Sbjct: 252 KRNELCKRFTSTGACYKGPSCLFIH-DP-NKVAICKEFLQTGNCSAGQNCDLSHEPSPHR 309
+
+Query: 170 RNLCPYYLCGFC--PDGRLCKQGAHPG 194
+             +C ++L   C  PD R       PG
+Sbjct: 310 SPVCVHFLRNRCSNPDCRYSHVRVTPG 336
+
+
+>CADNFIAP00006379 pep:known contig:CADRE:9288:2840475:2842417:1 gene:CADNFIAG00006536
+           transcript:CADNFIAT00006536 description:"Spindle poison
+           sensitivity protein Scp3, putative"
+          Length = 544
+
+ Score = 38.5 bits (88), Expect = 0.001,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 37/81 (45%), Gaps = 15/81 (18%)
+
+Query: 110 HEYNLRRMPECNFYIRNGYCQNGEECLYLH-IDPQSKLPPCPHYDQGFCPLGPRCSKKHV 168
+           ++ N + +P C F+ R G CQ G  C +LH  D      PC ++ +G C  G +C+  H+
+Sbjct: 37  NQSNTKHVP-CKFF-RQGACQAGPACPFLHSTDAAIDYAPCKYFTKGNCKFGAKCALAHI 94
+
+Query: 169 RRNLCPYYLCGFCPDGRLCKQ 189
+                        PDGR   +
+Sbjct: 95  ------------LPDGRRVNR 103
+
+
+
+ Score = 34.3 bits (77), Expect = 0.030,   Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 38/79 (48%), Gaps = 7/79 (8%)
+
+Query: 72  NAQSGYGSGKRDGPAFNS---LVCKHWLRGLCKKGDGCEFLHEYN--LRRMPECNFYIRN 126
+           N  SG+    R  P  ++   + CK + +G C+ G  C FLH  +  +   P C ++ + 
+Sbjct: 23  NPSSGFDMAARSPPNQSNTKHVPCKFFRQGACQAGPACPFLHSTDAAIDYAP-CKYFTK- 80
+
+Query: 127 GYCQNGEECLYLHIDPQSK 145
+           G C+ G +C   HI P  +
+Sbjct: 81  GNCKFGAKCALAHILPDGR 99
+
+
+>CADNFIAP00005499 pep:known contig:CADRE:9288:385196:388600:1 gene:CADNFIAG00005656
+           transcript:CADNFIAT00005656
+           description:"C-x8-C-x5-C-x3-H type zinc finger protein"
+          Length = 956
+
+ Score = 35.0 bits (79), Expect = 0.022,   Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 21/38 (55%)
+
+Query: 74  QSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHE 111
+           +S +G+  +  P    + C++W  G C KGD C F H+
+Sbjct: 916 RSKFGAPNKKHPKAGLVPCRYWREGKCLKGDNCTFRHD 953
+
+
+>CADNFIAP00010002 pep:known contig:CADRE:9374:548804:551115:-1 gene:CADNFIAG00010242
+           transcript:CADNFIAT00010242 description:"CCCH zinc
+           finger and SMR domain protein"
+          Length = 733
+
+ Score = 33.1 bits (74), Expect = 0.072,   Method: Compositional matrix adjust.
+ Identities = 12/21 (57%), Positives = 15/21 (71%)
+
+Query: 91  VCKHWLRGLCKKGDGCEFLHE 111
+           VCK+W+ G C  GDGC F H+
+Sbjct: 307 VCKYWIMGNCLAGDGCPFSHD 327
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,980,480
+Number of extensions: 143253
+Number of successful extensions: 323
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 302
+Number of HSP's successfully gapped: 24
+Length of query: 276
+Length of database: 5,073,492
+Length adjustment: 92
+Effective length of query: 184
+Effective length of database: 4,116,508
+Effective search space: 757437472
+Effective search space used: 757437472
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

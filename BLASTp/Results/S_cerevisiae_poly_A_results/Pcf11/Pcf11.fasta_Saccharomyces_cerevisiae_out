@@ -1,0 +1,205 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Saccharomyces_cerevisiae.fa 
+           6692 sequences; 3,010,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+YDR228C pep:known chromosome:SacCer_Apr2011:IV:921926:923806:-1 ...  1215   0.0  
+YER008C pep:known chromosome:SacCer_Apr2011:V:167808:171818:-1 g...    32   0.51 
+YIL147C pep:known chromosome:SacCer_Apr2011:IX:69791:73453:-1 ge...    28   4.3  
+YLR403W pep:known chromosome:SacCer_Apr2011:XII:925568:927619:1 ...    28   5.7  
+YPL242C pep:known chromosome:SacCer_Apr2011:XVI:90622:95109:-1 g...    28   6.4  
+YER184C pep:known chromosome:SacCer_Apr2011:V:556296:558680:-1 g...    27   9.9  
+
+>YDR228C pep:known chromosome:SacCer_Apr2011:IV:921926:923806:-1
+           gene:YDR228C transcript:YDR228C description:"mRNA 3' end
+           processing factor, essential component of cleavage and
+           polyadenylation factor IA (CF IA), involved in pre-mRNA
+           3' end processing and in transcription termination\x3b
+           binds C-terminal domain of largest subunit of RNA pol II
+           (Rpo21p)\x3b require /.../gene looping"
+          Length = 626
+
+ Score = 1215 bits (3144), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 594/626 (94%), Positives = 594/626 (94%)
+
+Query: 1   MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK 60
+           MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK
+Sbjct: 1   MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK 60
+
+Query: 61  LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL 120
+           LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL
+Sbjct: 61  LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL 120
+
+Query: 121 PLFEGSALEKIEQFLIKASALHQKNLQAMLPTPTVPLLLRDIDKLTCLTSERLKNQPNDE 180
+           PLFEGSALEKIEQFLIKASALHQKNLQAMLPTPTVPLLLRDIDKLTCLTSERLKNQPNDE
+Sbjct: 121 PLFEGSALEKIEQFLIKASALHQKNLQAMLPTPTVPLLLRDIDKLTCLTSERLKNQPNDE 180
+
+Query: 181 KLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQVLQERMRYHELXXXXXXX 240
+           KLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQVLQERMRYHEL       
+Sbjct: 181 KLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQVLQERMRYHELQQQQQQQ 240
+
+Query: 241 XXXXXXXXXXXXXYHETKDMVGSYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNISGVE 300
+                        YHETKDMVGSYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNISGVE
+Sbjct: 241 QQQQQQQQQQQQQYHETKDMVGSYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGNISGVE 300
+
+Query: 301 SFQEIEKKKSLNKINNLYASLKAEGLIYTPPKESIVTLYKKLNGHSNYSLDSHEKQLMKN 360
+           SFQEIEKKKSLNKINNLYASLKAEGLIYTPPKESIVTLYKKLNGHSNYSLDSHEKQLMKN
+Sbjct: 301 SFQEIEKKKSLNKINNLYASLKAEGLIYTPPKESIVTLYKKLNGHSNYSLDSHEKQLMKN 360
+
+Query: 361 LPKIPLLNDILSDCKAYFATVNIDVLNNPXXXXXXXXXXXXNPIVQNNLIHLLYRSKPNK 420
+           LPKIPLLNDILSDCKAYFATVNIDVLNNP            NPIVQNNLIHLLYRSKPNK
+Sbjct: 361 LPKIPLLNDILSDCKAYFATVNIDVLNNPSLQLSEQTLLQENPIVQNNLIHLLYRSKPNK 420
+
+Query: 421 CSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQSR 480
+           CSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQSR
+Sbjct: 421 CSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTTTRKNIQSR 480
+
+Query: 481 NWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLGSDR 540
+           NWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLGSDR
+Sbjct: 481 NWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLGSDR 540
+
+Query: 541 SNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNGKYFHSTCY 600
+           SNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNGKYFHSTCY
+Sbjct: 541 SNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTIEVNGKYFHSTCY 600
+
+Query: 601 HETSQNSSKSNSGKVGLDDLKKLVTK 626
+           HETSQNSSKSNSGKVGLDDLKKLVTK
+Sbjct: 601 HETSQNSSKSNSGKVGLDDLKKLVTK 626
+
+
+>YER008C pep:known chromosome:SacCer_Apr2011:V:167808:171818:-1 gene:YER008C
+           transcript:YER008C description:"Subunit of the exocyst
+           complex (Sec3p, Sec5p, Sec6p, Sec8p, Sec10p, Sec15p,
+           Exo70p, Exo84p) which mediates targeting of post-Golgi
+           vesicles to sites of active exocytosis\x3b Sec3p
+           specifically is a spatial landmark for secretion"
+          Length = 1336
+
+ Score = 31.6 bits (70), Expect = 0.51,   Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 44/71 (61%), Gaps = 1/71 (1%)
+
+Query: 157 LLLRDIDKLTCLTSERLKNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQV 216
+           L L+  +++  L  ER   Q  + K +M+L    QL++E ++ ++ L A KQ++++ ++ 
+Sbjct: 351 LQLQKENEMKRLEEERRIKQ-EERKRQMELEHQRQLEEEERKRQMELEAKKQMELKRQRQ 409
+
+Query: 217 FSQDQQVLQER 227
+           F ++Q++ +ER
+Sbjct: 410 FEEEQRLKKER 420
+
+
+>YIL147C pep:known chromosome:SacCer_Apr2011:IX:69791:73453:-1 gene:YIL147C
+            transcript:YIL147C description:"Histidine kinase
+            osmosensor that regulates a MAP kinase cascade\x3b
+            transmembrane protein with an intracellular kinase domain
+            that signals to Ypd1p and Ssk1p, thereby forming a
+            phosphorelay system similar to bacterial two-component
+            regulators"
+          Length = 1220
+
+ Score = 28.5 bits (62), Expect = 4.3,   Method: Compositional matrix adjust.
+ Identities = 26/89 (29%), Positives = 38/89 (42%), Gaps = 5/89 (5%)
+
+Query: 462  GISNSNLNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYT-DPHANKNIDKSAL 520
+            G+ + NL+    R  +QS     S       KDD+   T  K     D H N+ + K  L
+Sbjct: 1052 GLGSVNLD----RPFLQSTGTATSSRNIPTVKDDDKNETSVKILVVEDNHVNQEVIKRML 1107
+
+Query: 521  NIHADENDEGSVDNTLGSDRSNELEIRGK 549
+            N+   EN E + D     D+  EL  +G+
+Sbjct: 1108 NLEGIENIELACDGQEAFDKVKELTSKGE 1136
+
+
+>YLR403W pep:known chromosome:SacCer_Apr2011:XII:925568:927619:1
+           gene:YLR403W transcript:YLR403W
+           description:"Transcription factor that controls
+           expression of ribosome biogenesis genes in response to
+           nutrients and stress, regulates G2/M transitions during
+           mitotic cell cycle and DNA-damage response, modulates
+           cell size\x3b regulated by TORC1 and Mrs6p\x3b can form
+           /.../ISP+] prion"
+          Length = 683
+
+ Score = 27.7 bits (60), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%)
+
+Query: 415 RSKPNKCSVCGKRFGN 430
+           + KP +C VCGKR+ N
+Sbjct: 655 KDKPYRCEVCGKRYKN 670
+
+
+>YPL242C pep:known chromosome:SacCer_Apr2011:XVI:90622:95109:-1 gene:YPL242C
+           transcript:YPL242C description:"Essential protein
+           required for determination of budding pattern, promotes
+           localization of axial markers Bud4p and Cdc12p and
+           functionally interacts with Sec3p, localizes to the
+           contractile ring during anaphase, member of the IQGAP
+           family"
+          Length = 1495
+
+ Score = 27.7 bits (60), Expect = 6.4,   Method: Compositional matrix adjust.
+ Identities = 13/45 (28%), Positives = 24/45 (53%)
+
+Query: 51  RIEKCMPKQKLYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYL 95
+           R E+   +Q L     L +IC+ V + + +Y  + L NL+++  L
+Sbjct: 407 RRERMTEEQFLEKVVQLQNICRGVNTRFNLYIQKRLLNLFEQDIL 451
+
+
+  Database: Saccharomyces_cerevisiae.fa
+    Posted date:  Feb 17, 2014 11:34 AM
+  Number of letters in database: 3,010,216
+  Number of sequences in database:  6692
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6692
+Number of Hits to DB: 3,927,252
+Number of extensions: 185192
+Number of successful extensions: 808
+Number of sequences better than 10.0: 48
+Number of HSP's gapped: 797
+Number of HSP's successfully gapped: 50
+Length of query: 626
+Length of database: 3,010,216
+Length adjustment: 96
+Effective length of query: 530
+Effective length of database: 2,367,784
+Effective search space: 1254925520
+Effective search space used: 1254925520
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

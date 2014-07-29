@@ -1,0 +1,596 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Integral subunit of the pre-mRNA cleavage and polyadenylation
+factor (CPF) complex; plays an essential role in mRNA 3'-end formation
+by bridging different processing factors and thereby promoting the
+assembly of the processing complex
+         (465 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP38892 pep:known chromosome:v2.0:4:3167068:3168960:1 gene:N...   336   e-108
+NechaP48128 pep:known chromosome:v2.0:9:168719:172348:-1 gene:Ne...   108   2e-25
+NechaP89121 pep:known supercontig:v2.0:sca_98_unmapped:41132:450...    89   1e-18
+NechaP57721 pep:known chromosome:v2.0:1:5711376:5712389:1 gene:N...    82   1e-17
+NechaP66115 pep:known chromosome:v2.0:2:809236:811215:-1 gene:Ne...    79   7e-16
+NechaP65387 pep:known chromosome:v2.0:1:1586551:1588066:1 gene:N...    77   2e-15
+NechaP66050 pep:known chromosome:v2.0:2:392587:394277:-1 gene:Ne...    76   6e-15
+NechaP105069 pep:known chromosome:v2.0:8:1888849:1891545:1 gene:...    76   8e-15
+NechaP3141 pep:known chromosome:v2.0:1:6057510:6058666:-1 gene:N...    73   3e-14
+NechaP123180 pep:known chromosome:v2.0:6:2796657:2799168:1 gene:...    74   4e-14
+NechaP59656 pep:known chromosome:v2.0:4:62457:66622:-1 gene:Nech...    74   4e-14
+NechaP122819 pep:known chromosome:v2.0:9:1593779:1595400:1 gene:...    70   4e-13
+NechaP91496 pep:known chromosome:v2.0:2:4219239:4222486:1 gene:N...    70   1e-12
+NechaP67812 pep:known chromosome:v2.0:3:3856859:3859624:-1 gene:...    69   1e-12
+NechaP50603 pep:known chromosome:v2.0:10:2005271:2008226:1 gene:...    69   2e-12
+NechaP104764 pep:known chromosome:v2.0:6:2264944:2267833:1 gene:...    67   2e-12
+NechaP100030 pep:known chromosome:v2.0:4:1455230:1458261:1 gene:...    67   8e-12
+NechaP74945 pep:known chromosome:v2.0:1:3396073:3397742:-1 gene:...    65   3e-11
+NechaP101559 pep:known chromosome:v2.0:9:967749:970539:1 gene:Ne...    65   4e-11
+NechaP60938 pep:known chromosome:v2.0:5:1418638:1420468:-1 gene:...    64   4e-11
+NechaP100263 pep:known chromosome:v2.0:4:3496219:3498771:1 gene:...    64   6e-11
+NechaP90152 pep:known chromosome:v2.0:1:3350338:3351897:1 gene:N...    63   1e-10
+NechaP69414 pep:known chromosome:v2.0:5:2255340:2256838:1 gene:N...    62   2e-10
+NechaP122274 pep:known chromosome:v2.0:1:3512819:3514370:1 gene:...    60   5e-10
+NechaP52111 pep:known chromosome:v2.0:11:1186180:1189826:1 gene:...    60   8e-10
+NechaP41389 pep:known chromosome:v2.0:5:1640749:1641961:-1 gene:...    59   2e-09
+NechaP39192 pep:known chromosome:v2.0:4:3609352:3611344:1 gene:N...    59   2e-09
+NechaP101743 pep:known chromosome:v2.0:9:2758262:2761147:-1 gene...    59   2e-09
+NechaP98942 pep:known chromosome:v2.0:1:4732850:4734713:-1 gene:...    56   1e-08
+NechaP50794 pep:known chromosome:v2.0:10:1530249:1532125:1 gene:...    56   2e-08
+NechaP96240 pep:known chromosome:v2.0:9:1629396:1632194:-1 gene:...    56   2e-08
+NechaP41290 pep:known chromosome:v2.0:5:1749369:1750484:1 gene:N...    55   2e-08
+NechaP29819 pep:known chromosome:v2.0:1:1102604:1103941:1 gene:N...    55   2e-08
+NechaP51778 pep:known chromosome:v2.0:11:775374:780007:-1 gene:N...    55   3e-08
+NechaP85058 pep:known chromosome:v2.0:9:2365257:2369505:-1 gene:...    54   7e-08
+NechaP68119 pep:known chromosome:v2.0:4:701987:706102:1 gene:Nec...    52   5e-07
+NechaP40224 pep:known chromosome:v2.0:5:751869:754494:1 gene:Nec...    50   1e-06
+NechaP98945 pep:known chromosome:v2.0:1:4763209:4765900:-1 gene:...    50   1e-06
+NechaP53746 pep:known chromosome:v2.0:12:1970233:1971816:1 gene:...    49   2e-06
+NechaP47465 pep:known chromosome:v2.0:8:2255927:2257282:1 gene:N...    49   2e-06
+NechaP34879 pep:known chromosome:v2.0:3:135132:138627:1 gene:Nec...    49   3e-06
+NechaP104173 pep:known chromosome:v2.0:4:2668307:2670665:1 gene:...    48   6e-06
+NechaP100888 pep:known chromosome:v2.0:6:1971291:1973201:-1 gene...    48   6e-06
+NechaP43255 pep:known chromosome:v2.0:6:2993841:2995057:1 gene:N...    47   8e-06
+NechaP76851 pep:known chromosome:v2.0:2:3494499:3495664:-1 gene:...    47   1e-05
+NechaP96228 pep:known chromosome:v2.0:9:1580761:1582497:1 gene:N...    47   1e-05
+NechaP66578 pep:known chromosome:v2.0:2:2570905:2575004:1 gene:N...    45   4e-05
+NechaP74360 pep:known chromosome:v2.0:1:1316244:1317833:-1 gene:...    45   6e-05
+NechaP31774 pep:known chromosome:v2.0:1:6012823:6015732:-1 gene:...    44   1e-04
+NechaP49229 pep:known chromosome:v2.0:9:1207133:1209101:-1 gene:...    44   1e-04
+NechaP36603 pep:known chromosome:v2.0:3:689612:693495:-1 gene:Ne...    44   1e-04
+NechaP91419 pep:known chromosome:v2.0:2:3842052:3845219:-1 gene:...    44   1e-04
+NechaP33830 pep:known chromosome:v2.0:2:1625079:1626248:1 gene:N...    43   1e-04
+NechaP36807 pep:known chromosome:v2.0:3:2476678:2481114:1 gene:N...    44   1e-04
+NechaP20553 pep:known chromosome:v2.0:9:180143:183803:1 gene:Nec...    43   2e-04
+NechaP61337 pep:known chromosome:v2.0:5:2870179:2871989:1 gene:N...    42   3e-04
+NechaP89915 pep:known chromosome:v2.0:1:1750978:1752298:-1 gene:...    42   3e-04
+NechaP58956 pep:known chromosome:v2.0:3:1465050:1468098:-1 gene:...    42   3e-04
+NechaP69380 pep:known chromosome:v2.0:5:2108497:2110492:1 gene:N...    42   4e-04
+NechaP70532 pep:known chromosome:v2.0:6:3128821:3132625:1 gene:N...    42   5e-04
+NechaP34280 pep:known chromosome:v2.0:2:98181:100909:1 gene:Nech...    40   0.001
+NechaP47646 pep:known chromosome:v2.0:8:2428290:2431761:1 gene:N...    40   0.001
+NechaP38393 pep:known chromosome:v2.0:4:1124586:1125658:-1 gene:...    40   0.002
+NechaP100546 pep:known chromosome:v2.0:5:2232418:2234326:1 gene:...    40   0.002
+NechaP29852 pep:known chromosome:v2.0:1:498662:501247:1 gene:Nec...    40   0.002
+NechaP96216 pep:known chromosome:v2.0:9:1514543:1516020:1 gene:N...    40   0.002
+NechaP48582 pep:known chromosome:v2.0:9:990845:992075:-1 gene:Ne...    39   0.003
+NechaP31067 pep:known chromosome:v2.0:1:4523928:4526931:-1 gene:...    39   0.003
+NechaP59580 pep:known chromosome:v2.0:3:3863439:3865661:1 gene:N...    39   0.004
+NechaP35871 pep:known chromosome:v2.0:3:2162985:2164934:-1 gene:...    39   0.005
+NechaP49121 pep:known chromosome:v2.0:9:1953149:1955413:-1 gene:...    39   0.005
+NechaP76368 pep:known chromosome:v2.0:2:1711659:1714897:-1 gene:...    39   0.006
+NechaP48162 pep:known chromosome:v2.0:9:504277:506179:-1 gene:Ne...    38   0.006
+NechaP50174 pep:known chromosome:v2.0:10:1401016:1402848:1 gene:...    37   0.009
+NechaP100890 pep:known chromosome:v2.0:6:1974878:1978652:-1 gene...    37   0.012
+NechaP103792 pep:known chromosome:v2.0:3:2353394:2358396:1 gene:...    37   0.017
+NechaP63910 pep:known chromosome:v2.0:10:608277:612368:-1 gene:N...    37   0.020
+NechaP75224 pep:known chromosome:v2.0:1:4463196:4464641:-1 gene:...    36   0.024
+NechaP46489 pep:known chromosome:v2.0:8:2041968:2043237:1 gene:N...    36   0.028
+NechaP32139 pep:known chromosome:v2.0:1:3321171:3323140:1 gene:N...    36   0.028
+NechaP74962 pep:known chromosome:v2.0:1:3461657:3463801:1 gene:N...    36   0.028
+NechaP36480 pep:known chromosome:v2.0:3:3237055:3239208:-1 gene:...    36   0.031
+NechaP103068 pep:known chromosome:v2.0:1:1901348:1904604:1 gene:...    35   0.042
+NechaP93296 pep:known chromosome:v2.0:5:750217:751503:-1 gene:Ne...    35   0.056
+NechaP48873 pep:known chromosome:v2.0:9:1431243:1433704:-1 gene:...    35   0.069
+NechaP82204 pep:known chromosome:v2.0:7:85131:88295:-1 gene:Nech...    34   0.13 
+NechaP77314 pep:known chromosome:v2.0:3:483812:487165:-1 gene:Ne...    34   0.13 
+NechaP42723 pep:known chromosome:v2.0:6:1106460:1108792:-1 gene:...    34   0.15 
+NechaP65610 pep:known chromosome:v2.0:1:2875878:2877171:1 gene:N...    32   0.38 
+NechaP79503 pep:known chromosome:v2.0:4:3489113:3490217:-1 gene:...    32   0.54 
+NechaP72141 pep:known chromosome:v2.0:10:283342:287773:1 gene:Ne...    32   0.57 
+NechaP85712 pep:known chromosome:v2.0:10:1138825:1143446:-1 gene...    32   0.85 
+NechaP95767 pep:known chromosome:v2.0:8:2689661:2691369:1 gene:N...    31   0.99 
+NechaP30646 pep:known chromosome:v2.0:1:5383802:5386492:-1 gene:...    31   1.0  
+NechaP74336 pep:known chromosome:v2.0:1:1233343:1236448:-1 gene:...    31   1.1  
+NechaP83562 pep:known chromosome:v2.0:8:914742:919784:1 gene:Nec...    31   1.5  
+NechaP88236 pep:known chromosome:v2.0:13:950703:952305:-1 gene:N...    30   1.8  
+NechaP99053 pep:known chromosome:v2.0:2:42568:45077:-1 gene:Nech...    30   2.0  
+NechaP70215 pep:known chromosome:v2.0:6:1990550:1992314:-1 gene:...    30   2.1  
+NechaP99166 pep:known chromosome:v2.0:2:1342178:1343541:1 gene:N...    30   2.2  
+NechaP36946 pep:known chromosome:v2.0:3:3823952:3826041:1 gene:N...    30   2.6  
+NechaP91498 pep:known chromosome:v2.0:2:4235138:4237264:1 gene:N...    30   2.7  
+NechaP95141 pep:known chromosome:v2.0:7:2461990:2462991:-1 gene:...    29   3.2  
+NechaP31686 pep:known chromosome:v2.0:1:5699035:5700558:-1 gene:...    29   3.5  
+NechaP50281 pep:known chromosome:v2.0:10:656110:661093:1 gene:Ne...    29   4.8  
+NechaP98244 pep:known supercontig:v2.0:sca_35_unmapped:23942:248...    28   7.9  
+NechaP59622 pep:known chromosome:v2.0:3:4268210:4269965:1 gene:N...    28   8.3  
+
+>NechaP38892 pep:known chromosome:v2.0:4:3167068:3168960:1 gene:NechaG38892
+           transcript:NechaT38892 description:"Putative
+           uncharacterized protein"
+          Length = 612
+
+ Score =  336 bits (861), Expect = e-108,   Method: Compositional matrix adjust.
+ Identities = 168/371 (45%), Positives = 228/371 (61%), Gaps = 28/371 (7%)
+
+Query: 45  NRRHGLPNLVVEPETSYTIDIMPPNAYRGRDRVINLPSKFTHLSSNKVKHVIPAIQWTPE 104
+           N R G       P  SY +D++PP A   R    ++P K  H S NK+KH I  ++WTPE
+Sbjct: 41  NYRGGYAGEAERPSASYIVDMLPPAARVTR-AGDSIPIKHLHSSLNKIKHPINVVRWTPE 99
+
+Query: 105 GRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQP 164
+           GRRL+ A+ SGEF+LWN + F FET+MQAHDSA+  ++YSH  DW+IS D DG+IK WQP
+Sbjct: 100 GRRLLTASTSGEFTLWNGTGFNFETIMQAHDSAIRALEYSHSDDWLISADHDGVIKYWQP 159
+
+Query: 165 NFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKS 224
+           NF+ V+ I+A HT+ IRD+A+S NDSKFVT SDD+ LKI++F+ G+ E  L GH WD KS
+Sbjct: 160 NFNNVQSINA-HTDPIRDLAYSPNDSKFVTASDDSTLKIFDFAMGQMESKLEGHGWDAKS 218
+
+Query: 225 CDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDK 284
+            DWHP  GL+ S SKD+LVKLWDPR+  C++++   K T+ K  F+  +G  L   ++D+
+Sbjct: 219 VDWHPTKGLLVSGSKDHLVKLWDPRTSRCLTTLHGHKSTITKVVFEKVRGACLATSARDQ 278
+
+Query: 285 SCRVFDIRYSMKELMCVRDETDYMTLEWHPINESMFTLACYDGSLKHFDLLQNLNE---- 340
+           + RVFD+R      +    E D  TL WHPI+ +  +    DGSL H+ LL + N     
+Sbjct: 279 TARVFDLRMMRDICLLKGHEKDISTLTWHPIHPNFLSTGGMDGSLFHY-LLDSPNPPPGQ 337
+
+Query: 341 ---------------------PILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFWTR 379
+                                P+  +P+AHD  I SL ++P+GHI A+ + DR  RFW+R
+Sbjct: 338 PFTVAPYDSPDPTSVPAQSVWPMHKVPFAHDYAIWSLDWHPLGHILASGSNDRITRFWSR 397
+
+Query: 380 ARPIDPNAYDD 390
+           ARP D   + D
+Sbjct: 398 ARPGDTEVFQD 408
+
+
+>NechaP48128 pep:known chromosome:v2.0:9:168719:172348:-1 gene:NechaG48128
+           transcript:NechaT48128 description:"Putative
+           uncharacterized protein"
+          Length = 1105
+
+ Score =  108 bits (271), Expect = 2e-25,   Method: Compositional matrix adjust.
+ Identities = 69/282 (24%), Positives = 126/282 (44%), Gaps = 5/282 (1%)
+
+Query: 96  IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+           I ++ ++P+G+ L+  +Y     +W+ ++     L++ HD  + ++ +S D   M SG  
+Sbjct: 614 IRSLAFSPDGKMLISGSYDRTVKIWDIATGDLGRLIKGHDDNIRSVAFSPDGKLMASGSR 673
+
+Query: 156 DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVL 215
+           D  IKIW      +      H   +  + FS+  S   + S+DN +KIW+ S+GK  + L
+Sbjct: 674 DKTIKIWDVATGALARTLKGHRSGVGSVVFSTGGSLVASGSEDNTIKIWDVSSGKAMKTL 733
+
+Query: 216 SGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGN 275
+            GH   V S     +  L+AS S D  VK+WD  +G    +     ++V    F    G 
+Sbjct: 734 KGHTGSVWSVTLSADSKLLASGSDDTRVKIWDATTGKVRQTFEGHWNSVRSVAFS-MDGR 792
+
+Query: 276 LLMAISKDKSCRVFDIRYSMKELMCVRDETDYMTLEWHPINESMFTLACYDGSLKHFDLL 335
+           L+ + S D +  ++D   + +         D  ++ + P N  +     YD ++K +D  
+Sbjct: 793 LVASGSSDGTIGIWDTTINRERRTVGAHGKDVTSMAFSP-NRKLMASGSYDETVKIWD-- 849
+
+Query: 336 QNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+                 +      H   ITS++++    + A+ + D T   W
+Sbjct: 850 -TATGEVKQTCKGHTSLITSVAFSADNALVASGSFDMTTIIW 890
+
+
+
+ Score = 93.6 bits (231), Expect = 3e-20,   Method: Compositional matrix adjust.
+ Identities = 65/254 (25%), Positives = 116/254 (45%), Gaps = 19/254 (7%)
+
+Query: 134 HDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFV 193
+           H +++ ++ +S D   +ISG  D  +KIW      +  +   H ++IR +AFS +     
+Sbjct: 610 HHNSIRSLAFSPDGKMLISGSYDRTVKIWDIATGDLGRLIKGHDDNIRSVAFSPDGKLMA 669
+
+Query: 194 TCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNC 253
+           + S D  +KIW+ + G   R L GH   V S  +     L+AS S+DN +K+WD  SG  
+Sbjct: 670 SGSRDKTIKIWDVATGALARTLKGHRSGVGSVVFSTGGSLVASGSEDNTIKIWDVSSGKA 729
+
+Query: 254 ISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELMCVRDETDYMTLEWH 313
+           + ++     +V           LL + S D   +++D          VR   +     W+
+Sbjct: 730 MKTLKGHTGSVWSVTLSA-DSKLLASGSDDTRVKIWDATTGK-----VRQTFEG---HWN 780
+
+Query: 314 PINESMFTL-------ACYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFA 366
+            +    F++          DG++  +D    +N    T+  AH K +TS++++P   + A
+Sbjct: 781 SVRSVAFSMDGRLVASGSSDGTIGIWD--TTINRERRTVG-AHGKDVTSMAFSPNRKLMA 837
+
+Query: 367 TAAKDRTIRFWTRA 380
+           + + D T++ W  A
+Sbjct: 838 SGSYDETVKIWDTA 851
+
+
+
+ Score = 85.1 bits (209), Expect = 1e-17,   Method: Compositional matrix adjust.
+ Identities = 52/196 (26%), Positives = 96/196 (48%), Gaps = 2/196 (1%)
+
+Query: 96  IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+           + ++ ++ +GR +   +  G   +W+ +       + AH   VT+M +S +   M SG  
+Sbjct: 782 VRSVAFSMDGRLVASGSSDGTIGIWDTTINRERRTVGAHGKDVTSMAFSPNRKLMASGSY 841
+
+Query: 156 DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVL 215
+           D  +KIW      VK+    HT  I  +AFS++++   + S D    IW+   GK+  VL
+Sbjct: 842 DETVKIWDTATGEVKQTCKGHTSLITSVAFSADNALVASGSFDMTTIIWDVGTGKRLLVL 901
+
+Query: 216 SGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGN 275
+           +GH   V S  +  +  L+AS S+   +K+WD ++G    +     H   ++      G 
+Sbjct: 902 TGHTILVFSVAFSRDSKLVASGSELGTIKIWDTKTGGIKKTF--EGHGRTQSISFSNNGK 959
+
+Query: 276 LLMAISKDKSCRVFDI 291
+           L+++ S D + R++D+
+Sbjct: 960 LIISGSDDGTVRIWDL 975
+
+
+
+ Score = 84.7 bits (208), Expect = 2e-17,   Method: Compositional matrix adjust.
+ Identities = 61/282 (21%), Positives = 127/282 (45%), Gaps = 10/282 (3%)
+
+Query: 98   AIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADG 157
+            ++  + + + L   +      +W+A++       + H ++V ++ +S D   + SG +DG
+Sbjct: 742  SVTLSADSKLLASGSDDTRVKIWDATTGKVRQTFEGHWNSVRSVAFSMDGRLVASGSSDG 801
+
+Query: 158  MIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSG 217
+             I IW    +  +    AH + +  MAFS N     + S D  +KIW+ + G+ ++   G
+Sbjct: 802  TIGIWDTTINRERRTVGAHGKDVTSMAFSPNRKLMASGSYDETVKIWDTATGEVKQTCKG 861
+
+Query: 218  HHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLL 277
+            H   + S  +  +  L+AS S D    +WD  +G  +  ++   HT+L      ++ + L
+Sbjct: 862  HTSLITSVAFSADNALVASGSFDMTTIIWDVGTGKRL--LVLTGHTILVFSVAFSRDSKL 919
+
+Query: 278  MAISKD-KSCRVFDIRY-SMKELMCVRDETDYMTLEWHPINESMFTLACYDGSLKHFDLL 335
+            +A   +  + +++D +   +K+       T  ++      N  +      DG+++ +DL 
+Sbjct: 920  VASGSELGTIKIWDTKTGGIKKTFEGHGRTQSISFS---NNGKLIISGSDDGTVRIWDLT 976
+
+Query: 336  QNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+                  IL     H   + S+S++    +  + + D+TIR W
+Sbjct: 977  AG---TILQTLIGHGDGVRSVSFSNDDKLVVSGSDDKTIRIW 1015
+
+
+
+ Score = 70.9 bits (172), Expect = 5e-13,   Method: Compositional matrix adjust.
+ Identities = 37/163 (22%), Positives = 80/163 (49%), Gaps = 1/163 (0%)
+
+Query: 95   VIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGD 154
+            +I ++ ++ +   +   ++     +W+  +     ++  H   V ++ +S DS  + SG 
+Sbjct: 865  LITSVAFSADNALVASGSFDMTTIIWDVGTGKRLLVLTGHTILVFSVAFSRDSKLVASGS 924
+
+Query: 155  ADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERV 214
+              G IKIW      +K+    H  + + ++FS+N    ++ SDD  ++IW+ + G   + 
+Sbjct: 925  ELGTIKIWDTKTGGIKKTFEGHGRT-QSISFSNNGKLIISGSDDGTVRIWDLTAGTILQT 983
+
+Query: 215  LSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSI 257
+            L GH   V+S  +  +  L+ S S D  +++WD  +G  + ++
+Sbjct: 984  LIGHGDGVRSVSFSNDDKLVVSGSDDKTIRIWDIATGKVMRTL 1026
+
+
+
+ Score = 66.6 bits (161), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 28/125 (22%), Positives = 65/125 (52%), Gaps = 1/125 (0%)
+
+Query: 95   VIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGD 154
+            ++ ++ ++ + + +   +  G   +W+  +   +   + H     ++ +S++   +ISG 
+Sbjct: 907  LVFSVAFSRDSKLVASGSELGTIKIWDTKTGGIKKTFEGH-GRTQSISFSNNGKLIISGS 965
+
+Query: 155  ADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERV 214
+             DG ++IW      + +    H + +R ++FS++D   V+ SDD  ++IW+ + GK  R 
+Sbjct: 966  DDGTVRIWDLTAGTILQTLIGHGDGVRSVSFSNDDKLVVSGSDDKTIRIWDIATGKVMRT 1025
+
+Query: 215  LSGHH 219
+            L GH+
+Sbjct: 1026 LEGHY 1030
+
+
+
+ Score = 42.4 bits (98), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 34/165 (20%), Positives = 68/165 (41%), Gaps = 9/165 (5%)
+
+Query: 215 LSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKG 274
+           L  HH  ++S  + P+  ++ S S D  VK+WD  +G+    I      +    F P  G
+Sbjct: 607 LDNHHNSIRSLAFSPDGKMLISGSYDRTVKIWDIATGDLGRLIKGHDDNIRSVAFSP-DG 665
+
+Query: 275 NLLMAISKDKSCRVFDIRYS--MKELMCVRDETDYMTLEWHPINESMFTLACYDGSLKHF 332
+            L+ + S+DK+ +++D+      + L   R     +         S+      D ++K +
+Sbjct: 666 KLMASGSRDKTIKIWDVATGALARTLKGHRSGVGSVVFS---TGGSLVASGSEDNTIKIW 722
+
+Query: 333 DLLQNLNEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+           D+        L     H   + S++ +    + A+ + D  ++ W
+Sbjct: 723 DVSSGKAMKTLK---GHTGSVWSVTLSADSKLLASGSDDTRVKIW 764
+
+
+
+ Score = 29.6 bits (65), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 11/37 (29%), Positives = 21/37 (56%)
+
+Query: 341 PILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+           P++     H   I SL+++P G +  + + DRT++ W
+Sbjct: 602 PLVATLDNHHNSIRSLAFSPDGKMLISGSYDRTVKIW 638
+
+
+>NechaP89121 pep:known supercontig:v2.0:sca_98_unmapped:41132:45088:1
+            gene:NechaG89121 transcript:NechaT89121
+            description:"Putative uncharacterized protein"
+          Length = 1230
+
+ Score = 88.6 bits (218), Expect = 1e-18,   Method: Compositional matrix adjust.
+ Identities = 44/162 (27%), Positives = 88/162 (54%)
+
+Query: 96   IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+            + ++ ++ +G+RL  A+Y     +W+A++      ++ H+S+V+++ +S D   + S   
+Sbjct: 881  VSSVVFSADGQRLASASYDKTVKIWDAATGACVQTLEGHNSSVSSVVFSADGQRLASASG 940
+
+Query: 156  DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVL 215
+            D  +KIW        +    H +S+R + FS++  +  + S D+ +KIW+ + G   + L
+Sbjct: 941  DSTVKIWDAATGACVQTLEGHGDSVRSVVFSADGQRLASASGDSTVKIWDAATGACVQTL 1000
+
+Query: 216  SGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSI 257
+             GH+  V S  +  +   +ASAS D  VK+WD  +G C+ ++
+Sbjct: 1001 EGHNSLVSSVVFSADGQRLASASYDKTVKIWDAATGACVQTL 1042
+
+
+
+ Score = 88.2 bits (217), Expect = 1e-18,   Method: Compositional matrix adjust.
+ Identities = 47/182 (25%), Positives = 92/182 (50%), Gaps = 1/182 (0%)
+
+Query: 96   IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+            + ++ ++ +G+RL  A+      +W+A++      ++ H+S V+++ +S D   + S   
+Sbjct: 965  VRSVVFSADGQRLASASGDSTVKIWDAATGACVQTLEGHNSLVSSVVFSADGQRLASASY 1024
+
+Query: 156  DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVL 215
+            D  +KIW        +    H + +  + FS++  +  + S D+ +KIW+ + G   + L
+Sbjct: 1025 DKTVKIWDAATGACVQTLEGHGDWVSSVVFSADSQRLASGSIDSTVKIWDAATGACVQTL 1084
+
+Query: 216  SGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGN 275
+             GH   V S  +  +   +ASAS D+ VK+WD  +G C+ + L     + +  F PT  +
+Sbjct: 1085 EGHGDWVSSVVFSADGQRLASASDDSTVKIWDAATGACVQT-LDVGRMLCRLSFDPTTNS 1143
+
+Query: 276  LL 277
+            LL
+Sbjct: 1144 LL 1145
+
+
+
+ Score = 83.6 bits (205), Expect = 5e-17,   Method: Compositional matrix adjust.
+ Identities = 67/270 (24%), Positives = 122/270 (45%), Gaps = 27/270 (10%)
+
+Query: 120  WNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAAHTES 179
+            WNA   T E     H   V+++ +S D   + S   D  +KIW        +    H  S
+Sbjct: 867  WNACLQTLE----GHGRGVSSVVFSADGQRLASASYDKTVKIWDAATGACVQTLEGHNSS 922
+
+Query: 180  IRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASK 239
+            +  + FS++  +  + S D+ +KIW+ + G   + L GH   V+S  +  +   +ASAS 
+Sbjct: 923  VSSVVFSADGQRLASASGDSTVKIWDAATGACVQTLEGHGDSVRSVVFSADGQRLASASG 982
+
+Query: 240  DNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYSMKELM 299
+            D+ VK+WD  +G C+ + L+  ++++ +      G  L + S DK+ +++D         
+Sbjct: 983  DSTVKIWDAATGACVQT-LEGHNSLVSSVVFSADGQRLASASYDKTVKIWDAATG----A 1037
+
+Query: 300  CVRDETDYMTLEWHP--INESMFTL-------ACYDGSLKHFDLLQNLNEPILTIPYAHD 350
+            CV+      TLE H   ++  +F+           D ++K +D         L     H 
+Sbjct: 1038 CVQ------TLEGHGDWVSSVVFSADSQRLASGSIDSTVKIWDAATGACVQTLE---GHG 1088
+
+Query: 351  KCITSLSYNPVGHIFATAAKDRTIRFWTRA 380
+              ++S+ ++  G   A+A+ D T++ W  A
+Sbjct: 1089 DWVSSVVFSADGQRLASASDDSTVKIWDAA 1118
+
+
+
+ Score = 82.4 bits (202), Expect = 1e-16,   Method: Compositional matrix adjust.
+ Identities = 46/187 (24%), Positives = 86/187 (45%), Gaps = 1/187 (0%)
+
+Query: 104  EGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQ 163
+            +G+RL  A+      +W+A++      ++ H  +V ++ +S D   + S   D  +KIW 
+Sbjct: 931  DGQRLASASGDSTVKIWDAATGACVQTLEGHGDSVRSVVFSADGQRLASASGDSTVKIWD 990
+
+Query: 164  PNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVK 223
+                   +    H   +  + FS++  +  + S D  +KIW+ + G   + L GH   V 
+Sbjct: 991  AATGACVQTLEGHNSLVSSVVFSADGQRLASASYDKTVKIWDAATGACVQTLEGHGDWVS 1050
+
+Query: 224  SCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKD 283
+            S  +  +   +AS S D+ VK+WD  +G C+ ++      V    F    G  L + S D
+Sbjct: 1051 SVVFSADSQRLASGSIDSTVKIWDAATGACVQTLEGHGDWVSSVVF-SADGQRLASASDD 1109
+
+Query: 284  KSCRVFD 290
+             + +++D
+Sbjct: 1110 STVKIWD 1116
+
+
+
+ Score = 66.2 bits (160), Expect = 1e-11,   Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 61/115 (53%)
+
+Query: 95   VIPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGD 154
+            ++ ++ ++ +G+RL  A+Y     +W+A++      ++ H   V+++ +S DS  + SG 
+Sbjct: 1006 LVSSVVFSADGQRLASASYDKTVKIWDAATGACVQTLEGHGDWVSSVVFSADSQRLASGS 1065
+
+Query: 155  ADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNG 209
+             D  +KIW        +    H + +  + FS++  +  + SDD+ +KIW+ + G
+Sbjct: 1066 IDSTVKIWDAATGACVQTLEGHGDWVSSVVFSADGQRLASASDDSTVKIWDAATG 1120
+
+
+>NechaP57721 pep:known chromosome:v2.0:1:5711376:5712389:1 gene:NechaG57721
+           transcript:NechaT57721 description:"Putative
+           uncharacterized protein"
+          Length = 247
+
+ Score = 81.6 bits (200), Expect = 1e-17,   Method: Compositional matrix adjust.
+ Identities = 61/252 (24%), Positives = 119/252 (47%), Gaps = 19/252 (7%)
+
+Query: 134 HDSAVTTMKYSHDSDWMISGDADGMIKIWQ------PNFSMVKEIDAAHTESIRDMAFSS 187
+           H  AV ++  S   + + SG  D  I++W+      P+ + +     AH  +I  +A S+
+Sbjct: 2   HFGAVRSVAVSAKDNTLASGSLDQTIRLWELASPTSPSKTFL-----AHA-NIMSVAIST 55
+
+Query: 188 NDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWD 247
+           +     + + DN++++W+  +G     LSGH   + S    P+   +AS S D  ++LWD
+Sbjct: 56  DGRYLASGAHDNLVRVWDLESGDLALELSGHDSSIASVALSPDGRYLASGSLDMTIRLWD 115
+
+Query: 248 PRSGNCISSILKFKHTVLKTRFQPTKGNLLMAISKDKSCRVFDIRYS--MKELMCVRDET 305
+            + GN + ++      V    F P    L    S DK+  ++D R    +K+L+C+R  T
+Sbjct: 116 LK-GNLVETLDDHIGCVHAVAFSPNNSRLASG-SSDKTVILWDTRPGKPIKQLLCLRGHT 173
+
+Query: 306 DYMTLEWHPINESMFTLACYDGSLKHFDLLQNLNEPILTIPYAHDKCITSLSYNPVGHIF 365
+           D++       +         D ++  +D+  +    +L     H+  + S++++P  +  
+Sbjct: 174 DFVWSVAFTHDGERLASGSADKTIIIWDVATSQKIHVL---RGHEDAVFSVAFSPSAYRL 230
+
+Query: 366 ATAAKDRTIRFW 377
+           A+A+KD+ +R W
+Sbjct: 231 ASASKDKNVRIW 242
+
+
+
+ Score = 74.3 bits (181), Expect = 4e-15,   Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 93/198 (46%), Gaps = 5/198 (2%)
+
+Query: 96  IPAIQWTPEGRRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSHDSDWMISGDA 155
+           I ++  + +GR L    +     +W+  S      +  HDS++ ++  S D  ++ SG  
+Sbjct: 48  IMSVAISTDGRYLASGAHDNLVRVWDLESGDLALELSGHDSSIASVALSPDGRYLASGSL 107
+
+Query: 156 DGMIKIWQPNFSMVKEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNG---KQE 212
+           D  I++W    ++V+ +D  H   +  +AFS N+S+  + S D  + +W+   G   KQ 
+Sbjct: 108 DMTIRLWDLKGNLVETLD-DHIGCVHAVAFSPNNSRLASGSSDKTVILWDTRPGKPIKQL 166
+
+Query: 213 RVLSGHHWDVKSCDWHPEMGLIASASKDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPT 272
+             L GH   V S  +  +   +AS S D  + +WD  +   I  +   +  V    F P+
+Sbjct: 167 LCLRGHTDFVWSVAFTHDGERLASGSADKTIIIWDVATSQKIHVLRGHEDAVFSVAFSPS 226
+
+Query: 273 KGNLLMAISKDKSCRVFD 290
+              L  A SKDK+ R+++
+Sbjct: 227 AYRLASA-SKDKNVRIWE 243
+
+
+>NechaP66115 pep:known chromosome:v2.0:2:809236:811215:-1 gene:NechaG66115
+           transcript:NechaT66115 description:"Nuclear distribution
+           protein PAC1"
+          Length = 448
+
+ Score = 79.0 bits (193), Expect = 7e-16,   Method: Compositional matrix adjust.
+ Identities = 70/279 (25%), Positives = 119/279 (42%), Gaps = 34/279 (12%)
+
+Query: 130 LMQAHDSAVTTMKYSHDSDWMISGDADGMIKIWQPNFSMVKEIDAAHTESIRDMAFSS-- 187
+           ++Q+H + +  + +      + SGD D +IKIW   F  ++     HT+++ D+ +    
+Sbjct: 99  VLQSHRTPINCVAFHPIYSSIASGDEDAIIKIWDWEFGELERTVKGHTKAVLDLDYGGPK 158
+
+Query: 188 NDSKFVTCSDDNILKIWNFSNG-KQERVLSGHHWDVKSCDWHPEMG--------LIASAS 238
+             +   +CS D  +K+W+ S+  K  R L GH   V +  + P           L+ASAS
+Sbjct: 159 GHTLLASCSSDLTIKLWDPSDEYKNIRTLPGHDHSVSAVRFIPSGAPGAPLSGNLLASAS 218
+
+Query: 239 KDNLVKLWDPRSGNCISSILKFKHTVLKTRFQPT-KGNLLMAISKDKSCRVFDIRYSMKE 297
+           +D  V++WD  +G C+ +I    H+       P+  G  L++   D++ R++DI  +  E
+Sbjct: 219 RDVTVRIWDVTTGYCLKTIR--GHSDWIRDVSPSLDGKYLLSTGNDRTLRLWDISMNTPE 276
+
+Query: 298 LM--------CVR-----DETDYM------TLEWHPINESMFTLACYDGSLKHFDLLQNL 338
+                     CV        T Y        L+  P   S           K   L  + 
+Sbjct: 277 TKMVMIGHEHCVECCAFAPPTSYQHLATMAGLKKAPPASSTAEFMATGSRDKTIRLWDSR 336
+
+Query: 339 NEPILTIPYAHDKCITSLSYNPVGHIFATAAKDRTIRFW 377
+              I T+   HD  + SL ++P G    + + D+TIR W
+Sbjct: 337 GTCIKTL-IGHDNWVRSLVFHPSGKFLLSVSDDKTIRCW 374
+
+
+
+ Score = 75.9 bits (185), Expect = 6e-15,   Method: Compositional matrix adjust.
+ Identities = 61/241 (25%), Positives = 105/241 (43%), Gaps = 37/241 (15%)
+
+Query: 170 KEIDAAHTESIRDMAFSSNDSKFVTCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHP 229
+           + +  +H   I  +AF    S   +  +D I+KIW++  G+ ER + GH   V   D+  
+Sbjct: 97  RHVLQSHRTPINCVAFHPIYSSIASGDEDAIIKIWDWEFGELERTVKGHTKAVLDLDYGG 156
+
+Query: 230 EMG--LIASASKDNLVKLWDPRSG-NCISSILKFKHTVLKTRFQPT-------KGNLLMA 279
+             G  L+AS S D  +KLWDP      I ++    H+V   RF P+        GNLL +
+Sbjct: 157 PKGHTLLASCSSDLTIKLWDPSDEYKNIRTLPGHDHSVSAVRFIPSGAPGAPLSGNLLAS 216
+
+Query: 280 ISKDKSCRVFDIR--YSMKELMCVRDETDYMTLEWHPINESMFTLACYDGSLKHFDLLQN 337
+            S+D + R++D+   Y +K    +R  +D++      ++         D +L+ +D+  N
+Sbjct: 217 ASRDVTVRIWDVTTGYCLKT---IRGHSDWIRDVSPSLDGKYLLSTGNDRTLRLWDISMN 273
+
+Query: 338 LNEPILTIPYAHDKCITSLSYNP---------------------VGHIFATAAKDRTIRF 376
+             E  + +   H+ C+   ++ P                          AT ++D+TIR 
+Sbjct: 274 TPETKMVM-IGHEHCVECCAFAPPTSYQHLATMAGLKKAPPASSTAEFMATGSRDKTIRL 332
+
+Query: 377 W 377
+           W
+Sbjct: 333 W 333
+
+
+
+ Score = 46.6 bits (109), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 46/216 (21%), Positives = 89/216 (41%), Gaps = 36/216 (16%)
+
+Query: 94  HVIPAIQWTPEG--------RRLVVATYSGEFSLWNASSFTFETLMQAHDSAVTTMKYSH 145
+           H + A+++ P G          L  A+      +W+ ++      ++ H   +  +  S 
+Sbjct: 192 HSVSAVRFIPSGAPGAPLSGNLLASASRDVTVRIWDVTTGYCLKTIRGHSDWIRDVSPSL 251
+
+Query: 146 DSDWMISGDADGMIKIW--QPNFSMVKEIDAAHTESIRDMAFS----------------- 186
+           D  +++S   D  +++W    N    K +   H   +   AF+                 
+Sbjct: 252 DGKYLLSTGNDRTLRLWDISMNTPETKMVMIGHEHCVECCAFAPPTSYQHLATMAGLKKA 311
+
+Query: 187 ---SNDSKFV-TCSDDNILKIWNFSNGKQERVLSGHHWDVKSCDWHPEMGLIASASKDNL 242
+              S+ ++F+ T S D  +++W+ S G   + L GH   V+S  +HP    + S S D  
+Sbjct: 312 PPASSTAEFMATGSRDKTIRLWD-SRGTCIKTLIGHDNWVRSLVFHPSGKFLLSVSDDKT 370
+
+Query: 243 VKLWD-PRSGNCISSILKF-KHTVLKTRFQP--TKG 274
+           ++ WD  + G C+ ++    +H +   R+ P  TKG
+Sbjct: 371 IRCWDLSQEGKCVKTLEGMHEHFITSLRWAPPITKG 406
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.319    0.134    0.420 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 7,556,126
+Number of extensions: 337921
+Number of successful extensions: 1611
+Number of sequences better than 10.0: 110
+Number of HSP's gapped: 1281
+Number of HSP's successfully gapped: 327
+Length of query: 465
+Length of database: 7,529,425
+Length adjustment: 100
+Effective length of query: 365
+Effective length of database: 5,958,925
+Effective search space: 2175007625
+Effective search space used: 2175007625
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

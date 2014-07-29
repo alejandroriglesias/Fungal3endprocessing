@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_13006T0 pep:known supercontig:Gae_graminis_V2:supercont1.10...   104   2e-23
+GGTG_12215T0 pep:known supercontig:Gae_graminis_V2:supercont1.8:...    31   1.1  
+
+>GGTG_13006T0 pep:known supercontig:Gae_graminis_V2:supercont1.10:496063:500414:1
+           gene:GGTG_13006 transcript:GGTG_13006T0
+           description:"hypothetical protein"
+          Length = 742
+
+ Score =  104 bits (259), Expect = 2e-23,   Method: Compositional matrix adjust.
+ Identities = 55/140 (39%), Positives = 75/140 (53%), Gaps = 4/140 (2%)
+
+Query: 2   DHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKL 61
+           DH    + +D+   L+ LT NSR  I+ LT +A EN   A    + +   I++ +  +KL
+Sbjct: 5   DH-AAAVAEDYRDALDGLTMNSRVEISNLTLIARENTEAAHAIAEVLIDHIKQVVAPRKL 63
+
+Query: 62  YAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL- 120
+            A Y LDSI KNVG+PYT++F R L+  +   Y  VDN TR K+  M K W  P    L 
+Sbjct: 64  PALYLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNGTRRKMDEMLKTWKEPVPGSLD 123
+
+Query: 121 --PLFEGSALEKIEQFLIKA 138
+             P+F    +  IE  LIKA
+Sbjct: 124 TRPVFPPDTVRPIENALIKA 143
+
+
+
+ Score = 66.2 bits (160), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 44/197 (22%), Positives = 79/197 (40%), Gaps = 22/197 (11%)
+
+Query: 409 LIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNL 468
+           LI  L+      C+ CG+RF N    K ++  H+DWHFR++ R+  ++            
+Sbjct: 514 LIATLHEDLGKPCTQCGRRFRNDAKGKAMKTAHMDWHFRVHQRLAEAE------------ 561
+
+Query: 469 NTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADEND 528
+                 K    R++Y+ +  W + +  E   T H +             +  +  AD   
+Sbjct: 562 ------KKGHHRSFYVDEKDWISSR--ETMDTDHTDAGGANGLQGGGGGAVADEAADGAG 613
+
+Query: 529 EGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNTI 588
+             +  N              +++ VP+        CPIC+E     + EE+ +WVW +  
+Sbjct: 614 GDAGGNNNKKKAGGGGGGGARWIRVPDVGTTNTV-CPICQEKFVMQWLEEAQDWVWTDAA 672
+
+Query: 589 EVNG-KYFHSTCYHETS 604
+            V   + FH++C+ E +
+Sbjct: 673 RVGPDRVFHASCHSEVT 689
+
+
+>GGTG_12215T0 pep:known supercontig:Gae_graminis_V2:supercont1.8:287275:290253:1
+           gene:GGTG_12215 transcript:GGTG_12215T0
+           description:"oxysterol-binding protein"
+          Length = 547
+
+ Score = 31.2 bits (69), Expect = 1.1,   Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 24/45 (53%), Gaps = 6/45 (13%)
+
+Query: 440 EHLDWHFRINTRIKGSQNTANTG------ISNSNLNTTTTRKNIQ 478
+           E ++WH R+  R+KG Q   + G      I N+ ++T T  + I+
+Sbjct: 372 EGVEWHPRLFRRVKGGQGAPDEGEEDLEWIINAQIDTKTPEEQIK 416
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 6,528,208
+Number of extensions: 247532
+Number of successful extensions: 453
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 452
+Number of HSP's successfully gapped: 8
+Length of query: 626
+Length of database: 6,264,428
+Length adjustment: 101
+Effective length of query: 525
+Effective length of database: 4,812,048
+Effective search space: 2526325200
+Effective search space used: 2526325200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

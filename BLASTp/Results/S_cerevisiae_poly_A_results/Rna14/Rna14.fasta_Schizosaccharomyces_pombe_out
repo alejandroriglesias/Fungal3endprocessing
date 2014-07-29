@@ -1,0 +1,228 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa 
+           5144 sequences; 2,387,769 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SPAC6F12.17.1:pep pep:known chromosome:ASM294v2:I:1348687:135123...   284   2e-85
+SPBC4B4.09.1:pep pep:known chromosome:ASM294v2:II:3429718:343217...    43   9e-05
+SPBC1861.04c.1:pep pep:known chromosome:ASM294v2:II:4135960:4139...    36   0.014
+SPCC11E10.07c.1:pep pep:known chromosome:ASM294v2:III:1464630:14...    33   0.074
+SPAC17C9.01c.1:pep pep:known chromosome:ASM294v2:I:4498074:45005...    30   1.3  
+SPAC19A8.01c.1:pep pep:known chromosome:ASM294v2:I:2490084:24943...    30   1.5  
+SPBC23E6.09.1:pep pep:known chromosome:ASM294v2:II:3862346:38670...    30   1.5  
+SPAC1834.13.1:pep pep:known chromosome:ASM294v2:I:4722348:472258...    25   6.2  
+SPAP8A3.04c.1:pep pep:known chromosome:ASM294v2:I:5319957:532067...    25   6.4  
+
+>SPAC6F12.17.1:pep pep:known chromosome:ASM294v2:I:1348687:1351231:1 gene:SPAC6F12.17
+           transcript:SPAC6F12.17.1 description:"mRNA cleavage and
+           polyadenylation specificity factor complex subunit Rna14
+           (predicted)"
+          Length = 733
+
+ Score =  284 bits (727), Expect = 2e-85,   Method: Compositional matrix adjust.
+ Identities = 190/672 (28%), Positives = 333/672 (49%), Gaps = 59/672 (8%)
+
+Query: 30  RLRERIKDNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR 89
+           +LR++I++NP +I S++ L++   ++  + ++RE YEQ    FP+    W   +  ELA 
+Sbjct: 59  QLRDKIQENPNDISSWYALVEEYGSKGKHEELRETYEQMLRPFPYVPRVWVDYISSELAF 118
+
+Query: 90  DEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQK 149
+           ++F  VE + ++CL   L    + LW+ YL YIRR N    G  ++R+ I +A++ V+  
+Sbjct: 119 NDFHAVELLFSRCLVKVL---SVDLWTLYLSYIRRINP--DGEGQSRSTITQAYEFVINT 173
+
+Query: 150 CAIFEPKSSSFWNEYLNFLEQWKPFNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYT 209
+             + +  S   W+E+++FL      + WE+QQ++D +R  Y++ +  P  N+EK+W  Y 
+Sbjct: 174 IGV-DILSGPIWSEFVDFLRSGPANSTWEQQQKLDHVRRIYQRAITTPIHNIEKLWRDYD 232
+
+Query: 210 QWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIPQPGT 269
+            +E  +N  TARKF+ E S  YM AR+  +E  N+T GL+    +   T  +K       
+Sbjct: 233 AFENSVNRATARKFVAEKSPVYMAARAAMRELSNLTEGLR----VYDFTFERKY------ 282
+
+Query: 270 SDSNIQQLQI--WLNWIKWERENKLMLSED-MLSQRISYVYKQGIQYMIFSAEMWYDYSM 326
+             + ++++    W+NWIKWE+ + L L    ML  RI+Y ++Q + Y+    ++W D   
+Sbjct: 283 --TKVERIAYSRWMNWIKWEQSDPLDLQHGTMLQNRIAYAFEQAMLYVPLCPQIWLDGFS 340
+
+Query: 327 YISENSDRQNILYTALLANPDSPS---LTFKLSECYELDNDSESVSNCFDKCTQTL---L 380
+           Y    SD Q  L T        PS   L  + +E  E +N +  + + ++     L   +
+Sbjct: 341 YFLSISDEQRALQTIRRGMRYCPSNFVLHVRYAEHEEANNRTSEIRSTYESLIAALAREI 400
+
+Query: 381 SQYKKIASDVNSGEDNNTEYEQEL---LYKQREKL----TFVFCVYMNTMKRISGLSAAR 433
+           SQ    AS  +    +    E++L   L K++ +L    +  +C  +N ++R  G+ AAR
+Sbjct: 401 SQLDSKASSSSESSTDGNPQEKKLPEHLVKRKSRLVRQYSLAWCCLINAIRRTEGVKAAR 460
+
+Query: 434 TVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFL 493
+            +F K RK     +H++Y+ +A +E     D   A ++ ELG+++F +   Y+ KYL +L
+Sbjct: 461 AIFTKARKAP-YQSHEIYIASAMMEHHCSRDPVIASRIFELGMRHFGDVPAYVYKYLSYL 519
+
+Query: 494 IFLNKDSQIKTLFETSVEKVQDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQE 553
+           I +N ++  + LFE ++ ++    + K IY+K + YES +G+LN   +L +R    +PQE
+Sbjct: 520 IAINDETNARALFEKAIPRIA-ADEAKPIYQKWLDYESNYGDLNAAIALSQRMAVVYPQE 578
+
+Query: 554 NLIEVFTSRYQIQNSNLIKKLELTYMYNEEEDSY-FSSGNGDGHHGSYN-------MSSS 605
+           +   +F SRY +++    ++ E        E S   + GNG   H   N       ++S+
+Sbjct: 579 STQAIFLSRYGLKDDAEEEERETKEAEKIRELSVRLNGGNGFPGHVHNNREDDEVSIAST 638
+
+Query: 606 DRK--------RLMEETXXXXXXXXXXXXRDSELPTEVLDLLSVI-------PKRQYFNT 650
+             K        RL+  +              S LPT  + L S+I       P  Q    
+Sbjct: 639 SSKSNVEMEDTRLLPASLELANTQGASNPPTSALPTVPVPLPSIITEFLDELPAPQVITG 698
+
+Query: 651 NLLDAQKLVNFL 662
+             +   KL++ +
+Sbjct: 699 PRIQPTKLIDHI 710
+
+
+>SPBC4B4.09.1:pep pep:known chromosome:ASM294v2:II:3429718:3432178:1 gene:SPBC4B4.09
+           transcript:SPBC4B4.09.1 description:"U1 snRNP-associated
+           protein Usp105"
+          Length = 612
+
+ Score = 43.1 bits (100), Expect = 9e-05,   Method: Compositional matrix adjust.
+ Identities = 73/365 (20%), Positives = 139/365 (38%), Gaps = 68/365 (18%)
+
+Query: 54  TQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELARDEFETVEKILAQCLSGKLENNDLS 113
+           ++++   +R VY++F   +P     W      E      E  E I  + ++G   + DL 
+Sbjct: 50  SKQAINTLRSVYDRFLGKYPLLFGYWKKYADFEFFVAGAEASEHIYERGIAGIPHSVDL- 108
+
+Query: 114 LWSTYLDYIRRKNNLITGGQEARAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKP 173
+            W+ Y  +    N       E R + ++   +V       +  S  FW++YL F E+   
+Sbjct: 109 -WTNYCAFKMETNG---DANEVRELFMQGANMVG-----LDFLSHPFWDKYLEFEER--- 156
+
+Query: 174 FNKWEEQQRIDMLREFYKKMLCVPFDNLEKMWNRYTQWEQE--INSLTARKFIGELSA-- 229
+                 Q+R D + +  ++++ +P     + + R+ Q  Q   I  L     +  + A  
+Sbjct: 157 ------QERPDNVFQLLERLIHIPLHQYARYFERFVQVSQSQPIQQLLPPDVLASIRADV 210
+
+Query: 230 --EYMKARSLYQEWLNVTNG----------------LKRASPINLRTANK----KNIPQP 267
+             E  K  S   + + V  G                L+    + L TA +      I +P
+Sbjct: 211 TREPAKVVSAGSKQITVERGELEIEREMRARIYNIHLQIFQKVQLETAKRWTFESEIKRP 270
+
+Query: 268 GTSDSNIQQLQIWLNWIKW----ERENKLMLSEDMLSQRISYVYKQGIQYMIFSAEMWYD 323
+                 + + Q+ +NW K+    E E           QRI ++Y++ +       E W+ 
+Sbjct: 271 YFHVKELDEAQL-VNWRKYLDFEEVEGDF--------QRICHLYERCLITCALYDEFWFR 321
+
+Query: 324 YSMYISENSDRQN---ILY---TALLANPDSPSLTFKLSECYELDNDSESVSNCFDKCTQ 377
+           Y+ ++S   D  N   I+Y   + + A+   P +  +    Y L  +S+          Q
+Sbjct: 322 YARWMSAQPDHLNDVSIIYERASCIFASISRPGIRVQ----YALFEESQGNIASAKAIYQ 377
+
+Query: 378 TLLSQ 382
+           ++L+Q
+Sbjct: 378 SILTQ 382
+
+
+>SPBC1861.04c.1:pep pep:known chromosome:ASM294v2:II:4135960:4139734:-1
+           gene:SPBC1861.04c transcript:SPBC1861.04c.1
+           description:"RNA-binding protein Prp24 (predicted)"
+          Length = 1014
+
+ Score = 36.2 bits (82), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 40/184 (21%), Positives = 76/184 (41%), Gaps = 19/184 (10%)
+
+Query: 38  NPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR----DEFE 93
+           +P N  S+ +LI+ L+  +   ++ E  + F + FP     W   L  E       D++ 
+Sbjct: 39  HPYNYDSHIKLIEELKRLDKKKELSEARKTFQSIFPLSEDLWVDYLLDECKNCRTLDDYV 98
+
+Query: 94  TVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLITGGQEA---RAVIV-----KAFQL 145
+            ++ +    +   L    + +W  YL++     +  +  QE      VI        F+ 
+Sbjct: 99  RIKTLFDLAVQDYLS---IKIWCMYLEFTLNLMDTSSFEQEQSELNGVITLTDAHSLFER 155
+
+Query: 146 VMQKCAIFEPKSSSFWNEYLNFLEQWKP--FNKWEEQQRI--DMLREFYKKMLCVPFDNL 201
+             Q C     KS   W  YL FL+ +    F   EEQ+ +  + + +F+   L +P + +
+Sbjct: 156 AYQTCKFHFSKSQCVWTLYLEFLQTFGDALFEGEEEQEIVFKNKIYDFHIDRLKLPHEQI 215
+
+Query: 202 EKMW 205
+           E+ +
+Sbjct: 216 EETF 219
+
+
+>SPCC11E10.07c.1:pep pep:known chromosome:ASM294v2:III:1464630:1466268:-1
+           gene:SPCC11E10.07c transcript:SPCC11E10.07c.1
+           description:"translation initiation factor eIF2B alpha
+           subunit (predicted)"
+          Length = 341
+
+ Score = 33.5 bits (75), Expect = 0.074,   Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 23/35 (65%)
+
+Query: 6   TPDLLYPSADKVAEPSDNIHGDELRLRERIKDNPT 40
+           +P+ ++P  + +  PSD IH + +   E+I++NPT
+Sbjct: 273 SPETVHPEPEPIPTPSDAIHNELIMNEEQIRNNPT 307
+
+
+>SPAC17C9.01c.1:pep pep:known chromosome:ASM294v2:I:4498074:4500581:1 gene:SPAC17C9.01c
+           transcript:SPAC17C9.01c.1
+           description:"anaphase-promoting complex subunit Apc3"
+          Length = 665
+
+ Score = 29.6 bits (65), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 39/78 (50%), Gaps = 10/78 (12%)
+
+Query: 43  LSYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPA-WTLQLKGELARDEFETVEK---- 97
+           ++YF+L+ Y +++E + K+R++          +S A W LQ    L+    ET+E     
+Sbjct: 371 ITYFELVDYEKSEEVFQKLRDLSPSRVKDMEVFSTALWHLQKSVPLSYLAHETLETNPYS 430
+
+Query: 98  -----ILAQCLSGKLENN 110
+                ILA C S + E++
+Sbjct: 431 PESWCILANCFSLQREHS 448
+
+
+  Database: Schizosaccharomyces_pombe.ASM294v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:00 PM
+  Number of letters in database: 2,387,769
+  Number of sequences in database:  5144
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 5144
+Number of Hits to DB: 3,348,829
+Number of extensions: 151387
+Number of successful extensions: 575
+Number of sequences better than 10.0: 32
+Number of HSP's gapped: 562
+Number of HSP's successfully gapped: 37
+Length of query: 677
+Length of database: 2,387,769
+Length adjustment: 95
+Effective length of query: 582
+Effective length of database: 1,899,089
+Effective search space: 1105269798
+Effective search space used: 1105269798
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 53 (25.0 bits)

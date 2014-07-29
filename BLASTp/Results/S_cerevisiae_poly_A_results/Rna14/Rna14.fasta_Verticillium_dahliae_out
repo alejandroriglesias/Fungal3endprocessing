@@ -1,0 +1,174 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY19510 pep:novel supercontig:GCA_000150675.1:supercont1.29:348...   179   2e-47
+EGY20842 pep:novel supercontig:GCA_000150675.1:supercont1.4:9106...    31   0.63 
+EGY22831 pep:novel supercontig:GCA_000150675.1:supercont1.7:6197...    30   2.3  
+EGY15490 pep:novel supercontig:GCA_000150675.1:supercont1.14:168...    30   2.5  
+EGY14093 pep:novel supercontig:GCA_000150675.1:supercont1.1:2564...    29   4.8  
+
+>EGY19510 pep:novel supercontig:GCA_000150675.1:supercont1.29:34880:38429:1
+           gene:VDAG_09844 transcript:EGY19510 description:"mRNA
+           3'-end-processing protein RNA14"
+          Length = 990
+
+ Score =  179 bits (453), Expect = 2e-47,   Method: Compositional matrix adjust.
+ Identities = 146/540 (27%), Positives = 252/540 (46%), Gaps = 80/540 (14%)
+
+Query: 20  PSDNIHGDEL-RLRERIKDNPTNIL-SYFQLIQYLETQESYAKVREVYEQFHNTFPFYSP 77
+           P+    GD + RL +RIK++P   + ++  L   L        +R+ Y++F  TFP  + 
+Sbjct: 247 PAGRDPGDVVGRLEDRIKEDPRGDMDAWLALFAELRRLSHVDALRQAYDRFVTTFPQAAD 306
+
+Query: 78  AWTLQLKGELARDEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNLI--TGGQEA 135
+            W   +K EL        E +  + L   L  +D+ LW+TY++YIRR+N+L     GQ A
+Sbjct: 307 IWVEWIKLELDSMNTTAAEALFQRSL---LTVSDVQLWTTYINYIRRRNDLSNDPNGQ-A 362
+
+Query: 136 RAVIVKAFQLVMQKCAIFEPKSSSFWNEYLNFLEQWKPFNK---WEEQQRIDMLREFYKK 192
+           R VI ++++ ++    + + +S S W +++ F++          W++QQ++D LR+ Y +
+Sbjct: 363 RQVISQSYEFIIDNVGM-DRESGSLWKDWIQFIKSGPGVVGGPGWQDQQKMDQLRKAYHR 421
+
+Query: 193 MLCVPFDNLEKMWNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRAS 252
+            + VP   L ++W  Y Q+E  +N  T R+FI + S  YM A+S   +       L R S
+Sbjct: 422 AITVPMSALTELWKDYDQFELGLNKATGRQFIQKRSPGYMTAKSASLQMDRKIGNLNRTS 481
+
+Query: 253 PINLRTANKKNIPQPGTSDSN--IQQLQIWLNWIKWERENKLMLSED---MLSQRISYVY 307
+              L        P PG + +   ++Q+ IW  WI+WE+E+ L+L++D   +L QRI YVY
+Sbjct: 482 LPRL-------PPAPGFAGATEYMEQVNIWKQWIQWEKEDPLVLADDEPEVLKQRILYVY 534
+
+Query: 308 KQGIQYMIFSAEMWYDYSMYISENSDRQN-------ILYTALLANPDSPSLTFKLSECYE 360
+           KQ +  + F  EMW D + +  EN+  ++        L   + ANP+S  L  K  +  E
+Sbjct: 535 KQALMALRFWPEMWVDAAEWCFENNIFKDGVDLGIKFLTDGIAANPESVLLALKHGDRIE 594
+
+Query: 361 L-----------DNDSESVSNCFDKCTQTLLSQYKKI----ASDVNSGEDNNTEYEQE-- 403
+           +           +  ++++   +D+  +TL    +K+     +++   E   TE+     
+Sbjct: 595 MTLPVADTEESKEERAKAIRAPYDQVLETLYHMMQKLKEREKNELAKIEKAATEHAGRND 654
+
+Query: 404 ----------LLYKQREK----------------LTFVFCVYMNTMKRISGLSAA----R 433
+                     L  +QR +                ++F++      M+R  G  +     R
+Sbjct: 655 GDDNDDQDQTLALEQRTQAVKQGFSLQTELLKRTISFIWIALCRAMRRTQGKGSQTKGLR 714
+
+Query: 434 TVFGKCRKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFL 493
+            VF + R  K  LT DVYV  A +E     D     K+ + G K F  D  ++ +Y+ +L
+Sbjct: 715 QVFTEARG-KGQLTSDVYVAVALIESVVYKD-PAGGKIFDRGAKLFPEDEGFMLEYIKYL 772
+
+
+>EGY20842 pep:novel supercontig:GCA_000150675.1:supercont1.4:91062:92658:1
+           gene:VDAG_02366 transcript:EGY20842
+           description:"hypothetical protein"
+          Length = 217
+
+ Score = 31.2 bits (69), Expect = 0.63,   Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 28/60 (46%), Gaps = 1/60 (1%)
+
+Query: 343 LANP-DSPSLTFKLSECYELDNDSESVSNCFDKCTQTLLSQYKKIASDVNSGEDNNTEYE 401
+           L NP  SP   F  ++ + L+N+ E    C + C Q L    K     +++G+  N + E
+Sbjct: 27  LQNPHTSPRSVFPPADAHRLENEQERTRMCLETCAQRLADINKLRLRSLSNGKQANEDAE 86
+
+
+>EGY22831 pep:novel supercontig:GCA_000150675.1:supercont1.7:619792:622745:-1
+           gene:VDAG_04269 transcript:EGY22831
+           description:"hypothetical protein"
+          Length = 957
+
+ Score = 30.0 bits (66), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 28/99 (28%), Positives = 44/99 (44%), Gaps = 18/99 (18%)
+
+Query: 316 FSAEMWYDYSMYISENSDRQNILYT---ALLAN----------PDSPSLTFKLSECYELD 362
+            SAE   D S Y + N  R   +YT   A  AN          PD+ SL  K+S     D
+Sbjct: 346 LSAEFTPDISSYFTANHQRPGSIYTLSRASFANQLAQLTSLQLPDAGSLASKVSAIPTAD 405
+
+Query: 363 NDSESVSNCFDKCTQTLLSQYKKIASDVNSGEDNNTEYE 401
+             S+++ N  ++     +  + + AS+V +G D+  + E
+Sbjct: 406 QASKALINAAEQ-----IRSWIQKASEVIAGLDSEDDVE 439
+
+
+>EGY15490 pep:novel supercontig:GCA_000150675.1:supercont1.14:168540:173061:-
+           1 gene:VDAG_06654 transcript:EGY15490
+           description:"intron-binding protein aquarius"
+          Length = 1267
+
+ Score = 30.0 bits (66), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 16/34 (47%), Positives = 21/34 (61%), Gaps = 5/34 (14%)
+
+Query: 637 DLLSVIPKRQYFNT-----NLLDAQKLVNFLNDQ 665
+           DLLS +P R+Y NT     +LL A +L   LND+
+Sbjct: 259 DLLSQLPTRRYVNTLLADLHLLPAMRLSPMLNDE 292
+
+
+>EGY14093 pep:novel supercontig:GCA_000150675.1:supercont1.1:2564843:2566607:
+           -1 gene:VDAG_00775 transcript:EGY14093
+           description:"glucose-6-phosphate isomerase"
+          Length = 553
+
+ Score = 28.9 bits (63), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%)
+
+Query: 206 NRYTQWEQEINSLTARKFIGELSAE 230
+           N + QW  E+  + A+K +GEL AE
+Sbjct: 506 NSFDQWGVELGKVLAKKILGELDAE 530
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 6,163,817
+Number of extensions: 243440
+Number of successful extensions: 599
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 591
+Number of HSP's successfully gapped: 11
+Length of query: 677
+Length of database: 4,984,196
+Length adjustment: 100
+Effective length of query: 577
+Effective length of database: 3,930,696
+Effective search space: 2268011592
+Effective search space used: 2268011592
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

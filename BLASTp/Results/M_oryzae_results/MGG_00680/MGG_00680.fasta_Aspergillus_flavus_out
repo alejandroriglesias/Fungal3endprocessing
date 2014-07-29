@@ -1,0 +1,218 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00000846 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2...   205   1e-64
+CADAFLAP00000629 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:1...    40   3e-04
+CADAFLAP00012116 pep:known supercontig:JCVI-afl1-v2.0:EQ963484:1...    38   0.002
+CADAFLAP00011171 pep:known supercontig:JCVI-afl1-v2.0:EQ963483:1...    36   0.010
+CADAFLAP00013282 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1...    33   0.12 
+CADAFLAP00006685 pep:known supercontig:JCVI-afl1-v2.0:EQ963477:1...    30   0.73 
+CADAFLAP00002281 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:1...    28   4.7  
+
+>CADAFLAP00000846 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:2267662:2268429:-1
+           gene:CADAFLAG00000846 transcript:CADAFLAT00000846
+           description:"mRNA cleavage and polyadenylation
+           specificity factor complex subunit "
+          Length = 255
+
+ Score =  205 bits (522), Expect = 1e-64,   Method: Compositional matrix adjust.
+ Identities = 108/210 (51%), Positives = 141/210 (67%), Gaps = 8/210 (3%)
+
+Query: 3   SPSVAKIADAMLAHSA---PKYS-FSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTR 58
+           S  V+  A  +LA  +   P Y+ FSF PFL+ ++   L  D P+CK Y S G+CP G  
+Sbjct: 2   SAEVSHAASQILASGSERDPSYNDFSFIPFLRNSFGFGLACDVPVCKAY-SEGHCPLGPA 60
+
+Query: 59  CLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMP 118
+           C +RH   PS+++ + +   SG        SLVCKH+L+GLCKKG  CE+LHEYNLRRMP
+Sbjct: 61  CPDRH-PTPSRVTTSTTT-ASGLAPSTTHGSLVCKHFLKGLCKKGLKCEYLHEYNLRRMP 118
+
+Query: 119 ECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLC 178
+           EC  + R+GYC NG++CLY H+  Q++LPPC HYD+GFCPLGP C+K+HVRR LC YYL 
+Sbjct: 119 ECQSFSRSGYCPNGDDCLYQHVREQARLPPCEHYDRGFCPLGPLCAKRHVRRRLCQYYLA 178
+
+Query: 179 GFCPDGRLCKQGAHPGWNPKLDPPTVKVEK 208
+           GFCP+G+ C   AH  W   L  P+++VEK
+Sbjct: 179 GFCPEGKGCAD-AHARWIENLPKPSIRVEK 207
+
+
+>CADAFLAP00000629 pep:known supercontig:JCVI-afl1-v2.0:EQ963472:1645094:1646704:1
+           gene:CADAFLAG00000629 transcript:CADAFLAT00000629
+           description:"Putative uncharacterized protein "
+          Length = 470
+
+ Score = 40.4 bits (93), Expect = 3e-04,   Method: Compositional matrix adjust.
+ Identities = 37/139 (26%), Positives = 56/139 (40%), Gaps = 21/139 (15%)
+
+Query: 43  ICKVYASGGNCPNGTRCLERHVADPSQLSNAQSGYGSG----------KRDGPAFNSLVC 92
+           +C+ + + G C  G  CL  +V DP +++  +    +G            +     S  C
+Sbjct: 273 LCRRFTTTGTCYKGPSCL--YVHDPDKVALCKDFLQTGDCTAGISCDLSHEPSPHRSPTC 330
+
+Query: 93  KHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHY 152
+            H+LRG C   + C + H   +   P C  +   GYC+ G  C   H+        CP Y
+Sbjct: 331 MHFLRGRCSNPE-CRYAHIRLIPGAPVCRDFANLGYCEKGANCDQRHVH------ECPDY 383
+
+Query: 153 -DQGFCPLGPRCSKKHVRR 170
+            + G C    RC   HV R
+Sbjct: 384 ANTGVCN-KKRCRLPHVDR 401
+
+
+
+ Score = 40.4 bits (93), Expect = 4e-04,   Method: Compositional matrix adjust.
+ Identities = 30/109 (27%), Positives = 46/109 (42%), Gaps = 12/109 (11%)
+
+Query: 88  NSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLP 147
+           N L  +    G C KG  C ++H+ +  ++  C  +++ G C  G  C   H     + P
+Sbjct: 271 NELCRRFTTTGTCYKGPSCLYVHDPD--KVALCKDFLQTGDCTAGISCDLSHEPSPHRSP 328
+
+Query: 148 PCPHYDQGFCPLGPRCSKKHVRRNLCP-------YYLCGFCPDGRLCKQ 189
+            C H+ +G C   P C   H+R  L P       +   G+C  G  C Q
+Sbjct: 329 TCMHFLRGRCS-NPECRYAHIR--LIPGAPVCRDFANLGYCEKGANCDQ 374
+
+
+
+ Score = 26.6 bits (57), Expect = 8.4,   Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 15/23 (65%)
+
+Query: 42  PICKVYASGGNCPNGTRCLERHV 64
+           P+C+ +A+ G C  G  C +RHV
+Sbjct: 355 PVCRDFANLGYCEKGANCDQRHV 377
+
+
+>CADAFLAP00012116 pep:known supercontig:JCVI-afl1-v2.0:EQ963484:1735210:1737849:1
+           gene:CADAFLAG00012116 transcript:CADAFLAT00012116
+           description:"Spindle poison sensitivity protein Scp3,
+           putative "
+          Length = 563
+
+ Score = 38.1 bits (87), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 24/81 (29%), Positives = 37/81 (45%), Gaps = 15/81 (18%)
+
+Query: 110 HEYNLRRMPECNFYIRNGYCQNGEECLYLH-IDPQSKLPPCPHYDQGFCPLGPRCSKKHV 168
+           ++ N + +P C F+ R G CQ G  C +LH  D      PC ++ +G C  G +C+  H+
+Sbjct: 62  NQSNTKHVP-CKFF-RQGACQAGPACPFLHSTDAAIDYAPCKYFTKGNCKFGAKCALAHI 119
+
+Query: 169 RRNLCPYYLCGFCPDGRLCKQ 189
+                        PDGR   +
+Sbjct: 120 ------------LPDGRRVNR 128
+
+
+
+ Score = 33.5 bits (75), Expect = 0.069,   Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 29/56 (51%), Gaps = 4/56 (7%)
+
+Query: 92  CKHWLRGLCKKGDGCEFLHEYN--LRRMPECNFYIRNGYCQNGEECLYLHIDPQSK 145
+           CK + +G C+ G  C FLH  +  +   P C ++ + G C+ G +C   HI P  +
+Sbjct: 71  CKFFRQGACQAGPACPFLHSTDAAIDYAP-CKYFTK-GNCKFGAKCALAHILPDGR 124
+
+
+>CADAFLAP00011171 pep:known supercontig:JCVI-afl1-v2.0:EQ963483:1121332:1123674:1
+           gene:CADAFLAG00011171 transcript:CADAFLAT00011171
+           description:"CCCH zinc finger and SMR domain protein "
+          Length = 739
+
+ Score = 36.2 bits (82), Expect = 0.010,   Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 43/92 (46%), Gaps = 11/92 (11%)
+
+Query: 91  VCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSK-LPPC 149
+           +CK+W+ G C  GDGC F H+ +       N  + +G  Q G      HID  S+  PP 
+Sbjct: 308 LCKYWVMGNCLAGDGCPFSHDPSAL---VANLSVTDGSHQ-GSTGPQFHIDSASEAFPPL 363
+
+Query: 150 PHYDQGFCPLGPRCSKKHVRRNLCPYYLCGFC 181
+               Q    +G + + +++ +   P +L GF 
+Sbjct: 364 ----QSSLGVGDQWAGQYIGK--YPAHLSGFL 389
+
+
+
+ Score = 29.3 bits (64), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 27/91 (29%), Positives = 42/91 (46%), Gaps = 14/91 (15%)
+
+Query: 55  NGTRCLERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RGLCKKGDGCEFLHEYN 113
+           +GTR +   V     +  A+ G   G+   P    +VCK+WL  G C + D C F H+  
+Sbjct: 254 DGTRVV---VGKSMAMEQAKPGSSPGQIRSP----VVCKYWLSTGQCLRAD-CRFSHDLT 305
+
+Query: 114 LRRMPECNFYIRNGYCQNGEECLYLHIDPQS 144
+                 C +++  G C  G+ C + H DP +
+Sbjct: 306 NHL---CKYWVM-GNCLAGDGCPFSH-DPSA 331
+
+
+>CADAFLAP00013282 pep:known supercontig:JCVI-afl1-v2.0:EQ963486:1128406:1130573:-1
+           gene:CADAFLAG00013282 transcript:CADAFLAT00013282
+           description:"CCCH zinc finger protein "
+          Length = 696
+
+ Score = 32.7 bits (73), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 18/22 (81%), Gaps = 1/22 (4%)
+
+Query: 91  VCKHWLR-GLCKKGDGCEFLHE 111
+           +C+H+ R G C++GD C+FLHE
+Sbjct: 576 LCRHFARTGRCQRGDKCKFLHE 597
+
+
+
+ Score = 29.6 bits (65), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 14/23 (60%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDP 142
+           C  + R G CQ G++C +LH  P
+Sbjct: 577 CRHFARTGRCQRGDKCKFLHETP 599
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 3,334,386
+Number of extensions: 159894
+Number of successful extensions: 310
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 286
+Number of HSP's successfully gapped: 21
+Length of query: 276
+Length of database: 5,672,061
+Length adjustment: 93
+Effective length of query: 183
+Effective length of database: 4,417,770
+Effective search space: 808451910
+Effective search space used: 808451910
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

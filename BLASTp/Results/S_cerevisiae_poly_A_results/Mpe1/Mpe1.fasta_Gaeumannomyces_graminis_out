@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_12569T0 pep:known supercontig:Gae_graminis_V2:supercont1.9:...   259   8e-79
+GGTG_07845T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:...    41   5e-04
+GGTG_00207T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    32   0.28 
+GGTG_03746T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    32   0.57 
+GGTG_00842T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    27   9.4  
+
+>GGTG_12569T0 pep:known supercontig:Gae_graminis_V2:supercont1.9:335101:338620:1
+           gene:GGTG_12569 transcript:GGTG_12569T0
+           description:"hypothetical protein"
+          Length = 650
+
+ Score =  259 bits (662), Expect = 8e-79,   Method: Compositional matrix adjust.
+ Identities = 141/392 (35%), Positives = 220/392 (56%), Gaps = 52/392 (13%)
+
+Query: 1   MSSTIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYD 60
+           MSS++F++FKSQ+  +R+ FDGTG++VF+LKR+II ++ LGDGTDF L IY  D  EEYD
+Sbjct: 1   MSSSVFFKFKSQKEPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGVEEYD 60
+
+Query: 61  DDAFVIPRSTSVIVKRSPAIKSFSVHSRLKGNVGAAALGNATRYVTGRPRVLQK----RQ 116
+           DD  +IPRST+V+ +R P+IK                 G A RYV+G+  V  K    ++
+Sbjct: 61  DDTTIIPRSTTVVARRLPSIKQ--------------GAGRAARYVSGKMPVNAKNNSRKE 106
+
+Query: 117 HXXXXXXNVSGT---------TEEERIASMFAXXXXXXXXXXXXMSAATPVFF--KSQTN 165
+                    + T         TEEER+A+MF             ++  TPVF   K+   
+Sbjct: 107 QVAKAAAKTTSTALAQMNNALTEEERLAAMFQAQSEQWTAQQEELAHQTPVFHNNKAGPG 166
+
+Query: 166 KNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGK-RIRRTTGIPKKFLKSIE- 223
+           K      +  PP GY+CYRCG + HWI+ CPTN +P+F+ + R++RTTGIPK  LK+++ 
+Sbjct: 167 KRPVNVPDHDPPNGYICYRCGEKGHWIQLCPTNDNPDFDNRPRVKRTTGIPKSMLKTVDK 226
+
+Query: 224 ---IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENR------QIDGDET 274
+              +    +  +      +M+  +G+FVV ++DK+ W+ +Q + +         + GD+ 
+Sbjct: 227 ATVLGQNGLDDDGKLPSGVMVNADGEFVVALQDKEVWKKFQARTKTAAAALKVAVQGDKE 286
+
+Query: 275 IWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCETRD 334
+           +  +G        L+CP+   L  +P+KT  CC   +  + + NAL+ESDFVCP C++  
+Sbjct: 287 LQDRG--------LECPMDKRLFNEPMKTP-CCEKTYCNDCITNALIESDFVCPGCQSEG 337
+
+Query: 335 ILLDSLVPDQDKEKEVETFLKKQEELHGSSKD 366
+           +L+D+L PD     +++ +L ++E   G+ KD
+Sbjct: 338 VLIDNLKPDDGTSAKIKEYLDEKE---GNDKD 366
+
+
+>GGTG_07845T0 pep:known supercontig:Gae_graminis_V2:supercont1.4:1244453:1246942:
+           -1 gene:GGTG_07845 transcript:GGTG_07845T0
+           description:"hypothetical protein"
+          Length = 594
+
+ Score = 41.2 bits (95), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 17/44 (38%), Positives = 24/44 (54%)
+
+Query: 161 KSQTNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFE 204
+           K    +NS+      P  GY+C RCG   H++  CPTN DP ++
+Sbjct: 177 KKDKQRNSSSSTSLAPKAGYVCSRCGVPGHFVHLCPTNLDPAYD 220
+
+
+>GGTG_00207T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:694123:696666:1
+           gene:GGTG_00207 transcript:GGTG_00207T0
+           description:"mating-type switching protein swi10"
+          Length = 398
+
+ Score = 32.3 bits (72), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 21/38 (55%)
+
+Query: 26  TVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYDDDA 63
+           T   L+  +    + G  T  Q +I+NP+  +EYD+DA
+Sbjct: 309 TATPLREAVGATQRAGKATAAQTQIWNPNIADEYDEDA 346
+
+
+>GGTG_03746T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:3508183:3515002:1
+            gene:GGTG_03746 transcript:GGTG_03746T0
+            description:"hypothetical protein"
+          Length = 1885
+
+ Score = 31.6 bits (70), Expect = 0.57,   Method: Compositional matrix adjust.
+ Identities = 14/38 (36%), Positives = 24/38 (63%)
+
+Query: 237  RKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDET 274
+            +K+++TDEGKF      ++ WE+YQ +  + Q   D+T
+Sbjct: 1687 KKVVVTDEGKFDPSSIPRKKWEEYQGELWDAQTARDDT 1724
+
+
+>GGTG_00842T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:2632200:2634153:
+           1 gene:GGTG_00842 transcript:GGTG_00842T0
+           description:"hypothetical protein"
+          Length = 437
+
+ Score = 27.3 bits (59), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 23/48 (47%), Gaps = 4/48 (8%)
+
+Query: 284 LPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESD---FVCP 328
+           + D LKCP+T     +P   +KC +  F K A+ + L   +     CP
+Sbjct: 320 VSDSLKCPITLRGFEEPFSNNKCKHT-FEKSAIVDMLTRGNGAPIACP 366
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 5,706,356
+Number of extensions: 254084
+Number of successful extensions: 537
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 530
+Number of HSP's successfully gapped: 17
+Length of query: 441
+Length of database: 6,264,428
+Length adjustment: 98
+Effective length of query: 343
+Effective length of database: 4,855,188
+Effective search space: 1665329484
+Effective search space used: 1665329484
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 55 (25.8 bits)

@@ -1,0 +1,359 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000009229 pep:known supercontig:ASM18292v1:7.75:100162:1...   977   0.0  
+EFNCRP00000002061 pep:known supercontig:ASM18292v1:7.6:176654:17...    44   2e-04
+EFNCRP00000005854 pep:known supercontig:ASM18292v1:7.24:337177:3...    38   0.013
+EFNCRP00000009378 pep:known supercontig:ASM18292v1:7.79:20455:23...    35   0.14 
+EFNCRP00000000172 pep:known supercontig:ASM18292v1:7.1:1569079:1...    35   0.17 
+EFNCRP00000005717 pep:known supercontig:ASM18292v1:7.23:404033:4...    33   0.64 
+EFNCRP00000005988 pep:known supercontig:ASM18292v1:7.25:36474:42...    32   0.69 
+EFNCRP00000009091 pep:known supercontig:ASM18292v1:7.71:65028:66...    30   2.3  
+EFNCRP00000009090 pep:known supercontig:ASM18292v1:7.71:65028:66...    30   2.3  
+EFNCRP00000009089 pep:known supercontig:ASM18292v1:7.71:65028:66...    30   2.3  
+EFNCRP00000005936 pep:known supercontig:ASM18292v1:7.24:139958:1...    30   2.9  
+EFNCRP00000008259 pep:known supercontig:ASM18292v1:7.51:212447:2...    30   3.2  
+EFNCRP00000003360 pep:known supercontig:ASM18292v1:7.11:232513:2...    29   8.0  
+
+>EFNCRP00000009229 pep:known supercontig:ASM18292v1:7.75:100162:103717:1
+            gene:EFNCRG00000009229 transcript:EFNCRT00000009247
+            description:"mRNA 3'-end-processing protein rna-14"
+          Length = 1167
+
+ Score =  977 bits (2525), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 487/789 (61%), Positives = 594/789 (75%), Gaps = 35/789 (4%)
+
+Query: 164  DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+            D +A+ E ++++DPRGAM++WL L+   R RN+I+  R V+ERFLA+FP AA++WV+Y D
+Sbjct: 246  DRVAIYEDQIRDDPRGAMNAWLELMKEKRARNDIDGARQVYERFLAIFPQAADIWVEYLD 305
+
+Query: 224  MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVI 283
+            +ELS  NF +AE IF K LM+ PNV LWT YLDYIRRRNDLNDS+G+ARQ V+QAY+FVI
+Sbjct: 306  LELSLNNFPQAEGIFAKCLMTTPNVNLWTRYLDYIRRRNDLNDSTGQARQTVSQAYEFVI 365
+
+Query: 284  DNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLW 343
+            DN+GLDKD+ KIW +YIQFI+  PG VGGS WQDQQKMDQLRKAYQRA+C+P+SNVNTLW
+Sbjct: 366  DNIGLDKDSGKIWAEYIQFIKFGPGTVGGSQWQDQQKMDQLRKAYQRAICVPISNVNTLW 425
+
+Query: 344  REYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGD 403
+            +EYDQFE GLN  TGRKYL+E+SP+YM+AKSANTALE+I R L RT LPRLPPAPGF+GD
+Sbjct: 426  KEYDQFEMGLNKLTGRKYLSEKSPSYMSAKSANTALEHITRGLNRTNLPRLPPAPGFDGD 485
+
+Query: 404  VEFAEQVDLWKRWVKWEKEDPLDLATD--DPELFKKRILYAYKQAIMALRFCPEIWVDAA 461
+             EF EQV++WK+W+ WEK DPLDL  D   P L++KRILY Y QA+MALRF PE+WVDAA
+Sbjct: 486  QEFMEQVEIWKKWIAWEKSDPLDLKDDKDQPGLYQKRILYVYNQALMALRFWPEMWVDAA 545
+
+Query: 462  EWCFENSILV-------NGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDA 514
+            +WCF+N+I         +G   G+EFL  GIEANPESVLLA KHAD IE+T+P+ E D+A
+Sbjct: 546  QWCFDNNITTVENKVTKDGNANGVEFLIRGIEANPESVLLAFKHADHIESTYPIEENDEA 605
+
+Query: 515  KIERGNAVKAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEHEIEEGEDCANPMP 574
+            KI+RG AVKAPYNK+LDTLY  IK+LKEKE A+I KL+E   +       + ED      
+Sbjct: 606  KIQRGEAVKAPYNKVLDTLYAMIKSLKEKEAAQIAKLQEMTAAQESKAGSDNEDGDGAAD 665
+
+Query: 575  SELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEAR 634
+            +  +  I A++KG+ AQT LL+R +SFVWIAL RAMRR+QGKG    P+GGMR+ F +AR
+Sbjct: 666  NIKKAPIEAIQKGYAAQTQLLSRMISFVWIALIRAMRRVQGKGGLNVPLGGMRKAFHDAR 725
+
+Query: 635  KRGRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNA 694
+             RGRLTSDVY A+AQLEWT+YKDP+GGKIFDRG+KLFPEDE F LE +KYLHSR+D TNA
+Sbjct: 726  ARGRLTSDVYAAVAQLEWTIYKDPAGGKIFDRGAKLFPEDENFTLENIKYLHSRDDHTNA 785
+
+Query: 695  RVVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAH 754
+            RV+FET VN+LTQ P  VHKAKPLY YFHKYES+FGEL+Q  KLEKRMAELFPEDP LA 
+Sbjct: 786  RVLFETVVNRLTQKPELVHKAKPLYQYFHKYESQFGELAQVTKLEKRMAELFPEDPKLAA 845
+
+Query: 755  FSARFMSDRFDPIAARIIVSPAAQLRPK-MVMPSIEAN------------ARAGSPMIRP 801
+            F+AR+ SD+FDPI ARIIVSP  QLRPK M+MPSIE              A   SP  + 
+Sbjct: 846  FTARYASDKFDPITARIIVSPTTQLRPKNMIMPSIEQQQPQLPMSQRDTPAAGFSPRPQG 905
+
+Query: 802  LNSPKVG----FLQAVNSPKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAAGRRL 857
+            L SP  G    F  A  + KRPL   D++D   P+KI R++   F R  SPLKGAAGRRL
+Sbjct: 906  LKSPSAGPGAPF--APYAAKRPLDDRDYDDH--PRKIARSEHDPFVRGASPLKGAAGRRL 961
+
+Query: 858  ENQRRIHGQGPASYNTAPAPA----IPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDT 913
+            + QRR+ G    +Y+ + A +    I R+I FLLSQ+P  E Y+S RL+ SR+V  L++ 
+Sbjct: 962  DQQRRMGGAA-GAYSGSGAGSQVAPIARDITFLLSQIPRVEFYDSHRLNPSRMVSLLQNV 1020
+
+Query: 914  HVPDYQSWK 922
+             VP+Y  WK
+Sbjct: 1021 KVPEYLDWK 1029
+
+
+
+ Score = 38.1 bits (87), Expect = 0.012,   Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 29/48 (60%), Gaps = 2/48 (4%)
+
+Query: 50  GDSEDAAEYDPDSVPVAITSPKAKPLKPSPQPAA--AKKRKTAGGFLV 95
+           GD  D A     SVP   ++P  +  K +PQPAA  AKK +TAGGFLV
+Sbjct: 75  GDDYDPASVVTSSVPAPPSAPAQEDSKTAPQPAAPVAKKPRTAGGFLV 122
+
+
+>EFNCRP00000002061 pep:known supercontig:ASM18292v1:7.6:176654:178818:-1
+           gene:EFNCRG00000002059 transcript:EFNCRT00000002061
+           description:"Pre-mRNA-splicing factor clf-1"
+          Length = 695
+
+ Score = 43.9 bits (102), Expect = 2e-04,   Method: Compositional matrix adjust.
+ Identities = 22/79 (27%), Positives = 38/79 (48%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  + +WL       ++    + R VFER L V P+  ++W++Y   E+   N   A  +
+Sbjct: 69  RVRLSNWLQYAQWELEQKEFARARSVFERALDVHPNNTQLWIRYVQAEIKNRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V  LW  YL
+Sbjct: 129 LDRAVTRLPRVTSLWYQYL 147
+
+
+
+ Score = 39.3 bits (90), Expect = 0.005,   Method: Compositional matrix adjust.
+ Identities = 23/110 (20%), Positives = 49/110 (44%), Gaps = 17/110 (15%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWT 252
+            E+CR ++E+ +   P   + W+++A++E    +     AIF     + ++ +P V +W 
+Sbjct: 456 FERCRTLYEKHVMYNPANCQTWIKWAELERGLDDLERTRAIFELAVSQPILDMPEV-VWK 514
+
+Query: 253 VYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+            Y+D+     +   +     +++ +A            D  K+W  Y QF
+Sbjct: 515 AYIDFEEEEGEYERTRALYERLLEKA------------DHPKVWISYAQF 552
+
+
+
+ Score = 38.1 bits (87), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 20/91 (21%), Positives = 41/91 (45%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  + A  +  NI   R++ +R +   P    +W QY  +    G+      +F + + 
+Sbjct: 109 WIRYVQAEIKNRNINHARNLLDRAVTRLPRVTSLWYQYLYVMEMLGDIPGTRQVFDRWMK 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+ Q W+ Y+   +R  + +    RAR++
+Sbjct: 169 WQPDEQAWSAYIRLEKRYGEFD----RAREI 195
+
+
+
+ Score = 37.0 bits (84), Expect = 0.030,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 34/68 (50%), Gaps = 4/68 (5%)
+
+Query: 192 RQRNNIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPN 247
+           R+  +I + R +++  L + PH     A+VWV  A  E+ QG    A    G+++   P 
+Sbjct: 380 RETKDIGRARQIYDTCLNLIPHKKFTFAKVWVAKAHFEIRQGQLTTARKTLGRAIGMCPK 439
+
+Query: 248 VQLWTVYL 255
+            +++  Y+
+Sbjct: 440 DKIFKEYI 447
+
+
+
+ Score = 30.8 bits (68), Expect = 1.8,   Method: Compositional matrix adjust.
+ Identities = 43/192 (22%), Positives = 70/192 (36%), Gaps = 19/192 (9%)
+
+Query: 168 LLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELS 227
+           LL+  V   PR     W   +       +I   R VF+R++   P   + W  Y  +E  
+Sbjct: 128 LLDRAVTRLPR-VTSLWYQYLYVMEMLGDIPGTRQVFDRWMKWQPDE-QAWSAYIRLEKR 185
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVG 287
+            G F  A  IF       P  + W  +  +     +   +S   R+V   A   + + +G
+Sbjct: 186 YGEFDRAREIFRAFTAVHPEPRTWLKWAKF----EEEYGTSDTVREVFQTAIQTIAETLG 241
+
+Query: 288 LDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAV-CIPLSNVNTLWREY 346
+            D    +I   +I F R    +         ++ ++ R  Y+  +  +P S   TL   Y
+Sbjct: 242 DDAVDERI---FIAFARYEARL---------REYERARAIYKFGLDNLPRSKSMTLHAHY 289
+
+Query: 347 DQFEKGLNPTTG 358
+             FEK      G
+Sbjct: 290 TTFEKQFGDKEG 301
+
+
+
+ Score = 29.3 bits (64), Expect = 5.8,   Method: Compositional matrix adjust.
+ Identities = 39/206 (18%), Positives = 70/206 (33%), Gaps = 55/206 (26%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGN------------ 230
+           +W + I   ++    ++ R++F  F AV P     W+++A  E   G             
+Sbjct: 175 AWSAYIRLEKRYGEFDRAREIFRAFTAVHPE-PRTWLKWAKFEEEYGTSDTVREVFQTAI 233
+
+Query: 231 -----------------------------FVEAEAIFGKSLMSVPNVQLWTVYLDYIRRR 261
+                                        +  A AI+   L ++P  +  T++  Y    
+Sbjct: 234 QTIAETLGDDAVDERIFIAFARYEARLREYERARAIYKFGLDNLPRSKSMTLHAHYTTFE 293
+
+Query: 262 NDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKM 321
+               D  G    ++T+      + V  +     +W D   F RL     GG        +
+Sbjct: 294 KQFGDKEGVEDVILTKRRRLYEEQVKENAKNYDVWFD---FARLEES--GGD-------V 341
+
+Query: 322 DQLRKAYQRAVC-IPLSNVNTLWREY 346
+           D+ R+ Y+RA+  +P +     WR Y
+Sbjct: 342 DRTREVYERAIAQVPPTQEKRHWRRY 367
+
+
+>EFNCRP00000005854 pep:known supercontig:ASM18292v1:7.24:337177:340082:1
+           gene:EFNCRG00000005851 transcript:EFNCRT00000005861
+           description:"Probable pre-mRNA splicing factor prp1"
+          Length = 917
+
+ Score = 38.1 bits (87), Expect = 0.013,   Method: Compositional matrix adjust.
+ Identities = 33/123 (26%), Positives = 57/123 (46%), Gaps = 7/123 (5%)
+
+Query: 176 DPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAE 235
+           DP+G + S  S+  A +   +IEQ R + +  +   P  A  W+  A +E++ G    A 
+Sbjct: 247 DPKGYLTSLSSMQGAEQSIGDIEQFRKMLKSAVDSNPKQAASWIAAARLEIAAGKPGAAR 306
+
+Query: 236 AIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKI 295
+           ++  K     P  +   ++L+ I     LND+   A+ +  QA      +V L  +A K+
+Sbjct: 307 SLIAKGCEHCPKSE--DIWLENIH----LNDNRN-AKVIAAQAIQANPHSVKLWVEAMKL 359
+
+Query: 296 WND 298
+            ND
+Sbjct: 360 END 362
+
+
+
+ Score = 37.7 bits (86), Expect = 0.016,   Method: Compositional matrix adjust.
+ Identities = 21/95 (22%), Positives = 42/95 (44%), Gaps = 1/95 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+     Y     +   R+ +   +   P +  +W+ Y+ +E    N V+A ++  ++  
+Sbjct: 690 WMMKGQIYEDLGQLGPAREAYSTGVRAVPSSIPLWLLYSRLEEKANNVVKARSVLDRARQ 749
+
+Query: 244 SVPNV-QLWTVYLDYIRRRNDLNDSSGRARQVVTQ 277
+           +VP   +LWT  +   RR  +LN +     Q + Q
+Sbjct: 750 AVPKSPELWTELIRVERRAGNLNQAKSLMAQALQQ 784
+
+
+
+ Score = 36.6 bits (83), Expect = 0.038,   Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 32/67 (47%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL       + NN+ + R V +R     P + E+W +   +E   GN  +A+++  ++L 
+Sbjct: 724 WLLYSRLEEKANNVVKARSVLDRARQAVPKSPELWTELIRVERRAGNLNQAKSLMAQALQ 783
+
+Query: 244 SVPNVQL 250
+            +P   L
+Sbjct: 784 QMPKSGL 790
+
+
+
+ Score = 34.7 bits (78), Expect = 0.16,   Method: Compositional matrix adjust.
+ Identities = 24/116 (20%), Positives = 54/116 (46%), Gaps = 4/116 (3%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  +A  RQ+   E   D+ ++ L +FP   ++W+    +    G    A   +   + 
+Sbjct: 656 WMRSVAFERQQGVNEAALDLVQQALQLFPSKPKLWMMKGQIYEDLGQLGPAREAYSTGVR 715
+
+Query: 244 SVP-NVQLWTVYLDYIRRRNDLNDSSG---RARQVVTQAYDFVIDNVGLDKDASKI 295
+           +VP ++ LW +Y     + N++  +     RARQ V ++ +   + + +++ A  +
+Sbjct: 716 AVPSSIPLWLLYSRLEEKANNVVKARSVLDRARQAVPKSPELWTELIRVERRAGNL 771
+
+
+
+ Score = 31.2 bits (69), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 34/183 (18%), Positives = 69/183 (37%), Gaps = 24/183 (13%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL L         +++ R V  R     P + ++W+    +E   G   +A  +   +  
+Sbjct: 589 WLMLAREKAAEAGVDEARLVLARAFKQNPDSEDIWLAAVKLEADNGFIDKARELLKTARQ 648
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFI 303
+           + P  ++W   + + R++            V   A D V   + L     K+W       
+Sbjct: 649 NAPTDRVWMRSVAFERQQG-----------VNEAALDLVQQALQLFPSKPKLW------- 690
+
+Query: 304 RLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFEKGLNPTTGRKYLN 363
+                ++ G  ++D  ++   R+AY   V    S++  LW  Y + E+  N     + + 
+Sbjct: 691 -----MMKGQIYEDLGQLGPAREAYSTGVRAVPSSI-PLWLLYSRLEEKANNVVKARSVL 744
+
+Query: 364 ERS 366
+           +R+
+Sbjct: 745 DRA 747
+
+
+>EFNCRP00000009378 pep:known supercontig:ASM18292v1:7.79:20455:23502:-1
+           gene:EFNCRG00000009377 transcript:EFNCRT00000009396
+           description:"Putative uncharacterized protein"
+          Length = 1015
+
+ Score = 34.7 bits (78), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 32/63 (50%)
+
+Query: 186 SLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSV 245
+           SL   +  +  I + RD + + + V   ++E+W +  D+ L  G+F EA   F + + + 
+Sbjct: 640 SLGEYWLSKQQIFKARDAYRKAVVVNRMSSELWNRLGDISLRLGDFAEAAESFSRGIAAA 699
+
+Query: 246 PNV 248
+            N+
+Sbjct: 700 DNL 702
+
+
+>EFNCRP00000000172 pep:known supercontig:ASM18292v1:7.1:1569079:1574655:1
+           gene:EFNCRG00000000172 transcript:EFNCRT00000000172
+           description:"Putative uncharacterized protein"
+          Length = 1369
+
+ Score = 34.7 bits (78), Expect = 0.17,   Method: Compositional matrix adjust.
+ Identities = 19/45 (42%), Positives = 26/45 (57%), Gaps = 1/45 (2%)
+
+Query: 774 SPAAQLRPKMVMPSIEANARAGSPMIRPLNSPKVGFLQAVNSPKR 818
+           SP A   P   + S  AN+RAG+P +RP   P+ G L+  NSP +
+Sbjct: 821 SPTAATFPASDVASTAANSRAGTPALRPAKKPRTG-LRVKNSPMK 864
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 11,060,815
+Number of extensions: 532803
+Number of successful extensions: 2512
+Number of sequences better than 10.0: 73
+Number of HSP's gapped: 2470
+Number of HSP's successfully gapped: 93
+Length of query: 1057
+Length of database: 4,779,891
+Length adjustment: 103
+Effective length of query: 954
+Effective length of database: 3,766,474
+Effective search space: 3593216196
+Effective search space used: 3593216196
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

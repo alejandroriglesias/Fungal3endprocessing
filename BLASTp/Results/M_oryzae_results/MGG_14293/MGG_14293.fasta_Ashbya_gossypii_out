@@ -1,0 +1,95 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS54184 pep:known chromosome:ASM9102v1:VII:125195:126166:1 gene...    60   7e-11
+AAS50649 pep:known chromosome:ASM9102v1:II:167040:170171:-1 gene...    26   9.6  
+
+>AAS54184 pep:known chromosome:ASM9102v1:VII:125195:126166:1
+           gene:AGOS_AGL307W transcript:AAS54184
+           description:"Pre-mRNA polyadenylation factor FIP1"
+          Length = 323
+
+ Score = 60.1 bits (144), Expect = 7e-11,   Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 43/67 (64%), Gaps = 5/67 (7%)
+
+Query: 136 FDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWAIYAQKQN 195
+            D  A+ E++  G P+T ++  E L E   PWR+PG ++SDYFNYGF E +W  Y  KQ 
+Sbjct: 158 LDINAVGEYE--GTPITDID-PEVLKEK--PWRQPGANLSDYFNYGFTEETWMEYLHKQE 212
+
+Query: 196 QLRSEYS 202
+           +LR EY+
+Sbjct: 213 KLRKEYN 219
+
+
+>AAS50649 pep:known chromosome:ASM9102v1:II:167040:170171:-1
+           gene:AGOS_ABL122C transcript:AAS50649
+           description:"ABL122Cp"
+          Length = 1043
+
+ Score = 25.8 bits (55), Expect = 9.6,   Method: Compositional matrix adjust.
+ Identities = 13/45 (28%), Positives = 21/45 (46%), Gaps = 4/45 (8%)
+
+Query: 111 PAKAAPNKKEDTVKGSDLPPVTKSNFDPY----AIPEHKPTGKPL 151
+           PA+  P  +  ++    +PPV ++ FDP      +P H   G P 
+Sbjct: 39  PARFFPGAEGMSLAAGSMPPVPQTPFDPTYGASLLPSHMLMGSPF 83
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 888,007
+Number of extensions: 33603
+Number of successful extensions: 121
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 112
+Number of HSP's successfully gapped: 17
+Length of query: 332
+Length of database: 2,335,236
+Length adjustment: 89
+Effective length of query: 243
+Effective length of database: 1,910,172
+Effective search space: 464171796
+Effective search space used: 464171796
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

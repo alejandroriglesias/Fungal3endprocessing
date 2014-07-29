@@ -1,0 +1,180 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08573:Putative uncharacterized protein
+         (695 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_8007T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:92...   258   2e-75
+B0510_6579T1 pep:novel supercontig:B05.10_v2:Supercontig_1.20:89...    35   0.055
+B0510_10227T1 pep:novel supercontig:B05.10_v2:Supercontig_1.58:8...    33   0.30 
+B0510_7983T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:52...    31   1.3  
+B0510_4366T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:99...    30   2.3  
+B0510_4172T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:28...    29   6.0  
+B0510_10370T1 pep:novel supercontig:B05.10_v2:Supercontig_1.66:4...    29   6.6  
+B0510_9359T1 pep:novel supercontig:B05.10_v2:Supercontig_1.41:15...    28   8.3  
+
+>B0510_8007T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:92179:94510:1
+           gene:B0510_8007 transcript:B0510_8007T1 description:""
+          Length = 674
+
+ Score =  258 bits (658), Expect = 2e-75,   Method: Compositional matrix adjust.
+ Identities = 153/317 (48%), Positives = 187/317 (58%), Gaps = 18/317 (5%)
+
+Query: 10  VAEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLL 69
+           VAEDYK ALE LT N+R EISNLT+IA+ENTE A AI+E L +HIKQ  P +KLPA Y+L
+Sbjct: 10  VAEDYKRALEDLTMNSRYEISNLTVIAKENTEHALAISEALKNHIKQTSPQKKLPAFYVL 69
+
+Query: 70  DSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLDTRPVFP 129
+           DS+VKNVGTPYTLFFGR+LY TFMEAYA V +  RRKMDEMLKTWKEPVPGS+DTRPVFP
+Sbjct: 70  DSVVKNVGTPYTLFFGRQLYSTFMEAYALVSHDVRRKMDEMLKTWKEPVPGSIDTRPVFP 129
+
+Query: 130 PEVVRPIENALIKARTSALQAQQEQMRSQHHLLXXXXXXXXXXXXXXXXYRETPTPPGAR 189
+           PEV RPIENALIKARTSALQ +Q + + Q                    YR TPTPP   
+Sbjct: 130 PEVTRPIENALIKARTSALQQEQLRSQQQL-------MNRGRSAVGQAPYRNTPTPPNQS 182
+
+Query: 190 --------GPNGYGQSYPPPNGRGPENSQFPTPQPHHPQGMPILSHXXXXXXXXXXXXXX 241
+                   G +GY Q YPPP      N+Q      H   G+P                  
+Sbjct: 183 RQPLYPPPGHSGYPQQYPPPANGQQYNNQA---NGHLQLGLPQRPPPTQYSQQPGSSASW 239
+
+Query: 242 XXXXXXXXTPDGISIEALSNDVLQLIAATRAEIARNPYDTSQKPMXXXXXXXXXXXXXGN 301
+                    P   S++ L+ D+  LI +++AE A++PYD+S +                 
+Sbjct: 240 QQSQPQVYQPPEASVDMLNRDISNLIVSSKAEFAQSPYDSSIQTRLKALLDLQTILQTQR 299
+
+Query: 302 LPRDQLVVVKSRIDELS 318
+           LP DQ+ ++K ++ +LS
+Sbjct: 300 LPPDQIAMIKEQVAQLS 316
+
+
+
+ Score =  192 bits (487), Expect = 2e-52,   Method: Compositional matrix adjust.
+ Identities = 101/227 (44%), Positives = 131/227 (57%), Gaps = 26/227 (11%)
+
+Query: 455 VIAPPVA-PAHVEIMGDIQLTTSSLKQPRLYLVNTLYDDLGKPCTQCGRRFRNDEAGRAA 513
+           + APPV+    +EI  D+ L  +SLK  R +L++ LY+ LG PCTQCGRRF++D  GR  
+Sbjct: 460 ISAPPVSRTPLLEIPNDVVLKPASLKMFRPHLISNLYEKLGAPCTQCGRRFQSDTEGRKK 519
+
+Query: 514 KTAHMDWHFRVAARIAEAEKKGQHRSYYVDVRDWVGSREAVDMXXXXXXXXXXXXXXXXX 573
+           K AHMDWHFRV  R+AEAEK+GQHRS+YVD  DW+  RE  D                  
+Sbjct: 520 KAAHMDWHFRVHQRMAEAEKRGQHRSWYVDELDWIKWREPEDDQVNDASDTTQGAAGSSS 579
+
+Query: 574 XXXXXXXXXGPEAXXXXXXXXXXXXXXKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQ 633
+                                       +++ VPD  +   SVCPICQE+FE+KWLD+AQ
+Sbjct: 580 ATNAKPKL--------------------QYLAVPDDPALAGSVCPICQEKFEMKWLDDAQ 619
+
+Query: 634 EWVWMDAVRPGGGNRVFHASCHSEVTGRGATLTPPVGMVLGKRKADD 680
+           E+VWMDA +   G+R++HASC++E T    T  P    VLGKRKA+D
+Sbjct: 620 EFVWMDAKK--VGDRIYHASCYAEATKDRGTPEP---TVLGKRKAED 661
+
+
+>B0510_6579T1 pep:novel supercontig:B05.10_v2:Supercontig_1.20:89491:91645:1
+           gene:B0510_6579 transcript:B0510_6579T1 description:""
+          Length = 663
+
+ Score = 35.4 bits (80), Expect = 0.055,   Method: Compositional matrix adjust.
+ Identities = 23/63 (36%), Positives = 33/63 (52%), Gaps = 2/63 (3%)
+
+Query: 27  VEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVKNVGTPYTLFFGR 86
+           +EIS+L    + N     AIA  +V++I   +P   + AL LLD  VKN G P+ L    
+Sbjct: 46  LEISDLINSKKGNAPREAAIA--IVNYINHRNPNVAILALVLLDICVKNCGYPFHLQIST 103
+
+Query: 87  KLY 89
+           K +
+Sbjct: 104 KEF 106
+
+
+>B0510_10227T1 pep:novel supercontig:B05.10_v2:Supercontig_1.58:84294:85652:1
+           gene:B0510_10227 transcript:B0510_10227T1 description:""
+          Length = 452
+
+ Score = 32.7 bits (73), Expect = 0.30,   Method: Compositional matrix adjust.
+ Identities = 19/68 (27%), Positives = 30/68 (44%), Gaps = 14/68 (20%)
+
+Query: 632 AQEWVWMDAVRPGGGNRVFHASCHSEVTGRGA------TLTPPVGMVLGKRKADDAYAGR 685
+           A EWV            +FH+    +V G+         L+P   M LG R+ D+ YA +
+Sbjct: 364 ANEWV--------VARELFHSQKRKQVIGQALESVYFNILSPQYTMALGDRRGDEGYAEK 415
+
+Query: 686 KIKKYDDL 693
+           K+ + + L
+Sbjct: 416 KVSEAEHL 423
+
+
+>B0510_7983T1 pep:novel supercontig:B05.10_v2:Supercontig_1.29:5210:7857:-1
+          gene:B0510_7983 transcript:B0510_7983T1 description:""
+          Length = 693
+
+ Score = 30.8 bits (68), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 24/46 (52%)
+
+Query: 29 ISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVK 74
+          I  LT +  +N +   A+ + L  H K+     KL  LY++DS+ +
+Sbjct: 28 IQGLTNLCTQNIQQESALVQKLYVHFKKTPGTHKLGTLYVVDSVTR 73
+
+
+>B0510_4366T1 pep:novel supercontig:B05.10_v2:Supercontig_1.10:995261:996386:1
+           gene:B0510_4366 transcript:B0510_4366T1 description:""
+          Length = 324
+
+ Score = 30.0 bits (66), Expect = 2.3,   Method: Compositional matrix adjust.
+ Identities = 15/46 (32%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query: 42  SAHAIAEVLVDHIKQIHPPRKLPALYLLDSIVKNVGT--PYTLFFG 85
+           +  A A+VL   +  + P   + ALYL+D+ +K +G    +T FF 
+Sbjct: 244 NVRAAAKVLTSVLASLFPGIVILALYLIDTTLKRIGAMLCFTTFFA 289
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.316    0.133    0.403 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 5,986,218
+Number of extensions: 250863
+Number of successful extensions: 1137
+Number of sequences better than 10.0: 35
+Number of HSP's gapped: 1115
+Number of HSP's successfully gapped: 41
+Length of query: 695
+Length of database: 5,266,216
+Length adjustment: 101
+Effective length of query: 594
+Effective length of database: 4,220,765
+Effective search space: 2507134410
+Effective search space used: 2507134410
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,216 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS54309 pep:known chromosome:ASM9102v1:VII:356900:359311:-1 gen...   718   0.0  
+AAS54769 pep:known chromosome:ASM9102v1:VII:1581054:1583369:-1 g...    65   2e-11
+AAS53912 pep:known chromosome:ASM9102v1:VI:1411570:1412292:1 gen...    28   2.8  
+AAS53090 pep:known chromosome:ASM9102v1:V:1425031:1428600:1 gene...    29   3.4  
+AAS51314 pep:known chromosome:ASM9102v1:III:515563:518115:1 gene...    28   6.3  
+
+>AAS54309 pep:known chromosome:ASM9102v1:VII:356900:359311:-1
+           gene:AGOS_AGL182C transcript:AAS54309
+           description:"AGL182Cp"
+          Length = 803
+
+ Score =  718 bits (1854), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 385/868 (44%), Positives = 545/868 (62%), Gaps = 74/868 (8%)
+
+Query: 1   MTYKYNCCDDGSGTTVGSVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILS 60
+           MTY +  C D SG+T G+++ FDN TLLIDPGW+    SY++C+ YW++ IP++D+I+LS
+Sbjct: 1   MTYTFTYCKDESGSTTGTILSFDNCTLLIDPGWS-GGCSYDECMAYWKEWIPQVDIILLS 59
+
+Query: 61  QPTIECLGAHSLLYYNFTSHFISRIQVYATLPVINLGRVSTIDSYASAGVIGPYDTNKLD 120
+           QP  EC+GA++ L++++ SHF SRIQVY+TLPV NLGRV+T+D YAS G+IGP+DTN++D
+Sbjct: 60  QPIQECIGAYAALFFDYISHFNSRIQVYSTLPVANLGRVATVDLYASLGIIGPFDTNRID 119
+
+Query: 121 LEDIEISFDHIVPLKYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKRW 180
+           +EDI+ +FDH+  +KYSQLVDL+SR+DGL+L+AY++G  PGG+IWC +TYSEK++YA RW
+Sbjct: 120 IEDIDTAFDHLNTVKYSQLVDLKSRFDGLSLVAYSSGFAPGGTIWCANTYSEKVLYAPRW 179
+
+Query: 181 NHTRDNILNAASILDATGKPLSTLMRPSAIITTLDRFGSSQPFKKRSKIFKDTLKKGLSS 240
+           NHTRD ILN+A +LD  GKP + LMRPSA+I +    G S P++KRS+ FK+ +KK LS+
+Sbjct: 180 NHTRDTILNSADLLDKGGKPSTALMRPSAVIMSAAHVGPSTPYRKRSQKFKEVIKKALSA 239
+
+Query: 241 DGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSMLEWL 300
+           + SVI+P  + GKFL+LF  VH++L E+ K       PVL+LSY+RGRTLTYA+SMLEWL
+Sbjct: 240 NTSVILPSAIGGKFLELFVLVHDILHENKKSGLQADAPVLLLSYSRGRTLTYARSMLEWL 299
+
+Query: 301 SPSLLKTWENRNNTSPFEIGSRIKIIAPNELSKYPGSKICFVSEVGALINEVIIKVGNSE 360
+           S  L+KTWE+R+N SPF++G+R+KI+  N+L+ YPG+KICF+S+V  LIN+ + KV   E
+Sbjct: 300 SSQLVKTWESRDNKSPFDLGNRLKIVNVNDLANYPGTKICFISQVETLINDALSKVCTKE 359
+
+Query: 361 KTTLILT-KPSFECASSLDKILEIVEQDERNWKTF-------PEDGKSFLCDNYISIDTI 412
+           K  L+LT KP++         + I+ +    W+           +G        +S+   
+Sbjct: 360 KAMLVLTEKPTY-----YSHTIAILAKAYAKWERALNSNNLNAVEGNPIAYSESLSLQFS 414
+
+Query: 413 KEEPLSKEETEAFKVQLKEKKRDRNKKILLVKRESKKLANGNAIIDDTNGERAMRNQDIL 472
+           K +PL+  + E FK ++ E +R    ++L   + +   A  +A         A+ + D  
+Sbjct: 415 KTKPLTGSDLEEFKERI-EARRKERAELLSSFQSNDNPAGASAFT-------AIEDDDDE 466
+
+Query: 473 VENVNGVPPIDHIMGGXXXXXXXXXXXXXXXXXXXXXXXXAAKKNTEVPVDIIIQPSAAS 532
+            E+V  + P  H  G                         A     E+P D+IIQP+A  
+Sbjct: 467 EEDV--LRP--HGAG-------------------------ALSTKVEIPTDLIIQPNALP 497
+
+Query: 533 KHKMFPFNPAKIKKDDYGTVVDFTMFLPDDSDNVNQNSRKRPLKDGAKTTSPVXXXXXXX 592
+           KHKMFPF P K+  DDYG +VDF  FLP  +     +S KR    GA             
+Sbjct: 498 KHKMFPFQPGKVAHDDYGELVDFERFLPQSA----PSSAKR----GATNEEDEESYDPHD 549
+
+Query: 593 XXXXGYNMSDPISKRSKHRASRYSGFSGTGEAENFDNLDYLKIDKTLSKRTISTVNVQLK 652
+                 N S    +R +  A +           N DNL YL        RT +T  V ++
+Sbjct: 550 FEDIRRNGSGGKRRRREQDALQ--------RQMNQDNLSYLDTLTKPQHRTSNTQKVVIR 601
+
+Query: 653 CSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNEEITAKLIKKNIEVVNMPLNK 712
+           C++  ++L  LVD+RS SIIWP+LK RK+VL          +  +L KK ++V+   LNK
+Sbjct: 602 CTMAFVDLAGLVDERSMSIIWPALKPRKMVLLPSDAASVSPVAQQLQKKGLDVIEPELNK 661
+
+Query: 713 IVEFSTTIKTLDISIDSNLDNLLKWQRISDSYTVATVVGRLVKESLPQVNNHQKTASRSK 772
+            +  +T++++LDI ID+ +D +L WQRIS+ YTVA VVGRL KE         K + R K
+Sbjct: 662 SLVINTSLRSLDIFIDAEMDQMLNWQRISEVYTVAHVVGRLTKE------KDTKVSHRDK 715
+
+Query: 773 LVLKPL-HGSSRSHKTGALSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRKIN 831
+            VLKPL + S+R   T +L IGDVRLA+LK+ LT  +++AEF+GEGTLV++ +V VRKI+
+Sbjct: 716 WVLKPLPNASARMQTTDSLRIGDVRLAELKRKLTAASHVAEFRGEGTLVVDGRVIVRKIS 775
+
+Query: 832 DAETIIDGTPSELFDTVKKLVTDMLAKI 859
+           ++ET++DGTPS+LF  VK  V DMLAK+
+Sbjct: 776 ESETVVDGTPSDLFYKVKSAVADMLAKV 803
+
+
+>AAS54769 pep:known chromosome:ASM9102v1:VII:1581054:1583369:-1
+           gene:AGOS_AGR279C transcript:AAS54769
+           description:"Endoribonuclease YSH1"
+          Length = 771
+
+ Score = 65.1 bits (157), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 70/320 (21%), Positives = 143/320 (44%), Gaps = 35/320 (10%)
+
+Query: 11  GSGTTVG---SVVRFDNVTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECL 67
+           G    VG    ++++   T+++D G +P+         Y E  + +++V+++S   ++  
+Sbjct: 17  GGSNEVGRSCHILQYKGKTVMLDAGVHPAHQGIASLPFYDEFDLSQVEVLLISHFHLD-- 74
+
+Query: 68  GAHSLLYYNFTSHFISRIQVYATLPVINLGR--------VSTIDSYASAGVIGPYDTNKL 119
+            A SL Y    ++F  R  V+ T P   + R        V+ I +  + GV    D N  
+Sbjct: 75  HAASLPYVMQRTNFQGR--VFMTHPTKAIYRWLLSDFVKVTNIGNDNAGGV---SDENLY 129
+
+Query: 120 DLEDIEISFDHIVPLKYSQLVDLRSRYDGLTLLAYNAGVCPGGSIWCISTYSEKLVYAKR 179
+             ED+  SFD I  + Y   +D+    +G+   AY+AG   G +++ +     ++++   
+Sbjct: 130 TDEDLAESFDRIETVDYHSTIDV----NGIKFTAYHAGHVLGAAMFQVEIAGLRILFTGD 185
+
+Query: 180 WNHTRDNILNAASILDATGKPLSTLMRPSAIITTLDRFGSS--QPFKKRSKIFKDTLKKG 237
+           ++   D  LN+A I         TL  PS I+     FG++  +P   + K     +   
+Sbjct: 186 YSRELDRHLNSAEI--------PTL--PSDILIVESTFGTATHEPRTSKEKKLTQLIHTT 235
+
+Query: 238 LSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPVLILSYARGRTLTYAKSML 297
+           +S  G V++PV   G+  ++   + E   +  +   + QVP+   S    + ++  ++ +
+Sbjct: 236 VSKGGRVLLPVFALGRAQEIMLILDEYWSQHAEQLGNGQVPIFYASNLARKCMSVFQTYV 295
+
+Query: 298 EWLSPSLLKTWENRNNTSPF 317
+             ++  + K + + + T+PF
+Sbjct: 296 NMMNDKIRKKFRD-SQTNPF 314
+
+
+>AAS53912 pep:known chromosome:ASM9102v1:VI:1411570:1412292:1
+           gene:AGOS_AFR541W transcript:AAS53912
+           description:"Required for respiratory growth protein 7,
+           mitochondrial"
+          Length = 240
+
+ Score = 28.5 bits (62), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 18/55 (32%), Positives = 27/55 (49%), Gaps = 7/55 (12%)
+
+Query: 193 ILDATGKPLSTLMRPSAIITT-------LDRFGSSQPFKKRSKIFKDTLKKGLSS 240
+           ILD T +PL  L++  A+ T         + FG+   F  RSK+ ++     LSS
+Sbjct: 117 ILDGTARPLDVLVQCKALTTARVGGRLFRELFGAFGAFGARSKVHRNNTVLMLSS 171
+
+
+>AAS53090 pep:known chromosome:ASM9102v1:V:1425031:1428600:1
+           gene:AGOS_AER411W transcript:AAS53090
+           description:"AER411Wp"
+          Length = 1189
+
+ Score = 28.9 bits (63), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 14/36 (38%), Positives = 20/36 (55%)
+
+Query: 403 CDNYISIDTIKEEPLSKEETEAFKVQLKEKKRDRNK 438
+            +NYI+ DT   +P     TEA +   +EKK DR +
+Sbjct: 20  ANNYINTDTTASKPAPPSSTEAGQAIEREKKLDRRQ 55
+
+
+>AAS51314 pep:known chromosome:ASM9102v1:III:515563:518115:1
+           gene:AGOS_ACR088W transcript:AAS51314
+           description:"Protein HIR2"
+          Length = 850
+
+ Score = 28.1 bits (61), Expect = 6.3,   Method: Compositional matrix adjust.
+ Identities = 19/66 (28%), Positives = 32/66 (48%), Gaps = 5/66 (7%)
+
+Query: 701 KNIEVVNMPLNKIVEFSTTIKTLDISI-----DSNLDNLLKWQRISDSYTVATVVGRLVK 755
+           +N  +V + LN+  EF+  +K   IS+      + LD++L W      Y V T+     +
+Sbjct: 757 ENRLLVALKLNETNEFTKLLKVYCISLAEMGFKNRLDDVLSWLYNDGEYKVGTIANEKRE 816
+
+Query: 756 ESLPQV 761
+           E L Q+
+Sbjct: 817 ELLKQI 822
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 3,675,371
+Number of extensions: 153572
+Number of successful extensions: 482
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 475
+Number of HSP's successfully gapped: 18
+Length of query: 859
+Length of database: 2,335,236
+Length adjustment: 97
+Effective length of query: 762
+Effective length of database: 1,871,964
+Effective search space: 1426436568
+Effective search space used: 1426436568
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 54 (25.4 bits)

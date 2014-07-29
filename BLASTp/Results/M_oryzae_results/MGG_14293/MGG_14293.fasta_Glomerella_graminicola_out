@@ -1,0 +1,113 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ33815 pep:novel supercontig:GCA_000149035.1:GG697373:378757:3...   150   3e-42
+EFQ26717 pep:novel supercontig:GCA_000149035.1:GG697335:606514:6...    27   9.9  
+EFQ29112 pep:novel supercontig:GCA_000149035.1:GG697343:670791:6...    27   9.9  
+
+>EFQ33815 pep:novel supercontig:GCA_000149035.1:GG697373:378757:379995:1
+           gene:GLRG_08959 transcript:EFQ33815 description:"Fip1
+           domain-containing protein"
+          Length = 343
+
+ Score =  150 bits (380), Expect = 3e-42,   Method: Compositional matrix adjust.
+ Identities = 82/147 (55%), Positives = 101/147 (68%), Gaps = 14/147 (9%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGS--DLP------- 129
+           RKDGT AAPP+QS+YS+IR+IPQRS + D T  A A P K+ED+ + S  DLP       
+Sbjct: 76  RKDGTKAAPPTQSRYSDIRNIPQRSASNDMTVKA-APPKKEEDSARASPSDLPSGIPSAD 134
+
+Query: 130 ----PVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEF 185
+                 +KS  D  A P++ P GKP+T VNIDEDL E+  PWRKPGTDISDYFNYGFDEF
+Sbjct: 135 KAAAAASKSTIDVNANPDYPPVGKPITAVNIDEDLTENDKPWRKPGTDISDYFNYGFDEF 194
+
+Query: 186 SWAIYAQKQNQLRSEYSADAMSQNSKK 212
+           +WA+YA KQ  +R E+S D ++   KK
+Sbjct: 195 TWALYAAKQEAIRGEFSGDVIAAGQKK 221
+
+
+>EFQ26717 pep:novel supercontig:GCA_000149035.1:GG697335:606514:609762:1
+           gene:GLRG_02537 transcript:EFQ26717 description:"GATA
+           zinc finger"
+          Length = 956
+
+ Score = 26.9 bits (58), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 17/40 (42%), Positives = 20/40 (50%), Gaps = 1/40 (2%)
+
+Query: 116 PNKKEDTVKGSDLPPVTKSNFDPYAIPEHKPTGKPL-TQV 154
+           PN  +  +K SD PP  K+  D Y  PE      PL TQV
+Sbjct: 70  PNAHDRFLKNSDFPPFQKATMDSYQSPEDMQKEDPLATQV 109
+
+
+>EFQ29112 pep:novel supercontig:GCA_000149035.1:GG697343:670791:673691:1
+           gene:GLRG_04256 transcript:EFQ29112
+           description:"hypothetical protein"
+          Length = 966
+
+ Score = 26.9 bits (58), Expect = 9.9,   Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 17/31 (54%)
+
+Query: 108 GTAPAKAAPNKKEDTVKGSDLPPVTKSNFDP 138
+           G  PA+   + K   ++ + LPPV  +NF P
+Sbjct: 711 GQTPARERRSSKPSYIRTTSLPPVVPANFSP 741
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 2,327,739
+Number of extensions: 93955
+Number of successful extensions: 293
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 291
+Number of HSP's successfully gapped: 15
+Length of query: 332
+Length of database: 5,585,764
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,443,864
+Effective search space: 1053195768
+Effective search space used: 1053195768
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

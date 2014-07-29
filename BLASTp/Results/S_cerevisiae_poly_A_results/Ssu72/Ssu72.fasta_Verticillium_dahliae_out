@@ -1,0 +1,160 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY17336 pep:novel supercontig:GCA_000150675.1:supercont1.2:6733...   194   2e-61
+EGY18352 pep:novel supercontig:GCA_000150675.1:supercont1.21:609...    31   0.20 
+EGY21048 pep:novel supercontig:GCA_000150675.1:supercont1.4:7277...    28   1.3  
+EGY20330 pep:novel supercontig:GCA_000150675.1:supercont1.30:233...    28   2.1  
+EGY22536 pep:novel supercontig:GCA_000150675.1:supercont1.6:1393...    27   3.1  
+EGY19541 pep:novel supercontig:GCA_000150675.1:supercont1.29:123...    27   4.0  
+EGY19874 pep:novel supercontig:GCA_000150675.1:supercont1.3:8649...    27   5.8  
+EGY20275 pep:novel supercontig:GCA_000150675.1:supercont1.3:2053...    26   8.7  
+
+>EGY17336 pep:novel supercontig:GCA_000150675.1:supercont1.2:673394:674224:1
+           gene:VDAG_01018 transcript:EGY17336 description:"RNA
+           polymerase II subunit A C-terminal domain phosphatase
+           SSU72"
+          Length = 258
+
+ Score =  194 bits (493), Expect = 2e-61,   Method: Compositional matrix adjust.
+ Identities = 104/231 (45%), Positives = 134/231 (58%), Gaps = 33/231 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSFG-TPYNDI 67
+           LKFCTVCASN NRSM SH  L EA Y V S+GTGS VRLPG SI +PNVY F  T Y+ I
+Sbjct: 28  LKFCTVCASNQNRSMVSHLRLAEANYPVISFGTGSLVRLPGPSITQPNVYHFNKTSYDSI 87
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           Y +L S+    Y  NG+L M+DRNR +K  PE+WQ+                      + 
+Sbjct: 88  YRELQSKDPKLYVQNGVLNMVDRNRNVKWGPERWQDWQVGMPRLDKPDDRGSQGVEGGIV 147
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERC+DAV +DLM RG  +N+ VHVINVDIKD+ E A +G +AIL+LA+ LN  
+Sbjct: 148 DIVITCEERCWDAVIDDLMARGAPMNRPVHVINVDIKDNHEEASVGGRAILDLANTLNAA 207
+
+Query: 169 IEQCEKDD-------------IPFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             +  +                 F++ + DIL  WQ     LP+L+  +++
+Sbjct: 208 ATEARQAAGAANFDSGSAGARASFDEQVPDILAAWQDRWPHLPALWTLAWF 258
+
+
+>EGY18352 pep:novel supercontig:GCA_000150675.1:supercont1.21:609872:611419:-
+           1 gene:VDAG_08686 transcript:EGY18352
+           description:"hypothetical protein"
+          Length = 515
+
+ Score = 31.2 bits (69), Expect = 0.20,   Method: Compositional matrix adjust.
+ Identities = 21/54 (38%), Positives = 29/54 (53%), Gaps = 8/54 (14%)
+
+Query: 67  IYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFD 120
+           + +D ++  A R  S      LD +R  +K PE    ST VFDFVF  +E C+D
+Sbjct: 109 VADDAVAVPAKRAAS----AFLDIHRSSRKGPET---STFVFDFVFQHDE-CYD 154
+
+
+>EGY21048 pep:novel supercontig:GCA_000150675.1:supercont1.4:727789:728911:1
+           gene:VDAG_02572 transcript:EGY21048
+           description:"aflatoxin B1 aldehyde reductase member 3"
+          Length = 350
+
+ Score = 28.5 bits (62), Expect = 1.3,   Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 30/63 (47%), Gaps = 5/63 (7%)
+
+Query: 133 LNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFEDCIMDILTEWQS 192
+           L   VH   ++IKD ++   IG  ++ +L D LN      EK  +P ED +  +   W  
+Sbjct: 267 LRWTVHHSQLNIKDGNDGILIGISSVAQLEDNLN----HLEKGPLP-EDVVQALEQAWLV 321
+
+Query: 193 SHS 195
+           S +
+Sbjct: 322 SKA 324
+
+
+>EGY20330 pep:novel supercontig:GCA_000150675.1:supercont1.30:23370:26533:-1
+           gene:VDAG_09959 transcript:EGY20330
+           description:"hypothetical protein"
+          Length = 696
+
+ Score = 27.7 bits (60), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 27/58 (46%), Gaps = 4/58 (6%)
+
+Query: 124 EDLMNRGGKLNKIVHVINVDIKDD----DENAKIGSKAILELADMLNDKIEQCEKDDI 177
+           E L    G+L   +H+IN + K D      NAK   + IL    + +D + Q E  D+
+Sbjct: 46  EALARAKGQLESEIHIINEETKGDVSSWVRNAKTLQEDILRSKRLADDIVRQSEAPDV 103
+
+
+>EGY22536 pep:novel supercontig:GCA_000150675.1:supercont1.6:1393341:1395166:
+           -1 gene:VDAG_03974 transcript:EGY22536
+           description:"hypothetical protein"
+          Length = 540
+
+ Score = 27.3 bits (59), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 29/68 (42%), Gaps = 6/68 (8%)
+
+Query: 55  PNVYSFGTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTC 114
+           P   +  TP  D YND L ++AD  +  GL  M   +  L      +QE+    D    C
+Sbjct: 140 PRGVALSTPRADCYNDDLKRAADFIQKEGLPAMTSGSEALT---HHYQETRGPSDL---C 193
+
+Query: 115 EERCFDAV 122
+            E   D++
+Sbjct: 194 AEAGEDSI 201
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 2,115,637
+Number of extensions: 85883
+Number of successful extensions: 221
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 218
+Number of HSP's successfully gapped: 12
+Length of query: 206
+Length of database: 4,984,196
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,046,581
+Effective search space: 473449977
+Effective search space used: 473449977
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

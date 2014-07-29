@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_07252:Polyadenylate-binding protein 2(orthologue using
+human proteins)
+         (193 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_07160T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...   256   2e-86
+MAPG_00555T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    56   6e-10
+MAPG_08092T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    55   1e-09
+MAPG_03194T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    54   4e-09
+MAPG_03284T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    48   2e-07
+MAPG_07325T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    46   2e-06
+MAPG_00376T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    45   3e-06
+MAPG_03901T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    43   5e-06
+MAPG_08618T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    45   5e-06
+MAPG_06883T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    42   3e-05
+MAPG_04129T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    42   4e-05
+MAPG_03501T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    41   1e-04
+MAPG_08467T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    40   2e-04
+MAPG_02313T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    40   2e-04
+MAPG_06499T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    37   0.002
+MAPG_07929T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    35   0.012
+MAPG_08010T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    34   0.019
+MAPG_11000T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    34   0.023
+MAPG_02543T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    33   0.025
+MAPG_07094T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.031
+MAPG_10843T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.034
+MAPG_05682T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.13 
+MAPG_08988T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    31   0.16 
+MAPG_06797T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   0.25 
+MAPG_01973T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   0.57 
+MAPG_07894T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   1.1  
+MAPG_05726T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    28   1.3  
+MAPG_03609T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   4.6  
+MAPG_03609T1 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.4  
+
+>MAPG_07160T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:743202:74
+           5012:-1 gene:MAPG_07160 transcript:MAPG_07160T0
+           description:"polyadenylate-binding protein 2"
+          Length = 201
+
+ Score =  256 bits (653), Expect = 2e-86,   Method: Compositional matrix adjust.
+ Identities = 132/159 (83%), Positives = 137/159 (86%), Gaps = 4/159 (2%)
+
+Query: 1   MADVEKKEEPVATE--QHENXXXXXXX-XXXEEISAMKKRVAEMEEEAAKLREMQASLDS 57
+           M DV+K +   A E  QH+N           EEISAMKKRVAEMEEEAAKLREMQA+LD 
+Sbjct: 1   MTDVQKDDHATADEREQHDNDHGAGEDGNDEEEISAMKKRVAEMEEEAAKLREMQANLDH 60
+
+Query: 58  QSQELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFA 117
+           QSQELS ESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKG+A
+Sbjct: 61  QSQELS-ESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGYA 119
+
+Query: 118 YVEFTEPSLVAQALVLNESVFKGRNIKVSPKRTNYPGMS 156
+           YVEFTEPSLVAQALVLNESVFKGRNIKV PKRTNYPGMS
+Sbjct: 120 YVEFTEPSLVAQALVLNESVFKGRNIKVVPKRTNYPGMS 158
+
+
+>MAPG_00555T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:1737688:1
+           739402:-1 gene:MAPG_00555 transcript:MAPG_00555T0
+           description:"nucleic acid-binding protein"
+          Length = 294
+
+ Score = 55.8 bits (133), Expect = 6e-10,   Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 47/77 (61%), Gaps = 1/77 (1%)
+
+Query: 70  VDSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF-TEPSLVA 128
+           V ++S+++GN+ Y  +  E+   F+S  ++  V I +D+ TG P+GFA+ +F TE + +A
+Sbjct: 196 VPTKSLYIGNIPYETTDAELNKLFRSLDNVTDVRIAVDRSTGWPRGFAHADFTTEEAAMA 255
+
+Query: 129 QALVLNESVFKGRNIKV 145
+             + L +    GR +++
+Sbjct: 256 AGVKLEDMTLLGRQLRI 272
+
+
+>MAPG_08092T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.7:1248244:1
+           252185:-1 gene:MAPG_08092 transcript:MAPG_08092T0
+           description:"translation initiation factor 4B"
+          Length = 602
+
+ Score = 55.5 bits (132), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 27/72 (37%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQALVL 133
+           +  +GN+ Y A+ + +   F  C  I  V I+ D+   +PKGF YVEF     + QAL L
+Sbjct: 82  TAHLGNLSYDATQDTVSDFFAEC-EIVSVRIVEDREQQRPKGFGYVEFATADGLKQALTL 140
+
+Query: 134 NESVFKGRNIKV 145
+           + + F+GR+I+V
+Sbjct: 141 DGASFQGRSIRV 152
+
+
+>MAPG_03194T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:4160298:4
+           162383:-1 gene:MAPG_03194 transcript:MAPG_03194T0
+           description:"nuclear localization sequence binding
+           protein"
+          Length = 504
+
+ Score = 53.9 bits (128), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 28/104 (26%), Positives = 54/104 (51%), Gaps = 1/104 (0%)
+
+Query: 43  EEAAKLREMQASLDSQSQELSTESRDDVDSRSIFVGNVDYSASPEEIQAHFQSCGSINRV 102
+           E  +K R+   + ++ +++  T+        ++FVGN+ ++     +Q  F+ CG +   
+Sbjct: 251 EAPSKKRKADEAKEAPTKKSKTDGAQSDKPATLFVGNLSWNVDDAMLQEEFKFCGEVVSA 310
+
+Query: 103 TILLDKFTGQPKGFAYVEFTEPSLVAQALVLNESVF-KGRNIKV 145
+            ++ D+ +G+ KGF YV+F  P+   +A    +  F  GR IKV
+Sbjct: 311 RVITDRESGRSKGFGYVDFASPADAEKAHAEKQGAFIDGRQIKV 354
+
+
+
+ Score = 37.4 bits (85), Expect = 0.002,   Method: Compositional matrix adjust.
+ Identities = 22/82 (26%), Positives = 38/82 (46%), Gaps = 4/82 (4%)
+
+Query: 71  DSRSIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEFTEPSLVAQA 130
+           +S ++FVGN+ + A  + +   F S   +  + +  D+ +G+ KGF YV F        A
+Sbjct: 380 ESDTLFVGNLPFDADEDVVSEFFGSIAEVKSLRLPTDQDSGRRKGFGYVTFNSVEDAKSA 439
+
+Query: 131 LVLNESVFKGRNIKVSPKRTNY 152
+                +   G+ I   P R +Y
+Sbjct: 440 F----TQLSGQAINGRPCRLDY 457
+
+
+>MAPG_03284T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.2:4418079:4
+           419413:1 gene:MAPG_03284 transcript:MAPG_03284T0
+           description:"nuclear cap-binding protein subunit 2"
+          Length = 187
+
+ Score = 48.1 bits (113), Expect = 2e-07,   Method: Compositional matrix adjust.
+ Identities = 18/48 (37%), Positives = 30/48 (62%)
+
+Query: 74  SIFVGNVDYSASPEEIQAHFQSCGSINRVTILLDKFTGQPKGFAYVEF 121
+           +++VGN+ +  + E+I   F  CG I R+ + LD+F   P GF +VE+
+Sbjct: 48  TLYVGNLSFFTTEEQIYELFSKCGEIKRLVMGLDRFNKTPCGFCFVEY 95
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.310    0.125    0.334 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 1,291,347
+Number of extensions: 44346
+Number of successful extensions: 232
+Number of sequences better than 10.0: 42
+Number of HSP's gapped: 230
+Number of HSP's successfully gapped: 51
+Length of query: 193
+Length of database: 4,928,244
+Length adjustment: 88
+Effective length of query: 105
+Effective length of database: 3,927,684
+Effective search space: 412406820
+Effective search space used: 412406820
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 50 (23.9 bits)

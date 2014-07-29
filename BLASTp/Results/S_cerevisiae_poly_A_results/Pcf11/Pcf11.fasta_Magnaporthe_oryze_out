@@ -1,0 +1,137 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_08573T0 pep:known chromosome:MG8:4:720946:724804:-1 gene:MGG...   107   2e-24
+MGG_03378T0 pep:known chromosome:MG8:4:2088146:2093350:-1 gene:M...    35   0.052
+MGG_14668T0 pep:known chromosome:MG8:5:2248021:2248503:1 gene:MG...    27   2.9  
+
+>MGG_08573T0 pep:known chromosome:MG8:4:720946:724804:-1 gene:MGG_08573
+           transcript:MGG_08573T0 description:"Putative
+           uncharacterized protein"
+          Length = 695
+
+ Score =  107 bits (266), Expect = 2e-24,   Method: Compositional matrix adjust.
+ Identities = 61/151 (40%), Positives = 80/151 (52%), Gaps = 6/151 (3%)
+
+Query: 2   DHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKL 61
+           DH   V  +D+   LE LT N+R  I+ LT +A EN   A    + +   I++  P +KL
+Sbjct: 5   DHAAGV-AEDYKDALEGLTSNARVEISNLTLIARENTESAHAIAEVLVDHIKQIHPPRKL 63
+
+Query: 62  YAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL- 120
+            A Y LDSI KNVG+PYT++F R L+  +   Y  VDN TR K+  M K W  P    L 
+Sbjct: 64  PALYLLDSIVKNVGTPYTLFFGRKLYQTFMEAYASVDNATRRKMDEMLKTWKEPVPGSLD 123
+
+Query: 121 --PLFEGSALEKIEQFLIKA--SALHQKNLQ 147
+             P+F    +  IE  LIKA  SAL  +  Q
+Sbjct: 124 TRPVFPPEVVRPIENALIKARTSALQAQQEQ 154
+
+
+
+ Score = 79.3 bits (194), Expect = 1e-15,   Method: Compositional matrix adjust.
+ Identities = 48/204 (23%), Positives = 89/204 (43%), Gaps = 29/204 (14%)
+
+Query: 409 LIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNL 468
+           L++ LY      C+ CG+RF N E+ +  +  H+DWHFR+  RI  ++            
+Sbjct: 485 LVNTLYDDLGKPCTQCGRRFRNDEAGRAAKTAHMDWHFRVAARIAEAE------------ 532
+
+Query: 469 NTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADEND 528
+                 K  Q R++Y+    W   ++          D     + ++  ++         D
+Sbjct: 533 ------KKGQHRSYYVDVRDWVGSRE------AVDMDGHAAQSQQSQQQNQNKQQHQYQD 580
+
+Query: 529 EGSVDNTLGSDRSNELEIRG--KYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKN 586
+           +G  + T GS  S      G  +++ VP+   ++   CPIC+E     + +E+ EWVW +
+Sbjct: 581 QGGPEAT-GSRSSRGGNGTGGKRWIPVPDAGSNVNSVCPICQERFELKWLDEAQEWVWMD 639
+
+Query: 587 TIEVNG--KYFHSTCYHETSQNSS 608
+            +   G  + FH++C+ E +   +
+Sbjct: 640 AVRPGGGNRVFHASCHSEVTGRGA 663
+
+
+>MGG_03378T0 pep:known chromosome:MG8:4:2088146:2093350:-1 gene:MGG_03378
+            transcript:MGG_03378T0 description:"Nuclear condensin
+            complex subunit Smc4"
+          Length = 1496
+
+ Score = 35.4 bits (80), Expect = 0.052,   Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 34/54 (62%), Gaps = 3/54 (5%)
+
+Query: 180  EKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQVL---QERMRY 230
+            E LK+K   LS+LK EL  +   LNA +  ++++R    ++Q+VL   ++R+RY
+Sbjct: 1123 EALKVKKKELSELKAELDEKTAELNATRATEIEMRNKLEENQKVLSDTEKRLRY 1176
+
+
+>MGG_14668T0 pep:known chromosome:MG8:5:2248021:2248503:1 gene:MGG_14668
+           transcript:MGG_14668T0 description:"Putative
+           uncharacterized protein"
+          Length = 75
+
+ Score = 27.3 bits (59), Expect = 2.9,   Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 20/37 (54%)
+
+Query: 316 NLYASLKAEGLIYTPPKESIVTLYKKLNGHSNYSLDS 352
+           +L+A L+    I + PKE    L + + GH+ Y  DS
+Sbjct: 27  DLFAELQVPSPILSRPKEVCQPLLEPIFGHTRYERDS 63
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 6,146,604
+Number of extensions: 242894
+Number of successful extensions: 531
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 528
+Number of HSP's successfully gapped: 7
+Length of query: 626
+Length of database: 5,666,059
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,390,559
+Effective search space: 2309434034
+Effective search space used: 2309434034
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

@@ -1,0 +1,136 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX91302 pep:novel supercontig:ASM23037v1:FP929072:250891:251809...   183   7e-57
+CBX98311 pep:novel supercontig:ASM23037v1:FP929133:1059564:10612...    27   2.8  
+CBX93445 pep:novel supercontig:ASM23037v1:FP929105:1464773:14665...    27   3.4  
+CBX96638 pep:novel supercontig:ASM23037v1:FP929129:846053:851512...    26   8.3  
+
+>CBX91302 pep:novel supercontig:ASM23037v1:FP929072:250891:251809:-1
+           gene:LEMA_P068100.1 transcript:CBX91302
+           description:"Similar to transcription/RNA-processing
+           factor Ssu72 "
+          Length = 286
+
+ Score =  183 bits (465), Expect = 7e-57,   Method: Compositional matrix adjust.
+ Identities = 101/231 (43%), Positives = 133/231 (57%), Gaps = 33/231 (14%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAGYNVSSYGTGSAVRLPGLSIDKPNVYSF-GTPYNDI 67
+           LKFCTVCASN NRSME+H  L  A     S+GTGS VRLPG +I +PNVY F  T Y  I
+Sbjct: 56  LKFCTVCASNQNRSMEAHLQLASAHLPTISFGTGSLVRLPGPTITQPNVYHFNSTTYRAI 115
+
+Query: 68  YNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE-------------------STKVF 108
+           +++L  Q+   Y  NGLL ML RN  +K+ PE++Q+                      V 
+Sbjct: 116 HDELAQQNTALYTHNGLLNMLGRNLNIKRFPERFQDWVPGKPRLEHAEDKGSQGTEAGVV 175
+
+Query: 109 DFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDK 168
+           D V TCEERCFDAV EDL N+GGKLN+ VHV NVDIKD+ E A +G KAIL+LA  LN+ 
+Sbjct: 176 DVVITCEERCFDAVLEDLHNKGGKLNRPVHVFNVDIKDNHEEALVGGKAILDLALCLNEA 235
+
+Query: 169 IEQCEKDDIP-------------FEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+             +  +                 F++ + +IL  WQ     +P+L++ +++
+Sbjct: 236 AGKEREIHGGGGWDSGSGAARSGFDERVPEILATWQERWPNMPALWSLAWF 286
+
+
+>CBX98311 pep:novel supercontig:ASM23037v1:FP929133:1059564:1061259:-1
+           gene:LEMA_P097200.1 transcript:CBX98311
+           description:"Similar to ATP-dependent RNA helicase dhh1
+           "
+          Length = 511
+
+ Score = 27.3 bits (59), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 338 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 369
+
+
+>CBX93445 pep:novel supercontig:ASM23037v1:FP929105:1464773:1466562:1
+           gene:LEMA_P043460.1 transcript:CBX93445
+           description:"Putative uncharacterized protein "
+          Length = 422
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 22/50 (44%)
+
+Query: 61  GTPYNDIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDF 110
+           GTPYN +   +L+Q  D Y ++   Q  DR     +A       +  F F
+Sbjct: 268 GTPYNLLPETMLTQIIDSYPAHVTQQRTDRGAPTNQAETSSLSVSSHFTF 317
+
+
+>CBX96638 pep:novel supercontig:ASM23037v1:FP929129:846053:851512:-1
+           gene:LEMA_P109030.1 transcript:CBX96638
+           description:"Similar to rRNA biogenesis protein RRP5 "
+          Length = 1787
+
+ Score = 26.2 bits (56), Expect = 8.3,   Method: Compositional matrix adjust.
+ Identities = 16/49 (32%), Positives = 24/49 (48%)
+
+Query: 133 LNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEKDDIPFED 181
+           L  +  V   DI     N  +G   +  ++D LN+++EQ  KDD   ED
+Sbjct: 154 LGLVTEVTQQDIVLALPNNLVGYVPLTAISDKLNERLEQLMKDDTDKED 202
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 2,232,137
+Number of extensions: 90235
+Number of successful extensions: 201
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 198
+Number of HSP's successfully gapped: 6
+Length of query: 206
+Length of database: 5,217,443
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,107,702
+Effective search space: 480601134
+Effective search space used: 480601134
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

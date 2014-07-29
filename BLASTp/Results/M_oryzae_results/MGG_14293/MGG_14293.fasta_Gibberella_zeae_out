@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_04164P0 pep:known chromosome:ASM24013v2:2:4904217:4905375:1...   143   2e-39
+FGSG_10655P0 pep:known chromosome:ASM24013v2:1:11531417:11533357...    28   4.2  
+FGSG_13020P0 pep:known chromosome:ASM24013v2:4:1751031:1751971:1...    27   6.2  
+
+>FGSG_04164P0 pep:known chromosome:ASM24013v2:2:4904217:4905375:1 gene:FGSG_04164
+           transcript:FGSG_04164T0 description:"Pre-mRNA
+           polyadenylation factor FIP1"
+          Length = 325
+
+ Score =  143 bits (360), Expect = 2e-39,   Method: Compositional matrix adjust.
+ Identities = 78/144 (54%), Positives = 94/144 (65%), Gaps = 15/144 (10%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGS----------DL 128
+           RKDGT  APP QSKYS+IR+IPQR+ + D   PA+ AP K+E   + S            
+Sbjct: 62  RKDGTKPAPPQQSKYSDIRNIPQRTASND--MPAQPAPVKQESESRTSVNVAAPSADKTS 119
+
+Query: 129 PPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDEFSWA 188
+              +KS  D    P H  TGKP+TQVNIDE   E+  PWRKPGTDISDYFNYGFDEF+WA
+Sbjct: 120 AAASKSTIDVNVNPIHPGTGKPITQVNIDE---ENDKPWRKPGTDISDYFNYGFDEFTWA 176
+
+Query: 189 IYAQKQNQLRSEYSADAMSQNSKK 212
+           +YA KQ  +R E+ AD  +QN+KK
+Sbjct: 177 LYASKQETVRGEFGADVFAQNNKK 200
+
+
+
+ Score = 26.9 bits (58), Expect = 9.6,   Method: Compositional matrix adjust.
+ Identities = 10/15 (66%), Positives = 13/15 (86%)
+
+Query: 3  VEMDEDDDFYAPEEP 17
+          +++DEDDD Y PEEP
+Sbjct: 1  MDIDEDDDLYQPEEP 15
+
+
+>FGSG_10655P0 pep:known chromosome:ASM24013v2:1:11531417:11533357:-1
+           gene:FGSG_10655 transcript:FGSG_10655T0
+           description:"conserved hypothetical protein"
+          Length = 646
+
+ Score = 28.1 bits (61), Expect = 4.2,   Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 25/44 (56%), Gaps = 2/44 (4%)
+
+Query: 82  GTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKG 125
+           GTSA+ PS+S   E+RS   R+  T      K  P+  EDTV+G
+Sbjct: 558 GTSASAPSESD--EVRSDVDRNFKTSHPDLRKMIPSFVEDTVRG 599
+
+
+>FGSG_13020P0 pep:known chromosome:ASM24013v2:4:1751031:1751971:1 gene:FGSG_13020
+           transcript:FGSG_13020T0 description:"predicted protein"
+          Length = 156
+
+ Score = 26.9 bits (58), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 4/51 (7%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLP 129
+           R+DGT A      K +E+R   +R       AP +A P  K +  +G DLP
+Sbjct: 9   RRDGTRAV----RKRNEVRLSGRRWGFPRALAPVQAVPMTKYEERRGGDLP 55
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 2,437,873
+Number of extensions: 96655
+Number of successful extensions: 325
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 322
+Number of HSP's successfully gapped: 22
+Length of query: 332
+Length of database: 5,933,672
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,668,462
+Effective search space: 1106425494
+Effective search space used: 1106425494
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

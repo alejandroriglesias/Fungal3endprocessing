@@ -1,0 +1,105 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Aspergillus_terreus.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,192,116 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADATEAP00002932 pep:known supercontig:CADRE:1.17:337970:339014:...    63   2e-11
+CADATEAP00004586 pep:known supercontig:CADRE:1.15:676561:680764:...    29   2.0  
+
+>CADATEAP00002932 pep:known supercontig:CADRE:1.17:337970:339014:-1
+           gene:CADATEAG00002932 transcript:CADATEAT00002932
+           description:"Putative uncharacterized protein"
+          Length = 318
+
+ Score = 63.2 bits (152), Expect = 2e-11,   Method: Compositional matrix adjust.
+ Identities = 31/114 (27%), Positives = 61/114 (53%), Gaps = 7/114 (6%)
+
+Query: 115 SVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDS 174
+           SV + +S ++T ++  ++ T        +A      +   + P     +ID++   +  +
+Sbjct: 86  SVDSQISKSVTPSATPKVETATPV--PASARPAVPQKPGSSYPPVHASTIDVNGNPVHPA 143
+
+Query: 175 VGITTID-----PEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQD 223
+            G   +           +KPWR+PG+++SDYFNYGF+EFTW  Y+ +Q++L+++
+Sbjct: 144 TGKPIMSTDLDADFPDDDKPWRRPGSDISDYFNYGFDEFTWASYVIKQQELRKE 197
+
+
+>CADATEAP00004586 pep:known supercontig:CADRE:1.15:676561:680764:-1
+           gene:CADATEAG00004586 transcript:CADATEAT00004586
+           description:"Putative uncharacterized protein"
+          Length = 1362
+
+ Score = 29.3 bits (64), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 32/132 (24%), Positives = 58/132 (43%), Gaps = 8/132 (6%)
+
+Query: 98  LLDSYSTAATSSSKDVISVA-TDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNV 156
+           +LD    +   S KDV+++  T   +  +  +D   +    A  G+       +  D  +
+Sbjct: 634 ILDGKLDSLRPSLKDVMNLEDTYRCDGTSGPADMDALNRAFAKAGILQIVSARSRPDAFM 693
+
+Query: 157 PKAMTGSIDLDKEGIFD----SVGIT-TIDPEVLKEK-PWRQPGANLSDYFNYGFNEFTW 210
+           P +M    D +  G+ D     VG+    DP+  K + PW++ GA L+    Y F + +W
+Sbjct: 694 PSSMENPADSNP-GLVDIKVAKVGLLWRKDPKKKKTRSPWQEWGALLTLSQLYFFRDVSW 752
+
+Query: 211 MEYLHRQEKLQQ 222
+           ++ L  Q +  Q
+Sbjct: 753 VKSLMSQHEASQ 764
+
+
+  Database: Aspergillus_terreus.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:46 PM
+  Number of letters in database: 5,192,116
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,454,437
+Number of extensions: 100196
+Number of successful extensions: 322
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 321
+Number of HSP's successfully gapped: 9
+Length of query: 327
+Length of database: 5,192,116
+Length adjustment: 94
+Effective length of query: 233
+Effective length of database: 4,214,328
+Effective search space: 981938424
+Effective search space used: 981938424
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

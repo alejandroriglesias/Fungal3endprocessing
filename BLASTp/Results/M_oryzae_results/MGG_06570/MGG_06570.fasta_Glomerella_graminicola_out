@@ -1,0 +1,232 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ34177 pep:novel supercontig:GCA_000149035.1:GG697377:300914:3...  1055   0.0  
+EFQ31650 pep:novel supercontig:GCA_000149035.1:GG697356:473264:4...    70   3e-12
+EFQ33334 pep:novel supercontig:GCA_000149035.1:GG697369:301126:3...    30   3.9  
+EFQ35299 pep:novel supercontig:GCA_000149035.1:GG697391:5978:732...    29   5.3  
+EFQ29518 pep:novel supercontig:GCA_000149035.1:GG697345:365076:3...    30   5.7  
+EFQ36730 pep:novel supercontig:GCA_000149035.1:GG697492:2698:109...    29   7.7  
+EFQ29708 pep:novel supercontig:GCA_000149035.1:GG697346:146002:1...    29   9.9  
+
+>EFQ34177 pep:novel supercontig:GCA_000149035.1:GG697377:300914:303924:1
+           gene:GLRG_09321 transcript:EFQ34177
+           description:"RNA-metabolising metallo-beta-lactamase"
+          Length = 984
+
+ Score = 1055 bits (2729), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 574/1004 (57%), Positives = 693/1004 (69%), Gaps = 62/1004 (6%)
+
+Query: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILLT 60
+           MFTF PLQGALSE++ASQS+LELDGGVK+LID+GWDE+FDVEKL+E+EKQVPTLSLILLT
+Sbjct: 1   MFTFCPLQGALSESSASQSILELDGGVKILIDLGWDESFDVEKLQELEKQVPTLSLILLT 60
+
+Query: 61  HATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAE 120
+           HAT  HL+A  HCCKNFPLF RIP+YAT+P IDLGRTL QDLY+STP AAT IP  +L E
+Sbjct: 61  HATTSHLAAFAHCCKNFPLFTRIPVYATRPVIDLGRTLTQDLYASTPLAATKIPLGSLTE 120
+
+Query: 121 ASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY 180
+           A+YSFSQ  T G  FLLQAPSP EI +YFSLIQPLKYSQPH+PL SPFSPPLNGL ITAY
+Sbjct: 121 AAYSFSQQSTAGSEFLLQAPSPAEITRYFSLIQPLKYSQPHEPLPSPFSPPLNGLIITAY 180
+
+Query: 181 NAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTA 240
+           NAGHSLGGTIWHIQHG+ESIVYAVDWN A++NV+               +VIEQLRKPTA
+Sbjct: 181 NAGHSLGGTIWHIQHGLESIVYAVDWNQAKENVF-AGAAWLGGAGGGGADVIEQLRKPTA 239
+
+Query: 241 LVCSTRTAE-----GGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHA 295
+           LVCS+R AE     GG  RA RD+QL+D ++  ++RGGT LIPVDSSARVLE+AYLLEHA
+Sbjct: 240 LVCSSRGAEKVAQAGG--RAKRDEQLIDMIKTCVARGGTALIPVDSSARVLEIAYLLEHA 297
+
+Query: 296 WRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFRRTXXX 355
+           WR+++ ++   L +AKLYLAGR++ ST++ A+SM EWMD++IV+EFE+ AD G R+    
+Sbjct: 298 WRADSESDSSSLKSAKLYLAGRNMSSTLRYARSMLEWMDDNIVREFESVAD-GQRKA--- 353
+
+Query: 356 XXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELR--GKVILATDTSLEWGFSKD 413
+                       PFDF+YL+L++R+AQ+ KLL  S D ++  G+VILA+D +LEWGFSKD
+Sbjct: 354 -NGTEAKSKEGVPFDFRYLKLVERRAQIEKLLSGSGDNVQAEGRVILASDDTLEWGFSKD 412
+
+Query: 414 IISAIANDSRNMVILPEKPAESSRDNPSISRQLWRWWKERRDGVADEQSSGAGSAEQVFA 473
+           +I  +A DSRN+VIL +KPA+S  + PSI+R LW WW ERRDGVA EQSS   + E V+ 
+Sbjct: 413 LIRGLAKDSRNLVILTDKPAKSRAEQPSIARTLWDWWTERRDGVAVEQSSNGNNLELVYG 472
+
+Query: 474 GGRELQIRESKKVPLADSELSIYQQWLATQRQLNATVQGGGXXXXXXXXXXXXXXXXXXX 533
+           GGREL+++E+K+  L   EL++YQQWLATQRQL AT+Q GG                   
+Sbjct: 473 GGRELEVQEAKRQALEGEELNVYQQWLATQRQLQATLQSGGGASLQAPADAADDVSSDSS 532
+
+Query: 534 XXXXXXXNEQQGKALNASTT--QASRKKVVLQDEDLGVMILLKKPGVYDFPVKGKKGRER 591
+                  NEQQGKALN STT  QA+RKKVVL DEDLG+ IL KK G YDF V+GKKGRER
+Sbjct: 533 TDSGESDNEQQGKALNISTTMGQATRKKVVLTDEDLGINILTKKRGAYDFDVRGKKGRER 592
+
+Query: 592 MFPLAVRRKRNDEFGELIRPEDYLRAEEREENERPDTQQLQSDGQDGFGQKRKWDDAGSR 651
+            FPL +RR+R+D+FG++IRPEDYLRAEEREE    +      D +D  G+KRKWDD  +R
+Sbjct: 593 SFPLVMRRRRDDQFGDVIRPEDYLRAEEREEEAPENDGLRGDDDEDRLGKKRKWDDGNNR 652
+
+Query: 652 NAANGLNXXXXXXXXXXXXXXXXXSGPAPXXXXXXXXXXXXXXTGPAKLVHTSTTVSVNL 711
+            +    N                                     GP+KLV +   V VNL
+Sbjct: 653 FSNKRQN---NRAASADHVDANAAGDDVTDELDEVEDTVEEEIQGPSKLVVSREKVMVNL 709
+
+Query: 712 RLALIDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCR-----------RNA 760
+           R+A +DFSGLHD+RSL MLIPLIQPRKLILV G+ DET  +A DC+            N 
+Sbjct: 710 RIAFVDFSGLHDKRSLNMLIPLIQPRKLILVGGTPDETRTLAADCKMLLAQQSGASEENG 769
+
+Query: 761 IEVFTPPVGAVVDASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQKNG 820
+           I+V+TP +G  VDASVDTNAWVVKLAD LVK+LKWQ VRGLG+VTVT QL A   A+   
+Sbjct: 770 IDVYTPAMGTWVDASVDTNAWVVKLADSLVKKLKWQNVRGLGVVTVTGQLVAEALAKGK- 828
+
+Query: 821 IPLLIADDDGANKRQKIKATGVDDQEPTAEDEDV----------------------GVMP 858
+              +   DDGANKRQK +A   +D E  A+ E+                        V+P
+Sbjct: 829 ---MAEKDDGANKRQKTEA---EDAETNADAEEAVKDEEQDDDDEEKKEKEEEVEVEVVP 882
+
+Query: 859 TLDVLPVAMVSASRSAAQVLHVGELRLADLRRTMQNLGHSADFRGEGTLLIDGTVVVRKT 918
+           TLD+LP  M SA RS AQ LHVG+LRL DLRR MQ+ G++A+FRGEGTL+I+G V VRKT
+Sbjct: 883 TLDLLPSNMASAVRSVAQPLHVGDLRLTDLRRAMQSAGYTAEFRGEGTLVINGAVAVRKT 942
+
+Query: 919 AAGRVEIESXXXXXXXXXXXXXXXXXFYAVKKTIYDGLAVVAGA 962
+           + G+VE+ES                 FY VK+ IYDGLAVVAGA
+Sbjct: 943 STGKVEVES--VSIADAATMMQHRSTFYEVKRMIYDGLAVVAGA 984
+
+
+>EFQ31650 pep:novel supercontig:GCA_000149035.1:GG697356:473264:476337:1
+           gene:GLRG_06939 transcript:EFQ31650
+           description:"metallo-beta-lactamase superfamily protein"
+          Length = 855
+
+ Score = 69.7 bits (169), Expect = 3e-12,   Method: Compositional matrix adjust.
+ Identities = 86/407 (21%), Positives = 160/407 (39%), Gaps = 72/407 (17%)
+
+Query: 26  GVKVLIDIGWDETFD-VEKLKEVEK-QVPTLSLILLTHATVPHLSALVHCCKNFPLFARI 83
+           G  V++D G    +D +  L   +   + T+ ++L++H  V H ++L +         R+
+Sbjct: 47  GKTVMLDAGQHPAYDGLAALPFFDDFDLSTVDVLLISHFHVDHAASLPYVLSKTNFRGRV 106
+
+Query: 84  PIYATQPAIDLGRTLIQD--LYSSTPAAATSIPDSALAEASYSFSQTQTNGHGFLLQAPS 141
+             + T P   + + LIQD     +T +  TS P    A+   +F Q              
+Sbjct: 107 --FMTHPTKAIYKWLIQDSVRVGNTSSNPTSQPVYTEADHLNTFPQ-------------- 150
+
+Query: 142 PDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAYNAGHSLGGTIWHIQHGMESIV 201
+                     I+ + Y   H          ++ + IT Y AGH LG  ++ I+     I 
+Sbjct: 151 ----------IEAIDYHTTHT---------ISSIRITPYPAGHVLGAAMFLIEIAGLKIF 191
+
+Query: 202 YAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTALVCSTRTAEGGLTRAARDKQL 261
+           +  D++  +D                  EV + ++    +  ST      + R  R++ L
+Sbjct: 192 FTGDYSREQDR------------HLVSAEVPKGVKIDVLITESTYGIASHVPRLEREQAL 239
+
+Query: 262 LDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAWRSEASTEGGGLSTAKLYLAGRSVHS 321
+           + ++   ++RGG VL+PV +  R  EL  +L+  W   A           +Y A      
+Sbjct: 240 MKSITSILNRGGRVLMPVFALGRAQELLLILDEYWGKHAE-----FQKFPIYYASNLARK 294
+
+Query: 322 TIKLAKSMFEWMDNSIVQEFEAGADQGFRRTXXXXXXXXXXXXXXXPFDFKYLRLLDRKA 381
+            + + ++    M+++I         + FR                 P+DFKY+R L    
+Sbjct: 295 CMVVYQTYVGAMNDNI--------KRLFRERMAEAEASGDGSGKGGPWDFKYIRSLKNLD 346
+
+Query: 382 QVLKLLEPSTDELRGKVILATDTSLEWGFSKDIISAIANDSRNMVIL 428
+           +         D++ G V+LA+   L+ G S++++   A + +N VI+
+Sbjct: 347 RF--------DDVGGCVMLASPGMLQNGVSRELLERWAPNDKNGVII 385
+
+
+>EFQ33334 pep:novel supercontig:GCA_000149035.1:GG697369:301126:305823:-1
+           gene:GLRG_08478 transcript:EFQ33334
+           description:"ubiquitin carboxyl-terminal hydrolase"
+          Length = 1490
+
+ Score = 30.0 bits (66), Expect = 3.9,   Method: Compositional matrix adjust.
+ Identities = 21/66 (31%), Positives = 32/66 (48%), Gaps = 1/66 (1%)
+
+Query: 247 TAEGGLTRAARDKQLLDTMRMAISRGGTVLIPV-DSSARVLELAYLLEHAWRSEASTEGG 305
+           +AEGG + A+R+   L  M   I    T+L    D   +V  +AY++  +W  +A   GG
+Sbjct: 74  SAEGGASGASRNNNNLPPMEEQIKTIQTLLKAFNDEPPKVGHVAYIVSRSWVEKALALGG 133
+
+Query: 306 GLSTAK 311
+               AK
+Sbjct: 134 DPKFAK 139
+
+
+>EFQ35299 pep:novel supercontig:GCA_000149035.1:GG697391:5978:7320:-1
+           gene:GLRG_10443 transcript:EFQ35299
+           description:"acyl-CoA dehydrogenase domain-containing
+           protein"
+          Length = 435
+
+ Score = 29.3 bits (64), Expect = 5.3,   Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 26/42 (61%), Gaps = 4/42 (9%)
+
+Query: 172 LNGLTI-TAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDN 212
+           L+G+TI   +N+GH+ GG+ W I   +E +   VD  L R+N
+Sbjct: 233 LSGITIRKIHNSGHNAGGSSWVI---LEDVKVPVDHLLGREN 271
+
+
+>EFQ29518 pep:novel supercontig:GCA_000149035.1:GG697345:365076:367613:-1
+           gene:GLRG_04662 transcript:EFQ29518 description:"RhoGAP
+           domain-containing protein"
+          Length = 772
+
+ Score = 29.6 bits (65), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 30/109 (27%), Positives = 42/109 (38%), Gaps = 11/109 (10%)
+
+Query: 807 TAQLTATPAAQKNGIPLLIADDDGANKRQKIKATGVDDQEPTAEDEDVGVMPTLDVLPVA 866
+           T +LT TP +Q  G+     D   A +      + V  Q       D+GV   L+ L  +
+Sbjct: 31  TTELTTTPPSQNGGVTTSNGDAPAAVETASAPTSEVSRQVQDVLSSDIGVATMLNQLKAS 90
+
+Query: 867 MVSA--------SRSAAQVLHVGELRLADLRRTMQNLGHSADFRGEGTL 907
+           + SA         RS  +  H   L+   L R  Q   H  D R +GT 
+Sbjct: 91  IASAKEFALFLKKRSHIEESHASSLK--KLSRISQETMHQPDHR-QGTF 136
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 9,615,058
+Number of extensions: 399127
+Number of successful extensions: 1226
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 1214
+Number of HSP's successfully gapped: 17
+Length of query: 962
+Length of database: 5,585,764
+Length adjustment: 104
+Effective length of query: 858
+Effective length of database: 4,335,684
+Effective search space: 3720016872
+Effective search space used: 3720016872
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

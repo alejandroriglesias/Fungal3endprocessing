@@ -1,0 +1,121 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_02741:RRM domain-containing protein(Rbp35)
+         (424 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00011847 pep:known supercontig:JCVI-afl1-v2.0:EQ963484:1...   185   1e-53
+CADAFLAP00001891 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:5...    38   0.003
+CADAFLAP00005095 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:2...    28   6.7  
+
+>CADAFLAP00011847 pep:known supercontig:JCVI-afl1-v2.0:EQ963484:1049579:1050912:-1
+           gene:CADAFLAG00011847 transcript:CADAFLAT00011847
+           description:"RRM domain protein "
+          Length = 400
+
+ Score =  185 bits (470), Expect = 1e-53,   Method: Compositional matrix adjust.
+ Identities = 120/230 (52%), Positives = 136/230 (59%), Gaps = 26/230 (11%)
+
+Query: 1   MAEED--FEIDIYGDA---NQEQQGG-DDNKHD----------QSYEGGD-HQDGHGAND 43
+           MA ED  F+IDIYGD    N  +QGG DD KHD          Q   GG  H DG  A+ 
+Sbjct: 1   MATEDDNFDIDIYGDGGGYNANEQGGEDDIKHDDTELILDAPEQPQNGGPAHGDG-AADT 59
+
+Query: 44  NEQYRDDQQXXXXXXXXXXXXXXXXTESATPQQSNPLKRKEGSDDRAIDPGATSAILISE 103
+           N Q    Q                   + TP     +KRKE  DDR  DP AT A+LIS+
+Sbjct: 60  NAQQGHAQGTAPNGEHVTQSNPQQQAATETPAPPQGVKRKE-HDDRPSDPDATPALLISD 118
+
+Query: 104 LQWWITDDDIRGWIREAGCEEELKDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLES 163
+           L WW TDDDIRGW+REA CE+ELKD+TFSEHKVNGKSKGQ +IE T+ QAATA KH+LES
+Sbjct: 119 LYWWTTDDDIRGWVREADCEDELKDVTFSEHKVNGKSKGQAFIEFTTLQAATATKHKLES 178
+
+Query: 164 SGEDGASQAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNRPTSGAGYN 213
+           SG       GRK  V Y++P  NPFRTLPKD P   KD Q R  SG G+N
+Sbjct: 179 SGT-----TGRKYSVNYTNPQPNPFRTLPKDAPMR-KDNQARSMSG-GFN 221
+
+
+>CADAFLAP00001891 pep:known supercontig:JCVI-afl1-v2.0:EQ963473:587086:588175:-1
+           gene:CADAFLAG00001891 transcript:CADAFLAT00001891
+           description:"Putative uncharacterized protein "
+          Length = 343
+
+ Score = 38.1 bits (87), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 30/101 (29%), Positives = 47/101 (46%), Gaps = 14/101 (13%)
+
+Query: 113 IRGWIREAGCEEEL--KDITFSEHKVNGKSKGQVYIELTSQQAATAVKHRLESSGEDGAS 170
+            R W+ E   E++L  + + +S H + GK  G VY   T+++    V    + S  D   
+Sbjct: 251 FRKWLAETPLEDDLSGRIMEYSWHMIFGK--GPVYCP-TAEECYCKVFGLCDLSCPDEGH 307
+
+Query: 171 QAGRKQQVIYSSPTMNPFRTLPKDQPRTGKDGQNR-PTSGA 210
+            AGR          + P+ +LPK  P  G +GQ++ PT G 
+Sbjct: 308 CAGRY--------VLPPYSSLPKGWPYKGWNGQDQDPTKGL 340
+
+
+>CADAFLAP00005095 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:2529871:2531395:1
+           gene:CADAFLAG00005095 transcript:CADAFLAT00005095
+           description:"Ribosomal biogenesis protein Gar2 "
+          Length = 464
+
+ Score = 27.7 bits (60), Expect = 6.7,   Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 18/33 (54%)
+
+Query: 125 ELKDITFSEHKVNGKSKGQVYIELTSQQAATAV 157
+           E+  +  S +++ G+SK   +IE TS   A  V
+Sbjct: 248 EISRLRLSRNRITGRSKHYAFIEFTSTSVAKIV 280
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.307    0.128    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 2,979,510
+Number of extensions: 115926
+Number of successful extensions: 282
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 276
+Number of HSP's successfully gapped: 5
+Length of query: 424
+Length of database: 5,672,061
+Length adjustment: 97
+Effective length of query: 327
+Effective length of database: 4,363,822
+Effective search space: 1426969794
+Effective search space used: 1426969794
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

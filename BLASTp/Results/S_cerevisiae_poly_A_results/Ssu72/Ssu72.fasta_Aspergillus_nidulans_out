@@ -1,0 +1,125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00004902 pep:known chromosome:ASM1142v1:II:2926210:29271...   198   6e-63
+CADANIAP00006664 pep:known chromosome:ASM1142v1:I:534612:538683:...    28   1.5  
+CADANIAP00009573 pep:known chromosome:ASM1142v1:VI:595202:597008...    27   3.6  
+
+>CADANIAP00004902 pep:known chromosome:ASM1142v1:II:2926210:2927144:-1
+           gene:CADANIAG00004902 transcript:CADANIAT00004902
+           description:"transcription/RNA-processing factor Ssu72
+           (AFU_orthologue\x3b AFUA_2G03760)"
+          Length = 263
+
+ Score =  198 bits (504), Expect = 6e-63,   Method: Compositional matrix adjust.
+ Identities = 102/213 (47%), Positives = 139/213 (65%), Gaps = 16/213 (7%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAG--YNVSSYGTGSAVRLPGLSIDKPNVYSF-GTPYN 65
+           L+FCTVCASN NRSME+H  L  A   + V S+GTGS VRLPG SI +PNVY+F  T Y+
+Sbjct: 50  LRFCTVCASNQNRSMEAHLRLSTAASPFPVISFGTGSLVRLPGPSITQPNVYNFNSTSYS 109
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQESTKVFDFVFTCEERCFDAVCED 125
+            +Y++LLS+    Y++NG+L MLDRNR +K  PE++Q+   V D + TCEERC+DAV +D
+Sbjct: 110 QMYDELLSKDERLYRNNGILNMLDRNRNVKWGPERFQDWGGVVDVIITCEERCWDAVVDD 169
+
+Query: 126 LMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADMLNDKIEQCEK----------- 174
+           L+N+G  LN+ VHV NVDIKD+ E A +G KAILELA  LN+   Q +K           
+Sbjct: 170 LLNKGSTLNRPVHVFNVDIKDNHEEALVGGKAILELATRLNEVATQEQKALGSGGWENGT 229
+
+Query: 175 --DDIPFEDCIMDILTEWQSSHSQLPSLYAPSY 205
+                 F++ + ++L  WQ     LP+L+  ++
+Sbjct: 230 GEARRSFDEKVPEVLGAWQEKWPNLPALWTLAW 262
+
+
+>CADANIAP00006664 pep:known chromosome:ASM1142v1:I:534612:538683:1
+           gene:CADANIAG00006664 transcript:CADANIAT00006664
+           description:"p150 dynactin (NUDM) (Eurofung)"
+          Length = 1267
+
+ Score = 28.5 bits (62), Expect = 1.5,   Method: Composition-based stats.
+ Identities = 24/97 (24%), Positives = 41/97 (42%), Gaps = 12/97 (12%)
+
+Query: 120 DAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIG----------SKAILELADMLNDKI 169
+           D V EDL     +  ++V  +  D++D   + +I           S+A+++L   L   +
+Sbjct: 515 DEVIEDLEYTLTRFRELVSNLQADLEDMRASQQITEAEATDLTARSRAMMDLNLKLQSSV 574
+
+Query: 170 EQCEKDDIPFEDCIMDILTEWQSSHSQLPSLYAPSYY 206
+            + +   I  E  +  I  E  S H  +  LY P YY
+Sbjct: 575 AKAQTKTIDIE--LKRIEAEEDSQHLSIVKLYLPEYY 609
+
+
+>CADANIAP00009573 pep:known chromosome:ASM1142v1:VI:595202:597008:-1
+           gene:CADANIAG00009573 transcript:CADANIAT00009573
+           description:"ATP-dependent RNA helicase (Eurofung)"
+          Length = 498
+
+ Score = 26.9 bits (58), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (51%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDEN 150
+           C + VC DL+ RG  +  +  VIN D   + E 
+Sbjct: 327 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAET 359
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 2,170,387
+Number of extensions: 88791
+Number of successful extensions: 224
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 221
+Number of HSP's successfully gapped: 6
+Length of query: 206
+Length of database: 5,078,913
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,141,387
+Effective search space: 484542279
+Effective search space used: 484542279
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

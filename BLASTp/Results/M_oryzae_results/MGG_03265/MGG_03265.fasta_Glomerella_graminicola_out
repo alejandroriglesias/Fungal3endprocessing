@@ -1,0 +1,342 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ31706 pep:novel supercontig:GCA_000149035.1:GG697357:153303:1...   938   0.0  
+EFQ29363 pep:novel supercontig:GCA_000149035.1:GG697344:633512:6...    50   3e-06
+EFQ28723 pep:novel supercontig:GCA_000149035.1:GG697342:137277:1...    40   0.003
+EFQ29104 pep:novel supercontig:GCA_000149035.1:GG697343:638131:6...    36   0.052
+EFQ34756 pep:novel supercontig:GCA_000149035.1:GG697383:236845:2...    34   0.23 
+EFQ33134 pep:novel supercontig:GCA_000149035.1:GG697368:19844:22...    33   0.37 
+EFQ29947 pep:novel supercontig:GCA_000149035.1:GG697347:170222:1...    32   1.1  
+EFQ25150 pep:novel supercontig:GCA_000149035.1:GG697331:1146581:...    32   1.4  
+EFQ36225 pep:novel supercontig:GCA_000149035.1:GG697415:35142:37...    31   2.5  
+EFQ29397 pep:novel supercontig:GCA_000149035.1:GG697344:793716:7...    30   3.5  
+EFQ30090 pep:novel supercontig:GCA_000149035.1:GG697347:610679:6...    30   4.6  
+EFQ28072 pep:novel supercontig:GCA_000149035.1:GG697339:818171:8...    29   6.5  
+EFQ35235 pep:novel supercontig:GCA_000149035.1:GG697390:23260:24...    29   6.8  
+EFQ31976 pep:novel supercontig:GCA_000149035.1:GG697358:465161:4...    29   8.3  
+EFQ26741 pep:novel supercontig:GCA_000149035.1:GG697335:728220:7...    29   8.3  
+
+>EFQ31706 pep:novel supercontig:GCA_000149035.1:GG697357:153303:156630:1
+           gene:GLRG_06681 transcript:EFQ31706 description:"mRNA
+           3'-end-processing protein RNA14"
+          Length = 1056
+
+ Score =  938 bits (2424), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 497/1001 (49%), Positives = 659/1001 (65%), Gaps = 77/1001 (7%)
+
+Query: 14  WDHDSTEDGPDGLQSTAQHSDSNVQNQQLQATSVAHGDSEDAAEYDPDSVPVAITSPKAK 73
+           W  +  E+  D      QHSD   Q+        A+GDSEDA EYDP+SV +  + P+  
+Sbjct: 17  WGEEGYEEAND-----IQHSDQQSQDPAFPLAQAANGDSEDAGEYDPESVTIT-SVPETS 70
+
+Query: 74  PLKPSP--------------QPAAAKKRKTAGGFLVGDSDDSED-ENPTVASVQMPDLK- 117
+             KP                +P + K  KT GGFLVGDSDD ED   P   +  +PD   
+Sbjct: 71  ESKPPTDSTPAPTPTTSTSAKPKSGKP-KTQGGFLVGDSDDEEDVPTPASTTAVVPDAAQ 129
+
+Query: 118 --------PKPESSPVPQNLNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--XDPIA 167
+                   P   S+PV   ++                                   D   
+Sbjct: 130 PPVTQNHPPLTVSTPVQTQVSATPEQPNNGTAVRAPSAAHAPAPPTVQPLPSRDPNDTFG 189
+
+Query: 168 LLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELS 227
+           +LE RVKEDPRG M++WL+LIA +R+ + +++ R V+ERF+ VFP AA++W  +A +ELS
+Sbjct: 190 ILEDRVKEDPRGDMEAWLALIAEHRRYDQLDELRAVYERFVQVFPQAADIWADWAQLELS 249
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDL-NDSSGRARQVVTQAYDFVIDNV 286
+              F +AEA+F +SL++VPNV+LWTVYL+YIRRR DL ND +G AR++++ +YDFVI +V
+Sbjct: 250 SNRFQDAEALFNRSLVNVPNVKLWTVYLNYIRRRYDLTNDPNGEARRILSMSYDFVIGSV 309
+
+Query: 287 GLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLWREY 346
+           G+D+D+ ++W DYIQFI+  PG VGGS WQDQQKMDQLRKAY RA+ +P+S +  LW++Y
+Sbjct: 310 GIDRDSGQLWKDYIQFIKSGPGQVGGSGWQDQQKMDQLRKAYHRAITVPMSALTDLWKDY 369
+
+Query: 347 DQFEKGLNPTTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGDVEF 406
+           DQFE  LN TTGR+++ +RSPAYMTAK+AN+ L+ ++  L RT+LPRLPPAPGF+GD EF
+Sbjct: 370 DQFEMSLNKTTGRQFIQKRSPAYMTAKAANSQLDRLIPRLQRTSLPRLPPAPGFDGDQEF 429
+
+Query: 407 AEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEWCFE 466
+            EQV++WK+W++WEK+DPL L  ++PE +K RILY Y+QA+MALRF PEIWVDAAEWCF 
+Sbjct: 430 LEQVEIWKKWIQWEKDDPLVLLDEEPEAYKARILYCYRQALMALRFWPEIWVDAAEWCFA 489
+
+Query: 467 NSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAVKAPY 526
+           N+I  +GK+ GL FLT+GIEANPESVLLALKH DR+E+T+  G+ + +K  R  A++ PY
+Sbjct: 490 NNITKDGKELGLSFLTDGIEANPESVLLALKHGDRVESTYQAGDDEASKAARAKAIREPY 549
+
+Query: 527 NKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVP--EHEIEEGE---DCANPMPSEL--EE 579
+           +++LDTLY   K +KE+E+ E+ K+ E+A   P  +  IE  +   D  N  P++L  EE
+Sbjct: 550 SRVLDTLYAMSKKIKEREEREVRKIEEAAARDPNVKDSIENNDEEPDSENNRPADLGREE 609
+
+Query: 580 KISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARKRGRL 639
+           +I A++ GF  Q D+L RT+SFVWIAL RA RR QGKG   S   G+RQVF EAR RG+L
+Sbjct: 610 RIKAVKHGFSVQADMLKRTISFVWIALCRAARRTQGKGNTTS---GLRQVFIEARGRGQL 666
+
+Query: 640 TSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVVFE 699
+           TSDVY+A+A++E  +Y DP+GGKIFDRG+KLFPED  FMLEYLK+LHS+ DTTNARVVFE
+Sbjct: 667 TSDVYIAVAKMEALIYNDPAGGKIFDRGAKLFPEDASFMLEYLKFLHSKGDTTNARVVFE 726
+
+Query: 700 TCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHFSARF 759
+           TCVN+LTQ      +AK LYSYFHKYES+FGELS  ++LEKR++EL+P DP L HF+ RF
+Sbjct: 727 TCVNRLTQKDDKKDQAKQLYSYFHKYESQFGELSSISELEKRISELWPTDPKLTHFANRF 786
+
+Query: 760 MSDRFDPIAARIIVSPAAQLRPKMVMPSIEA-NARAGSPM----IRPLNSPKVGFLQAVN 814
+             + FDPI+ R+I+SPA QLRPKM++P+IE   +   +PM    IR   SP   ++   N
+Sbjct: 787 SVETFDPISYRLIISPAVQLRPKMLIPAIEQPTSVRQTPMPPLPIRQTASPGPQYIGNTN 846
+
+Query: 815 SPKRPLPADDFEDLNPPKKIQRNDQREFQRAESPLKGAAGRRLENQRRIHGQGPASYNTA 874
+           SPKRP   D++E+LN P+K+         R ESPLKGAAGRRL+ QRR  G        A
+Sbjct: 847 SPKRPFAGDEYEELNRPRKL--------ARGESPLKGAAGRRLDQQRRNQG--------A 890
+
+Query: 875 PAPAIPREINFLLSQLPGAEVYNST----RLSASRVVDTLRDTHVPDYQSWKSRQDKGLR 930
+           P   + R+I FLL  LP +  Y  +    RLSA  +V  LR+T VPDY +WK++Q+ G R
+Sbjct: 891 P---LSRDITFLLGILPPSHAYAHSPGAFRLSAPNLVGLLRETPVPDYSAWKAQQELGAR 947
+
+Query: 931 QSGAQMPSDFSNPGYGRDSPGLRTGSPFGGERRIASASSTY 971
+           Q+    P     P +GR + G  +G   GG      A S++
+Sbjct: 948 QNNGMQP-----PSHGRQASGDYSGYGHGGRNLPHRALSSF 983
+
+
+>EFQ29363 pep:novel supercontig:GCA_000149035.1:GG697344:633512:635894:1
+           gene:GLRG_04507 transcript:EFQ29363
+           description:"pre-mRNA-processing factor 39"
+          Length = 590
+
+ Score = 50.1 bits (118), Expect = 3e-06,   Method: Compositional matrix adjust.
+ Identities = 76/336 (22%), Positives = 120/336 (35%), Gaps = 69/336 (20%)
+
+Query: 166 IALLELRVKEDPRGAMDSWLSLIAAYR------QRNN----IEQCRDVFERFLAVFPHAA 215
+           I  L+  V  DP    ++W  LI A         RN+    +   RD ++RFL  FP   
+Sbjct: 17  IKKLQADVDADPDN-FETWEKLIRACEGLEGGLNRNSSPQALATLRDAYDRFLLKFPLLF 75
+
+Query: 216 EVWVQYADMELSQGNFVEAEAIFGKSLMSVPN-VQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             W +YAD+E +      AE ++ +   S+ N V LWT Y  +          +     +
+Sbjct: 76  GYWKKYADLEFNIAGPESAEMVYERGCASITNSVDLWTDYCSF-------KMETTHVPHL 128
+
+Query: 275 VTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCI 334
+           V + ++     VGLD  A   W+ YI++             + Q+  D++     R + I
+Sbjct: 129 VRELFERGATCVGLDFLAHPFWDKYIEYE------------ERQEAQDKIFAILSRVIHI 176
+
+Query: 335 PLSNVNTLWREYDQFEKGLNPTTGRKYLNERSPAYMTAK-SANTALENIMRNLVRTTLPR 393
+           P+      +  + Q      P T      E  PA   AK  A    E+     V+ T   
+Sbjct: 177 PMHQYARYFERFRQLSHS-RPVT------ELVPAETLAKFKAEVEAESAQFAGVQRTELE 229
+
+Query: 394 LPPAPGFEGDVEFAE-----QVDLWKRWV---------------------KWEKEDPLDL 427
+           +      + D  + E     Q +  KRW                       W K   LD 
+Sbjct: 230 IERDVRTKIDAMYYEYFTQTQAETNKRWTYESEMKRPYFHVTELESSQLANWRK--YLDF 287
+
+Query: 428 ATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEW 463
+              +      RI++ Y++ ++   F  E W   A W
+Sbjct: 288 EESEGNF--TRIVFLYERCLVTCAFYDEFWFRYARW 321
+
+
+>EFQ28723 pep:novel supercontig:GCA_000149035.1:GG697342:137277:139349:1
+           gene:GLRG_03867 transcript:EFQ28723
+           description:"hypothetical protein"
+          Length = 672
+
+ Score = 40.4 bits (93), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 40/79 (50%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  +++W+       ++    + R VFER L V P+   +W++Y + E+   N   A  +
+Sbjct: 69  RVNLNNWMRYAQWELEQKEFARARSVFERALDVHPNDIRLWIRYIESEMKCRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTRLPRVDKLWYKYV 147
+
+
+
+ Score = 37.7 bits (86), Expect = 0.019,   Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 41/91 (45%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  I +  +  NI   R++ +R +   P   ++W +Y  ME   GN      +F + + 
+Sbjct: 109 WIRYIESEMKCRNINHARNLLDRAVTRLPRVDKLWYKYVYMEEMLGNVPGTRQVFDRWMQ 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R  + +    RAR +
+Sbjct: 169 WQPDEAAWSAYIKLEKRYGEYD----RARDI 195
+
+
+
+ Score = 35.4 bits (80), Expect = 0.11,   Method: Compositional matrix adjust.
+ Identities = 15/63 (23%), Positives = 34/63 (53%), Gaps = 5/63 (7%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWTVY 254
+           +CR ++E+ +   P   + W+++A++E    +     AIF     + ++ +P + LW  Y
+Sbjct: 454 RCRTLYEKHIEWNPSNCQTWIKFAELERGLDDLERTRAIFELAVSQPVLDMPEL-LWKAY 512
+
+Query: 255 LDY 257
+           +D+
+Sbjct: 513 IDF 515
+
+
+
+ Score = 35.0 bits (79), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 33/68 (48%), Gaps = 4/68 (5%)
+
+Query: 193 QRNNIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNV 248
+           Q  ++E+ R V+   L + PH     A++W+  A  E+ QG    A    G+ +   P  
+Sbjct: 377 QAKDVERSRQVYRVCLELIPHKKFTFAKIWLLKAQFEIRQGELTAARKTLGQGIGMCPKD 436
+
+Query: 249 QLWTVYLD 256
+           +L+  Y++
+Sbjct: 437 KLFRGYIE 444
+
+
+
+ Score = 30.8 bits (68), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 29/132 (21%), Positives = 51/132 (38%), Gaps = 13/132 (9%)
+
+Query: 216 EVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVV 275
+           ++++ YA  E     +  A AI+  +L  +P  +   ++  Y        D  G    V+
+Sbjct: 244 KLFIAYARYEAKLKEYERARAIYKYALDRLPRSRSMALHKAYTMFEKQFGDKDGVEDVVL 303
+
+Query: 276 TQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVC-I 334
+           ++   F    V  +     IW DY +    A              +D++R  Y+RAV  +
+Sbjct: 304 SKRRVFYEAQVKENPKNYDIWFDYTRLEETAGD------------LDRVRDVYERAVAQV 351
+
+Query: 335 PLSNVNTLWREY 346
+           P +     WR Y
+Sbjct: 352 PPAQEKRFWRRY 363
+
+
+>EFQ29104 pep:novel supercontig:GCA_000149035.1:GG697343:638131:640965:-1
+           gene:GLRG_04248 transcript:EFQ29104 description:"PRP1
+           splicing factor"
+          Length = 925
+
+ Score = 36.2 bits (82), Expect = 0.052,   Method: Compositional matrix adjust.
+ Identities = 18/85 (21%), Positives = 40/85 (47%), Gaps = 1/85 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+     Y     + Q R+ +   +   P +  +W+ Y+ +E   G  V+A ++  ++ +
+Sbjct: 697 WMLKGQIYEDLGKVGQAREAYSTGVKAVPKSVPLWLLYSRLEEKAGLVVKARSVLDRARL 756
+
+Query: 244 SVPNV-QLWTVYLDYIRRRNDLNDS 267
+           +VP   +LW   +   RR  ++N +
+Sbjct: 757 AVPKSPELWCESVRIERRAGNVNQA 781
+
+
+
+ Score = 33.5 bits (75), Expect = 0.36,   Method: Compositional matrix adjust.
+ Identities = 33/154 (21%), Positives = 65/154 (42%), Gaps = 28/154 (18%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQ-LWTVYL 255
+           + + R V +R     P + E+W +   +E   GN  +A+++  K+L  VP    LW+  +
+Sbjct: 744 VVKARSVLDRARLAVPKSPELWCESVRIERRAGNVNQAKSLMAKALQEVPKSGLLWSEQI 803
+
+Query: 256 DYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAW 315
+            ++  R      S  A                      K+ ND I F+ +A    G    
+Sbjct: 804 WHLEPRTQRKPRSLEA--------------------IKKVDNDPILFVAVARIFWG---- 839
+
+Query: 316 QDQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQF 349
+             ++K+++ +  +++A+ +   N +T W  Y +F
+Sbjct: 840 --ERKLEKAQNWFEKALVLDSDNGDT-WAWYYRF 870
+
+
+
+ Score = 32.3 bits (72), Expect = 0.83,   Method: Compositional matrix adjust.
+ Identities = 23/105 (21%), Positives = 48/105 (45%), Gaps = 5/105 (4%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D+W+    +   R   E  R ++   L VF ++  +W+  AD+E + G       +  K+
+Sbjct: 526 DTWMEDAKSSINRGMYETARAIYSYALRVFVNSRTLWMAAADLERNHGTKESLAQVLEKA 585
+
+Query: 242 LMSVPNVQ-LWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDN 285
+           + + P  + LW +      +  ++++    AR V+ +A+    DN
+Sbjct: 586 VEACPKSEVLWMMLAKEKWQAGEVDN----ARLVLARAFKSNPDN 626
+
+
+
+ Score = 30.8 bits (68), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 17/72 (23%), Positives = 33/72 (45%), Gaps = 1/72 (1%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  +   R   N +   D+ ++ L  FP  A++W+    +    G   +A   +   + 
+Sbjct: 663 WMKSVVFERVLGNGDAALDLVQQALQYFPATAKLWMLKGQIYEDLGKVGQAREAYSTGVK 722
+
+Query: 244 SVP-NVQLWTVY 254
+           +VP +V LW +Y
+Sbjct: 723 AVPKSVPLWLLY 734
+
+
+>EFQ34756 pep:novel supercontig:GCA_000149035.1:GG697383:236845:238559:1
+           gene:GLRG_09900 transcript:EFQ34756
+           description:"monooxygenase"
+          Length = 515
+
+ Score = 33.9 bits (76), Expect = 0.23,   Method: Compositional matrix adjust.
+ Identities = 33/153 (21%), Positives = 58/153 (37%), Gaps = 28/153 (18%)
+
+Query: 271 ARQVVTQAYDFVIDNVGLDKDASKIWND---------YIQFIRLAPGVVGGSAWQDQQKM 321
+           A   +   +D VI   G  ++   IW+          +    R  P V     + D+Q++
+Sbjct: 59  AAHCIGHGFDVVIFEAGSRENLGGIWSKVNNSSSLQIHSMMFRFHPSVKWERGYPDRQQI 118
+
+Query: 322 DQLRKAYQRAVCIPLSNVNTLWREYD-QFEKGLNPTTGRKYLNERSPAYMTAKSANTALE 380
+                         LS V  LW +Y  +     N    + Y +E+   ++   +AN   E
+Sbjct: 119 --------------LSQVKQLWHKYGLETRTKFNTPVEKVYQDEKG-RWVINNTANGHFE 163
+
+Query: 381 NIMRNLVRTTLPRLPPAPG---FEGDVEFAEQV 410
+            I+  +     P++P  PG   F+G V  + Q+
+Sbjct: 164 GIITAVGTCGEPKMPRLPGIEDFKGHVYHSSQL 196
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 12,606,907
+Number of extensions: 588788
+Number of successful extensions: 2474
+Number of sequences better than 10.0: 74
+Number of HSP's gapped: 2440
+Number of HSP's successfully gapped: 93
+Length of query: 1057
+Length of database: 5,585,764
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 4,335,684
+Effective search space: 4131906852
+Effective search space used: 4131906852
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 58 (26.9 bits)

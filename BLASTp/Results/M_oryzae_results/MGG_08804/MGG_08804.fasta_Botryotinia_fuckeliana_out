@@ -1,0 +1,118 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_08804:Protein CLP1
+         (455 letters)
+
+Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa 
+           10,351 sequences; 5,266,216 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+B0510_2864T1 pep:known supercontig:B05.10_v2:Supercontig_1.6:232...   323   e-105
+B0510_2052T1 pep:novel supercontig:B05.10_v2:Supercontig_1.4:643...    29   3.0  
+
+>B0510_2864T1 pep:known supercontig:B05.10_v2:Supercontig_1.6:232648:234324:1
+           gene:B0510_2864 transcript:B0510_2864T1
+           description:"Protein clp1"
+          Length = 461
+
+ Score =  323 bits (829), Expect = e-105,   Method: Compositional matrix adjust.
+ Identities = 187/473 (39%), Positives = 259/473 (54%), Gaps = 30/473 (6%)
+
+Query: 1   MSIPGLG------LIPEKPATSASRTYTLEPRQEYRFSVSHGASITITLTRGTAERDGTE 54
+           MSIPGLG            A + +  + L+   E+RF V+ G+SI + +  GTAE  GTE
+Sbjct: 1   MSIPGLGQAVHAARTAAPAAVAHTNIHELQANSEWRFEVAIGSSIEVKVLSGTAEIFGTE 60
+
+Query: 55  LALNVAYTLSGVKSKILSWHGANLSIEGITDHESVAGPDDAANTAHLNLHAFLQXXXXXX 114
+           LA+N  YT  G KS I +WHG  L + G  +  +    ++    +++N H  L+      
+Sbjct: 61  LAVNHTYTFHGTKSSIYTWHGCRLEVNGPCEEYTA---EETPMISYINTHFALENLRSDA 117
+
+Query: 115 XXXXXXXXXXPHGPRVLVAGKTGCGRTSLVRTLAAWATRTGAQPMVVDADXXXXXXXXXX 174
+                       GPRVL+ G    G+TSL + L A+A R G QP+VV+ D          
+Sbjct: 118 KKAGQD------GPRVLIVGPNNTGKTSLAKLLTAYAVRMGRQPIVVNTDSREGMLSIPG 171
+
+Query: 175 XXSAAVFGTVMDVXXXXXXXXXXXXXXXXVPVKLPLVFYYGRRRVEEDRDLYKGVVNXXX 234
+             +AA F +++DV                V  KLPL +YYG    E++  L+K VV    
+Sbjct: 172 SLTAAAFKSIVDVEEGWGSSSTSGPSPVPV--KLPLCYYYGLPSPEDNVKLFKPVVTRLA 229
+
+Query: 235 XXXXXXXXDDPAVRSAGMLIDTPPYV-EGKGA-DVLIHIAEELNVNIIVTIDTPSLHTEL 292
+                   DD   R  GM+IDTP  + +GKG  D++ HI  E  VNII+ + +  LH+E+
+Sbjct: 230 LAATSRLQDDAVCRETGMIIDTPGVISQGKGGYDLISHIVSEFAVNIILVLGSERLHSEM 289
+
+Query: 293 TQRFSGVKNVLGEHVSVVALDKSSGVMERDEGFLQHMGEASIKEYFFGDAKITLSPFTQQ 352
+            +RFS  K   GE +++V LDKS G ++RD+ F+Q M EA+IKEYFFGDAK TLSP TQ 
+Sbjct: 290 LRRFSTHKTDNGEAITLVRLDKSGGCVDRDDAFMQQMREATIKEYFFGDAKRTLSPHTQV 349
+
+Query: 353 VAFDELAIYTSPEASDYSA----------EPGALERIPQPLPEMAHWVLAMMDAAPNDPP 402
+           V FDEL+IY   EA    +          EP   E++ +P P M H + A+M A+  D  
+Sbjct: 350 VNFDELSIYKVKEAHSMQSAFLPGGEEEVEPTQYEKV-EPTPSMLHCIFAVMHASTRDSQ 408
+
+Query: 403 HKIRYAPVSGFVYVAAVDKERRRMKILAPVSGRLGDKPLVWGKWPEPHINLLG 455
+             IR A V GFVYVA VD++++RMKILAP++ R+ D+PL+WG WPE  +NL+G
+Sbjct: 409 DTIRDASVMGFVYVAEVDEKKKRMKILAPLNTRVTDRPLIWGSWPEAPVNLMG 461
+
+
+>B0510_2052T1 pep:novel supercontig:B05.10_v2:Supercontig_1.4:643391:645739:-1
+           gene:B0510_2052 transcript:B0510_2052T1 description:""
+          Length = 713
+
+ Score = 28.9 bits (63), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 12/22 (54%), Positives = 14/22 (63%)
+
+Query: 126 HGPRVLVAGKTGCGRTSLVRTL 147
+            G  VLV G  GCG++SL R L
+Sbjct: 489 RGDHVLVVGPNGCGKSSLFRIL 510
+
+
+  Database: Botryotinia_fuckeliana.B05.10_v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 5,266,216
+  Number of sequences in database:  10,351
+  
+Lambda     K      H
+   0.317    0.135    0.399 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10351
+Number of Hits to DB: 4,431,911
+Number of extensions: 177837
+Number of successful extensions: 435
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 430
+Number of HSP's successfully gapped: 6
+Length of query: 455
+Length of database: 5,266,216
+Length adjustment: 97
+Effective length of query: 358
+Effective length of database: 4,262,169
+Effective search space: 1525856502
+Effective search space used: 1525856502
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

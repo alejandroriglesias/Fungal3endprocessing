@@ -1,0 +1,112 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa 
+           12,391 sequences; 5,238,126 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+SNOT_14846 pep:known supercontig:ASM14691v1:supercont1.34:104426...    29   3.3  
+SNOT_04386 pep:known supercontig:ASM14691v1:supercont1.6:634466:...    29   4.1  
+SNOT_08630 pep:known supercontig:ASM14691v1:supercont1.13:337957...    27   9.4  
+
+>SNOT_14846 pep:known supercontig:ASM14691v1:supercont1.34:104426:107524:-1
+           gene:SNOG_14846 transcript:SNOT_14846
+           description:"Putative uncharacterized protein"
+          Length = 654
+
+ Score = 29.3 bits (64), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 19/32 (59%)
+
+Query: 132 NYIDNLILNKNSHNRLSKMDGLVDAVINLCVL 163
+           +YI   IL + SH ++    G+ D V+N+C L
+Sbjct: 10  HYIPRFILKQFSHGKVEIKRGVFDDVVNVCEL 41
+
+
+>SNOT_04386 pep:known supercontig:ASM14691v1:supercont1.6:634466:636340:1
+           gene:SNOG_04386 transcript:SNOT_04386
+           description:"Putative uncharacterized protein"
+          Length = 543
+
+ Score = 28.9 bits (63), Expect = 4.1,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 27/53 (50%), Gaps = 2/53 (3%)
+
+Query: 96  KLKHEKQHHSTPPIANDVSLDFFVNQLPKFSPEERKNYIDNLILNKNSHNRLS 148
+           +L    QH    P A+ V+  + +N  P  SPE+ KN++DN  +   +   +S
+Sbjct: 14  RLHATAQHLK--PAASAVAESYPMNHEPIQSPEDTKNFVDNKFVASKATQWIS 64
+
+
+>SNOT_08630 pep:known supercontig:ASM14691v1:supercont1.13:337957:338885:1
+           gene:SNOG_08630 transcript:SNOT_08630
+           description:"Putative uncharacterized protein"
+          Length = 277
+
+ Score = 27.3 bits (59), Expect = 9.4,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 28/72 (38%), Gaps = 21/72 (29%)
+
+Query: 475 KRPPREPIEFDLNGNTNST-------------PTIAK--------AFGKNSLLLRKDRGG 513
+           ++P R P E + NG  +S              PT +K          GK  LL+    G 
+Sbjct: 30  RKPVRTPSERNSNGTVSSYSTTNTRDTNITEPPTYSKKLVVVGDGGCGKTCLLISYSSGN 89
+
+Query: 514 LPYKHVPIVKRN 525
+            P K+VP V  N
+Sbjct: 90  FPEKYVPTVFEN 101
+
+
+  Database: Phaeosphaeria_nodorum.ASM14691v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,238,126
+  Number of sequences in database:  12,391
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12391
+Number of Hits to DB: 4,602,312
+Number of extensions: 183670
+Number of successful extensions: 286
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 286
+Number of HSP's successfully gapped: 5
+Length of query: 533
+Length of database: 5,238,126
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 4,023,808
+Effective search space: 1750356480
+Effective search space used: 1750356480
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 55 (25.8 bits)

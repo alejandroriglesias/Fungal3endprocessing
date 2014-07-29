@@ -1,0 +1,140 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa 
+           4776 sequences; 2,335,236 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+AAS54184 pep:known chromosome:ASM9102v1:VII:125195:126166:1 gene...   153   7e-44
+AAS54313 pep:known chromosome:ASM9102v1:VII:366137:368077:1 gene...    32   0.14 
+AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1 gene:...    29   0.91 
+AAS53281 pep:known chromosome:ASM9102v1:VI:273862:275298:1 gene:...    28   2.4  
+
+>AAS54184 pep:known chromosome:ASM9102v1:VII:125195:126166:1
+           gene:AGOS_AGL307W transcript:AAS54184
+           description:"Pre-mRNA polyadenylation factor FIP1"
+          Length = 323
+
+ Score =  153 bits (387), Expect = 7e-44,   Method: Compositional matrix adjust.
+ Identities = 100/242 (41%), Positives = 137/242 (56%), Gaps = 21/242 (8%)
+
+Query: 1   MSSSEDEDDKFLYGSDSELALPSSKRSRDDEADAGASSNPDIVKRQKFDSPVEETPATAR 60
+           M+SS+DED+KFLYGS+ E   P  ++ R       A       KR +     +       
+Sbjct: 16  MASSDDEDEKFLYGSEDEADGPRGQQKRKLIPQGTAQIQEPDTKRAR--GADDGDVDMLD 73
+
+Query: 61  XXXXXXXXXXXXXXXXXXXXLEVIISLGPDPTRLDAKLLDSYSTAATSSSKDVISVATDV 120
+                               +E+II  G D ++LD+K L + STAAT++S    ++A   
+Sbjct: 74  DDDEEEDDDEDEDDEDSDSDVEIIIGTGADSSKLDSKALTTPSTAATATSAAESAIAP-- 131
+
+Query: 121 SNTITKTSDERLITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTI 180
+                       ++E    Q      V++ +S   + KA+ G++D++  G ++   IT I
+Sbjct: 132 ------------VSE----QSAPVAAVQSGDSGAAMDKAV-GALDINAVGEYEGTPITDI 174
+
+Query: 181 DPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYNPRRILMGLLSLQQQG 240
+           DPEVLKEKPWRQPGANLSDYFNYGF E TWMEYLH+QEKL+++YNPR+ILMGLL+LQQQG
+Sbjct: 175 DPEVLKEKPWRQPGANLSDYFNYGFTEETWMEYLHKQEKLRKEYNPRKILMGLLALQQQG 234
+
+Query: 241 KL 242
+           KL
+Sbjct: 235 KL 236
+
+
+>AAS54313 pep:known chromosome:ASM9102v1:VII:366137:368077:1
+           gene:AGOS_AGL178W transcript:AAS54313
+           description:"AGL178Wp"
+          Length = 646
+
+ Score = 31.6 bits (70), Expect = 0.14,   Method: Compositional matrix adjust.
+ Identities = 34/112 (30%), Positives = 50/112 (44%), Gaps = 10/112 (8%)
+
+Query: 142 VTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVGITTIDPEVLKEKPWRQPGANLSDYF 201
+           V  +TVK    DG+V +  T  ++LD  G F+   I T DPE +        G   + +F
+Sbjct: 7   VFHSTVKPFTGDGDVHELPTFLLELD--GRFEQGNIRT-DPEKISLLI-LHLGGRAARWF 62
+
+Query: 202 -----NYGFNEFTWMEYL-HRQEKLQQDYNPRRILMGLLSLQQQGKLNSAND 247
+                 Y     T+ E + H + +  QD N   IL  L+ + Q+G L   ND
+Sbjct: 63  VKYRREYDVKMMTYEEVVGHLRNRFGQDSNAMVILARLMEVSQKGTLAEYND 114
+
+
+>AAS51760 pep:known chromosome:ASM9102v1:IV:409129:410709:1
+          gene:AGOS_ADL160W transcript:AAS51760
+          description:"ADL160Wp"
+          Length = 526
+
+ Score = 28.9 bits (63), Expect = 0.91,   Method: Compositional matrix adjust.
+ Identities = 19/48 (39%), Positives = 27/48 (56%), Gaps = 4/48 (8%)
+
+Query: 1  MSSSEDEDDKFLYGSD----SELALPSSKRSRDDEADAGASSNPDIVK 44
+          MS S++ED   +YG D    SE A+ + KR  D EA AG +S  +  +
+Sbjct: 1  MSFSDEEDFDDIYGDDNKQNSETAVAAGKRKADGEAGAGPTSKEEAAR 48
+
+
+>AAS53281 pep:known chromosome:ASM9102v1:VI:273862:275298:1 gene:AGOS_AFL091W
+           transcript:AAS53281 description:"AFL091Wp"
+          Length = 478
+
+ Score = 27.7 bits (60), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 24/53 (45%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FNY   +F+              ++Y+H +  + +D  P   LMG+
+Sbjct: 86  GPSLEDLFNYCHRKFSLKTVMMLALQMICRIQYIHGRSFIHRDIKPDNFLMGV 138
+
+
+  Database: Ashbya_gossypii.ASM9102v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:39 PM
+  Number of letters in database: 2,335,236
+  Number of sequences in database:  4776
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4776
+Number of Hits to DB: 1,069,652
+Number of extensions: 42948
+Number of successful extensions: 155
+Number of sequences better than 10.0: 14
+Number of HSP's gapped: 153
+Number of HSP's successfully gapped: 14
+Length of query: 327
+Length of database: 2,335,236
+Length adjustment: 89
+Effective length of query: 238
+Effective length of database: 1,910,172
+Effective search space: 454620936
+Effective search space used: 454620936
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 50 (23.9 bits)

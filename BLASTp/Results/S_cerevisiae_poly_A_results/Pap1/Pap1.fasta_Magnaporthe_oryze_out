@@ -1,0 +1,230 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_06313T0 pep:known chromosome:MG8:4:4201535:4205081:1 gene:MG...   483   e-163
+MGG_06121T0 pep:known chromosome:MG8:3:2641292:2645365:-1 gene:M...    84   5e-17
+MGG_06223T0 pep:known chromosome:MG8:4:4485388:4486494:-1 gene:M...    30   1.5  
+MGG_03245T0 pep:known chromosome:MG8:4:2560057:2561976:-1 gene:M...    29   3.0  
+MGG_11482T0 pep:known chromosome:MG8:5:1363056:1367172:1 gene:MG...    30   3.2  
+MGG_09444T0 pep:known chromosome:MG8:6:3267671:3268990:-1 gene:M...    29   3.5  
+MGG_05804T0 pep:known chromosome:MG8:3:3029374:3032682:-1 gene:M...    28   9.5  
+
+>MGG_06313T0 pep:known chromosome:MG8:4:4201535:4205081:1 gene:MGG_06313
+           transcript:MGG_06313T0 description:"Poly(A) polymerase
+           pla1"
+          Length = 616
+
+ Score =  483 bits (1242), Expect = e-163,   Method: Compositional matrix adjust.
+ Identities = 272/593 (45%), Positives = 361/593 (60%), Gaps = 60/593 (10%)
+
+Query: 1   MSSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQ 60
+           M +++  G+T PVS    T  E +  DSL+ EL+ + SFE   ET  R  VL+ LQE+A 
+Sbjct: 1   METERQLGVTPPVSVHLPTEEEKQATDSLLAELRAQNSFEGPVETEKRFAVLRSLQEIAD 60
+
+Query: 61  RFVYEVSKKKNMSDG-MARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTV 119
+            FV  V++KK   +  + +DA GK+F YGS RLGV GPGSDIDTLVV P++VTRED+F  
+Sbjct: 61  AFVKTVARKKEPDNAVLIKDARGKVFAYGSLRLGVWGPGSDIDTLVVAPRYVTREDYFEH 120
+
+Query: 120 FDSLLRER---KELDEIAPVPDAFVPIIKIKFSGISIDLICARL-DQPQVPL--SLTLSD 173
+           F  LL E      + +++ V DAFVPIIK +FSGISIDLI +R+    Q+P   +  LSD
+Sbjct: 121 FPGLLVEMAPPNAITDLSVVVDAFVPIIKFEFSGISIDLIFSRIATMKQLPADPNWNLSD 180
+
+Query: 174 KNLLRNLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGG 233
+            NLLR LDEK+LR++NGTRVTDEI+ LVP+ NVFR ALRAIKLWAQRRA+Y NI GFPGG
+Sbjct: 181 SNLLRGLDEKELRSVNGTRVTDEIISLVPEQNVFRTALRAIKLWAQRRAIYGNIVGFPGG 240
+
+Query: 234 VAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYA 293
+           VAWAMLVAR+CQLYP A ++V++N+FF IL +W WPQPV+LK IEDGPLQ R+WNPKIY 
+Sbjct: 241 VAWAMLVARVCQLYPRATASVVVNKFFCILMKWPWPQPVLLKAIEDGPLQARIWNPKIYP 300
+
+Query: 294 QDRSHRMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKND 353
+            DR H MP+ITPAYPSMCAT NIT+S+K VI +E V+   +TN I   K  W +LF+K+ 
+Sbjct: 301 GDRYHLMPIITPAYPSMCATFNITKSSKDVIGRELVKAADLTNLIMVGKLPWKDLFQKHT 360
+
+Query: 354 FFFR-YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESS 412
+           FF + +K+Y+++ A ++   E H  WSG VESKVRLLV  LE    I +A PF K ++ S
+Sbjct: 361 FFTKDFKYYIQVIAASK-DKESHKLWSGFVESKVRLLVQGLERHESIAVARPFIKGYDRS 419
+
+Query: 413 YCCPTEDDYEMI---------QDK------------------YGSHKTETALNALKLVTD 445
+           +    +  +  I         QDK                   G+H    A+     +  
+Sbjct: 420 HRYYDDSQFNQILEGSLANLCQDKDPQPEAKPEVPVKEEPVSNGTHTNGIAVKDEVAIKQ 479
+
+Query: 446 EN----KEEESIKDAP-------------KAYLSTMYIGLDFNIENKKEKVDIHIPCTEF 488
+           E     K E+ +   P               Y +T YIGL+   E K   +D+     +F
+Sbjct: 480 EGHARIKSEDCVDPQPLTENIPGFKGPSSDMYTTTFYIGLELRPEAK--SLDLSFQVNDF 537
+
+Query: 489 VNLC---RSFNEDYGDHKVFNLALRFVKGYDLPDEVFDENEKRPSKKSKRKNL 538
+             LC     + ED  +    N  ++ ++ + LPD++F   E +P K+  +K +
+Sbjct: 538 KWLCYDWAKYKEDLTELCFVN--IKDLRSFALPDDIFGPGETKPVKRLVKKKV 588
+
+
+>MGG_06121T0 pep:known chromosome:MG8:3:2641292:2645365:-1 gene:MGG_06121
+           transcript:MGG_06121T0 description:"Putative
+           uncharacterized protein"
+          Length = 1238
+
+ Score = 84.0 bits (206), Expect = 5e-17,   Method: Compositional matrix adjust.
+ Identities = 85/336 (25%), Positives = 147/336 (43%), Gaps = 45/336 (13%)
+
+Query: 88  GSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRERK-----ELDEIAPVPDAFVP 142
+           GS+ LGV    SDID L + P  ++   FF +    +++       E+  +  V      
+Sbjct: 668 GSWGLGVSTLSSDIDCLCIGP--LSSSTFFALTTQRIKKASVESGLEIKLLRRVRANSGV 725
+
+Query: 143 IIKIKFSGISIDL-ICARLD-QPQVPLSLTLSDKNLLRNLDEKDLRALNGTRVTDEILEL 200
+           +++++   + +DL  CA      Q P  L L   + +  L  + L  L   R  D + E 
+Sbjct: 726 MLELEVMSVRVDLQYCAATAVAEQWPAVLKLPPNDPIFALPAQTLGKLKALRDLDYLRET 785
+
+Query: 201 VPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAMLVARICQL----YPNACSAV-I 255
+           +P  + FR+A RAIK WAQ R +Y+  FG+ GG+  ++L+AR+C+L    Y    S   I
+Sbjct: 786 IPDLSKFRLAHRAIKTWAQSRGIYSAKFGYLGGIQVSILLARVCKLLARDYGQEVSVPDI 845
+
+Query: 256 LNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSHRMPVITPAY--PSMCAT 313
+           L+ FF   + ++W   +   P     L             RS R P+    +  P++  T
+Sbjct: 846 LSSFFSHYASFDWRNKIAFDPFFHKKLNYL----------RSAREPLAILGFFPPALNTT 895
+
+Query: 314 HNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKN---------------DFFFRY 358
+              T  + K I +E  +  ++ N+   +  +W   F  +               DF   Y
+Sbjct: 896 LAATVPSMKAIARELSQANELLNE---DGMTWDTFFGASSAGGDKTHSLARGAADFLSSY 952
+
+Query: 359 KFYLEITAYTRG-SDEQHLKWSGLVESKVRLLVMKL 393
+           K +++I     G S  +  ++ G +ES+  LL++ +
+Sbjct: 953 KSFVKIELQYWGISLSKGSQFIGWLESRCPLLLVDM 988
+
+
+>MGG_06223T0 pep:known chromosome:MG8:4:4485388:4486494:-1 gene:MGG_06223
+           transcript:MGG_06223T0 description:"Putative
+           uncharacterized protein"
+          Length = 313
+
+ Score = 30.0 bits (66), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 16/31 (51%)
+
+Query: 277 IEDGPLQVRVWNPKIYAQDRSHRMPVITPAY 307
+           I  GP++  +WNP +    R    P +TP +
+Sbjct: 210 IAPGPVRTPIWNPNVLIAKRGDEQPTLTPEF 240
+
+
+>MGG_03245T0 pep:known chromosome:MG8:4:2560057:2561976:-1 gene:MGG_03245
+           transcript:MGG_03245T0 description:"Aldose 1-epimerase"
+          Length = 404
+
+ Score = 29.3 bits (64), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 24/85 (28%), Positives = 36/85 (42%), Gaps = 5/85 (5%)
+
+Query: 79  DAGGKIFTYGSYRLGVHGP-GSDIDTLVVVPKHVTREDFFTVFD--SLLRERKELDEIAP 135
+           D  GK + YG        P G+ I  L++  KH    D  T FD  +   E K+ D    
+Sbjct: 32  DKDGKYWIYGKGISAAFVPYGASIANLMIHDKHGIERDIVTGFDNATFFTEDKKHDHFGG 91
+
+Query: 136 VPDAFVPIIKIKFSGISIDLICARL 160
+           +P  +    +IK S   ID +  ++
+Sbjct: 92  IPGRYAN--RIKNSTFEIDGVQYKI 114
+
+
+>MGG_11482T0 pep:known chromosome:MG8:5:1363056:1367172:1 gene:MGG_11482
+           transcript:MGG_11482T0 description:"Translation
+           initiation factor IF-2"
+          Length = 1154
+
+ Score = 29.6 bits (65), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 21/82 (25%), Positives = 34/82 (41%), Gaps = 7/82 (8%)
+
+Query: 352 NDFFFRY------KFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPF 405
+            DFF ++      K   +    T+  DEQ   W   VE K  +   + EVL  ++     
+Sbjct: 391 GDFFAQFEGLNDKKARSKTPTKTQRGDEQEWNWIKDVEKKAEINAQREEVLEKLQDIPKS 450
+
+Query: 406 TKPFESSYCCPTED-DYEMIQD 426
+           T+P  +S   P ++  Y  + D
+Sbjct: 451 TEPMATSDAAPAQNPQYREVAD 472
+
+
+>MGG_09444T0 pep:known chromosome:MG8:6:3267671:3268990:-1 gene:MGG_09444
+           transcript:MGG_09444T0 description:"Methylitaconate
+           delta2-delta3-isomerase"
+          Length = 439
+
+ Score = 29.3 bits (64), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 28/60 (46%), Gaps = 3/60 (5%)
+
+Query: 79  DAGGKIFTYGSYRL-GVHGPGSDIDTLVVVPKHVTREDFFTVFDSLLRERKELDEIAPVP 137
+           D  G +   GS+R+ GV GPGS+I    V P        F        E  ++DE+A +P
+Sbjct: 150 DEDGCVVEDGSFRIPGVKGPGSEIKVAFVEPAGSMTGKLFP--SGRRAESMQVDEVAGLP 207
+
+
+>MGG_05804T0 pep:known chromosome:MG8:3:3029374:3032682:-1 gene:MGG_05804
+           transcript:MGG_05804T0 description:"Phospholipase D p1"
+          Length = 857
+
+ Score = 28.1 bits (61), Expect = 9.5,   Method: Compositional matrix adjust.
+ Identities = 23/92 (25%), Positives = 42/92 (45%), Gaps = 20/92 (21%)
+
+Query: 487 EFVNLCRSFNEDYGDHKVFNLALRFVKGYDLPDEVF-------DENEKRPSKKSKRKNLD 539
+           ++ ++CR      G+H +F +  +  +G D    +F       D   K P  K   +   
+Sbjct: 476 QYKSICR------GEHSIFEMIKK--EGVDPTKYIFFFNLRSYDRLNKTPGIKQLEEESG 527
+
+Query: 540 ARHETVKRSKSD-----AASGDNINGTTAAVD 566
+            R++ V+R++++     A  G  +NGT AA D
+Sbjct: 528 VRYQDVQRAEAEEIMGSAVHGTAVNGTAAARD 559
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 6,344,616
+Number of extensions: 275105
+Number of successful extensions: 688
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 679
+Number of HSP's successfully gapped: 9
+Length of query: 568
+Length of database: 5,666,059
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,403,314
+Effective search space: 2065154266
+Effective search space used: 2065154266
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

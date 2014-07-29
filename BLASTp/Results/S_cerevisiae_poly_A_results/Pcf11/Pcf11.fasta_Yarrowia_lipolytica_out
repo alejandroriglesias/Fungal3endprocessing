@@ -1,0 +1,163 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa 
+           6448 sequences; 3,139,837 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CAG82140 pep:novel chromosome:GCA_000002525.1:C:1992000:1994063:...   131   7e-33
+CAG83441 pep:novel chromosome:GCA_000002525.1:B:2836449:2837306:...    28   5.5  
+CAG78921 pep:novel chromosome:GCA_000002525.1:F:3930006:3932105:...    28   6.2  
+CAG78096 pep:novel chromosome:GCA_000002525.1:F:1521612:1523417:...    27   8.2  
+
+>CAG82140 pep:novel chromosome:GCA_000002525.1:C:1992000:1994063:-1
+           gene:YALI0_C14476g transcript:CAG82140
+           description:"YALI0C14476p"
+          Length = 541
+
+ Score =  131 bits (329), Expect = 7e-33,   Method: Compositional matrix adjust.
+ Identities = 87/247 (35%), Positives = 124/247 (50%), Gaps = 29/247 (11%)
+
+Query: 8   IVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQKLYAFYAL 67
+           I +D+   LEELT   +PIIT LT +AEEN   A+    AIE RI KC P+ KL A Y L
+Sbjct: 7   IREDYLYALEELTGVQKPIITNLTVIAEENRHAAKAITRAIEERISKCAPEYKLPAMYLL 66
+
+Query: 68  DSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGLPLFEGSA 127
+           DSICKNVG+PYT  F  NL+  +  TY  V  + R KLI ++  W   + TG  LF    
+Sbjct: 67  DSICKNVGAPYTTCFGINLYRTFADTYTQVPESIRRKLIELYGTWKT-SATGGMLFPAEP 125
+
+Query: 128 LEKIEQFLIKASALHQK--------NLQAMLP-TP-------------------TVPLLL 159
+           + KI  FL + + +  +        NL    P TP                   T P LL
+Sbjct: 126 MRKIASFLERINEVTSRATPNPATPNLGTPNPATPPLGTPVPGQGGFGVPNAGLTQPQLL 185
+
+Query: 160 RDIDKLTCLTSERLKNQPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQ 219
+                +  +TS+RL++ P D   K ++ VL QL+  L+ + + ++ L  ++ QL    + 
+Sbjct: 186 EKCSHVIDMTSDRLQHIPGDVDAKERIPVLKQLQAVLQSQAIPVSYLSNIEAQLASSLAH 245
+
+Query: 220 DQQVLQE 226
+           +++ L E
+Sbjct: 246 EEKKLAE 252
+
+
+
+ Score = 82.0 bits (201), Expect = 7e-17,   Method: Compositional matrix adjust.
+ Identities = 47/198 (23%), Positives = 82/198 (41%), Gaps = 56/198 (28%)
+
+Query: 408 NLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSN 467
+           NL+  LY   P  C++CG+RF +++    +Q  H+DWHFRIN +++  +  A        
+Sbjct: 373 NLVFNLYGKMPKVCNICGRRFRDNQDHARMQ--HMDWHFRINKKMRQDEGRA-------- 422
+
+Query: 468 LNTTTTRKNIQSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADEN 527
+                     Q+R WYL++  W A +  E    K +    +                   
+Sbjct: 423 ----------QNRRWYLAEHLWVAGEQKEEKEEKVQKVDME------------------- 453
+
+Query: 528 DEGSVDNTLGSDRSNELEIRGKYVVVPETSQDMAFKCPICKETVTGVYDEESGEWVWKNT 587
+                             ++ ++V+ P ++      CPIC         +E+ +WVW + 
+Sbjct: 454 -----------------SVKKQWVLAPSSASKKKQVCPICTGGFNTELSDEAEDWVWTDA 496
+
+Query: 588 IEVNGKYFHSTCYHETSQ 605
+           ++V  K FH+TCY E+ +
+Sbjct: 497 VQVGDKIFHATCYAESGK 514
+
+
+>CAG83441 pep:novel chromosome:GCA_000002525.1:B:2836449:2837306:1
+           gene:YALI0_B21582g transcript:CAG83441
+           description:"YALI0B21582p"
+          Length = 285
+
+ Score = 27.7 bits (60), Expect = 5.5,   Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 17/37 (45%), Gaps = 8/37 (21%)
+
+Query: 415 RSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTR 451
+           R KP  C  CGK+F  S++        L  H R + R
+Sbjct: 256 REKPFNCDTCGKKFSRSDN--------LAQHMRTHPR 284
+
+
+>CAG78921 pep:novel chromosome:GCA_000002525.1:F:3930006:3932105:-1
+           gene:YALI0_F31713g transcript:CAG78921
+           description:"YALI0F31713p"
+          Length = 699
+
+ Score = 27.7 bits (60), Expect = 6.2,   Method: Compositional matrix adjust.
+ Identities = 21/73 (28%), Positives = 33/73 (45%), Gaps = 7/73 (9%)
+
+Query: 478 QSRNWYLSDSQWAAFKDDEITSTKHKNDYTDPHANKNIDKSALNIHADENDEGSVDNTLG 537
+           Q+  +  SDS    + DDE    +  N + + H N + D+ A+     + DEG      G
+Sbjct: 425 QAEFFVQSDSDH--YSDDEYGQDRKGNGHQNEHQNNSRDQVAV-----KEDEGEYAYDHG 477
+
+Query: 538 SDRSNELEIRGKY 550
+            D  NE   RG++
+Sbjct: 478 DDEENEHSTRGEF 490
+
+
+>CAG78096 pep:novel chromosome:GCA_000002525.1:F:1521612:1523417:1
+           gene:YALI0_F11487g transcript:CAG78096
+           description:"YALI0F11487p"
+          Length = 333
+
+ Score = 27.3 bits (59), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 13/18 (72%)
+
+Query: 413 LYRSKPNKCSVCGKRFGN 430
+           + + KP +C +CGKR+ N
+Sbjct: 303 MEKDKPYRCEICGKRYKN 320
+
+
+  Database: Yarrowia_lipolytica.GCA_000002525.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 3,139,837
+  Number of sequences in database:  6448
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6448
+Number of Hits to DB: 3,642,325
+Number of extensions: 153176
+Number of successful extensions: 426
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 423
+Number of HSP's successfully gapped: 20
+Length of query: 626
+Length of database: 3,139,837
+Length adjustment: 96
+Effective length of query: 530
+Effective length of database: 2,520,829
+Effective search space: 1336039370
+Effective search space used: 1336039370
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 54 (25.4 bits)

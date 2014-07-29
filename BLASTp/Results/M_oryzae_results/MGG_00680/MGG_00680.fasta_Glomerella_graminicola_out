@@ -1,0 +1,203 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_00680:mRNA 3'-end-processing protein yth-1
+         (276 letters)
+
+Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa 
+           12,020 sequences; 5,585,764 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ30815 pep:novel supercontig:GCA_000149035.1:GG697351:294744:2...   263   4e-87
+EFQ26207 pep:novel supercontig:GCA_000149035.1:GG697334:153149:1...    44   2e-05
+EFQ27232 pep:novel supercontig:GCA_000149035.1:GG697337:182833:1...    38   0.003
+EFQ33388 pep:novel supercontig:GCA_000149035.1:GG697370:122835:1...    37   0.004
+EFQ26408 pep:novel supercontig:GCA_000149035.1:GG697334:860330:8...    29   1.4  
+EFQ27934 pep:novel supercontig:GCA_000149035.1:GG697339:315035:3...    29   1.5  
+EFQ31577 pep:novel supercontig:GCA_000149035.1:GG697356:213169:2...    28   2.7  
+EFQ29025 pep:novel supercontig:GCA_000149035.1:GG697343:273738:2...    28   2.8  
+EFQ28863 pep:novel supercontig:GCA_000149035.1:GG697342:731257:7...    28   3.0  
+EFQ34629 pep:novel supercontig:GCA_000149035.1:GG697382:111210:1...    28   3.7  
+EFQ26334 pep:novel supercontig:GCA_000149035.1:GG697334:623096:6...    27   6.2  
+EFQ26631 pep:novel supercontig:GCA_000149035.1:GG697335:249379:2...    27   7.3  
+
+>EFQ30815 pep:novel supercontig:GCA_000149035.1:GG697351:294744:295505:-1
+           gene:GLRG_05959 transcript:EFQ30815
+           description:"hypothetical protein"
+          Length = 253
+
+ Score =  263 bits (671), Expect = 4e-87,   Method: Compositional matrix adjust.
+ Identities = 134/215 (62%), Positives = 155/215 (72%), Gaps = 17/215 (7%)
+
+Query: 1   MASPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCL 60
+           MA+ +       +L H+    SFSFTPFL+QTY+H L SDRP CK + +G +CP G  C 
+Sbjct: 1   MAAVASRPETAQILNHAPTATSFSFTPFLRQTYRHELSSDRPQCKSFLAG-HCPLGASCP 59
+
+Query: 61  ERHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPEC 120
+           +RH    S          S    GP   SLVCKHWLRGLCKKG+ CEFLHEYNLR+MPEC
+Sbjct: 60  DRHAYSTS----------SNPSGGP---SLVCKHWLRGLCKKGESCEFLHEYNLRKMPEC 106
+
+Query: 121 NFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCGF 180
+           NF++RNGYC NGEECLYLHIDPQSKLPPCPHYD+GFCPLGPRCSKKHVRR LCP+YL GF
+Sbjct: 107 NFFMRNGYCSNGEECLYLHIDPQSKLPPCPHYDKGFCPLGPRCSKKHVRRKLCPFYLVGF 166
+
+Query: 181 CPDGRLCKQGAHPGWNPKLDPPTVKVEKPAGEEDA 215
+           CP+G  CK GAHP W   L+ P+ KVE   GE++A
+Sbjct: 167 CPEGPGCKYGAHPRWRTDLEKPSAKVE---GEDEA 198
+
+
+>EFQ26207 pep:novel supercontig:GCA_000149035.1:GG697334:153149:154784:1
+           gene:GLRG_01351 transcript:EFQ26207
+           description:"hypothetical protein"
+          Length = 432
+
+ Score = 44.3 bits (103), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 29/99 (29%), Positives = 45/99 (45%), Gaps = 8/99 (8%)
+
+Query: 96  LRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQG 155
+           L G C KG  C ++H+ +  R+  C   +  G C NGE C   H     + P C H+ +G
+Sbjct: 254 LTGSCAKGPACRYVHDAS--RVAVCRELLHKGNCANGESCDLSHDLTPQRTPTCVHFIKG 311
+
+Query: 156 FCPLGPRCSKKHVRRN----LCPYY-LCGFCPDGRLCKQ 189
+            C   P C   H   +    +C  + + G+C  G  C++
+Sbjct: 312 NCA-NPNCPYAHSSVSPGALVCRSFGMYGYCDKGDECEE 349
+
+
+
+ Score = 42.7 bits (99), Expect = 5e-05,   Method: Compositional matrix adjust.
+ Identities = 41/169 (24%), Positives = 68/169 (40%), Gaps = 26/169 (15%)
+
+Query: 2   ASPSVAKIADAMLAHSAPKYSFSFTPFLQQTYQHSLPSDRPICKVYASGGNCPNGTRCLE 61
+           A+P VA +      H +   +      L+   Q+ +      C +++  G+C  G  C  
+Sbjct: 208 ATPKVAFVGGVKF-HRSKTGNLYRAGVLKAQRQNGVKKVDVPCSMFSLTGSCAKGPAC-- 264
+
+Query: 62  RHVADPSQLSNAQSGYGSGKRDGPAFNSLVCKHWL-RGLCKKGDGCEFLHEYNLRRMPEC 120
+           R+V D S+++                   VC+  L +G C  G+ C+  H+   +R P C
+Sbjct: 265 RYVHDASRVA-------------------VCRELLHKGNCANGESCDLSHDLTPQRTPTC 305
+
+Query: 121 NFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQ-GFCPLGPRCSKKHV 168
+             +I+ G C N   C Y H         C  +   G+C  G  C ++HV
+Sbjct: 306 VHFIK-GNCAN-PNCPYAHSSVSPGALVCRSFGMYGYCDKGDECEERHV 352
+
+
+>EFQ27232 pep:novel supercontig:GCA_000149035.1:GG697337:182833:185209:-1
+           gene:GLRG_01727 transcript:EFQ27232
+           description:"hypothetical protein"
+          Length = 597
+
+ Score = 37.7 bits (86), Expect = 0.003,   Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 33/66 (50%), Gaps = 1/66 (1%)
+
+Query: 80  GKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEYNLRRMPECNFYIRNGYCQNGEECLYLH 139
+           G R  P  + + CK + +G C+ G+ C F H+        C ++ + G C+ G +C  +H
+Sbjct: 51  GPRSPPNTSHVPCKFFRQGACQAGNACPFSHDLGAAAENICKYFAK-GNCKFGPKCANIH 109
+
+Query: 140 IDPQSK 145
+           + P  +
+Sbjct: 110 VLPDGR 115
+
+
+
+ Score = 35.4 bits (80), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 22/71 (30%), Positives = 30/71 (42%), Gaps = 13/71 (18%)
+
+Query: 120 CNFYIRNGYCQNGEECLYLHIDPQSKLPPCPHYDQGFCPLGPRCSKKHVRRNLCPYYLCG 179
+           C F+ R G CQ G  C + H    +    C ++ +G C  GP+C+  HV           
+Sbjct: 63  CKFF-RQGACQAGNACPFSHDLGAAAENICKYFAKGNCKFGPKCANIHV----------- 110
+
+Query: 180 FCPDGRLCKQG 190
+             PDGR    G
+Sbjct: 111 -LPDGRRINYG 120
+
+
+
+ Score = 26.6 bits (57), Expect = 9.7,   Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 20/50 (40%), Gaps = 4/50 (8%)
+
+Query: 142 PQSKLPPCPHYDQGFCPLGPRCSKKH----VRRNLCPYYLCGFCPDGRLC 187
+           P +   PC  + QG C  G  C   H       N+C Y+  G C  G  C
+Sbjct: 56  PNTSHVPCKFFRQGACQAGNACPFSHDLGAAAENICKYFAKGNCKFGPKC 105
+
+
+>EFQ33388 pep:novel supercontig:GCA_000149035.1:GG697370:122835:124913:-1
+           gene:GLRG_08667 transcript:EFQ33388
+           description:"hypothetical protein"
+          Length = 467
+
+ Score = 37.0 bits (84), Expect = 0.004,   Method: Compositional matrix adjust.
+ Identities = 25/72 (34%), Positives = 32/72 (44%), Gaps = 10/72 (13%)
+
+Query: 66  DPSQLSNAQSGYGSGKRDGPAFNSLVCKHWLRGLCKKGDGCEFLHEY--NLRRMPECNFY 123
+           +P+ L N +   G  K        L   H+LRG C KGD C F H+Y  N   +      
+Sbjct: 359 NPAALDNIKKRTGRDK--------LCNNHYLRGPCAKGDECCFEHKYKPNPDEVNAIALL 410
+
+Query: 124 IRNGYCQNGEEC 135
+            R   C NG+EC
+Sbjct: 411 TRLNPCTNGQEC 422
+
+
+>EFQ26408 pep:novel supercontig:GCA_000149035.1:GG697334:860330:862623:-1
+           gene:GLRG_01552 transcript:EFQ26408 description:"smr
+           domain-containing protein"
+          Length = 726
+
+ Score = 29.3 bits (64), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 10/21 (47%), Positives = 14/21 (66%)
+
+Query: 91  VCKHWLRGLCKKGDGCEFLHE 111
+           +CK+W+ G C  GD C F H+
+Sbjct: 312 LCKYWVMGNCLAGDTCIFSHD 332
+
+
+  Database: Glomerella_graminicola.GCA_000149035.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,585,764
+  Number of sequences in database:  12,020
+  
+Lambda     K      H
+   0.321    0.140    0.478 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12020
+Number of Hits to DB: 3,345,963
+Number of extensions: 163639
+Number of successful extensions: 335
+Number of sequences better than 10.0: 18
+Number of HSP's gapped: 312
+Number of HSP's successfully gapped: 24
+Length of query: 276
+Length of database: 5,585,764
+Length adjustment: 93
+Effective length of query: 183
+Effective length of database: 4,467,904
+Effective search space: 817626432
+Effective search space used: 817626432
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

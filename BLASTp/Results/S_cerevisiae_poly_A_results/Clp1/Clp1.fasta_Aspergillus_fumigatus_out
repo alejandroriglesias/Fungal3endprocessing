@@ -1,0 +1,152 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00005770 pep:known scaffold:CADRE:DS499597:2832802:28346...   129   4e-33
+CADAFUBP00006254 pep:known scaffold:CADRE:DS499598:415802:418736...    30   1.7  
+CADAFUBP00005555 pep:known scaffold:CADRE:DS499597:2254734:22605...    28   4.6  
+CADAFUBP00009613 pep:known scaffold:CADRE:DS499603:220356:222617...    27   8.1  
+
+>CADAFUBP00005770 pep:known scaffold:CADRE:DS499597:2832802:2834629:1
+           gene:CADAFUBG00005877 transcript:CADAFUBT00005877
+           description:"mRNA cleavage and polyadenylation factor
+           clp1"
+          Length = 552
+
+ Score =  129 bits (325), Expect = 4e-33,   Method: Compositional matrix adjust.
+ Identities = 110/409 (26%), Positives = 184/409 (44%), Gaps = 64/409 (15%)
+
+Query: 3   SLPGIDEHTTSEELITGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTELAV 62
+           SLPG++   TS E         ++ + KGS+W+ ++     + VK+ +G  E+FGTELA 
+Sbjct: 2   SLPGLELSQTSSEREFVPAPPTQITLSKGSEWRFEVAFGTAIRVKLLAGTAELFGTELAA 61
+
+Query: 63  DDEYTFQNWKFPIYAVEETELLWKCPDLTTNTI-------------------------TV 97
+              YTF   K  IY      L     D T +TI                         T 
+Sbjct: 62  SQTYTFSGTKAAIYTWHGCTLEVSAGD-TISTIDGLGSGGLNGEGARGYGAGGCQSEYTA 120
+
+Query: 98  KPNHTMKYIYNLHFMLEKIRM----SNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAY 153
+           +    ++Y  N+HF LE +R     +  +GPRV+I+G    GKTS+++ L +YA K    
+Sbjct: 121 EETPMVEYA-NVHFALEAMRQEAKATGKDGPRVLILGPENAGKTSVAKILTAYATKVG-R 178
+
+Query: 154 QPLYINLDPQQPIFTVPGCISATPISDILDAQLPTWGQSLTSGATLLHNKQPMVKNFGLE 213
+           QP+ +NLDP + + +VPG ++AT    +++ +   WG S  SG + +  K P+V  + L+
+Sbjct: 179 QPIVVNLDPAEGMLSVPGTLTATAFRTMMNVE-EGWGSSPMSGPSAVPVKLPLVYFYPLQ 237
+
+Query: 214 R-INENKDLYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSISQLDE--NLAELHHII- 269
+             +     +Y   +S+L   V  R+  D   R +G IVDTP I    +  +L  ++HI+ 
+Sbjct: 238 NPLEAEGAVYRPIVSRLALSVTGRMAEDEDTRETGIIVDTPGILSAGKPGSLEIINHIVT 297
+
+Query: 270 -----EKLNVNIMLVLCSETDPLWEKVKKTFGPELGNNNIFFIPKLDGVSAVDDVYKRSL 324
+                E+L   +M     +  P            +    +  + K  G    D  + +S+
+Sbjct: 298 EFASSERLYSTMMKNY--DNKPTSSASAAASDERI---TVVKLSKSGGCVDRDAAFMKSV 352
+
+Query: 325 QRTSIREYFYG-----------------SLDTALSPYAIGVDYEDLTIW 356
+           + + IR YF+G                 + +  LSP+A  +D++ L ++
+Sbjct: 353 RESQIRTYFFGNPIPSTASAALSMSASSTTNITLSPHAQQLDFDSLAVY 401
+
+
+>CADAFUBP00006254 pep:known scaffold:CADRE:DS499598:415802:418736:1
+           gene:CADAFUBG00006378 transcript:CADAFUBT00006378
+           description:"Putative uncharacterized protein"
+          Length = 781
+
+ Score = 29.6 bits (65), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 31/96 (32%), Positives = 45/96 (46%), Gaps = 20/96 (20%)
+
+Query: 2   ASLPGI-----DEHTTS----EELITGDNEWHKLVIPKGSDW----QIDLKAEGKLIVKV 48
+           ASLP I     + HT S     +L+ GD    + V     DW       L+  GK IV +
+Sbjct: 190 ASLPSIKVNVQNGHTNSLDILADLVAGDLMGIRAV---ADDWIEGRLGQLRVNGKAIVHL 246
+
+Query: 49  NSGIVEIFGTELAVDDEYTFQNWKFPIYAVEETELL 84
+            SGI+ +   E  + D  TF++  FP  A+ E ++L
+Sbjct: 247 KSGILSL--GEQILTDSVTFKDKDFP--ALPEVKIL 278
+
+
+>CADAFUBP00005555 pep:known scaffold:CADRE:DS499597:2254734:2260576:-1
+            gene:CADAFUBG00005652 transcript:CADAFUBT00005652
+            description:"ABC bile acid transporter, putative"
+          Length = 1875
+
+ Score = 28.5 bits (62), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 25/44 (56%)
+
+Query: 100  NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSRTL 143
+            N+T +Y  +L  +L  +  +   G +V IVG +  GK+SL+  L
+Sbjct: 1585 NYTTRYRADLDPVLRSVSFAVKPGEKVGIVGRTGAGKSSLALAL 1628
+
+
+>CADAFUBP00009613 pep:known scaffold:CADRE:DS499603:220356:222617:1
+           gene:CADAFUBG00009789 transcript:CADAFUBT00009789
+           description:"Conserved serine-threonine rich protein"
+          Length = 753
+
+ Score = 27.3 bits (59), Expect = 8.1,   Method: Compositional matrix adjust.
+ Identities = 16/60 (26%), Positives = 26/60 (43%)
+
+Query: 289 EKVKKTFGPELGNNNIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGV 348
+           E ++    P   ++N   +   DG          S  +T++R    G + TA + YAIGV
+Sbjct: 663 ENIRAATAPSDSSSNPGIVSTADGSKVTGHANAWSRVQTALRRMLIGGVATAGTCYAIGV 722
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 4,076,715
+Number of extensions: 173147
+Number of successful extensions: 379
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 376
+Number of HSP's successfully gapped: 6
+Length of query: 445
+Length of database: 4,796,137
+Length adjustment: 96
+Effective length of query: 349
+Effective length of database: 3,844,201
+Effective search space: 1341626149
+Effective search space used: 1341626149
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,150 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_00804T0 pep:known chromosome:ASM14955v1:1:3977838:3980965:-...   214   5e-59
+FVEG_05229T0 pep:known chromosome:ASM14955v1:3:2972154:2973820:-...    30   2.6  
+FVEG_01430T0 pep:known chromosome:ASM14955v1:1:5940019:5942187:1...    28   8.1  
+
+>FVEG_00804T0 pep:known chromosome:ASM14955v1:1:3977838:3980965:-1
+           gene:FVEG_00804 transcript:FVEG_00804T0
+           description:"conserved hypothetical protein"
+          Length = 992
+
+ Score =  214 bits (544), Expect = 5e-59,   Method: Compositional matrix adjust.
+ Identities = 169/608 (27%), Positives = 283/608 (46%), Gaps = 89/608 (14%)
+
+Query: 31  LRERIKDNPTNIL-SYFQLIQYLETQESYAKVREVYEQFHNTFPFYSPAWTLQLKGELAR 89
+           L  R+K++P   + ++  LI            R  Y +F   FP  +  W   ++ EL  
+Sbjct: 162 LEARVKEDPRGDMDAWLNLIADHRRLSRLDLARSTYNRFLEIFPQAADVWVEWIEMELGL 221
+
+Query: 90  DEFETVEKILAQCLSGKLENNDLSLWSTYLDYIRRKNNL--ITGGQEARAVIVKAFQLVM 147
+           D F   E++  +CL   +   ++ LW+ YL+YIRR+N+L     GQ AR  I ++++ V+
+Sbjct: 222 DNFVDAEQLFGRCL---MTVPNVKLWTVYLNYIRRRNDLNNDPSGQ-ARRTITQSYEFVI 277
+
+Query: 148 QKCAIFEPKSSSFWNEYLNFLEQWKP---FNKWEEQQRIDMLREFYKKMLCVPFDNLEKM 204
+               + +  S + W +Y+ F++          W++QQ++D LR+ Y++ + VP   +  +
+Sbjct: 278 DNIGV-DRDSGNIWQDYVQFVKNGPGQIGGTGWQDQQKMDQLRKVYQRAISVPMLTVNNL 336
+
+Query: 205 WNRYTQWEQEINSLTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNI 264
+           W  Y Q+E  +N +T RKFI E S  YM A+S      N+T  L+R    NL     +  
+Sbjct: 337 WKEYDQFEMGLNKMTGRKFIQERSPGYMSAKSANIALDNITRHLRR---TNL----PRLP 389
+
+Query: 265 PQPG-TSDSNIQ-QLQIWLNWIKWERENKLMLSED---MLSQRISYVYKQGIQYMIFSAE 319
+           P PG   D   + Q+++W  WI WE+E+ L+L  D     +QR+ YVYKQ +  + F  E
+Sbjct: 390 PAPGFDGDQEFRDQVELWKKWIAWEKEDPLVLKTDEPKTYNQRVLYVYKQALMALRFWPE 449
+
+Query: 320 MWYDYSMYISENSDRQN-------ILYTALLANPDSPSLTFKLSECYELDND-------- 364
+           +W D + +  +N  R+N       +L   + AN +S  L  K ++  E++          
+Sbjct: 450 IWVDAAEWCFQNDIRENDKELGTELLLEGIRANRESVLLALKHADHIEVNYPGKEVDKAE 509
+
+Query: 365 -SESVSNCFDKCTQTLLSQYKKI---------------ASD-VNSGEDNN---------- 397
+            +++V   +D   +TL     K+               A D V +  ++N          
+Sbjct: 510 FAQAVRKPYDDVLETLYEMGDKVKEREKLEVSTLRQAAAQDLVQASIEHNDDDDDEEDSK 569
+
+Query: 398 ---TEYEQELLYKQR----------EKLTFVFCVYMNTMKRISGLS-----AARTVFGKC 439
+              +  E+ +L  QR            +++V+      M+RI G         R VF   
+Sbjct: 570 PKRSPMEERILAIQRGYAAETQLLSRTISYVWIALARAMRRIQGKGNQSEGGLRKVFTDA 629
+
+Query: 440 RKLKRILTHDVYVENAYLEFQNQNDYKTAFKVLELGLKYFQNDGVYINKYLDFLIFLNKD 499
+           R+  R LT DVYV  A LE     D   A K+ E G + F ND +++ +YL +L   +  
+Sbjct: 630 RQKGR-LTSDVYVAVALLESVVYKDPVGA-KIFERGARLFPNDEMFMIEYLKYLHSKDDT 687
+
+Query: 500 SQIKTLFETSV----EKVQDLTQLKEIYKKMISYESKFGNLNNVYSLEKRFFERFPQENL 555
+           +  + +FET V     K + L + K +Y     YES++G L+ +  LE R  E FP++  
+Sbjct: 688 TNARAVFETCVTRLVSKPETLAKAKPLYAYFHKYESQYGELSQISKLEDRMAELFPEDPK 747
+
+Query: 556 IEVFTSRY 563
+           ++ F +R+
+Sbjct: 748 LKSFVARF 755
+
+
+>FVEG_05229T0 pep:known chromosome:ASM14955v1:3:2972154:2973820:-1
+           gene:FVEG_05229 transcript:FVEG_05229T0
+           description:"conserved hypothetical protein"
+          Length = 303
+
+ Score = 29.6 bits (65), Expect = 2.6,   Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 22/43 (51%), Gaps = 4/43 (9%)
+
+Query: 230 EYMKAR----SLYQEWLNVTNGLKRASPINLRTANKKNIPQPG 268
+           E+MKAR     ++  WL +  G+   S   LR   KK + QPG
+Sbjct: 166 EHMKARNWLHGIFIHWLLIVGGVLLVSVAPLRNFLKKRVCQPG 208
+
+
+>FVEG_01430T0 pep:known chromosome:ASM14955v1:1:5940019:5942187:1 gene:FVEG_01430
+           transcript:FVEG_01430T0 description:"pre-mRNA-splicing
+           factor clf-1"
+          Length = 674
+
+ Score = 28.5 bits (62), Expect = 8.1,   Method: Compositional matrix adjust.
+ Identities = 13/41 (31%), Positives = 23/41 (56%)
+
+Query: 33  ERIKDNPTNILSYFQLIQYLETQESYAKVREVYEQFHNTFP 73
+           E IK+NP N  ++F   +  ET +   ++R++YE+     P
+Sbjct: 312 ELIKENPKNYDAWFDYAKLEETSQDSDRIRDIYERAVAQVP 352
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 7,694,022
+Number of extensions: 314434
+Number of successful extensions: 796
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 791
+Number of HSP's successfully gapped: 8
+Length of query: 677
+Length of database: 5,950,719
+Length adjustment: 101
+Effective length of query: 576
+Effective length of database: 4,518,034
+Effective search space: 2602387584
+Effective search space used: 2602387584
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 56 (26.2 bits)

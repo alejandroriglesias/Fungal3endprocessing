@@ -1,0 +1,143 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Transcription/RNA-processing factor that associates with TFIIB
+and cleavage/polyadenylation factor Pta1p; exhibits phosphatase
+activity on serine-5 of the RNA polymerase II C-terminal domain;
+affects start site selection in vivo
+         (206 letters)
+
+Database: Neosartorya_fischeri.CADRE.21.pep.all.fa 
+           10,402 sequences; 5,073,492 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADNFIAP00007542 pep:known contig:CADRE:9292:2315496:2316359:-1 ...   190   2e-59
+CADNFIAP00005976 pep:known contig:CADRE:9288:2883898:2885604:1 g...    27   3.1  
+CADNFIAP00001912 pep:known contig:CADRE:8741:1419585:1423019:-1 ...    27   3.4  
+CADNFIAP00003003 pep:known contig:CADRE:8927:511935:512708:-1 ge...    27   3.4  
+
+>CADNFIAP00007542 pep:known contig:CADRE:9292:2315496:2316359:-1
+           gene:CADNFIAG00007709 transcript:CADNFIAT00007709
+           description:"Transcription/RNA-processing factor Ssu72"
+          Length = 287
+
+ Score =  190 bits (482), Expect = 2e-59,   Method: Compositional matrix adjust.
+ Identities = 105/234 (44%), Positives = 137/234 (58%), Gaps = 37/234 (15%)
+
+Query: 9   LKFCTVCASNNNRSMESHKVLQEAG--YNVSSYGTGSAVRLPGLSIDKPNVYSFGTP-YN 65
+           LKFCTVCASN NRSME+H  L  A   + V S+GTGS VRLPG SI +PNVY+F T  Y+
+Sbjct: 53  LKFCTVCASNQNRSMEAHLRLSTAPSPFPVISFGTGSLVRLPGPSITQPNVYNFNTTSYS 112
+
+Query: 66  DIYNDLLSQSADRYKSNGLLQMLDRNRRLKKAPEKWQE---------------------S 104
+            +Y++LL++    Y++NGLL MLDRNR LK  PE++Q+                      
+Sbjct: 113 QMYDELLAKDERLYRNNGLLNMLDRNRNLKWGPERFQDWVPGMPRVDHVSKGDKGALGTE 172
+
+Query: 105 TKVFDFVFTCEERCFDAVCEDLMNRGGKLNKIVHVINVDIKDDDENAKIGSKAILELADM 164
+               D + TCEERC+DAV +DLMN+G  LN+ VHV NVDI+D+ E A +G KAILELA  
+Sbjct: 173 GGTVDVIITCEERCWDAVVDDLMNKGAALNRPVHVFNVDIRDNHEEALVGGKAILELATR 232
+
+Query: 165 LNDKIEQCEK-------------DDIPFEDCIMDILTEWQSSHSQLPSLYAPSY 205
+           LND   Q  K                 F++ + +IL  WQ     LP+L+  ++
+Sbjct: 233 LNDAANQERKIHGAEGWENGNGEARRSFDERVPEILASWQEKWPNLPALWTLAW 286
+
+
+>CADNFIAP00005976 pep:known contig:CADRE:9288:2883898:2885604:1 gene:CADNFIAG00006133
+           transcript:CADNFIAT00006133 description:"ATP-dependent
+           RNA helicase dhh1"
+          Length = 507
+
+ Score = 27.3 bits (59), Expect = 3.1,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 17/32 (53%)
+
+Query: 118 CFDAVCEDLMNRGGKLNKIVHVINVDIKDDDE 149
+           C + VC DL+ RG  +  +  VIN D   + E
+Sbjct: 335 CRNLVCSDLLTRGIDIQAVNVVINFDFPKNAE 366
+
+
+>CADNFIAP00001912 pep:known contig:CADRE:8741:1419585:1423019:-1
+           gene:CADNFIAG00001951 transcript:CADNFIAT00001951
+           description:"1-phosphatidylinositol-4,5-bisphosphate
+           phosphodiesterase 1, putative"
+          Length = 1144
+
+ Score = 27.3 bits (59), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 19/76 (25%), Positives = 33/76 (43%), Gaps = 18/76 (23%)
+
+Query: 73  SQSADRYKSNGLLQMLDRNRRLKKAP--------------EKWQE----STKVFDFVFTC 114
+           S S+    S+G L  + R RR +K+                KW       ++ F+ V++ 
+Sbjct: 750 SMSSATEDSDGALVSVKRERRRQKSKITKPLSDLGVYTRGYKWHSFSSPESQRFNHVYSF 809
+
+Query: 115 EERCFDAVCEDLMNRG 130
+            ER F+++C D  N+ 
+Sbjct: 810 AERAFESICRDAENKA 825
+
+
+>CADNFIAP00003003 pep:known contig:CADRE:8927:511935:512708:-1 gene:CADNFIAG00003092
+           transcript:CADNFIAT00003092 description:"Ubiquinone
+           biosynthesis protein Coq7, putative"
+          Length = 257
+
+ Score = 26.9 bits (58), Expect = 3.4,   Method: Compositional matrix adjust.
+ Identities = 25/92 (27%), Positives = 39/92 (42%), Gaps = 14/92 (15%)
+
+Query: 17  SNNNRSMESHKVLQEAGYNV-------SSYGTGSAVRLPGLSIDKPNVYSFGTPYNDIYN 69
+           S  N+ +  H++   A Y +         + TG   R   ++  +      GT YND   
+Sbjct: 125 STFNKLIAKHRIRPTAMYPIWEVAATFLGWSTGVMGREAAMACTEAVETEIGTHYNDQVR 184
+
+Query: 70  DLLSQSADRYKSNG------LLQMLDRNRRLK 95
+           ++LS  AD  KS G      L +ML   RR++
+Sbjct: 185 EILSWEAD-AKSRGEELDDELKEMLATFRRIR 215
+
+
+  Database: Neosartorya_fischeri.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 5,073,492
+  Number of sequences in database:  10,402
+  
+Lambda     K      H
+   0.316    0.133    0.397 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10402
+Number of Hits to DB: 2,163,704
+Number of extensions: 87904
+Number of successful extensions: 219
+Number of sequences better than 10.0: 4
+Number of HSP's gapped: 215
+Number of HSP's successfully gapped: 4
+Length of query: 206
+Length of database: 5,073,492
+Length adjustment: 89
+Effective length of query: 117
+Effective length of database: 4,147,714
+Effective search space: 485282538
+Effective search space used: 485282538
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 51 (24.3 bits)

@@ -1,0 +1,139 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_10820:Putative uncharacterized protein
+         (730 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_00858T0 pep:known chromosome:ASM14955v1:1:4139932:4142935:1...   743   0.0  
+FVEG_00784T0 pep:known chromosome:ASM14955v1:1:3899661:3902280:-...    28   8.2  
+
+>FVEG_00858T0 pep:known chromosome:ASM14955v1:1:4139932:4142935:1 gene:FVEG_00858
+           transcript:FVEG_00858T0 description:"conserved
+           hypothetical protein"
+          Length = 690
+
+ Score =  743 bits (1919), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 385/718 (53%), Positives = 494/718 (68%), Gaps = 40/718 (5%)
+
+Query: 9   IAEQIRQLNDARKHVLLDVKVYSSIVQGILPIIGSKSAPELRRWGADFLAESFATPSLQS 68
+           +++QIRQL+DARK VL DVK Y S+V+GILPIIG  +A ELRRWGA+FLAE+F+TP+L +
+Sbjct: 7   VSDQIRQLDDARKLVLGDVKYYPSVVKGILPIIGPSAALELRRWGAEFLAEAFSTPALPN 66
+
+Query: 69  RDKETMSLMVLETLRAWVENPSEDAYVVRSAIQTAASIYPLVVRWIINNSYDTTTWERIT 128
+            +KETM   VL TL + +EN  ED  V+RS IQ  ASIYPL +RWIINN YDT TWER+ 
+Sbjct: 67  GEKETMQPYVLPTLESMLENEREDPQVLRSVIQCVASIYPLAMRWIINNGYDTITWERMV 126
+
+Query: 129 AIKSRIFQLWSGEIPGVKICCIKFAQRVVLAQTVSINGEFKRDGLDISLSNIPQGHPVLD 188
+           A+K ++ ++W    P                   +  G      LD+SL  +P  H  LD
+Sbjct: 127 AVKQKVLKIWDNASP-------------------TYGGT-----LDVSLDKVPPNHQSLD 162
+
+Query: 189 PRNLEAEAIGLLDRMLGVLQDNSSDALVVDATLNCVAILIRTRPATSNRILNAVLNFNPL 248
+           PRNLEAEA GLLDRML  LQ+ SSDAL+VD+TLNC++IL+RTRP TSNRI+NA+LNFNPL
+Sbjct: 163 PRNLEAEASGLLDRMLATLQE-SSDALLVDSTLNCMSILVRTRPGTSNRIINALLNFNPL 221
+
+Query: 249 KLANSPMTPKTRVLVKSMEKTTRMLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDDN 308
+           KLANSP+TPKTRV+++SMEKTTRMLL+HL++RDP NPM  RIQQH+ER+    A+ FDD 
+Sbjct: 222 KLANSPLTPKTRVMIRSMEKTTRMLLIHLVKRDPNNPMTHRIQQHVERMMEIMAEFFDD- 280
+
+Query: 309 AGRKRALAEQQAAALGDAKRQRLASGAVVVPLQEXXXXXXXXXXXXXXFTLTNTPGLQSF 368
+           +GRKR L E       DAKRQRL+   + +P                 FTL +   L++F
+Sbjct: 281 SGRKRTL-ESAPQDANDAKRQRLSPAQIQIP-----PLGPGPHSLADVFTLIDNTALKNF 334
+
+Query: 369 DVSVVPAELTAKICVSTLARIDQQLLDRGINGVRDRLKTLEAAAAQPVLINPATAPLGVX 428
+           D+S VPA L A+I V+TL+R+D Q+L + ++G+R RL  L    A    +NP TAPLGV 
+Sbjct: 335 DISQVPAPLVARIAVTTLSRLDPQVLSKAVDGIRGRLDALANTPAPE--LNPNTAPLGVD 392
+
+Query: 429 XXXXXXXXXXXXXXXXXXQILNKQDGPSRQEEAEKMEAASLALGAYKLPPPPVLRPEEAS 488
+                             QILNK D  S   +A  ++   L L ++ L  P  L PE A 
+Sbjct: 393 EDDDDYEPDFYQAEDTE-QILNKLDS-SPMHDAPVLDDG-LTLKSFHLHQPSALTPETAL 449
+
+Query: 489 NAGRGIVTNVLGMTKQLEESGSKRSKAGINRLAASLYDRESWITVITRLATRSSSALEKT 548
+            AG G VT V+ M K LE+  +K+SKAG +RLAAS  +R+SW+T++ RLATRS + LE+T
+Sbjct: 450 TAGNGTVTRVIEMMKSLEDP-AKKSKAGFSRLAASSGNRDSWMTILARLATRSVAGLEET 508
+
+Query: 549 TIKEEDGT--PQILGDKVREALYNYVLEDFRKRIDVAISWLSEEWYNDQLQKRMASDAPL 606
+           +IKEE G+  PQ L + +R+ LY+YV+EDFRK IDVA+SWL EEWYND+LQ++   D PL
+Sbjct: 509 SIKEEGGSSAPQSLSNNIRDVLYSYVMEDFRKHIDVAVSWLCEEWYNDKLQQKKGGDRPL 568
+
+Query: 607 HYDKVALRLVDGITPYLHAQDKVLTRFLGEIPEVNPAILKRVEGMCRDPSLASLALTSLV 666
+           HY+K  LRL+DG  PYLH QDKVLTRFL EIPE+N  +L RV+ MCRDPS+  LALTSL+
+Sbjct: 569 HYEKCCLRLIDGFLPYLHPQDKVLTRFLSEIPELNKNLLSRVKHMCRDPSVVQLALTSLL 628
+
+Query: 667 YLVMMRPPAREMALDAMQGIWTEYEEARPLAAKFLTRWRKAFLEANSGAGQAGQSVAP 724
+           YLVMMRPP +E+ALD +Q IWTE+EE+RP+A K+LT++R  F+E+   AG  GQS +P
+Sbjct: 629 YLVMMRPPVKEIALDTVQDIWTEFEESRPMAGKYLTKYRPTFMESARNAGDPGQSASP 686
+
+
+>FVEG_00784T0 pep:known chromosome:ASM14955v1:1:3899661:3902280:-1
+           gene:FVEG_00784 transcript:FVEG_00784T0
+           description:"conserved hypothetical protein"
+          Length = 665
+
+ Score = 28.5 bits (62), Expect = 8.2,   Method: Compositional matrix adjust.
+ Identities = 23/64 (35%), Positives = 32/64 (50%), Gaps = 7/64 (10%)
+
+Query: 271 RMLLMHLIRRDPQNPMNPRIQQHIERLARSRADIFDDNAGRKRALAEQQAAALGDAKRQR 330
+           RM +   +   PQ     RI  + E  A    DI ++   RKRA   QQ + +  AKRQR
+Sbjct: 91  RMGIFGPLDAHPQG----RIDAYEEEDAEGE-DIIEEEVSRKRA--PQQLSNVSPAKRQR 143
+
+Query: 331 LASG 334
+           L++G
+Sbjct: 144 LSNG 147
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.318    0.132    0.375 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 7,980,247
+Number of extensions: 319688
+Number of successful extensions: 858
+Number of sequences better than 10.0: 6
+Number of HSP's gapped: 851
+Number of HSP's successfully gapped: 7
+Length of query: 730
+Length of database: 5,950,719
+Length adjustment: 102
+Effective length of query: 628
+Effective length of database: 4,503,849
+Effective search space: 2828417172
+Effective search space used: 2828417172
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

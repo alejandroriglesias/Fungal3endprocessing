@@ -1,0 +1,233 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_06570:Putative uncharacterized protein
+         (962 letters)
+
+Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa 
+           14,380 sequences; 6,264,428 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+GGTG_05894T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...  1325   0.0  
+GGTG_04619T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:...    59   5e-09
+GGTG_10240T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    34   0.27 
+GGTG_01221T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    31   2.4  
+GGTG_09180T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    30   3.0  
+GGTG_00832T1 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    30   3.1  
+GGTG_09227T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:...    28   3.3  
+GGTG_00832T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:...    30   3.3  
+GGTG_06708T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:...    30   5.8  
+
+>GGTG_05894T0 pep:known supercontig:Gae_graminis_V2:supercont1.3:2331429:2335245:
+           -1 gene:GGTG_05894 transcript:GGTG_05894T0
+           description:"hypothetical protein"
+          Length = 974
+
+ Score = 1325 bits (3428), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 695/978 (71%), Positives = 770/978 (78%), Gaps = 20/978 (2%)
+
+Query: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDIGWDETFDVEKLKEVEKQVPTLSLILLT 60
+           MFTFSPLQGALSEATASQSLLELDGGVKVLID+GWDET D+EKLKE+EKQVPTLSLILLT
+Sbjct: 1   MFTFSPLQGALSEATASQSLLELDGGVKVLIDVGWDETLDIEKLKELEKQVPTLSLILLT 60
+
+Query: 61  HATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQDLYSSTPAAATSIPDSALAE 120
+           HATVPHLSA VHCCK+FPLFARIP+YATQP IDLGRTLIQDLYSSTP AAT+IPD++LAE
+Sbjct: 61  HATVPHLSAFVHCCKHFPLFARIPVYATQPVIDLGRTLIQDLYSSTPLAATTIPDTSLAE 120
+
+Query: 121 ASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY 180
+           A++S+SQ Q + + FLLQAP+ +EIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY
+Sbjct: 121 AAFSYSQPQFSNN-FLLQAPTTEEIAKYFSLIQPLKYSQPHQPLASPFSPPLNGLTITAY 179
+
+Query: 181 NAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXEVIEQLRKPTA 240
+           N+GHSLGGTIWHIQHG+ESIVYAVDWNLARDNVY               EV+EQLRKPTA
+Sbjct: 180 NSGHSLGGTIWHIQHGLESIVYAVDWNLARDNVYAGAAWMGSGHGSGGAEVMEQLRKPTA 239
+
+Query: 241 LVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAWRSEA 300
+           L+CS R  EGGL+R ARD+QLLDTMR  ++RGGTVLIP+DSSARVLELAYLLEHAWRSEA
+Sbjct: 240 LICSARAGEGGLSRGARDQQLLDTMRRTVARGGTVLIPIDSSARVLELAYLLEHAWRSEA 299
+
+Query: 301 S--TEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFRRTXXXXXX 358
+           S  TE G L TAKLYLAGRSV+STI+LAKSMFEWMD+SIVQEFEA ADQG +RT      
+Sbjct: 300 SGVTEAGALGTAKLYLAGRSVNSTIRLAKSMFEWMDDSIVQEFEAVADQGGKRT--NGNT 357
+
+Query: 359 XXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPST--DELRGKVILATDTSLEWGFSKDIIS 416
+                    PFDFKYLR+LDRKAQV K+L  S+  +ELRGKVILA+DTSLEWGFSKD+++
+Sbjct: 358 DGGRGRDAGPFDFKYLRVLDRKAQVEKVLSQSSTPNELRGKVILASDTSLEWGFSKDVMA 417
+
+Query: 417 AIANDSRNMVILPEKPAESSRDNPSISRQLWRWWKERRDGVADEQSSGAGSAEQVFAGGR 476
+            IA+DSRN+VIL EKP+ SS++ PS++RQLW WWKERRDG ADE SSG GSAEQ++AGGR
+Sbjct: 418 RIADDSRNLVILTEKPSASSKEKPSVARQLWEWWKERRDGTADEASSGPGSAEQIYAGGR 477
+
+Query: 477 ELQIRESKKVPLADSELSIYQQWLATQRQLNATVQGGGXXXXXXXXXXXXXXXXXXXXXX 536
+           EL++ +SK+  L +SEL +YQQWL TQRQL+AT+QGGG                      
+Sbjct: 478 ELRLMDSKRAALDESELPLYQQWLVTQRQLHATLQGGGATNLEASADVADDVSSESSESE 537
+
+Query: 537 XXXXNEQQGKALNASTT--QASRKKVVLQDEDLGVMILLKKPGVYDFPVKGKKGRERMFP 594
+               NEQQGKALNAST   QA+RKKVVLQDEDLG+MILLKK GVYDFPVKGKKGRERMFP
+Sbjct: 538 DESENEQQGKALNASTAMGQANRKKVVLQDEDLGIMILLKKKGVYDFPVKGKKGRERMFP 597
+
+Query: 595 LAVRRKRNDEFGELIRPEDYLRAEEREENERPDTQQLQ-SDGQDGFGQKRKWDDAGSRNA 653
+           LAVRRKR DEFGELIRPEDYLRAEEREENERP+   LQ  D  +GFGQKRKWDD G R  
+Sbjct: 598 LAVRRKRADEFGELIRPEDYLRAEEREENERPEANMLQRGDFNEGFGQKRKWDDVGDRRH 657
+
+Query: 654 ANGLNXXXXXXXXXXXXXXXXXSGPAPXXXXXXXXXXXXXXTGPAKLVHTSTTVSVNLRL 713
+                                  G                 +GPAKLV TS+ V+VNLR+
+Sbjct: 658 GGPNRRGQRGGPMEDSDLSQTQQGVIQDELDTVEDEEEEVISGPAKLVTTSSAVTVNLRI 717
+
+Query: 714 ALIDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNAIEVFTPPVGAVVD 773
+           A +DFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNAIEV+TPPVGA VD
+Sbjct: 718 AYVDFSGLHDRRSLAMLIPLIQPRKLILVAGSADETEAVADDCRRNAIEVYTPPVGASVD 777
+
+Query: 774 ASVDTNAWVVKLADPLVKRLKWQQVRGLGIVTVTAQLTATPAAQK------NGIPLLIAD 827
+           ASVDTNAWVVKL++PLVKRL+WQ VRGLGIVTVTA LTATP AQK      +  P    D
+Sbjct: 778 ASVDTNAWVVKLSEPLVKRLRWQTVRGLGIVTVTAHLTATPVAQKSLPPPSSTAPTQAGD 837
+
+Query: 828 DDGANKRQKIKATGV---DDQEPTAEDEDVGVMPTLDVLPVAMVSASRSAAQVLHVGELR 884
+           +DGANKRQK    G     D   T E + V VMPTLDV+P A+VSASRSAAQ LHVGELR
+Sbjct: 838 EDGANKRQKPNPDGTTNSKDMATTGEGDKVAVMPTLDVIPAALVSASRSAAQPLHVGELR 897
+
+Query: 885 LADLRRTMQNLGHSADFRGEGTLLIDGTVVVRKTAAGRVEIESXXXXXXXXXXXXXXXXX 944
+           LADLRRTMQ+ GH+A+FRGEGTLLIDG+VVVRKTAAGRVEIES                 
+Sbjct: 898 LADLRRTMQSSGHTAEFRGEGTLLIDGSVVVRKTAAGRVEIES-VGVPTGGGPATRMGGT 956
+
+Query: 945 FYAVKKTIYDGLAVVAGA 962
+           FYAVKKTIYDGLAVVAGA
+Sbjct: 957 FYAVKKTIYDGLAVVAGA 974
+
+
+>GGTG_04619T0 pep:known supercontig:Gae_graminis_V2:supercont1.2:6119295:6122916:
+           1 gene:GGTG_04619 transcript:GGTG_04619T0
+           description:"endoribonuclease YSH1"
+          Length = 868
+
+ Score = 59.3 bits (142), Expect = 5e-09,   Method: Compositional matrix adjust.
+ Identities = 73/378 (19%), Positives = 146/378 (38%), Gaps = 70/378 (18%)
+
+Query: 53  TLSLILLTHATVPHLSALVHCCKNFPLFARIPIYATQPAIDLGRTLIQD--LYSSTPAAA 110
+           T+ ++L++H  + H ++L +         R+  + T P   + + L+QD     +T +  
+Sbjct: 76  TVDVLLISHFHIDHAASLPYVLAKTNFKGRV--FMTHPTKAIYKWLMQDSVRVGNTSSNP 133
+
+Query: 111 TSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQPLKYSQPHQPLASPFSP 170
+           TS P     +   +F Q                        I+ + Y   H         
+Sbjct: 134 TSQPVYTEQDHLNTFPQ------------------------IEAIDYYTTHT-------- 161
+
+Query: 171 PLNGLTITAYNAGHSLGGTIWHIQHGMESIVYAVDWNLARDNVYXXXXXXXXXXXXXXXE 230
+            ++ + IT Y AGH LG  ++ I+    ++ +  D++  +D                  E
+Sbjct: 162 -ISSIRITPYPAGHVLGAAMFLIEIAGLNVFFTGDYSREQDR------------HLVSAE 208
+
+Query: 231 VIEQLRKPTALVCSTRTAEGGLTRAARDKQLLDTMRMAISRGGTVLIPVDSSARVLELAY 290
+           V   ++    +  ST      + R  R++ L+ ++   ++RGG VL+PV +  R  EL  
+Sbjct: 209 VPRGVQIDVLITESTYGIASHVPRMEREQALMKSITGILNRGGRVLMPVFALGRAQELLL 268
+
+Query: 291 LLEHAWRSEASTEGGGLSTAKLYLAGRSVHSTIKLAKSMFEWMDNSIVQEFEAGADQGFR 350
+           +L+  W   +  +        +Y A       + + ++    M+++I         + FR
+Sbjct: 269 ILDEYWDRHSEYQ-----KVPIYYASNLARKCMVVYQTYVGAMNDNI--------KRLFR 315
+
+Query: 351 RTXXXXXXXXXXXXXXXPFDFKYLRLLDRKAQVLKLLEPSTDELRGKVILATDTSLEWGF 410
+                            P+DFK++R L    +         D+L   V+LA+   L+ G 
+Sbjct: 316 ERLAEAEAAGNVGTGGGPWDFKFIRSLKNLDRF--------DDLGPCVMLASPGMLQTGV 367
+
+Query: 411 SKDIISAIANDSRNMVIL 428
+           S++++   A   +N V++
+Sbjct: 368 SRELLERWAPSDKNGVVI 385
+
+
+>GGTG_10240T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:3822592:3824427:
+           -1 gene:GGTG_10240 transcript:GGTG_10240T0
+           description:"hypothetical protein"
+          Length = 436
+
+ Score = 33.9 bits (76), Expect = 0.27,   Method: Compositional matrix adjust.
+ Identities = 22/67 (32%), Positives = 32/67 (47%), Gaps = 11/67 (16%)
+
+Query: 744 GSADETEAVADDCRRNA-----IEVFTPPVGAVVDASVDTNAWVVKLADPLVKR----LK 794
+           G+ D T+   DD   N      +E FTPPV      +  + +WVV +A P  K+    + 
+Sbjct: 290 GAPDNTDG--DDSNNNNGGGDDLEYFTPPVDIFETEAGPSGSWVVHVAVPGAKKEDVGIH 347
+
+Query: 795 WQQVRGL 801
+           WQ  RG+
+Sbjct: 348 WQAERGV 354
+
+
+>GGTG_01221T0 pep:known supercontig:Gae_graminis_V2:supercont1.1:3909001:3913194:
+           1 gene:GGTG_01221 transcript:GGTG_01221T0
+           description:"hypothetical protein"
+          Length = 1165
+
+ Score = 30.8 bits (68), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 29/71 (40%), Gaps = 11/71 (15%)
+
+Query: 257 RDKQLLDTMRMAISRGGTVLIPVDSSARVLELAYLLEHAWRSEASTEGGGLSTAKLYLAG 316
+           R +  L   ++ +SR    L+P +           L   WR E +    GLS   L + G
+Sbjct: 381 RPRSALPATKVFLSRATLALVPAN-----------LLQQWRDEIAKHTSGLSVLVLAIGG 429
+
+Query: 317 RSVHSTIKLAK 327
+           R +  T  LAK
+Sbjct: 430 REIPDTTALAK 440
+
+
+>GGTG_09180T0 pep:known supercontig:Gae_graminis_V2:supercont1.5:578756:581736:-1
+           gene:GGTG_09180 transcript:GGTG_09180T0
+           description:"hypothetical protein"
+          Length = 884
+
+ Score = 30.4 bits (67), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 21/47 (44%)
+
+Query: 108 AAATSIPDSALAEASYSFSQTQTNGHGFLLQAPSPDEIAKYFSLIQP 154
+           +A  S PD   A  +  FS  Q    GF  Q+P P E A Y  +  P
+Sbjct: 608 SACASAPDQGAAAKNPDFSTLQLYNAGFHRQSPYPLEFAAYDEVFLP 654
+
+
+  Database: Gaeumannomyces_graminis.Gae_graminis_V2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:49 PM
+  Number of letters in database: 6,264,428
+  Number of sequences in database:  14,380
+  
+Lambda     K      H
+   0.316    0.132    0.380 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14380
+Number of Hits to DB: 11,116,710
+Number of extensions: 471940
+Number of successful extensions: 1443
+Number of sequences better than 10.0: 17
+Number of HSP's gapped: 1430
+Number of HSP's successfully gapped: 17
+Length of query: 962
+Length of database: 6,264,428
+Length adjustment: 104
+Effective length of query: 858
+Effective length of database: 4,768,908
+Effective search space: 4091723064
+Effective search space used: 4091723064
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 58 (26.9 bits)

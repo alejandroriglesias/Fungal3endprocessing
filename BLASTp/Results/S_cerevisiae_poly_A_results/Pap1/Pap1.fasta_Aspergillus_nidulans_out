@@ -1,0 +1,192 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Poly(A) polymerase, one of three factors required for mRNA
+3'-end polyadenylation, forms multiprotein complex with
+polyadenylation factor I (PF I), also required for mRNA nuclear
+export; may also polyadenylate rRNAs; required for gene looping
+         (568 letters)
+
+Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa 
+           10,534 sequences; 5,078,913 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANIAP00001784 pep:known chromosome:ASM1142v1:VIII:2151503:215...   537   0.0  
+CADANIAP00003371 pep:known chromosome:ASM1142v1:V:1703934:170613...    32   0.44 
+CADANIAP00007715 pep:known chromosome:ASM1142v1:I:3491324:349410...    31   1.0  
+CADANIAP00005895 pep:known chromosome:ASM1142v1:III:1706516:1707...    29   3.2  
+CADANIAP00007364 pep:known chromosome:ASM1142v1:I:2486987:248821...    29   3.3  
+CADANIAP00006429 pep:known chromosome:ASM1142v1:III:3294807:3295...    28   7.3  
+CADANIAP00000926 pep:known chromosome:ASM1142v1:IV:2637361:26386...    27   9.8  
+
+>CADANIAP00001784 pep:known chromosome:ASM1142v1:VIII:2151503:2153797:1
+           gene:CADANIAG00001784 transcript:CADANIAT00001784
+           description:"poly(A) polymerase Pap (AFU_orthologue\x3b
+           AFUA_1G15340)"
+          Length = 601
+
+ Score =  537 bits (1383), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 280/554 (50%), Positives = 371/554 (66%), Gaps = 27/554 (4%)
+
+Query: 2   SSQKVFGITGPVSTVGATAAENKLNDSLIQELKKEGSFETEQETANRVQVLKILQELAQR 61
+           S+ + +G+T P+ST   TA E   ND LI ELK + +FE+  ET  R QVL++LQ +   
+Sbjct: 6   STTRQWGVTPPISTTLPTAQELSANDDLIAELKLQNNFESPAETERRKQVLQLLQRVTIE 65
+
+Query: 62  FVYEVSKKKNMSDGMARDAGGKIFTYGSYRLGVHGPGSDIDTLVVVPKHVTREDFFTVFD 121
+           FV  VS+KK +S      AGGKIFTYGSYRLGV+GPGSDIDTLV+ PKHV  +DFF  F 
+Sbjct: 66  FVKVVSRKKGLSQAAVEAAGGKIFTYGSYRLGVYGPGSDIDTLVLGPKHVVIDDFFAEFP 125
+
+Query: 122 SLLRE---RKELDEIAPVPDAFVPIIKIKFSGISIDLICARLDQPQVPLSLTLSDKNLLR 178
+            LL     +  +++I PVPDAFVP+IK++ SGISIDLI ARL  P +PL+L L + + LR
+Sbjct: 126 PLLESMAPQGAVEKITPVPDAFVPLIKLELSGISIDLIFARLIVPSIPLNLDLKNNDYLR 185
+
+Query: 179 NLDEKDLRALNGTRVTDEILELVPKPNVFRIALRAIKLWAQRRAVYANIFGFPGGVAWAM 238
+            LDEK++R+LNGTRVTDEILELVP+   FR+ALRAIKLWAQRRA+Y+NI GFPGGVAWAM
+Sbjct: 186 GLDEKEVRSLNGTRVTDEILELVPQQKTFRLALRAIKLWAQRRAIYSNIVGFPGGVAWAM 245
+
+Query: 239 LVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQVRVWNPKIYAQDRSH 298
+           LVAR+CQLYP A  +VI+ +FF I+++W WPQPV+LKPIEDGPLQ++VWNPKIY  DR H
+Sbjct: 246 LVARVCQLYPQATGSVIVGKFFRIMNKWAWPQPVLLKPIEDGPLQMKVWNPKIYHGDRFH 305
+
+Query: 299 RMPVITPAYPSMCATHNITESTKKVILQEFVRGVQITNDIFSNKKSWANLFEKNDFFFR- 357
+            MP+ITPAYPSMCATHNI+ STK VIL+E  RG  I + I++ + +W +LF+K+ FF   
+Sbjct: 306 LMPIITPAYPSMCATHNISMSTKAVILRELQRGGDIVDKIWAKQATWNDLFKKHSFFTND 365
+
+Query: 358 YKFYLEITAYTRGSDEQHLKWSGLVESKVRLLVMKLEVLAGIKIAHPFTKPFESSYCCPT 417
+           YK+YL +TA +R  + + + WSGLVESKVR LV  L+    I +AHPF K FE  +    
+Sbjct: 366 YKYYLGVTASSRTKEAESV-WSGLVESKVRHLVGALDRKPTIAVAHPFPKGFERIHIVSN 424
+
+Query: 418 EDDYEMIQD---KYGSHKTETALN------ALKLVTDENKEEESIKDAPK---------A 459
+           E++ E +++   KY    T+T         A +      +E+  +  A            
+Sbjct: 425 EEEAEAVKNGSLKYQDKGTKTETTDEIKDAAHQAAAQSGREDTDVPGAANNTAANDGRII 484
+
+Query: 460 YLSTMYIGLDFN-IE-NKKEKVDIHIPCTEFVNLCRSFNEDYGDHKVFNLALRFVKGYDL 517
+           Y +T YIGL+   +E      +DI      F ++C S+   Y    + +L++  V+ YDL
+Sbjct: 485 YTTTYYIGLELKPVEPGASRSLDISSDAQFFKSMCTSW-PGY-QPGINDLSITHVRNYDL 542
+
+Query: 518 PDEVFDENEKRPSK 531
+           P+++F E E RP++
+Sbjct: 543 PEDLFQEGEARPTR 556
+
+
+>CADANIAP00003371 pep:known chromosome:ASM1142v1:V:1703934:1706139:1
+           gene:CADANIAG00003371 transcript:CADANIAT00003371
+           description:"topoisomerase family protein TRF4, putative
+           (AFU_orthologue\x3b AFUA_7G04130)"
+          Length = 694
+
+ Score = 32.0 bits (71), Expect = 0.44,   Method: Compositional matrix adjust.
+ Identities = 39/161 (24%), Positives = 72/161 (44%), Gaps = 30/161 (18%)
+
+Query: 77  ARDAGGKIFTYGSYRLGVHGPGSDIDTLVV--------VPKHVTREDFFTVFDSLLRERK 128
+           +R  G +I  +GS+  G++ P +DID +++        V     R+     F + L+ + 
+Sbjct: 289 SRYYGVEIHAFGSFASGLYLPNADIDLVLLSTSFRRTGVKTFGERKGQIYAFSAFLKNQN 348
+
+Query: 129 EL--DEIAPVPDAFVPIIKI--KFSGISID--------LICARLDQ------PQVPLSLT 170
+                 +  +  A VPI+K   K +G+ +D        LI  R  Q      P +P+ ++
+Sbjct: 349 IAVPGSVETIAHARVPILKFVDKLTGLKVDLSFDNDSGLIANRTFQQWKSEYPAMPVIVS 408
+
+Query: 171 LSDKN-LLRNLDEKDLRALNGTRVT---DEILELVPKPNVF 207
+           +  +  LLR L+E     L G  +T     +L+ +P  N++
+Sbjct: 409 VIKQFLLLRGLNEVPTLGLGGFSITCLVTSLLQHMPHGNLY 449
+
+
+>CADANIAP00007715 pep:known chromosome:ASM1142v1:I:3491324:3494105:1
+           gene:CADANIAG00007715 transcript:CADANIAT00007715
+           description:"vacuolar protein sorting vps16, putative
+           (AFU_orthologue\x3b AFUA_5G13600)"
+          Length = 829
+
+ Score = 30.8 bits (68), Expect = 1.0,   Method: Compositional matrix adjust.
+ Identities = 20/78 (25%), Positives = 34/78 (43%), Gaps = 4/78 (5%)
+
+Query: 222 AVYANIFGFPGGVAWAMLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGP 281
+            +Y +   F  G        R C+ + +   A++ N   I +S +N P+P +L    +G 
+Sbjct: 115 GLYGDFTSFSLGNGAEEYGVRACRFWNSGFVALLANNQLIAVSSYNEPRPRLLAQCPEG- 173
+
+Query: 282 LQVRVWN--PKIYAQDRS 297
+            +V  W+  P  Y   RS
+Sbjct: 174 -EVASWSLIPPAYTLSRS 190
+
+
+>CADANIAP00005895 pep:known chromosome:ASM1142v1:III:1706516:1707707:1
+           gene:CADANIAG00005895 transcript:CADANIAT00005895
+           description:"S-adenosylmethionine-dependent
+           methyltransferase, putative (AFU_orthologue\x3b
+           AFUA_2G02750)"
+          Length = 327
+
+ Score = 28.9 bits (63), Expect = 3.2,   Method: Compositional matrix adjust.
+ Identities = 10/47 (21%), Positives = 23/47 (48%)
+
+Query: 238 MLVARICQLYPNACSAVILNRFFIILSEWNWPQPVILKPIEDGPLQV 284
+           M+    C+ YP    +++    F++++  NW +  I+K      +Q+
+Sbjct: 246 MVEKSECERYPGIAGSLVRKGGFLVVTSCNWTEEEIVKWFTSAEIQI 292
+
+
+>CADANIAP00007364 pep:known chromosome:ASM1142v1:I:2486987:2488214:-1
+           gene:CADANIAG00007364 transcript:CADANIAT00007364
+           description:"RNA binding protein, putative
+           (AFU_orthologue\x3b AFUA_6G04320)"
+          Length = 313
+
+ Score = 28.9 bits (63), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 18/57 (31%), Positives = 28/57 (49%), Gaps = 3/57 (5%)
+
+Query: 30  IQELKKEGSFETEQETANRVQVLKILQELAQRFVYEVSKKKN---MSDGMARDAGGK 83
+           I E  +EG     ++  +  ++ KI  EL +R   E+  +KN    +DG  RD  GK
+Sbjct: 84  INERVEEGKGREGEKVRSEEEIEKICDELRERLTREMEDRKNGNGRNDGRNRDGKGK 140
+
+
+  Database: Aspergillus_nidulans.ASM1142v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 5,078,913
+  Number of sequences in database:  10,534
+  
+Lambda     K      H
+   0.319    0.136    0.398 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10534
+Number of Hits to DB: 5,704,887
+Number of extensions: 249483
+Number of successful extensions: 634
+Number of sequences better than 10.0: 11
+Number of HSP's gapped: 631
+Number of HSP's successfully gapped: 11
+Length of query: 568
+Length of database: 5,078,913
+Length adjustment: 99
+Effective length of query: 469
+Effective length of database: 4,036,047
+Effective search space: 1892906043
+Effective search space used: 1892906043
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 55 (25.8 bits)

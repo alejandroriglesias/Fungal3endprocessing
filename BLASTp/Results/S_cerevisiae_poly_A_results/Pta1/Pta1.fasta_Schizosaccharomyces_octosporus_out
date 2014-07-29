@@ -1,0 +1,130 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.fa
+
+           4986 sequences; 2,302,372 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EPX73888 pep:novel supercontig:GCA_000150505.2:supercont6.1:1084...   107   1e-24
+EPX74126 pep:novel supercontig:GCA_000150505.2:supercont6.1:1766...    28   3.5  
+
+>EPX73888 pep:novel supercontig:GCA_000150505.2:supercont6.1:1084361:1086908:
+           1 gene:SOCG_03107 transcript:EPX73888 description:"mRNA
+           cleavage and polyadenylation specificity factor complex
+           subunit Pta1"
+          Length = 732
+
+ Score =  107 bits (267), Expect = 1e-24,   Method: Compositional matrix adjust.
+ Identities = 60/185 (32%), Positives = 102/185 (55%), Gaps = 26/185 (14%)
+
+Query: 626 WLHVLIRLVTRGI--------EAQEA------SDLIREELLGFFIQDFEQRVSLIIEWLN 671
+           W  +L RL TRG+        + Q+       S  +R +L  +   ++    +L + WL+
+Sbjct: 517 WSLLLPRLCTRGLNNYQPVNPDEQQGESSFTLSSFVRGQLFTYIASNWRACTNLTLNWLS 576
+
+Query: 672 EEWFF-----------QTSLHQDPSNYKKWSLRVLESLGPFLENKHRRFFIRLMSELPSL 720
+           EEW+            ++S+  +   Y++W+LR+++S+ P+LE K + F I  +SELP L
+Sbjct: 577 EEWYNDRLMMENETKEESSVKWEGPQYERWALRIIDSVLPYLEMKDKVFMI-FLSELPEL 635
+
+Query: 721 QSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQLKQEDEGLHKQCDSL 780
+               +E +K ICLDP +S LGF TL++LI FR P ++   DLL ++  E+E + +   +L
+Sbjct: 636 TDAMIEKVKFICLDPDKSKLGFMTLQYLIKFRLPARNQCLDLLQKMWWENEDVRRSAQTL 695
+
+Query: 781 LDRLK 785
+           L+R +
+Sbjct: 696 LERWR 700
+
+
+
+ Score = 61.2 bits (147), Expect = 3e-10,   Method: Compositional matrix adjust.
+ Identities = 54/203 (26%), Positives = 95/203 (46%), Gaps = 32/203 (15%)
+
+Query: 94  VYKNIVLIMCASYPLVLDLVAKTSNQEMFDQLCMLKKFVLSHWRTAYPLRATVDDETDVE 153
+           V K+I+L  C  YPLV            F   C       S W T   ++  +       
+Sbjct: 89  VKKDIILCCCTLYPLV------------FFHCCTCADDTQS-WETVSKIKQDI------- 128
+
+Query: 154 QWLAQIDQNIG-VKLATIKFISEVVLSQT---KSP---SGNEINSSTIPDNHPVLNKPAL 206
+             L+  D +   +K++ IKFIS ++L+Q+   + P   + ++++ S +P NHP LN   L
+Sbjct: 129 --LSLFDSSTNHLKISCIKFISTIILTQSSGIRDPRLVTKSDVSLSKVPTNHPFLNPTVL 186
+
+Query: 207 ESEAKRLLDMLLNYLIEEQYMVSSVFI-GIINSLSFVIKRRPQTTIRILSGLLRFNVDAK 265
+           + EA  +   L  + +    ++S +FI  ++N L  + KRR +    I+  LL F++   
+Sbjct: 187 KQEAFDIFHKL--FTVFSSKVLSPLFITSVLNVLPIIAKRRKEHGPLIVENLLDFHLPNP 244
+
+Query: 266 FPLEGKSDLNYKLSKRFVERAYK 288
+               G++    KL++R +E+  K
+Sbjct: 245 KETNGETAALDKLARRCIEKNLK 267
+
+
+>EPX74126 pep:novel supercontig:GCA_000150505.2:supercont6.1:1766838:1769365:
+           1 gene:SOCG_03339 transcript:EPX74126
+           description:"ubiquitin-protein ligase E3"
+          Length = 583
+
+ Score = 28.5 bits (62), Expect = 3.5,   Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 17/25 (68%)
+
+Query: 194 IPDNHPVLNKPALESEAKRLLDMLL 218
+           +P+NHPVL  P+L ++     DMLL
+Sbjct: 471 LPENHPVLRAPSLFTDTPTYEDMLL 495
+
+
+  Database: Schizosaccharomyces_octosporus.GCA_000150505.2.21.pep.all.
+  fa
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,302,372
+  Number of sequences in database:  4986
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4986
+Number of Hits to DB: 2,895,744
+Number of extensions: 111172
+Number of successful extensions: 373
+Number of sequences better than 10.0: 8
+Number of HSP's gapped: 370
+Number of HSP's successfully gapped: 9
+Length of query: 785
+Length of database: 2,302,372
+Length adjustment: 96
+Effective length of query: 689
+Effective length of database: 1,823,716
+Effective search space: 1256540324
+Effective search space used: 1256540324
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

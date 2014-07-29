@@ -1,0 +1,330 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa 
+           12,469 sequences; 5,217,443 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CBX98306 pep:novel supercontig:ASM23037v1:FP929133:1041843:10451...   707   0.0  
+CBX90358 pep:novel supercontig:ASM23037v1:FP929064:893783:898072...    58   1e-08
+CBX92865 pep:novel supercontig:ASM23037v1:FP929094:1644752:16468...    48   1e-05
+CBY01951 pep:novel supercontig:ASM23037v1:FP929139:2686384:26893...    43   6e-04
+CBX93153 pep:novel supercontig:ASM23037v1:FP929105:690252:693302...    38   0.018
+CBX93812 pep:novel supercontig:ASM23037v1:FP929116:950494:953055...    35   0.16 
+CBX96638 pep:novel supercontig:ASM23037v1:FP929129:846053:851512...    34   0.20 
+CBX92695 pep:novel supercontig:ASM23037v1:FP929094:1226894:12294...    30   3.1  
+CBX92326 pep:novel supercontig:ASM23037v1:FP929094:120814:122026...    30   4.3  
+CBX99201 pep:novel supercontig:ASM23037v1:FP929135:802351:805730...    30   5.1  
+
+>CBX98306 pep:novel supercontig:ASM23037v1:FP929133:1041843:1045130:-1
+            gene:LEMA_P097150.1 transcript:CBX98306
+            description:"Putative uncharacterized protein "
+          Length = 1060
+
+ Score =  707 bits (1826), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 372/799 (46%), Positives = 497/799 (62%), Gaps = 70/799 (8%)
+
+Query: 164  DPIALLELRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYAD 223
+            D + +LE R+ EDPRG M++WLSLI  +R+R+  +  R VFERFL + P A E WV+Y  
+Sbjct: 227  DRVGILEDRIAEDPRGDMEAWLSLIEEHRRRHKYDDARAVFERFLKLIPTAGEQWVEYIA 286
+
+Query: 224  MELSQGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLN-DSSGRARQVVTQAYDFV 282
+             E       + E IFG+S+   P V L++ Y+D+IRRR +L  D +G+ RQ++TQAY+FV
+Sbjct: 287  FETELDELSKVEVIFGRSVPLAPYVPLYSSYIDFIRRRYNLTTDQNGQNRQIITQAYEFV 346
+
+Query: 283  IDNVGLDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTL 342
+            +  VG+D  A ++W DYI+ ++  PGV+GGS WQD QKMD LRK YQRAV IP +    +
+Sbjct: 347  LGQVGIDVSAGRLWLDYIEMLKTGPGVLGGSNWQDMQKMDTLRKVYQRAVSIPHNATLEI 406
+
+Query: 343  WREYDQFEKGLNPTTGRKYLNERSPAYMTAKSANTALEN-IMRNLVRTTLPRLPPAPGFE 401
+            WR+YD+FE GLN  TGRK+L E+SP+YMTA+SA   L+N IM+ + RTTLP+LPPAPGF+
+Sbjct: 407  WRDYDKFEMGLNKATGRKHLQEKSPSYMTARSAINVLDNNIMKGINRTTLPKLPPAPGFD 466
+
+Query: 402  GDVEFAEQVDLWKRWVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAA 461
+            G  E+  QV LWK W+++EK DP++  +DD EL+ KR+++ YK A+MALRF PE+W +AA
+Sbjct: 467  GYDEYMNQVKLWKNWIQFEKSDPVECISDDRELYNKRVIHIYKNALMALRFWPELWYEAA 526
+
+Query: 462  EWCFENSILVNGKDAGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNA 521
+            EWC+EN +   G     +FL +GIEANPES LLA K A+++E      +G      +G A
+Sbjct: 527  EWCYENGLSTEGD----KFLNDGIEANPESCLLAFKKANQVEQRTDFEDGLAGVSAKGKA 582
+
+Query: 522  VKAPYNKLLDTLYGQIKTLKEKEKAEIVKLRE----------SAPSVPEHE--------- 562
+            V+ PY KLLDTLY      K++E+  I + +E          +A ++ ++          
+Sbjct: 583  VREPYMKLLDTLYDLTTQTKKREEHSIARAKEQFEAQKKADEAARAIAQNNSDDADDEDE 642
+
+Query: 563  ------IEEGEDCANPMPSELEEKISALEKGFGAQTDLLARTVSFVWIALARAMRRIQGK 616
+                  ++E E+  N      ++ ISA   G+ AQ  +L +T+++ WIAL RAMRR+QGK
+Sbjct: 643  DAAAKRLKEKENAFNAQ----QQAISA---GYNAQMLMLKKTLTYAWIALMRAMRRVQGK 695
+
+Query: 617  GQPGSPMGGMRQVFSEARKRGRLTSDVYVAIAQLEWTVYKDPSGGKIFDRGSKLFPEDEI 676
+            G P   +GG R VF+EARKRG+L S+ YVA A +E   Y+DP+  KIF+RG KLFPEDE 
+Sbjct: 696  GAPKEDIGGFRGVFTEARKRGKLLSEAYVASALIEHHCYQDPAAQKIFERGMKLFPEDEH 755
+
+Query: 677  FMLEYLKYLHSREDTTNARVVFETCVNKLTQNPATVHKAKPLYSYFHKYESKFGELSQTA 736
+            F LEY+++L    D+TNAR VFET V KLT  P  VH+AKPL+ +FH YES+FGELSQ  
+Sbjct: 756  FALEYIQHLIKLNDSTNARAVFETVVGKLTAKPENVHRAKPLFVFFHNYESQFGELSQII 815
+
+Query: 737  KLEKRMAELFPEDPSLAHFSARFMSDRFDPIAARIIVSPAAQLRPKM-----VMPSIEAN 791
+            K+E+RMA LFPEDP L  FS RF    FDP   R I+SP  Q++P M     VM S+E +
+Sbjct: 816  KIEQRMATLFPEDPQLHRFSQRFAGPTFDPTTVRPIISPRTQMKPVMPAMPPVMTSVEES 875
+
+Query: 792  ARAGSPMIRP----------LNSPKVGFLQ----AVNSPKRPLPADDFEDLNPPKKIQRN 837
+              A  P + P           NSP +  L     + +SPKRPL   D     P       
+Sbjct: 876  MPAPPPQLIPEHQRIASPGITNSPHLNNLMPATTSTSSPKRPLEDADDASAQP------- 928
+
+Query: 838  DQREFQRAESPLKGAAGRRLENQRR---IHGQGPASYNTAPAPAIPREINFLLSQLPGAE 894
+              R+  R ESPLKGAAGRRL+  RR     G  P      P P +PR INFLL  +PGA 
+Sbjct: 929  --RKLARGESPLKGAAGRRLDAARRNLATSGNTPIGAQAGPTP-LPRGINFLLGIIPGAH 985
+
+Query: 895  VYNSTRLSASRVVDTLRDT 913
+             Y  TR     +V+ LR+ 
+Sbjct: 986  TYKETRFQPEAMVNMLRNV 1004
+
+
+>CBX90358 pep:novel supercontig:ASM23037v1:FP929064:893783:898072:1
+           gene:LEMA_P064840.1 transcript:CBX90358
+           description:"Putative uncharacterized protein "
+          Length = 1069
+
+ Score = 57.8 bits (138), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 34/107 (31%), Positives = 53/107 (49%), Gaps = 8/107 (7%)
+
+Query: 197 IEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSV-PNVQLWTVYL 255
+           IE  R+V++ FL  FP     W +YAD+E S G    AE ++ + +  V P+V LW  Y 
+Sbjct: 546 IELVRNVYDCFLTKFPLFFGYWKKYADLEFSIGGTETAEMVYERGVSCVSPSVDLWANYC 605
+
+Query: 256 DYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF 302
+            +   + D +  +   R +  +   F    VGLD  +   W+ YI+F
+Sbjct: 606 TF---KMDTSHDNDIIRDLFERGAHF----VGLDFQSHPFWDKYIEF 645
+
+
+
+ Score = 35.4 bits (80), Expect = 0.085,   Method: Compositional matrix adjust.
+ Identities = 45/193 (23%), Positives = 79/193 (40%), Gaps = 30/193 (15%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGK-S 241
+           +W   +    ++ N E+   ++ER L       E W++YA    SQG       I+ + S
+Sbjct: 767 NWRKYLDFEEKQGNFERTSFLYERCLVACALYDEFWLRYARWMFSQGKEENTRIIYMRAS 826
+
+Query: 242 LMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQV----VTQAYDFVIDNVGL--------- 288
+            + VP +   T+ L++ R    L  +S  AR +    + QA D     + L         
+Sbjct: 827 CIFVP-ISAPTIRLNWARFEEKLGRTS-VARDIYLAMLEQAPDHTETYISLANLVRRSEG 884
+
+Query: 289 DKDASKIWNDYIQFIRLAPGVVGGS-----AWQDQQKMDQLRKAY----QRAVCIPLSNV 339
+           +  A ++ ++YI+      G V  +      WQ +  +D+ R  +    +R V     + 
+Sbjct: 885 NDAAVRLLDEYIERCNTQIGGVLAAEQARILWQCKGAVDEARDVFDGKHERFV-----DS 939
+
+Query: 340 NTLWREYDQFEKG 352
+              W +Y QFE G
+Sbjct: 940 RDFWVKYFQFEIG 952
+
+
+
+ Score = 30.4 bits (67), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 29/124 (23%), Positives = 54/124 (43%), Gaps = 18/124 (14%)
+
+Query: 191  YRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQL 250
+            ++ +  +++ RDVF+     F  + + WV+Y   E+ Q +  EAEA            ++
+Sbjct: 916  WQCKGAVDEARDVFDGKHERFVDSRDFWVKYFQFEIGQPSADEAEA----------QARV 965
+
+Query: 251  WTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVV 310
+              VY + +R       + GR    V++    +     LD+  SK   +Y+Q  R   G +
+Sbjct: 966  KKVY-ESMR-------TKGRFAPAVSKELSQIYMAYLLDRGGSKAAEEYMQLDRQVNGSM 1017
+
+Query: 311  GGSA 314
+              +A
+Sbjct: 1018 HATA 1021
+
+
+>CBX92865 pep:novel supercontig:ASM23037v1:FP929094:1644752:1646830:-1
+           gene:LEMA_P055710.1 transcript:CBX92865
+           description:"Similar to crooked neck pre-mRNA splicing
+           factor-like 1 (Drosophila) "
+          Length = 692
+
+ Score = 48.1 bits (113), Expect = 1e-05,   Method: Compositional matrix adjust.
+ Identities = 41/175 (23%), Positives = 76/175 (43%), Gaps = 28/175 (16%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           +I++ R +++  + + PH     A+VW+ +A  E+ QG    A  + G+S+   P  +L+
+Sbjct: 380 DIDRTRQIYQECIRLLPHKRFTFAKVWLMFAHFEVRQGQLTTARKLLGQSIGMCPKDKLF 439
+
+Query: 252 TVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQFIRLAPGVVG 311
+             Y++   +  + N    R RQ+ T+  ++   N             +I+F  L  G+  
+Sbjct: 440 KGYIELEMKLFEFN----RCRQLYTKYIEWNGANC----------QTWIKFAELERGL-- 483
+
+Query: 312 GSAWQDQQKMDQLRKAYQRAVCIP-LSNVNTLWREYDQFEKGLNPTTGRKYLNER 365
+                    +D+ R  ++ AV  P L     LW+ Y  FE+        + L ER
+Sbjct: 484 -------DDLDRTRAIFELAVDEPQLDMPELLWKAYIDFEEAEGEYDRTRALYER 531
+
+
+
+ Score = 47.0 bits (110), Expect = 3e-05,   Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 43/91 (47%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL  I A  +  NI   R++ +R + + P   ++W +Y  ME + GN   A ++F + + 
+Sbjct: 109 WLRYIEAEMKNRNINHARNLLDRAVTILPRVDKLWYKYVYMEETLGNIDGARSVFERWMQ 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P    W+ Y+   +R  +      RAR +
+Sbjct: 169 WEPEEAAWSSYIKLEKRHGEFE----RARAI 195
+
+
+
+ Score = 38.9 bits (89), Expect = 0.007,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 39/79 (49%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R  M++W+       ++    + R VFER L V   +  +W++Y + E+   N   A  +
+Sbjct: 69  RINMNNWMRYAQWELEQKEFRRARSVFERALDVDSTSVALWLRYIEAEMKNRNINHARNL 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTILPRVDKLWYKYV 147
+
+
+
+ Score = 35.0 bits (79), Expect = 0.12,   Method: Compositional matrix adjust.
+ Identities = 45/203 (22%), Positives = 79/203 (38%), Gaps = 53/203 (26%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSL 242
+           +W S I   ++    E+ R +FERF  V P     W+++A  E   G       ++G ++
+Sbjct: 175 AWSSYIKLEKRHGEFERARAIFERFTVVHPEPKN-WIKWAKFEEENGTSDLVRDVYGTAV 233
+
+Query: 243 MSV----PNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFV---------------- 282
+            ++     + +L+  Y  +  R  +L     RAR +   A D +                
+Sbjct: 234 ETLGDDFMDEKLFMAYAKFEARLKELE----RARAIYRFALDRMPRSKSLNLHKAFTTFE 289
+
+Query: 283 --------IDNVGLD----------KDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQL 324
+                   I++V L           K+ +K ++ +I F RL      G+        D++
+Sbjct: 290 KQYGDRDGIEDVILSKRRVHYEEQIKETAKNYDAWIDFARLEE--TSGNT-------DRV 340
+
+Query: 325 RKAYQRAVC-IPLSNVNTLWREY 346
+           R  Y+RA+  IP +     WR Y
+Sbjct: 341 RDVYERAIAQIPPTQEKRHWRRY 363
+
+
+
+ Score = 32.7 bits (73), Expect = 0.65,   Method: Compositional matrix adjust.
+ Identities = 18/79 (22%), Positives = 38/79 (48%), Gaps = 6/79 (7%)
+
+Query: 183 SWLSLIAAYRQRNNIEQCRDVFERFLAV----FPHAAEVWVQYADMELSQGNFVEAEAIF 238
+           +W+      R  +++++ R +FE  LAV          +W  Y D E ++G +    A++
+Sbjct: 472 TWIKFAELERGLDDLDRTRAIFE--LAVDEPQLDMPELLWKAYIDFEEAEGEYDRTRALY 529
+
+Query: 239 GKSLMSVPNVQLWTVYLDY 257
+            + L    +V++WT +  +
+Sbjct: 530 ERLLSKTDHVKVWTSWAQF 548
+
+
+>CBY01951 pep:novel supercontig:ASM23037v1:FP929139:2686384:2689300:1
+           gene:LEMA_P007380.1 transcript:CBY01951
+           description:"Similar to pre-mRNA-splicing factor prp1 "
+          Length = 932
+
+ Score = 42.7 bits (99), Expect = 6e-04,   Method: Compositional matrix adjust.
+ Identities = 26/107 (24%), Positives = 51/107 (47%), Gaps = 3/107 (2%)
+
+Query: 182 DSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKS 241
+           D WL    +   R   E  R +    +++FP++  VW   AD+E   G      ++  ++
+Sbjct: 534 DIWLEDAKSISSRGRFETARAILGHAVSIFPYSTTVWHASADLEKHHGTAESLLSVLERA 593
+
+Query: 242 LMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGL 288
+           + + PN +  +++L Y R      D  G AR+V+ ++++ +  N  L
+Sbjct: 594 VTACPNSE--SLWLLYAREMWQSGDPEG-ARKVLGRSFEKLPGNENL 637
+
+
+
+ Score = 29.6 bits (65), Expect = 5.7,   Method: Compositional matrix adjust.
+ Identities = 17/85 (20%), Positives = 41/85 (48%), Gaps = 9/85 (10%)
+
+Query: 180 AMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFG 239
+           +++ W +LI       +IE  + +F +     P + E+W+ YA +  ++     A+ +  
+Sbjct: 394 SVELWKTLI---NDTEDIENVKLLFAKATETVPLSEELWISYARVSDAEA----AQQVLN 446
+
+Query: 240 KSLMSVPNVQLWTVYLDYIRRRNDL 264
+           K+  ++P    W +++   R + +L
+Sbjct: 447 KARKAIPTS--WAIWIHACRLQEEL 469
+
+
+>CBX93153 pep:novel supercontig:ASM23037v1:FP929105:690252:693302:-1
+           gene:LEMA_P040540.1 transcript:CBX93153
+           description:"Putative uncharacterized protein "
+          Length = 890
+
+ Score = 37.7 bits (86), Expect = 0.018,   Method: Compositional matrix adjust.
+ Identities = 38/193 (19%), Positives = 75/193 (38%), Gaps = 27/193 (13%)
+
+Query: 171 LRVKEDPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHA---AEVWVQYADMELS 227
+           +R++     A + +  L   Y+Q+    Q  D F+  +   P      ++W Q   +   
+Sbjct: 181 MRMEPTFEKANEIYFRLGIIYKQQQKFNQSLDCFKYIVTNPPRPLTEEDIWFQIGHVYEQ 240
+
+Query: 228 QGNFVEAEAIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVG 287
+           Q  F  A+  + + L   PN       L ++  +   N +S        QA +++  +V 
+Sbjct: 241 QKEFEAAKGAYRRVLERDPNHAKVLQQLGWLHHQQSTNYASQE------QAIEYLEKSVA 294
+
+Query: 288 LDKDASKIWNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSN------VNT 341
+            D+  ++ W             + G  +  QQK  +  +AYQ+AV     N      +  
+Sbjct: 295 SDQTDAQSW------------YLLGRCYMSQQKYPKAYEAYQQAVYRDGRNPTFWCSIGV 342
+
+Query: 342 LWREYDQFEKGLN 354
+           L+ + +Q+   L+
+Sbjct: 343 LYYQINQYRDALD 355
+
+
+  Database: Leptosphaeria_maculans.ASM23037v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:52 PM
+  Number of letters in database: 5,217,443
+  Number of sequences in database:  12,469
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12469
+Number of Hits to DB: 11,767,979
+Number of extensions: 550269
+Number of successful extensions: 2374
+Number of sequences better than 10.0: 77
+Number of HSP's gapped: 2327
+Number of HSP's successfully gapped: 92
+Length of query: 1057
+Length of database: 5,217,443
+Length adjustment: 104
+Effective length of query: 953
+Effective length of database: 3,920,667
+Effective search space: 3736395651
+Effective search space used: 3736395651
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

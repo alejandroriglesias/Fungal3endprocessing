@@ -1,0 +1,179 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_09536:Putative uncharacterized protein
+         (659 letters)
+
+Database: Aspergillus_niger.CADRE.21.pep.all.fa 
+           14,068 sequences; 6,195,193 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADANGAP00002938 pep:known chromosome:CADRE:IV:2417890:2420017:1...   405   e-132
+CADANGAP00001581 pep:known chromosome:CADRE:IV:5762191:5765404:1...    33   0.38 
+CADANGAP00009317 pep:known chromosome:CADRE:III:2450614:2451681:...    31   0.72 
+CADANGAP00002063 pep:known chromosome:CADRE:IV:4599130:4601080:1...    32   0.97 
+CADANGAP00002113 pep:known chromosome:CADRE:IV:4470156:4472435:-...    29   4.0  
+
+>CADANGAP00002938 pep:known chromosome:CADRE:IV:2417890:2420017:1
+           gene:CADANGAG00003012 transcript:CADANGAT00003012
+           description:"Similarity to hypothetical conserved
+           zinc-finger protein - Schizosaccharomyces pombe"
+          Length = 626
+
+ Score =  405 bits (1041), Expect = e-132,   Method: Compositional matrix adjust.
+ Identities = 208/364 (57%), Positives = 254/364 (69%), Gaps = 24/364 (6%)
+
+Query: 14  EPTRVEFDGTGISVFELKRDIILKSGLGDGTDFDLAIYTEDGAEEYDDDTTIIPRSTIVV 73
+           EP+RV FDGTGISVFELKR+II +S LGDGTDF+L+IY ED  EEYDDDT+IIPRST V+
+Sbjct: 14  EPSRVTFDGTGISVFELKREIINQSRLGDGTDFELSIYNEDTGEEYDDDTSIIPRSTSVI 73
+
+Query: 74  ARRLPSMKPGAGRAARYVSGKAPVNAKNSSRKEQVXXXXXXXXXXXXXXQMSNAVTEEER 133
+           ARRLP+ +PG G AARYVSGK PVNA+++ R EQ               +++NA TEEE+
+Sbjct: 74  ARRLPASRPGKGGAARYVSGKMPVNARSAPRNEQYPLTRASPNTSNGVLELNNAQTEEEK 133
+
+Query: 134 LAAMFQAQSEQWTAQQEELSHQTPIYNGKPGVGKRPANVPDHEPPNGYICYRCGEK---- 189
+           + A+F  Q+ QW  QQ+E+++ TP+  G+ G G RP NVPDH PP GY+CYRC EK    
+Sbjct: 134 INALFNLQANQWKEQQQEMANATPVPFGR-GRG-RPVNVPDHPPPPGYLCYRCREKGKLL 191
+
+Query: 190 --------------GHWIQLCPTNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQAGV 235
+                         GHWIQ CPTN++P+FD + RVKR+TGIP+S    V+K   L   G 
+Sbjct: 192 WHNLLKAKTNGVCLGHWIQACPTNNDPKFDGKYRVKRSTGIPRSLQTKVEKPESLTLDGS 251
+
+Query: 236 DGEEGKVPSGVMVNADGDFVIAQPDKAAWEKFQ--ARTXXXXXXXXXXXXDEKELQDRGL 293
+           +  E    +GVMVNADGDFVIA+PDKAAWE +Q  A+               KELQ RGL
+Sbjct: 252 N--EDPRNTGVMVNADGDFVIAKPDKAAWELYQEKAKASAAAAAEAAAAEYSKELQARGL 309
+
+Query: 294 ECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTAK 353
+           ECP+DKR+F EP +TPCC++TYCNDCITNALIESDFVCPGC  EGVL+DNL  DDE  +K
+Sbjct: 310 ECPIDKRMFLEPTRTPCCQRTYCNDCITNALIESDFVCPGCGTEGVLLDNLAVDDEAISK 369
+
+Query: 354 IKQY 357
+           IK+Y
+Sbjct: 370 IKEY 373
+
+
+
+ Score = 58.5 bits (140), Expect = 4e-09,   Method: Compositional matrix adjust.
+ Identities = 28/47 (59%), Positives = 32/47 (68%), Gaps = 9/47 (19%)
+
+Query: 622 QFSNQAAT---------EDDAYFRKPVNPHRHQNRQKRVRPSDYREL 659
+           +FSNQ  T         ED AYFR+PVNP RHQ R +R+RPSDYREL
+Sbjct: 580 RFSNQQRTTFSTPFAREEDTAYFRQPVNPQRHQARHRRIRPSDYREL 626
+
+
+>CADANGAP00001581 pep:known chromosome:CADRE:IV:5762191:5765404:1
+           gene:CADANGAG00001633 transcript:CADANGAT00001633
+           description:"Putative uncharacterized protein
+           An02g01220"
+          Length = 960
+
+ Score = 32.7 bits (73), Expect = 0.38,   Method: Compositional matrix adjust.
+ Identities = 18/65 (27%), Positives = 28/65 (43%), Gaps = 4/65 (6%)
+
+Query: 293 LECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQAEGVLIDNLKPDDETTA 352
+           L C M  +L     + PCC++  C  C   +L E+   CP C    +  D  KP+     
+Sbjct: 26  LRCAMCNKLAVNAFRLPCCDQAICEHCQA-SLPET---CPVCAHTPISPDLCKPNKALRT 81
+
+Query: 353 KIKQY 357
+            +K +
+Sbjct: 82  TLKAF 86
+
+
+>CADANGAP00009317 pep:known chromosome:CADRE:III:2450614:2451681:1
+           gene:CADANGAG00009496 transcript:CADANGAT00009496
+           description:"Similarity to hexamer-binding protein HEXBP
+           -Leishmania major"
+          Length = 214
+
+ Score = 31.2 bits (69), Expect = 0.72,   Method: Composition-based stats.
+ Identities = 15/42 (35%), Positives = 23/42 (54%), Gaps = 2/42 (4%)
+
+Query: 161 GKPGVGKRPANVPDHEPPN--GYICYRCGEKGHWIQLCPTND 200
+           GK G   R    P+  P +  G +CY+C + GH  + CP+N+
+Sbjct: 133 GKLGHISRECTAPNGGPLSSAGKVCYKCSQAGHISRDCPSNE 174
+
+
+>CADANGAP00002063 pep:known chromosome:CADRE:IV:4599130:4601080:1
+           gene:CADANGAG00002123 transcript:CADANGAT00002123
+           description:"Putative uncharacterized protein
+           An02g06070"
+          Length = 618
+
+ Score = 31.6 bits (70), Expect = 0.97,   Method: Compositional matrix adjust.
+ Identities = 15/43 (34%), Positives = 23/43 (53%), Gaps = 2/43 (4%)
+
+Query: 293 LECPMDKRLFNEPMKTPCCEKTYCNDCITNALIESDFVCPGCQ 335
+           L+C +   L  +P+ T C   T+C  C+   L  SD +CP C+
+Sbjct: 298 LDCQVCYSLILDPLTTSC-GHTFCRGCVAMVLNHSD-LCPLCR 338
+
+
+>CADANGAP00002113 pep:known chromosome:CADRE:IV:4470156:4472435:-1
+           gene:CADANGAG00002175 transcript:CADANGAT00002175
+           description:"Putative uncharacterized protein
+           An02g06570"
+          Length = 566
+
+ Score = 29.3 bits (64), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 21/81 (25%), Positives = 31/81 (38%), Gaps = 12/81 (14%)
+
+Query: 182 ICYRCGEKGHWIQLCP--------TNDNPEFDNRPRVKRTTGIPKSFLKTVDKATVLGQA 233
+           IC  CG  GH  + CP         N+N  F  R    R  G   +  + +++       
+Sbjct: 332 ICRVCGNAGHMARDCPDRQRGSDWRNNNGGFGGR----RAIGGGDAVDREMEQLMQELSG 387
+
+Query: 234 GVDGEEGKVPSGVMVNADGDF 254
+           G  GE+G VP  +    D  +
+Sbjct: 388 GAPGEDGHVPRRIEAGPDQSY 408
+
+
+  Database: Aspergillus_niger.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:45 PM
+  Number of letters in database: 6,195,193
+  Number of sequences in database:  14,068
+  
+Lambda     K      H
+   0.312    0.131    0.389 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14068
+Number of Hits to DB: 6,091,769
+Number of extensions: 253037
+Number of successful extensions: 841
+Number of sequences better than 10.0: 19
+Number of HSP's gapped: 836
+Number of HSP's successfully gapped: 21
+Length of query: 659
+Length of database: 6,195,193
+Length adjustment: 101
+Effective length of query: 558
+Effective length of database: 4,774,325
+Effective search space: 2664073350
+Effective search space used: 2664073350
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 56 (26.2 bits)

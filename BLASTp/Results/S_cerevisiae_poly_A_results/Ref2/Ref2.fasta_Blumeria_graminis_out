@@ -1,0 +1,135 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU79212 pep:novel supercontig:EF1:HF943528:1254667:1257446:-1 g...    30   0.95 
+CCU76309 pep:novel supercontig:EF1:HF943536:3613373:3617217:1 ge...    29   2.2  
+CCU76761 pep:novel supercontig:EF1:HF943534:456923:458035:-1 gen...    28   3.3  
+CCU75566 pep:novel supercontig:EF1:HF943546:4873337:4880761:1 ge...    28   5.1  
+
+>CCU79212 pep:novel supercontig:EF1:HF943528:1254667:1257446:-1
+           gene:BGHDH14_bgh02467 transcript:CCU79212
+           description:"UBA/TS-N domain protein"
+          Length = 891
+
+ Score = 30.4 bits (67), Expect = 0.95,   Method: Compositional matrix adjust.
+ Identities = 26/90 (28%), Positives = 47/90 (52%), Gaps = 5/90 (5%)
+
+Query: 345 KTKISVQDSNVQSILRNGK-PKKARISSIKFLDDSQLIKVY---GDDLPNQGLQVSPTQL 400
+           +TKIS+Q+S+ +  + N + P +   SS +    SQ   VY   GDD+  + + VSP + 
+Sbjct: 466 ETKISIQNSSRERSISNPRLPSELSRSSARSYQFSQSNDVYKKNGDDIKTEKVYVSPAR- 524
+
+Query: 401 KKILKPFKEGEPKEIILFEDMSIKLKPLDL 430
+           ++I       +P+  +   + S+ +KP  L
+Sbjct: 525 RRIATNHPHPQPQPTLPKTEPSVTVKPSKL 554
+
+
+>CCU76309 pep:novel supercontig:EF1:HF943536:3613373:3617217:1
+            gene:BGHDH14_bghG002327000001001 transcript:CCU76309
+            description:"phosphatidylinositol 3-kinase 3"
+          Length = 1231
+
+ Score = 29.3 bits (64), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 16/33 (48%)
+
+Query: 122  LPKFSPEERKNYIDNLILNKNSHNRLSKMDGLV 154
+            LP F PE  KN+ D  +L K        M GL+
+Sbjct: 1175 LPCFKPETIKNFRDRFVLEKTEREAAEFMKGLI 1207
+
+
+>CCU76761 pep:novel supercontig:EF1:HF943534:456923:458035:-1
+           gene:BGHDH14_bgh03564 transcript:CCU76761
+           description:"Cysteine and histidine-rich
+           domain-containing protein 1"
+          Length = 339
+
+ Score = 28.1 bits (61), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 36/84 (42%), Gaps = 8/84 (9%)
+
+Query: 407 FKEGEPKE--IILFEDMSIKLKPLDLMFLKNTNSDDYMDISETKGGPIHCETRTPLIYRK 464
+           F EG+  +  I + E +++ +K       +    D++M I+    G       TP I +K
+Sbjct: 30  FHEGQKGKDGISIIERLTVMVKGWKCCKRRVLTFDEFMSIAPCTTGTHSTTDHTPAIEKK 89
+
+Query: 465 NFNHFNPDLN------KRPPREPI 482
+             NH    ++      K PPR P+
+Sbjct: 90  QSNHEENCISASKISTKAPPRAPV 113
+
+
+>CCU75566 pep:novel supercontig:EF1:HF943546:4873337:4880761:1
+           gene:BGHDH14_bghG001465000001001 transcript:CCU75566
+           description:"sensor histidine kinase"
+          Length = 2367
+
+ Score = 28.1 bits (61), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 37/74 (50%), Gaps = 3/74 (4%)
+
+Query: 339 EEPLKKKTKISVQDSNVQSILRNGKPKKARISSIKFLDDSQLIKVYGDDLPNQGLQVSPT 398
+           +EPL +K K  +  SN + ++R G     R+ ++K L++  + K     L  + ++V P 
+Sbjct: 782 DEPLSEKVKQIIDPSNNKELIRTGAVSITRV-TLKPLNEEDIKKYVAATLCREEIEVVP- 839
+
+Query: 399 QLKKILKPFKEGEP 412
+            L  ++K    G P
+Sbjct: 840 -LAAVVKSKTAGNP 852
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 2,843,359
+Number of extensions: 118917
+Number of successful extensions: 267
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 267
+Number of HSP's successfully gapped: 7
+Length of query: 533
+Length of database: 3,131,961
+Length adjustment: 95
+Effective length of query: 438
+Effective length of database: 2,517,311
+Effective search space: 1102582218
+Effective search space used: 1102582218
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,231 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Type 1 serine/threonine protein phosphatase catalytic subunit,
+involved in many processes (eg: glycogen metabolism, sporulation,
+mitosis); accumulates at mating projections by interaction with Afr1p;
+interacts with many regulatory subunits
+         (312 letters)
+
+Database: Blumeria_graminis.EF1.21.pep.all.fa 
+           6470 sequences; 3,131,961 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CCU80319 pep:novel supercontig:EF1:HF943505:636720:638246:1 gene...   558   0.0  
+CCU74526 pep:novel supercontig:EF1:HF943549:652548:654968:1 gene...   413   e-142
+CCU74774 pep:novel supercontig:EF1:HF943549:3279212:3280988:1 ge...   278   6e-92
+CCU74725 pep:novel supercontig:EF1:HF943549:2730397:2731404:-1 g...   255   2e-83
+CCU77363 pep:novel supercontig:EF1:HF943544:774688:776432:1 gene...   210   7e-64
+CCU76054 pep:novel supercontig:EF1:HF943536:378787:380459:1 gene...   182   5e-54
+CCU79262 pep:novel supercontig:EF1:HF943528:1406686:1409164:-1 g...   180   6e-52
+CCU74687 pep:novel supercontig:EF1:HF943549:2334821:2336221:-1 g...   136   6e-37
+CCU82844 pep:novel supercontig:EF1:HF943499:265495:267106:-1 gen...    32   0.11 
+CCU77005 pep:novel supercontig:EF1:HF943530:1044670:1045683:-1 g...    28   2.0  
+CCU82089 pep:novel supercontig:EF1:HF943521:928857:930509:1 gene...    28   2.4  
+CCU75681 pep:novel supercontig:EF1:HF943546:6380642:6383406:-1 g...    28   3.0  
+
+>CCU80319 pep:novel supercontig:EF1:HF943505:636720:638246:1
+           gene:BGHDH14_bgh00305 transcript:CCU80319
+           description:"serine/threonine protein phosphatase PP1"
+          Length = 323
+
+ Score =  558 bits (1437), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 271/307 (88%), Positives = 283/307 (92%), Gaps = 6/307 (1%)
+
+Query: 2   DSQPVDVDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKIC 61
+           D   +++D+IIDRLLEVRGS+PG+QV L E EIR+LC+KAR IFI QPILLELEAPIKIC
+Sbjct: 7   DLNDINLDSIIDRLLEVRGSRPGKQVQLLEAEIRFLCTKAREIFISQPILLELEAPIKIC 66
+
+Query: 62  GDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 121
+           GDIHGQYYDLLRLFEYGGFPPE+NYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR
+Sbjct: 67  GDIHGQYYDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILR 126
+
+Query: 122 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNS 181
+           GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIF MHGGLSPDLNS
+Sbjct: 127 GNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFTMHGGLSPDLNS 186
+
+Query: 182 MEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDME 241
+           MEQIRR      IPD GLLCDLLWSDPDKDI GWSENDRGVSFTFGPDVV+RFLQK DM+
+Sbjct: 187 MEQIRR------IPDCGLLCDLLWSDPDKDITGWSENDRGVSFTFGPDVVSRFLQKHDMD 240
+
+Query: 242 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPA+K 
+Sbjct: 241 LICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKPAEKK 300
+
+Query: 302 LPRQAGG 308
+                GG
+Sbjct: 301 QKYVYGG 307
+
+
+>CCU74526 pep:novel supercontig:EF1:HF943549:652548:654968:1
+           gene:BGHDH14_bgh04164 transcript:CCU74526
+           description:"serine/threonine-protein phosphatase PP-Z"
+          Length = 529
+
+ Score =  413 bits (1061), Expect = e-142,   Method: Compositional matrix adjust.
+ Identities = 191/297 (64%), Positives = 231/297 (77%), Gaps = 1/297 (0%)
+
+Query: 2   DSQPVDVDNIIDRLLEV-RGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAPIKI 60
+           D    DVD  I RLL+     K  + V L+  EI  +C+KAR + ++QP L+E++AP+KI
+Sbjct: 199 DISEADVDEYIRRLLDTGYDGKQTKTVCLKNAEIVTICAKARELLLEQPPLIEIDAPVKI 258
+
+Query: 61  CGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFIL 120
+            GDIHGQY DL+R+FE  GFPP SN+LFLGDYVDRGKQSLETI LLL YKIKYPENFF+L
+Sbjct: 259 VGDIHGQYTDLIRMFEMCGFPPNSNFLFLGDYVDRGKQSLETILLLLCYKIKYPENFFLL 318
+
+Query: 121 RGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLN 180
+           RGNHECA++ R+YGFYDECKRR N+K+WK F D FNCLPIAAI+  KIFC+HGGLSP L 
+Sbjct: 319 RGNHECANVTRVYGFYDECKRRANVKIWKNFIDTFNCLPIAAIVAGKIFCVHGGLSPALM 378
+
+Query: 181 SMEQIRRVMRPTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDM 240
+            M+ IR ++RPTD+PD GLL DLLWSDP K    W  ++RGVS++FG  V+  FL + D 
+Sbjct: 379 HMDDIRNIIRPTDVPDFGLLNDLLWSDPAKQTKEWENSERGVSYSFGKKVITDFLARHDF 438
+
+Query: 241 ELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQILKP 297
+           +L+CRAH VVEDGYEFF  R LVT+FSAPNYCGEFDN GA+MSV   LLCSF+++KP
+Sbjct: 439 DLVCRAHMVVEDGYEFFEDRILVTVFSAPNYCGEFDNYGAVMSVSIELLCSFELIKP 495
+
+
+>CCU74774 pep:novel supercontig:EF1:HF943549:3279212:3280988:1
+           gene:BGHDH14_bgh00307 transcript:CCU74774
+           description:"protein phosphatase type 2A"
+          Length = 328
+
+ Score =  278 bits (712), Expect = 6e-92,   Method: Compositional matrix adjust.
+ Identities = 128/274 (46%), Positives = 184/274 (67%), Gaps = 2/274 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E ++  LC KAR +   +  +  ++ P+ +CGDIHGQ++DL+ LF  GG  P++NYLF
+Sbjct: 42  LPEVDVLRLCEKAREVLHSESNVQPVKCPVTVCGDIHGQFHDLMELFRIGGPNPDTNYLF 101
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           +GDYVDRG  S+ET+ LL+A KI+YP+   ILRGNHE   I ++YGFYDEC R+Y N  +
+Sbjct: 102 MGDYVDRGYYSVETVTLLVALKIRYPQRITILRGNHESRQITQVYGFYDECLRKYGNANV 161
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           WK FT+ F+ LP+ A+I+ +IFC+HGGLSP +++++ I+ + R  ++P  G +CDLLWSD
+Sbjct: 162 WKYFTNLFDFLPLTALIENQIFCLHGGLSPSIDTLDNIKSLDRIQEVPHEGPMCDLLWSD 221
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD D  GW  + RG  +TFG D+   F     + L+ RAHQ+V +GY +   R +VT+FS
+Sbjct: 222 PD-DRCGWGISPRGAGYTFGQDISEAFNHNNGLTLVARAHQLVMEGYNWSQDRNVVTIFS 280
+
+Query: 268 APNYCGEFDNAGAMMSVDESLLCSFQILKPAQKS 301
+           APNYC    N  A+M +DE L  +F    P  ++
+Sbjct: 281 APNYCYRCGNQAAIMEIDEHLKYTFLQFDPCPRA 314
+
+
+>CCU74725 pep:novel supercontig:EF1:HF943549:2730397:2731404:-1
+           gene:BGHDH14_bgh00018 transcript:CCU74725
+           description:"protein phosphatase 2A"
+          Length = 303
+
+ Score =  255 bits (652), Expect = 2e-83,   Method: Compositional matrix adjust.
+ Identities = 114/259 (44%), Positives = 179/259 (69%), Gaps = 1/259 (0%)
+
+Query: 29  LEENEIRYLCSKARSIFIKQPILLELEAPIKICGDIHGQYYDLLRLFEYGGFPPESNYLF 88
+           L E+ I  +C+K + + +++  ++ ++AP+ + GDIHGQ+YDL+ +F+ GGF P++NYLF
+Sbjct: 5   LAESLIEAICAKTKELLMQESNVVHIQAPVTVVGDIHGQFYDLIEIFKIGGFCPDTNYLF 64
+
+Query: 89  LGDYVDRGKQSLETICLLLAYKIKYPENFFILRGNHECASINRIYGFYDECKRRY-NIKL 147
+           LGDYVDRG  S+ETI LL+  K++YP    ++RGNHE   + + YGFY EC R+Y N  +
+Sbjct: 65  LGDYVDRGMFSVETISLLVCLKLRYPHRVHLIRGNHESRGVTQSYGFYTECSRKYGNANV 124
+
+Query: 148 WKTFTDCFNCLPIAAIIDEKIFCMHGGLSPDLNSMEQIRRVMRPTDIPDVGLLCDLLWSD 207
+           W  FTD F+ L ++ +I+++IFC+HGGLSP ++S++QI+ + R  +IP  G + DL+WSD
+Sbjct: 125 WHFFTDMFDFLTLSVVINDQIFCVHGGLSPSIHSIDQIKVIDRYREIPHEGPMADLVWSD 184
+
+Query: 208 PDKDIVGWSENDRGVSFTFGPDVVNRFLQKQDMELICRAHQVVEDGYEFFSKRQLVTLFS 267
+           PD +   +S + RG  +TFG +VV +FL   +M  I RAHQ+ ++GY+     +L T++S
+Sbjct: 185 PDPERDEFSLSPRGAGYTFGAEVVKKFLAVNNMTHILRAHQLCQEGYQVLYDDRLSTVWS 244
+
+Query: 268 APNYCGEFDNAGAMMSVDE 286
+           APNYC    N  +++ V +
+Sbjct: 245 APNYCYRCGNMASVLEVSD 263
+
+
+>CCU77363 pep:novel supercontig:EF1:HF943544:774688:776432:1
+           gene:BGHDH14_bgh00314 transcript:CCU77363
+           description:"serine/threonine protein phosphatase 5"
+          Length = 476
+
+ Score =  210 bits (534), Expect = 7e-64,   Method: Compositional matrix adjust.
+ Identities = 116/312 (37%), Positives = 172/312 (55%), Gaps = 21/312 (6%)
+
+Query: 8   VDNIIDRLLEVRGSKPGQQVDLEENEIRYLCSKARSIFIKQPILLELEAP----IKICGD 63
+           + N+IDR       K G++  L    +  +    + I   +P L+E+E P    + ICGD
+Sbjct: 169 ITNMIDRF------KNGKK--LHRKYVYQIILAVKEILTAEPTLVEMEIPENIQLTICGD 220
+
+Query: 64  IHGQYYDLLRLFEYGGFPPESN-YLFLGDYVDRGKQSLETICLLLAYKIKYPENFFILRG 122
+            HGQ++DL+ LF   G P E + YLF GD+VDRG  S E   LL AYK   P  FFI RG
+Sbjct: 221 THGQFFDLMELFRLNGLPTEKHFYLFNGDFVDRGSWSTEIALLLYAYKWLRPSCFFINRG 280
+
+Query: 123 NHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIIDEKIFCMHGGL-SPDLNS 181
+           NHE   +NR+YGF  ECK +YN + ++ F++ F+ LP+A ++  K   +HGGL S D  +
+Sbjct: 281 NHETDDLNRLYGFEGECKAKYNERTFRLFSESFSALPLATLVGSKYLVLHGGLFSDDKVT 340
+
+Query: 182 MEQIRRVMR--PTDIPDVGLLCDLLWSDPDKDIVGWSENDRGVSFTFGPDVVNRFLQKQD 239
+           ++ IR++ R         GL+ ++LW+DP  D  G   + RG+   FGPDV  RF +   
+Sbjct: 341 LDDIRKLNRLNQRQPAQSGLMMEMLWTDPQND-PGRGPSKRGIGMQFGPDVTKRFCENNG 399
+
+Query: 240 MELICRAHQVVEDGYEFFSKRQLVTLFSAPNYCGEFDNAGAMMSVDESLLCSFQ----IL 295
+           ++ I R+H+V  +GYE     + +T+FSAP YC   +N GA ++V       F     + 
+Sbjct: 400 LDAIIRSHEVRMEGYEAQHDGKCITVFSAPKYCDTTENKGAYINVGSDYQLHFHKFDAVP 459
+
+Query: 296 KPAQKSLPRQAG 307
+            P  K++   +G
+Sbjct: 460 HPNIKAMAYASG 471
+
+
+  Database: Blumeria_graminis.EF1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:47 PM
+  Number of letters in database: 3,131,961
+  Number of sequences in database:  6470
+  
+Lambda     K      H
+   0.324    0.143    0.446 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6470
+Number of Hits to DB: 2,107,681
+Number of extensions: 92845
+Number of successful extensions: 161
+Number of sequences better than 10.0: 12
+Number of HSP's gapped: 147
+Number of HSP's successfully gapped: 14
+Length of query: 312
+Length of database: 3,131,961
+Length adjustment: 90
+Effective length of query: 222
+Effective length of database: 2,549,661
+Effective search space: 566024742
+Effective search space used: 566024742
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 51 (24.3 bits)

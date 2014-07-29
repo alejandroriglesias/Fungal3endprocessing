@@ -1,0 +1,142 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN99197 pep:novel supercontig:ASM14694v1:CH476649:97302:98400:-...    72   7e-15
+EDN93644 pep:novel supercontig:ASM14694v1:CH476633:936611:938782...    29   1.4  
+EDO03664 pep:novel supercontig:ASM14694v1:CH476627:1457460:14595...    29   1.6  
+EDN99172 pep:novel supercontig:ASM14694v1:CH476649:22694:23697:1...    28   2.4  
+EDN91422 pep:novel supercontig:ASM14694v1:CH476621:2125684:21284...    27   4.6  
+EDN96850 pep:novel supercontig:ASM14694v1:CH476622:1832833:18350...    27   6.6  
+EDO03413 pep:novel supercontig:ASM14694v1:CH476627:794161:795770...    27   6.6  
+EDO01292 pep:novel supercontig:ASM14694v1:CH476624:1768010:17688...    26   9.5  
+
+>EDN99197 pep:novel supercontig:ASM14694v1:CH476649:97302:98400:-1
+           gene:SS1G_14057 transcript:EDN99197
+           description:"hypothetical protein"
+          Length = 313
+
+ Score = 72.4 bits (176), Expect = 7e-15,   Method: Compositional matrix adjust.
+ Identities = 35/83 (42%), Positives = 54/83 (65%), Gaps = 5/83 (6%)
+
+Query: 152 SDGNVPKAMTGSIDLDKEGIFDSVG--ITTID-PEVLKE--KPWRQPGANLSDYFNYGFN 206
+           S   +P      ID++ + +++  G  IT I+  E L E  KPWR+PG ++SDYFNYGF+
+Sbjct: 118 SGAELPGLAISKIDVNAKPMYEPAGKPITQINIDEDLNENDKPWRRPGTDISDYFNYGFD 177
+
+Query: 207 EFTWMEYLHRQEKLQQDYNPRRI 229
+           EFTW  Y ++QE L+ +++P +I
+Sbjct: 178 EFTWALYANKQESLRSEFDPNKI 200
+
+
+>EDN93644 pep:novel supercontig:ASM14694v1:CH476633:936611:938782:1
+           gene:SS1G_09511 transcript:EDN93644
+           description:"hypothetical protein"
+          Length = 686
+
+ Score = 28.9 bits (63), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 18/43 (41%), Positives = 24/43 (55%), Gaps = 3/43 (6%)
+
+Query: 162 GSIDLDKEGIF--DSVGITTIDPEVLKEKPWRQPGANLSDYFN 202
+           G I L+   +   DSV + T D EV+KEK W +    LSD+ N
+Sbjct: 285 GCIFLNIATVLYGDSVELATFD-EVMKEKEWPKKYTMLSDHLN 326
+
+
+>EDO03664 pep:novel supercontig:ASM14694v1:CH476627:1457460:1459505:1
+           gene:SS1G_06145 transcript:EDO03664
+           description:"hypothetical protein"
+          Length = 516
+
+ Score = 28.9 bits (63), Expect = 1.6,   Method: Compositional matrix adjust.
+ Identities = 12/39 (30%), Positives = 24/39 (61%)
+
+Query: 133 ITEGEANQGVTATTVKATESDGNVPKAMTGSIDLDKEGI 171
+           ++EG+A QGV+AT+   + ++ N+P   T  + +  + I
+Sbjct: 206 VSEGKAAQGVSATSYGGSCAESNIPFVRTQYLSIKSQLI 244
+
+
+>EDN99172 pep:novel supercontig:ASM14694v1:CH476649:22694:23697:1
+           gene:SS1G_14032 transcript:EDN99172
+           description:"hypothetical protein"
+          Length = 309
+
+ Score = 28.1 bits (61), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 13/15 (86%)
+
+Query: 190 WRQPGANLSDYFNYG 204
+           W QPG++L+ Y+NYG
+Sbjct: 50  WVQPGSDLTWYYNYG 64
+
+
+>EDN91422 pep:novel supercontig:ASM14694v1:CH476621:2125684:2128495:-1
+           gene:SS1G_00825 transcript:EDN91422
+           description:"hypothetical protein"
+          Length = 918
+
+ Score = 27.3 bits (59), Expect = 4.6,   Method: Compositional matrix adjust.
+ Identities = 15/59 (25%), Positives = 30/59 (50%), Gaps = 8/59 (13%)
+
+Query: 171 IFDSVGITTIDPEVLKEKPWRQPGAN---LSDYF---NYGFNEFTWMEYLHRQEKLQQD 223
+           + DS+G +  DP+V++ KP ++P        D++   + G  E TW+      E+  ++
+Sbjct: 439 LIDSLGCS--DPQVVRSKPGKEPSHGKWLFVDHYLPGSMGIKEDTWINVTREPERCVKN 495
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 1,779,936
+Number of extensions: 73415
+Number of successful extensions: 264
+Number of sequences better than 10.0: 25
+Number of HSP's gapped: 264
+Number of HSP's successfully gapped: 25
+Length of query: 327
+Length of database: 3,721,581
+Length adjustment: 91
+Effective length of query: 236
+Effective length of database: 2,795,656
+Effective search space: 659774816
+Effective search space used: 659774816
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

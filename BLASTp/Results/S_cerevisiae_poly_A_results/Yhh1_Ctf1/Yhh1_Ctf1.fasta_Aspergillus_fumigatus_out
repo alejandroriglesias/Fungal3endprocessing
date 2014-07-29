@@ -1,0 +1,220 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding subunit of the mRNA cleavage and polyadenylation
+factor; involved in poly(A) site recognition and required for both
+pre-mRNA cleavage and polyadenylation, 51% sequence similarity with
+mammalian AAUAA-binding subunit of CPSF
+         (1357 letters)
+
+Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa 
+           9916 sequences; 4,796,137 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFUBP00008129 pep:known scaffold:CADRE:DS499600:1064452:10691...   320   2e-90
+CADAFUBP00007050 pep:known scaffold:CADRE:DS499599:62418:63708:1...    33   0.66 
+CADAFUBP00000346 pep:known scaffold:CADRE:DS499594:970650:972192...    32   0.80 
+CADAFUBP00007505 pep:known scaffold:CADRE:DS499599:1386981:13906...    32   1.2  
+
+>CADAFUBP00008129 pep:known scaffold:CADRE:DS499600:1064452:1069132:-1
+            gene:CADAFUBG00008281 transcript:CADAFUBT00008281
+            description:"Cleavage and polyadenylation specificity
+            factor subunit A, putative"
+          Length = 1401
+
+ Score =  320 bits (819), Expect = 2e-90,   Method: Compositional matrix adjust.
+ Identities = 333/1434 (23%), Positives = 605/1434 (42%), Gaps = 152/1434 (10%)
+
+Query: 1    MNVYDDVLDATVVSHSLATHFTTSDYEELLVVRTNILSVY-------------------R 41
+            M  Y ++L  + V+H+LA  F ++  E L+VV+T++L ++                   R
+Sbjct: 1    MQCYTELLSPSGVTHALAIPFLSASAENLVVVKTSVLQIFSLLKVQHHSRGETIETKSAR 60
+
+Query: 42   PTR--DGKLYLTDEFKFHGLITDIGLIP--QKDSPLSCLLLCTGVAKISILKFNTLTNSI 97
+            P +    KL L  E+   G + DI  +      S    LLL    AK+S+++++   + I
+Sbjct: 61   PDQVETTKLVLEREYPLSGTVVDICRVKILNSKSGGEALLLAFRNAKLSLVEWDPERHGI 120
+
+Query: 98   DTLSLHYYEGKFKGKS--LVELAKI-STLRMDPGSSCALLFNNDI--IAFLPFHVNKNXX 152
+             T+S+HYYE     +S  + +L+   S L +DP S CA+ FN  I  +A LPFH   +  
+Sbjct: 121  STISIHYYERDDLTRSPWVPDLSSCGSILSVDPSSRCAV-FNFGIRNLAILPFHQPGDDL 179
+
+Query: 153  XXXXXXXXXXXXXXXLIHSMNQKSQGTNTFNKRKRTKLGDKFTAPSVVLVASELYEGAKN 212
+                               +NQ S       K K + +     A S VL  + L     +
+Sbjct: 180  AMDDYEFHLHQ------DDLNQVSDHVGNGLKSKDSTVYQTPYASSFVLPLTALDPSILH 233
+
+Query: 213  IIDIQFLKNFTKPTIALLYQPKLVWAGNTTISKLPTQYVILTLNIQPAESATKIESTTIA 272
+             + + FL  + +PT  +LY          +  K    Y + TL+++      +  STT+ 
+Sbjct: 234  PVSLAFLYEYREPTFGILYSQIATSHALLSERKDSIFYTVFTLDLE------QRASTTLL 287
+
+Query: 273  FVKELPWDLHTIV---PVSNGAIIVGTNELAFLDNTGVLQSTVLLNSFADKELQKTKIIN 329
+             V +LP DL  +V   P   GA+++G+NEL  +D  G   + V +N FA +++    +++
+Sbjct: 288  SVPKLPSDLFKVVALPPPVGGALLIGSNELVHVDQAGKTNA-VGVNEFA-RQVSAFSMVD 345
+
+Query: 330  NSSLEIMFREKNTTSIWIPXXXXXXXXXXXDET--LLLMDLKSNIYYIQMEAEGRLLIKF 387
+             S L +         I              D T  LLL+    N+  +  + +GR +   
+Sbjct: 346  QSDLALRLEGCVVEHI-------------SDSTGDLLLVLSSGNMVLVHFQLDGRSVSGI 392
+
+Query: 388  DIFKLPIVNDLLKENSNPKCITRLNATNSN--KNMDLFIGFGSGNALVLRLNNLKSTIET 445
+             +  LP              I +  A++S    +  +F G    ++++L  +++ +  ++
+Sbjct: 393  SLRPLP--------TQAGGTIMKSAASSSAFLGSGRVFFGSEDADSVLLSWSSMPNPKKS 444
+
+Query: 446  R-EAHNPSSGTNSLMXXXXXXXXXXXXXXXXXAPENGLTTNDSKGTVETVQPFDIELLSS 504
+            R    N +                         PE              V  +  + L  
+Sbjct: 445  RPRMSNVAEDREEASDDSQSEEDAYEDDLYTAEPETPALGRRPSAETTGVGAYIFQTLDR 504
+
+Query: 505  LRNVGPITSLTVGKVSSIDDVVKGLPNPNKNEYSLVATSGNGSGSHLTVIQTSVQPEIEL 564
+            L N+GP+  +T+GK +S  +    L     +E  LVA  G+G    L +++  ++P++  
+Sbjct: 505  LPNIGPLRDITLGKPASTVENTGRLIKNACSELELVAAQGSGRNGGLVLMKREIEPDVTA 564
+
+Query: 565  ALKFISITQIWNLKI-----------------KGRDRYLITTDST--KSRSDIYESD-NN 604
+            +    S+ ++W   +                 + R   +++   T  K  S+++ +D  +
+Sbjct: 565  SFDAQSVQEVWTAVVALGSGAPLVLDEQQINQEYRQYVILSKPETPDKETSEVFIADTQD 624
+
+Query: 605  FKLHKGGRLR-RDATTVYISMFGEEKRIIQVTTNHLYLYDTHFRRLTTIKFDYE------ 657
+             K  +       +  T+ I     +KR++QV  N +  YD     L  I   ++      
+Sbjct: 625  LKPFRAPEFNPNNDVTIEIGTLSCKKRVVQVLRNEVRSYDIDLG-LAQIYPVWDEDTSDE 683
+
+Query: 658  --VIHVSVMDPYILVTVSRGDIKIFXXXXXXXXXXXXVDLPEILNEMVITSGLIL--KSN 713
+               +  S+ DPYI +   R D  +             V+L E        S  +   K+ 
+Sbjct: 684  RMAVSASLADPYIAIL--RDDSTLMILQADDSGDLDEVELNEAARAGKWRSCCLYWDKAE 741
+
+Query: 714  MCNEFLIGLSKSQEEQLLFTFVTADNQIIFFTKDHNDRIFQLNGVDQLNESLYISTYQLG 773
+              +     L +    +L    ++ D ++  +       I  + G+D L     I + +L 
+Sbjct: 742  FFSSTGPALKQGTRCELFLFLLSIDCRLYVYRLPDQQLISVIEGIDCLPP---ILSTELP 798
+
+Query: 774  DEIVPDPSIKQVMINKLGHD-NKEEYLTILTFGGEIYQYRKLP-------QRRSRFYRNV 825
+                    + + +I  LG   N   +L + T   ++  Y+            R  F +  
+Sbjct: 799  KRSTTREVLSEAVIADLGESWNPSPHLILRTESDDLVIYKAFASYIKGESHTRLSFVKES 858
+
+Query: 826  TRNDLAITGAPDNAYAKGVSSIERIMHYFPDYNGYSVIFVTGSVPYILIKEDDSTPKIFK 885
+                  +T +     +    S  R +   P+ + +S +F+ G     ++K   S P +F+
+Sbjct: 859  NHTLPRVTTSEKEMQSNEKLSRPRSLRILPNISNFSAVFMPGRPASFILKTAKSCPHVFR 918
+
+Query: 886  FGNIPLVSVT------PWSERSVMCVDDIKNARVYTLTTDNMYYGNKLPLKQIKISNVLD 939
+                 + S++      P  +   + VD     R+    +D ++      L++I I   +D
+Sbjct: 919  LRGEFVRSLSIFDLASPSLDTGFIYVDSKDVLRICRFPSDTLF-DYTWALRKISIGEQVD 977
+
+Query: 940  DYKTLQKLVYHERAQLFLVSYCKRVPYEALGEDGEKVIGYDENVPHA---EGFQSGILLI 996
+                   L Y   ++ +++       ++   +D       +E +  +   E  Q  + ++
+Sbjct: 978  ------HLAYATSSETYVLGTSHSADFKLPDDDELHPDWRNEGLVISFLPELRQCSLKVV 1031
+
+Query: 997  NPKSWKVIDKIDFPKNSVVNEMRSSMIQINSKTKRKREYIIAGVANATTEDTPPTGAFHI 1056
+            +P++W VID      +  V  +++  ++++  T  +R  I+ G A A  ED P  G  ++
+Sbjct: 1032 SPRTWTVIDSYSLGPDEYVMAVKNMDLEVSENTHERRNMIVVGTAFARGEDIPSRGCIYV 1091
+
+Query: 1057 YDVIEVVPEPGKPDTNYKLKEIFQEEVSGTVSTVCEVSGR-FMI-SQSQKVLVRDIQEDN 1114
+            ++VI+VVP+P KP+T+ KLK I +E V G V+ + ++ G+ F+I +Q QK +VR ++ED 
+Sbjct: 1092 FEVIKVVPDPEKPETDRKLKLIGKELVKGAVTALSQIGGQGFLIAAQGQKCMVRGLKEDG 1151
+
+Query: 1115 SVIPVAFLDIPVFVTDSKSFG--NLLIIGDAMQGFQFIGFDAEPYRMISLGRSMSKFQTM 1172
+            S++PVAF+D+  +V   K      + I+GDA++G  F G+  EPY+M   G+     + +
+Sbjct: 1152 SLLPVAFMDMQCYVNVLKELKGTGMCIMGDAVKGLWFAGYSEEPYKMSLFGKDQGYLEVV 1211
+
+Query: 1173 SLEFLVNGGDMYFAATDADRNVHVLKYAPDEPNSLSGQRLVHCSSFTLHSTNSCMMLLPR 1232
+            + EFL +G  ++    D+D N+HVL+Y P++P S +G RL+  S F +    + M LLPR
+Sbjct: 1212 AAEFLPDGDKLFILVADSDCNLHVLQYDPEDPKSSNGDRLLARSKFHMGHFATTMTLLPR 1271
+
+Query: 1233 -----NEEFGSPQVPSF--QNVGGQV-----DGSVFKIVPLSEEKYRRLYVIQQQIIDRE 1280
+                  +   +P       Q +  QV      GSV  +  + EE YRRL  +Q Q+ +  
+Sbjct: 1272 TMVSSEKAMANPDSMEIDSQTISQQVLITSQSGSVGIVTSVPEESYRRLSALQSQLANSL 1331
+
+Query: 1281 LQLGGLNPRMERLANDFYQMGHSMRPMLDFNVIRRFCGLAIDRRKSIAQKAGRH 1334
+                GLNPR  R        G + R MLD N++ ++  +   R+  IA + G H
+Sbjct: 1332 EHPCGLNPRAYRAVE---SDGTAGRGMLDGNLLYQWLDMGQHRKMEIAARVGAH 1382
+
+
+>CADAFUBP00007050 pep:known scaffold:CADRE:DS499599:62418:63708:1
+          gene:CADAFUBG00007182 transcript:CADAFUBT00007182
+          description:"Actin-related protein 2/3 complex subunit
+          1A, putative"
+          Length = 363
+
+ Score = 32.7 bits (73), Expect = 0.66,   Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 31/60 (51%), Gaps = 2/60 (3%)
+
+Query: 17 LATHFTTSDYEELLVVRTNILSVYRPTRDGKLYLTDEFKFH-GLITDIGLIPQKDSPLSC 75
+          +A H  +SD   L V R N + +Y+ T + K  LTDE K H   +T + + P     ++C
+Sbjct: 14 IADHSFSSDKSTLAVARENNVELYQRTGN-KFSLTDELKGHEKTVTSVDIAPNSGRIVTC 72
+
+
+>CADAFUBP00000346 pep:known scaffold:CADRE:DS499594:970650:972192:-1
+            gene:CADAFUBG00000353 transcript:CADAFUBT00000353
+            description:"Putative uncharacterized protein"
+          Length = 488
+
+ Score = 32.3 bits (72), Expect = 0.80,   Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 19/37 (51%)
+
+Query: 1162 LGRSMSKFQTMSLEFLVNGGDMYFAATDADRNVHVLK 1198
+            L  S+  +Q  S E    G   Y  ATDADR VH+ K
+Sbjct: 100  LACSVEPWQNPSQEENQEGASHYIVATDADRQVHLFK 136
+
+
+>CADAFUBP00007505 pep:known scaffold:CADRE:DS499599:1386981:1390678:-1
+          gene:CADAFUBG00007641 transcript:CADAFUBT00007641
+          description:"UV-damaged DNA binding protein, putative"
+          Length = 1140
+
+ Score = 32.0 bits (71), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 36/72 (50%), Gaps = 2/72 (2%)
+
+Query: 10 ATVVSHSLATHFTTSDYEELLVVRTNILSVYRPTRDGKLYLTDEFKFHGLITDIGLIPQ- 68
+          A+ + H+L  +F   + + L+V ++N L  Y PT DG L L      +  +T +  +P  
+Sbjct: 10 ASSIRHALKLNFMNPEEDCLVVAKSNRLEFYSPTPDG-LDLVASCAIYARVTMLARLPAP 68
+
+Query: 69 KDSPLSCLLLCT 80
+           +SP   L + T
+Sbjct: 69 ANSPTDHLFVGT 80
+
+
+  Database: Aspergillus_fumigatusa1163.CADRE.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:44 PM
+  Number of letters in database: 4,796,137
+  Number of sequences in database:  9916
+  
+Lambda     K      H
+   0.319    0.136    0.390 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9916
+Number of Hits to DB: 11,854,103
+Number of extensions: 493601
+Number of successful extensions: 970
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 960
+Number of HSP's successfully gapped: 6
+Length of query: 1357
+Length of database: 4,796,137
+Length adjustment: 105
+Effective length of query: 1252
+Effective length of database: 3,754,957
+Effective search space: 4701206164
+Effective search space used: 4701206164
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 58 (26.9 bits)

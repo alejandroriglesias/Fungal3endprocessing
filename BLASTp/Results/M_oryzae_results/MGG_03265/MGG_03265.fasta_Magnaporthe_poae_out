@@ -1,0 +1,354 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_03265:mRNA 3'-end-processing protein RNA-14
+         (1057 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_03784T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...  1362   0.0  
+MAPG_06561T1 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    43   5e-04
+MAPG_06561T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    43   5e-04
+MAPG_07460T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    36   0.040
+MAPG_05487T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    37   0.042
+MAPG_02713T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    34   0.18 
+MAPG_00635T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    33   0.29 
+MAPG_04975T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    32   0.84 
+MAPG_07284T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   3.4  
+MAPG_03917T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   3.6  
+MAPG_04087T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   4.0  
+MAPG_11230T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    30   4.9  
+MAPG_06727T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    29   7.6  
+
+>MAPG_03784T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.3:798794:8022
+            29:-1 gene:MAPG_03784 transcript:MAPG_03784T0
+            description:"mRNA 3'-end-processing protein RNA-14"
+          Length = 1070
+
+ Score = 1362 bits (3524), Expect = 0.0,   Method: Compositional matrix adjust.
+ Identities = 712/1052 (67%), Positives = 813/1052 (77%), Gaps = 61/1052 (5%)
+
+Query: 1    MASDVGDAQQQPGWDHDSTEDGPDGLQSTAQHSDSNVQNQQLQATSVAHGDSEDAAEYDP 60
+            MA    +AQ   GW  D  +DGP   QS  Q SDSN  NQQLQA SVA+GDSEDAA+YDP
+Sbjct: 1    MADYDPEAQPDLGWSKDGDDDGPGEPQSATQDSDSNDSNQQLQAASVANGDSEDAADYDP 60
+
+Query: 61   DSVPVA--ITSPKAKPLKPSPQPAAAKKRKTAGGFLVGDSDDSEDENPTVASVQMPDLKP 118
+            +SV +A  +T    K LKPSPQP   KKRKTAGGFLVGDSDDSE+E  +  SVQ    K 
+Sbjct: 61   ESVSLAGAVTGLDPKQLKPSPQPVG-KKRKTAGGFLVGDSDDSENEEASAPSVQPTATKS 119
+
+Query: 119  KPESSPVPQNLNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---XXXDPIALLELRVKE 175
+             P+S     N                                      DPIA LELRVKE
+Sbjct: 120  SPKSPAQAHNGGAQKAPSPTVAQFAQAGADLDGPKPSHASVVPPVMSYDPIAALELRVKE 179
+
+Query: 176  DPRGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAE 235
+            DPRGAMD+WLSL+AAY QRNNI++ RDV+ERFLA+FPHAA++WV+Y +MEL++GNFVEAE
+Sbjct: 180  DPRGAMDAWLSLVAAYHQRNNIQETRDVYERFLAIFPHAADMWVKYLEMELNEGNFVEAE 239
+
+Query: 236  AIFGKSLMSVPNVQLWTVYLDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKI 295
+            A+FGKSLMSVPNVQLWTVYLDYIRRRNDLND SG+AR+VVTQAY+FVIDNVG+DKD+ KI
+Sbjct: 240  ALFGKSLMSVPNVQLWTVYLDYIRRRNDLNDPSGQARKVVTQAYEFVIDNVGIDKDSGKI 299
+
+Query: 296  WNDYIQFIRLAPGVVGGSAWQDQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFEKGLNP 355
+            WNDYIQFIRLAPGV+GGSAWQDQQKMDQLRK +QRAVC+P+SNVN+LWREYDQFEKGLNP
+Sbjct: 300  WNDYIQFIRLAPGVIGGSAWQDQQKMDQLRKTFQRAVCVPISNVNSLWREYDQFEKGLNP 359
+
+Query: 356  TTGRKYLNERSPAYMTAKSANTALENIMRNLVRTTLPRLPPAPGFEGDVEFAEQVDLWKR 415
+            TTGRK+LNERSPAYMTAKSAN                     P FEGDVEFAEQ+++WKR
+Sbjct: 360  TTGRKFLNERSPAYMTAKSANDGTRQHHSK------------PRFEGDVEFAEQLEIWKR 407
+
+Query: 416  WVKWEKEDPLDLATDDPELFKKRILYAYKQAIMALRFCPEIWVDAAEWCFENSILVNGKD 475
+            W+KWE+EDPLDLA D+PEL KKRILY Y+QAIMALRFCPEIWVDAAEWCFEN +++NGKD
+Sbjct: 408  WIKWEREDPLDLANDEPELLKKRILYTYRQAIMALRFCPEIWVDAAEWCFENGMVLNGKD 467
+
+Query: 476  AGLEFLTEGIEANPESVLLALKHADRIETTFPVGEGDDAKIERGNAVKAPYNKLLDTLYG 535
+            AGL FLTE IEANPESVLLALKHADRIETT P+GEGD+AKI RGNAVKAPY+K+LDTLY 
+Sbjct: 468  AGLAFLTEAIEANPESVLLALKHADRIETTHPIGEGDEAKIARGNAVKAPYSKVLDTLYA 527
+
+Query: 536  QIKTLKEKEKAEIVKLRESAP-SVPEHEIEEGED----CANPMPSELEEKISALEKGFGA 590
+            QIK+LKE+EKAEI K+RESA  +VP  + E+ +D       P P E +EKISALEKGF A
+Sbjct: 528  QIKSLKEREKAEIAKIRESAAQAVPAQKSEDDDDGEPSTEKPQPDENQEKISALEKGFAA 587
+
+Query: 591  QTDLLARTVSFVWIALARAMRRIQGKGQPGSPMGGMRQVFSEARKRGRLTSDVYVAIAQL 650
+            QT+LLARTVSFVWIALARAMRRIQGKG PG+P+GGMRQVF+EAR+RGRLTSDVY+A+AQL
+Sbjct: 588  QTELLARTVSFVWIALARAMRRIQGKGTPGAPLGGMRQVFTEARQRGRLTSDVYIAMAQL 647
+
+Query: 651  EWTVYKDPSGGKIFDRGSKLFPEDEIFMLEYLKYLHSREDTTNARVVFETCVNKLTQNPA 710
+            EWTVYKDPSGGKI +RG++LFPEDE FMLEYLKYLH+++DTTNARVVFETCVN+LTQ PA
+Sbjct: 648  EWTVYKDPSGGKILERGARLFPEDEYFMLEYLKYLHAKDDTTNARVVFETCVNRLTQQPA 707
+
+Query: 711  TVHKAKPLYSYFHKYESKFGELSQTAKLEKRMAELFPEDPSLAHFSARFMSDRFDPIAAR 770
+            +VHKAKPLYSYFH+YES+FGELSQTAKLEKRMAELFPEDP LAHFSARF++DRFDPIAAR
+Sbjct: 708  SVHKAKPLYSYFHQYESRFGELSQTAKLEKRMAELFPEDPQLAHFSARFVTDRFDPIAAR 767
+
+Query: 771  IIVSPAAQLRPKMVMPSIEAN--ARAGSPMIRPLNSPKVGFLQAVNSPKRPLPADDFEDL 828
+            IIVSPAAQLRPK++MPSIE N          R LNSP+  FLQ  NSPKRP P DDF+D 
+Sbjct: 768  IIVSPAAQLRPKLLMPSIETNLPGPGSPGGPRQLNSPRPQFLQVTNSPKRPFPVDDFDDS 827
+
+Query: 829  N-PPKKI--------QRNDQREFQRAESPLKGAAGRRLENQRRI-------HGQGPASYN 872
+            N PPKKI        +  DQR+FQRAESPLKGAAGRRLENQRR+          G +SY+
+Sbjct: 828  NPPPKKIQRGDRDRDRDRDQRDFQRAESPLKGAAGRRLENQRRMHGHGHGHGNTGSSSYS 887
+
+Query: 873  TAPAPAIPREINFLLSQLPGAEVYNSTRLSASRVVDTLRDTHVPDYQSWKSRQDKG--LR 930
+             AP PAIPR+I FLLSQLP AE YN++RLS++RV+D LRDTHVPDY +WK+RQDKG   +
+Sbjct: 888  AAP-PAIPRDITFLLSQLPNAESYNTSRLSSTRVMDMLRDTHVPDYPAWKARQDKGPPRQ 946
+
+Query: 931  QSGAQMPSDFSNPGY---GRDSPGL--RTGSPFGGERR-IASASSTY-QRPASRDXXXXX 983
+              G Q+ SD+++ G+   GRDSP L  RT SPF   RR + SAS+TY QRPASRD     
+Sbjct: 947  HHGRQVSSDYASYGHHHQGRDSPNLIGRTNSPFSEARRQLNSASATYQQRPASRD----- 1001
+
+Query: 984  XXXXXXXXXATLQYPPATPSYDNQPTHGAWPP 1015
+                         Y P    Y+N PT GAWPP
+Sbjct: 1002 ----SYEPPPVQSYAPPPQGYENPPT-GAWPP 1028
+
+
+>MAPG_06561T1 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:2183923:2
+           186488:1 gene:MAPG_06561 transcript:MAPG_06561T1
+           description:"pre-mRNA-splicing factor CLF1"
+          Length = 708
+
+ Score = 42.7 bits (99), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 41/79 (51%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R ++ +WL   A   ++   ++ R +FER L +  +   +W++Y + EL   N   A  +
+Sbjct: 69  RISLKNWLQYSAWELEQKEFDRARSIFERALNIHANNVTLWIRYVEAELKGRNINFARNV 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTHLPRVDKLWYKYV 147
+
+
+
+ Score = 38.1 bits (87), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 29/131 (22%), Positives = 58/131 (44%), Gaps = 22/131 (16%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWTVY 254
+           +CR ++E+ +   P     WV++A++E    +   A AI      + ++ +P + +W  Y
+Sbjct: 457 RCRILYEKHITFNPANCSTWVRWAELERGLDDLDRARAILDMGIAQPVLDMPEI-VWKSY 515
+
+Query: 255 LDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF-IRL----APGV 309
+           +D+     + + +     +++ +             D  K+W  Y QF I +    APG 
+Sbjct: 516 IDFEEEEGEYDKTRSLYERLLEKT------------DHPKVWISYAQFEINVPEPSAPGE 563
+
+Query: 310 VGGSAWQDQQK 320
+            GG   Q +Q+
+Sbjct: 564 EGGDENQGRQQ 574
+
+
+
+ Score = 36.6 bits (83), Expect = 0.041,   Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 41/91 (45%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  + A  +  NI   R+V +R +   P   ++W +Y  +E   GN      +F + + 
+Sbjct: 109 WIRYVEAELKGRNINFARNVLDRAVTHLPRVDKLWYKYVWVEEMLGNVPGTRQVFDRWMA 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R  + +    RAR +
+Sbjct: 169 WNPDEAAWSAYIKLEKRYGEYD----RARAI 195
+
+
+
+ Score = 36.2 bits (82), Expect = 0.053,   Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 33/65 (50%), Gaps = 4/65 (6%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           N E+ R V++  L + PH     A+VW+  A  E+ QG    A    G+++   P  +L+
+Sbjct: 383 NPERARQVYDTCLQLIPHRTFTFAKVWLHKAHFEVRQGELGAARKTLGRAIGMCPKDRLF 442
+
+Query: 252 TVYLD 256
+             Y++
+Sbjct: 443 RGYIE 447
+
+
+
+ Score = 32.0 bits (71), Expect = 0.95,   Method: Compositional matrix adjust.
+ Identities = 24/69 (34%), Positives = 39/69 (56%), Gaps = 4/69 (5%)
+
+Query: 298 DYIQFIRLA-PGVVGGSAWQ-DQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFE-KGLN 354
+           DY +  R++    +  SAW+ +Q++ D+ R  ++RA+ I  +NV TLW  Y + E KG N
+Sbjct: 63  DYCRRSRISLKNWLQYSAWELEQKEFDRARSIFERALNIHANNV-TLWIRYVEAELKGRN 121
+
+Query: 355 PTTGRKYLN 363
+               R  L+
+Sbjct: 122 INFARNVLD 130
+
+
+>MAPG_06561T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:2183923:2
+           186488:1 gene:MAPG_06561 transcript:MAPG_06561T0
+           description:"pre-mRNA-splicing factor CLF1"
+          Length = 708
+
+ Score = 42.7 bits (99), Expect = 5e-04,   Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 41/79 (51%), Gaps = 1/79 (1%)
+
+Query: 178 RGAMDSWLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAI 237
+           R ++ +WL   A   ++   ++ R +FER L +  +   +W++Y + EL   N   A  +
+Sbjct: 69  RISLKNWLQYSAWELEQKEFDRARSIFERALNIHANNVTLWIRYVEAELKGRNINFARNV 128
+
+Query: 238 FGKSLMSVPNV-QLWTVYL 255
+             +++  +P V +LW  Y+
+Sbjct: 129 LDRAVTHLPRVDKLWYKYV 147
+
+
+
+ Score = 38.1 bits (87), Expect = 0.014,   Method: Compositional matrix adjust.
+ Identities = 29/131 (22%), Positives = 58/131 (44%), Gaps = 22/131 (16%)
+
+Query: 199 QCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIF----GKSLMSVPNVQLWTVY 254
+           +CR ++E+ +   P     WV++A++E    +   A AI      + ++ +P + +W  Y
+Sbjct: 457 RCRILYEKHITFNPANCSTWVRWAELERGLDDLDRARAILDMGIAQPVLDMPEI-VWKSY 515
+
+Query: 255 LDYIRRRNDLNDSSGRARQVVTQAYDFVIDNVGLDKDASKIWNDYIQF-IRL----APGV 309
+           +D+     + + +     +++ +             D  K+W  Y QF I +    APG 
+Sbjct: 516 IDFEEEEGEYDKTRSLYERLLEKT------------DHPKVWISYAQFEINVPEPSAPGE 563
+
+Query: 310 VGGSAWQDQQK 320
+            GG   Q +Q+
+Sbjct: 564 EGGDENQGRQQ 574
+
+
+
+ Score = 36.6 bits (83), Expect = 0.041,   Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 41/91 (45%), Gaps = 4/91 (4%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           W+  + A  +  NI   R+V +R +   P   ++W +Y  +E   GN      +F + + 
+Sbjct: 109 WIRYVEAELKGRNINFARNVLDRAVTHLPRVDKLWYKYVWVEEMLGNVPGTRQVFDRWMA 168
+
+Query: 244 SVPNVQLWTVYLDYIRRRNDLNDSSGRARQV 274
+             P+   W+ Y+   +R  + +    RAR +
+Sbjct: 169 WNPDEAAWSAYIKLEKRYGEYD----RARAI 195
+
+
+
+ Score = 36.2 bits (82), Expect = 0.053,   Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 33/65 (50%), Gaps = 4/65 (6%)
+
+Query: 196 NIEQCRDVFERFLAVFPHA----AEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNVQLW 251
+           N E+ R V++  L + PH     A+VW+  A  E+ QG    A    G+++   P  +L+
+Sbjct: 383 NPERARQVYDTCLQLIPHRTFTFAKVWLHKAHFEVRQGELGAARKTLGRAIGMCPKDRLF 442
+
+Query: 252 TVYLD 256
+             Y++
+Sbjct: 443 RGYIE 447
+
+
+
+ Score = 32.0 bits (71), Expect = 0.95,   Method: Compositional matrix adjust.
+ Identities = 24/69 (34%), Positives = 39/69 (56%), Gaps = 4/69 (5%)
+
+Query: 298 DYIQFIRLA-PGVVGGSAWQ-DQQKMDQLRKAYQRAVCIPLSNVNTLWREYDQFE-KGLN 354
+           DY +  R++    +  SAW+ +Q++ D+ R  ++RA+ I  +NV TLW  Y + E KG N
+Sbjct: 63  DYCRRSRISLKNWLQYSAWELEQKEFDRARSIFERALNIHANNV-TLWIRYVEAELKGRN 121
+
+Query: 355 PTTGRKYLN 363
+               R  L+
+Sbjct: 122 INFARNVLD 130
+
+
+>MAPG_07460T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.6:1712679:1
+           713438:-1 gene:MAPG_07460 transcript:MAPG_07460T0
+           description:"hypothetical protein"
+          Length = 228
+
+ Score = 35.8 bits (81), Expect = 0.040,   Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 36/75 (48%), Gaps = 1/75 (1%)
+
+Query: 191 YRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLMSVPNV-Q 249
+           Y     + Q R+ +   +   P +  +W+ Y+ +E   GN V+A ++  ++  +VP   +
+Sbjct: 7   YEDMGKVAQAREAYGTGVKAVPPSVPLWLLYSRLEERSGNVVKARSVLDRARQAVPKSPE 66
+
+Query: 250 LWTVYLDYIRRRNDL 264
+           LW   +   RR  +L
+Sbjct: 67  LWCELIRVERRAGNL 81
+
+
+
+ Score = 32.3 bits (72), Expect = 0.51,   Method: Compositional matrix adjust.
+ Identities = 16/67 (23%), Positives = 29/67 (43%)
+
+Query: 184 WLSLIAAYRQRNNIEQCRDVFERFLAVFPHAAEVWVQYADMELSQGNFVEAEAIFGKSLM 243
+           WL       +  N+ + R V +R     P + E+W +   +E   GN  +A+ +   +L 
+Sbjct: 34  WLLYSRLEERSGNVVKARSVLDRARQAVPKSPELWCELIRVERRAGNLAQAKNLMATALR 93
+
+Query: 244 SVPNVQL 250
+            +P   L
+Sbjct: 94  QMPKSGL 100
+
+
+>MAPG_05487T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.4:2195117:2
+           198402:-1 gene:MAPG_05487 transcript:MAPG_05487T0
+           description:"hypothetical protein"
+          Length = 911
+
+ Score = 36.6 bits (83), Expect = 0.042,   Method: Compositional matrix adjust.
+ Identities = 36/124 (29%), Positives = 61/124 (49%), Gaps = 11/124 (8%)
+
+Query: 452 FCPEI-WVDAAEWCFENSILVNGKDAGLEFLTEGIEA-----NPES--VLLALKHADRIE 503
+           F PE  W D+A+W     ++++G++  L+   + +       NPE+  +LL L   DR  
+Sbjct: 650 FTPESNWDDSADWAKYYKLVLDGEEVWLDLFEDELHGSNPVPNPEAEFLLLFLFAGDRYS 709
+
+Query: 504 TTFPVGEGDD-AKIERGNAVKAPYNKLLDTLYGQIKTLKEKEKAEIVKLRESAPSVPEHE 562
+            T   G G D A  E G+    P  +  + +  + + LK+ E AE+V  +ES+   P+ +
+Sbjct: 710 HTCITGAGSDQAAAEEGSLAVGPDGEGPEGM-SENENLKD-EAAEVVVEKESSAESPDGK 767
+
+Query: 563 IEEG 566
+             EG
+Sbjct: 768 GLEG 771
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.315    0.132    0.393 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 11,436,857
+Number of extensions: 543800
+Number of successful extensions: 2335
+Number of sequences better than 10.0: 81
+Number of HSP's gapped: 2302
+Number of HSP's successfully gapped: 100
+Length of query: 1057
+Length of database: 4,928,244
+Length adjustment: 103
+Effective length of query: 954
+Effective length of database: 3,757,134
+Effective search space: 3584305836
+Effective search space used: 3584305836
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.5 bits)
+S2: 57 (26.6 bits)

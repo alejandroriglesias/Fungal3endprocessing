@@ -1,0 +1,187 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential RNA-binding component of cleavage and polyadenylation
+factor, contains five zinc fingers; required for pre-mRNA 3'-end
+processing and polyadenylation
+         (208 letters)
+
+Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.fa 
+           4878 sequences; 2,277,407 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EEB05511 pep:novel supercontig:GCA_000149845.2:supercont5.1:3177...   129   1e-37
+EEB05442 pep:novel supercontig:GCA_000149845.2:supercont5.1:3307...    57   2e-10
+EEB06494 pep:novel supercontig:GCA_000149845.2:supercont5.3:1839...    34   0.011
+EEB09475 pep:novel supercontig:GCA_000149845.2:supercont5.3:3562...    28   0.70 
+EQC52984 pep:novel supercontig:GCA_000149845.2:supercont5.3:1731...    28   0.72 
+EEB05226 pep:novel supercontig:GCA_000149845.2:supercont5.1:3791...    27   1.1  
+EEB05630 pep:novel supercontig:GCA_000149845.2:supercont5.1:2921...    27   1.6  
+EEB08898 pep:novel supercontig:GCA_000149845.2:supercont5.2:3152...    26   4.2  
+EEB08059 pep:novel supercontig:GCA_000149845.2:supercont5.2:6037...    25   6.0  
+EEB06780 pep:novel supercontig:GCA_000149845.2:supercont5.3:2450...    25   6.9  
+
+>EEB05511 pep:novel supercontig:GCA_000149845.2:supercont5.1:3177659:3178760:
+           1 gene:SJAG_00527 transcript:EEB05511 description:"zinc
+           finger protein Yth1"
+          Length = 171
+
+ Score =  129 bits (324), Expect = 1e-37,   Method: Compositional matrix adjust.
+ Identities = 57/112 (50%), Positives = 80/112 (71%), Gaps = 2/112 (1%)
+
+Query: 63  NKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIP 122
+             +VC+HWLRGLCKK +QCE+LHEYNL+KMP C F+++ G+C+   +C YLH+DP+ ++ 
+Sbjct: 51  GSVVCKHWLRGLCKKGNQCEFLHEYNLKKMPPCHFYAERGWCSNGEECLYLHLDPSKQVG 110
+
+Query: 123 KCENYEMGFCPLGSSCPRRHIKKV-FCQRYMTGFCPLGKDECDMEHPQFIIP 173
+            C  Y MGFCPLG  C  +H++K   C+R++ GFC LG + C   HP+ I P
+Sbjct: 111 VCAWYNMGFCPLGPICRGKHVRKGPICERFLAGFCQLGPN-CPHPHPKHIEP 161
+
+
+
+ Score = 32.0 bits (71), Expect = 0.025,   Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 32/70 (45%), Gaps = 10/70 (14%)
+
+Query: 25  FSLDPDR--PICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCE 82
+             LDP +   +C +YN       CP GP+C  KHV    +   +C  +L G C+    C 
+Sbjct: 101 LHLDPSKQVGVCAWYNM----GFCPLGPICRGKHV----RKGPICERFLAGFCQLGPNCP 152
+
+Query: 83  YLHEYNLRKM 92
+           + H  ++  M
+Sbjct: 153 HPHPKHIEPM 162
+
+
+>EEB05442 pep:novel supercontig:GCA_000149845.2:supercont5.1:3307451:3309438:
+           -1 gene:SJAG_00456 transcript:EEB05442
+           description:"hypothetical protein"
+          Length = 380
+
+ Score = 57.0 bits (136), Expect = 2e-10,   Method: Compositional matrix adjust.
+ Identities = 55/182 (30%), Positives = 81/182 (44%), Gaps = 20/182 (10%)
+
+Query: 20  RQEYSF-SLDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKN 78
+           R  Y F    P    C +YN       C +G  C   H      +K VC  +L G C   
+Sbjct: 198 RSMYKFVGTSPYSVYCRYYNM---VGYCAKGGKCMYVHDPA---HKYVCPRFLSGNCPNG 251
+
+Query: 79  DQCEYLHEYNLRKMPECVFFSKNGYCTQSPDCQYLHIDPASKIPKCENY-EMGFCPLGSS 137
+           +QC   H+ + ++ P C +F K G CT +P C+Y H+     +P C ++ E G C  G  
+Sbjct: 252 EQCSLSHDRDEKRTPACRYFLK-GKCT-NPVCRYAHVHYNESVPVCPDFSEYGMCENGLH 309
+
+Query: 138 CPRRHIKKVFCQRY-MTGFCPLGKDECDMEHPQFIIPDEGSKLRIKRDDEINTRKMDEEK 196
+           C  +HI K  C  Y + G C   K  C + HP    P E      K++  ++  KM  E+
+Sbjct: 310 CKMKHILK--CTEYALKGACHNAK--CRLYHP----PKELESTE-KKEGAVSAEKMQGEQ 360
+
+Query: 197 ER 198
+           ++
+Sbjct: 361 KQ 362
+
+
+>EEB06494 pep:novel supercontig:GCA_000149845.2:supercont5.3:1839321:1841543:
+           1 gene:SJAG_01535 transcript:EEB06494 description:"zinc
+           finger protein Cps3"
+          Length = 499
+
+ Score = 33.9 bits (76), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 27/111 (24%), Positives = 47/111 (42%), Gaps = 10/111 (9%)
+
+Query: 60  IFQNKIVCRHWLRGLCKKNDQCEYLHEYNLRKMPE--CVFFSKNGYCTQSPDCQYLH-ID 116
+           +F+N    + +   L   N Q   L   +++ +    C FF + G CT   +C + H ++
+Sbjct: 6   VFKNAEDTKKYH--LSDFNSQATPLSRTSMKSLQHVPCKFF-RQGTCTSGKNCVFSHDLE 62
+
+Query: 117 PASKIPKCENYEMGFCPLGSSCPRRHI----KKVFCQRYMTGFCPLGKDEC 163
+           P S+   C+ +  G C  GS C   H+    K+V  +  + G    G    
+Sbjct: 63  PNSEKTVCKYFLKGNCKFGSKCALDHVYPDGKRVKSRAIINGTALAGTSAS 113
+
+
+
+ Score = 33.9 bits (76), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 28/54 (51%), Gaps = 4/54 (7%)
+
+Query: 34 CEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLHEY 87
+          C+F+  R+G  +C  G  C   H L     K VC+++L+G CK   +C   H Y
+Sbjct: 41 CKFF--RQG--TCTSGKNCVFSHDLEPNSEKTVCKYFLKGNCKFGSKCALDHVY 90
+
+
+>EEB09475 pep:novel supercontig:GCA_000149845.2:supercont5.3:356245:360736:1
+           gene:SJAG_04682 transcript:EEB09475 description:"CCCH
+           tandem zinc finger protein"
+          Length = 495
+
+ Score = 28.1 bits (61), Expect = 0.70,   Method: Compositional matrix adjust.
+ Identities = 18/70 (25%), Positives = 31/70 (44%), Gaps = 14/70 (20%)
+
+Query: 59  PIFQNKIV----CRHWLR-GLCKKNDQCEYLHEYNLRKMP---------ECVFFSKNGYC 104
+           P+ +N +     C++W+  G C+   +C++ H     K P          C  +S+ GYC
+Sbjct: 421 PVIKNNLYKTEPCKNWMAYGRCRYGSKCQFAHGPMELKTPVRHPKYKSRPCRSYSQFGYC 480
+
+Query: 105 TQSPDCQYLH 114
+                C +LH
+Sbjct: 481 PYGQRCCFLH 490
+
+
+>EQC52984 pep:novel supercontig:GCA_000149845.2:supercont5.3:1731003:1732364:
+           -1 gene:SJAG_05679 transcript:EQC52984
+           description:"ribosome assembly protein"
+          Length = 280
+
+ Score = 28.1 bits (61), Expect = 0.72,   Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 14/20 (70%)
+
+Query: 66  VCRHWLRGLCKKNDQCEYLH 85
+           VCR++ RG C K D+C + H
+Sbjct: 127 VCRYYARGHCYKKDKCPFAH 146
+
+
+  Database: Schizosaccharomyces_japonicus.GCA_000149845.2.21.pep.all.f
+  a
+    Posted date:  Feb 17, 2014 12:59 PM
+  Number of letters in database: 2,277,407
+  Number of sequences in database:  4878
+  
+Lambda     K      H
+   0.324    0.142    0.475 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4878
+Number of Hits to DB: 1,079,953
+Number of extensions: 48689
+Number of successful extensions: 140
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 124
+Number of HSP's successfully gapped: 22
+Length of query: 208
+Length of database: 2,277,407
+Length adjustment: 84
+Effective length of query: 124
+Effective length of database: 1,867,655
+Effective search space: 231589220
+Effective search space used: 231589220
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (22.0 bits)
+S2: 48 (23.1 bits)

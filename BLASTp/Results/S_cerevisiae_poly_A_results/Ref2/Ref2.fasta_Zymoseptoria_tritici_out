@@ -1,0 +1,98 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Zymoseptoria_tritici.MG2.21.pep.all.fa 
+           10,931 sequences; 4,742,065 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Mycgr3P100089 pep:known chromosome:MG2:5:122247:129292:-1 gene:M...    32   0.46 
+Mycgr3P100243 pep:known chromosome:MG2:5:1476858:1480164:1 gene:...    28   7.1  
+
+>Mycgr3P100089 pep:known chromosome:MG2:5:122247:129292:-1 gene:Mycgr3G100089
+            transcript:Mycgr3T100089 description:"Polyketide
+            synthase"
+          Length = 2181
+
+ Score = 32.0 bits (71), Expect = 0.46,   Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 25/53 (47%), Gaps = 3/53 (5%)
+
+Query: 3    APVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAAL 55
+            AP  + + I    +A   Q  RLDM+ F  +C  SS+ L ++  Y   L   L
+Sbjct: 1701 APFGRFIEIG---KADITQNGRLDMLKFEYNCTFSSVDLTKVAAYKPKLMQRL 1750
+
+
+>Mycgr3P100243 pep:known chromosome:MG2:5:1476858:1480164:1 gene:Mycgr3G100243
+           transcript:Mycgr3T100243 description:"Putative
+           uncharacterized protein"
+          Length = 927
+
+ Score = 28.1 bits (61), Expect = 7.1,   Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 34/84 (40%), Gaps = 2/84 (2%)
+
+Query: 4   PVPQLVNISHALQASTIQQIRLDMVDFNKDCKLSSIQLARIDKYIDSLQAALNQFTKDNL 63
+           P P +   +H L A+ ++ +  D  D   D ++     A + K+    Q  L  F   N 
+Sbjct: 206 PTPSISTSAHLLSAAAVETVDDDYYDVASDEEI-DFDAAAVQKHEWQRQQTLGSFLAMN- 263
+
+Query: 64  HIERKEKNVTEADIQLYSGLKSMY 87
+            I  ++  V   D  LY G+   Y
+Sbjct: 264 QIRVQDLQVRRYDTFLYEGILDHY 287
+
+
+  Database: Zymoseptoria_tritici.MG2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:03 PM
+  Number of letters in database: 4,742,065
+  Number of sequences in database:  10,931
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10931
+Number of Hits to DB: 4,083,667
+Number of extensions: 160847
+Number of successful extensions: 256
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 256
+Number of HSP's successfully gapped: 3
+Length of query: 533
+Length of database: 4,742,065
+Length adjustment: 98
+Effective length of query: 435
+Effective length of database: 3,670,827
+Effective search space: 1596809745
+Effective search space used: 1596809745
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,146 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of the mRNA cleavage and polyadenlylation factor (CPF);
+required for pre-mRNA cleavage, polyadenylation and poly(A) site
+recognition, 43% similarity with the mammalian CPSF-100 protein
+         (859 letters)
+
+Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa 
+           13,318 sequences; 5,933,672 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FGSG_10795P0 pep:known chromosome:ASM24013v2:3:6691449:6694629:1...   116   7e-27
+FGSG_06826P0 pep:known chromosome:ASM24013v2:4:1360969:1362846:-...    32   1.2  
+
+>FGSG_10795P0 pep:known chromosome:ASM24013v2:3:6691449:6694629:1 gene:FGSG_10795
+           transcript:FGSG_10795T0 description:"conserved
+           hypothetical protein"
+          Length = 964
+
+ Score =  116 bits (291), Expect = 7e-27,   Method: Compositional matrix adjust.
+ Identities = 103/334 (30%), Positives = 157/334 (47%), Gaps = 50/334 (14%)
+
+Query: 18  SVVRFDN-VTLLIDPGWNPSKVSYEQCIKYWEKVIPEIDVIILSQPTIECLGAHSLLYYN 76
+           S++  D  V +L+D GW+ +    E+ +K  EK +  + +I+++  T   L A++    N
+Sbjct: 19  SLLELDGGVKVLVDLGWDET-FDVEK-LKEIEKQVTTLSLILVTHATASHLAAYAHCCKN 76
+
+Query: 77  FTSHFISRIQVYATLPVINLGRVSTIDSYAS---AGVIGPYD-------------TNKLD 120
+                 +RI VYAT PVI+LGR    D Y S   A    P               T   +
+Sbjct: 77  IPQ--FTRIPVYATRPVIDLGRTLIQDLYTSSPAAATTIPQSSLTESAYSLTQTATTARN 134
+
+Query: 121 L-------EDIEISFDHIVPLKYSQ-----LVDLRSRYDGLTLLAYNAGVCPGGSIWCIS 168
+           L       E+I   F  I PLKYSQ             +GLT+ AYN+G   GG+IW I 
+Sbjct: 135 LLLQSPNSEEIARYFSLIQPLKYSQPHQPLPSPFSPPLNGLTITAYNSGHTLGGTIWHIQ 194
+
+Query: 169 TYSEKLVYAKRWNHTRDNIL----NAASILDATGKPLSTLMRPSAIITT---LDRFGSSQ 221
+              E +VYA  WN  R+N+               + +  L +P+A+I +    DR     
+Sbjct: 195 HGLESIVYAVDWNQARENVFAGAAWLGGAGGGGAEVIEQLRKPTALICSSRGADRTAQPG 254
+
+Query: 222 PFKKRSKIFKDTLKKGLSSDGSVIIPVDMSGKFLDLFTQVHELLFESTKINAHTQVPVLI 281
+              KR +   DT+K  ++  G+V+IPVD S + L+L      LL  + + +A ++  VL 
+Sbjct: 255 GRTKRDEQLIDTIKACVTRGGTVLIPVDSSARVLEL----SYLLEHAWRTDAASEGGVLK 310
+
+Query: 282 LS--YARGR----TLTYAKSMLEWLSPSLLKTWE 309
+            +  Y  GR    T+ YA+SMLEW+  S+++ +E
+Sbjct: 311 SAKLYLAGRNMSSTMRYARSMLEWMDDSIVQEFE 344
+
+
+
+ Score = 65.5 bits (158), Expect = 5e-11,   Method: Compositional matrix adjust.
+ Identities = 93/392 (23%), Positives = 161/392 (41%), Gaps = 83/392 (21%)
+
+Query: 532 SKHKMFPFNPAKIKKDDYGTVVDFTMFL--------PDDSDNVNQN----SRKRPLKDGA 579
+            + + FP    + ++DD+G ++    +L          DS NV        +KR   D  
+Sbjct: 589 GRERTFPLTIRRKRQDDFGELIRPEDYLRAEEKEEDGQDSANVEMTDDKLGKKRRWDDVV 648
+
+Query: 580 KTTSPVXXXXXXXXXXXGYNMSDPISKRSKHRASRYSGFSGTGEAENFDNLDYLKIDKTL 639
+           K+ +             G N      +   H        +G G+    D LD ++  +T 
+Sbjct: 649 KSGT-------------GANKRPQAMRAGSHDGEE----AGAGDGFVPDELDTVEDVETE 691
+
+Query: 640 S-----KRTISTVNVQLKCSVVILNLQSLVDQRSASIIWPSLKSRKIVLSAPKQIQNEEI 694
+                 K +  T  VQ    +  ++   L D+RS +++ P ++ RK++L   ++ +   +
+Sbjct: 692 EPVGPCKLSYQTETVQANLRIAYVDFSGLHDKRSLNMLIPLIQPRKLILVGGERDETLSL 751
+
+Query: 695 TAKLIKKNIEV-VNMPLNKIVEFSTTIKT------LDISIDSN---------LDNLLKWQ 738
+            A+  ++ + V  + P N   E S  + T      +D S+D+N         L   +KWQ
+Sbjct: 752 -AEDCRRALGVDKSNPDNTGSERSVDVYTPEVGVVVDASVDTNAWVVKLADPLVRKIKWQ 810
+
+Query: 739 RISDSYTVATVVGRLVKESL--------PQVNNHQKTA---SRSKL------------VL 775
+            +     + T+ G+L+   L           N  QKT    S + L            VL
+Sbjct: 811 NVR-GLGIVTITGQLLATHLNEAAAADEDVANKRQKTEEPPSSTTLTNTAAAIPSATPVL 869
+
+Query: 776 KPLHG---SSRSHKTGALSIGDVRLAQLKKLLTEKNYIAEFKGEGTLVINEKVAVRKIND 832
+             L     S+       L +GD+RLA L++ +    + AEF+GEGTLV++  VAVRK + 
+Sbjct: 870 DVLPANLISAVRSAAQPLHVGDLRLADLRRAMQSAGHTAEFRGEGTLVVDGTVAVRKTSA 929
+
+Query: 833 AETIID--GTPS---ELFDTVKKLVTDMLAKI 859
+               ++  G P+     F  V+K++ D LA +
+Sbjct: 930 GRVEVESVGMPTARRSTFYEVRKMIYDNLAVV 961
+
+
+>FGSG_06826P0 pep:known chromosome:ASM24013v2:4:1360969:1362846:-1
+           gene:FGSG_06826 transcript:FGSG_06826T0
+           description:"conserved hypothetical protein"
+          Length = 544
+
+ Score = 31.6 bits (70), Expect = 1.2,   Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 6/48 (12%)
+
+Query: 180 WNHTRDNILNAASILDATGKPLSTLMRPSA------IITTLDRFGSSQ 221
+           W  T DN L+  +I+   G PL   ++P+       I+T LD  G +Q
+Sbjct: 422 WQLTEDNTLHRPAIIQLPGNPLGLAIKPATGEESPKIVTALDPSGPTQ 469
+
+
+  Database: Gibberella_zeae.ASM24013v2.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:51 PM
+  Number of letters in database: 5,933,672
+  Number of sequences in database:  13,318
+  
+Lambda     K      H
+   0.316    0.133    0.378 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13318
+Number of Hits to DB: 9,449,595
+Number of extensions: 391089
+Number of successful extensions: 1091
+Number of sequences better than 10.0: 10
+Number of HSP's gapped: 1088
+Number of HSP's successfully gapped: 13
+Length of query: 859
+Length of database: 5,933,672
+Length adjustment: 103
+Effective length of query: 756
+Effective length of database: 4,561,918
+Effective search space: 3448810008
+Effective search space used: 3448810008
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 57 (26.6 bits)

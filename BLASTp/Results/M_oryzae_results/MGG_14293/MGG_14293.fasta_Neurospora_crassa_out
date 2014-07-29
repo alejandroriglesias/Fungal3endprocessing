@@ -1,0 +1,126 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa 
+           9839 sequences; 4,779,891 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFNCRP00000007700 pep:known supercontig:ASM18292v1:7.43:26408:27...   154   8e-43
+EFNCRP00000006575 pep:known supercontig:ASM18292v1:7.30:231339:2...    29   2.0  
+EFNCRP00000008696 pep:known supercontig:ASM18292v1:7.59:29253:33...    28   4.4  
+
+>EFNCRP00000007700 pep:known supercontig:ASM18292v1:7.43:26408:27758:1
+           gene:EFNCRG00000007699 transcript:EFNCRT00000007711
+           description:"Pre-mRNA polyadenylation factor fip-1"
+          Length = 423
+
+ Score =  154 bits (388), Expect = 8e-43,   Method: Compositional matrix adjust.
+ Identities = 83/171 (48%), Positives = 104/171 (60%), Gaps = 34/171 (19%)
+
+Query: 79  RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGS------------ 126
+           RKDG++  PP QS+YSEIR+IPQR+ A D     K AP KK D    +            
+Sbjct: 94  RKDGSAPPPPVQSRYSEIRNIPQRAAANDNGV--KTAPVKKSDGTNSNSNSSSNKFGGGG 151
+
+Query: 127 --------------------DLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAP 166
+                               +LPPV  S  +   IP +KP GKP+T V IDEDL E+  P
+Sbjct: 152 GIGNEQKTRQGSGAAGGSGAELPPVRTSKIEVDGIPVYKPVGKPITGVVIDEDLPENDKP 211
+
+Query: 167 WRKPGTDISDYFNYGFDEFSWAIYAQKQNQLRSEYSADAMSQNSKKMMEDL 217
+           WRKPGTD+SDYFNYGFDEF+WA+YAQKQ  LR EY+A+A++ N+KKMME++
+Sbjct: 212 WRKPGTDLSDYFNYGFDEFTWALYAQKQEALRGEYNAEAIAANNKKMMEEM 262
+
+
+
+ Score = 27.3 bits (59), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 10/15 (66%), Positives = 15/15 (100%)
+
+Query: 3  VEMDEDDDFYAPEEP 17
+          +++DED+DFYAP+EP
+Sbjct: 1  MDIDEDEDFYAPDEP 15
+
+
+>EFNCRP00000006575 pep:known supercontig:ASM18292v1:7.30:231339:235153:-1
+           gene:EFNCRG00000006572 transcript:EFNCRT00000006584
+           description:"Putative uncharacterized protein"
+          Length = 1200
+
+ Score = 28.9 bits (63), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query: 91  SKYSEIRSIPQRSVATDGTAPAKAAPNKKEDTVKGSDLPPVTKSNFDPYA 140
+           S +S +R     S  + GT+     P   + TV GSD P +++SNF+ Y 
+Sbjct: 898 SSFSHLRDRRSTSTLSRGTSLKYETPGSDDMTV-GSDSPTISESNFNAYG 946
+
+
+>EFNCRP00000008696 pep:known supercontig:ASM18292v1:7.59:29253:33211:-1
+           gene:EFNCRG00000008700 transcript:EFNCRT00000008714
+           description:"Putative uncharacterized protein"
+          Length = 1099
+
+ Score = 27.7 bits (60), Expect = 4.4,   Method: Compositional matrix adjust.
+ Identities = 17/78 (21%), Positives = 31/78 (39%), Gaps = 14/78 (17%)
+
+Query: 120 EDTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFN 179
+           +D ++ +D+ P+ +   DP  + + K      ++  I E LG+      KP         
+Sbjct: 419 QDVLRNADIGPIPEKEVDPQILRQLKAMWHAYSEAQIKEKLGQT-----KPNDQ------ 467
+
+Query: 180 YGFDEFSWAIYAQKQNQL 197
+                F W +Y  +  QL
+Sbjct: 468 ---KVFYWLLYRHRHAQL 482
+
+
+  Database: Neurospora_crassa.ASM18292v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 4,779,891
+  Number of sequences in database:  9839
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9839
+Number of Hits to DB: 2,047,354
+Number of extensions: 84395
+Number of successful extensions: 300
+Number of sequences better than 10.0: 23
+Number of HSP's gapped: 297
+Number of HSP's successfully gapped: 24
+Length of query: 332
+Length of database: 4,779,891
+Length adjustment: 94
+Effective length of query: 238
+Effective length of database: 3,855,025
+Effective search space: 917495950
+Effective search space used: 917495950
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,156 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Essential conserved subunit of CPF (cleavage and
+polyadenylation factor), plays a role in 3' end formation of mRNA via
+the specific cleavage and polyadenylation of pre-mRNA, contains a
+putative RNA-binding zinc knuckle motif
+         (441 letters)
+
+Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa 
+           30,282 sequences; 8,144,225 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+6932_Glomus_intraradices_1_GeneCatalo                                 154   7e-42
+10845_Glomus_intraradices_1_GeneCatalo                                 32   0.24 
+23679_Glomus_intraradices_1_GeneCatalo                                 31   0.24 
+23715_Glomus_intraradices_1_GeneCatalo                                 30   2.0  
+1615_Glomus_intraradices_1_GeneCatalo                                  30   2.2  
+7953_Glomus_intraradices_1_GeneCatalo                                  29   3.4  
+8891_Glomus_intraradices_1_GeneCatalo                                  29   3.6  
+4271_Glomus_intraradices_1_GeneCatalo                                  29   4.0  
+22578_Glomus_intraradices_1_GeneCatalo                                 29   5.1  
+17386_Glomus_intraradices_1_GeneCatalo                                 28   8.7  
+25657_Glomus_intraradices_1_GeneCatalo                                 28   9.8  
+
+>6932_Glomus_intraradices_1_GeneCatalo 
+          Length = 417
+
+ Score =  154 bits (390), Expect = 7e-42,   Method: Compositional matrix adjust.
+ Identities = 100/332 (30%), Positives = 164/332 (49%), Gaps = 33/332 (9%)
+
+Query: 3   STIFYRFKSQRNTSRILFDGTGLTVFDLKREIIQENKLGDGTDFQLKIYNPDTEEEYDDD 62
+           S I+Y+FKS ++   I FDG G++VFD K+EI+   +L  G DF + + + ++ E+Y +D
+Sbjct: 2   SQIYYKFKSAKDYDNITFDGLGISVFDAKKEILVAKRL-KGNDFDIVVSHAESGEDYQED 60
+
+Query: 63  AFVIPRSTSVIVKRSPAIKS-FSVHSRLKGNVGA---AALGNATRY--VTG--------- 107
+             +IPR+T ++V+R P      + H  L+G   A      GN   Y  V G         
+Sbjct: 61  TALIPRNTPIVVRRVPTKPGKGTAHRYLEGAPTAPRNVTTGNRVNYGNVNGSMSKTFDSS 120
+
+Query: 108 -RPRVLQKRQHXXXXXXNVSG---TTEEERIASMFAXXXXXXXXXXXXMSAATPVFFKSQ 163
+            + +    R          SG   T E+ RIA+MFA            M++   +   +Q
+Sbjct: 121 KQHQTQTSRPSPVPTTNQTSGEEQTEEDRRIAAMFAQSSEFWEKTQEQMASKPALRRPNQ 180
+
+Query: 164 TNKNSAQENEGPPPPGYMCYRCGGRDHWIKNCPTNSDPNFEGKRIRRTTGIPKKFLKSIE 223
+                 Q+ +   PP Y+CYRCG + HWI+ CPTN D +F+  ++R+TTGIP+ FL+ +E
+Sbjct: 181 PRPQVKQQIQKALPPNYVCYRCGQKGHWIQACPTNGDRSFDHMKVRKTTGIPRSFLQKVE 240
+
+Query: 224 IDPETMTPEEMAQRKIMITDEGKFVVQVEDKQSWEDYQRKRENRQIDGDETIWRKGHFKD 283
+             P          + +++T +G  V+   +  +W+ +   R+   +  +E +  +  F  
+Sbjct: 241 QVPPG--------KGVLVTQDGNLVIAQANDAAWQKFH-ARQKSYVTTNEVL--EDTFP- 288
+
+Query: 284 LPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEA 315
+           +P +L+C +   LLR+ V T  CC   F  E 
+Sbjct: 289 VPHELQCMICARLLREAVITP-CCQASFCDEC 319
+
+
+>10845_Glomus_intraradices_1_GeneCatalo 
+          Length = 215
+
+ Score = 32.3 bits (72), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 10/19 (52%), Positives = 13/19 (68%)
+
+Query: 178 PGYMCYRCGGRDHWIKNCP 196
+           PG  C+ CGG+ HW + CP
+Sbjct: 80  PGSGCFLCGGQGHWARECP 98
+
+
+>23679_Glomus_intraradices_1_GeneCatalo 
+          Length = 108
+
+ Score = 31.2 bits (69), Expect = 0.24,   Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 32/61 (52%), Gaps = 6/61 (9%)
+
+Query: 268 QIDGDETIWRKGHFKDLPDDLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVC 327
+           Q D D+ +   GH KD    L CP+T   L  PV TS  C   FSKEA+ + + ++  V 
+Sbjct: 6   QNDDDDIVV--GHQKD---SLTCPITTLPLENPV-TSDLCKHSFSKEAILSLMRQNGNVV 59
+
+Query: 328 P 328
+           P
+Sbjct: 60  P 60
+
+
+>23715_Glomus_intraradices_1_GeneCatalo 
+          Length = 404
+
+ Score = 30.0 bits (66), Expect = 2.0,   Method: Compositional matrix adjust.
+ Identities = 9/22 (40%), Positives = 14/22 (63%)
+
+Query: 181 MCYRCGGRDHWIKNCPTNSDPN 202
+           +CY CG   H ++NCP  ++ N
+Sbjct: 139 VCYSCGQPGHIVRNCPDRNNNN 160
+
+
+>1615_Glomus_intraradices_1_GeneCatalo 
+          Length = 586
+
+ Score = 30.0 bits (66), Expect = 2.2,   Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 23/46 (50%), Gaps = 2/46 (4%)
+
+Query: 287 DLKCPLTGGLLRQPVKTSKCCNIDFSKEALENALVESDFVCPNCET 332
+           + KCP+  GL+ QP+ T+  C  +   + L  ++      CP C T
+Sbjct: 516 EFKCPVCFGLVVQPITTN--CTHNVCLDCLTRSISIMGHKCPECRT 559
+
+
+  Database: Glomus_intraradices_1_GeneCatalog_proteins_20120510.aa.fa
+    Posted date:  Feb 27, 2014 12:29 PM
+  Number of letters in database: 8,144,225
+  Number of sequences in database:  30,282
+  
+Lambda     K      H
+   0.314    0.132    0.386 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30282
+Number of Hits to DB: 7,232,992
+Number of extensions: 324337
+Number of successful extensions: 852
+Number of sequences better than 10.0: 26
+Number of HSP's gapped: 847
+Number of HSP's successfully gapped: 28
+Length of query: 441
+Length of database: 8,144,225
+Length adjustment: 98
+Effective length of query: 343
+Effective length of database: 5,176,589
+Effective search space: 1775570027
+Effective search space used: 1775570027
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

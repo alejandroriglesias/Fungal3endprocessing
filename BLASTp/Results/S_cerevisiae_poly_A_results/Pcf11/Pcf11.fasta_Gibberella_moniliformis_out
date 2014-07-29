@@ -1,0 +1,161 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= mRNA 3' end processing factor, essential component of cleavage
+and polyadenylation factor IA (CF IA), involved in pre-mRNA 3' end
+processing and in transcription termination; binds C-terminal domain
+of largest subunit of RNA pol II (Rpo21p); require /.../gene looping
+         (626 letters)
+
+Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa 
+           14,185 sequences; 5,950,719 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+FVEG_11275T0 pep:known chromosome:ASM14955v1:9:918067:919865:-1 ...   109   3e-25
+FVEG_01428T0 pep:known chromosome:ASM14955v1:1:5927549:5929927:-...    29   4.0  
+FVEG_09694T0 pep:known chromosome:ASM14955v1:1:789542:791296:1 g...    29   5.1  
+FVEG_06261T0 pep:known chromosome:ASM14955v1:2:1349307:1350060:1...    28   5.1  
+FVEG_01147T0 pep:known chromosome:ASM14955v1:1:5013485:5015617:-...    29   5.9  
+
+>FVEG_11275T0 pep:known chromosome:ASM14955v1:9:918067:919865:-1 gene:FVEG_11275
+           transcript:FVEG_11275T0 description:"conserved
+           hypothetical protein"
+          Length = 538
+
+ Score =  109 bits (272), Expect = 3e-25,   Method: Compositional matrix adjust.
+ Identities = 60/161 (37%), Positives = 84/161 (52%), Gaps = 5/161 (3%)
+
+Query: 1   MDHDTEVIVKDFNSILEELTFNSRPIITTLTKLAEENISCAQYFVDAIESRIEKCMPKQK 60
+           M  D+  + +D+   LE+L+ N R  I+ LT +A EN   A    + ++  I K  P +K
+Sbjct: 1   MSGDSAEVAEDYRMALEDLSSNMRFEISNLTVIARENTEHALAIAEVLQQHILKAPPNKK 60
+
+Query: 61  LYAFYALDSICKNVGSPYTIYFSRNLFNLYKRTYLLVDNTTRTKLINMFKLWLNPNDTGL 120
+           L A Y LDSI KNVG+PYT+YF RNLF  +  +Y +VD   R K+  M + W  P    +
+Sbjct: 61  LPALYVLDSIVKNVGTPYTLYFGRNLFKTFMESYAVVDQPVRRKMEEMLRTWKEPVPGSM 120
+
+Query: 121 ---PLFEGSALEKIEQFLIKASA--LHQKNLQAMLPTPTVP 156
+              P+F    +  IE  L+KA A  + Q  L    P   VP
+Sbjct: 121 DSRPVFSHELVRPIENALLKARAVSMPQAGLMPGRPRSAVP 161
+
+
+
+ Score = 46.6 bits (109), Expect = 2e-05,   Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 34/84 (40%), Gaps = 18/84 (21%)
+
+Query: 406 QNNLIHLLYRSKPNKCSVCGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISN 465
+           Q +LI  L+      C+ CG+RF +    K  +  H+DWHFR++ R              
+Sbjct: 424 QPSLIRALHNDLGQPCTQCGRRFRDDPVGKKQKIAHMDWHFRVHQR-------------- 469
+
+Query: 466 SNLNTTTTRKNIQSRNWYLSDSQW 489
+               T    K    R+WY+    W
+Sbjct: 470 ----TNEAEKRGMHRSWYVDQRDW 489
+
+
+>FVEG_01428T0 pep:known chromosome:ASM14955v1:1:5927549:5929927:-1
+           gene:FVEG_01428 transcript:FVEG_01428T0
+           description:"conserved hypothetical protein"
+          Length = 297
+
+ Score = 28.9 bits (63), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 14/49 (28%), Positives = 29/49 (59%), Gaps = 4/49 (8%)
+
+Query: 424 CGKRFGNSESEKLLQNEHLDWHFRINTRIKGSQNTANTGISNSNLNTTT 472
+           C K+F  +++ K    +HL+ HF+  +R   SQ +  T ++++  N+T+
+Sbjct: 179 CQKKFTRADNMK----QHLETHFKDKSRSSTSQRSHRTSLADARRNSTS 223
+
+
+>FVEG_09694T0 pep:known chromosome:ASM14955v1:1:789542:791296:1 gene:FVEG_09694
+           transcript:FVEG_09694T0 description:"hypothetical
+           protein similar to sterol esterase precursor"
+          Length = 584
+
+ Score = 28.9 bits (63), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 21/96 (21%), Positives = 42/96 (43%), Gaps = 7/96 (7%)
+
+Query: 4   DTEVIVKDFNSILEELTFNSRPII-------TTLTKLAEENISCAQYFVDAIESRIEKCM 56
+           D  V+     +++E   +++ P+I        TL  L + N++    FVD ++    +  
+Sbjct: 356 DGTVLPDSPEALIESGRYHAVPMINGNQEDEGTLFALFQPNLTTTAKFVDYLQQLYFQKA 415
+
+Query: 57  PKQKLYAFYALDSICKNVGSPYTIYFSRNLFNLYKR 92
+            K++L A         + GSP+       +F ++KR
+Sbjct: 416 TKEQLTALVNTYPTALSAGSPFRTSLLNEVFPMFKR 451
+
+
+>FVEG_06261T0 pep:known chromosome:ASM14955v1:2:1349307:1350060:1
+          gene:FVEG_06261 transcript:FVEG_06261T0
+          description:"thioredoxin"
+          Length = 142
+
+ Score = 28.1 bits (61), Expect = 5.1,   Method: Composition-based stats.
+ Identities = 12/32 (37%), Positives = 19/32 (59%)
+
+Query: 19 LTFNSRPIITTLTKLAEENISCAQYFVDAIES 50
+          +TF +RP  TT  +LA +NI   + F D + +
+Sbjct: 20 VTFAARPFHTTAARLAVQNIETRKEFKDLVST 51
+
+
+>FVEG_01147T0 pep:known chromosome:ASM14955v1:1:5013485:5015617:-1
+           gene:FVEG_01147 transcript:FVEG_01147T0
+           description:"conserved hypothetical protein"
+          Length = 583
+
+ Score = 28.9 bits (63), Expect = 5.9,   Method: Compositional matrix adjust.
+ Identities = 10/15 (66%), Positives = 12/15 (80%)
+
+Query: 417 KPNKCSVCGKRFGNS 431
+           KP +C +CGKRFG S
+Sbjct: 519 KPLQCEICGKRFGES 533
+
+
+  Database: Gibberella_moniliformis.ASM14955v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:50 PM
+  Number of letters in database: 5,950,719
+  Number of sequences in database:  14,185
+  
+Lambda     K      H
+   0.314    0.130    0.371 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 14185
+Number of Hits to DB: 6,719,591
+Number of extensions: 271456
+Number of successful extensions: 579
+Number of sequences better than 10.0: 9
+Number of HSP's gapped: 578
+Number of HSP's successfully gapped: 11
+Length of query: 626
+Length of database: 5,950,719
+Length adjustment: 100
+Effective length of query: 526
+Effective length of database: 4,532,219
+Effective search space: 2383947194
+Effective search space used: 2383947194
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 56 (26.2 bits)

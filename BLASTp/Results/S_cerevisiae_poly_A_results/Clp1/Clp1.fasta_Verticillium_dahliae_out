@@ -1,0 +1,173 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+involved in both the endonucleolyitc cleavage a /.../yadenylation
+steps of mRNA 3'-end maturation
+         (445 letters)
+
+Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa 
+           10,535 sequences; 4,984,196 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGY16825 pep:novel supercontig:GCA_000150675.1:supercont1.18:621...   192   2e-55
+EGY19643 pep:novel supercontig:GCA_000150675.1:supercont1.3:4849...    32   0.28 
+EGY17187 pep:novel supercontig:GCA_000150675.1:supercont1.2:2053...    32   0.31 
+EGY17689 pep:novel supercontig:GCA_000150675.1:supercont1.2:1670...    30   1.4  
+EGY22894 pep:novel supercontig:GCA_000150675.1:supercont1.7:8061...    29   2.5  
+
+>EGY16825 pep:novel supercontig:GCA_000150675.1:supercont1.18:621493:623895:1
+           gene:VDAG_07989 transcript:EGY16825 description:"Clp1
+           protein"
+          Length = 459
+
+ Score =  192 bits (488), Expect = 2e-55,   Method: Compositional matrix adjust.
+ Identities = 135/431 (31%), Positives = 227/431 (52%), Gaps = 24/431 (5%)
+
+Query: 3   SLPGIDEHTTSEELI--TGDNEWHKLVIPKGSDWQIDLKAEGKLIVKVNSGIVEIFGTEL 60
+           S+PG+   T + +    TG +    + + + S+W+ ++    ++ VK+ +G+ E  GTEL
+Sbjct: 2   SIPGLGLETFAAQPAAPTGASTTRVIKLDQLSEWRFEVGFSSEVEVKLVAGVAEKDGTEL 61
+
+Query: 61  AVDDEYTFQNWKFPI--YAVEETELLWKCPDLTTNTITVKPNHTMKYIYNLHFMLEKIRM 118
+           A    Y F   K  I  +   + E+   C D          +  M    NLHF L  +R 
+Sbjct: 62  AAHHVYRFSGVKTKILTFMGCQLEVTGTCDDEFLADFPKPTDSPMNSYLNLHFKLHALRQ 121
+
+Query: 119 ----SNFEGPRVVIVGGSQTGKTSLSRTLCSYALKFNAYQPLYINLDPQQPIFTVPGCIS 174
+               +  EGPRV+I G   TGKTS++RTL SYA +    QPL +N+DP++ + ++PG +S
+Sbjct: 122 HAAAAKAEGPRVMICGPPNTGKTSVARTLTSYATRLEG-QPLMVNMDPKEGMLSLPGTLS 180
+
+Query: 175 ATPISDILDAQ-LPTWGQSLTSGATLLHNKQPMVKNFGLERINENKDLYLECISQLGQVV 233
+           A+ ++ ILD + +  WG + TSG + +  K P+   +G     E+   YLE +S+L   V
+Sbjct: 181 ASALASILDIEAVDGWGTTPTSGPSQVPVKLPLAFYYGRTSPAEDPKKYLELVSRLAGSV 240
+
+Query: 234 GQRLHLDPQVRRSGCIVDTPSISQLDE-NLAELHHIIEKLNVNIMLVLCSETDPLWEKVK 292
+             R   DP V+ SG I+DTPS+ +  + ++  L HI E+L+ NI+LVL S    +  ++ 
+Sbjct: 241 TSRFTQDPDVKSSGMIIDTPSMDEKSKASMDVLVHIAEELSANIILVLGSSR--VNTELS 298
+
+Query: 293 KTFGPE---LGNN-NIFFIPKLDGVSAVDDVYKRSLQRTSIREYFYGSLDTALSPYAIGV 348
+           + F  E   LG   ++  + + +GV+  D+ Y +     SIREYF+G++   LSP    V
+Sbjct: 299 RRFANERTGLGEQIHVIHLDRSEGVATRDEGYMQQACEASIREYFFGNIGRTLSPATQQV 358
+
+Query: 349 DYEDLTIWKPSN--VFDNEVGRVELFPVTITPSNLQ-HAIIAITFAERRADQATVIKSPI 405
+           D++ LTI++  +  V+ N    + L      PS L  H  +A+ +A  +    T+  + +
+Sbjct: 359 DFDSLTIYRLGDYSVYGNGDEGLMLS----EPSGLMAHWTLAVMYASTKDSPETIRNANV 414
+
+Query: 406 LGFALITEVNE 416
+           +G+  + EV++
+Sbjct: 415 MGYVYVAEVDK 425
+
+
+>EGY19643 pep:novel supercontig:GCA_000150675.1:supercont1.3:48490:49603:-1
+           gene:VDAG_01659 transcript:EGY19643
+           description:"ent-kaurene oxidase"
+          Length = 302
+
+ Score = 32.0 bits (71), Expect = 0.28,   Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 29/63 (46%)
+
+Query: 221 LYLECISQLGQVVGQRLHLDPQVRRSGCIVDTPSISQLDENLAELHHIIEKLNVNIMLVL 280
+           L L+C      V   R  +DP+V++   +VD    S    NL E    ++KL   ++ VL
+Sbjct: 75  LILQCRRSRQAVQSARKLIDPEVKKRKMLVDDALQSGAKPNLCERPEFVQKLRDEVIEVL 134
+
+Query: 281 CSE 283
+             E
+Sbjct: 135 GDE 137
+
+
+>EGY17187 pep:novel supercontig:GCA_000150675.1:supercont1.2:205391:208957:-1
+           gene:VDAG_00869 transcript:EGY17187 description:"RINT-1
+           family protein"
+          Length = 810
+
+ Score = 32.3 bits (72), Expect = 0.31,   Method: Compositional matrix adjust.
+ Identities = 17/45 (37%), Positives = 27/45 (60%)
+
+Query: 255 ISQLDENLAELHHIIEKLNVNIMLVLCSETDPLWEKVKKTFGPEL 299
+           + QL   LAEL  I +   V+++  + + T+ LWE++KKT   EL
+Sbjct: 173 LKQLSVRLAELSGIADDAAVHLVNYVETVTETLWEEMKKTMSAEL 217
+
+
+>EGY17689 pep:novel supercontig:GCA_000150675.1:supercont1.2:1670535:1675087:-1
+            gene:VDAG_01371 transcript:EGY17689
+            description:"ATP-binding cassette transporter protein"
+          Length = 1420
+
+ Score = 30.0 bits (66), Expect = 1.4,   Method: Compositional matrix adjust.
+ Identities = 21/62 (33%), Positives = 29/62 (46%), Gaps = 11/62 (17%)
+
+Query: 93   NTITVKP-----------NHTMKYIYNLHFMLEKIRMSNFEGPRVVIVGGSQTGKTSLSR 141
+            +TI V+P           N  M+Y   L  +L  + M    G RV IVG +  GK+S+  
+Sbjct: 1128 HTIEVRPTWPEKGEIIFDNVEMRYRAQLPLVLSGLSMHVAGGERVGIVGRTGAGKSSIMS 1187
+
+Query: 142  TL 143
+            TL
+Sbjct: 1188 TL 1189
+
+
+>EGY22894 pep:novel supercontig:GCA_000150675.1:supercont1.7:806143:807948:-1
+           gene:VDAG_04332 transcript:EGY22894
+           description:"dextranase"
+          Length = 601
+
+ Score = 29.3 bits (64), Expect = 2.5,   Method: Compositional matrix adjust.
+ Identities = 15/60 (25%), Positives = 31/60 (51%), Gaps = 3/60 (5%)
+
+Query: 324 LQRTSIREYFYGSLDTALSPYAIGVDYEDLTIWKPSNVFDNEVGRVELFPVTITPSNLQH 383
+           + + ++R+ F+   D A+  Y  G   E LT+WK  N   N + ++   P  ++  +++H
+Sbjct: 397 MYKGTVRDVFWHVNDDAIKLYHSGAQLEGLTVWKARN---NAIIQMGWKPRRVSDVSVKH 453
+
+
+  Database: Verticillium_dahliae.GCA_000150675.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:02 PM
+  Number of letters in database: 4,984,196
+  Number of sequences in database:  10,535
+  
+Lambda     K      H
+   0.318    0.136    0.406 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10535
+Number of Hits to DB: 4,188,025
+Number of extensions: 175903
+Number of successful extensions: 399
+Number of sequences better than 10.0: 5
+Number of HSP's gapped: 394
+Number of HSP's successfully gapped: 5
+Length of query: 445
+Length of database: 4,984,196
+Length adjustment: 97
+Effective length of query: 348
+Effective length of database: 3,962,301
+Effective search space: 1378880748
+Effective search space used: 1378880748
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 54 (25.4 bits)

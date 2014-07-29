@@ -1,0 +1,101 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP81518 pep:known chromosome:v2.0:6:1575968:1577110:1 gene:N...    69   2e-13
+NechaP85968 pep:known chromosome:v2.0:10:2060572:2062319:1 gene:...    33   0.13 
+
+>NechaP81518 pep:known chromosome:v2.0:6:1575968:1577110:1 gene:NechaG81518
+           transcript:NechaT81518 description:"Putative
+           uncharacterized protein"
+          Length = 323
+
+ Score = 69.3 bits (168), Expect = 2e-13,   Method: Compositional matrix adjust.
+ Identities = 41/129 (31%), Positives = 70/129 (54%), Gaps = 5/129 (3%)
+
+Query: 100 DSYSTAATSSSK--DVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNVP 157
+           D    A  S SK  D+ ++    ++  + T    +  EGE+ Q  ++  V A  +D    
+Sbjct: 60  DGSKPAPPSQSKYSDIRNIPQRSASNDSPTQSAPVKKEGESRQS-SSVNVAAPSADKTSA 118
+
+Query: 158 KAMTGSIDLDKEGIFDSVG--ITTIDPEVLKEKPWRQPGANLSDYFNYGFNEFTWMEYLH 215
+            A   +ID++   +  + G  IT ++ +   +KPWR+PG ++SDYFNYGF+EFTW  Y  
+Sbjct: 119 AASKSTIDVNAIPVHAASGKPITQVNIDEENDKPWRKPGTDISDYFNYGFDEFTWALYAA 178
+
+Query: 216 RQEKLQQDY 224
+           +QE ++ ++
+Sbjct: 179 KQEAVRGEF 187
+
+
+>NechaP85968 pep:known chromosome:v2.0:10:2060572:2062319:1 gene:NechaG85968
+           transcript:NechaT85968 description:"Putative
+           uncharacterized protein"
+          Length = 554
+
+ Score = 33.1 bits (74), Expect = 0.13,   Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 24/48 (50%), Gaps = 2/48 (4%)
+
+Query: 186 KEKPWRQPGANLSDYFNYGFNEFT--WMEYLHRQEKLQQDYNPRRILM 231
+           K+ PW QPG+  S+   YG        + YLHR+    +D  P  IL+
+Sbjct: 346 KKCPWFQPGSPRSELCIYGIMRQLADAVAYLHRKSIKHKDIKPENILL 393
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 3,580,302
+Number of extensions: 146969
+Number of successful extensions: 508
+Number of sequences better than 10.0: 13
+Number of HSP's gapped: 506
+Number of HSP's successfully gapped: 15
+Length of query: 327
+Length of database: 7,529,425
+Length adjustment: 97
+Effective length of query: 230
+Effective length of database: 6,006,040
+Effective search space: 1381389200
+Effective search space used: 1381389200
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 54 (25.4 bits)

@@ -1,0 +1,123 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of holo-CPF, a multiprotein complex and functional
+homolog of mammalian CPSF, required for the cleavage and
+polyadenylation of mRNA and snoRNA 3' ends; involved in pre-tRNA
+processing; binds to the phosphorylated CTD of RNAPII
+         (785 letters)
+
+Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa 
+           11,799 sequences; 5,457,232 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EFQ92368 pep:novel supercontig:GCA_000166005.1:GL534338:34610:37...    89   2e-18
+EFQ92552 pep:novel supercontig:GCA_000166005.1:GL534276:34688:36...    29   7.6  
+
+>EFQ92368 pep:novel supercontig:GCA_000166005.1:GL534338:34610:37252:-1
+           gene:PTT_10537 transcript:EFQ92368
+           description:"hypothetical protein"
+          Length = 754
+
+ Score = 89.4 bits (220), Expect = 2e-18,   Method: Compositional matrix adjust.
+ Identities = 56/199 (28%), Positives = 94/199 (47%), Gaps = 40/199 (20%)
+
+Query: 626 WLHVLIRLVTR----------GIEAQEA----------SDLIREELLGFFIQDFEQRVSL 665
+           W+ +L RL TR          GI+ + A          SD +R+ L  + + D+++R+ +
+Sbjct: 518 WVTILSRLATRASAGLDDPEEGIKDEYAVKSAKGNTKLSDAVRDGLYQYIMYDWKKRIDV 577
+
+Query: 666 IIEWLNEEWFFQTSLHQDP-------------------SNYKKWSLRVLESLGPFLENKH 706
+            I WLNEEW+    L Q                      NY + +LR+++ + P++E+  
+Sbjct: 578 AISWLNEEWYNDMILSQAAEDSATNGSSNGHTTSKPTKGNYHRCALRLIDGILPYIEHTD 637
+
+Query: 707 RRFFIRLMSELPSLQSDHLEALKPICLDPARSSLGFQTLKFLIMFRPPVQDTVRDLLHQL 766
+           +   +R +SE+P++    L  LK +  DP R  L    L +L MFRPPV+  V D+L ++
+Sbjct: 638 K-ILLRFLSEVPTIDYSILVRLKKMAEDPERIDLACNALHYLYMFRPPVRKIVVDILAEM 696
+
+Query: 767 KQEDEGLHKQCDSLLDRLK 785
+             E++        LL R +
+Sbjct: 697 WMENDRAKPSARKLLIRWR 715
+
+
+
+ Score = 72.4 bits (176), Expect = 2e-13,   Method: Compositional matrix adjust.
+ Identities = 46/143 (32%), Positives = 76/143 (53%), Gaps = 20/143 (13%)
+
+Query: 138 TAYPL--RATVDDETDVEQW--LAQIDQNI---------GVKLATIKFISEVVLSQT--- 181
+           + YPL  + TV D +D ++W  +A I  NI         GV++  +KF+ +VVL QT   
+Sbjct: 99  SVYPLVYKHTVSDPSDAQKWQLMAGIKSNILRRMDTAAPGVRICCVKFLQQVVLVQTPGI 158
+
+Query: 182 ---KSPSGNEINSSTIPDNHPVLNKPALESEAKRLLDMLLNYLIEEQYMVSSVFIGIINS 238
+              +    N+I+ S +P +HP++   +LE+E   LLD LL+ +I   +    +    +NS
+Sbjct: 159 ADPRRADHNDISLSLVPRDHPLIPYASLEAEGHGLLDRLLD-IIHGDHSDGLLVTATLNS 217
+
+Query: 239 LSFVIKRRPQTTIRILSGLLRFN 261
+           L  +I RRP    +I++ +  FN
+Sbjct: 218 LGMLIHRRPNAANKIMNSVFNFN 240
+
+
+>EFQ92552 pep:novel supercontig:GCA_000166005.1:GL534276:34688:36943:1
+           gene:PTT_10342 transcript:EFQ92552
+           description:"hypothetical protein"
+          Length = 735
+
+ Score = 28.9 bits (63), Expect = 7.6,   Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 18/28 (64%)
+
+Query: 191 SSTIPDNHPVLNKPALESEAKRLLDMLL 218
+             + P+NHP+L  P+L +E+    DM+L
+Sbjct: 585 GGSYPENHPILTTPSLFTESPTYEDMML 612
+
+
+  Database: Pyrenophora_teres.GCA_000166005.1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:57 PM
+  Number of letters in database: 5,457,232
+  Number of sequences in database:  11,799
+  
+Lambda     K      H
+   0.317    0.132    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11799
+Number of Hits to DB: 6,635,096
+Number of extensions: 244635
+Number of successful extensions: 758
+Number of sequences better than 10.0: 3
+Number of HSP's gapped: 754
+Number of HSP's successfully gapped: 4
+Length of query: 785
+Length of database: 5,457,232
+Length adjustment: 102
+Effective length of query: 683
+Effective length of database: 4,253,734
+Effective search space: 2905300322
+Effective search space used: 2905300322
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 56 (26.2 bits)

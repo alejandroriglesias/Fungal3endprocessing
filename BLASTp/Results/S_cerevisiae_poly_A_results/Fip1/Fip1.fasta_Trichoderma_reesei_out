@@ -1,0 +1,125 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa 
+           9115 sequences; 4,489,794 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EGR52761 pep:novel supercontig:GCA_000167675.2:GL985056:984964:9...    65   4e-12
+EGR52803 pep:novel supercontig:GCA_000167675.2:GL985056:1347193:...    29   1.5  
+EGR52792 pep:novel supercontig:GCA_000167675.2:GL985056:1271925:...    29   1.7  
+EGR52060 pep:novel supercontig:GCA_000167675.2:GL985057:1620874:...    28   4.0  
+
+>EGR52761 pep:novel supercontig:GCA_000167675.2:GL985056:984964:986253:-1
+           gene:TRIREDRAFT_119658 transcript:EGR52761
+           description:"predicted protein"
+          Length = 327
+
+ Score = 64.7 bits (156), Expect = 4e-12,   Method: Compositional matrix adjust.
+ Identities = 32/88 (36%), Positives = 52/88 (59%), Gaps = 5/88 (5%)
+
+Query: 142 VTATTVKATESDGNVPKAMTGSIDLDKEGIFDSVG--IT--TIDPEVL-KEKPWRQPGAN 196
+            +A  + A  +D     A   +ID++   ++   G  IT   ID ++   +KPWR+PG +
+Sbjct: 105 TSALNIAAPSADQTSAAASKSTIDINANPVYPPAGKPITQVNIDEDLPDNDKPWRKPGTD 164
+
+Query: 197 LSDYFNYGFNEFTWMEYLHRQEKLQQDY 224
+           +SDYFNYGF+EFTW  Y  +QE ++ ++
+Sbjct: 165 ISDYFNYGFDEFTWALYAAKQESIRGEF 192
+
+
+>EGR52803 pep:novel supercontig:GCA_000167675.2:GL985056:1347193:1349025:-1
+           gene:TRIREDRAFT_21226 transcript:EGR52803
+           description:"hypothetical protein"
+          Length = 610
+
+ Score = 29.3 bits (64), Expect = 1.5,   Method: Compositional matrix adjust.
+ Identities = 12/32 (37%), Positives = 19/32 (59%), Gaps = 2/32 (6%)
+
+Query: 178 TTIDPEVLKEKPWRQPGANLSDYFNYGFNEFT 209
+           + I P    ++ W +P A   D F++GFN+FT
+Sbjct: 30  SPIPPAATGQQTWNKPAAK--DPFSFGFNDFT 59
+
+
+>EGR52792 pep:novel supercontig:GCA_000167675.2:GL985056:1271925:1273387:-1
+           gene:TRIREDRAFT_53402 transcript:EGR52792
+           description:"predicted protein"
+          Length = 384
+
+ Score = 28.9 bits (63), Expect = 1.7,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 16/23 (69%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           ++YLHR+  + +D  P  IL+G+
+Sbjct: 225 LQYLHRKHVIHRDIKPENILVGI 247
+
+
+>EGR52060 pep:novel supercontig:GCA_000167675.2:GL985057:1620874:1622016:-1
+           gene:TRIREDRAFT_55049 transcript:EGR52060
+           description:"casein kinase 1, delta subunit"
+          Length = 339
+
+ Score = 27.7 bits (60), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 25/53 (47%), Gaps = 13/53 (24%)
+
+Query: 194 GANLSDYFNYGFNEFTW-------------MEYLHRQEKLQQDYNPRRILMGL 233
+           G +L D FNY   +F+              +EY+H +  L +D  P  +LMG+
+Sbjct: 86  GPSLEDLFNYCDQKFSLKTVLLIADQVISRVEYIHSKGVLHRDIKPSNLLMGV 138
+
+
+  Database: Trichoderma_reesei.GCA_000167675.2.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 4,489,794
+  Number of sequences in database:  9115
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 9115
+Number of Hits to DB: 2,140,820
+Number of extensions: 88211
+Number of successful extensions: 334
+Number of sequences better than 10.0: 16
+Number of HSP's gapped: 333
+Number of HSP's successfully gapped: 16
+Length of query: 327
+Length of database: 4,489,794
+Length adjustment: 93
+Effective length of query: 234
+Effective length of database: 3,642,099
+Effective search space: 852251166
+Effective search space used: 852251166
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 52 (24.6 bits)

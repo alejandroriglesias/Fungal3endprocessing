@@ -1,0 +1,159 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Component of the cleavage and polyadenylation factor I (CF I);
+CF 1, composed of the CF 1A complex (Rna14p, Rna15p, Clp1p, Pcf11p)
+and Hrp1, is involved in cleavage and polyadenylation of mRNA 3' ends;
+bridges interaction between Rna15p and Hrp1p in /.../F I complex;
+mutant displays reduced transcription elongation in the G-less-based
+run-on (GLRO) assay; required for gene looping
+         (677 letters)
+
+Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa 
+           10,175 sequences; 3,721,581 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+EDN99752 pep:novel supercontig:ASM14694v1:CH476623:1347864:13487...    32   0.27 
+EDN91087 pep:novel supercontig:ASM14694v1:CH476621:1263953:12712...    32   0.43 
+EDO03116 pep:novel supercontig:ASM14694v1:CH476626:2006400:20071...    31   0.71 
+EDN94496 pep:novel supercontig:ASM14694v1:CH476635:802090:803152...    29   2.9  
+EDN96359 pep:novel supercontig:ASM14694v1:CH476622:528138:529162...    28   3.3  
+EDO02294 pep:novel supercontig:ASM14694v1:CH476625:2085524:20877...    28   8.6  
+
+>EDN99752 pep:novel supercontig:ASM14694v1:CH476623:1347864:1348766:1
+           gene:SS1G_02610 transcript:EDN99752
+           description:"hypothetical protein"
+          Length = 300
+
+ Score = 32.3 bits (72), Expect = 0.27,   Method: Compositional matrix adjust.
+ Identities = 30/133 (22%), Positives = 60/133 (45%), Gaps = 19/133 (14%)
+
+Query: 224 IGELSAEYMKARSLYQEWLNVTNGLKRASPINLRTANKKNIP---QPGTSDSNIQQLQIW 280
+           +  +  + M+ R L QEWL    GL  A+P++   +  K++      GT D  ++     
+Sbjct: 178 VAAVGKDSMEKRYLVQEWLRSELGLPPAAPLDSTESLGKDMRIFLAHGTGDGKVKP---- 233
+
+Query: 281 LNWIKWERENKLMLSEDMLSQRISYVYKQGIQYMIFSAEMWYDYSMYISENSDRQN---- 336
+               +W  + K +L  + +  ++ +   + + +++ + E+  D   +I +NS  QN    
+Sbjct: 234 ----EWGEDMKKIL--EAVGYKVEWKLYEDLGHVVVADEL-NDMVGFIKQNSRVQNDAIE 286
+
+Query: 337 -ILYTALLANPDS 348
+            IL     A+P S
+Sbjct: 287 EILVAEPTASPSS 299
+
+
+>EDN91087 pep:novel supercontig:ASM14694v1:CH476621:1263953:1271270:-1
+           gene:SS1G_00490 transcript:EDN91087
+           description:"hypothetical protein"
+          Length = 2405
+
+ Score = 32.0 bits (71), Expect = 0.43,   Method: Compositional matrix adjust.
+ Identities = 29/124 (23%), Positives = 52/124 (41%), Gaps = 14/124 (11%)
+
+Query: 309 QGIQYMIFSAEMWYDYSMYISENSDRQNILYTALLANPDSPSLTFKLSECYELDNDSESV 368
+           QG     ++AE+ Y    ++ +N D  N   T LLA      +    S+C E  +DS ++
+Sbjct: 663 QGFMLTHYAAEVEYSTEGWLEKNKDPMNDNITRLLAASSDTHVANLFSDCSEAGDDSGAI 722
+
+Query: 369 SNCFDKCT-QTLLSQYKKIASDVNSGEDNNTEYEQELLYKQREKLTFVFCVYMNTMKRIS 427
+            +   K   +T+  ++K+  S + +   +   +             FV C+  N  K+  
+Sbjct: 723 RSRVKKGLFRTVAQRHKEHLSSLMAQLHSTHPH-------------FVRCIIPNHKKKPK 769
+
+Query: 428 GLSA 431
+            LSA
+Sbjct: 770 QLSA 773
+
+
+>EDO03116 pep:novel supercontig:ASM14694v1:CH476626:2006400:2007178:1
+           gene:SS1G_05595 transcript:EDO03116
+           description:"predicted protein"
+          Length = 239
+
+ Score = 30.8 bits (68), Expect = 0.71,   Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 21/40 (52%)
+
+Query: 285 KWERENKLMLSEDMLSQRISYVYKQGIQYMIFSAEMWYDY 324
+           KW+RE K      +    I+   +QG+QY+  S  + YDY
+Sbjct: 61  KWKREPKPNQFLKLPDTAIAAKTRQGVQYIAISIPLEYDY 100
+
+
+>EDN94496 pep:novel supercontig:ASM14694v1:CH476635:802090:803152:-1
+           gene:SS1G_10370 transcript:EDN94496
+           description:"hypothetical protein"
+          Length = 320
+
+ Score = 28.9 bits (63), Expect = 2.9,   Method: Compositional matrix adjust.
+ Identities = 13/41 (31%), Positives = 22/41 (53%), Gaps = 3/41 (7%)
+
+Query: 240 EWLNVTNGLKRASPINLRTANKKNIPQPGTSDSNIQQLQIW 280
+           EW+ +TNG +R  PI L       + +  ++D N   ++IW
+Sbjct: 226 EWIGITNGAERNIPILLLGPTAYGVSRQSSNDGN---MEIW 263
+
+
+>EDN96359 pep:novel supercontig:ASM14694v1:CH476622:528138:529162:1
+           gene:SS1G_01285 transcript:EDN96359
+           description:"hypothetical protein"
+          Length = 154
+
+ Score = 28.1 bits (61), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 33/115 (28%), Positives = 48/115 (41%), Gaps = 29/115 (25%)
+
+Query: 198 FDNLEKMWNRYTQWEQEINS----LTARKFIGELSAEYMKARSLYQEWLNVTNGLKRASP 253
+           F +L++ +NR  Q E  I      +T  +F     A Y++A S+  E L  TN L     
+Sbjct: 43  FGSLKRSYNR--QIENFIKVYIIYITKTEFFQVFKAVYIEAISISNELLAYTNMLLTIEI 100
+
+Query: 254 INLRTAN---------KKNIPQPGTSDSNIQQLQIWLNWIKWERENKLMLSEDML 299
+            NLR AN         KK + Q G + S +               NKL+ +ED +
+Sbjct: 101 HNLRKANEAFSKHQRVKKALIQKGEALSPLH--------------NKLVSAEDTI 141
+
+
+  Database: Sclerotinia_sclerotiorum.ASM14694v1.21.pep.all.fa
+    Posted date:  Feb 17, 2014  1:01 PM
+  Number of letters in database: 3,721,581
+  Number of sequences in database:  10,175
+  
+Lambda     K      H
+   0.317    0.132    0.384 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10175
+Number of Hits to DB: 4,899,550
+Number of extensions: 203111
+Number of successful extensions: 584
+Number of sequences better than 10.0: 15
+Number of HSP's gapped: 584
+Number of HSP's successfully gapped: 15
+Length of query: 677
+Length of database: 3,721,581
+Length adjustment: 97
+Effective length of query: 580
+Effective length of database: 2,734,606
+Effective search space: 1586071480
+Effective search space used: 1586071480
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 55 (25.8 bits)

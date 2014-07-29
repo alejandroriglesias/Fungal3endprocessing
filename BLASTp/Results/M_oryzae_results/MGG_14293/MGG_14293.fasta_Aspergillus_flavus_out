@@ -1,0 +1,100 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa 
+           13,487 sequences; 5,672,061 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+CADAFLAP00004368 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:5...   100   4e-24
+CADAFLAP00007377 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1...    27   9.7  
+
+>CADAFLAP00004368 pep:known supercontig:JCVI-afl1-v2.0:EQ963475:563070:564168:-1
+           gene:CADAFLAG00004368 transcript:CADAFLAT00004368
+           description:"Cleavage and polyadenylylation specificity
+           factor subunit Fip1 "
+          Length = 328
+
+ Score = 99.8 bits (247), Expect = 4e-24,   Method: Compositional matrix adjust.
+ Identities = 44/76 (57%), Positives = 53/76 (69%)
+
+Query: 125 GSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNYGFDE 184
+           GS  PPV  S+ D +A P H  TGKP+   ++D D  ED  PWR+PG+DISDYFNYGFDE
+Sbjct: 127 GSAYPPVHASDIDVHANPTHPATGKPILSTDMDADFPEDDKPWRRPGSDISDYFNYGFDE 186
+
+Query: 185 FSWAIYAQKQNQLRSE 200
+           F+WA Y  KQ +LR E
+Sbjct: 187 FTWASYVLKQQELRKE 202
+
+
+>CADAFLAP00007377 pep:known supercontig:JCVI-afl1-v2.0:EQ963478:1067958:1082699:1
+            gene:CADAFLAG00007377 transcript:CADAFLAT00007377
+            description:"Midasin "
+          Length = 4913
+
+ Score = 26.9 bits (58), Expect = 9.7,   Method: Compositional matrix adjust.
+ Identities = 24/82 (29%), Positives = 37/82 (45%), Gaps = 20/82 (24%)
+
+Query: 145  KPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNY-----GFD--EFSWAIYAQKQNQL 197
+            K  GKPLT++N+ E             TD++D F       G D  +F+W      Q   
+Sbjct: 1750 KALGKPLTRINLSEQ------------TDLTDLFGSDVPVEGGDVGQFTWRDAPFLQAMQ 1797
+
+Query: 198  RSEYS-ADAMSQNSKKMMEDLN 218
+            R ++   D M+  S+ ++E LN
+Sbjct: 1798 RGDWVLLDEMNLASQSVLEGLN 1819
+
+
+  Database: Aspergillus_flavus.JCVI-afl1-v2.0.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:40 PM
+  Number of letters in database: 5,672,061
+  Number of sequences in database:  13,487
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 13487
+Number of Hits to DB: 2,262,473
+Number of extensions: 87822
+Number of successful extensions: 239
+Number of sequences better than 10.0: 20
+Number of HSP's gapped: 239
+Number of HSP's successfully gapped: 21
+Length of query: 332
+Length of database: 5,672,061
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,390,796
+Effective search space: 1040618652
+Effective search space used: 1040618652
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

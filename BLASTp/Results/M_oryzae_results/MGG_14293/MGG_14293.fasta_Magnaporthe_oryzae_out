@@ -1,0 +1,93 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= MGG_14293:Putative uncharacterized protein
+         (332 letters)
+
+Database: Magnaporthe_oryzae.MG8.21.pep.all.fa 
+           12,755 sequences; 5,666,059 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MGG_14293T0 pep:known chromosome:MG8:6:3787174:3788841:1 gene:MG...   293   7e-97
+
+>MGG_14293T0 pep:known chromosome:MG8:6:3787174:3788841:1 gene:MGG_14293
+           transcript:MGG_14293T0 description:"Putative
+           uncharacterized protein"
+          Length = 332
+
+ Score =  293 bits (749), Expect = 7e-97,   Method: Compositional matrix adjust.
+ Identities = 173/270 (64%), Positives = 173/270 (64%)
+
+Query: 1   MSVEMDEDDDFYAPEEPIXXXXXXXXXXXXXXXXXXXXXXXXXXXKNXXXXXXXXXXXXX 60
+           MSVEMDEDDDFYAPEEPI                           KN             
+Sbjct: 1   MSVEMDEDDDFYAPEEPIAPPASVAAPANSTTAASAAATAKPTAAKNEDEDLEEGEEEDE 60
+
+Query: 61  XXXXXXXXXXXXXXXXXXRKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKE 120
+                             RKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKE
+Sbjct: 61  GGAMDEDDDDSDIDIITERKDGTSAAPPSQSKYSEIRSIPQRSVATDGTAPAKAAPNKKE 120
+
+Query: 121 DTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNY 180
+           DTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNY
+Sbjct: 121 DTVKGSDLPPVTKSNFDPYAIPEHKPTGKPLTQVNIDEDLGEDAAPWRKPGTDISDYFNY 180
+
+Query: 181 GFDEFSWAIYAQKQNQLRSEYSADAMSQNSKKMMEDLNXXXXXXXXXXXXXXXXXXXXXX 240
+           GFDEFSWAIYAQKQNQLRSEYSADAMSQNSKKMMEDLN                      
+Sbjct: 181 GFDEFSWAIYAQKQNQLRSEYSADAMSQNSKKMMEDLNMMMMGGMPGGGPMAGGMPGMDG 240
+
+Query: 241 XXXXXXXXXXXXXXXXXSGMDPSQMDPATM 270
+                            SGMDPSQMDPATM
+Sbjct: 241 GGGIPPEMQAMMQQMMASGMDPSQMDPATM 270
+
+
+  Database: Magnaporthe_oryzae.MG8.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:54 PM
+  Number of letters in database: 5,666,059
+  Number of sequences in database:  12,755
+  
+Lambda     K      H
+   0.308    0.126    0.370 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 12755
+Number of Hits to DB: 2,376,680
+Number of extensions: 96153
+Number of successful extensions: 361
+Number of sequences better than 10.0: 22
+Number of HSP's gapped: 349
+Number of HSP's successfully gapped: 25
+Length of query: 332
+Length of database: 5,666,059
+Length adjustment: 95
+Effective length of query: 237
+Effective length of database: 4,454,334
+Effective search space: 1055677158
+Effective search space used: 1055677158
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

@@ -1,0 +1,111 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= Subunit of cleavage polyadenylation factor (CPF), interacts
+directly with poly(A) polymerase (Pap1p) to regulate its activity;
+bridging factor that links Pap1p and the CPF complex via Yth1p
+         (327 letters)
+
+Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa 
+           11,370 sequences; 4,928,244 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+MAPG_01515T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    59   4e-10
+MAPG_06628T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.1  
+MAPG_09379T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:superc...    27   5.6  
+
+>MAPG_01515T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.1:4890673:4
+           892213:1 gene:MAPG_01515 transcript:MAPG_01515T0
+           description:"hypothetical protein"
+          Length = 347
+
+ Score = 58.9 bits (141), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 20/37 (54%), Positives = 30/37 (81%)
+
+Query: 189 PWRQPGANLSDYFNYGFNEFTWMEYLHRQEKLQQDYN 225
+           PWR+PG ++SDYFNYGF+EF+W  Y  +Q +L+ +Y+
+Sbjct: 162 PWRKPGTDISDYFNYGFDEFSWTVYAQKQTQLRAEYS 198
+
+
+>MAPG_06628T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.5:2421659:2
+           423602:1 gene:MAPG_06628 transcript:MAPG_06628T0
+           description:"AUR protein kinase"
+          Length = 397
+
+ Score = 27.3 bits (59), Expect = 5.1,   Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 15/23 (65%)
+
+Query: 211 MEYLHRQEKLQQDYNPRRILMGL 233
+           + YLHR+  + +D  P  IL+G+
+Sbjct: 235 LRYLHRKNVIHRDIKPENILVGI 257
+
+
+>MAPG_09379T0 pep:novel supercontig:Mag_poae_ATCC_64411_V1:supercont1.11:106766:1
+           08650:-1 gene:MAPG_09379 transcript:MAPG_09379T0
+           description:"hypothetical protein"
+          Length = 481
+
+ Score = 27.3 bits (59), Expect = 5.6,   Method: Compositional matrix adjust.
+ Identities = 27/96 (28%), Positives = 48/96 (50%), Gaps = 9/96 (9%)
+
+Query: 97  KLLDSYSTAATSSSKDVISVATDVSNTITKTSDERLITEGEANQGVTATTVKATESDGNV 156
+           +L D Y   A     DV+  +T VS+  T+T    +  E + ++  +ATTVKA      +
+Sbjct: 241 RLYDLYDAVAAFLGDDVLYSSTVVSSKRTETG---VTLEVQRSKCKSATTVKAKRLLVTM 297
+
+Query: 157 ---PKAMTGSIDLDKE--GIFDSVGITTIDPEVLKE 187
+              P++M   +DLD+    +F  +G +T+   +L+ 
+Sbjct: 298 EPTPESM-APLDLDQAETDVFSKIGFSTVYAGILRH 332
+
+
+  Database: Magnaporthe_poae.Mag_poae_ATCC_64411_V1.21.pep.all.fa
+    Posted date:  Feb 17, 2014 12:56 PM
+  Number of letters in database: 4,928,244
+  Number of sequences in database:  11,370
+  
+Lambda     K      H
+   0.307    0.126    0.344 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 11370
+Number of Hits to DB: 2,360,848
+Number of extensions: 96396
+Number of successful extensions: 356
+Number of sequences better than 10.0: 29
+Number of HSP's gapped: 354
+Number of HSP's successfully gapped: 30
+Length of query: 327
+Length of database: 4,928,244
+Length adjustment: 93
+Effective length of query: 234
+Effective length of database: 3,870,834
+Effective search space: 905775156
+Effective search space used: 905775156
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.6 bits)
+S2: 53 (25.0 bits)

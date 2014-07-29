@@ -1,0 +1,80 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= RNA-binding protein involved in the cleavage step of mRNA
+3'-end formation prior to polyadenylation, and in snoRNA maturation;
+part of holo-CPF subcomplex APT, which associates with 3'-ends of
+snoRNA- and mRNA-encoding genes
+         (533 letters)
+
+Database: Nectria_haematococca.v2.0.21.pep.all.fa 
+           15,705 sequences; 7,529,425 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+NechaP72919 pep:known chromosome:v2.0:12:825018:826840:-1 gene:N...    29   4.5  
+
+>NechaP72919 pep:known chromosome:v2.0:12:825018:826840:-1 gene:NechaG72919
+           transcript:NechaT72919 description:"Putative
+           uncharacterized protein"
+          Length = 592
+
+ Score = 29.3 bits (64), Expect = 4.5,   Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 25/47 (53%), Gaps = 4/47 (8%)
+
+Query: 82  GLKSMYLDYLNQLIKLKHEKQHHSTPPIANDVSLDFFVNQLPKFSPE 128
+           G  S+   +L +L  L HE++HH T      VS D    +LP+ +PE
+Sbjct: 292 GGSSVSTQHLRRLEVLDHEERHHGT----QIVSQDRACPELPEHTPE 334
+
+
+  Database: Nectria_haematococca.v2.0.21.pep.all.fa
+    Posted date:  Feb 27, 2014  1:39 PM
+  Number of letters in database: 7,529,425
+  Number of sequences in database:  15,705
+  
+Lambda     K      H
+   0.315    0.134    0.379 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 15705
+Number of Hits to DB: 6,528,146
+Number of extensions: 259677
+Number of successful extensions: 403
+Number of sequences better than 10.0: 7
+Number of HSP's gapped: 403
+Number of HSP's successfully gapped: 7
+Length of query: 533
+Length of database: 7,529,425
+Length adjustment: 101
+Effective length of query: 432
+Effective length of database: 5,943,220
+Effective search space: 2567471040
+Effective search space used: 2567471040
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (22.0 bits)
+S2: 56 (26.2 bits)
