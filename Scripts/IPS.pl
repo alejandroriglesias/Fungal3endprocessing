@@ -33,7 +33,7 @@ foreach my $thisfeature(@features){
 
 my @otherfeatures = $db->features(-seqid => $ID2, -type => "protein_match");
 my %otherfeatures;                                                       
-my %junk2 = map {$otherfeatures{$_.$_->start} = $_} @otherfeatures;                #To solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!
+my %junk2 = map {$otherfeatures{$_.$_->start} = $_} @otherfeatures;                     #To solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!
 @otherfeatures = map {$otherfeatures{$_}} keys %otherfeatures;
 my $thatfeature = $features[1];                                                         #For the top BLAST hit (in this case)
 
@@ -66,12 +66,12 @@ foreach (@sorted_otherfeatures){
 #        print "Candidate ", (join "\n", @sorted_otherfeatures), "\n";
 }
 
-my $stringnames = join (',', @namefeature);                                                                                    # connect all the elements (names) of @namefeature into a single string    
-my $stringnamesotherfeature = join (',', @nameotherfeature);                                                                   # connect all the elements (names) of @nameotherfeature into a single string
-if (scalar @namefeature == scalar @nameotherfeature) {                                                                         #compare the number of domains
+my $stringnames = join (',', @namefeature);                                                                                  # connect all the elements (names) of @namefeature into a single string    
+my $stringnamesotherfeature = join (',', @nameotherfeature);                                                                 # connect all the elements (names) of @nameotherfeature into a single string
+if (scalar @namefeature == scalar @nameotherfeature) {                                                                       #compare the number of domains
     print "Same numbers of domains", "\n";
 
-    if ($stringnames eq $stringnamesotherfeature) {                                                                            #check the order of the domains 
+    if ($stringnames eq $stringnamesotherfeature) {                                                                          #check the order of the domains 
         print "Same domain order along the protein when compared (order is the same in both)", "\n";
     }else{
         print "Different domain order along the protein when compared (order is not the same)", "\n";
