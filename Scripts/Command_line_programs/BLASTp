@@ -21,3 +21,9 @@ for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/A
 
 #adding the increment of descriptions and alignments output view
 for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/Ane_orthologues/*fasta`; do blastp -query $f -db /home/alexx/Fungal3endprocessing/FASTA_fungal_genomes/FASTA_genomes.fasta -out $f"_"FASTA_genomes_out  -outfmt 0 -num_descriptions 100000 -num_alignments 100000; done
+
+
+
+#blastp of one query protein against all the genomes
+blastp -query MGG_16867T0.fasta -db /media/alexx/Seagate_Expansion_Drive/Fungal3endprocessing/FASTA_fungal_genomes/FASTA_genomes.fasta -out MGG_16867T0"_"FASTA_genomes_out  -outfmt 0 -num_descriptions 100000 -num_alignments 100000
+

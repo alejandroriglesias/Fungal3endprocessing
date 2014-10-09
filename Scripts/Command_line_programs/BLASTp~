@@ -16,3 +16,8 @@ for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/A
    Default = `250'
     * Incompatible with:  max_target_seqs
 
+
+
+
+#adding the increment of descriptions and alignments output view
+for f in `ls /home/alexx/Fungal3endprocessing/FASTA_M_oryzae_protein_sequences/Ane_orthologues/*fasta`; do blastp -query $f -db /home/alexx/Fungal3endprocessing/FASTA_fungal_genomes/FASTA_genomes.fasta -out $f"_"FASTA_genomes_out  -outfmt 0 -num_descriptions 100000 -num_alignments 100000; done

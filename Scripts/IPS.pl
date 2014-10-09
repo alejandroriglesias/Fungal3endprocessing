@@ -15,13 +15,13 @@ my $ID2 =$ARGV[1];
 
 
 my @features = $db->features(-seqid => $ID, -type => "protein_match");                  #Give me only the IPScan features (that's why I specify "protein_match")
-my %features;                                                                 
-my %junk = map {$features{$_.$_->start} = $_} @features;                                #To solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!)
-@features = map {$features{$_}} keys %features;
+my %featurehash;                                                                        #The map built-in function (next line) allows me to build a new list from another list while modifying the elements.
+map {$featurehash{$_.$_->start} = $_} @features;                                        #'Map' se usa para ejecutar el código entre {} y que se aplique a todas las posiciones del array, y en este caso se usa para: to solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!) The idea is: if the start is the same, store it in the same place (that way we avoid repetition of the features)
+@features = map {$featurehash{$_}} keys %featurehash;                                   #Meter los identificadores del hash (protein name) en @features usando 'map'. The 'key' function returns an array of all the keys of the %feature hash. This is stored in the @features array.
 my $thisfeature = $features[0];                                                         #For the reference protein (MGG_... or S.cerevisiae protein)
                                                    
-#@features = $db->get_features_by_location($ID);
-
+#@features = $db->get_features_by_location($ID);                                    
+                                                                                    
 foreach my $thisfeature(@features){
 
     my $name = $thisfeature->name;
@@ -32,9 +32,9 @@ foreach my $thisfeature(@features){
 }
 
 my @otherfeatures = $db->features(-seqid => $ID2, -type => "protein_match");
-my %otherfeatures;                                                       
-my %junk2 = map {$otherfeatures{$_.$_->start} = $_} @otherfeatures;                     #To solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!
-@otherfeatures = map {$otherfeatures{$_}} keys %otherfeatures;
+my %otherfeaturehash;                                                       
+map {$otherfeaturehash{$_.$_->start} = $_} @otherfeatures;                              #To solve the triplication problem (OJO! Specify the name+$_->start, to avoid eliminating same features with the same name but different start!!
+@otherfeatures = map {$otherfeaturehash{$_}} keys %otherfeaturehash;
 my $thatfeature = $features[1];                                                         #For the top BLAST hit (in this case)
 
 #@features = $db->get_features_by_location($ID);
@@ -49,7 +49,7 @@ foreach my $thatfeature(@otherfeatures){
 }
 
 
-my @sorted_features = sort {$a->start <=> $b->start || $a->end <=> $b->end || $a->name cmp $b->name} @features;             #Sort first by the start, then the end, and then order it also by name
+my @sorted_features = sort {$a->start <=> $b->start || $a->end <=> $b->end || $a->name cmp $b->name} @features;             #Sort (ordenar) first by the start, then the end (in case the start is the same?), and then order it also by name (in case the end is the same?)
 #my @sorted_features2 = sort {$a->end <=> $b->end} @features;
     #my @sorted_features2 = sort $thisfeature->end(@features);
 my @namefeature = "";
@@ -68,7 +68,7 @@ foreach (@sorted_otherfeatures){
 
 my $stringnames = join (',', @namefeature);                                                                                  # connect all the elements (names) of @namefeature into a single string    
 my $stringnamesotherfeature = join (',', @nameotherfeature);                                                                 # connect all the elements (names) of @nameotherfeature into a single string
-if (scalar @namefeature == scalar @nameotherfeature) {                                                                       #compare the number of domains
+if (scalar @namefeature == scalar @nameotherfeature) {                                                                       #compare the number of domains.(scalar gives you the number of elements in the array?)
     print "Same numbers of domains", "\n";
 
     if ($stringnames eq $stringnamesotherfeature) {                                                                          #check the order of the domains 
@@ -80,15 +80,15 @@ if (scalar @namefeature == scalar @nameotherfeature) {                          
 
 else {                                                                                          
     print "Not the samber number of domains", "\t", "Query domains: ", scalar @namefeature, "\t", "Candidate domains: ", scalar @nameotherfeature, "\n";
-    if (scalar @namefeature < scalar @nameotherfeature) {                                                                   #if the query has less domains than the candidate
+    if (scalar @namefeature < scalar @nameotherfeature) {                                                                   #if the query has less domains than the candidate (scalar context)
         (my $subname = $stringnames) =~ s/,/.*/g;                                                                           #get rid of the commas in the name list and substitute it with *
         if ($subname eq $stringnamesotherfeature) {                                                                         
             print "Query domain set is a subset of candidate domain set", "\n";                                             #The query domains are also present in the candidate protein, even if the query protein has less domains
         }else {
-            print "Query domain set is not a subset of candidate domain set (some candidate domains lacking in the query protein set) ", "\n";
+            print "Query domain set is not a subset of candidate domain set (some candidate domains lacking in the query protein set) ", "\n";  #Some candidate domains are not present in the query domain set
         }
     }
-    if (scalar @namefeature > scalar @nameotherfeature) {                                                                   #if the candidate has less domains than the query
+    if (scalar @namefeature > scalar @nameotherfeature) {                                                                   #if the candidate has less domains than the query (scalar context)
         (my $subname = $stringnamesotherfeature) =~ s/,/.*/g;
         if ($stringnames eq $subname) {    
             print "Candidate domain set is a subset of query domain set", "\n";                                             #The candidate domains are also present in the query protein, even if the candidate protein has less domains
