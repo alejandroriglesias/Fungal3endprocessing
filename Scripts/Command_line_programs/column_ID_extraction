@@ -1,0 +1,8 @@
+
+#list all the files in $f
+for f in `ls /home/alexx/Fungal3endprocessing/InterProScan_results/BLASTp_origin/No_sequences/Yth1/*out2`; do echo $f; done
+
+
+
+#ignore the ##lines, get the first column and only the first element (uniq)
+for f in `ls /home/alexx/Fungal3endprocessing/InterProScan_results/BLASTp_origin/No_sequences/Yth1/*out2`; do grep -v "#" $f | cut -f 1 | uniq >> Yth1_IDs; done
